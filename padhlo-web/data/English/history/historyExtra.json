@@ -1,0 +1,1394 @@
+[
+    {
+      "category": "Maharashtra GK",
+      "Question": "Which is the highest peak in Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Salher" },
+        { "id": 2, "text": "Kalsubai Shikhar" },
+        { "id": 3, "text": "Harishchandragad" },
+        { "id": 4, "text": "Torna Fort" }
+      ],
+      "CorrectAnswer": "Kalsubai Shikhar",
+      "Explanation": "Kalsubai Shikhar, with an elevation of 1,646 meters (5,400 ft), is the highest point in Maharashtra. It is located in the Sahyadri mountain range.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Talathi, Police Bharti",
+      "correctOption": 2,
+      "topic": "Geography"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The famous Ajanta and Ellora Caves are located in which district of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Pune" },
+        { "id": 2, "text": "Nashik" },
+        { "id": 3, "text": "Aurangabad (Chhatrapati Sambhajinagar)" },
+        { "id": 4, "text": "Nagpur" }
+      ],
+      "CorrectAnswer": "Aurangabad (Chhatrapati Sambhajinagar)",
+      "Explanation": "The UNESCO World Heritage Sites of Ajanta and Ellora Caves are rock-cut cave monuments located in the Aurangabad (now Chhatrapati Sambhajinagar) district.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL, Grade-C",
+      "correctOption": 3,
+      "topic": "History & Culture"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Who is known as the 'Father of the Indian Unrest' by the British?",
+      "Options": [
+        { "id": 1, "text": "Mahatma Gandhi" },
+        { "id": 2, "text": "Gopal Krishna Gokhale" },
+        { "id": 3, "text": "Bal Gangadhar Tilak" },
+        { "id": 4, "text": "Vinayak Damodar Savarkar" }
+      ],
+      "CorrectAnswer": "Bal Gangadhar Tilak",
+      "Explanation": "Lokmanya Bal Gangadhar Tilak, a prominent leader from Maharashtra, was called the 'Father of the Indian Unrest' by British colonial author Sir Valentine Chirol for his radical nationalist views.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "History"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Which river is known as the 'Dakshin Ganga' and originates in Trimbakeshwar, Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Krishna" },
+        { "id": 2, "text": "Bhima" },
+        { "id": 3, "text": "Godavari" },
+        { "id": 4, "text": "Tapi" }
+      ],
+      "CorrectAnswer": "Godavari",
+      "Explanation": "The Godavari River, the second-longest river in India, originates at Trimbakeshwar near Nashik in Maharashtra and is often referred to as the Dakshin (South) Ganga.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-B, Grade-C",
+      "correctOption": 3,
+      "topic": "Geography"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The social reformer Jyotiba Phule founded which organization in 1873?",
+      "Options": [
+        { "id": 1, "text": "Brahmo Samaj" },
+        { "id": 2, "text": "Arya Samaj" },
+        { "id": 3, "text": "Prarthana Samaj" },
+        { "id": 4, "text": "Satyashodhak Samaj" }
+      ],
+      "CorrectAnswer": "Satyashodhak Samaj",
+      "Explanation": "Mahatma Jyotiba Phule founded the Satyashodhak Samaj (Society of Truth Seekers) to attain equal rights for people from lower castes and challenge the dominance of the Brahmins.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 4,
+      "topic": "Social Reform"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "What is the famous folk theatre form of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Nautanki" },
+        { "id": 2, "text": "Yakshagana" },
+        { "id": 3, "text": "Bhavai" },
+        { "id": 4, "text": "Tamasha" }
+      ],
+      "CorrectAnswer": "Tamasha",
+      "Explanation": "Tamasha is a traditional form of Marathi theatre, often with singing and dancing, widely performed by local or travelling theatre groups within Maharashtra.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 4,
+      "topic": "Culture"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The 'Gateway of India' in Mumbai was built to commemorate the visit of which British monarch?",
+      "Options": [
+        { "id": 1, "text": "Queen Victoria" },
+        { "id": 2, "text": "King George V and Queen Mary" },
+        { "id": 3, "text": "King Edward VII" },
+        { "id": 4, "text": "Queen Elizabeth II" }
+      ],
+      "CorrectAnswer": "King George V and Queen Mary",
+      "Explanation": "The Gateway of India was erected to commemorate the landing of King George V and Queen Mary at Apollo Bunder, Mumbai, on their visit to India in 1911.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "History"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Which city in Maharashtra is famous for its oranges and is known as the 'Orange City'?",
+      "Options": [
+        { "id": 1, "text": "Pune" },
+        { "id": 2, "text": "Nashik" },
+        { "id": 3, "text": "Nagpur" },
+        { "id": 4, "text": "Kolhapur" }
+      ],
+      "CorrectAnswer": "Nagpur",
+      "Explanation": "Nagpur is a major trade center for oranges cultivated in the region and is famous throughout the country as the 'Orange City'.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C, Bank-PO",
+      "correctOption": 3,
+      "topic": "Geography & Economy"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Dr. B. R. Ambedkar embraced Buddhism along with his followers in which city in 1956?",
+      "Options": [
+        { "id": 1, "text": "Mumbai" },
+        { "id": 2, "text": "Pune" },
+        { "id": 3, "text": "Nagpur" },
+        { "id": 4, "text": "Aurangabad" }
+      ],
+      "CorrectAnswer": "Nagpur",
+      "Explanation": "On October 14, 1956, at Deekshabhoomi in Nagpur, Dr. B. R. Ambedkar and hundreds of thousands of his followers converted to Buddhism, a pivotal event in modern Indian history.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "History"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The Lonar Lake, a notified National Geo-heritage Monument, was created by:",
+      "Options": [
+        { "id": 1, "text": "A volcanic eruption" },
+        { "id": 2, "text": "A meteorite impact" },
+        { "id": 3, "text": "Tectonic plate movement" },
+        { "id": 4, "text": "A man-made excavation" }
+      ],
+      "CorrectAnswer": "A meteorite impact",
+      "Explanation": "Lonar Lake, located in the Buldhana district of Maharashtra, is a saline soda lake created by a meteoritic impact during the Pleistocene Epoch.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Geography"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Who was the first recipient of the Bharat Ratna from Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "J. R. D. Tata" },
+        { "id": 2, "text": "Dhondo Keshav Karve" },
+        { "id": 3, "text": "B. R. Ambedkar" },
+        { "id": 4, "text": "Lata Mangeshkar" }
+      ],
+      "CorrectAnswer": "Dhondo Keshav Karve",
+      "Explanation": "Social reformer and educator Dhondo Keshav Karve, known as Maharshi Karve, was the first person from Maharashtra to be awarded the Bharat Ratna, in 1958.",
+      "Difficulty": "Hard",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Awards & Personalities"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The film and television industry of India, popularly known as 'Bollywood', is primarily based in which city?",
+      "Options": [
+        { "id": 1, "text": "Pune" },
+        { "id": 2, "text": "Nagpur" },
+        { "id": 3, "text": "Mumbai" },
+        { "id": 4, "text": "Nashik" }
+      ],
+      "CorrectAnswer": "Mumbai",
+      "Explanation": "Mumbai is the hub of the Hindi film industry, popularly known as Bollywood, and is home to major studios, production houses, and film personalities.",
+      "Difficulty": "Easy",
+      "Job": "Grade-C, General Exams",
+      "correctOption": 3,
+      "topic": "Culture"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The Raigad Fort was the capital of the Maratha Empire under which ruler?",
+      "Options": [
+        { "id": 1, "text": "Sambhaji Maharaj" },
+        { "id": 2, "text": "Shivaji Maharaj" },
+        { "id": 3, "text": "Bajirao I" },
+        { "id": 4, "text": "Tarabai" }
+      ],
+      "CorrectAnswer": "Shivaji Maharaj",
+      "Explanation": "Chhatrapati Shivaji Maharaj made Raigad Fort his capital in 1674 when he was crowned King of the Maratha Empire. It is one of the most important forts in Maharashtra.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Police Bharti",
+      "correctOption": 2,
+      "topic": "History"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Which of these is a famous variety of mango primarily grown in the Konkan region of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Dasheri" },
+        { "id": 2, "text": "Alphonso (Hapus)" },
+        { "id": 3, "text": "Langra" },
+        { "id": 4, "text": "Chausa" }
+      ],
+      "CorrectAnswer": "Alphonso (Hapus)",
+      "Explanation": "The Alphonso mango, locally known as Hapus, is a premium variety grown mainly in the Ratnagiri and Sindhudurg districts of the Konkan region and has a Geographical Indication (GI) tag.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 2,
+      "topic": "Economy & Agriculture"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The first women's university in India, SNDT Women's University, was founded by:",
+      "Options": [
+        { "id": 1, "text": "Jyotiba Phule" },
+        { "id": 2, "text": "Savitribai Phule" },
+        { "id": 3, "text": "Dhondo Keshav Karve" },
+        { "id": 4, "text": "Pandita Ramabai" }
+      ],
+      "CorrectAnswer": "Dhondo Keshav Karve",
+      "Explanation": "Maharshi Dhondo Keshav Karve founded the Shreemati Nathibai Damodar Thackersey (SNDT) Women's University in Pune in 1916, making it the first women's university in India.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Social Reform & Education"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Which city is known as the 'Wine Capital of India'?",
+      "Options": [
+        { "id": 1, "text": "Sangli" },
+        { "id": 2, "text": "Pune" },
+        { "id": 3, "text": "Nagpur" },
+        { "id": 4, "text": "Nashik" }
+      ],
+      "CorrectAnswer": "Nashik",
+      "Explanation": "Nashik, with its numerous vineyards and wineries, is the leading grape-producing region in India and is widely recognized as the 'Wine Capital of India'.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Bank-PO",
+      "correctOption": 4,
+      "topic": "Economy"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The 'Poona Pact' of 1932 was an agreement between Mahatma Gandhi and:",
+      "Options": [
+        { "id": 1, "text": "Muhammad Ali Jinnah" },
+        { "id": 2, "text": "B. R. Ambedkar" },
+        { "id": 3, "text": "Jawaharlal Nehru" },
+        { "id": 4, "text": "Lord Irwin" }
+      ],
+      "CorrectAnswer": "B. R. Ambedkar",
+      "Explanation": "The Poona Pact was an agreement signed at Yerwada Central Jail in Poona between Mahatma Gandhi and Dr. B. R. Ambedkar on behalf of depressed classes and upper-caste Hindu leaders on providing separate electorates for the depressed classes.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "History"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Which national park in Maharashtra is also known for being a 'Tiger Reserve'?",
+      "Options": [
+        { "id": 1, "text": "Sanjay Gandhi National Park" },
+        { "id": 2, "text": "Chandoli National Park" },
+        { "id": 3, "text": "Tadoba Andhari Tiger Reserve" },
+        { "id": 4, "text": "Gugamal National Park" }
+      ],
+      "CorrectAnswer": "Tadoba Andhari Tiger Reserve",
+      "Explanation": "Located in the Chandrapur district, Tadoba Andhari is Maharashtra's oldest and largest national park and a prominent tiger reserve, known for its high tiger density.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Forest Guard",
+      "correctOption": 3,
+      "topic": "Geography & Environment"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The Ganesh Chaturthi festival was popularized as a public event in Maharashtra by which freedom fighter?",
+      "Options": [
+        { "id": 1, "text": "Gopal Krishna Gokhale" },
+        { "id": 2, "text": "Vinayak Savarkar" },
+        { "id": 3, "text": "Mahadev Govind Ranade" },
+        { "id": 4, "text": "Bal Gangadhar Tilak" }
+      ],
+      "CorrectAnswer": "Bal Gangadhar Tilak",
+      "Explanation": "In 1893, Lokmanya Tilak transformed the private, household celebration of Ganesh Chaturthi into a large, well-organized public event (Sarvajanik Ganeshotsav) to bridge gaps between castes and build a nationalist fervour against British rule.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade-B",
+      "correctOption": 4,
+      "topic": "History & Culture"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Which of the following cities in Maharashtra has been selected as the headquarters of the Central Railway Zone?",
+      "Options": [
+        { "id": 1, "text": "Pune" },
+        { "id": 2, "text": "Nagpur" },
+        { "id": 3, "text": "Mumbai" },
+        { "id": 4, "text": "Solapur" }
+      ],
+      "CorrectAnswer": "Mumbai",
+      "Explanation": "Mumbai's Chhatrapati Shivaji Maharaj Terminus (CSMT) serves as the headquarters for the Central Railway zone of Indian Railways.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Railways",
+      "correctOption": 3,
+      "topic": "Economy & Infrastructure"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Lavani is a traditional song and dance combination particularly popular in:",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Maharashtra" },
+        { "id": 3, "text": "Rajasthan" },
+        { "id": 4, "text": "Punjab" }
+      ],
+      "CorrectAnswer": "Maharashtra",
+      "Explanation": "Lavani is a genre of music popular in Maharashtra that combines traditional song and dance, particularly performed to the beats of the Dholki.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 2,
+      "topic": "Culture"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The first English newspaper in India, 'Bombay Herald', was started in which city?",
+      "Options": [
+        { "id": 1, "text": "Calcutta" },
+        { "id": 2, "text": "Madras" },
+        { "id": 3, "text": "Bombay (Mumbai)" },
+        { "id": 4, "text": "Delhi" }
+      ],
+      "CorrectAnswer": "Bombay (Mumbai)",
+      "Explanation": "The first English newspaper to be published from Bombay (now Mumbai) was the Bombay Herald, which appeared in 1789.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "History"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The Koyna Hydroelectric Project, one of the largest in India, is located in which district?",
+      "Options": [
+        { "id": 1, "text": "Raigad" },
+        { "id": 2, "text": "Satara" },
+        { "id": 3, "text": "Pune" },
+        { "id": 4, "text": "Kolhapur" }
+      ],
+      "CorrectAnswer": "Satara",
+      "Explanation": "The Koyna Hydroelectric Project is located on the Koyna River in the Satara district of Maharashtra. It is a major source of electricity for the state.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade-B",
+      "correctOption": 2,
+      "topic": "Geography & Economy"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Who wrote the Marathi newspaper 'Kesari'?",
+      "Options": [
+        { "id": 1, "text": "Gopal Ganesh Agarkar" },
+        { "id": 2, "text": "Vishnushastri Chiplunkar" },
+        { "id": 3, "text": "Bal Gangadhar Tilak" },
+        { "id": 4, "text": "Jyotiba Phule" }
+      ],
+      "CorrectAnswer": "Bal Gangadhar Tilak",
+      "Explanation": "Lokmanya Tilak started two newspapers, 'Kesari' in Marathi and 'Mahratta' in English, in 1881 to voice the opinions of the common people and fuel nationalism.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "History"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Which city is famous for its unique 'Kolhapuri Chappal'?",
+      "Options": [
+        { "id": 1, "text": "Solapur" },
+        { "id": 2, "text": "Kolhapur" },
+        { "id": 3, "text": "Sangli" },
+        { "id": 4, "text": "Satara" }
+      ],
+      "CorrectAnswer": "Kolhapur",
+      "Explanation": "Kolhapur is world-famous for its handcrafted leather sandals, the Kolhapuri Chappals, which have been granted a Geographical Indication (GI) tag.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 2,
+      "topic": "Culture & Economy"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The Reserve Bank of India (RBI) has its central office headquarters in:",
+      "Options": [
+        { "id": 1, "text": "New Delhi" },
+        { "id": 2, "text": "Kolkata" },
+        { "id": 3, "text": "Chennai" },
+        { "id": 4, "text": "Mumbai" }
+      ],
+      "CorrectAnswer": "Mumbai",
+      "Explanation": "The headquarters of the Reserve Bank of India, India's central bank, is located in Mumbai, making the city the financial capital of India.",
+      "Difficulty": "Easy",
+      "Job": "Bank-PO, MPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "Economy"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Savitribai Phule, a pioneer of women's education in India, started the first school for girls in 1848 in which city?",
+      "Options": [
+        { "id": 1, "text": "Mumbai" },
+        { "id": 2, "text": "Nagpur" },
+        { "id": 3, "text": "Satara" },
+        { "id": 4, "text": "Pune" }
+      ],
+      "CorrectAnswer": "Pune",
+      "Explanation": "Along with her husband Jyotiba Phule, Savitribai Phule established the first school for girls in Bhide Wada, Pune, in 1848, a revolutionary step in women's education.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Teacher Exams",
+      "correctOption": 4,
+      "topic": "Social Reform & Education"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The Elephanta Caves, a UNESCO World Heritage Site, are located on an island near:",
+      "Options": [
+        { "id": 1, "text": "Pune" },
+        { "id": 2, "text": "Mumbai" },
+        { "id": 3, "text": "Ratnagiri" },
+        { "id": 4, "text": "Raigad" }
+      ],
+      "CorrectAnswer": "Mumbai",
+      "Explanation": "The Elephanta Caves are located on Elephanta Island (also known as Gharapuri) in Mumbai Harbour, a short ferry ride from the Gateway of India.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C, SSC-CGL",
+      "correctOption": 2,
+      "topic": "History & Culture"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "Who is considered the 'Political Guru' of Mahatma Gandhi?",
+      "Options": [
+        { "id": 1, "text": "Bal Gangadhar Tilak" },
+        { "id": 2, "text": "Gopal Krishna Gokhale" },
+        { "id": 3, "text": "Mahadev Govind Ranade" },
+        { "id": 4, "text": "Dadabhai Naoroji" }
+      ],
+      "CorrectAnswer": "Gopal Krishna Gokhale",
+      "Explanation": "Mahatma Gandhi regarded Gopal Krishna Gokhale, a senior leader of the Indian National Congress from Maharashtra, as his political mentor or 'Political Guru'.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "History"
+    },
+    {
+      "category": "Maharashtra GK",
+      "Question": "The 'Maharashtra Bhushan' is the highest civilian award presented by:",
+      "Options": [
+        { "id": 1, "text": "The Government of India" },
+        { "id": 2, "text": "A private foundation" },
+        { "id": 3, "text": "The Government of Maharashtra" },
+        { "id": 4, "text": "The University of Mumbai" }
+      ],
+      "CorrectAnswer": "The Government of Maharashtra",
+      "Explanation": "The Maharashtra Bhushan Award is the highest and most prestigious award presented annually by the Government of Maharashtra to recognize distinguished work and achievements.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, State Services",
+      "correctOption": 3,
+      "topic": "Awards"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who was the first President of India?",
+      "Options": [
+        { "id": 1, "text": "Dr. Sarvepalli Radhakrishnan" },
+        { "id": 2, "text": "Dr. Rajendra Prasad" },
+        { "id": 3, "text": "Jawaharlal Nehru" },
+        { "id": 4, "text": "Sardar Vallabhbhai Patel" }
+      ],
+      "CorrectAnswer": "Dr. Rajendra Prasad",
+      "Explanation": "Dr. Rajendra Prasad was the first President of the Republic of India, serving from 1950 to 1962. He was also the President of the Constituent Assembly.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC, Bank-PO",
+      "correctOption": 2,
+      "topic": "History & Polity"
+    },
+    {
+      "category": "India GK",
+      "Question": "Which is the longest river in India?",
+      "Options": [
+        { "id": 1, "text": "Godavari" },
+        { "id": 2, "text": "Brahmaputra" },
+        { "id": 3, "text": "Ganga" },
+        { "id": 4, "text": "Yamuna" }
+      ],
+      "CorrectAnswer": "Ganga",
+      "Explanation": "The Ganga (Ganges) is the longest river flowing through India, with a length of about 2,525 kilometers. It is considered the holiest river by Hindus.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC, Grade-C",
+      "correctOption": 3,
+      "topic": "Geography"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who is known as the 'Iron Man of India'?",
+      "Options": [
+        { "id": 1, "text": "Jawaharlal Nehru" },
+        { "id": 2, "text": "Mahatma Gandhi" },
+        { "id": 3, "text": "Subhas Chandra Bose" },
+        { "id": 4, "text": "Sardar Vallabhbhai Patel" }
+      ],
+      "CorrectAnswer": "Sardar Vallabhbhai Patel",
+      "Explanation": "Sardar Vallabhbhai Patel earned the title 'Iron Man of India' for his crucial role in the integration of more than 500 princely states into the Indian Union after independence.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL, Bank-PO",
+      "correctOption": 4,
+      "topic": "History"
+    },
+    {
+      "category": "India GK",
+      "Question": "The famous Sun Temple is located in which state?",
+      "Options": [
+        { "id": 1, "text": "Odisha" },
+        { "id": 2, "text": "Gujarat" },
+        { "id": 3, "text": "Tamil Nadu" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "CorrectAnswer": "Odisha",
+      "Explanation": "The Sun Temple at Konark, a UNESCO World Heritage Site, is a 13th-century temple dedicated to the Sun God, Surya. It is located in the state of Odisha.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC, Railways",
+      "correctOption": 1,
+      "topic": "Culture & Heritage"
+    },
+    {
+      "category": "India GK",
+      "Question": "ISRO, the Indian space agency, stands for:",
+      "Options": [
+        { "id": 1, "text": "Indian Satellite Research Organization" },
+        { "id": 2, "text": "Indian Space Research Organization" },
+        { "id": 3, "text": "International Space Research Organization" },
+        { "id": 4, "text": "Indian Space Rocket Organization" }
+      ],
+      "CorrectAnswer": "Indian Space Research Organization",
+      "Explanation": "ISRO stands for the Indian Space Research Organisation. It is the national space agency of India, headquartered in Bengaluru.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC, Bank-PO",
+      "correctOption": 2,
+      "topic": "Science & Technology"
+    },
+    {
+      "category": "India GK",
+      "Question": "Which classical dance form originated in Kerala?",
+      "Options": [
+        { "id": 1, "text": "Bharatanatyam" },
+        { "id": 2, "text": "Kathak" },
+        { "id": 3, "text": "Kuchipudi" },
+        { "id": 4, "text": "Kathakali" }
+      ],
+      "CorrectAnswer": "Kathakali",
+      "Explanation": "Kathakali is a major form of classical Indian dance characterized by its elaborate costumes, make-up, and detailed gestures. It originated in the state of Kerala.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL, UPSC",
+      "correctOption": 4,
+      "topic": "Culture"
+    },
+    {
+      "category": "India GK",
+      "Question": "The 'Green Revolution' in India is most associated with the production of:",
+      "Options": [
+        { "id": 1, "text": "Milk" },
+        { "id": 2, "text": "Cotton" },
+        { "id": 3, "text": "Wheat and Rice" },
+        { "id": 4, "text": "Pulses" }
+      ],
+      "CorrectAnswer": "Wheat and Rice",
+      "Explanation": "The Green Revolution, led by M. S. Swaminathan in the late 1960s, refers to a period of a significant increase in the production of food grains, particularly wheat and rice, due to the introduction of high-yielding varieties.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Bank-PO, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Economy & Agriculture"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who wrote the Indian National Anthem, 'Jana Gana Mana'?",
+      "Options": [
+        { "id": 1, "text": "Bankim Chandra Chatterjee" },
+        { "id": 2, "text": "Rabindranath Tagore" },
+        { "id": 3, "text": "Sarojini Naidu" },
+        { "id": 4, "text": "Muhammad Iqbal" }
+      ],
+      "CorrectAnswer": "Rabindranath Tagore",
+      "Explanation": "The Indian national anthem, 'Jana Gana Mana', was composed by Nobel laureate Rabindranath Tagore. It was first sung at the Calcutta Session of the Indian National Congress in 1911.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C, SSC-CGL",
+      "correctOption": 2,
+      "topic": "History & Culture"
+    },
+    {
+      "category": "India GK",
+      "Question": "The Indus Valley Civilization flourished primarily in which region?",
+      "Options": [
+        { "id": 1, "text": "Southern India" },
+        { "id": 2, "text": "Eastern India" },
+        { "id": 3, "text": "North-Western part of the Indian subcontinent" },
+        { "id": 4, "text": "Central India" }
+      ],
+      "CorrectAnswer": "North-Western part of the Indian subcontinent",
+      "Explanation": "The Indus Valley Civilization, one of the world's earliest urban civilizations, was centered in the basins of the Indus River and its tributaries, in what is now Pakistan and northwestern India.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Ancient History"
+    },
+    {
+      "category": "India GK",
+      "Question": "What is the highest civilian award in India?",
+      "Options": [
+        { "id": 1, "text": "Padma Vibhushan" },
+        { "id": 2, "text": "Padma Bhushan" },
+        { "id": 3, "text": "Bharat Ratna" },
+        { "id": 4, "text": "Padma Shri" }
+      ],
+      "CorrectAnswer": "Bharat Ratna",
+      "Explanation": "The Bharat Ratna (Jewel of India) is the highest civilian award of the Republic of India, instituted in 1954. It is awarded in recognition of exceptional service/performance of the highest order.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL, Bank-PO",
+      "correctOption": 3,
+      "topic": "Awards & Honours"
+    },
+    {
+      "category": "India GK",
+      "Question": "The Jallianwala Bagh massacre took place in which city in 1919?",
+      "Options": [
+        { "id": 1, "text": "Lahore" },
+        { "id": 2, "text": "Delhi" },
+        { "id": 3, "text": "Amritsar" },
+        { "id": 4, "text": "Kolkata" }
+      ],
+      "CorrectAnswer": "Amritsar",
+      "Explanation": "The Jallianwala Bagh massacre occurred on April 13, 1919, in Amritsar, Punjab, when British troops fired on a large crowd of unarmed Indians, a pivotal event in the Indian independence movement.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL, Railways",
+      "correctOption": 3,
+      "topic": "Modern History"
+    },
+    {
+      "category": "India GK",
+      "Question": "Which is the highest mountain peak in India?",
+      "Options": [
+        { "id": 1, "text": "Mount Everest" },
+        { "id": 2, "text": "K2 (Godwin-Austen)" },
+        { "id": 3, "text": "Kangchenjunga" },
+        { "id": 4, "text": "Nanda Devi" }
+      ],
+      "CorrectAnswer": "Kangchenjunga",
+      "Explanation": "Kangchenjunga, located in Sikkim, is the highest peak in India and the third highest in the world. While K2 is higher, it is located in Pakistan-occupied Kashmir (PoK).",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Geography"
+    },
+    {
+      "category": "India GK",
+      "Question": "The 'White Revolution' is associated with an increase in the production of:",
+      "Options": [
+        { "id": 1, "text": "Eggs" },
+        { "id": 2, "text": "Milk" },
+        { "id": 3, "text": "Fish" },
+        { "id": 4, "text": "Cotton" }
+      ],
+      "CorrectAnswer": "Milk",
+      "Explanation": "The White Revolution in India, also known as Operation Flood, was a program that made India the world's largest milk producer. Dr. Verghese Kurien is known as the 'Father of the White Revolution'.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Bank-PO",
+      "correctOption": 2,
+      "topic": "Economy"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who was the first Indian woman to win a medal at the Olympics?",
+      "Options": [
+        { "id": 1, "text": "P. T. Usha" },
+        { "id": 2, "text": "Saina Nehwal" },
+        { "id": 3, "text": "Mary Kom" },
+        { "id": 4, "text": "Karnam Malleswari" }
+      ],
+      "CorrectAnswer": "Karnam Malleswari",
+      "Explanation": "Karnam Malleswari became the first Indian woman to win an Olympic medal when she won the bronze medal in weightlifting at the 2000 Sydney Olympics.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL, Bank-PO",
+      "correctOption": 4,
+      "topic": "Sports"
+    },
+    {
+      "category": "India GK",
+      "Question": "The book 'Discovery of India' was written by:",
+      "Options": [
+        { "id": 1, "text": "Mahatma Gandhi" },
+        { "id": 2, "text": "Sardar Patel" },
+        { "id": 3, "text": "Jawaharlal Nehru" },
+        { "id": 4, "text": "Subhas Chandra Bose" }
+      ],
+      "CorrectAnswer": "Jawaharlal Nehru",
+      "Explanation": "India's first Prime Minister, Jawaharlal Nehru, wrote 'The Discovery of India' during his imprisonment in 1942–1945 at Ahmednagar fort.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Books & Authors"
+    },
+    {
+      "category": "India GK",
+      "Question": "Which of these is a festival of lights celebrated by Hindus, Jains, and Sikhs?",
+      "Options": [
+        { "id": 1, "text": "Holi" },
+        { "id": 2, "text": "Diwali" },
+        { "id": 3, "text": "Dussehra" },
+        { "id": 4, "text": "Navratri" }
+      ],
+      "CorrectAnswer": "Diwali",
+      "Explanation": "Diwali, or Deepavali, is the festival of lights, which symbolizes the spiritual 'victory of light over darkness, good over evil, and knowledge over ignorance'.",
+      "Difficulty": "Easy",
+      "Job": "General Exams",
+      "correctOption": 2,
+      "topic": "Culture"
+    },
+    {
+      "category": "India GK",
+      "Question": "The Battle of Plassey was fought in which year?",
+      "Options": [
+        { "id": 1, "text": "1757" },
+        { "id": 2, "text": "1764" },
+        { "id": 3, "text": "1857" },
+        { "id": 4, "text": "1776" }
+      ],
+      "CorrectAnswer": "1757",
+      "Explanation": "The Battle of Plassey, fought on June 23, 1757, was a decisive victory of the British East India Company over the Nawab of Bengal and his French allies, establishing Company rule in Bengal.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC, SSC-CGL",
+      "correctOption": 1,
+      "topic": "Modern History"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who founded the Maurya Empire in ancient India?",
+      "Options": [
+        { "id": 1, "text": "Ashoka" },
+        { "id": 2, "text": "Bindusara" },
+        { "id": 3, "text": "Chandragupta Maurya" },
+        { "id": 4, "text": "Harshavardhana" }
+      ],
+      "CorrectAnswer": "Chandragupta Maurya",
+      "Explanation": "Chandragupta Maurya, with the assistance of his advisor Chanakya, overthrew the Nanda Dynasty and established the Maurya Empire around 322 BCE.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Ancient History"
+    },
+    {
+      "category": "India GK",
+      "Question": "Where is the headquarters of the Indian Railways located?",
+      "Options": [
+        { "id": 1, "text": "Mumbai" },
+        { "id": 2, "text": "Kolkata" },
+        { "id": 3, "text": "Chennai" },
+        { "id": 4, "text": "New Delhi" }
+      ],
+      "CorrectAnswer": "New Delhi",
+      "Explanation": "The headquarters of the Indian Railways is located at Rail Bhavan in New Delhi, from where the Railway Board operates.",
+      "Difficulty": "Easy",
+      "Job": "Railways, MPSC",
+      "correctOption": 4,
+      "topic": "Economy & Infrastructure"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who was the first Indian to travel to space?",
+      "Options": [
+        { "id": 1, "text": "Kalpana Chawla" },
+        { "id": 2, "text": "Sunita Williams" },
+        { "id": 3, "text": "Rakesh Sharma" },
+        { "id": 4, "text": "Vikram Sarabhai" }
+      ],
+      "CorrectAnswer": "Rakesh Sharma",
+      "Explanation": "Rakesh Sharma, a former Indian Air Force pilot, became the first Indian citizen to travel to space aboard the Soviet rocket Soyuz T-11 in 1984.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL, Grade-C",
+      "correctOption": 3,
+      "topic": "Science & Technology"
+    },
+    {
+      "category": "India GK",
+      "Question": "The Chipko movement was primarily concerned with:",
+      "Options": [
+        { "id": 1, "text": "Water conservation" },
+        { "id": 2, "text": "Protecting tigers" },
+        { "id": 3, "text": "Forest conservation" },
+        { "id": 4, "text": "Women's rights" }
+      ],
+      "CorrectAnswer": "Forest conservation",
+      "Explanation": "The Chipko movement was a forest conservation movement in India where villagers, especially women, hugged trees to prevent them from being cut down. It started in the 1970s in Uttarakhand.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC, Forest Guard",
+      "correctOption": 3,
+      "topic": "Environment"
+    },
+    {
+      "category": "India GK",
+      "Question": "The Indian Premier League (IPL) is associated with which sport?",
+      "Options": [
+        { "id": 1, "text": "Hockey" },
+        { "id": 2, "text": "Football" },
+        { "id": 3, "text": "Cricket" },
+        { "id": 4, "text": "Kabaddi" }
+      ],
+      "CorrectAnswer": "Cricket",
+      "Explanation": "The Indian Premier League (IPL) is a professional Twenty20 cricket league in India, contested by ten franchise teams based out of different Indian cities.",
+      "Difficulty": "Easy",
+      "Job": "General Exams",
+      "correctOption": 3,
+      "topic": "Sports"
+    },
+    {
+      "category": "India GK",
+      "Question": "The Rourkela Steel Plant was set up with the assistance of which country?",
+      "Options": [
+        { "id": 1, "text": "USA" },
+        { "id": 2, "text": "USSR (Soviet Union)" },
+        { "id": 3, "text": "UK" },
+        { "id": 4, "text": "West Germany" }
+      ],
+      "CorrectAnswer": "West Germany",
+      "Explanation": "The Rourkela Steel Plant in Odisha, one of the first integrated steel plants in the public sector in India, was set up with German collaboration and assistance from Krupp and Demag.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "Economy & History"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who is known as the 'Nightingale of India'?",
+      "Options": [
+        { "id": 1, "text": "Lata Mangeshkar" },
+        { "id": 2, "text": "Indira Gandhi" },
+        { "id": 3, "text": "Sarojini Naidu" },
+        { "id": 4, "text": "M. S. Subbulakshmi" }
+      ],
+      "CorrectAnswer": "Sarojini Naidu",
+      "Explanation": "Sarojini Naidu, a poet and political activist, was given the sobriquet 'Bharat Kokila' or the 'Nightingale of India' by Mahatma Gandhi because of the lyrical quality of her poetry.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "History & Personalities"
+    },
+    {
+      "category": "India GK",
+      "Question": "Jim Corbett National Park, the oldest national park in India, is located in which state?",
+      "Options": [
+        { "id": 1, "text": "Madhya Pradesh" },
+        { "id": 2, "text": "Uttarakhand" },
+        { "id": 3, "text": "Assam" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "CorrectAnswer": "Uttarakhand",
+      "Explanation": "Established in 1936 as Hailey National Park to protect the endangered Bengal tiger, Jim Corbett National Park is located in the Nainital district of Uttarakhand.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Forest Guard, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Geography & Environment"
+    },
+    {
+      "category": "India GK",
+      "Question": "Which Mughal emperor built the Taj Mahal?",
+      "Options": [
+        { "id": 1, "text": "Akbar" },
+        { "id": 2, "text": "Jahangir" },
+        { "id": 3, "text": "Shah Jahan" },
+        { "id": 4, "text": "Aurangzeb" }
+      ],
+      "CorrectAnswer": "Shah Jahan",
+      "Explanation": "The Mughal emperor Shah Jahan commissioned the construction of the Taj Mahal in Agra in 1631 as a mausoleum for his favorite wife, Mumtaz Mahal.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC, Grade-C",
+      "correctOption": 3,
+      "topic": "Medieval History"
+    },
+    {
+      "category": "India GK",
+      "Question": "The 'Dandi March' or 'Salt Satyagraha' was initiated by Mahatma Gandhi in which year?",
+      "Options": [
+        { "id": 1, "text": "1920" },
+        { "id": 2, "text": "1930" },
+        { "id": 3, "text": "1942" },
+        { "id": 4, "text": "1919" }
+      ],
+      "CorrectAnswer": "1930",
+      "Explanation": "The Salt March was an act of nonviolent civil disobedience led by Mahatma Gandhi, which started on March 12, 1930, to protest the British salt tax.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Modern History"
+    },
+    {
+      "category": "India GK",
+      "Question": "What is the capital of the Union Territory of Ladakh?",
+      "Options": [
+        { "id": 1, "text": "Srinagar" },
+        { "id": 2, "text": "Jammu" },
+        { "id": 3, "text": "Kargil" },
+        { "id": 4, "text": "Leh" }
+      ],
+      "CorrectAnswer": "Leh",
+      "Explanation": "Leh is the capital and largest town of the union territory of Ladakh. Ladakh was established as a union territory of India on 31 October 2019.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 4,
+      "topic": "Geography"
+    },
+    {
+      "category": "India GK",
+      "Question": "The Hornbill Festival is a major annual festival celebrated in which state?",
+      "Options": [
+        { "id": 1, "text": "Manipur" },
+        { "id": 2, "text": "Mizoram" },
+        { "id": 3, "text": "Nagaland" },
+        { "id": 4, "text": "Assam" }
+      ],
+      "CorrectAnswer": "Nagaland",
+      "Explanation": "The Hornbill Festival, known as the 'Festival of Festivals', is a 10-day celebration held every December in Nagaland to showcase the rich and diverse culture of the Naga tribes.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Culture"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who was the first Indian to win the Nobel Prize?",
+      "Options": [
+        { "id": 1, "text": "C. V. Raman" },
+        { "id": 2, "text": "Mother Teresa" },
+        { "id": 3, "text": "Amartya Sen" },
+        { "id": 4, "text": "Rabindranath Tagore" }
+      ],
+      "CorrectAnswer": "Rabindranath Tagore",
+      "Explanation": "Rabindranath Tagore was the first Indian, and also the first non-European, to win the Nobel Prize in Literature in 1913 for his collection of poems, 'Gitanjali'.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Bank-PO, SSC-CGL",
+      "correctOption": 4,
+      "topic": "Awards & Honours"
+    },
+    {
+      "category": "India GK",
+      "Question": "The Right to Information (RTI) Act in India was enacted in the year:",
+      "Options": [
+        { "id": 1, "text": "2001" },
+        { "id": 2, "text": "2005" },
+        { "id": 3, "text": "2009" },
+        { "id": 4, "text": "2013" }
+      ],
+      "CorrectAnswer": "2005",
+      "Explanation": "The Right to Information Act was passed by the Parliament of India on 15 June 2005 and came fully into force on 12 October 2005. It provides a legal framework for citizens' right to information.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade-B, Bank-PO",
+      "correctOption": 2,
+      "topic": "Polity & Governance"
+    },
+    {
+      "category": "India GK",
+      "Question": "Which state has the longest coastline in India?",
+      "Options": [
+        { "id": 1, "text": "Andhra Pradesh" },
+        { "id": 2, "text": "Maharashtra" },
+        { "id": 3, "text": "Tamil Nadu" },
+        { "id": 4, "text": "Gujarat" }
+      ],
+      "CorrectAnswer": "Gujarat",
+      "Explanation": "Gujarat has the longest mainland coastline in India, stretching for about 1,600 kilometers along the Arabian Sea.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "Geography"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who founded the 'All India Forward Bloc' political party?",
+      "Options": [
+        { "id": 1, "text": "Sardar Patel" },
+        { "id": 2, "text": "Jawaharlal Nehru" },
+        { "id": 3, "text": "Subhas Chandra Bose" },
+        { "id": 4, "text": "B. R. Ambedkar" }
+      ],
+      "CorrectAnswer": "Subhas Chandra Bose",
+      "Explanation": "After resigning from the presidency of the Indian National Congress in 1939, Subhas Chandra Bose announced the formation of the All India Forward Bloc as a faction within the Congress.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Modern History"
+    },
+    {
+      "category": "India GK",
+      "Question": "The 'Raman Effect' is a discovery by which Indian scientist?",
+      "Options": [
+        { "id": 1, "text": "Homi J. Bhabha" },
+        { "id": 2, "text": "C. V. Raman" },
+        { "id": 3, "text": "Jagadish Chandra Bose" },
+        { "id": 4, "text": "Satyendra Nath Bose" }
+      ],
+      "CorrectAnswer": "C. V. Raman",
+      "Explanation": "Sir Chandrasekhara Venkata Raman discovered that when light traverses a transparent material, some of the deflected light changes wavelength. This phenomenon, known as the Raman Effect, earned him the Nobel Prize in Physics in 1930.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL, Railways",
+      "correctOption": 2,
+      "topic": "Science & Technology"
+    },
+    {
+      "category": "India GK",
+      "Question": "Gautama Buddha delivered his first sermon at which place?",
+      "Options": [
+        { "id": 1, "text": "Bodh Gaya" },
+        { "id": 2, "text": "Sarnath" },
+        { "id": 3, "text": "Lumbini" },
+        { "id": 4, "text": "Kushinagar" }
+      ],
+      "CorrectAnswer": "Sarnath",
+      "Explanation": "After attaining enlightenment at Bodh Gaya, Gautama Buddha travelled to Sarnath, near Varanasi, and delivered his first sermon, known as the 'Dhammacakkappavattana Sutta' (Setting in Motion the Wheel of Dharma).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Ancient History"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who is the first law officer of the Government of India?",
+      "Options": [
+        { "id": 1, "text": "Chief Justice of India" },
+        { "id": 2, "text": "Law Minister" },
+        { "id": 3, "text": "Attorney General of India" },
+        { "id": 4, "text": "Solicitor General of India" }
+      ],
+      "CorrectAnswer": "Attorney General of India",
+      "Explanation": "The Attorney General for India, appointed by the President under Article 76, is the highest law officer in the country and the chief legal advisor to the Government of India.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC, Bank-PO",
+      "correctOption": 3,
+      "topic": "Polity"
+    },
+    {
+      "category": "India GK",
+      "Question": "Bihu is a major folk dance of which Indian state?",
+      "Options": [
+        { "id": 1, "text": "West Bengal" },
+        { "id": 2, "text": "Odisha" },
+        { "id": 3, "text": "Bihar" },
+        { "id": 4, "text": "Assam" }
+      ],
+      "CorrectAnswer": "Assam",
+      "Explanation": "Bihu is a set of three important festivals celebrated in the state of Assam, and the Bihu dance is a joyous folk dance performed by both men and women.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL, Grade-C",
+      "correctOption": 4,
+      "topic": "Culture"
+    },
+    {
+      "category": "India GK",
+      "Question": "The 'Quit India Movement' was launched in which year?",
+      "Options": [
+        { "id": 1, "text": "1930" },
+        { "id": 2, "text": "1940" },
+        { "id": 3, "text": "1942" },
+        { "id": 4, "text": "1945" }
+      ],
+      "CorrectAnswer": "1942",
+      "Explanation": "The Quit India Movement (Bharat Chhodo Andolan) was launched at the Bombay session of the All-India Congress Committee by Mahatma Gandhi on 8 August 1942, demanding an end to British rule in India.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Modern History"
+    },
+    {
+      "category": "India GK",
+      "Question": "Which planet is known as the 'Red Planet'?",
+      "Options": [
+        { "id": 1, "text": "Venus" },
+        { "id": 2, "text": "Mars" },
+        { "id": 3, "text": "Jupiter" },
+        { "id": 4, "text": "Saturn" }
+      ],
+      "CorrectAnswer": "Mars",
+      "Explanation": "Mars is often called the 'Red Planet' because the iron oxide prevalent on its surface gives it a reddish appearance.",
+      "Difficulty": "Easy",
+      "Job": "General Exams",
+      "correctOption": 2,
+      "topic": "General Science"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who was the last Mughal emperor of India?",
+      "Options": [
+        { "id": 1, "text": "Akbar II" },
+        { "id": 2, "text": "Shah Alam II" },
+        { "id": 3, "text": "Bahadur Shah Zafar" },
+        { "id": 4, "text": "Aurangzeb" }
+      ],
+      "CorrectAnswer": "Bahadur Shah Zafar",
+      "Explanation": "Bahadur Shah Zafar (Bahadur Shah II) was the last Mughal emperor. He was a nominal leader of the Indian Rebellion of 1857 and was later exiled to Rangoon by the British.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Medieval History"
+    },
+    {
+      "category": "India GK",
+      "Question": "The tropic of Cancer does NOT pass through which of these Indian states?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "West Bengal" },
+        { "id": 4, "text": "Odisha" }
+      ],
+      "CorrectAnswer": "Odisha",
+      "Explanation": "The Tropic of Cancer passes through eight Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram. It does not pass through Odisha.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "Geography"
+    },
+    {
+      "category": "India GK",
+      "Question": "Panchayati Raj system was first adopted by which state in India?",
+      "Options": [
+        { "id": 1, "text": "Andhra Pradesh" },
+        { "id": 2, "text": "Rajasthan" },
+        { "id": 3, "text": "Uttar Pradesh" },
+        { "id": 4, "text": "Bihar" }
+      ],
+      "CorrectAnswer": "Rajasthan",
+      "Explanation": "The modern Panchayati Raj system was inaugurated by Prime Minister Jawaharlal Nehru on October 2, 1959, at Nagaur in Rajasthan. Andhra Pradesh was the second state to adopt it.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Bank-PO, Grade-B",
+      "correctOption": 2,
+      "topic": "Polity"
+    },
+    {
+      "category": "India GK",
+      "Question": "The valley of flowers national park is located in:",
+      "Options": [
+        { "id": 1, "text": "Himachal Pradesh" },
+        { "id": 2, "text": "Jammu & Kashmir" },
+        { "id": 3, "text": "Uttarakhand" },
+        { "id": 4, "text": "Sikkim" }
+      ],
+      "CorrectAnswer": "Uttarakhand",
+      "Explanation": "The Valley of Flowers National Park, a UNESCO World Heritage Site, is located in the Chamoli district of Uttarakhand and is known for its meadows of endemic alpine flowers.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Forest Guard",
+      "correctOption": 3,
+      "topic": "Geography"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who is known as the 'Father of the Indian Constitution'?",
+      "Options": [
+        { "id": 1, "text": "Mahatma Gandhi" },
+        { "id": 2, "text": "Jawaharlal Nehru" },
+        { "id": 3, "text": "Dr. B. R. Ambedkar" },
+        { "id": 4, "text": "Sardar Patel" }
+      ],
+      "CorrectAnswer": "Dr. B. R. Ambedkar",
+      "Explanation": "Dr. Bhimrao Ramji Ambedkar, as the chairman of the Drafting Committee of the Constituent Assembly, played a pivotal role in drafting the Indian Constitution, earning him the title 'Father of the Indian Constitution'.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL, Grade-C",
+      "correctOption": 3,
+      "topic": "Polity & History"
+    },
+    {
+      "category": "India GK",
+      "Question": "The 'Blue Revolution' in India refers to the development of:",
+      "Options": [
+        { "id": 1, "text": "Aquaculture" },
+        { "id": 2, "text": "Agriculture" },
+        { "id": 3, "text": "Indigo plantation" },
+        { "id": 4, "text": "Oilseed production" }
+      ],
+      "CorrectAnswer": "Aquaculture",
+      "Explanation": "The Blue Revolution refers to the period of remarkable emergence of aquaculture as an important and highly productive agricultural activity. It is associated with a significant increase in fish production.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Bank-PO",
+      "correctOption": 1,
+      "topic": "Economy"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who was the first woman Prime Minister of India?",
+      "Options": [
+        { "id": 1, "text": "Sarojini Naidu" },
+        { "id": 2, "text": "Pratibha Patil" },
+        { "id": 3, "text": "Sonia Gandhi" },
+        { "id": 4, "text": "Indira Gandhi" }
+      ],
+      "CorrectAnswer": "Indira Gandhi",
+      "Explanation": "Indira Gandhi, daughter of Jawaharlal Nehru, served as the Prime Minister of India from 1966 to 1977 and again from 1980 until her assassination in 1984, making her the first and, to date, only female Prime Minister of India.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 4,
+      "topic": "History & Polity"
+    },
+    {
+      "category": "India GK",
+      "Question": "The historic 'Grand Trunk Road' was built by:",
+      "Options": [
+        { "id": 1, "text": "Akbar" },
+        { "id": 2, "text": "Ashoka" },
+        { "id": 3, "text": "Sher Shah Suri" },
+        { "id": 4, "text": "Samudragupta" }
+      ],
+      "CorrectAnswer": "Sher Shah Suri",
+      "Explanation": "The Grand Trunk Road is one of South Asia's oldest and longest major roads. It was rebuilt and extended by the Pashtun emperor Sher Shah Suri in the 16th century.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Medieval History"
+    },
+    {
+      "category": "India GK",
+      "Question": "The term 'Satyameva Jayate' inscribed below the national emblem is taken from:",
+      "Options": [
+        { "id": 1, "text": "Rigveda" },
+        { "id": 2, "text": "Ramayana" },
+        { "id": 3, "text": "Mundaka Upanishad" },
+        { "id": 4, "text": "Bhagavad Gita" }
+      ],
+      "CorrectAnswer": "Mundaka Upanishad",
+      "Explanation": "The national motto of India, 'Satyameva Jayate' (Truth Alone Triumphs), is a mantra from the ancient Indian scripture Mundaka Upanishad.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Culture & History"
+    },
+    {
+      "category": "India GK",
+      "Question": "Which is the largest freshwater lake in India?",
+      "Options": [
+        { "id": 1, "text": "Chilika Lake" },
+        { "id": 2, "text": "Wular Lake" },
+        { "id": 3, "text": "Dal Lake" },
+        { "id": 4, "text": "Vembanad Lake" }
+      ],
+      "CorrectAnswer": "Wular Lake",
+      "Explanation": "Wular Lake, located in the Bandipora district of Jammu and Kashmir, is one of the largest freshwater lakes in Asia. Chilika Lake is the largest saltwater lagoon.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Geography"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who composed the Indian national song 'Vande Mataram'?",
+      "Options": [
+        { "id": 1, "text": "Rabindranath Tagore" },
+        { "id": 2, "text": "Bankim Chandra Chatterjee" },
+        { "id": 3, "text": "Sri Aurobindo" },
+        { "id": 4, "text": "Subramania Bharati" }
+      ],
+      "CorrectAnswer": "Bankim Chandra Chatterjee",
+      "Explanation": "'Vande Mataram' is a poem from Bankim Chandra Chatterjee's 1882 novel Anandamath. It was a source of inspiration during the Indian independence movement and was adopted as the national song in 1950.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 2,
+      "topic": "History & Culture"
+    },
+    {
+      "category": "India GK",
+      "Question": "The first battle of Panipat (1526) was fought between Babur and:",
+      "Options": [
+        { "id": 1, "text": "Rana Sanga" },
+        { "id": 2, "text": "Hemu" },
+        { "id": 3, "text": "Ibrahim Lodi" },
+        { "id": 4, "text": "Sher Shah Suri" }
+      ],
+      "CorrectAnswer": "Ibrahim Lodi",
+      "Explanation": "The first battle of Panipat was fought between the invading forces of Babur and the Lodi dynasty, led by Sultan Ibrahim Lodi. Babur's victory marked the beginning of the Mughal Empire in India.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Medieval History"
+    },
+    {
+      "category": "India GK",
+      "Question": "The 'Dronacharya Award' is given to:",
+      "Options": [
+        { "id": 1, "text": "Outstanding athletes" },
+        { "id": 2, "text": "Sports coaches" },
+        { "id": 3, "text": "Umpires/Referees" },
+        { "id": 4, "text": "Sports journalists" }
+      ],
+      "CorrectAnswer": "Sports coaches",
+      "Explanation": "The Dronacharya Award, officially known as Dronacharya Award for Outstanding Coaches in Sports and Games, is a sports coaching honour of the Republic of India.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL, Bank-PO",
+      "correctOption": 2,
+      "topic": "Sports"
+    },
+    {
+      "category": "India GK",
+      "Question": "Who started the 'Bhoodan Movement'?",
+      "Options": [
+        { "id": 1, "text": "Mahatma Gandhi" },
+        { "id": 2, "text": "Jayaprakash Narayan" },
+        { "id": 3, "text": "Vinoba Bhave" },
+        { "id": 4, "text": "Ram Manohar Lohia" }
+      ],
+      "CorrectAnswer": "Vinoba Bhave",
+      "Explanation": "The Bhoodan Movement (Land Gift Movement) was a voluntary land reform movement in India started by Gandhian Acharya Vinoba Bhave in 1951, where he persuaded wealthy landowners to voluntarily give a percentage of their land to landless people.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Modern History"
+    },
+    {
+      "category": "India GK",
+      "Question": "The 'Servants of India Society' was founded by:",
+      "Options": [
+        { "id": 1, "text": "Bal Gangadhar Tilak" },
+        { "id": 2, "text": "Gopal Krishna Gokhale" },
+        { "id": 3, "text": "Lala Lajpat Rai" },
+        { "id": 4, "text": "A. O. Hume" }
+      ],
+      "CorrectAnswer": "Gopal Krishna Gokhale",
+      "Explanation": "Gopal Krishna Gokhale, a moderate leader of the Indian National Congress, founded the Servants of India Society in Pune in 1905 to train a band of dedicated workers for the service of the nation.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Modern History"
+    },
+    {
+      "category": "India GK",
+      "Question": "The Kaziranga National Park is famous for:",
+      "Options": [
+        { "id": 1, "text": "Bengal Tigers" },
+        { "id": 2, "text": "Asiatic Lions" },
+        { "id": 3, "text": "One-Horned Rhinoceroses" },
+        { "id": 4, "text": "Elephants" }
+      ],
+      "CorrectAnswer": "One-Horned Rhinoceroses",
+      "Explanation": "Kaziranga National Park in Assam is a UNESCO World Heritage Site and is home to two-thirds of the world's great one-horned rhinoceroses population.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL, Forest Guard",
+      "correctOption": 3,
+      "topic": "Environment & Geography"
+    },
+    {
+      "category": "India GK",
+      "Question": "The Planning Commission of India has been replaced by:",
+      "Options": [
+        { "id": 1, "text": "Finance Commission" },
+        { "id": 2, "text": "Lokpal" },
+        { "id": 3, "text": "NITI Aayog" },
+        { "id": 4, "text": "National Development Council" }
+      ],
+      "CorrectAnswer": "NITI Aayog",
+      "Explanation": "On January 1, 2015, the Government of India replaced the 65-year-old Planning Commission with a new institution called NITI (National Institution for Transforming India) Aayog.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Bank-PO, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Economy & Polity"
+    },
+    {
+      "category": "India GK",
+      "Question": "Which is the smallest state in India by area?",
+      "Options": [
+        { "id": 1, "text": "Sikkim" },
+        { "id": 2, "text": "Tripura" },
+        { "id": 3, "text": "Nagaland" },
+        { "id": 4, "text": "Goa" }
+      ],
+      "CorrectAnswer": "Goa",
+      "Explanation": "Goa is India's smallest state by area and the fourth-smallest by population. It is located on the southwestern coast of India within the region known as the Konkan.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 4,
+      "topic": "Geography"
+    }
+  ]

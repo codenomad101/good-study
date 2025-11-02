@@ -1,0 +1,142 @@
+[
+  {
+    "category": "General Knowledge",
+    "Question": "What is the capital of India?",
+    "Options": [
+      { "id": 1, "text": "Mumbai" },
+      { "id": 2, "text": "Delhi" },
+      { "id": 3, "text": "Kolkata" },
+      { "id": 4, "text": "Chennai" }
+    ],
+    "CorrectAnswer": "Delhi",
+    "Explanation": "Delhi is the capital of India and serves as the seat of the Government of India.",
+    "Difficulty": "easy",
+    "Job": ["UPSC", "SSC", "Banking"]
+  },
+  {
+    "category": "Geography",
+    "Question": "Which river is known as the 'Ganga' in India?",
+    "Options": [
+      { "id": 1, "text": "Yamuna" },
+      { "id": 2, "text": "Brahmaputra" },
+      { "id": 3, "text": "Ganges" },
+      { "id": 4, "text": "Godavari" }
+    ],
+    "CorrectAnswer": "Ganges",
+    "Explanation": "The Ganges River is known as 'Ganga' in India and is considered sacred by Hindus.",
+    "Difficulty": "easy",
+    "Job": ["UPSC", "SSC"]
+  },
+  {
+    "category": "History",
+    "Question": "Who wrote the Indian National Anthem 'Jana Gana Mana'?",
+    "Options": [
+      { "id": 1, "text": "Rabindranath Tagore" },
+      { "id": 2, "text": "Bankim Chandra Chatterjee" },
+      { "id": 3, "text": "Subhash Chandra Bose" },
+      { "id": 4, "text": "Mahatma Gandhi" }
+    ],
+    "CorrectAnswer": "Rabindranath Tagore",
+    "Explanation": "Rabindranath Tagore wrote the Indian National Anthem 'Jana Gana Mana' in Bengali.",
+    "Difficulty": "medium",
+    "Job": ["UPSC", "SSC", "Banking"]
+  },
+  {
+    "category": "General Knowledge",
+    "Question": "What is the currency of Japan?",
+    "Options": [
+      { "id": 1, "text": "Yuan" },
+      { "id": 2, "text": "Won" },
+      { "id": 3, "text": "Yen" },
+      { "id": 4, "text": "Dong" }
+    ],
+    "CorrectAnswer": "Yen",
+    "Explanation": "The Japanese Yen (¥) is the official currency of Japan.",
+    "Difficulty": "easy",
+    "Job": ["Banking", "SSC"]
+  },
+  {
+    "category": "Science",
+    "Question": "Which planet is known as the 'Red Planet'?",
+    "Options": [
+      { "id": 1, "text": "Venus" },
+      { "id": 2, "text": "Mars" },
+      { "id": 3, "text": "Jupiter" },
+      { "id": 4, "text": "Saturn" }
+    ],
+    "CorrectAnswer": "Mars",
+    "Explanation": "Mars is known as the 'Red Planet' due to its reddish appearance caused by iron oxide on its surface.",
+    "Difficulty": "easy",
+    "Job": ["UPSC", "SSC", "Banking"]
+  },
+  {
+    "category": "Geography",
+    "Question": "What is the largest ocean on Earth?",
+    "Options": [
+      { "id": 1, "text": "Atlantic Ocean" },
+      { "id": 2, "text": "Indian Ocean" },
+      { "id": 3, "text": "Pacific Ocean" },
+      { "id": 4, "text": "Arctic Ocean" }
+    ],
+    "CorrectAnswer": "Pacific Ocean",
+    "Explanation": "The Pacific Ocean is the largest ocean on Earth, covering more than 30% of the Earth's surface.",
+    "Difficulty": "easy",
+    "Job": ["UPSC", "SSC"]
+  },
+  {
+    "category": "History",
+    "Question": "Who is known as the 'Father of the Nation' in India?",
+    "Options": [
+      { "id": 1, "text": "Jawaharlal Nehru" },
+      { "id": 2, "text": "Mahatma Gandhi" },
+      { "id": 3, "text": "Subhash Chandra Bose" },
+      { "id": 4, "text": "Bhagat Singh" }
+    ],
+    "CorrectAnswer": "Mahatma Gandhi",
+    "Explanation": "Mahatma Gandhi is known as the 'Father of the Nation' in India for his role in India's independence movement.",
+    "Difficulty": "easy",
+    "Job": ["UPSC", "SSC", "Banking"]
+  },
+  {
+    "category": "Science",
+    "Question": "What is the chemical symbol for Gold?",
+    "Options": [
+      { "id": 1, "text": "Go" },
+      { "id": 2, "text": "Gd" },
+      { "id": 3, "text": "Au" },
+      { "id": 4, "text": "Ag" }
+    ],
+    "CorrectAnswer": "Au",
+    "Explanation": "The chemical symbol for Gold is 'Au' derived from the Latin word 'aurum'.",
+    "Difficulty": "medium",
+    "Job": ["UPSC", "SSC", "Banking"]
+  },
+  {
+    "category": "General Knowledge",
+    "Question": "Which country has the largest population in the world?",
+    "Options": [
+      { "id": 1, "text": "India" },
+      { "id": 2, "text": "China" },
+      { "id": 3, "text": "United States" },
+      { "id": 4, "text": "Indonesia" }
+    ],
+    "CorrectAnswer": "China",
+    "Explanation": "China has the largest population in the world, followed by India.",
+    "Difficulty": "easy",
+    "Job": ["UPSC", "SSC", "Banking"]
+  },
+  {
+    "category": "Science",
+    "Question": "What is the speed of light in vacuum?",
+    "Options": [
+      { "id": 1, "text": "3 × 10^8 m/s" },
+      { "id": 2, "text": "3 × 10^6 m/s" },
+      { "id": 3, "text": "3 × 10^10 m/s" },
+      { "id": 4, "text": "3 × 10^12 m/s" }
+    ],
+    "CorrectAnswer": "3 × 10^8 m/s",
+    "Explanation": "The speed of light in vacuum is approximately 3 × 10^8 meters per second.",
+    "Difficulty": "medium",
+    "Job": ["UPSC", "SSC"]
+  }
+]

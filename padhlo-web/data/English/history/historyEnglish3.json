@@ -1,0 +1,1602 @@
+[
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following statements regarding the Preamble of the Indian Constitution:\n1. The term 'Socialist' was added by the 42nd Amendment, 1976.\n2. The Preamble is not justifiable, meaning its provisions are not enforceable in courts.\n3. The Supreme Court, in the Berubari Union case (1960), held that the Preamble is a part of the Constitution.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct; 'Socialist', 'Secular', and 'Integrity' were added by the 42nd Amendment. (2) is correct; it is a key to the minds of the makers but not enforceable. (3) is incorrect; in the Berubari case, the SC held the Preamble was *not* part of the Constitution. This was later reversed in the Kesavananda Bharati case (1973).",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Preamble"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following statements about Fundamental Rights (Part III) are correct?\n1. They are absolute and not qualified.\n2. They are available against the arbitrary action of the State only.\n3. Some Fundamental Rights are available to all persons, while others are available to citizens only.",
+      "Options": [
+        { "id": 1, "text": "3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "3 only",
+      "Explanation": "(1) is incorrect; Fundamental Rights are qualified, not absolute. The state can impose reasonable restrictions. (2) is incorrect; some rights, like Art 17 (Untouchability), are available against private individuals as well. (3) is correct; for example, Art 15, 16, 19 are for citizens only, while Art 14, 21 are for all persons.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following regarding the 'Right to Constitutional Remedies' under Article 32:\n1. It allows a citizen to move the Supreme Court directly for the enforcement of Fundamental Rights.\n2. Dr. B.R. Ambedkar called it the 'heart and soul' of the Constitution.\n3. The right to move the Supreme Court under Article 32 cannot be suspended under any circumstances.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct; it is a Fundamental Right itself. (2) is correct; Dr. Ambedkar emphasized its importance. (3) is incorrect; this right can be suspended during a National Emergency (Article 359), except for the rights guaranteed by Articles 20 and 21.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following are true about Directive Principles of State Policy (DPSPs)?\n1. They are fundamental to the governance of the country.\n2. They aim to establish a social and economic democracy.\n3. They are automatically enforced by the courts if the government violates them.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct; Article 37 states this. (2) is correct; they are the ideals for a welfare state. (3) is incorrect; DPSPs are non-justiciable, meaning they are not enforceable by the courts (Article 37).",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "DPSP"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following statements about Fundamental Duties (Part IV-A):\n1. They were added on the recommendation of the Swaran Singh Committee.\n2. They are applicable only to citizens of India.\n3. The 86th Amendment, 2002, added the duty to provide education to children (6-14 years).",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1 and 3 only" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "(1) is correct; they were added by the 42nd Amendment, 1976. (2) is correct; the duties are confined to citizens only. (3) is correct; this 11th Fundamental Duty was added by the 86th Amendment, which also made 'Right to Education' a Fundamental Right (Art 21A).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Fundamental Duties"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Regarding the amendment of the Constitution (Article 368), which statements are correct?\n1. A bill to amend the Constitution can only be introduced in the Lok Sabha.\n2. The bill must be passed in each House by a special majority.\n3. For amending federal provisions, it also requires ratification by half of the state legislatures by a special majority.",
+      "Options": [
+        { "id": 1, "text": "2 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 only",
+      "Explanation": "(1) is incorrect; the bill can be introduced in *either* House of Parliament. (2) is correct; this means a majority of the total membership and a majority of 2/3rds of members present and voting. (3) is incorrect; ratification by state legislatures must be by a *simple majority*, not a special majority.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Constitutional Amendment"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "What does the 'Basic Structure' doctrine, as laid down by the Supreme Court, imply?\n1. The Constitution has certain basic features that cannot be amended by Parliament.\n2. The Supreme Court has the final authority to define what constitutes the 'basic structure'.\n3. This doctrine was first clearly articulated in the Golaknath case (1967).",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct; it limits Parliament's amending power under Art 368. (2) is correct; the SC has not given an exhaustive list and decides it case-by-case. (3) is incorrect; the doctrine was laid down in the *Kesavananda Bharati case (1973)*, not the Golaknath case.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Basic Structure"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following regarding the President of India:\n1. The President is elected by an electoral college consisting of all members (elected and nominated) of Parliament and State Assemblies.\n2. The President can be impeached for 'violation of the Constitution'.\n3. All executive actions of the Government of India are formally taken in the President's name.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "(1) is incorrect; the electoral college consists of *only elected members* of Parliament and State Assemblies (and Delhi/Puducherry). Nominated members do not participate. (2) is correct; this is the only ground mentioned in Article 61. (3) is correct; (Article 77).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "President"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which statements correctly describe the 'Pardoning Power' of the President (Article 72)?\n1. It is an executive power, and the President is bound by the advice of the Council of Ministers.\n2. The President can pardon sentences given by a Court Martial.\n3. The President's power to pardon is absolute and cannot be subjected to judicial review.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct; the President does not act on his/her own discretion. (2) is correct; Article 72 explicitly includes this. (3) is incorrect; the SC (in Epuru Sudhakar case) held that the pardoning power *is* subject to judicial review on grounds of arbitrariness, mala fides, or non-application of mind.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "President"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following about the Vice-President of India:\n1. The Vice-President is the ex-officio Chairman of the Rajya Sabha.\n2. The electoral college for the Vice-President's election is the same as for the President's election.\n3. A formal impeachment process is required to remove the Vice-President.",
+      "Options": [
+        { "id": 1, "text": "1 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 only",
+      "Explanation": "(1) is correct (Article 64). (2) is incorrect; the VP's electoral college consists of *all members (elected and nominated)* of Parliament *only*. State Assemblies are not involved. (3) is incorrect; no formal impeachment is needed. The VP can be removed by a resolution of the Rajya Sabha (effective majority) agreed to by the Lok Sabha (simple majority).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Vice-President"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which statements are correct regarding the Council of Ministers?\n1. Article 74 states that there shall be a Council of Ministers with the Prime Minister at the head to aid and advise the President.\n2. The advice tendered by Ministers to the President can be inquired into by any court.\n3. The total number of Ministers, including the PM, shall not exceed 15% of the total strength of the Lok Sabha.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct. (2) is incorrect; Article 74(2) explicitly *bars* any court from inquiring into the advice tendered. (3) is correct; this provision was added by the 91st Amendment, 2003.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Parliament & Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "What does the 'Collective Responsibility' of the Council of Ministers (Article 75(3)) imply?\n1. All ministers are collectively responsible to the Lok Sabha.\n2. All ministers must publicly support cabinet decisions, even if they disagree privately.\n3. If a no-confidence motion is passed by the Lok Sabha, only the Prime Minister has to resign.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct; this is the bedrock of parliamentary democracy. (2) is correct; this is the principle of 'swimming and sinking together'. (3) is incorrect; if a no-confidence motion passes, the *entire* Council of Ministers must resign.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Parliament & Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following regarding the powers of the Lok Sabha and Rajya Sabha:\n1. A Money Bill can only be introduced in the Lok Sabha.\n2. The Rajya Sabha has no power to vote on the Demands for Grants in the Budget.\n3. The Rajya Sabha can amend or reject a Money Bill.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct (Article 109). (2) is correct; this power belongs exclusively to the Lok Sabha. (3) is incorrect; the Rajya Sabha can only make *recommendations* on a Money Bill, which the Lok Sabha may or may not accept. It cannot reject or amend it. It must return the bill within 14 days.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Parliament & Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which statements are correct about a 'Joint Sitting' of Parliament (Article 108)?\n1. A joint sitting can be summoned by the President to resolve a deadlock on a Money Bill.\n2. The joint sitting is presided over by the Speaker of the Lok Sabha.\n3. Matters at a joint sitting are decided by a special majority of the total members present.",
+      "Options": [
+        { "id": 1, "text": "2 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 only",
+      "Explanation": "(1) is incorrect; a joint sitting *cannot* be summoned for a Money Bill or a Constitutional Amendment Bill. It is only for Ordinary Bills. (2) is correct. In the Speaker's absence, the Deputy Speaker of Lok Sabha presides. (3) is incorrect; matters are decided by a *simple majority* of members present and voting.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Parliament & Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following statements regarding the Speaker of the Lok Sabha:\n1. The Speaker's salary and allowances are charged on the Consolidated Fund of India.\n2. The Speaker resigns by writing to the President of India.\n3. The Speaker does not vote in the first instance but exercises a casting vote in case of a tie.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct; this ensures the Speaker's independence as it is not subject to an annual vote. (2) is incorrect; the Speaker resigns by writing to the *Deputy Speaker*, and vice-versa. (3) is correct; this is the convention to maintain impartiality.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Parliament & Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following are Parliamentary devices to control the Executive?\n1. Question Hour\n2. Adjournment Motion\n3. No-Confidence Motion",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "(1) Question Hour holds ministers accountable. (2) An Adjournment Motion censures the government for a specific lapse on a matter of urgent public importance. (3) A No-Confidence Motion can lead to the fall of the government. All are key accountability tools.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Parliament & Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following regarding the 'Collegium System' for judicial appointments:\n1. It is a system established by the Constitution under Article 124.\n2. It was established by the Supreme Court through the 'Three Judges Cases'.\n3. It consists of the Chief Justice of India and the four senior-most judges of the SC for SC appointments.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "(1) is incorrect; the Constitution (Art 124) only mentions 'consultation' with the CJI. (2) is correct; the Collegium system is a judicial innovation, established through the Second (1993) and Third (1998) Judges Cases. (3) is correct; this is the composition for SC appointments.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which statements are correct about the removal of a Supreme Court Judge?\n1. A judge can be removed on grounds of 'proved misbehaviour or incapacity'.\n2. The removal motion must be passed by a simple majority in both Houses of Parliament.\n3. The removal motion must be signed by at least 100 members (Lok Sabha) or 50 members (Rajya Sabha) for introduction.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct; these are the only two grounds mentioned in the Constitution. (2) is incorrect; the motion must be passed by a *special majority* (majority of total membership + 2/3rds present and voting) in *both* Houses. (3) is correct; this is the rule for admitting the motion, as per the Judges (Inquiry) Act, 1968.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Regarding the 'Judicial Review' power of the Supreme Court, which statements are true?\n1. It is the power to examine the constitutionality of legislative and executive actions.\n2. The term 'Judicial Review' is explicitly mentioned in Article 13 of the Constitution.\n3. It forms a part of the 'Basic Structure' of the Constitution.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct; this is the definition of judicial review. (2) is incorrect; the term is *not* explicitly mentioned, but the power is implicitly granted by articles like 13, 32, and 136. (3) is correct; the SC declared judicial review as part of the basic structure in the Kesavananda Bharati case and reinforced it in the Minerva Mills case.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following about the Governor of a State:\n1. The Governor is appointed by the President and holds office during the President's pleasure.\n2. The Constitution lays down the grounds for the removal of a Governor by the President.\n3. The Governor has the power to reserve a bill for the consideration of the President.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct. 'Pleasure of the President' means the Governor can be removed at any time. (2) is incorrect; the Constitution does *not* specify any grounds for removal. (3) is correct; this is a key discretionary power under Article 200.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "State Government"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following are part of the 'Federal' features of the Indian Constitution?\n1. A written, rigid Constitution.\n2. A single, integrated judiciary.\n3. Bicameralism (Rajya Sabha representing states).",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is a key federal feature, as it limits the powers of both centre and state. (2) is a *unitary* (non-federal) feature, as a true federation (like the US) has separate federal and state judiciaries. (3) is a federal feature, as the upper house (Rajya Sabha) represents state interests.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Federalism"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following statements regarding 'President's Rule' (Article 356):\n1. It can be imposed when the government of a state cannot be carried on in accordance with the Constitution.\n2. Its proclamation must be approved by both Houses of Parliament within one month.\n3. The law-making power of the state legislature is transferred to the Parliament.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct; this is the constitutional ground. (2) is incorrect; the proclamation must be approved within *two months* (unlike a National Emergency, which is one month). (3) is correct; Parliament can then legislate on state subjects or delegate this power.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Emergency Provisions"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "What are the effects of a 'National Emergency' (Article 352)?\n1. The federal structure of the Constitution converts into a unitary one.\n2. The life of the Lok Sabha can be extended by one year at a time.\n3. The Fundamental Rights under Articles 20 and 21 are automatically suspended.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct; the Centre gains the power to legislate and give directions on any matter. (2) is correct. (3) is incorrect; Articles 20 (conviction for offences) and 21 (life and liberty) *cannot* be suspended. Other rights (like Art 19) can be suspended, but not automatically (except in cases of war/external aggression).",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Emergency Provisions"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following regarding the 73rd Amendment Act (Panchayati Raj):\n1. It provides for a three-tier system of Panchayati Raj in every state.\n2. It provides for the reservation of seats for SCs, STs, and women in Panchayats.\n3. It mandates the creation of a 'State Election Commission' to conduct all Panchayat elections.",
+      "Options": [
+        { "id": 1, "text": "2 and 3 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "(1) is incorrect; it provides a three-tier system, but states having a population *not exceeding 20 lakhs* are exempted from constituting the intermediate level. (2) is correct; reservation for SC/STs is in proportion to population, and 1/3rd reservation for women. (3) is correct; this body is responsible for conducting Panchayat elections.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Panchayati Raj"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which statements are correct about the 74th Amendment Act (Municipalities)?\n1. It added the 12th Schedule to the Constitution, containing 18 functional items for municipalities.\n2. It mandates the constitution of a 'District Planning Committee' (DPC).\n3. It makes it optional for state legislatures to provide for the reservation of seats for Scheduled Castes.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct. (2) is correct; the DPC is mandated to consolidate plans prepared by Panchayats and Municipalities in the district. (3) is incorrect; reservation for SCs and STs in proportion to their population is *mandatory*, not optional.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Municipalities"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following statements about the Attorney General (AG) of India:\n1. The AG must have the same qualifications as a judge of the Supreme Court.\n2. The AG holds office for a fixed term of 5 years.\n3. The AG has the right to speak and take part in the proceedings of either House of Parliament.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct (Article 76). (2) is incorrect; the Constitution does not fix the AG's term. The AG holds office during the *pleasure of the President*. (3) is correct; the AG enjoys parliamentary privileges but does not have the right to vote (Article 88).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following are correct regarding the Election Commission of India (ECI)?\n1. It is a multi-member body consisting of one Chief Election Commissioner (CEC) and two Election Commissioners.\n2. The CEC and other ECs hold office during the pleasure of the President.\n3. The ECI is responsible for conducting elections for Parliament, State Legislatures, and Panchayats.",
+      "Options": [
+        { "id": 1, "text": "1 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "None of the above" }
+      ],
+      "CorrectAnswer": "1 only",
+      "Explanation": "(1) is correct; since 1993, it has been a multi-member body. (2) is incorrect; they have a fixed tenure (6 years or 65 years) and the CEC can only be removed like a Supreme Court judge. Other ECs can only be removed on the CEC's recommendation. (3) is incorrect; the ECI does *not* conduct elections for Panchayats and Municipalities (this is done by the State Election Commission).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following about the Comptroller and Auditor General (CAG) of India:\n1. The CAG is appointed by the President and can be removed in the same manner as a Supreme Court judge.\n2. The CAG's salary and the administrative expenses of the CAG's office are charged upon the Consolidated Fund of India.\n3. The CAG audits the accounts of the Union, the States, and all bodies substantially financed by the government.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "(1) is correct; this ensures the CAG's independence. (2) is correct; this means they are not subject to the vote of Parliament, further securing independence. (3) is correct; the CAG has a wide audit jurisdiction.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which statements are true regarding the Finance Commission (Article 280)?\n1. It is a quasi-judicial body constituted by the President every five years.\n2. It makes recommendations on the distribution of tax revenues between the Union and the States.\n3. The recommendations of the Finance Commission are binding on the Government.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct. (2) is correct; this is its primary function (vertical and horizontal devolution). (3) is incorrect; the recommendations are *advisory* in nature and are not binding, although the government generally accepts them.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following about the Union Public Service Commission (UPSC):\n1. The Chairman and members are appointed by the President.\n2. The Constitution has fixed the tenure of the members at 6 years or 65 years of age.\n3. The UPSC is consulted on matters of disciplinary action against a civil servant.",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "2 and 3 only" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "(1) is correct (Article 316). (2) is correct (Article 316). (3) is correct; this is one of the key functions of the UPSC, as outlined in Article 320, to safeguard the interests of civil servants.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following bodies are 'Statutory Bodies' (created by an Act of Parliament)?\n1. National Human Rights Commission (NHRC)\n2. National Commission for Women (NCW)\n3. National Green Tribunal (NGT)",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three are statutory bodies. (1) NHRC was established under the Protection of Human Rights Act, 1993. (2) NCW was established under the National Commission for Women Act, 1990. (3) NGT was established under the National Green Tribunal Act, 2010.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Non-Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following about the NITI Aayog:\n1. It is a constitutional body established under Article 282.\n2. It serves as a 'think tank' for the government and follows a 'bottom-up' approach.\n3. The Prime Minister of India is the ex-officio Chairperson of the NITI Aayog.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "(1) is incorrect; NITI Aayog is *not* a constitutional or statutory body. It was established by an *executive resolution* of the Union Cabinet. (2) is correct; this is its primary objective, promoting cooperative federalism. (3) is correct.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Non-Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which statements are correct regarding the powers of the Governor of a state?\n1. The Governor can promulgate ordinances when the state legislature is not in session.\n2. The Governor appoints the Advocate General of the state.\n3. The Governor has the power to pardon a death sentence.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct (Article 213). (2) is correct (Article 165). (3) is incorrect; the power to pardon a death sentence rests *exclusively* with the President (Article 72). The Governor can only suspend, remit, or commute a death sentence (Article 161).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "State Government"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following regarding the State Legislative Council (Vidhan Parishad):\n1. It is a permanent house, and 1/3rd of its members retire every two years.\n2. Its creation or abolition requires a Constitutional Amendment under Article 368.\n3. The Governor nominates 1/6th of its total members.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct; like the Rajya Sabha, it is a continuing chamber. (2) is incorrect; it can be created or abolished by Parliament (by simple majority) if the concerned State Assembly passes a resolution (by special majority). This is not considered an amendment under Art 368. (3) is correct.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "State Government"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following statements about 'Public Interest Litigation' (PIL) are correct?\n1. It is a concept that originated in the Indian judicial system.\n2. It allows any person to petition the court on behalf of an aggrieved person or group.\n3. Justice P.N. Bhagwati is often considered a pioneer of PIL in India.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "(1) is incorrect; the concept of PIL originated in the United States. (2) is correct; it relaxed the traditional rule of 'locus standi'. (3) is correct; Justice P.N. Bhagwati and Justice V.R. Krishna Iyer were key figures in developing PIL in India.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following regarding the Anti-Defection Law (10th Schedule):\n1. It was added to the Constitution by the 52nd Amendment Act, 1985.\n2. The decision of the presiding officer (Speaker/Chairman) on disqualification is final and not subject to judicial review.\n3. A member nominated to a House is disqualified if they join any political party after 6 months from taking their seat.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct. (2) is incorrect; the Supreme Court in the *Kihoto Hollohan case (1992)* held that the presiding officer's decision *is* subject to judicial review. (3) is correct; a nominated member is given a 6-month window to join a party, but not after.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Anti-Defection Law"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following are mentioned in the Constitution as criteria for disqualification of a Member of Parliament?\n1. If he holds an office of profit under the Government of India or any state government.\n2. If he is of unsound mind and stands so declared by a competent court.\n3. If he is found guilty of a corrupt electoral practice in an election.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct (Article 102). (2) is correct (Article 102). (3) is incorrect; this disqualification is *not* mentioned in the Constitution itself. It is mentioned in the *Representation of the People Act (RPA), 1951*.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Parliament & Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following statements regarding 'Adjournment' and 'Prorogation' of a House:\n1. 'Adjournment' terminates a sitting of the House and is done by the presiding officer.\n2. 'Prorogation' terminates a session of the House and is done by the President.\n3. Prorogation also leads to the lapse of bills pending in the House.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct. (2) is correct. (3) is incorrect; Prorogation does *not* lead to the lapse of pending bills. Only *dissolution* of the Lok Sabha can cause bills to lapse.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Parliament & Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following Parliamentary Committees are chaired by a member of the opposition party (by convention)?\n1. Public Accounts Committee (PAC)\n2. Estimates Committee\n3. Committee on Public Undertakings",
+      "Options": [
+        { "id": 1, "text": "1 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 only",
+      "Explanation": "(1) is correct; by convention since 1967, the chairperson of the PAC is appointed from the opposition. (2) is incorrect; the chairperson of the Estimates Committee is always from the ruling party. (3) is incorrect; the chairperson of the COPU is also appointed from the ruling party.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Parliamentary Committees"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following regarding 'Cut Motions' in the Parliament:\n1. A 'Policy Cut' motion demands the amount of the demand be reduced to Re. 1.\n2. An 'Economy Cut' motion demands the amount be reduced by a specific amount.\n3. The passing of a cut motion in the Lok Sabha amounts to a no-confidence motion.",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "2 and 3 only" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "(1) is correct; it represents disapproval of the policy. (2) is correct; it represents a demand for economy. (3) is correct; since the demands for grants are part of the budget, if a cut motion is passed, it implies the government has lost its majority, and it must resign.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Parliament & Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following statements about 'Article 19' (Right to Freedom) are correct?\n1. It guarantees six fundamental freedoms, such as freedom of speech and expression.\n2. These rights are protected against state action only, not private individuals.\n3. These rights are automatically suspended when a National Emergency is declared.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct. (2) is correct; these rights are generally a claim against the state. (3) is incorrect; they are automatically suspended *only* when the emergency is declared on grounds of *war or external aggression*, not on the ground of *armed rebellion* (44th Amendment).",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following regarding the 'Right to Privacy':\n1. It is explicitly mentioned as a Fundamental Right under Article 21.\n2. The Supreme Court declared it a Fundamental Right in the K.S. Puttaswamy case (2017).\n3. This right is an absolute right and cannot be restricted by the government.",
+      "Options": [
+        { "id": 1, "text": "2 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 only",
+      "Explanation": "(1) is incorrect; it is *not* explicitly mentioned. It is an *intrinsic* part of Article 21. (2) is correct; the 9-judge bench unanimously affirmed this. (3) is incorrect; like other fundamental rights, it is *not* absolute and is subject to reasonable restrictions.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which statements are correct about the 'Writ' jurisdiction of the Supreme Court and High Courts?\n1. The Supreme Court can issue writs only for the enforcement of Fundamental Rights (Art 32).\n2. A High Court can issue writs for Fundamental Rights and 'for any other purpose' (Art 226).\n3. The writ jurisdiction of the High Court is therefore wider than that of the Supreme Court.",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1 and 3 only" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "(1) is correct; Art 32 is limited to Fundamental Rights. (2) is correct; 'any other purpose' means for enforcement of any ordinary legal right. (3) is correct; because the High Court's jurisdiction is not restricted to just Fundamental Rights, its writ jurisdiction is wider in scope.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following regarding 'Inter-State Council' (Article 263):\n1. It is a constitutional body set up by the President of India.\n2. It is a permanent body that meets at least three times a year.\n3. It is chaired by the Prime Minister of India.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct; it was established in 1990 on the recommendation of the Sarkaria Commission. (2) is incorrect; it is *not* a permanent body (unlike the GST Council). It can be established 'at any time' if it appears to the President that the public interest would be served. (3) is correct.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Federalism"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following are 'extra-constitutional' bodies (not mentioned in the Constitution)?\n1. Zonal Councils\n2. NITI Aayog\n3. National Development Council (NDC)",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "(1) is incorrect; Zonal Councils are *statutory* bodies, created by the States Reorganisation Act, 1956. (2) is correct; NITI Aayog was created by an executive resolution. (3) is correct; the NDC was also created by an executive resolution (1952).",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Non-Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following regarding the 44th Amendment Act, 1978:\n1. It deleted the 'Right to Property' from the list of Fundamental Rights.\n2. It replaced the term 'internal disturbance' with 'armed rebellion' for National Emergency.\n3. It made the advice of the Council of Ministers binding on the President.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct; it was made a legal right under Article 300-A. (2) is correct; this was done to prevent misuse. (3) is incorrect; this was done by the *42nd Amendment*. The 44th Amendment *added* a proviso allowing the President to return the advice once for reconsideration.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Constitutional Amendment"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which statements are correct regarding the 'Citizenship' provisions in India?\n1. The Constitution of India provides for dual citizenship.\n2. A person can acquire citizenship by birth, descent, registration, or naturalization.\n3. The power to make laws regarding citizenship rests exclusively with the Parliament.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "(1) is incorrect; India has a single citizenship. (2) is correct; these are the modes specified in the Citizenship Act, 1955. (3) is correct; Article 11 gives this power to the Parliament.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Citizenship"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following statements about the 'Contingency Fund of India':\n1. It is placed at the disposal of the President of India.\n2. It is used to meet unforeseen expenditure, pending authorization by Parliament.\n3. It is established under an Act of Parliament, not by the Constitution itself.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct; the President can make advances from it. (2) is correct; any expenditure from it must be subsequently approved by Parliament and returned to the fund. (3) is incorrect; Article 267 of the *Constitution* itself empowers Parliament to establish this fund, which it did via the Contingency Fund of India Act, 1950.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Financial Administration"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following are correct regarding the 'Consolidated Fund of India' (CFI)?\n1. All revenues, loans, and repayments of loans received by the government form the CFI.\n2. No money can be withdrawn from the CFI except under an appropriation made by law.\n3. The salaries of the President and Supreme Court judges are 'voted upon' by Parliament from this fund.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct (Article 266). (2) is correct; this is why the Parliament must pass the 'Appropriation Bill'. (3) is incorrect; these expenditures are 'charged upon' the CFI, meaning they are *not* subject to the vote of Parliament.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Financial Administration"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following regarding the 'Lokpal and Lokayuktas Act, 2013':\n1. It establishes the Lokpal at the Centre and requires states to establish Lokayuktas.\n2. The Prime Minister is outside the jurisdiction of the Lokpal.\n3. The Lokpal consists of a Chairperson and a maximum of 8 members.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct. (2) is incorrect; the Prime Minister *is* under the Lokpal's jurisdiction, albeit with certain exceptions (e.g., international relations, security). (3) is correct; 50% of the members must be judicial members, and 50% must be from SC/ST/OBC/Minorities/Women.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Non-Constitutional Bodies"
+    },
+    {
+        "category": "Indian History (1857+)",
+        "Question": "Who was the first Indian to be elected as a member of the British House of Commons?",
+        "Options": [
+          { "id": 1, "text": "W.C. Bonnerjee" },
+          { "id": 2, "text": "Dadabhai Naoroji" },
+          { "id": 3, "text": "Gopal Krishna Gokhale" },
+          { "id": 4, "text": "Ferozeshah Mehta" }
+        ],
+        "CorrectAnswer": "Dadabhai Naoroji",
+        "Explanation": "Dadabhai Naoroji, known as the 'Grand Old Man of India', was elected as a Liberal Party MP for Finsbury Central in London in 1892, becoming the first Indian to sit in the British Parliament.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Moderate Nationalism"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Annihilation of Caste' was a famous undelivered speech written by whom?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "E.V. Ramasamy (Periyar)" },
+          { "id": 3, "text": "Dr. B.R. Ambedkar" },
+          { "id": 4, "text": "Jyotirao Phule" }
+        ],
+        "CorrectAnswer": "Dr. B.R. Ambedkar",
+        "Explanation": "Dr. B.R. Ambedkar wrote this speech for the 1936 annual conference of the Jat-Pat Todak Mandal. However, the speech was cancelled by the organizers due to its controversial content, and Ambedkar published it himself.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Social Reform Movement"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who founded the 'Ghadar Party' in San Francisco in 1913?",
+        "Options": [
+          { "id": 1, "text": "Lala Lajpat Rai" },
+          { "id": 2, "text": "Bhagat Singh" },
+          { "id": 3, "text": "Sohan Singh Bhakna" },
+          { "id": 4, "text": "Lala Hardayal" }
+        ],
+        "CorrectAnswer": "Lala Hardayal",
+        "Explanation": "The Ghadar Party was founded by Indian immigrants in the USA. While Sohan Singh Bhakna was its president, Lala Hardayal was the key intellectual force and general secretary who organized the party.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Revolutionary Nationalism"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Direct Action Day' (16 August 1946) was a call given by which political party?",
+        "Options": [
+          { "id": 1, "text": "Indian National Congress" },
+          { "id": 2, "text": "Communist Party of India" },
+          { "id": 3, "text": "Hindu Mahasabha" },
+          { "id": 4, "text": "Muslim League" }
+        ],
+        "CorrectAnswer": "Muslim League",
+        "Explanation": "The Muslim League, led by Muhammad Ali Jinnah, called for 'Direct Action Day' to assert its demand for a separate Muslim homeland (Pakistan) after the failure of the Cabinet Mission. It led to widespread communal riots, especially in Calcutta.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Partition & Independence"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who authored the book 'Poverty and Un-British Rule in India'?",
+        "Options": [
+          { "id": 1, "text": "R.C. Dutt" },
+          { "id": 2, "text": "Dadabhai Naoroji" },
+          { "id": 3, "text": "M.G. Ranade" },
+          { "id": 4, "text": "Gopal Krishna Gokhale" }
+        ],
+        "CorrectAnswer": "Dadabhai Naoroji",
+        "Explanation": "In this 1901 book, Dadabhai Naoroji articulated the 'Drain of Wealth' theory, arguing that British colonial rule was draining India's resources and causing its poverty.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Economic Impact of British Rule"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Aligarh Movement' was founded by whom?",
+        "Options": [
+          { "id": 1, "text": "Sir Syed Ahmed Khan" },
+          { "id": 2, "text": "Aga Khan" },
+          { "id": 3, "text": "Muhammad Ali Jinnah" },
+          { "id": 4, "text": "Maulana Azad" }
+        ],
+        "CorrectAnswer": "Sir Syed Ahmed Khan",
+        "Explanation": "Sir Syed Ahmed Khan founded the Aligarh Movement to promote modern, Western education among Indian Muslims, leading to the establishment of the Muhammadan Anglo-Oriental College (later Aligarh Muslim University) in 1875.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "Social Reform Movement"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The infamous 'Komagata Maru' incident in 1914 involved a ship of Indian immigrants being turned away from which country?",
+        "Options": [
+          { "id": 1, "text": "USA" },
+          { "id": 2, "text": "South Africa" },
+          { "id": 3, "text": "Canada" },
+          { "id": 4, "text": "Australia" }
+        ],
+        "CorrectAnswer": "Canada",
+        "Explanation": "The Komagata Maru was a Japanese ship chartered to carry 376 Indian passengers to Canada. They were denied entry at Vancouver due to racist immigration laws and forced to return to India.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Revolutionary Nationalism"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who was the first President of the Indian National Congress (INC)?",
+        "Options": [
+          { "id": 1, "text": "A.O. Hume" },
+          { "id": 2, "text": "W.C. Bonnerjee" },
+          { "id": 3, "text": "Dadabhai Naoroji" },
+          { "id": 4, "text": "Badruddin Tyabji" }
+        ],
+        "CorrectAnswer": "W.C. Bonnerjee",
+        "Explanation": "Womesh Chunder Bonnerjee, a barrister from Calcutta, presided over the first session of the INC held in Bombay in December 1885.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Indian National Congress"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Montagu-Chelmsford Reforms' of 1919 introduced which system in the provinces?",
+        "Options": [
+          { "id": 1, "text": "Provincial Autonomy" },
+          { "id": 2, "text": "Separate Electorates" },
+          { "id": 3, "text": "Diarchy" },
+          { "id": 4, "text": "Responsible Government" }
+        ],
+        "CorrectAnswer": "Diarchy",
+        "Explanation": "The Government of India Act, 1919, introduced 'Diarchy' (dual rule) in the provinces, dividing subjects into 'Reserved' (controlled by the Governor) and 'Transferred' (controlled by Indian ministers).",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Constitutional Development"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Mahatma Gandhi's first major public appearance in India was at the inauguration of which university in 1916?",
+        "Options": [
+          { "id": 1, "text": "Aligarh Muslim University" },
+          { "id": 2, "text": "University of Calcutta" },
+          { "id": 3, "text": "Banaras Hindu University" },
+          { "id": 4, "text": "University of Bombay" }
+        ],
+        "CorrectAnswer": "Banaras Hindu University",
+        "Explanation": "In February 1916, Gandhi was invited to speak at the inauguration of the Banaras Hindu University (BHU), where his speech criticizing the elite and the British caused a significant stir.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The Bardoli Satyagraha (1928), a major peasant movement, was led by whom?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "Jawaharlal Nehru" },
+          { "id": 3, "text": "Vinoba Bhave" },
+          { "id": 4, "text": "Sardar Vallabhbhai Patel" }
+        ],
+        "CorrectAnswer": "Sardar Vallabhbhai Patel",
+        "Explanation": "Vallabhbhai Patel led the successful 'no-tax' campaign for the farmers of Bardoli against a 30% tax hike. His effective leadership earned him the title 'Sardar' from the women of Bardoli.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who was the Viceroy of India when the Partition of Bengal was annulled in 1911?",
+        "Options": [
+          { "id": 1, "text": "Lord Curzon" },
+          { "id": 2, "text": "Lord Hardinge" },
+          { "id": 3, "text": "Lord Minto" },
+          { "id": 4, "text": "Lord Chelmsford" }
+        ],
+        "CorrectAnswer": "Lord Hardinge",
+        "Explanation": "The Partition of Bengal (1905) was annulled by Lord Hardinge at the Delhi Durbar in 1911, in response to the intense Swadeshi movement. The capital was also shifted from Calcutta to Delhi.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Nationalist Movement"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Khilafat Movement' was launched by Indian Muslims to protest against the treatment of the Caliph of which country?",
+        "Options": [
+          { "id": 1, "text": "Saudi Arabia" },
+          { "id": 2, "text": "Egypt" },
+          { "id": 3, "text": "Persia (Iran)" },
+          { "id": 4, "text": "Turkey" }
+        ],
+        "CorrectAnswer": "Turkey",
+        "Explanation": "The movement was launched to protest the dismemberment of the Ottoman Empire and the abolition of the Caliphate (Khalifa) of Turkey by the Allied powers after World War I. Gandhi supported it to foster Hindu-Muslim unity.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who reorganized the 'Hindustan Republican Association' (HRA) as the 'Hindustan Socialist Republican Association' (HSRA) in 1928?",
+        "Options": [
+          { "id": 1, "text": "Ram Prasad Bismil" },
+          { "id": 2, "text": "Subhas Chandra Bose" },
+          { "id": 3, "text": "Chandra Shekhar Azad" },
+          { "id": 4, "text": "Lala Lajpat Rai" }
+        ],
+        "CorrectAnswer": "Chandra Shekhar Azad",
+        "Explanation": "Following the Kakori Conspiracy, the HRA was weakened. In 1928, at Feroz Shah Kotla, Chandra Shekhar Azad, along with Bhagat Singh and others, reorganized it as the HSRA, officially adopting socialism as their goal.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Revolutionary Nationalism"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Nehru Report' (1928) was drafted by a committee in response to what challenge?",
+        "Options": [
+          { "id": 1, "text": "The Cripps Mission" },
+          { "id": 2, "text": "The Jallianwala Bagh Massacre" },
+          { "id": 3, "text": "The Rowlatt Act" },
+          { "id": 4, "text": "The Simon Commission" }
+        ],
+        "CorrectAnswer": "The Simon Commission",
+        "Explanation": "The British appointed the all-white Simon Commission, which was boycotted by Indians. Lord Birkenhead, Secretary of State, challenged Indians to frame their own constitution. The 'Nehru Report', led by Motilal Nehru, was the response.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Constitutional Development"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Gandhi-Irwin Pact' of 1931 led to the suspension of which movement?",
+        "Options": [
+          { "id": 1, "text": "Non-Cooperation Movement" },
+          { "id": 2, "text": "Civil Disobedience Movement" },
+          { "id": 3, "text": "Quit India Movement" },
+          { "id": 4, "text": "Khilafat Movement" }
+        ],
+        "CorrectAnswer": "Civil Disobedience Movement",
+        "Explanation": "As per the pact, Gandhi agreed to suspend the Civil Disobedience Movement (which started with the Dandi March) and attend the Second Round Table Conference in London.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who was the first *Indian woman* President of the Indian National Congress?",
+        "Options": [
+          { "id": 1, "text": "Annie Besant" },
+          { "id": 2, "text": "Kasturba Gandhi" },
+          { "id": 3, "text": "Sarojini Naidu" },
+          { "id": 4, "text": "Vijaya Lakshmi Pandit" }
+        ],
+        "CorrectAnswer": "Sarojini Naidu",
+        "Explanation": "While Annie Besant was the first woman President (1917), Sarojini Naidu was the first *Indian* woman President, presiding over the Kanpur session in 1925.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Indian National Congress"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Communal Award' (1932) was announced by which British Prime Minister?",
+        "Options": [
+          { "id": 1, "text": "Winston Churchill" },
+          { "id": 2, "text": "Clement Attlee" },
+          { "id": 3, "text": "Neville Chamberlain" },
+          { "id": 4, "text": "Ramsay MacDonald" }
+        ],
+        "CorrectAnswer": "Ramsay MacDonald",
+        "Explanation": "Ramsay MacDonald announced the 'Communal Award', which granted separate electorates to depressed classes (Dalits). This led to Gandhi's 'fast unto death' and the subsequent Poona Pact.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Constitutional Development"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The Haripura Session of the INC (1938), presided over by Subhas Chandra Bose, set up which important committee?",
+        "Options": [
+          { "id": 1, "text": "National Planning Committee" },
+          { "id": 2, "text": "Fundamental Rights Committee" },
+          { "id": 3, "text": "Press Freedom Committee" },
+          { "id": 4, "text": "Civil Disobedience Committee" }
+        ],
+        "CorrectAnswer": "National Planning Committee",
+        "Explanation": "A key outcome of the Haripura session was the formation of the National Planning Committee, with Jawaharlal Nehru as its chairman, to chart India's future economic development.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "Nationalist Movement"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Indian National Army' (INA) was first formed by whom in 1942?",
+        "Options": [
+          { "id": 1, "text": "Subhas Chandra Bose" },
+          { "id": 2, "text": "Rash Behari Bose" },
+          { "id": 3, "text": "Captain Mohan Singh" },
+          { "id": 4, "text": "Shah Nawaz Khan" }
+        ],
+        "CorrectAnswer": "Captain Mohan Singh",
+        "Explanation": "The idea of the INA was first conceived by Captain Mohan Singh, an Indian officer in the British army captured by the Japanese. Subhas Chandra Bose later took command in 1943 and revitalized it.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Road to Independence"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who was the last Viceroy of British India?",
+        "Options": [
+          { "id": 1, "text": "Lord Wavell" },
+          { "id": 2, "text": "Lord Linlithgow" },
+          { "id": 3, "text": "Lord Mountbatten" },
+          { "id": 4, "text": "C. Rajagopalachari" }
+        ],
+        "CorrectAnswer": "Lord Mountbatten",
+        "Explanation": "Lord Mountbatten was the last Viceroy of British India (1947) and the first Governor-General of the independent Dominion of India (1947-48).",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Partition & Independence"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Bhoodan Movement' (land-gift movement) was initiated by whom?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "Jayaprakash Narayan" },
+          { "id": 3, "text": "Acharya Vinoba Bhave" },
+          { "id": 4, "text": "Sardar Patel" }
+        ],
+        "CorrectAnswer": "Acharya Vinoba Bhave",
+        "Explanation": "In 1951, Acharya Vinoba Bhave started the Bhoodan Movement in Pochampally, Telangana, persuading wealthy landowners to voluntarily donate land to be redistributed to the landless.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Post-Independence India"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Ilbert Bill' controversy (1883) was related to what issue?",
+        "Options": [
+          { "id": 1, "text": "Banning child marriage" },
+          { "id": 2, "text": "Freedom of the press" },
+          { "id": 3, "text": "Allowing Indian judges to try Europeans" },
+          { "id": 4, "text": "Reducing the age for civil services" }
+        ],
+        "CorrectAnswer": "Allowing Indian judges to try Europeans",
+        "Explanation": "The bill, introduced under Lord Ripon, sought to remove racial discrimination by allowing Indian judges to try Europeans. It faced intense backlash from the European community and was largely withdrawn.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Pre-Congress Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who founded the 'Servants of India Society' in 1905?",
+        "Options": [
+          { "id": 1, "text": "Bal Gangadhar Tilak" },
+          { "id": 2, "text": "Lala Lajpat Rai" },
+          { "id": 3, "text": "M.G. Ranade" },
+          { "id": 4, "text": "Gopal Krishna Gokhale" }
+        ],
+        "CorrectAnswer": "Gopal Krishna Gokhale",
+        "Explanation": "Gokhale, a prominent Moderate leader, founded the Servants of India Society in Pune to train a dedicated cadre of Indians for selfless service to the nation.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Moderate Nationalism"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Home Rule League' movement (1916) was started by Bal Gangadhar Tilak and whom?",
+        "Options": [
+          { "id": 1, "text": "Sarojini Naidu" },
+          { "id": 2, "text": "Annie Besant" },
+          { "id": 3, "text": "Motilal Nehru" },
+          { "id": 4, "text": "C.R. Das" }
+        ],
+        "CorrectAnswer": "Annie Besant",
+        "Explanation": "The movement was launched on parallel lines, with Tilak's league operating in Maharashtra and Karnataka, and Annie Besant's league operating in the rest of India, both demanding self-government.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Nationalist Movement"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Kakori Conspiracy' (1925) was a train robbery organized by which revolutionary group?",
+        "Options": [
+          { "id": 1, "text": "Ghadar Party" },
+          { "id": 2, "text": "Anushilan Samiti" },
+          { "id": 3, "text": "Hindustan Republican Association (HRA)" },
+          { "id": 4, "text": "Jugantar" }
+        ],
+        "CorrectAnswer": "Hindustan Republican Association (HRA)",
+        "Explanation": "The Kakori train robbery was carried out by members of the HRA, including Ram Prasad Bismil, Ashfaqulla Khan, and Roshan Singh, to acquire funds for their revolutionary activities.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Revolutionary Nationalism"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "At which Round Table Conference did Mahatma Gandhi represent the Indian National Congress?",
+        "Options": [
+          { "id": 1, "text": "First Round Table Conference" },
+          { "id": 2, "text": "Second Round Table Conference" },
+          { "id": 3, "text": "Third Round Table Conference" },
+          { "id": 4, "text": "He boycotted all three" }
+        ],
+        "CorrectAnswer": "Second Round Table Conference",
+        "Explanation": "Following the Gandhi-Irwin Pact, Gandhi attended the Second Round Table Conference in London in 1931 as the sole representative of the Congress. The talks failed.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who was the first Indian Governor-General of independent India?",
+        "Options": [
+          { "id": 1, "text": "Lord Mountbatten" },
+          { "id": 2, "text": "Dr. Rajendra Prasad" },
+          { "id": 3, "text": "Sardar Patel" },
+          { "id": 4, "text": "C. Rajagopalachari" }
+        ],
+        "CorrectAnswer": "C. Rajagopalachari",
+        "Explanation": "After Lord Mountbatten stepped down in 1948, C. Rajagopalachari (Rajaji) became the first and only Indian Governor-General, serving until India became a republic in 1950.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Post-Independence India"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Vernacular Press Act' of 1878, which clamped down on the Indian-language press, was passed by which Viceroy?",
+        "Options": [
+          { "id": 1, "text": "Lord Lytton" },
+          { "id": 2, "text": "Lord Ripon" },
+          { "id": 3, "text": "Lord Curzon" },
+          { "id": 4, "text": "Lord Dufferin" }
+        ],
+        "CorrectAnswer": "Lord Lytton",
+        "Explanation": "Lord Lytton, known for his reactionary policies, passed this act to suppress criticism in the vernacular press. It was nicknamed the 'Gagging Act' and later repealed by Lord Ripon.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "Pre-Congress Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Surat Split' of 1907 refers to the split in the Indian National Congress between which two factions?",
+        "Options": [
+          { "id": 1, "text": "Pro-partition and Anti-partition" },
+          { "id": 2, "text": "Gandhians and Revolutionaries" },
+          { "id": 3, "text": "Moderates and Extremists" },
+          { "id": 4, "text": "Congress and Muslim League" }
+        ],
+        "CorrectAnswer": "Moderates and Extremists",
+        "Explanation": "The 1907 Surat session saw a split between the Moderates (led by Gokhale) and the Extremists (led by Tilak) over the pace of the movement and the candidate for president.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Indian National Congress"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Mahatma Gandhi's 'Champaran Satyagraha' (1917) was launched to address the grievances of whom?",
+        "Options": [
+          { "id": 1, "text": "Textile mill workers" },
+          { "id": 2, "text": "Indigo farmers" },
+          { "id": 3, "text": "Landless labourers" },
+          { "id": 4, "text": "Peasants in Kheda" }
+        ],
+        "CorrectAnswer": "Indigo farmers",
+        "Explanation": "This was Gandhi's first satyagraha in India. He went to Champaran, Bihar, to support the indigo farmers who were being forced by European planters to cultivate indigo under the oppressive 'tinkathia' system.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who founded the 'Ramakrishna Mission' in 1897?",
+        "Options": [
+          { "id": 1, "text": "Ramakrishna Paramahamsa" },
+          { "id": 2, "text": "Dayananda Saraswati" },
+          { "id": 3, "text": "Aurobindo Ghosh" },
+          { "id": 4, "text": "Swami Vivekananda" }
+        ],
+        "CorrectAnswer": "Swami Vivekananda",
+        "Explanation": "Swami Vivekananda, the chief disciple of Ramakrishna Paramahamsa, founded the Ramakrishna Mission to carry out humanitarian and social work, based on the principles of Vedanta.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Social Reform Movement"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Cabinet Mission' of 1946 was led by whom?",
+        "Options": [
+          { "id": 1, "text": "Lord Mountbatten" },
+          { "id": 2, "text": "Sir Stafford Cripps" },
+          { "id": 3, "text": "Lord Pethick-Lawrence" },
+          { "id": 4, "text": "Clement Attlee" }
+        ],
+        "CorrectAnswer": "Lord Pethick-Lawrence",
+        "Explanation": "The Cabinet Mission had three members: Lord Pethick-Lawrence (Secretary of State for India), Sir Stafford Cripps, and A.V. Alexander. Lord Pethick-Lawrence was its chairman.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Road to Independence"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who was the 'political guru' of Mahatma Gandhi?",
+        "Options": [
+          { "id": 1, "text": "Bal Gangadhar Tilak" },
+          { "id": 2, "text": "Gopal Krishna Gokhale" },
+          { "id": 3, "text": "Dadabhai Naoroji" },
+          { "id": 4, "text": "M.G. Ranade" }
+        ],
+        "CorrectAnswer": "Gopal Krishna Gokhale",
+        "Explanation": "Gandhi regarded Gokhale as his political mentor. It was on Gokhale's advice that Gandhi toured India for a year after returning from South Africa to understand the country's problems.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'August Declaration' of 1917, promising 'responsible government', was made by whom?",
+        "Options": [
+          { "id": 1, "text": "Edwin Montagu" },
+          { "id": 2, "text": "Lord Chelmsford" },
+          { "id": 3, "text": "Lord Morley" },
+          { "id": 4, "text": "King George V" }
+        ],
+        "CorrectAnswer": "Edwin Montagu",
+        "Explanation": "Edwin Montagu, the Secretary of State for India, made this declaration in the British Parliament, stating the goal of 'gradual development of self-governing institutions' in India.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "Constitutional Development"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Lahore Conspiracy Case' (1929) trial was for which act committed by Bhagat Singh and his comrades?",
+        "Options": [
+          { "id": 1, "text": "The Kakori train robbery" },
+          { "id": 2, "text": "Bombing the Central Legislative Assembly" },
+          { "id": 3, "text": "The assassination of J.P. Saunders" },
+          { "id": 4, "text": "Attempted assassination of Lord Irwin" }
+        ],
+        "CorrectAnswer": "The assassination of J.P. Saunders",
+        "Explanation": "Bhagat Singh, Rajguru, and Azad assassinated police officer J.P. Saunders in 1928, believing he was James Scott, the officer responsible for the lathi-charge that killed Lala Lajpat Rai.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Revolutionary Nationalism"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who founded the 'Arya Samaj' in 1875?",
+        "Options": [
+          { "id": 1, "text": "Raja Ram Mohan Roy" },
+          { "id": 2, "text": "Ishwar Chandra Vidyasagar" },
+          { "id": 3, "text": "Dayananda Saraswati" },
+          { "id": 4, "text": "Keshab Chandra Sen" }
+        ],
+        "CorrectAnswer": "Dayananda Saraswati",
+        "Explanation": "Swami Dayananda Saraswati founded the Arya Samaj as a reform movement to reject idolatry and ritualism, giving the call 'Go back to the Vedas'.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Social Reform Movement"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who was chosen as the first satyagrahi in the 'Individual Satyagraha' (1940)?",
+        "Options": [
+          { "id": 1, "text": "Jawaharlal Nehru" },
+          { "id": 2, "text": "Sardar Patel" },
+          { "id": 3, "text": "Mahatma Gandhi" },
+          { "id": 4, "text": "Acharya Vinoba Bhave" }
+        ],
+        "CorrectAnswer": "Acharya Vinoba Bhave",
+        "Explanation": "Gandhi launched the Individual Satyagraha to protest India's forced involvement in WWII. He chose Acharya Vinoba Bhave as the first satyagrahi, followed by Jawaharlal Nehru.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who was the first woman graduate of Calcutta University (1882) and one of the first female physicians in South Asia?",
+        "Options": [
+          { "id": 1, "text": "Pandita Ramabai" },
+          { "id": 2, "text": "Anandi Gopal Joshi" },
+          { "id": 3, "text": "Sarojini Naidu" },
+          { "id": 4, "text": "Kadambini Ganguly" }
+        ],
+        "CorrectAnswer": "Kadambini Ganguly",
+        "Explanation": "Kadambini Ganguly (along with Chandramukhi Basu) was one of the first female graduates of the British Empire. She later became a physician and addressed the 1890 INC session.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Social Reform Movement"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The newspapers 'New India' and 'Commonweal' were started by whom?",
+        "Options": [
+          { "id": 1, "text": "Bal Gangadhar Tilak" },
+          { "id": 2, "text": "Mahatma Gandhi" },
+          { "id": 3, "text": "Annie Besant" },
+          { "id": 4, "text": "Subhas Chandra Bose" }
+        ],
+        "CorrectAnswer": "Annie Besant",
+        "Explanation": "Annie Besant used these two newspapers to promote the ideals of the Home Rule League and advocate for self-government in India.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Nationalist Movement"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Mountbatten Plan' of 3rd June 1947 laid down the plan for what?",
+        "Options": [
+          { "id": 1, "text": "The partition of India" },
+          { "id": 2, "text": "The formation of the Constituent Assembly" },
+          { "id": 3, "text": "The integration of princely states" },
+          { "id": 4, "text": "The trial of INA soldiers" }
+        ],
+        "CorrectAnswer": "The partition of India",
+        "Explanation": "Also known as the '3rd June Plan', it was the final plan for the transfer of power, which laid down the procedure for the partition of British India into the dominions of India and Pakistan.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "Partition & Independence"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Swaraj Party' (1923) was formed by C.R. Das and whom?",
+        "Options": [
+          { "id": 1, "text": "Jawaharlal Nehru" },
+          { "id": 2, "text": "Sardar Patel" },
+          { "id": 3, "text": "Motilal Nehru" },
+          { "id": 4, "text": "Rajendra Prasad" }
+        ],
+        "CorrectAnswer": "Motilal Nehru",
+        "Explanation": "Following the suspension of the Non-Cooperation Movement, C.R. Das and Motilal Nehru formed the Swaraj Party to advocate 'council entry' to obstruct the government from within.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Vaikom Satyagraha' (1924-25) in Kerala was launched for what purpose?",
+        "Options": [
+          { "id": 1, "text": "Abolition of untouchability" },
+          { "id": 2, "text": "Temple entry for lower castes" },
+          { "id": 3, "text": "Right to use temple roads for lower castes" },
+          { "id": 4, "text": "Reduction of land rent" }
+        ],
+        "CorrectAnswer": "Right to use temple roads for lower castes",
+        "Explanation": "The Vaikom Satyagraha was a landmark movement in Travancore (Kerala) against untouchability, specifically demanding the right for lower castes (Ezhavas) to use the roads surrounding the Vaikom temple.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Social Reform Movement"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Operation Polo' in 1948 was the code name for the integration of which princely state?",
+        "Options": [
+          { "id": 1, "text": "Kashmir" },
+          { "id": 2, "text": "Junagadh" },
+          { "id": 3, "text": "Goa" },
+          { "id": 4, "text": "Hyderabad" }
+        ],
+        "CorrectAnswer": "Hyderabad",
+        "Explanation": "'Operation Polo' was the military operation by the Indian Army that led to the annexation of the princely state of Hyderabad, ruled by the Nizam, into the Indian Union.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Post-Independence India"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Tebhaga Movement' (1946) in Bengal was a demand by sharecroppers for what share of the crop?",
+        "Options": [
+          { "id": 1, "text": "One-half (1/2)" },
+          { "id": 2, "text": "One-third (1/3)" },
+          { "id": 3, "text": "Two-thirds (2/3)" },
+          { "id": 4, "text": "Full ownership" }
+        ],
+        "CorrectAnswer": "Two-thirds (2/3)",
+        "Explanation": "The Tebhaga movement was by sharecroppers (bargadars) demanding 'tebhaga', or two-thirds of the produce for themselves, reducing the landowners' (jotedars) share from half to one-third.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Peasant Movements"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who originally coined the slogan 'Inquilab Zindabad' (Long Live the Revolution)?",
+        "Options": [
+          { "id": 1, "text": "Bhagat Singh" },
+          { "id": 2, "text": "Chandra Shekhar Azad" },
+          { "id": 3, "text": "Subhas Chandra Bose" },
+          { "id": 4, "text": "Hasrat Mohani" }
+        ],
+        "CorrectAnswer": "Hasrat Mohani",
+        "Explanation": "While Bhagat Singh and his comrades popularized the slogan, it was originally coined by the Urdu poet and freedom fighter, Maulana Hasrat Mohani, in 1921.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Revolutionary Nationalism"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Wavell Plan' and the Simla Conference were held in which year?",
+        "Options": [
+          { "id": 1, "text": "1942" },
+          { "id": 2, "text": "1945" },
+          { "id": 3, "text": "1946" },
+          { "id": 4, "text": "1947" }
+        ],
+        "CorrectAnswer": "1945",
+        "Explanation": "In June 1945, Viceroy Lord Wavell proposed the Wavell Plan, and the Simla Conference was held to discuss it with Indian leaders. The conference failed due to Jinnah's insistence that only the Muslim League could nominate Muslim members.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Road to Independence"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who was the first Education Minister of independent India?",
+        "Options": [
+          { "id": 1, "text": "Dr. S. Radhakrishnan" },
+          { "id": 2, "text": "Sardar Patel" },
+          { "id": 3, "text": "Dr. Rajendra Prasad" },
+          { "id": 4, "text": "Maulana Abul Kalam Azad" }
+        ],
+        "CorrectAnswer": "Maulana Abul Kalam Azad",
+        "Explanation": "Maulana Abul Kalam Azad, a senior Congress leader and scholar, served as the first Minister of Education in Jawaharlal Nehru's cabinet from 1947 to 1958.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Post-Independence India"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The policy of 'Subsidiary Alliance' was introduced by which Governor-General?",
+        "Options": [
+          { "id": 1, "text": "Lord Dalhousie" },
+          { "id": 2, "text": "Lord Wellesley" },
+          { "id": 3, "text": "Lord Cornwallis" },
+          { "id": 4, "text": "Warren Hastings" }
+        ],
+        "CorrectAnswer": "Lord Wellesley",
+        "Explanation": "Lord Wellesley (Governor-General from 1798-1805) introduced the Subsidiary Alliance system to bring Indian princely states under British control without direct annexation. This policy pre-dates the 1857 focus but was a key tool of British expansion.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "British Expansion"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who founded the 'All India Depressed Classes Federation' in 1920?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "Jyotirao Phule" },
+          { "id": 3, "text": "Dr. B.R. Ambedkar" },
+          { "id": 4, "text": "M.C. Rajah" }
+        ],
+        "CorrectAnswer": "Dr. B.R. Ambedkar",
+        "Explanation": "Dr. B.R. Ambedkar founded the 'All India Depressed Classes Federation' in 1920 in Nagpur to organize and demand political rights for the depressed classes.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Social Reform Movement"
+      }
+  ]

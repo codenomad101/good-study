@@ -1,0 +1,1901 @@
+[
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Select the most appropriate synonym for the word **FEEBLE**.",
+      "Options": [
+        { "id": 1, "text": "Robust" },
+        { "id": 2, "text": "Strong" },
+        { "id": 3, "text": "Weak" },
+        { "id": 4, "text": "Vigorous" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Weak",
+      "Explanation": "Feeble means lacking physical strength or vitality, thus **Weak** is the most appropriate synonym."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "Choose the correct antonym for the word **LATENT**.",
+      "Options": [
+        { "id": 1, "text": "Hidden" },
+        { "id": 2, "text": "Lurking" },
+        { "id": 3, "text": "Obvious" },
+        { "id": 4, "text": "Dormant" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Obvious",
+      "Explanation": "Latent means existing but not yet developed or manifest; hidden or concealed. The opposite is **Obvious** (easily seen or understood)."
+    },
+    {
+      "category": "Grammar (Error Detection)",
+      "Question": "Identify the part of the sentence that contains an error: **Scarcely had he entered (A) / into the room (B) / when the phone rang (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "(B)",
+      "Explanation": "The verb **'entered'** (a transitive verb) does not take the preposition **'into'** when referring to location. The correct phrase is: 'Scarcely had he entered the room.'"
+    },
+    {
+      "category": "Grammar (Active/Passive Voice)",
+      "Question": "Choose the correct Passive Voice for the sentence: **The termites destroyed her wooden almirah.**",
+      "Options": [
+        { "id": 1, "text": "Her wooden almirah was destroyed by the termites." },
+        { "id": 2, "text": "Her wooden almirah has been destroyed by the termites." },
+        { "id": 3, "text": "Her wooden almirah is destroyed by the termites." },
+        { "id": 4, "text": "Her wooden almirah had been destroyed by the termites." }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Her wooden almirah was destroyed by the termites.",
+      "Explanation": "The active sentence is in Simple Past Tense ('destroyed'). The passive structure for Simple Past is **Subject + was/were + V3 + by + Object**."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "Choose the one-word substitute for: **One who lives for pleasure.**",
+      "Options": [
+        { "id": 1, "text": "Ascetic" },
+        { "id": 2, "text": "Stoic" },
+        { "id": 3, "text": "Puritan" },
+        { "id": 4, "text": "Hedonist" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Hedonist",
+      "Explanation": "A **Hedonist** is a person who believes that the pursuit of pleasure is the most important aim in life."
+    },
+    {
+      "category": "Grammar (Tense)",
+      "Question": "Fill in the blank: **The flight _____ before we reach the airport.**",
+      "Options": [
+        { "id": 1, "text": "is taking off" },
+        { "id": 2, "text": "will have taken off" },
+        { "id": 3, "text": "was taking off" },
+        { "id": 4, "text": "has taken off" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "will have taken off",
+      "Explanation": "This is a future perfect construction indicating an action completed before another point in the future. The structure is: **Future Perfect (will have V3) + before + Simple Present**."
+    },
+    {
+      "category": "Idiom/Phrase",
+      "Question": "Select the most appropriate meaning of the idiom: **Red Tape**.",
+      "Options": [
+        { "id": 1, "text": "A sudden burst of anger" },
+        { "id": 2, "text": "Official rules and bureaucracy" },
+        { "id": 3, "text": "A secret plan" },
+        { "id": 4, "text": "To catch someone red-handed" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Official rules and bureaucracy",
+      "Explanation": "**Red Tape** refers to excessive bureaucracy or adherence to rules and formalities, especially in public business."
+    },
+    {
+      "category": "Grammar (Direct/Indirect Speech)",
+      "Question": "Convert to Direct Speech: **Leena said that his relatives were landing the next day.**",
+      "Options": [
+        { "id": 1, "text": "Leena said, \"My relatives land tomorrow.\"" },
+        { "id": 2, "text": "Leena said, \"His relatives are landing today.\"" },
+        { "id": 3, "text": "Leena said, \"His relatives are landing tomorrow.\"" },
+        { "id": 4, "text": "Leena said, \"His relatives were landing tomorrow.\"" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Leena said, \"His relatives are landing tomorrow.\"",
+      "Explanation": "In Direct Speech, 'the next day' becomes 'tomorrow', and 'were landing' (Past Continuous) converts back to 'are landing' (Present Continuous, used for future plans)."
+    },
+    {
+      "category": "Grammar (Adverb/Adjective)",
+      "Question": "Spot the error: **Phillip sings sweet (A) / in the shower (B) / every morning (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "(A)",
+      "Explanation": "The word **'sweet'** is an adjective, but we need an adverb to modify the verb **'sings'**. It should be **'sweetly'**."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "Select the word that means the opposite of **REPEL**.",
+      "Options": [
+        { "id": 1, "text": "Confuse" },
+        { "id": 2, "text": "Absorb" },
+        { "id": 3, "text": "Attract" },
+        { "id": 4, "text": "Concentrate" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Attract",
+      "Explanation": "Repel means to drive or send something away. **Attract** means to draw or cause to come closer."
+    },
+    {
+      "category": "Grammar (Conditional Sentence)",
+      "Question": "Choose the correct word to complete the sentence: **If she ____ late just one more time, the manager ______ suspend her.**",
+      "Options": [
+        { "id": 1, "text": "is arriving, is going to" },
+        { "id": 2, "text": "will be arriving, would" },
+        { "id": 3, "text": "arrives, will" },
+        { "id": 4, "text": "is going to arrive, would have" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "arrives, will",
+      "Explanation": "This is a Type 1 conditional sentence (likely/real condition). The structure is: **If + Simple Present (arrives), Simple Future (will suspend)**."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Which word is most similar in meaning to **DISPARAGE**?",
+      "Options": [
+        { "id": 1, "text": "Applaud" },
+        { "id": 2, "text": "Praise" },
+        { "id": 3, "text": "Belittle" },
+        { "id": 4, "text": "Exalt" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Belittle",
+      "Explanation": "Disparage means to regard or represent as being of little worth. **Belittle** is a direct synonym."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "The fear of open spaces is called:",
+      "Options": [
+        { "id": 1, "text": "Claustrophobia" },
+        { "id": 2, "text": "Hydrophobia" },
+        { "id": 3, "text": "Agoraphobia" },
+        { "id": 4, "text": "Pyrophobia" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Agoraphobia",
+      "Explanation": "**Agoraphobia** is an anxiety disorder characterized by fear of places or situations from which escape might be difficult, such as crowded or open public places."
+    },
+    {
+      "category": "Grammar (Verb Agreement)",
+      "Question": "Spot the error: **Each of the students (A) / have finished (B) / his or her work (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "(B)",
+      "Explanation": "Indefinite pronouns like **'Each'** require a singular verb. **'have finished'** must be replaced with **'has finished'**."
+    },
+    {
+      "category": "Idiom/Phrase",
+      "Question": "Choose the correct meaning of **Turn a deaf ear**.",
+      "Options": [
+        { "id": 1, "text": "To pretend to be disabled" },
+        { "id": 2, "text": "To refuse to listen or ignore a request" },
+        { "id": 3, "text": "To listen intently" },
+        { "id": 4, "text": "To show mild interest" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "To refuse to listen or ignore a request",
+      "Explanation": "**Turn a deaf ear** means to deliberately ignore or disregard someone or something."
+    },
+    {
+      "category": "Grammar (Preposition)",
+      "Question": "Fill in the blank: **The Chief Minister did not approve _______ their demands.**",
+      "Options": [
+        { "id": 1, "text": "with" },
+        { "id": 2, "text": "on" },
+        { "id": 3, "text": "at" },
+        { "id": 4, "text": "of" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "of",
+      "Explanation": "The verb **'approve'** in the context of accepting or agreeing to a proposal typically takes the fixed preposition **'of'**."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "Choose the closest opposite meaning of **TACITURN**.",
+      "Options": [
+        { "id": 1, "text": "Reticent" },
+        { "id": 2, "text": "Uncommunicative" },
+        { "id": 3, "text": "Talkative" },
+        { "id": 4, "text": "Mute" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Talkative",
+      "Explanation": "Taciturn means reserved or uncommunicative in speech, saying little. **Talkative** is the direct opposite."
+    },
+    {
+      "category": "Grammar (Word Choice/Homonyms)",
+      "Question": "Choose the correctly spelled word:",
+      "Options": [
+        { "id": 1, "text": "Convulge" },
+        { "id": 2, "text": "Divulge" },
+        { "id": 3, "text": "Covulse" },
+        { "id": 4, "text": "Convalge" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Divulge",
+      "Explanation": "**Divulge** (to make known a secret) is the only correctly spelled word among the choices. *Convulse* is also a correct word, but not listed here."
+    },
+    {
+      "category": "Grammar (Pronoun)",
+      "Question": "Spot the error: **One must keep themselves (A) / abreast of current events (B) / for the competitive exams (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "(A)",
+      "Explanation": "The indefinite pronoun **'One'** must be followed by the reflexive pronoun **'oneself'**. The correct phrase is: 'One must keep oneself'."
+    },
+    {
+      "category": "Grammar (Sentence Transformation)",
+      "Question": "Choose the alternative that correctly transforms the sentence: **The warden went into the room to see what the students were doing.**",
+      "Options": [
+        { "id": 1, "text": "The warden went into the room to see what was the students doing." },
+        { "id": 2, "text": "The warden went into the room to see what the students had been doing." },
+        { "id": 3, "text": "The warden went into the room to see what the students are doing." },
+        { "id": 4, "text": "No change needed." }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "No change needed.",
+      "Explanation": "The original sentence is grammatically correct. **'were doing'** is Past Continuous, appropriately used here to describe an ongoing action at the time of the warden's entry (Simple Past)."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Find the synonym of **TRANSIENT**.",
+      "Options": [
+        { "id": 1, "text": "Perpetual" },
+        { "id": 2, "text": "Enduring" },
+        { "id": 3, "text": "Ephemeral" },
+        { "id": 4, "text": "Constant" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Ephemeral",
+      "Explanation": "Transient means lasting only for a short time; impermanent. **Ephemeral** is a synonym."
+    },
+    {
+      "category": "Grammar (Conjunction)",
+      "Question": "Spot the error: **Though he is rich (A) / but he is kind (B) / to everyone (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "(B)",
+      "Explanation": "The conjunction **'Though'** must be followed by **'yet'** or just a comma, not **'but'**. Correct: 'Though he is rich, yet he is kind' or 'Though he is rich, he is kind'."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "Select the antonym for **STIFF**.",
+      "Options": [
+        { "id": 1, "text": "Hard" },
+        { "id": 2, "text": "Rigid" },
+        { "id": 3, "text": "Flexible" },
+        { "id": 4, "text": "Solid" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Flexible",
+      "Explanation": "Stiff means not easily bent or changed in shape. **Flexible** means able to bend or move easily."
+    },
+    {
+      "category": "Grammar (Punctuation)",
+      "Question": "Choose the grammatically correct sentence:",
+      "Options": [
+        { "id": 1, "text": "Its a great day for an outing." },
+        { "id": 2, "text": "It's a great day for an outing." },
+        { "id": 3, "text": "Its' a great day for an outing." },
+        { "id": 4, "text": "Its a great day, for an outing." }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "It's a great day for an outing.",
+      "Explanation": "**It's** is a contraction of 'It is'. **Its** is the possessive form (e.g., The dog chased its tail)."
+    },
+    {
+      "category": "Vocabulary (Phrasal Verb)",
+      "Question": "Fill in the blank: **We decided to _______ the issue before it escalated.**",
+      "Options": [
+        { "id": 1, "text": "put up" },
+        { "id": 2, "text": "deal with" },
+        { "id": 3, "text": "go after" },
+        { "id": 4, "text": "take out" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "deal with",
+      "Explanation": "**Deal with** means to take action to solve a problem."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Find the word most similar in meaning to **ASTUTE**.",
+      "Options": [
+        { "id": 1, "text": "Foolish" },
+        { "id": 2, "text": "Naive" },
+        { "id": 3, "text": "Stupid" },
+        { "id": 4, "text": "Shrewd" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Shrewd",
+      "Explanation": "Astute means having or showing an ability to accurately assess situations or people and turn this to one's advantage. **Shrewd** is the synonym."
+    },
+    {
+      "category": "Grammar (Noun)",
+      "Question": "Spot the error: **The spectacles (A) / is missing (B) / from the table (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "(B)",
+      "Explanation": "Nouns that are always plural (e.g., spectacles, trousers, scissors) must take a plural verb. **'is missing'** must be replaced with **'are missing'**."
+    },
+    {
+      "category": "Grammar (Transformation of Sentence)",
+      "Question": "Convert to Passive Voice: **They will have finished breakfast by 9 a.m.**",
+      "Options": [
+        { "id": 1, "text": "Breakfast will be finished by them by 9 a.m." },
+        { "id": 2, "text": "Breakfast will have been finished by them by 9 a.m." },
+        { "id": 3, "text": "Breakfast has been finished by them by 9 a.m." },
+        { "id": 4, "text": "Breakfast is finished by them by 9 a.m." }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Breakfast will have been finished by them by 9 a.m.",
+      "Explanation": "The active sentence is in Future Perfect Tense. The passive structure is **Object + will/shall have been + V3 + by + Subject**."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "Select the antonym for **MYOPIC**.",
+      "Options": [
+        { "id": 1, "text": "Visionary" },
+        { "id": 2, "text": "Shortsighted" },
+        { "id": 3, "text": "Narrow" },
+        { "id": 4, "text": "Closed" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Visionary",
+      "Explanation": "Myopic means lacking foresight or intellectual insight (or literally nearsighted). **Visionary** means thinking about or planning the future with wisdom and imagination."
+    },
+    {
+      "category": "Grammar (Adverb)",
+      "Question": "Choose the best option to replace the underlined part: **He was driving *too much fast* for the road conditions.**",
+      "Options": [
+        { "id": 1, "text": "much too fast" },
+        { "id": 2, "text": "too many fast" },
+        { "id": 3, "text": "too much rapidly" },
+        { "id": 4, "text": "No correction required" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "much too fast",
+      "Explanation": "The rule is **'too much' + noun** (e.g., too much noise) and **'much too' + adjective/adverb** (e.g., much too slow, much too fast). 'Fast' is an adverb here."
+    },
+    {
+      "category": "Vocabulary (Idiom/Phrase)",
+      "Question": "What does the idiom **To get a taste of your own medicine** mean?",
+      "Options": [
+        { "id": 1, "text": "To be treated the way you have been treating others" },
+        { "id": 2, "text": "To receive an award for good deeds" },
+        { "id": 3, "text": "To take bitter pills for a sickness" },
+        { "id": 4, "text": "To give someone a valuable gift" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "To be treated the way you have been treating others",
+      "Explanation": "This idiom means to experience the same unpleasant treatment that one has given to others."
+    },
+    {
+      "category": "Grammar (Word Choice)",
+      "Question": "Fill in the blank: **I tried taking tablets for the headache, but they did not have any _____.**",
+      "Options": [
+        { "id": 1, "text": "affect" },
+        { "id": 2, "text": "effect" },
+        { "id": 3, "text": "affects" },
+        { "id": 4, "text": "effected" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "effect",
+      "Explanation": "**Effect** (noun) means the result or consequence of an action. **Affect** (verb) means to influence."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Select the synonym for **EMANCIPATION**.",
+      "Options": [
+        { "id": 1, "text": "Captivity" },
+        { "id": 2, "text": "Liberation" },
+        { "id": 3, "text": "Enslavement" },
+        { "id": 4, "text": "Advocate" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Liberation",
+      "Explanation": "Emancipation means the process of being set free from legal, social, or political restrictions; **liberation**."
+    },
+    {
+      "category": "Grammar (Reported Speech)",
+      "Question": "Convert to Indirect Speech: **He said, \"I have passed the MPSC exam.\"**",
+      "Options": [
+        { "id": 1, "text": "He said that he passed the MPSC exam." },
+        { "id": 2, "text": "He said that he has passed the MPSC exam." },
+        { "id": 3, "text": "He said that he had passed the MPSC exam." },
+        { "id": 4, "text": "He said that he would pass the MPSC exam." }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "He said that he had passed the MPSC exam.",
+      "Explanation": "Present Perfect Tense ('have passed') changes to Past Perfect Tense ('had passed') in Indirect Speech."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "A person who is skilled in different branches of study:",
+      "Options": [
+        { "id": 1, "text": "Amateur" },
+        { "id": 2, "text": "Neophyte" },
+        { "id": 3, "text": "Polymath" },
+        { "id": 4, "text": "Sophist" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Polymath",
+      "Explanation": "A **Polymath** is a person whose expertise spans a significant number of different subject areas."
+    },
+    {
+      "category": "Grammar (Preposition)",
+      "Question": "Fill in the blank: **She is abstaining ________________ alcohol for health reasons.**",
+      "Options": [
+        { "id": 1, "text": "with" },
+        { "id": 2, "text": "from" },
+        { "id": 3, "text": "on" },
+        { "id": 4, "text": "at" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "from",
+      "Explanation": "The verb **'abstain'** (restrain oneself from doing or enjoying something) is always followed by the preposition **'from'**."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "What is the opposite of **CONCEAL**?",
+      "Options": [
+        { "id": 1, "text": "Cover" },
+        { "id": 2, "text": "Obscure" },
+        { "id": 3, "text": "Divulge" },
+        { "id": 4, "text": "Cloak" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Divulge",
+      "Explanation": "Conceal means to keep secret; prevent from being seen. **Divulge** means to make private or sensitive information known."
+    },
+    {
+      "category": "Grammar (Tense)",
+      "Question": "Fill in the blank: **When our train _____ at the station, we found the bridegroom's family ________ for us.**",
+      "Options": [
+        { "id": 1, "text": "was reaching, waited" },
+        { "id": 2, "text": "reached, had been waiting" },
+        { "id": 3, "text": "have been reaching, waited" },
+        { "id": 4, "text": "reached, waiting" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "reached, waiting",
+      "Explanation": "The first clause is Simple Past ('reached'). The second clause uses a participial phrase to describe the action in progress: 'found the family **waiting**' (waiting is the action they were engaged in)."
+    },
+    {
+      "category": "Idiom/Phrase",
+      "Question": "Choose the meaning of the phrase **A white elephant**.",
+      "Options": [
+        { "id": 1, "text": "A valuable possession" },
+        { "id": 2, "text": "A useless possession that is expensive to maintain" },
+        { "id": 3, "text": "A rare animal" },
+        { "id": 4, "text": "An exciting opportunity" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "A useless possession that is expensive to maintain",
+      "Explanation": "A **white elephant** refers to a possession that is troublesome or expensive to maintain but yields no profit or value."
+    },
+    {
+      "category": "Grammar (Error Detection)",
+      "Question": "Spot the error: **The crowd (A) / of students (B) / are making noise (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "(C)",
+      "Explanation": "The subject is **'The crowd'** (a collective noun, treated as singular here), so the verb must be singular. **'are making'** should be **'is making'**."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Select the synonym of **ACCENTUATE**.",
+      "Options": [
+        { "id": 1, "text": "Minimize" },
+        { "id": 2, "text": "Understate" },
+        { "id": 3, "text": "Emphasize" },
+        { "id": 4, "text": "Reduce" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Emphasize",
+      "Explanation": "Accentuate means to make more noticeable or prominent. **Emphasize** is the synonym."
+    },
+    {
+      "category": "Grammar (Transformation of Sentence)",
+      "Question": "Transform the sentence using 'no sooner... than': **As soon as he reached his house, he sent me the driver.**",
+      "Options": [
+        { "id": 1, "text": "No sooner he reached his house than he sent me the driver." },
+        { "id": 2, "text": "No sooner had he reached his house than he sent me the driver." },
+        { "id": 3, "text": "No sooner he had reached his house than he sent me the driver." },
+        { "id": 4, "text": "No sooner did he reach his house when he sent me the driver." }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "No sooner had he reached his house than he sent me the driver.",
+      "Explanation": "The structure for **'No sooner'** requires inversion (auxiliary verb before subject) and is paired with **'than'**: **No sooner + Had + Subject + V3 + than + Simple Past**."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "A person who is indifferent to pleasure or pain:",
+      "Options": [
+        { "id": 1, "text": "Skeptic" },
+        { "id": 2, "text": "Stoic" },
+        { "id": 3, "text": "Cynic" },
+        { "id": 4, "text": "Agnostic" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Stoic",
+      "Explanation": "A **Stoic** is a person who can endure pain or hardship without showing their feelings or complaining."
+    },
+    {
+      "category": "Grammar (Conjunction)",
+      "Question": "Fill in the blank: **_______ he reached the top, he put up the flag.**",
+      "Options": [
+        { "id": 1, "text": "Hardly" },
+        { "id": 2, "text": "Scarcely" },
+        { "id": 3, "text": "As soon as" },
+        { "id": 4, "text": "No sooner" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "As soon as",
+      "Explanation": "**As soon as** is the correct conjunction to connect two consecutive actions in the past without requiring inversion."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "Choose the antonym for **SPURIOUS**.",
+      "Options": [
+        { "id": 1, "text": "False" },
+        { "id": 2, "text": "Fake" },
+        { "id": 3, "text": "Genuine" },
+        { "id": 4, "text": "Bogus" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Genuine",
+      "Explanation": "Spurious means not being what it purports to be; false or fake. The opposite is **Genuine**."
+    },
+    {
+      "category": "Grammar (Error Detection)",
+      "Question": "Spot the error: **You've got a whole week to yourself (A) / and you can read (B) / to your heart's contents (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "(C)",
+      "Explanation": "The correct idiom is **'to your heart's content'** (singular noun). 'Contents' is incorrect here."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Select the word most similar in meaning to **REDEMPTION**.",
+      "Options": [
+        { "id": 1, "text": "Forfeit" },
+        { "id": 2, "text": "Penalty" },
+        { "id": 3, "text": "Atonement" },
+        { "id": 4, "text": "Loss" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Atonement",
+      "Explanation": "Redemption means the action of saving or being saved from error or evil; **Atonement** is making amends or reparation for a wrong."
+    },
+    {
+      "category": "Grammar (Transformation of Sentence)",
+      "Question": "Convert to Simple Past Tense: **The student writes an essay.**",
+      "Options": [
+        { "id": 1, "text": "The student wrote an essay." },
+        { "id": 2, "text": "The student is writing an essay." },
+        { "id": 3, "text": "The student had written an essay." },
+        { "id": 4, "text": "The student was writing an essay." }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "The student wrote an essay.",
+      "Explanation": "Simple Past Tense uses the **V2** form of the verb, which is **'wrote'**."
+    },
+    {
+      "category": "Vocabulary (Idiom/Phrase)",
+      "Question": "Choose the meaning of the idiom **To bark up the wrong tree**.",
+      "Options": [
+        { "id": 1, "text": "To find the correct culprit" },
+        { "id": 2, "text": "To pursue a mistaken course of action" },
+        { "id": 3, "text": "To be extremely angry" },
+        { "id": 4, "text": "To confront a known enemy" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "To pursue a mistaken course of action",
+      "Explanation": "**To bark up the wrong tree** means to direct one's attention or efforts toward the wrong person or objective."
+    },
+    {
+      "category": "Grammar (Degree of Comparison)",
+      "Question": "Choose the best option: **Mumbai is _______ of all Indian cities.**",
+      "Options": [
+        { "id": 1, "text": "more populated" },
+        { "id": 2, "text": "most populated" },
+        { "id": 3, "text": "the most populated" },
+        { "id": 4, "text": "much populated" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "the most populated",
+      "Explanation": "When comparing one item with all others in its group (superlative degree), the structure is **'the' + superlative adjective**."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Which word is a synonym for **PLACATE**?",
+      "Options": [
+        { "id": 1, "text": "Provoke" },
+        { "id": 2, "text": "Agitate" },
+        { "id": 3, "text": "Pacify" },
+        { "id": 4, "text": "Excite" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Pacify",
+      "Explanation": "Placate means to make (someone) less angry or hostile. **Pacify** is the synonym."
+    },
+    {
+      "category": "Grammar (Modal Auxiliary)",
+      "Question": "Fill in the blank: **You ________ wear a seatbelt; it is the law.**",
+      "Options": [
+        { "id": 1, "text": "can" },
+        { "id": 2, "text": "might" },
+        { "id": 3, "text": "should" },
+        { "id": 4, "text": "must" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "must",
+      "Explanation": "**Must** is used to express strong obligation or necessity, especially in formal rules or laws."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "The antonym of **VIBRANT** is:",
+      "Options": [
+        { "id": 1, "text": "Vivid" },
+        { "id": 2, "text": "Drab" },
+        { "id": 3, "text": "Jazzy" },
+        { "id": 4, "text": "Lively" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Drab",
+      "Explanation": "Vibrant means full of energy and life, or bright and striking (colour). **Drab** means lacking color or excitement; dull."
+    },
+    {
+      "category": "Grammar (Relative Pronoun)",
+      "Question": "Choose the correct relative pronoun: **These are the best clothes _____ he could buy.**",
+      "Options": [
+        { "id": 1, "text": "which" },
+        { "id": 2, "text": "who" },
+        { "id": 3, "text": "what" },
+        { "id": 4, "text": "that" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "that",
+      "Explanation": "The relative pronoun **'that'** is required after superlatives (e.g., 'the best')."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "The medieval practice of turning base metals into gold is called:",
+      "Options": [
+        { "id": 1, "text": "Geology" },
+        { "id": 2, "text": "Biology" },
+        { "id": 3, "text": "Alchemy" },
+        { "id": 4, "text": "Astronomy" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Alchemy",
+      "Explanation": "**Alchemy** is the ancient and medieval practice concerned with the transformation of matter, particularly turning base metals into gold."
+    },
+    {
+      "category": "Grammar (Error Detection)",
+      "Question": "Spot the error: **No less than (A) / thirty dogs (B) / were present (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "(A)",
+      "Explanation": "**'Less'** is used for quantity (uncountable nouns), while **'Fewer'** is used for number (countable nouns). Since 'thirty dogs' is countable, **'No less than'** should be **'No fewer than'**."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Which word is a synonym for **MUSTER** in the context of troops in front of a garrison?",
+      "Options": [
+        { "id": 1, "text": "Disband" },
+        { "id": 2, "text": "Dismiss" },
+        { "id": 3, "text": "Gather" },
+        { "id": 4, "text": "Disperse" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Gather",
+      "Explanation": "**Muster** means to assemble (troops), especially for inspection or in preparation for battle; to **gather**."
+    },
+    {
+      "category": "Grammar (Transformation of Sentence)",
+      "Question": "Convert to Active Voice: **The bank loan will be repaid by him.**",
+      "Options": [
+        { "id": 1, "text": "He is repaying the bank loan." },
+        { "id": 2, "text": "He will repay the bank loan." },
+        { "id": 3, "text": "He has repaid the bank loan." },
+        { "id": 4, "text": "He would repay the bank loan." }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "He will repay the bank loan.",
+      "Explanation": "The passive sentence uses Future Simple Tense (**will be V3**). The active form is **Subject + will + V1 + Object**."
+    },
+    {
+      "category": "Grammar (Tense)",
+      "Question": "Fill in the blanks: **The barber ______ his finger while he _______ off my hair.**",
+      "Options": [
+        { "id": 1, "text": "cut, was chopping" },
+        { "id": 2, "text": "had cut, was chopping" },
+        { "id": 3, "text": "cuts, had been chopping" },
+        { "id": 4, "text": "is cutting, chopped" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "cut, was chopping",
+      "Explanation": "The structure denotes a short action (cut) interrupting a longer, ongoing action in the past (was chopping): **Simple Past + while + Past Continuous**."
+    },
+    {
+      "category": "Vocabulary (Homonym)",
+      "Question": "Identify the homonym of the word **WATCH** (meaning 'timepiece') in the sentence below: **The guard was assigned to night watch duty.**",
+      "Options": [
+        { "id": 1, "text": "Digital clock" },
+        { "id": 2, "text": "Timepiece" },
+        { "id": 3, "text": "To keep an eye on" },
+        { "id": 4, "text": "Wrist device" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "To keep an eye on",
+      "Explanation": "A homonym is a word pronounced and spelled the same way as another but with a different meaning. In this case, 'watch' (timepiece) vs. 'watch' (to keep an eye on/a period of guarding)."
+    },
+    {
+      "category": "Grammar (Error Detection)",
+      "Question": "Spot the error: **Unless you will not (A) / take care of your health, (B) / you will not recover (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "(A)",
+      "Explanation": "The conjunction **'Unless'** already implies a negative condition, so **'not'** should not be used in the 'unless' clause. The future tense ('will') is also unnecessary. Correct: 'Unless you **take care** of your health'."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "The antonym of **COALESCE** is:",
+      "Options": [
+        { "id": 1, "text": "Separate" },
+        { "id": 2, "text": "Adhere" },
+        { "id": 3, "text": "Merge" },
+        { "id": 4, "text": "Amalgamate" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Separate",
+      "Explanation": "Coalesce means to come together and form one mass or whole. **Separate** is the opposite."
+    },
+    {
+      "category": "Grammar (Voice)",
+      "Question": "The sentence **'The Judge ordered that the accused be set free'** is in which mood?",
+      "Options": [
+        { "id": 1, "text": "Indicative" },
+        { "id": 2, "text": "Subjunctive" },
+        { "id": 3, "text": "Imperative" },
+        { "id": 4, "text": "Interrogative" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Imperative",
+      "Explanation": "The tone of the sentence is a direct **command** or **order** from the judge, classifying it as the **Imperative Mood**."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Select the synonym of **DECAY**.",
+      "Options": [
+        { "id": 1, "text": "Mature" },
+        { "id": 2, "text": "Rot" },
+        { "id": 3, "text": "Heal" },
+        { "id": 4, "text": "Preserve" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Rot",
+      "Explanation": "Decay means the state or process of rotting or decomposition. **Rot** is the synonym."
+    },
+    {
+      "category": "Grammar (Preposition)",
+      "Question": "Fill in the blank: **The new law will lead ___________ advancement in science.**",
+      "Options": [
+        { "id": 1, "text": "of" },
+        { "id": 2, "text": "for" },
+        { "id": 3, "text": "to" },
+        { "id": 4, "text": "on" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "to",
+      "Explanation": "The phrasal verb **'lead to'** means to result in."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "What is the opposite of **CONCEPTION**?",
+      "Options": [
+        { "id": 1, "text": "Idea" },
+        { "id": 2, "text": "Notion" },
+        { "id": 3, "text": "Fact" },
+        { "id": 4, "text": "Cognition" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Fact",
+      "Explanation": "Conception means the act of forming an idea or plan. **Fact** is the opposite, referring to something that is known or proven to be true."
+    },
+    {
+      "category": "Grammar (Tag Question)",
+      "Question": "Choose the correct tag question: **It's a beautiful day, _____?**",
+      "Options": [
+        { "id": 1, "text": "is it" },
+        { "id": 2, "text": "isn't it" },
+        { "id": 3, "text": "wasn't it" },
+        { "id": 4, "text": "doesn't it" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "isn't it",
+      "Explanation": "The statement is positive ('It's' = It is), so the tag must be negative. Use the same auxiliary verb: **isn't it**."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Find the synonym of **FLIMSY**.",
+      "Options": [
+        { "id": 1, "text": "Sturdy" },
+        { "id": 2, "text": "Fragile" },
+        { "id": 3, "text": "Massive" },
+        { "id": 4, "text": "Strong" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Fragile",
+      "Explanation": "Flimsy means easily damaged or lacking physical strength. **Fragile** is the synonym."
+    },
+    {
+      "category": "Grammar (Error Detection)",
+      "Question": "Spot the error: **We had taken (A) / great pain (B) / to check the details (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "(B)",
+      "Explanation": "The idiomatic phrase meaning 'to make great effort' is **'to take great pains'** (plural form)."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "One who studies the earth and rocks:",
+      "Options": [
+        { "id": 1, "text": "Biologist" },
+        { "id": 2, "text": "Geologist" },
+        { "id": 3, "text": "Astrologer" },
+        { "id": 4, "text": "Zoologist" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Geologist",
+      "Explanation": "A **Geologist** is an expert in the field of geology, the study of the Earth's physical structure and substance."
+    },
+    {
+      "category": "Grammar (Tense)",
+      "Question": "Fill in the blank: **By the end of this year, she __________ in this organization for ten years.**",
+      "Options": [
+        { "id": 1, "text": "will work" },
+        { "id": 2, "text": "will be working" },
+        { "id": 3, "text": "will have been working" },
+        { "id": 4, "text": "had been working" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "will have been working",
+      "Explanation": "This describes an action that will be continuing up to a point in the future. The correct tense is **Future Perfect Continuous**."
+    },
+    {
+      "category": "Idiom/Phrase",
+      "Question": "What does the phrase **To get off on something** mean?",
+      "Options": [
+        { "id": 1, "text": "To start a journey" },
+        { "id": 2, "text": "To be promoted" },
+        { "id": 3, "text": "To enjoy greatly" },
+        { "id": 4, "text": "To postpone a task" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "To enjoy greatly",
+      "Explanation": "**To get off on something** is an informal way of saying to enjoy or be excited by something."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "Choose the antonym for **PROVOKE**.",
+      "Options": [
+        { "id": 1, "text": "Incitement" },
+        { "id": 2, "text": "Agitate" },
+        { "id": 3, "text": "Soothe" },
+        { "id": 4, "text": "Irritate" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Soothe",
+      "Explanation": "Provoke means to deliberately make someone angry or hostile. **Soothe** means to gently calm (a person or their feelings)."
+    },
+    {
+      "category": "Grammar (Preposition)",
+      "Question": "Fill in the blank: **The negotiations between the five member states collapsed __________ last night.**",
+      "Options": [
+        { "id": 1, "text": "between" },
+        { "id": 2, "text": "among" },
+        { "id": 3, "text": "of" },
+        { "id": 4, "text": "at" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "among",
+      "Explanation": "**Among** is typically used when referring to groups of three or more, especially when the elements are viewed collectively rather than individually. **Between** is used for two or for distinct, separate items, regardless of count."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Select the synonym of **CLUMSY**.",
+      "Options": [
+        { "id": 1, "text": "Graceful" },
+        { "id": 2, "text": "Deft" },
+        { "id": 3, "text": "Awkward" },
+        { "id": 4, "text": "Nimble" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Awkward",
+      "Explanation": "Clumsy means awkward in movement or handling things. **Awkward** is the synonym."
+    },
+    {
+      "category": "Grammar (Tense)",
+      "Question": "Choose the best form of the verb: **How many cups of tea __________ yesterday?**",
+      "Options": [
+        { "id": 1, "text": "did you drink" },
+        { "id": 2, "text": "do you drink" },
+        { "id": 3, "text": "you have drank" },
+        { "id": 4, "text": "were you drinking" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "did you drink",
+      "Explanation": "The presence of **'yesterday'** indicates a completed action in the past, requiring the **Simple Past Tense** (Did + Subject + V1)."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "A small fertile or green area in a desert:",
+      "Options": [
+        { "id": 1, "text": "Archipelago" },
+        { "id": 2, "text": "Oasis" },
+        { "id": 3, "text": "Atoll" },
+        { "id": 4, "text": "Peninsula" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Oasis",
+      "Explanation": "An **Oasis** is a fertile spot in a desert, where water is found."
+    },
+    {
+      "category": "Grammar (Idiom/Phrase)",
+      "Question": "Fill in the blank with the correct phrase: **The decision was taken ____________.**",
+      "Options": [
+        { "id": 1, "text": "in black and white" },
+        { "id": 2, "text": "by and large" },
+        { "id": 3, "text": "at a pinch" },
+        { "id": 4, "text": "in cold blood" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "in cold blood",
+      "Explanation": "**In cold blood** means ruthlessly and without emotion, often used for violent acts or firm decisions."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "The antonym of **WARY** is:",
+      "Options": [
+        { "id": 1, "text": "Cautious" },
+        { "id": 2, "text": "Leery" },
+        { "id": 3, "text": "Heedful" },
+        { "id": 4, "text": "Inattentive" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Inattentive",
+      "Explanation": "Wary means feeling or showing caution about possible dangers or problems. **Inattentive** means not paying attention."
+    },
+    {
+      "category": "Grammar (Error Detection)",
+      "Question": "Spot the error: **The police (A) / is investigating (B) / the matter seriously (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "(B)",
+      "Explanation": "The noun **'police'** is a collective noun always treated as plural in English, so the verb must be plural. **'is investigating'** should be **'are investigating'**."
+    },
+    {
+      "category": "Grammar (Preposition)",
+      "Question": "Fill in the blank: **The new manager has a predilection __________ simple procedures.**",
+      "Options": [
+        { "id": 1, "text": "with" },
+        { "id": 2, "text": "for" },
+        { "id": 3, "text": "of" },
+        { "id": 4, "text": "in" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "for",
+      "Explanation": "The noun **'predilection'** (a preference or special liking for something) takes the fixed preposition **'for'**."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Select the synonym for **IMPROVIDENT**.",
+      "Options": [
+        { "id": 1, "text": "Thrifty" },
+        { "id": 2, "text": "Prudent" },
+        { "id": 3, "text": "Extravagant" },
+        { "id": 4, "text": "Frugal" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Extravagant",
+      "Explanation": "Improvident means not planning for the future; spending money carelessly. **Extravagant** is the synonym."
+    },
+    {
+      "category": "Grammar (Error Correction)",
+      "Question": "Choose the best option to replace the underlined part: **Your admission into this university *will be dependent* on the marks you score.**",
+      "Options": [
+        { "id": 1, "text": "is depending" },
+        { "id": 2, "text": "depends" },
+        { "id": 3, "text": "will depend" },
+        { "id": 4, "text": "depending" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "will depend",
+      "Explanation": "The correct verb form for the future condition is the simpler **'will depend'**. 'Dependent' is an adjective, and 'will be dependent on' is a more verbose and less direct construction."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "A piece of land almost surrounded by water, or projecting out into a sea or lake:",
+      "Options": [
+        { "id": 1, "text": "Isthmus" },
+        { "id": 2, "text": "Archipelago" },
+        { "id": 3, "text": "Peninsula" },
+        { "id": 4, "text": "Strait" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Peninsula",
+      "Explanation": "A **Peninsula** is a piece of land surrounded by water on three sides."
+    },
+    {
+      "category": "Grammar (Auxiliary Verb)",
+      "Question": "Choose the correct phrase: **Had you not reached in time, we __________ lost our lives.**",
+      "Options": [
+        { "id": 1, "text": "will have" },
+        { "id": 2, "text": "would have" },
+        { "id": 3, "text": "would" },
+        { "id": 4, "text": "will" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "would have",
+      "Explanation": "This is a Type 3 (Past Unreal) Conditional, requiring the structure: **Had + Subject + V3, Subject + would have + V3**."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "The antonym of **PLACATE** is:",
+      "Options": [
+        { "id": 1, "text": "Mollify" },
+        { "id": 2, "text": "Provoke" },
+        { "id": 3, "text": "Tranquilize" },
+        { "id": 4, "text": "Assuage" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Provoke",
+      "Explanation": "Placate means to make (someone) less angry. **Provoke** means to stimulate or incite to anger."
+    },
+    {
+      "category": "Grammar (Sentence Correction)",
+      "Question": "Which sentence uses the pronoun **'whose'** correctly?",
+      "Options": [
+        { "id": 1, "text": "Whose phone is kept on charging?" },
+        { "id": 2, "text": "Which phone is kept on charging?" },
+        { "id": 3, "text": "Whose is the phone kept on charging?" },
+        { "id": 4, "text": "Which is the phone kept on charging?" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Whose phone is kept on charging?",
+      "Explanation": "**Whose** is the possessive form and is used for both people and things, especially when asking about possession, while 'which' is typically for selection from a group."
+    },
+    {
+      "category": "Vocabulary (Idiom/Phrase)",
+      "Question": "Choose the meaning of **In the driver's seat**.",
+      "Options": [
+        { "id": 1, "text": "Travelling in a car" },
+        { "id": 2, "text": "Being in control of a situation" },
+        { "id": 3, "text": "Being under someone's command" },
+        { "id": 4, "text": "Taking a driving lesson" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Being in control of a situation",
+      "Explanation": "To be **in the driver's seat** means to be the one controlling a situation."
+    },
+    {
+      "category": "Grammar (Participle)",
+      "Question": "Fill in the blank: **The new policy is designed __________ the needs of the consumer.**",
+      "Options": [
+        { "id": 1, "text": "for meeting" },
+        { "id": 2, "text": "to meeting" },
+        { "id": 3, "text": "to meet" },
+        { "id": 4, "text": "in meeting" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "to meet",
+      "Explanation": "The structure **'designed' + infinitive ('to' + V1)** is the correct usage to express purpose."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "The synonym of **DEVIANCE** is:",
+      "Options": [
+        { "id": 1, "text": "Accordance" },
+        { "id": 2, "text": "Compliance" },
+        { "id": 3, "text": "Aberrance" },
+        { "id": 4, "text": "Adherence" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Aberrance",
+      "Explanation": "Deviance means the fact or state of departing from usual or accepted standards. **Aberrance** is the synonym."
+    },
+    {
+      "category": "Grammar (Phrase)",
+      "Question": "Choose the correct phrase to complete the sentence: **__________ learning how to box, the technique is of utmost importance.**",
+      "Options": [
+        { "id": 1, "text": "When" },
+        { "id": 2, "text": "While" },
+        { "id": 3, "text": "During" },
+        { "id": 4, "text": "Because" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "While",
+      "Explanation": "**While** is preferred to introduce a period of time during which an activity or process is taking place (learning)."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "The antonym of **EPHEMERAL** is:",
+      "Options": [
+        { "id": 1, "text": "Short-lived" },
+        { "id": 2, "text": "Momentary" },
+        { "id": 3, "text": "Perpetual" },
+        { "id": 4, "text": "Fleeting" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Perpetual",
+      "Explanation": "Ephemeral means lasting for a very short time. **Perpetual** means never ending or changing."
+    },
+    {
+      "category": "Grammar (Error Correction)",
+      "Question": "Choose the best option to replace the underlined part: **The prices of essential commodities *has risen* unprecedentedly.**",
+      "Options": [
+        { "id": 1, "text": "has rose" },
+        { "id": 2, "text": "have risen" },
+        { "id": 3, "text": "has rising" },
+        { "id": 4, "text": "have rose" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "have risen",
+      "Explanation": "The subject **'The prices'** is plural, requiring the plural verb **'have'**. The V3 of rise is **'risen'**. Correct: **have risen**."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "A person who is primarily concerned with making money at the expense of ethics:",
+      "Options": [
+        { "id": 1, "text": "Mercenary" },
+        { "id": 2, "text": "Ascetic" },
+        { "id": 3, "text": "Philanthropist" },
+        { "id": 4, "text": "Altruist" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Mercenary",
+      "Explanation": "A **Mercenary** person is primarily driven by desire for money or material gain, often lacking moral principles."
+    },
+    {
+      "category": "Grammar (Transformation of Sentence)",
+      "Question": "Convert to Simple Present Tense: **She shall be visiting your parlour soon.**",
+      "Options": [
+        { "id": 1, "text": "She visited your parlour." },
+        { "id": 2, "text": "She visits your parlour soon." },
+        { "id": 3, "text": "She is visiting your parlour soon." },
+        { "id": 4, "text": "She will visit your parlour." }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "She visits your parlour soon.",
+      "Explanation": "The Simple Present Tense (**V1 with 's' for singular subject**) can be used to describe future events, especially those that are scheduled or very certain."
+    },
+    {
+      "category": "Idiom/Phrase",
+      "Question": "Choose the meaning of **To smell a rat**.",
+      "Options": [
+        { "id": 1, "text": "To detect a bad smell" },
+        { "id": 2, "text": "To suspect that something is wrong or deceitful" },
+        { "id": 3, "text": "To be very angry" },
+        { "id": 4, "text": "To get a clear indication" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "To suspect that something is wrong or deceitful",
+      "Explanation": "To **smell a rat** means to suspect something dishonest or fraudulent."
+    },
+    {
+      "category": "Grammar (Inversion)",
+      "Question": "Fill in the blank: **Hardly __________ out when the rain began.**",
+      "Options": [
+        { "id": 1, "text": "he went" },
+        { "id": 2, "text": "had he gone" },
+        { "id": 3, "text": "he had gone" },
+        { "id": 4, "text": "did he went" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "had he gone",
+      "Explanation": "When a sentence begins with a negative adverb like **'Hardly'** or **'Scarcely'**, inversion is used (**Auxiliary Verb + Subject + Main Verb**)."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "The synonym for **DEFUSE** is:",
+      "Options": [
+        { "id": 1, "text": "Irritate" },
+        { "id": 2, "text": "Incite" },
+        { "id": 3, "text": "Aggravate" },
+        { "id": 4, "text": "Alleviate" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Alleviate",
+      "Explanation": "Defuse means to make a difficult or dangerous situation calmer or easier to handle. **Alleviate** means to make suffering, deficiency, or a problem less severe."
+    },
+    {
+      "category": "Grammar (Noun)",
+      "Question": "Spot the error: **The amount of (A) / offsprings (B) / was increasing rapidly (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "(B)",
+      "Explanation": "The noun **'offspring'** is the same in singular and plural form; it never takes an 's'. **'offsprings'** is incorrect."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "A state of disorder due to absence of non-recognition of authority:",
+      "Options": [
+        { "id": 1, "text": "Monarchy" },
+        { "id": 2, "text": "Oligarchy" },
+        { "id": 3, "text": "Anarchy" },
+        { "id": 4, "text": "Democracy" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Anarchy",
+      "Explanation": "**Anarchy** is a state of disorder due to absence or non-recognition of authority or other controlling systems."
+    },
+    {
+      "category": "Grammar (Preposition)",
+      "Question": "Fill in the blank: **She is vexed __________ his carelessness.**",
+      "Options": [
+        { "id": 1, "text": "with" },
+        { "id": 2, "text": "at" },
+        { "id": 3, "text": "to" },
+        { "id": 4, "text": "by" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "at",
+      "Explanation": "The adjective **'vexed'** (annoyed, frustrated) is usually followed by **'at'** when referring to a thing or abstract concept."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "The antonym of **STEADFAST** is:",
+      "Options": [
+        { "id": 1, "text": "Loyal" },
+        { "id": 2, "text": "Plaint" },
+        { "id": 3, "text": "Firm" },
+        { "id": 4, "text": "Staunch" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Plaint",
+      "Explanation": "Steadfast means resolutely or dutifully firm and unwavering. **Plaint** (meaning pliant or easily influenced) is the closest opposite, indicating a lack of firmness."
+    },
+    {
+      "category": "Grammar (Sentence Correction)",
+      "Question": "Which sentence is grammatically correct?",
+      "Options": [
+        { "id": 1, "text": "Though he is rich, but he is kind." },
+        { "id": 2, "text": "Though he is rich, yet he is kind." },
+        { "id": 3, "text": "Although he is rich, yet he is kind." },
+        { "id": 4, "text": "Though he is rich and he is kind." }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Though he is rich, yet he is kind.",
+      "Explanation": "When using **'Though'**, it should be followed by a comma or **'yet'**, but not **'but'**. Option 2 uses the correct 'Though... yet' construction."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Select the word most similar in meaning to **PERUSAL**.",
+      "Options": [
+        { "id": 1, "text": "Negligence" },
+        { "id": 2, "text": "Inspection" },
+        { "id": 3, "text": "Inconsideration" },
+        { "id": 4, "text": "Laxity" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Inspection",
+      "Explanation": "Perusal means the action of reading or examining something carefully. **Inspection** is the synonym."
+    },
+    {
+      "category": "Grammar (Punctuation)",
+      "Question": "Choose the correct punctuation for the following: **What is your name**",
+      "Options": [
+        { "id": 1, "text": "What is your name." },
+        { "id": 2, "text": "What is your name?" },
+        { "id": 3, "text": "What is your name!" },
+        { "id": 4, "text": "What is, your name." }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "What is your name?",
+      "Explanation": "The sentence is a direct question and therefore requires a **question mark**."
+    },
+    {
+      "category": "Grammar (Degree of Comparison)",
+      "Question": "Choose the best option: **I can write as fast as, __________ faster than her.**",
+      "Options": [
+        { "id": 1, "text": "if not" },
+        { "id": 2, "text": "or not" },
+        { "id": 3, "text": "so not" },
+        { "id": 4, "text": "and not" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "if not",
+      "Explanation": "The phrase **'as... as, if not'** is the correct comparative structure used when comparing two items for equality, while suggesting one might be superior."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "A temporary suspension of an ongoing activity:",
+      "Options": [
+        { "id": 1, "text": "Continuance" },
+        { "id": 2, "text": "Abolition" },
+        { "id": 3, "text": "Abeyance" },
+        { "id": 4, "text": "Recurrence" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Abeyance",
+      "Explanation": "**Abeyance** means a state of temporary disuse or suspension."
+    },
+    {
+      "category": "Grammar (Error Detection)",
+      "Question": "Spot the error: **She prefers (A) / coffee than (B) / any cold drink (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "(B)",
+      "Explanation": "The verb **'prefers'** must be followed by the preposition **'to'**, not 'than', for comparison. Correct: 'She prefers coffee **to** any cold drink'."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "The antonym of **ASTONISH** is:",
+      "Options": [
+        { "id": 1, "text": "Surprise" },
+        { "id": 2, "text": "Overwhelm" },
+        { "id": 3, "text": "Calm" },
+        { "id": 4, "text": "Amaze" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Calm",
+      "Explanation": "Astonish means to surprise or impress someone greatly. **Calm** is the opposite, suggesting a state of tranquility."
+    },
+    {
+      "category": "Grammar (Phrasal Verb)",
+      "Question": "Fill in the blank: **The scientist decided to __________ the problem with a new approach.**",
+      "Options": [
+        { "id": 1, "text": "come across" },
+        { "id": 2, "text": "deal with" },
+        { "id": 3, "text": "look out" },
+        { "id": 4, "text": "put down" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "deal with",
+      "Explanation": "**Deal with** means to take action to solve a problem or handle a task."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "Select the synonym for **DEPRIVE**.",
+      "Options": [
+        { "id": 1, "text": "Grant" },
+        { "id": 2, "text": "Deny" },
+        { "id": 3, "text": "Allow" },
+        { "id": 4, "text": "Give" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Deny",
+      "Explanation": "Deprive means to prevent a person or place from having or using something. **Deny** is the synonym."
+    },
+    {
+      "category": "Grammar (Error Detection)",
+      "Question": "Spot the error: **Each woman and (A) / each man (B) / have a role to play (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "(C)",
+      "Explanation": "When two or more singular subjects are preceded by **'Each'** or **'Every'**, the verb must be singular. **'have'** should be **'has'**."
+    },
+    {
+      "category": "Vocabulary (Idiom/Phrase)",
+      "Question": "Choose the meaning of **To hit the nail on the head**.",
+      "Options": [
+        { "id": 1, "text": "To be extremely careless" },
+        { "id": 2, "text": "To state the exact truth" },
+        { "id": 3, "text": "To destroy something" },
+        { "id": 4, "text": "To complete a task halfway" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "To state the exact truth",
+      "Explanation": "**To hit the nail on the head** means to describe exactly a situation or problem."
+    },
+    {
+      "category": "Grammar (Punctuation)",
+      "Question": "Choose the correctly punctuated sentence.",
+      "Options": [
+        { "id": 1, "text": "I will be there in a hour." },
+        { "id": 2, "text": "I will be there in an hour." },
+        { "id": 3, "text": "I will be there in an hour!" },
+        { "id": 4, "text": "I will be there, in an hour." }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "I will be there in an hour.",
+      "Explanation": "The word 'hour' starts with a vowel sound, so the article **'an'** must be used."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "The antonym of **RELUCTANT** is:",
+      "Options": [
+        { "id": 1, "text": "Averse" },
+        { "id": 2, "text": "Unwilling" },
+        { "id": 3, "text": "Eager" },
+        { "id": 4, "text": "Hesitant" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Eager",
+      "Explanation": "Reluctant means unwilling and hesitant. **Eager** means wanting very much to do or have something."
+    },
+    {
+      "category": "Grammar (Tense)",
+      "Question": "Fill in the blank: **Prasoon __________ for Bangalore early and he must __________ by this time.**",
+      "Options": [
+        { "id": 1, "text": "leave, have been reaching" },
+        { "id": 2, "text": "left, have reached" },
+        { "id": 3, "text": "had left, be reaching" },
+        { "id": 4, "text": "leaves, reach" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "left, have reached",
+      "Explanation": "The first action is Simple Past ('left'). The second part expresses a likely completion in the present, using **'must have reached'** (a modal perfect)."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "A person who is skilled in deceiving others:",
+      "Options": [
+        { "id": 1, "text": "Candid" },
+        { "id": 2, "text": "Duplicitous" },
+        { "id": 3, "text": "Honest" },
+        { "id": 4, "text": "Guileless" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Duplicitous",
+      "Explanation": "**Duplicitous** means deceitful; acting in two different ways at different times or towards different people."
+    },
+    {
+      "category": "Grammar (Reported Speech)",
+      "Question": "Convert to Indirect Speech: **She said to him, \"I am learning French.\"**",
+      "Options": [
+        { "id": 1, "text": "She told him that she is learning French." },
+        { "id": 2, "text": "She told him that she was learning French." },
+        { "id": 3, "text": "She told him that I was learning French." },
+        { "id": 4, "text": "She said him that she was learning French." }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "She told him that she was learning French.",
+      "Explanation": "Present Continuous Tense ('am learning') changes to Past Continuous Tense ('was learning'), and the reporting verb 'said to' changes to 'told'."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "The synonym of **DISCERNING** is:",
+      "Options": [
+        { "id": 1, "text": "Naive" },
+        { "id": 2, "text": "Astute" },
+        { "id": 3, "text": "Stolid" },
+        { "id": 4, "text": "Inept" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Astute",
+      "Explanation": "Discerning means having or showing good judgment. **Astute** is a synonym."
+    },
+    {
+      "category": "Grammar (Error Detection)",
+      "Question": "Spot the error: **The relation between (A) / the two countries (B) / are in strain (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "(C)",
+      "Explanation": "The phrase **'are in strain'** is incorrect and should be replaced with the appropriate structure, such as **'have been strained'** (Present Perfect Tense to show a state over time)."
+    },
+    {
+      "category": "Vocabulary (Idiom/Phrase)",
+      "Question": "Choose the meaning of **To call a spade a spade**.",
+      "Options": [
+        { "id": 1, "text": "To speak clearly and frankly" },
+        { "id": 2, "text": "To be diplomatic" },
+        { "id": 3, "text": "To call out a lie subtly" },
+        { "id": 4, "text": "To use gardening tools" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "To speak clearly and frankly",
+      "Explanation": "To **call a spade a spade** means to speak the truth plainly or bluntly, even if it is unpleasant."
+    },
+    {
+      "category": "Grammar (Tense)",
+      "Question": "Fill in the blanks: **They __________ out for an evening walk after they __________ dinner.**",
+      "Options": [
+        { "id": 1, "text": "went, had taken" },
+        { "id": 2, "text": "go, had taken" },
+        { "id": 3, "text": "have gone, took" },
+        { "id": 4, "text": "are going, took" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "went, had taken",
+      "Explanation": "For two completed actions in the past, the earlier action takes **Past Perfect Tense** ('had taken' dinner), and the later action takes **Simple Past Tense** ('went' out)."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "The antonym of **PURSUE** is:",
+      "Options": [
+        { "id": 1, "text": "Follow" },
+        { "id": 2, "text": "Chase" },
+        { "id": 3, "text": "Avoid" },
+        { "id": 4, "text": "Track" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Avoid",
+      "Explanation": "Pursue means to follow or chase. **Avoid** means to keep away from or refrain from."
+    },
+    {
+      "category": "Grammar (Noun)",
+      "Question": "Spot the error: **Several works (A) / of art was stolen (B) / from the town museum (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "(B)",
+      "Explanation": "The subject is plural (**'works'**), so the verb must be plural. **'was stolen'** should be **'were stolen'**."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "A place where bees are kept:",
+      "Options": [
+        { "id": 1, "text": "Aviary" },
+        { "id": 2, "text": "Nursery" },
+        { "id": 3, "text": "Apiary" },
+        { "id": 4, "text": "Zoo" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Apiary",
+      "Explanation": "An **Apiary** is a place where beehives are kept; a collection of beehives."
+    },
+    {
+      "category": "Grammar (Transformation of Sentence)",
+      "Question": "Convert to Passive Voice: **Somebody stole his purse.**",
+      "Options": [
+        { "id": 1, "text": "His purse was stolen by somebody." },
+        { "id": 2, "text": "His purse was stolen." },
+        { "id": 3, "text": "His purse is stolen." },
+        { "id": 4, "text": "His purse had been stolen." }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "His purse was stolen.",
+      "Explanation": "When the subject of the active voice is vague or unimportant ('somebody'), it is often omitted in the passive voice. The tense changes to Simple Past Passive (**was stolen**)."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "The synonym of **MYSTIFY** is:",
+      "Options": [
+        { "id": 1, "text": "Clarify" },
+        { "id": 2, "text": "Explain" },
+        { "id": 3, "text": "Perplex" },
+        { "id": 4, "text": "Elucidate" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Perplex",
+      "Explanation": "Mystify means to utterly bewilder or perplex (someone). **Perplex** is the synonym."
+    },
+    {
+      "category": "Grammar (Verb Form)",
+      "Question": "Fill in the blank: **The new device is ready __________ in the market.**",
+      "Options": [
+        { "id": 1, "text": "to launch" },
+        { "id": 2, "text": "to be launching" },
+        { "id": 3, "text": "to be launched" },
+        { "id": 4, "text": "for launching" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "to be launched",
+      "Explanation": "The infinitive is used passively here (the device will be launched by someone else): **to be launched**."
+    },
+    {
+      "category": "Idiom/Phrase",
+      "Question": "Choose the meaning of **To be in the same boat**.",
+      "Options": [
+        { "id": 1, "text": "To have a shared understanding" },
+        { "id": 2, "text": "To be in the same difficult situation" },
+        { "id": 3, "text": "To go on a journey together" },
+        { "id": 4, "text": "To have identical opinions" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "To be in the same difficult situation",
+      "Explanation": "To be **in the same boat** means to be in the same unpleasant or difficult situation as others."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "The antonym of **IMMACULATE** is:",
+      "Options": [
+        { "id": 1, "text": "Spotless" },
+        { "id": 2, "text": "Flawless" },
+        { "id": 3, "text": "Tarnished" },
+        { "id": 4, "text": "Pristine" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Tarnished",
+      "Explanation": "Immaculate means perfectly clean, neat, or tidy. **Tarnished** (or soiled/dirty) is the opposite."
+    },
+    {
+      "category": "Grammar (Word Choice)",
+      "Question": "Fill in the blank: **The judge delivered a __________ punishment.**",
+      "Options": [
+        { "id": 1, "text": "harsh" },
+        { "id": 2, "text": "harshly" },
+        { "id": 3, "text": "harshness" },
+        { "id": 4, "text": "harshing" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "harsh",
+      "Explanation": "We need an **adjective** to modify the noun **'punishment'**. **Harsh** means severe or strict."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "A statement or proposition that is regarded as being established, accepted, or self-evidently true:",
+      "Options": [
+        { "id": 1, "text": "Hypothesis" },
+        { "id": 2, "text": "Axiom" },
+        { "id": 3, "text": "Conjecture" },
+        { "id": 4, "text": "Assumption" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Axiom",
+      "Explanation": "An **Axiom** is a statement or proposition that is regarded as being established or self-evidently true."
+    },
+    {
+      "category": "Grammar (Error Detection)",
+      "Question": "Spot the error: **If I were (A) / the President of India, (B) / I would abolish (C) / all taxes (D) / No Error (E).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" },
+        { "id": 5, "text": "(E)" }
+      ],
+      "Answer": "Option 5",
+      "CorrectAnswer": "(E)",
+      "Explanation": "This is a correct Type 2 (Unreal Present) Conditional sentence, using the structure: **If + Subject + were/V2, Subject + would + V1**."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "The synonym of **IMBUE** is:",
+      "Options": [
+        { "id": 1, "text": "To soak" },
+        { "id": 2, "text": "To dry" },
+        { "id": 3, "text": "To desiccate" },
+        { "id": 4, "text": "To extract" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "To soak",
+      "Explanation": "Imbue means to inspire or permeate with a feeling or quality, or literally **to soak** or saturate."
+    },
+    {
+      "category": "Grammar (Preposition)",
+      "Question": "Fill in the blank: **The scientist is adept __________ solving complex problems.**",
+      "Options": [
+        { "id": 1, "text": "with" },
+        { "id": 2, "text": "in" },
+        { "id": 3, "text": "to" },
+        { "id": 4, "text": "for" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "in",
+      "Explanation": "The adjective **'adept'** (skilled) is followed by the preposition **'in'** when referring to an action or activity."
+    },
+    {
+      "category": "Vocabulary (Idiom/Phrase)",
+      "Question": "Choose the meaning of **To carry the day**.",
+      "Options": [
+        { "id": 1, "text": "To lose a battle" },
+        { "id": 2, "text": "To be successful" },
+        { "id": 3, "text": "To carry heavy loads" },
+        { "id": 4, "text": "To cancel a plan" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "To be successful",
+      "Explanation": "**To carry the day** means to win or be successful in a contest or effort."
+    },
+    {
+      "category": "Grammar (Transformation of Sentence)",
+      "Question": "Convert to Simple Present Tense: **The students were felicitating the teacher.**",
+      "Options": [
+        { "id": 1, "text": "The students felicitated the teacher." },
+        { "id": 2, "text": "The students felicitate the teacher." },
+        { "id": 3, "text": "The students have felicitated the teacher." },
+        { "id": 4, "text": "The students will felicitate the teacher." }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "The students felicitate the teacher.",
+      "Explanation": "The Simple Present Tense for plural subject ('students') uses the base form of the verb: **felicitate**."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "The antonym of **VOID** is:",
+      "Options": [
+        { "id": 1, "text": "Adequate" },
+        { "id": 2, "text": "Destitute" },
+        { "id": 3, "text": "Scant" },
+        { "id": 4, "text": "Bereft" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Adequate",
+      "Explanation": "Void means completely empty or having no legal force. **Adequate** means satisfactory or acceptable quality and quantity."
+    },
+    {
+      "category": "Grammar (Noun/Number)",
+      "Question": "Spot the error: **A five-meters scale (A) / is not (B) / easily available (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "(A)",
+      "Explanation": "When a number and a unit of measure (like meter) act as a compound adjective before a noun, the unit must be singular. **'five-meters'** should be **'five-meter'**."
+    },
+    {
+      "category": "Vocabulary (One Word Substitution)",
+      "Question": "To clear from accusation, blame, or guilt:",
+      "Options": [
+        { "id": 1, "text": "Indict" },
+        { "id": 2, "text": "Exonerate" },
+        { "id": 3, "text": "Accuse" },
+        { "id": 4, "text": "Criminate" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Exonerate",
+      "Explanation": "**Exonerate** means to officially absolve someone from blame for a fault or wrongdoing."
+    },
+    {
+      "category": "Grammar (Word Choice)",
+      "Question": "Fill in the blank: **The new law will __________ the economy significantly.**",
+      "Options": [
+        { "id": 1, "text": "affect" },
+        { "id": 2, "text": "effect" },
+        { "id": 3, "text": "affecting" },
+        { "id": 4, "text": "effective" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "affect",
+      "Explanation": "We need a **verb** here. **Affect** (verb) means to have an influence on."
+    },
+    {
+      "category": "Vocabulary (Synonym)",
+      "Question": "The synonym of **CANDID** is:",
+      "Options": [
+        { "id": 1, "text": "Deceitful" },
+        { "id": 2, "text": "Frank" },
+        { "id": 3, "text": "Ambiguous" },
+        { "id": 4, "text": "Obscure" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Frank",
+      "Explanation": "Candid means truthful and straightforward. **Frank** is the synonym."
+    },
+    {
+      "category": "Grammar (Preposition)",
+      "Question": "Fill in the blank: **She is averse __________ taking any risks.**",
+      "Options": [
+        { "id": 1, "text": "with" },
+        { "id": 2, "text": "to" },
+        { "id": 3, "text": "from" },
+        { "id": 4, "text": "at" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "to",
+      "Explanation": "The adjective **'averse'** (having a strong dislike of or opposition to something) is followed by the preposition **'to'**."
+    },
+    {
+      "category": "Vocabulary (Antonym)",
+      "Question": "The antonym of **FLAMBOYANT** is:",
+      "Options": [
+        { "id": 1, "text": "Showy" },
+        { "id": 2, "text": "Modest" },
+        { "id": 3, "text": "Ornate" },
+        { "id": 4, "text": "Flashy" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Modest",
+      "Explanation": "Flamboyant means tending to attract attention because of one's confidence and stylishness. **Modest** is the opposite."
+    },
+    {
+      "category": "Grammar (Pronoun)",
+      "Question": "Spot the error: **One must help his (A) / siblings (B) / in times of need (C) / No Error (D).**",
+      "Options": [
+        { "id": 1, "text": "(A)" },
+        { "id": 2, "text": "(B)" },
+        { "id": 3, "text": "(C)" },
+        { "id": 4, "text": "(D)" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "(A)",
+      "Explanation": "When the subject is **'One'**, the corresponding possessive pronoun should be **'one's'**, not 'his'. Correct: 'One must help **one's** siblings'."
+    },
+    {
+      "category": "Vocabulary (Idiom/Phrase)",
+      "Question": "Choose the meaning of **To take the bull by the horns**.",
+      "Options": [
+        { "id": 1, "text": "To avoid a dangerous situation" },
+        { "id": 2, "text": "To face a difficulty boldly" },
+        { "id": 3, "text": "To complain bitterly" },
+        { "id": 4, "text": "To show hesitation" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "To face a difficulty boldly",
+      "Explanation": "To **take the bull by the horns** means to deal with a difficult or dangerous situation directly and courageously."
+    }
+  ]

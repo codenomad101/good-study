@@ -1,0 +1,888 @@
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
+// API Base URL
+// Note: 'localhost' won't work from Android emulator/device
+// For Android Emulator: use 'http://10.0.2.2:3000/api' (10.0.2.2 is emulator's alias for localhost)
+// For Physical Device: use your computer's IP, e.g., 'http://10.46.150.205:3000/api'
+// For Web: use 'http://localhost:3000/api'
+// IMPORTANT: 'localhost' does NOT work from Android emulator/device!
+// Use 10.0.2.2 for emulator (emulator's alias for localhost)
+// Use your computer's IP (10.46.150.205) for physical device
+// IMPORTANT: Verify the correct URL based on your setup
+// - Android Emulator: http://10.0.2.2:3000/api
+// - Physical Device: http://YOUR_COMPUTER_IP:3000/api (e.g., http://10.46.150.205:3000/api)
+// - Web: http://localhost:3000/api
+// Current IP: 10.46.150.205
+// Use your actual IP instead of 10.0.2.2 if emulator can't reach it
+const API_BASE_URL = __DEV__ 
+  ? 'http://10.46.150.205:3000/api'  // Using current IP - works for both emulator and physical device
+  : 'http://localhost:3000/api'; // Production
+
+// Log the API URL being used for debugging
+console.log('[API] Base URL configured:', API_BASE_URL);
+
+interface ApiResponse<T> {
+  success: boolean;
+  message?: string;
+  data?: T;
+}
+
+class ApiService {
+  private baseURL: string;
+
+  constructor(baseURL: string = API_BASE_URL) {
+    this.baseURL = baseURL;
+  }
+
+  private async getAuthToken(): Promise<string | null> {
+    try {
+      return await AsyncStorage.getItem('authToken');
+    } catch (error) {
+      console.error('Error getting auth token:', error);
+      return null;
+    }
+  }
+
+  private async getHeaders(): Promise<Record<string, string>> {
+    const token = await this.getAuthToken();
+    const headers: Record<string, string> = {
+      'Content-Type': 'application/json',
+    };
+
+    if (token) {
+      headers.Authorization = `Bearer ${token}`;
+      console.log('[API] Auth token found, adding to headers');
+    } else {
+      console.warn('[API] No auth token found! Request may fail with 403');
+    }
+
+    return headers;
+  }
+
+  private async handleResponse<T>(response: Response): Promise<ApiResponse<T>> {
+    // Extract endpoint from URL for better error messages
+    const url = response.url;
+    let endpoint = url ? url.replace(this.baseURL, '') || url : 'unknown';
+    
+    try {
+      console.log('[API] handleResponse called:', {
+        status: response.status,
+        statusText: response.statusText,
+        ok: response.ok,
+        url: url,
+        endpoint: endpoint
+      });
+      
+      // Check if response has content before trying to parse JSON
+      const contentType = response.headers.get('content-type');
+      const contentLength = response.headers.get('content-length');
+      let data: any;
+      
+      // Check if response is successful (2xx status codes)
+      const isSuccess = response.status >= 200 && response.status < 300;
+      
+      // Read response body once (can only be read once)
+      // IMPORTANT: In React Native, we need to read the response carefully
+      // The response stream can only be consumed once
+      let responseText = '';
+      try {
+        // Read the response text - this consumes the stream
+        // Wrap in Promise.resolve to ensure proper async handling
+        responseText = await Promise.resolve(response.text());
+        console.log('[API] Response text length:', responseText.length);
+        if (responseText.length > 0) {
+          console.log('[API] Response text (first 300 chars):', responseText.substring(0, 300));
+        } else {
+          console.log('[API] Response body is empty');
+        }
+      } catch (readError: any) {
+        console.error('[API] Error reading response body:', {
+          endpoint: endpoint,
+          url: url,
+          error: readError,
+          errorName: readError?.name,
+          errorMessage: readError?.message,
+          status: response.status,
+          statusText: response.statusText,
+          isSuccess: isSuccess
+        });
+        // If it's a successful response with no body (like 204 No Content), that's okay
+        if (isSuccess && (response.status === 204 || contentLength === '0')) {
+          return { success: true } as ApiResponse<T>;
+        }
+        // Re-throw with endpoint context
+        const enhancedError = new Error(
+          `Error reading response from ${endpoint}: ${readError?.message || 'Unknown error'}`
+        );
+        (enhancedError as any).originalError = readError;
+        (enhancedError as any).endpoint = endpoint;
+        throw enhancedError;
+      } finally {
+        // Ensure response is fully consumed - no additional reads
+        // This helps prevent React Native fetch issues
+      }
+      
+      // Parse JSON if we have content
+      if (responseText && responseText.length > 0) {
+        if (contentType && contentType.includes('application/json')) {
+          try {
+            data = JSON.parse(responseText);
+          } catch (parseError: any) {
+            console.error('[API] JSON parse error:', parseError);
+            console.error('[API] Full response text:', responseText);
+            throw new Error(`Invalid JSON response: ${parseError?.message || 'Parse error'}`);
+          }
+        } else {
+          // If not JSON, try to parse as JSON anyway (some servers don't set content-type correctly)
+          try {
+            data = JSON.parse(responseText);
+          } catch {
+            // If it's not JSON and not a success response, return as text error
+            if (!isSuccess) {
+              throw new Error(responseText || `HTTP error! status: ${response.status}`);
+            }
+            // For success responses with non-JSON, return the text
+            data = { success: true, data: responseText };
+          }
+        }
+      } else if (isSuccess) {
+        // Empty successful response
+        data = { success: true };
+      }
+      
+      // Check for error status codes
+      if (!isSuccess) {
+        console.error('[API] Non-success status code:', response.status);
+        // Log detailed error information for debugging
+        const errorInfo = {
+          url: response.url,
+          status: response.status,
+          statusText: response.statusText,
+          data: data,
+          message: data?.message,
+          error: data?.error,
+          errors: data?.errors,
+          success: data?.success
+        };
+        console.error(`[API] Error response (${response.status}):`, errorInfo);
+        
+        // For 400 errors, provide more context
+        if (response.status === 400) {
+          console.error('[API] Bad Request Details:', {
+            requestUrl: response.url,
+            errorMessage: data?.message,
+            validationErrors: data?.validationErrors,
+            errorData: data,
+            hint: 'Check if the request body matches server expectations'
+          });
+          
+          // If there are validation errors, include them in the error message
+          if (data?.validationErrors && Array.isArray(data.validationErrors)) {
+            const validationMsg = data.validationErrors
+              .map((err: any) => `${err.path?.join('.') || 'field'}: ${err.message}`)
+              .join(', ');
+            throw new Error(`${data?.message || 'Validation failed'}: ${validationMsg}`);
+          }
+        }
+        
+        throw new Error(data?.message || data?.error || `HTTP error! status: ${response.status}`);
+      }
+
+      console.log('[API] Response parsed successfully:', {
+        success: data?.success,
+        hasData: !!data?.data,
+        isDataArray: Array.isArray(data?.data),
+        dataType: typeof data?.data,
+        message: data?.message,
+        status: response.status
+      });
+      
+      // Return the data - make sure we're not holding any references to the response
+      const result = data as ApiResponse<T>;
+      console.log('[API] Returning result successfully');
+      
+      // Ensure we return a plain object, not wrapped in any Response-related objects
+      // This deep clone prevents any references to the response object that might cause issues
+      const cleanResult = JSON.parse(JSON.stringify(result)) as ApiResponse<T>;
+      
+      return cleanResult;
+    } catch (error: any) {
+      const endpointFromError = error?.endpoint || endpoint || 'unknown';
+      console.error('[API] handleResponse error:', {
+        endpoint: endpointFromError,
+        url: url,
+        errorName: error?.name,
+        errorMessage: error?.message,
+        errorStack: error?.stack,
+        originalError: error?.originalError
+      });
+      
+      // Improve error messages for network failures
+      let errorMessage = error?.message || 'Unknown error occurred';
+      if (errorMessage.includes('Network request failed') && !errorMessage.includes(endpointFromError)) {
+        errorMessage = `Network error while processing response from ${endpointFromError}. Please check if the server is running and accessible.`;
+      } else if (!errorMessage.includes(endpointFromError)) {
+        errorMessage = `Error processing response from ${endpointFromError}: ${errorMessage}`;
+      }
+      
+      const enhancedError = new Error(errorMessage);
+      (enhancedError as any).originalError = error;
+      (enhancedError as any).endpoint = endpointFromError;
+      throw enhancedError;
+    }
+  }
+
+  // Generic HTTP methods with timeout
+  // Increased timeout for initial connection attempts
+  private async fetchWithTimeout(url: string, options: RequestInit, timeout: number = 30000): Promise<Response> {
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), timeout);
+    
+    // Log request details for debugging
+    console.log('[API] Fetch request:', {
+      url,
+      method: options.method,
+      hasBody: !!options.body,
+      bodySize: options.body ? JSON.stringify(options.body).length : 0
+    });
+    
+    try {
+      const response = await fetch(url, {
+        ...options,
+        signal: controller.signal,
+      });
+      clearTimeout(timeoutId);
+      console.log('[API] Fetch response:', {
+        url,
+        status: response.status,
+        statusText: response.statusText,
+        ok: response.ok,
+        headers: Object.fromEntries(response.headers.entries())
+      });
+      
+      // Clone the response so we can inspect it without consuming it
+      // (handleResponse will consume it)
+      return response;
+    } catch (error: any) {
+      clearTimeout(timeoutId);
+      console.error('[API] Fetch error:', {
+        url,
+        errorName: error.name,
+        errorMessage: error.message,
+        networkError: error.message?.includes('Network request failed') || error.message?.includes('Failed to fetch')
+      });
+      if (error.name === 'AbortError') {
+        throw new Error(`Request timeout after ${timeout}ms. Please check your network connection.`);
+      }
+      if (error.message?.includes('Network request failed') || error.message?.includes('Failed to fetch')) {
+        throw new Error(`Network request failed. Check: 1) Server running at ${url.replace('/api', '')}/health, 2) Correct IP address, 3) Same network`);
+      }
+      throw error;
+    }
+  }
+
+  async get<T>(endpoint: string): Promise<ApiResponse<T>> {
+    try {
+      const headers = await this.getHeaders();
+      const response = await this.fetchWithTimeout(`${this.baseURL}${endpoint}`, {
+        method: 'GET',
+        headers,
+      });
+
+      return this.handleResponse<T>(response);
+    } catch (error: any) {
+      console.error(`GET ${endpoint} failed:`, error);
+      if (error.message === 'Request timeout') {
+        throw new Error('Request timed out. Please check your network connection.');
+      }
+      if (error.message && error.message.includes('Network request failed')) {
+        throw new Error('Cannot connect to server. Please ensure the server is running and accessible.');
+      }
+      throw error;
+    }
+  }
+
+  async post<T>(endpoint: string, data?: any): Promise<ApiResponse<T>> {
+    try {
+      const headers = await this.getHeaders();
+      const fullUrl = `${this.baseURL}${endpoint}`;
+      
+      // Debug logging
+      console.log('[API] POST Request Details:', {
+        baseURL: this.baseURL,
+        endpoint: endpoint,
+        fullUrl: fullUrl,
+        hasData: !!data,
+        hasAuth: !!headers['Authorization']
+      });
+      
+      let response: Response;
+      try {
+        response = await this.fetchWithTimeout(fullUrl, {
+          method: 'POST',
+          headers,
+          body: data ? JSON.stringify(data) : undefined,
+        });
+      } catch (fetchError: any) {
+        console.error('[API] Fetch failed before response:', {
+          endpoint,
+          error: fetchError,
+          errorMessage: fetchError?.message,
+          errorName: fetchError?.name
+        });
+        throw fetchError;
+      }
+
+      // Handle response immediately - don't let it hang
+      // Wrap in try-catch to handle any response reading errors
+      try {
+        const result = await this.handleResponse<T>(response);
+        console.log('[API] POST completed successfully for:', endpoint);
+        // Explicitly mark response as consumed to prevent any cleanup issues
+        return result;
+      } catch (handleError: any) {
+        console.error('[API] Error in handleResponse for POST:', {
+          endpoint,
+          error: handleError,
+          errorMessage: handleError?.message,
+          errorName: handleError?.name,
+          responseStatus: response.status,
+          responseOk: response.ok
+        });
+        // If we got a successful HTTP status but error in parsing, log it differently
+        if (response.ok || (response.status >= 200 && response.status < 300)) {
+          console.warn('[API] Warning: Got successful HTTP status but error in response handling for:', endpoint);
+        }
+        // Include endpoint in error message for better debugging
+        if (handleError.message && !handleError.message.includes(endpoint)) {
+          handleError.message = `Error processing response from ${endpoint}: ${handleError.message}`;
+        }
+        throw handleError;
+      }
+    } catch (error: any) {
+      const url = `${this.baseURL}${endpoint}`;
+      console.error(`[API] POST ${endpoint} failed:`, {
+        errorName: error?.name,
+        errorMessage: error?.message,
+        fullUrl: url,
+        baseURL: this.baseURL,
+        endpoint: endpoint,
+        stack: error?.stack
+      });
+      
+      // Create a more informative error message that includes the endpoint
+      let errorMessage = error?.message || 'Unknown error occurred';
+      
+      if (error.name === 'AbortError' || errorMessage === 'Request timeout' || errorMessage.includes('timeout')) {
+        errorMessage = `Request to ${endpoint} timed out. Please check your network connection.`;
+      } else if (errorMessage.includes('Network request failed') || errorMessage.includes('Failed to fetch')) {
+        errorMessage = `Network error while calling ${endpoint}. Please check: 1) Server is running, 2) Correct IP/URL, 3) Network connectivity`;
+      } else if (!errorMessage.includes(endpoint)) {
+        // Ensure endpoint is in error message for better debugging
+        errorMessage = `Error calling ${endpoint}: ${errorMessage}`;
+      }
+      
+      const apiError = new Error(errorMessage);
+      (apiError as any).originalError = error;
+      (apiError as any).endpoint = endpoint;
+      throw apiError;
+    }
+  }
+
+  async put<T>(endpoint: string, data?: any): Promise<ApiResponse<T>> {
+    try {
+      const headers = await this.getHeaders();
+      const response = await this.fetchWithTimeout(`${this.baseURL}${endpoint}`, {
+        method: 'PUT',
+        headers,
+        body: data ? JSON.stringify(data) : undefined,
+      });
+
+      return this.handleResponse<T>(response);
+    } catch (error: any) {
+      console.error(`PUT ${endpoint} failed:`, error);
+      if (error.message && error.message.includes('Network request failed')) {
+        throw new Error('Cannot connect to server. Please ensure the server is running and accessible.');
+      }
+      throw error;
+    }
+  }
+
+  async patch<T>(endpoint: string, data?: any): Promise<ApiResponse<T>> {
+    try {
+      const headers = await this.getHeaders();
+      const response = await this.fetchWithTimeout(`${this.baseURL}${endpoint}`, {
+        method: 'PATCH',
+        headers,
+        body: data ? JSON.stringify(data) : undefined,
+      });
+
+      return this.handleResponse<T>(response);
+    } catch (error: any) {
+      console.error(`PATCH ${endpoint} failed:`, error);
+      if (error.message && error.message.includes('Network request failed')) {
+        throw new Error('Cannot connect to server. Please ensure the server is running and accessible.');
+      }
+      throw error;
+    }
+  }
+
+  async delete<T>(endpoint: string): Promise<ApiResponse<T>> {
+    try {
+      const headers = await this.getHeaders();
+      const response = await this.fetchWithTimeout(`${this.baseURL}${endpoint}`, {
+        method: 'DELETE',
+        headers,
+      });
+
+      return this.handleResponse<T>(response);
+    } catch (error: any) {
+      console.error(`DELETE ${endpoint} failed:`, error);
+      if (error.message && error.message.includes('Network request failed')) {
+        throw new Error('Cannot connect to server. Please ensure the server is running and accessible.');
+      }
+      throw error;
+    }
+  }
+
+  // Auth methods
+  async login(emailOrUsername: string, password: string) {
+    return this.post('/auth/login', { emailOrUsername, password });
+  }
+
+  async register(userData: {
+    email: string;
+    password: string;
+    fullName: string;
+    phone?: string;
+    dateOfBirth?: string;
+    gender?: 'male' | 'female' | 'other';
+  }) {
+    return this.post('/auth/register', userData);
+  }
+
+  async verifyToken() {
+    return this.get('/auth/verify');
+  }
+
+  async updateProfile(profileData: {
+    fullName?: string;
+    phone?: string;
+    dateOfBirth?: string;
+    gender?: 'male' | 'female' | 'other';
+    profilePictureUrl?: string;
+  }) {
+    return this.put('/auth/profile', profileData);
+  }
+
+  async changePassword(passwordData: {
+    currentPassword: string;
+    newPassword: string;
+  }) {
+    return this.put('/auth/change-password', passwordData);
+  }
+
+  // User methods
+  async getUserProfile() {
+    return this.get('/user/profile');
+  }
+
+  // Exam methods
+  async getAllExams() {
+    return this.get('/exam/exams');
+  }
+
+  async getExamById(examId: string) {
+    return this.get(`/exam/exams/${examId}`);
+  }
+
+  async getExamStructure(examId: string) {
+    return this.get(`/exam/exams/${examId}/structure`);
+  }
+
+  async getSubjectsByExam(examId: string) {
+    return this.get(`/exam/exams/${examId}/subjects`);
+  }
+
+  async getTopicsBySubject(subjectId: string) {
+    return this.get(`/exam/subjects/${subjectId}/topics`);
+  }
+
+  async getQuestionsByTopic(topicId: string, limit: number = 50, offset: number = 0) {
+    return this.get(`/exam/topics/${topicId}/questions?limit=${limit}&offset=${offset}`);
+  }
+
+  async getQuestionsBySubject(subjectId: string, limit: number = 50, offset: number = 0) {
+    return this.get(`/exam/subjects/${subjectId}/questions?limit=${limit}&offset=${offset}`);
+  }
+
+  async getUserExamPreferences() {
+    return this.get('/exam/user/preferences');
+  }
+
+  async setUserExamPreference(preferenceData: {
+    examId: string;
+    targetExamDate?: string;
+    dailyStudyGoalMinutes?: number;
+    isPrimaryExam?: boolean;
+  }) {
+    return this.post('/exam/user/preferences', preferenceData);
+  }
+
+  // Progress methods
+  async getUserProgress(subjectId?: string) {
+    const endpoint = subjectId ? `/progress/progress?subjectId=${subjectId}` : '/progress/progress';
+    return this.get(endpoint);
+  }
+
+  async getTopicProgress(topicId: string) {
+    return this.get(`/progress/progress/topic/${topicId}`);
+  }
+
+  async updateProgress(progressData: {
+    topicId: string;
+    subjectId: string;
+    totalQuestionsAttempted?: number;
+    correctAnswers?: number;
+    totalTimeSpentSeconds?: number;
+    masteryLevel?: 'beginner' | 'intermediate' | 'advanced' | 'expert';
+    masteryPercentage?: number;
+    averageAccuracy?: number;
+    averageTimePerQuestionSeconds?: number;
+    needsRevision?: boolean;
+  }) {
+    return this.put('/progress/progress', progressData);
+  }
+
+  async getUserStats(days: number = 30) {
+    return this.get(`/progress/stats?days=${days}`);
+  }
+
+  async getSubjectWiseProgress() {
+    return this.get('/progress/stats/subject-wise');
+  }
+
+  async getWeakTopics(limit: number = 10) {
+    return this.get(`/progress/stats/weak-topics?limit=${limit}`);
+  }
+
+  // Note: This method is for the progress API, not practice sessions
+  // Use createPracticeSession from practice API instead
+  async createProgressPracticeSession(sessionData: {
+    topicId: string;
+    subjectId: string;
+    sessionDate: string;
+    sessionType?: 'daily' | 'custom' | 'revision';
+    totalQuestions?: number;
+    questionsAttempted?: number;
+    correctAnswers?: number;
+    timeSpentSeconds?: number;
+    accuracyPercentage?: number;
+    pointsEarned?: number;
+    isCompleted?: boolean;
+  }) {
+    return this.post('/progress/practice-sessions', sessionData);
+  }
+
+  async addQuestionHistory(historyData: {
+    questionId: string;
+    userAnswer?: string;
+    isCorrect?: boolean;
+    timeTakenSeconds?: number;
+    attemptNumber?: number;
+    sourceType?: 'daily_practice' | 'test' | 'revision' | 'custom_practice';
+    sourceId?: string;
+  }) {
+    return this.post('/progress/question-history', historyData);
+  }
+
+  // Test methods
+  async getAllTestTemplates(examId?: string) {
+    const endpoint = examId ? `/test/templates?examId=${examId}` : '/test/templates';
+    return this.get(endpoint);
+  }
+
+  async getTestTemplateById(templateId: string) {
+    return this.get(`/test/templates/${templateId}`);
+  }
+
+  async createUserTest(templateId: string) {
+    return this.post('/test/user-tests', { templateId });
+  }
+
+  async getUserTests(status?: string) {
+    const endpoint = status ? `/test/user-tests?status=${status}` : '/test/user-tests';
+    return this.get(endpoint);
+  }
+
+  async getUserTestById(userTestId: string) {
+    return this.get(`/test/user-tests/${userTestId}`);
+  }
+
+  async startUserTest(userTestId: string) {
+    return this.put(`/test/user-tests/${userTestId}/start`);
+  }
+
+  async completeUserTest(userTestId: string, testData: {
+    timeTakenSeconds: number;
+    totalQuestionsAttempted: number;
+    correctAnswers: number;
+    incorrectAnswers: number;
+    skippedQuestions: number;
+    marksObtained: number;
+    percentage: number;
+    rank?: number;
+    totalParticipants?: number;
+    percentile?: number;
+  }) {
+    return this.put(`/test/user-tests/${userTestId}/complete`, testData);
+  }
+
+  async submitTestResponse(responseData: {
+    userTestId: string;
+    questionId: string;
+    userAnswer?: string;
+    isCorrect?: boolean;
+    timeTakenSeconds?: number;
+    isMarkedForReview?: boolean;
+    responseOrder?: number;
+    marksObtained?: number;
+  }) {
+    return this.post('/test/responses', responseData);
+  }
+
+  async getUserTestResponses(userTestId: string) {
+    return this.get(`/test/user-tests/${userTestId}/responses`);
+  }
+
+  async generateTestQuestions(templateId: string, examId: string, subjectIds?: string[]) {
+    return this.post('/test/generate-questions', {
+      templateId,
+      examId,
+      subjectIds,
+    });
+  }
+
+  async getUserTestAnalytics(days: number = 30) {
+    return this.get(`/test/analytics?days=${days}`);
+  }
+
+  async getUserDailyPracticeSessions(days: number = 7) {
+    // Calculate start and end dates based on days
+    const endDate = new Date().toISOString().split('T')[0];
+    const startDate = new Date(Date.now() - days * 24 * 60 * 60 * 1000).toISOString().split('T')[0];
+    return this.get(`/progress/practice-sessions?startDate=${startDate}&endDate=${endDate}`);
+  }
+
+  async getTestLeaderboard(templateId: string, limit: number = 100) {
+    return this.get(`/test/templates/${templateId}/leaderboard?limit=${limit}`);
+  }
+
+  async getUserRankInTest(userTestId: string) {
+    return this.get(`/test/user-tests/${userTestId}/rank`);
+  }
+
+  // Practice API methods (enhanced practice)
+  async getPracticeCategories() {
+    const response = await this.get<any>('/practice/categories');
+    // API returns: { success: true, data: [...] }
+    // Extract the data array properly
+    if (response.success && response.data) {
+      return { ...response, data: Array.isArray(response.data) ? response.data : [] };
+    }
+    // Fallback for nested data
+    return { ...response, data: (response.data as any)?.data || [] };
+  }
+
+  async getPracticeTopics(category: string) {
+    const response = await this.get<any>(`/practice/topics?category=${category}`);
+    return { ...response, data: (response.data as any)?.data || [] };
+  }
+
+  async createPracticeSession(category: string, timeLimitMinutes: number = 15, language: 'en' | 'mr' = 'en') {
+    return this.post('/practice/sessions', { 
+      category, 
+      timeLimitMinutes,
+      language
+    });
+  }
+
+  async getPracticeSession(sessionId: string) {
+    return this.get(`/practice/sessions/${sessionId}`);
+  }
+
+  async updatePracticeAnswer(sessionId: string, questionId: string, userAnswer: string, timeSpentSeconds: number) {
+    return this.patch(`/practice/sessions/${sessionId}/answer`, {
+      questionId,
+      userAnswer,
+      timeSpentSeconds
+    });
+  }
+
+  async completePracticeSession(sessionId: string) {
+    return this.patch(`/practice/sessions/${sessionId}/complete`);
+  }
+
+  async getPracticeHistory() {
+    const response = await this.get('/practice/history');
+    return { ...response, data: (response.data as any)?.data || [] };
+  }
+
+  async getPracticeStats() {
+    const response = await this.get('/practice/stats');
+    return { ...response, data: (response.data as any)?.data || {} };
+  }
+
+  // Dynamic Exam API methods
+  async createDynamicExam(examConfig: any) {
+    console.log('[API] Creating dynamic exam with config:', JSON.stringify(examConfig, null, 2));
+    console.log('[API] Endpoint: /exam/dynamic/create');
+    console.log('[API] Full URL will be:', `${this.baseURL}/exam/dynamic/create`);
+    return this.post('/exam/dynamic/create', examConfig);
+  }
+
+  async startDynamicExam(sessionId: string) {
+    return this.post(`/exam/dynamic/${sessionId}/start`);
+  }
+
+  async getDynamicExamQuestions(sessionId: string) {
+    return this.get(`/exam/dynamic/${sessionId}/questions`);
+  }
+
+  async completeDynamicExam(sessionId: string, examData: any) {
+    return this.post(`/exam/dynamic/${sessionId}/complete`, examData);
+  }
+
+  async getDynamicExamHistory() {
+    const response = await this.get('/exam/dynamic/history');
+    return { ...response, data: (response.data as any)?.data || [] };
+  }
+
+  async getDynamicExamStats() {
+    const response = await this.get('/exam/dynamic/stats');
+    return { ...response, data: (response.data as any)?.data || {} };
+  }
+
+  async resumeDynamicExam(sessionId: string) {
+    const response = await this.get(`/exam/dynamic/${sessionId}/resume`);
+    return { ...response, data: (response.data as any)?.data };
+  }
+
+  // Statistics API methods
+  async getUserStatistics() {
+    const response = await this.get('/statistics/user');
+    return { ...response, data: (response.data as any)?.data };
+  }
+
+  async getLeaderboard(
+    period: 'daily' | 'weekly' | 'monthly' | 'alltime' = 'alltime', 
+    category: 'overall' | 'practice' | 'exam' | 'streak' | 'accuracy' = 'overall', 
+    subjectId?: string, 
+    limit: number = 50
+  ) {
+    const params = new URLSearchParams({
+      period,
+      category,
+      limit: limit.toString()
+    });
+    if (subjectId) {
+      params.append('subjectId', subjectId);
+    }
+    const response = await this.get(`/statistics/leaderboard?${params.toString()}`);
+    return { ...response, data: (response.data as any)?.data };
+  }
+
+  async getUserRank(period: 'daily' | 'weekly' | 'monthly' | 'alltime' = 'alltime') {
+    const response = await this.get(`/statistics/rank?period=${period}`);
+    return { ...response, data: (response.data as any)?.data };
+  }
+
+  async getAvailableSubjects() {
+    const response = await this.get('/statistics/subjects');
+    return { ...response, data: (response.data as any)?.data };
+  }
+
+  // Study API methods
+  async getStudyMaterials(
+    category: string, 
+    topic?: string, 
+    language: string = 'en', 
+    page: number = 1, 
+    pageSize: number = 10
+  ) {
+    const params = new URLSearchParams({
+      category,
+      language,
+      page: page.toString(),
+      pageSize: pageSize.toString()
+    });
+    if (topic) {
+      params.append('topic', topic);
+    }
+    const response = await this.get(`/study/materials?${params.toString()}`);
+    return { ...response, data: (response.data as any)?.data };
+  }
+
+  // Notes API methods
+  async getNotes(params?: { archived?: string; pinned?: string; category?: string; search?: string }) {
+    const queryParams = new URLSearchParams();
+    if (params?.archived) queryParams.append('archived', params.archived);
+    if (params?.pinned) queryParams.append('pinned', params.pinned);
+    if (params?.category) queryParams.append('category', params.category);
+    if (params?.search) queryParams.append('search', params.search);
+    
+    const queryString = queryParams.toString();
+    const response = await this.get(`/notes${queryString ? `?${queryString}` : ''}`);
+    return { ...response, data: (response.data as any)?.data };
+  }
+
+  async getNoteById(noteId: string) {
+    const response = await this.get(`/notes/${noteId}`);
+    return { ...response, data: (response.data as any)?.data };
+  }
+
+  async createNote(note: { 
+    title: string; 
+    content: string; 
+    color?: string; 
+    categoryId?: string; 
+    categorySlug?: string; 
+    topicSlug?: string; 
+    tags?: string[]; 
+    isPinned?: boolean; 
+    isArchived?: boolean 
+  }) {
+    const response = await this.post('/notes', note);
+    return { ...response, data: (response.data as any)?.data };
+  }
+
+  async updateNote(
+    noteId: string, 
+    note: Partial<{ 
+      title: string; 
+      content: string; 
+      color: string; 
+      categoryId: string; 
+      categorySlug: string; 
+      topicSlug: string; 
+      tags: string[]; 
+      isPinned: boolean; 
+      isArchived: boolean 
+    }>
+  ) {
+    const response = await this.put(`/notes/${noteId}`, note);
+    return { ...response, data: (response.data as any)?.data };
+  }
+
+  async deleteNote(noteId: string) {
+    return this.delete(`/notes/${noteId}`);
+  }
+
+  // Logout method
+  async logout() {
+    return this.post('/auth/logout');
+  }
+}
+
+export const apiService = new ApiService();
+export default ApiService;

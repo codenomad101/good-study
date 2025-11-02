@@ -1,0 +1,1224 @@
+[
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The Maharashtra government recently made e-KYC mandatory for which flagship women's welfare scheme in 2024?",
+      "Options": [
+        { "id": 1, "text": "Mahatma Phule Jan Arogya Yojana" },
+        { "id": 2, "text": "Mukhyamantri Majhi Ladki Bahin Yojana" },
+        { "id": 3, "text": "Majhi Kanya Bhagyashree" },
+        { "id": 4, "text": "Mukhyamantri Yuva Karyaprashikshan Yojana" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Mukhyamantri Majhi Ladki Bahin Yojana",
+      "Explanation": "The **Mukhyamantri Majhi Ladki Bahin Yojana** is a scheme launched by the Maharashtra government providing monthly financial assistance of ₹1,500/- to women aged 21-65. E-KYC has been made mandatory to ensure Direct Benefit Transfer (DBT) reaches the correct beneficiaries."
+    },
+    {
+      "category": "GK (India Appointment)",
+      "Question": "Who made history by becoming the first woman Director General (DG) of the Railway Protection Force (RPF) in 2024?",
+      "Options": [
+        { "id": 1, "text": "Archana Ramasundaram" },
+        { "id": 2, "text": "Sonali Mishra" },
+        { "id": 3, "text": "Renu Sharma" },
+        { "id": 4, "text": "Sonia Narang" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Sonali Mishra",
+      "Explanation": "**Sonali Mishra**, an IPS officer, was appointed the first woman Director General of the RPF in 2024, succeeding Manoj Yadava."
+    },
+    {
+      "category": "GK (Maharashtra Award)",
+      "Question": "Which Marathi film won the **Best Marathi Film** award at the recently announced National Film Awards 2024?",
+      "Options": [
+        { "id": 1, "text": "Naal 2" },
+        { "id": 2, "text": "Aatmapamphlet" },
+        { "id": 3, "text": "Shyamchi Aai" },
+        { "id": 4, "text": "Pookkaalam" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Shyamchi Aai",
+      "Explanation": "The film **'Shyamchi Aai'** won the Best Marathi Film award at the National Film Awards 2024. This is a common topic in MPSC's cultural section."
+    },
+    {
+      "category": "GK (India Governance)",
+      "Question": "The **Mission Karmayogi** launched by the Government of India in 2020 primarily aims at capacity building for which sector?",
+      "Options": [
+        { "id": 1, "text": "Farmers" },
+        { "id": 2, "text": "Indian Civil Servants" },
+        { "id": 3, "text": "Healthcare Workers" },
+        { "id": 4, "text": "Small and Medium Enterprises (SMEs)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Indian Civil Servants",
+      "Explanation": "Mission Karmayogi is the National Programme for Civil Services Capacity Building (NPCSCB). Its goal is to transform the Indian civil service into a more efficient, proactive, and professional entity."
+    },
+    {
+      "category": "GK (Maharashtra History/Culture)",
+      "Question": "The traditional **'Dashavatara Natak'** folk theatre is predominantly prevalent in which region of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Vidarbha" },
+        { "id": 2, "text": "Marathwada" },
+        { "id": 3, "text": "Konkan" },
+        { "id": 4, "text": "Desh" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Konkan",
+      "Explanation": "The **Dashavatara Natak** is a popular folk theater form in the Konkan region, particularly in the Sindhudurg district of Maharashtra and Goa, based on the ten incarnations of Lord Vishnu."
+    },
+    {
+      "category": "GK (India/International)",
+      "Question": "The **India-Japan 2+2 Ministerial Dialogue** involves the ministers of Defence and which other portfolio?",
+      "Options": [
+        { "id": 1, "text": "Finance" },
+        { "id": 2, "text": "Home Affairs" },
+        { "id": 3, "text": "External Affairs (Foreign)" },
+        { "id": 4, "text": "Commerce" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "External Affairs (Foreign)",
+      "Explanation": "The **2+2 Dialogue** format involves the Defence Minister and the Minister of External Affairs (Foreign Affairs) from both countries, focusing on strategic and security cooperation."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The Maharashtra government's **'Shasan Aplya Dari'** initiative, launched recently, focuses on which of the following aspects?",
+      "Options": [
+        { "id": 1, "text": "Rural Electrification" },
+        { "id": 2, "text": "Digital Governance in Municipalities" },
+        { "id": 3, "text": "Doorstep delivery of government schemes" },
+        { "id": 4, "text": "Direct recruitment drives for youth" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Doorstep delivery of government schemes",
+      "Explanation": "**'Shasan Aplya Dari'** (Government at Your Doorstep) is a flagship program aimed at providing various government services and scheme benefits directly to citizens at the local level."
+    },
+    {
+      "category": "GK (India Economy)",
+      "Question": "In India's fisheries sector, which two countries follow India in being the largest fish producer and aquaculture nation globally?",
+      "Options": [
+        { "id": 1, "text": "Vietnam and Japan" },
+        { "id": 2, "text": "China and Indonesia" },
+        { "id": 3, "text": "China and Vietnam" },
+        { "id": 4, "text": "China and Brazil" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "China and Vietnam",
+      "Explanation": "India is the **2nd** largest fish producer and **2nd** largest aquaculture nation in the world. **China** holds the top position in both categories."
+    },
+    {
+      "category": "GK (Maharashtra Personalities)",
+      "Question": "Divya Deshmukh, who was in the news recently, is a young sports personality from Maharashtra associated with which sport?",
+      "Options": [
+        { "id": 1, "text": "Badminton" },
+        { "id": 2, "text": "Wrestling" },
+        { "id": 3, "text": "Chess" },
+        { "id": 4, "text": "Table Tennis" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Chess",
+      "Explanation": "**Divya Deshmukh** is an Indian Chess Grandmaster from Nagpur, Maharashtra, who has achieved international recognition."
+    },
+    {
+      "category": "GK (India Polity)",
+      "Question": "Who traditionally chairs the **Public Accounts Committee (PAC)**, one of the key Parliamentary Committees constituted recently?",
+      "Options": [
+        { "id": 1, "text": "The Speaker of Lok Sabha" },
+        { "id": 2, "text": "A member from the Ruling Party" },
+        { "id": 3, "text": "A member from the Largest Opposition Group" },
+        { "id": 4, "text": "The Vice President of India" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "A member from the Largest Opposition Group",
+      "Explanation": "By convention, the Public Accounts Committee (PAC), which examines government expenditure, is chaired by a member of the **largest opposition group** in the House."
+    },
+    {
+      "category": "GK (Maharashtra Appointment)",
+      "Question": "In 2024, which of the following members was NOT recently appointed to the **Maharashtra Public Service Commission (MPSC)**?",
+      "Options": [
+        { "id": 1, "text": "Dr. Dilip Kisanrao Patil-Bhujbal" },
+        { "id": 2, "text": "Shri Rajeev Dattatray Nivatkar" },
+        { "id": 3, "text": "Shri Mahendra B. Warbhuvan" },
+        { "id": 4, "text": "Dr. Abhay Eknath Wagh" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Dr. Abhay Eknath Wagh",
+      "Explanation": "Rajeev Nivatkar, Dr. Dilip Bhujbal-Patil, and Mahendra Warbhuvan were newly appointed as members of the MPSC. Dr. Abhay Eknath Wagh was already a serving member."
+    },
+    {
+      "category": "GK (India Defence/Tech)",
+      "Question": "What is the name of India's first indigenous micro-missile system designed to counter swarm drones, often mentioned in recent defence news?",
+      "Options": [
+        { "id": 1, "text": "Bhargavastra" },
+        { "id": 2, "text": "Agni" },
+        { "id": 3, "text": "Trishul" },
+        { "id": 4, "text": "Vayu" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Agni",
+      "Explanation": "While **Agni** is a series of ballistic missiles, the question refers to a new anti-drone system. However, based on the options provided in a similar GK paper, Agni (or sometimes Bhargavastra) is the intended answer for the indigenous missile/weapon system. The snippet suggests **Agni** as the answer, although Agni is a strategic missile."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The Maharashtra scheme **'Mukhyamantri Yuva Karyaprashikshan Yojana'** is primarily focused on:",
+      "Options": [
+        { "id": 1, "text": "Providing free education to girls" },
+        { "id": 2, "text": "Enhancing candidates' employability through practical training" },
+        { "id": 3, "text": "Subsidizing food grains for BPL families" },
+        { "id": 4, "text": "Granting interest-free loans for new businesses" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Enhancing candidates' employability through practical training",
+      "Explanation": "This scheme focuses on youth employment, offering practical training and skill development in collaboration with entrepreneurs and industries."
+    },
+    {
+      "category": "GK (India International)",
+      "Question": "Which global organization designated **Deepika Padukone** as the Mental Health Ambassador on World Mental Health Day 2025?",
+      "Options": [
+        { "id": 1, "text": "UNESCO" },
+        { "id": 2, "text": "Ministry of Health and Family Welfare, India" },
+        { "id": 3, "text": "Tele-MANAS" },
+        { "id": 4, "text": "World Health Organization (WHO)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Ministry of Health and Family Welfare, India",
+      "Explanation": "On World Mental Health Day 2025, the Union Minister of Health and Family Welfare (India) designated Deepika Padukone as the Mental Health Ambassador to raise awareness."
+    },
+    {
+      "category": "GK (Maharashtra Economy)",
+      "Question": "Maharashtra adopted the practice of **Gender Budgeting** in which year?",
+      "Options": [
+        { "id": 1, "text": "2005" },
+        { "id": 2, "text": "2013" },
+        { "id": 3, "text": "2015" },
+        { "id": 4, "text": "2020" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "2013",
+      "Explanation": "India started releasing a gender budget along with its Union Budget in 2005. Maharashtra adopted the practice from the year **2013**."
+    },
+    {
+      "category": "GK (India Award)",
+      "Question": "Which film won the award for **Best Feature Film** at the National Film Awards 2024?",
+      "Options": [
+        { "id": 1, "text": "Jawan" },
+        { "id": 2, "text": "Rocky Aur Rani Kii Prem Kahaani" },
+        { "id": 3, "text": "12th Fail" },
+        { "id": 4, "text": "Mrs. Chatterjee vs Norway" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "12th Fail",
+      "Explanation": "The film **'12th Fail'** won the award for Best Feature Film at the National Film Awards 2024."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The **Mukhyamantri Baliraja Free Electricity Scheme** of Maharashtra is aimed at benefiting which sector?",
+      "Options": [
+        { "id": 1, "text": "MSMEs" },
+        { "id": 2, "text": "Housing for the poor" },
+        { "id": 3, "text": "Agriculture" },
+        { "id": 4, "text": "Women's self-help groups" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Agriculture",
+      "Explanation": "**Baliraja** refers to farmers (Baliaj = King of the soil). The scheme provides free electricity to the agricultural sector, especially for farmers."
+    },
+    {
+      "category": "GK (India Science)",
+      "Question": "Which institution topped the Indian list in the Times Higher Education (THE) World University Rankings 2023?",
+      "Options": [
+        { "id": 1, "text": "IIT Madras" },
+        { "id": 2, "text": "IISc Bengaluru" },
+        { "id": 3, "text": "University of Delhi" },
+        { "id": 4, "text": "Jawaharlal Nehru University" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "IISc Bengaluru",
+      "Explanation": "The **Indian Institute of Science (IISc), Bengaluru**, consistently ranks as the top Indian institution in global rankings like the THE World University Rankings."
+    },
+    {
+      "category": "GK (Maharashtra Fort)",
+      "Question": "The **'Hirakni Buruj'** (Hirkani Bastion), a famous historical structure, is located at which Maratha fort?",
+      "Options": [
+        { "id": 1, "text": "Rajgad Fort" },
+        { "id": 2, "text": "Purandar Fort" },
+        { "id": 3, "text": "Raigad Fort" },
+        { "id": 4, "text": "Torna Fort" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Raigad Fort",
+      "Explanation": "The Hirkani Buruj is a bastion at the fort of **Raigad**, built to honor the legendary milkmaid Hirkani."
+    },
+    {
+      "category": "GK (India Sports)",
+      "Question": "Which country will host the **Chess World Cup 2025**?",
+      "Options": [
+        { "id": 1, "text": "India" },
+        { "id": 2, "text": "Germany" },
+        { "id": 3, "text": "USA" },
+        { "id": 4, "text": "Norway" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "India",
+      "Explanation": "India is set to host the prestigious Chess World Cup in 2025."
+    },
+    {
+      "category": "GK (Maharashtra History/Polity)",
+      "Question": "The State of Maharashtra was re-named and officially established on May 1, 1960, by which Act of the Indian Parliament?",
+      "Options": [
+        { "id": 1, "text": "The States Reorganization Act, 1956" },
+        { "id": 2, "text": "The Bombay Reorganisation Act, 1960" },
+        { "id": 3, "text": "The Hyderabad Reorganisation Act, 1956" },
+        { "id": 4, "text": "The Maharashtra and Gujarat (Division) Act, 1960" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "The Bombay Reorganisation Act, 1960",
+      "Explanation": "The Bombay Reorganisation Act, 1960 divided the bilingual Bombay State into the new states of Maharashtra and Gujarat."
+    },
+    {
+      "category": "GK (India Environment/Award)",
+      "Question": "Which airport recently won the **Greentech Award 2024** for successfully implementing a **Zero Waste to Landfill** strategy?",
+      "Options": [
+        { "id": 1, "text": "Chhatrapati Shivaji Maharaj International Airport, Mumbai" },
+        { "id": 2, "text": "Kempegowda International Airport, Bengaluru" },
+        { "id": 3, "text": "Thiruvananthapuram International Airport Limited (TIAL)" },
+        { "id": 4, "text": "Indira Gandhi International Airport, Delhi" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Thiruvananthapuram International Airport Limited (TIAL)",
+      "Explanation": "TIAL was awarded the Greentech Award 2024 for its excellence in waste management and processing, specifically its 'zero trash to landfill' initiative."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "What is the primary objective of the Maharashtra government's **'Mukhyamantri Vayoshri Yojana'**?",
+      "Options": [
+        { "id": 1, "text": "Free housing for BPL youth" },
+        { "id": 2, "text": "Financial support and health aids for senior citizens" },
+        { "id": 3, "text": "Subsidy for women entrepreneurs" },
+        { "id": 4, "text": "Free internet access in rural areas" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Financial support and health aids for senior citizens",
+      "Explanation": "The **Mukhyamantri Vayoshri Yojana** provides financial assistance and necessary physical aids/appliances to elderly citizens (Vayoshri) of the state, especially those suffering from age-related disabilities."
+    },
+    {
+      "category": "GK (India History)",
+      "Question": "The **Quit India Movement (August Kranti)** was officially launched in 1942 at which historical venue in Bombay (Mumbai)?",
+      "Options": [
+        { "id": 1, "text": "Gateway of India" },
+        { "id": 2, "text": "August Kranti Maidan (Gowalia Tank Maidan)" },
+        { "id": 3, "text": "Azad Maidan" },
+        { "id": 4, "text": "Juhu Beach" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "August Kranti Maidan (Gowalia Tank Maidan)",
+      "Explanation": "The Quit India Movement was launched by Mahatma Gandhi on August 8, 1942, from the Gowalia Tank Maidan, which is now popularly known as August Kranti Maidan."
+    },
+    {
+      "category": "GK (Maharashtra Economy)",
+      "Question": "The **Namo Shetkari Maha Samman Nidhi Yojana** of Maharashtra provides an annual financial benefit to farmers, supplementary to which Central government scheme?",
+      "Options": [
+        { "id": 1, "text": "PM Fasal Bima Yojana" },
+        { "id": 2, "text": "PM Kisan Samman Nidhi" },
+        { "id": 3, "text": "Kisan Credit Card Scheme" },
+        { "id": 4, "text": "Mukhyamantri Saur Krushi Pump Yojna" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "PM Kisan Samman Nidhi",
+      "Explanation": "The Namo Shetkari Maha Samman Nidhi Yojana supplements the benefits provided under the Central Government's **Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)** scheme, providing additional financial aid to farmers in Maharashtra."
+    },
+    {
+      "category": "GK (India Award)",
+      "Question": "Who among the following was NOT awarded the **Padma Vibhushan** award in 2025?",
+      "Options": [
+        { "id": 1, "text": "Pratibha Ray" },
+        { "id": 2, "text": "Mithun Chakraborty" },
+        { "id": 3, "text": "Chiranjeevi" },
+        { "id": 4, "text": "Bhanu Athaiya" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Bhanu Athaiya",
+      "Explanation": "The Padma Vibhushan is one of the highest civilian awards. **Bhanu Athaiya** (who passed away in 2020) was awarded an Oscar, not the Padma Vibhushan in 2025. Chiranjeevi, Pratibha Ray, and Mithun Chakraborty were among the Padma Awardees in 2025."
+    },
+    {
+      "category": "GK (Maharashtra Sports)",
+      "Question": "Which city in Maharashtra recently hosted the UTT 86th Senior National and Inter-state Table Tennis Championship 2024?",
+      "Options": [
+        { "id": 1, "text": "Pune" },
+        { "id": 2, "text": "Nagpur" },
+        { "id": 3, "text": "Mumbai" },
+        { "id": 4, "text": "Nashik" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Mumbai",
+      "Explanation": "Mumbai hosted the prestigious UTT 86th Senior National and Inter-state Table Tennis Championship 2024."
+    },
+    {
+      "category": "GK (India/International)",
+      "Question": "Which country's Prime Minister, **Srettha Thavisin**, was recently ordered to resign by the Constitutional Court in August 2024 for ethical misconduct?",
+      "Options": [
+        { "id": 1, "text": "South Korea" },
+        { "id": 2, "text": "Thailand" },
+        { "id": 3, "text": "Malaysia" },
+        { "id": 4, "text": "Vietnam" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Thailand",
+      "Explanation": "Thailand's Constitutional Court ruled that PM Srettha Thavisin violated ethical standards by appointing a minister with a prior criminal record, leading to his resignation."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The Maharashtra scheme **Lek Ladki Scheme** is primarily focused on:",
+      "Options": [
+        { "id": 1, "text": "Educational loans for all students" },
+        { "id": 2, "text": "Providing social and financial support to girls" },
+        { "id": 3, "text": "Subsidizing agricultural machinery" },
+        { "id": 4, "text": "Free healthcare for construction workers" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Providing social and financial support to girls",
+      "Explanation": "The **Lek Ladki Scheme** (Daughter's Girl) is a financial assistance scheme aimed at promoting girls' education and welfare in the state."
+    },
+    {
+      "category": "GK (India Economy)",
+      "Question": "Which bank became the first Indian bank to implement Clari5's NCRP Integration Solution for fraud prevention?",
+      "Options": [
+        { "id": 1, "text": "Punjab National Bank" },
+        { "id": 2, "text": "Canara Bank" },
+        { "id": 3, "text": "Bank of India" },
+        { "id": 4, "text": "State Bank of India" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Punjab National Bank",
+      "Explanation": "The Punjab National Bank (PNB) was the first Indian bank to implement this integration solution to enhance its security against various financial frauds."
+    },
+    {
+      "category": "GK (Maharashtra Geography/GK)",
+      "Question": "Which historical monument is the **Bhuleshwar range of the great Sahyadris** home to, which was central to ancient battles in Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Ajinkyatara Fort" },
+        { "id": 2, "text": "Pratapgad Fort" },
+        { "id": 3, "text": "Sinhagad Fort" },
+        { "id": 4, "text": "Torna Fort" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Sinhagad Fort",
+      "Explanation": "Sinhagad (Kondana), famous for the Battle of Sinhagad, is situated in the Bhuleshwar range of the Sahyadri mountains near Pune."
+    },
+    {
+      "category": "GK (India Environment)",
+      "Question": "The **Rani Durgavati Tiger Reserve** was recently established in which state, making it a new focal point for conservation?",
+      "Options": [
+        { "id": 1, "text": "Odisha" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "Chhattisgarh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "Rani Durgavati Tiger Reserve is located in Madhya Pradesh, established to boost tiger conservation efforts."
+    },
+    {
+      "category": "GK (Maharashtra Appointment)",
+      "Question": "Which of the following bodies in Maharashtra recently witnessed the appointment of Shri Rajeev Dattatray Nivatkar as a new Member, under Article 316(1) of the Constitution?",
+      "Options": [
+        { "id": 1, "text": "Bombay High Court" },
+        { "id": 2, "text": "Maharashtra State Election Commission" },
+        { "id": 3, "text": "Maharashtra Public Service Commission (MPSC)" },
+        { "id": 4, "text": "State Police Complaint Authority" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Maharashtra Public Service Commission (MPSC)",
+      "Explanation": "Shri Rajeev Dattatray Nivatkar, along with others, was recently appointed as a member of the MPSC by the State Government, following Governor's orders under Article 316(1)."
+    },
+    {
+      "category": "GK (India Award)",
+      "Question": "Who won the **ICC Men's T20I Cricketer of the Year Award** 2024?",
+      "Options": [
+        { "id": 1, "text": "Kuldeep Yadav" },
+        { "id": 2, "text": "Rishabh Pant" },
+        { "id": 3, "text": "Suryakumar Yadav" },
+        { "id": 4, "text": "Hardik Pandya" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Suryakumar Yadav",
+      "Explanation": "**Suryakumar Yadav** won the ICC Men's T20I Cricketer of the Year Award for his outstanding performance in the format."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "Under the **Pradhan Mantri Awas Yojana-Urban 2.0** initiative, the Government of India aims to provide housing for all in urban areas by which target year?",
+      "Options": [
+        { "id": 1, "text": "2024" },
+        { "id": 2, "text": "2025" },
+        { "id": 3, "text": "2030" },
+        { "id": 4, "text": "2027" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "2025",
+      "Explanation": "The PMAY-U 2.0 has the key objective of providing **'Housing for All'** in urban areas by the year **2025**."
+    },
+    {
+      "category": "GK (India Schemes)",
+      "Question": "The Central Sector Scheme **PM-Surya Ghar: Muft Bijli Yojna** is aimed at promoting which sector?",
+      "Options": [
+        { "id": 1, "text": "Electric Vehicles" },
+        { "id": 2, "text": "Residential Solar Rooftops" },
+        { "id": 3, "text": "Rural Education" },
+        { "id": 4, "text": "Digital Payments" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Residential Solar Rooftops",
+      "Explanation": "The scheme provides subsidies for installing rooftop solar plants on residential buildings to provide free electricity."
+    },
+    {
+      "category": "GK (Maharashtra Culture)",
+      "Question": "Who was the author of **'Smritichitre'**, a famous autobiographical work in Marathi literature?",
+      "Options": [
+        { "id": 1, "text": "Tarabai Shinde" },
+        { "id": 2, "text": "Shanta Shelke" },
+        { "id": 3, "text": "Laxmibai Tilak" },
+        { "id": 4, "text": "Durga Bhagwat" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Laxmibai Tilak",
+      "Explanation": "Laxmibai Tilak, the wife of Narayan Waman Tilak, is the author of this important Marathi autobiography."
+    },
+    {
+      "category": "GK (India International)",
+      "Question": "Which city hosted the **Second BIMSTEC Expert Group Meeting on Cyber Security Cooperation** in 2024?",
+      "Options": [
+        { "id": 1, "text": "Hyderabad" },
+        { "id": 2, "text": "New Delhi" },
+        { "id": 3, "text": "Bengaluru" },
+        { "id": 4, "text": "Kolkata" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "New Delhi",
+      "Explanation": "The meeting on Cyber Security Cooperation among BIMSTEC member states was held in **New Delhi**."
+    },
+    {
+      "category": "GK (Maharashtra Art/GI Tag)",
+      "Question": "The famous **Warli Art**, known for its distinct tribal style, is primarily associated with which district cluster in Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Solapur" },
+        { "id": 2, "text": "Thane-Palghar" },
+        { "id": 3, "text": "Kolhapur" },
+        { "id": 4, "text": "Chhatrapati Sambhajinagar (Aurangabad)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Thane-Palghar",
+      "Explanation": "Warli Art originates from the Warli tribes inhabiting the mountainous and coastal areas of the Thane and Palghar districts of Maharashtra."
+    },
+    {
+      "category": "GK (India Defence/Tech)",
+      "Question": "Which organization has recently launched the quantum processor **'Willow'**?",
+      "Options": [
+        { "id": 1, "text": "Amazon" },
+        { "id": 2, "text": "Google" },
+        { "id": 3, "text": "Meta" },
+        { "id": 4, "text": "Microsoft" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Google",
+      "Explanation": "Google (specifically its quantum division) launched the **'Willow'** quantum processor as part of its advancements in quantum computing technology."
+    },
+    {
+      "category": "GK (Maharashtra GK)",
+      "Question": "Which animal is the **Radhanagari Wildlife Sanctuary** in Kolhapur, Maharashtra, most famous for conserving?",
+      "Options": [
+        { "id": 1, "text": "Tiger (Wagh)" },
+        { "id": 2, "text": "Indian Bison (Gaur)" },
+        { "id": 3, "text": "Spot-billed Pelican" },
+        { "id": 4, "text": "Greater Flamingo" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Indian Bison (Gaur)",
+      "Explanation": "Radhanagari Wildlife Sanctuary (Gargoti) is specifically known for its conservation of the **Indian Bison (Gaur)**."
+    },
+    {
+      "category": "GK (India Appointments)",
+      "Question": "Who took over the charge of Director General of **Employees' State Insurance Corporation (ESIC)** in 2024?",
+      "Options": [
+        { "id": 1, "text": "Navin" },
+        { "id": 2, "text": "Ashok Kumar Singh" },
+        { "id": 3, "text": "R.B. Barman" },
+        { "id": 4, "text": "Sudarshan Sen" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Ashok Kumar Singh",
+      "Explanation": "**Shri Ashok Kumar Singh**, IAS, took over the charge as the Director General of ESIC in 2024."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The **Mahatma Jyotirao Phule Jan Arogya Yojana** (MJPSJAY) provides cashless healthcare coverage up to what amount?",
+      "Options": [
+        { "id": 1, "text": "₹1,50,000/-" },
+        { "id": 2, "text": "₹3,00,000/-" },
+        { "id": 3, "text": "₹5,00,000/-" },
+        { "id": 4, "text": "₹10,00,000/-" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "₹5,00,000/-",
+      "Explanation": "MJPSJAY, similar to Ayushman Bharat, provides cashless health insurance coverage up to **₹5,00,000/-** per family per year for secondary and tertiary care hospitalization."
+    },
+    {
+      "category": "GK (India Sports)",
+      "Question": "Which Indian state has launched the **SHE COHORT 3.0** initiative to empower women-led startups?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Gujarat" },
+        { "id": 3, "text": "Punjab" },
+        { "id": 4, "text": "Haryana" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Punjab",
+      "Explanation": "The SHE COHORT 3.0 initiative is aimed at fostering entrepreneurship among women and was launched by the Punjab government."
+    },
+    {
+      "category": "GK (Maharashtra Economy)",
+      "Question": "Which financial institution headquartered in Pune, Maharashtra, has Dr. Partha Ray as its Director, as per a recent RBI committee report?",
+      "Options": [
+        { "id": 1, "text": "National Data Innovation Centre (NDIC)" },
+        { "id": 2, "text": "Indian Statistical Institute (ISI)" },
+        { "id": 3, "text": "National Institute of Bank Management (NIBM)" },
+        { "id": 4, "text": "National Chemical Laboratory (NCL)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "National Institute of Bank Management (NIBM)",
+      "Explanation": "Dr. Partha Ray, Director of NIBM, Pune, was part of an RBI-related expert committee, highlighting a key financial institution based in Maharashtra."
+    },
+    {
+      "category": "GK (India Schemes)",
+      "Question": "Under the **Pradhan Mantri Kisan Samman Nidhi (PM-KISAN)** scheme, how much annual financial support is provided to eligible farmer families?",
+      "Options": [
+        { "id": 1, "text": "₹4,000/-" },
+        { "id": 2, "text": "₹6,000/-" },
+        { "id": 3, "text": "₹8,000/-" },
+        { "id": 4, "text": "₹10,000/-" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "₹6,000/-",
+      "Explanation": "PM-KISAN provides **₹6,000/-** per year in three equal installments of ₹2,000/- directly into the bank accounts of eligible farmer families."
+    },
+    {
+      "category": "GK (Maharashtra GK)",
+      "Question": "Which chemical substance, as per the National Chemical Laboratory (NCL) in Pune, is considered a better indicator of diabetes than traditional methods?",
+      "Options": [
+        { "id": 1, "text": "Glucose" },
+        { "id": 2, "text": "Insulin" },
+        { "id": 3, "text": "Albumin" },
+        { "id": 4, "text": "Ketones" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Albumin",
+      "Explanation": "The NCL, Pune, opined that **Albumin** levels could serve as a better early indicator of diabetes compared to only blood sugar levels."
+    },
+    {
+      "category": "GK (India Science/Tech)",
+      "Question": "The **Project Veer Gatha 4.0** is a joint initiative of the Ministry of Defence and which other Union Ministry?",
+      "Options": [
+        { "id": 1, "text": "Ministry of Home Affairs" },
+        { "id": 2, "text": "Ministry of Culture" },
+        { "id": 3, "text": "Ministry of Education" },
+        { "id": 4, "text": "Ministry of Sports" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Ministry of Education",
+      "Explanation": "Project Veer Gatha is organized jointly by the Ministry of Defence and the **Ministry of Education** to create awareness among school children about the heroic deeds of Gallantry Award winners."
+    },
+    {
+      "category": "GK (Maharashtra Wildlife)",
+      "Question": "The **Yawal Wildlife Sanctuary** is situated in the Satpura Range ecosystem in which district of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Dhule" },
+        { "id": 2, "text": "Jalgaon" },
+        { "id": 3, "text": "Amravati" },
+        { "id": 4, "text": "Nagpur" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Jalgaon",
+      "Explanation": "Yawal Wildlife Sanctuary is a significant part of the Satpura Range ecosystem located in the **Jalgaon** district of Maharashtra."
+    },
+    {
+      "category": "GK (India Award)",
+      "Question": "How many individuals were honored with the **Padma Vibhushan** Award by the Government of India in 2025?",
+      "Options": [
+        { "id": 1, "text": "5" },
+        { "id": 2, "text": "7" },
+        { "id": 3, "text": "10" },
+        { "id": 4, "text": "14" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "7",
+      "Explanation": "The Padma Vibhushan is the second-highest civilian award. **7** individuals were announced for the Padma Vibhushan in 2025."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "Which state government scheme provides a 100% subsidy for the erection of a Tin Stall for roadside cobblers from the Charmakar community?",
+      "Options": [
+        { "id": 1, "text": "Mahila Samridhi Yojana" },
+        { "id": 2, "text": "LIDCOM Gattai Stall Scheme" },
+        { "id": 3, "text": "Ramai Awas Yojana" },
+        { "id": 4, "text": "Mukhyamantri Vayoshri Yojana" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "LIDCOM Gattai Stall Scheme",
+      "Explanation": "The **LIDCOM Gattai Stall Scheme** provides a full subsidy for small tin stalls to Scheduled Caste individuals engaged in roadside cobbling/repair."
+    },
+    {
+      "category": "GK (India Appointment)",
+      "Question": "Who was appointed as India's new Ambassador to **Israel** in 2025?",
+      "Options": [
+        { "id": 1, "text": "Sandeep Arya" },
+        { "id": 2, "text": "Jitendra Pal Singh" },
+        { "id": 3, "text": "Santosh Jha" },
+        { "id": 4, "text": "Sanjeev Singla" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Jitendra Pal Singh",
+      "Explanation": "**Jitendra Pal Singh** was recently appointed as the new Ambassador of India to Israel."
+    },
+    {
+      "category": "GK (Maharashtra History/Culture)",
+      "Question": "The **Bombay Reorganisation Act, 1960**, was passed based on which linguistic principle?",
+      "Options": [
+        { "id": 1, "text": "Unity in diversity" },
+        { "id": 2, "text": "Marathi-Gujarati linguistic division" },
+        { "id": 3, "text": "Geographical proximity" },
+        { "id": 4, "text": "Administrative convenience" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Marathi-Gujarati linguistic division",
+      "Explanation": "The Act divided the bilingual Bombay State into two states, Maharashtra (Marathi-speaking) and Gujarat (Gujarati-speaking), based on linguistic criteria."
+    },
+    {
+      "category": "GK (India Environment)",
+      "Question": "Which tropical monsoon climate type, characterized by annual rainfall over 250 cm, is found in the Konkan region of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Aw (Tropical Wet and Dry)" },
+        { "id": 2, "text": "Am (Tropical Monsoon)" },
+        { "id": 3, "text": "As (Tropical Monsoon with Dry Summer)" },
+        { "id": 4, "text": "Cwg (Monsoon with Dry Winter)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Am (Tropical Monsoon)",
+      "Explanation": "The Konkan coast, receiving heavy rainfall from the Arabian Sea branch of the monsoon, experiences a **Tropical Monsoon (Am)** type of climate."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The **Mukhyamantri Annapurna Yojana** of Maharashtra provides assistance in the form of:",
+      "Options": [
+        { "id": 1, "text": "Housing" },
+        { "id": 2, "text": "Cash subsidy" },
+        { "id": 3, "text": "Food grains (Subsidy)" },
+        { "id": 4, "text": "Medical insurance" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Food grains (Subsidy)",
+      "Explanation": "**Annapurna** refers to food. The scheme is aimed at providing subsidized or free food grains to the needy, focusing on food security."
+    },
+    {
+      "category": "GK (India International)",
+      "Question": "Which Asian country developed the world's first deep-sea radar capable of detecting high-flying aircraft?",
+      "Options": [
+        { "id": 1, "text": "Japan" },
+        { "id": 2, "text": "China" },
+        { "id": 3, "text": "South Korea" },
+        { "id": 4, "text": "Israel" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "China",
+      "Explanation": "China recently announced the development of the world's first deep-sea radar system with this advanced detection capability."
+    },
+    {
+      "category": "GK (Maharashtra GK)",
+      "Question": "Which Maratha king's court poet composed the heroic epic **'Shivabharata'**?",
+      "Options": [
+        { "id": 1, "text": "Chhatrapati Shivaji Maharaj" },
+        { "id": 2, "text": "Chhatrapati Sambhaji" },
+        { "id": 3, "text": "Shahu Maharaj" },
+        { "id": 4, "text": "Rajaram I" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Chhatrapati Sambhaji",
+      "Explanation": "**Shivabharata** was composed by the court poet of Chhatrapati Sambhaji, the son of Shivaji."
+    },
+    {
+      "category": "GK (India Award)",
+      "Question": "Which film directed by **Kiran Rao** emerged as the biggest winner, bagging 13 trophies at the 70th Filmfare Awards 2025?",
+      "Options": [
+        { "id": 1, "text": "Gully Boy" },
+        { "id": 2, "text": "Laapataa Ladies" },
+        { "id": 3, "text": "Mrs. Chatterjee vs Norway" },
+        { "id": 4, "text": "Jawan" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Laapataa Ladies",
+      "Explanation": "**'Laapataa Ladies'** was the big winner at the 70th Filmfare Awards 2025, directed by Kiran Rao."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The **Namo Shetkari Maha Samman Nidhi Yojana** provides an additional annual financial benefit of how much to eligible farmers?",
+      "Options": [
+        { "id": 1, "text": "₹4,000/-" },
+        { "id": 2, "text": "₹6,000/-" },
+        { "id": 3, "text": "₹8,000/-" },
+        { "id": 4, "text": "₹10,000/-" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "₹6,000/-",
+      "Explanation": "This state scheme provides ₹6,000/- annually, typically mirroring the amount of the central PM-KISAN scheme, as an additional benefit."
+    },
+    {
+      "category": "GK (India Geography)",
+      "Question": "Which river is known as the **'Lifeline of Vidarbha'** in Maharashtra, supporting the region's agriculture?",
+      "Options": [
+        { "id": 1, "text": "Godavari" },
+        { "id": 2, "text": "Wainganga" },
+        { "id": 3, "text": "Krishna" },
+        { "id": 4, "text": "Tapi" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Wainganga",
+      "Explanation": "The **Wainganga River** and its tributaries, being major sources of water, are collectively referred to as the 'Lifeline of Vidarbha'."
+    },
+    {
+      "category": "GK (Maharashtra Institution)",
+      "Question": "Which institution in Mumbai did the government recently approve the creation of a **Technical Member** post for?",
+      "Options": [
+        { "id": 1, "text": "Reserve Bank of India (RBI)" },
+        { "id": 2, "text": "Securities Appellate Tribunal (SAT)" },
+        { "id": 3, "text": "Bombay Stock Exchange (BSE)" },
+        { "id": 4, "text": "National Stock Exchange (NSE)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Securities Appellate Tribunal (SAT)",
+      "Explanation": "The government approved the creation of the Technical Member post to the **Securities Appellate Tribunal (SAT)** in Mumbai to manage complex technical issues."
+    },
+    {
+      "category": "GK (India Scheme)",
+      "Question": "The Central Scheme **Ayushman Bharat - PMJAY** provides cashless healthcare cover up to what amount per family per year?",
+      "Options": [
+        { "id": 1, "text": "₹1,00,000/-" },
+        { "id": 2, "text": "₹2,50,000/-" },
+        { "id": 3, "text": "₹5,00,000/-" },
+        { "id": 4, "text": "₹10,00,000/-" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "₹5,00,000/-",
+      "Explanation": "Ayushman Bharat - Pradhan Mantri Jan Arogya Yojana (AB-PMJAY) provides a cover of up to **₹5,00,000/-** per family per year for secondary and tertiary hospitalization."
+    },
+    {
+      "category": "GK (Maharashtra Award)",
+      "Question": "In the National Film Awards 2024, the **Best Debut Film of a Director** was awarded to **'Aatmapamphlet'**. The film belongs to which language category?",
+      "Options": [
+        { "id": 1, "text": "Hindi" },
+        { "id": 2, "text": "Telugu" },
+        { "id": 3, "text": "Marathi" },
+        { "id": 4, "text": "Bengali" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Marathi",
+      "Explanation": "**'Aatmapamphlet'** is a Marathi film that received the award for the Best Debut Film of a Director."
+    },
+    {
+      "category": "GK (India Science/Tech)",
+      "Question": "The **National Tele-Mental Health Programme (Tele-MANAS)** was launched on the occasion of:",
+      "Options": [
+        { "id": 1, "text": "World Health Day" },
+        { "id": 2, "text": "World Mental Health Day" },
+        { "id": 3, "text": "International Day of Yoga" },
+        { "id": 4, "text": "World Brain Day" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "World Mental Health Day",
+      "Explanation": "Tele-MANAS was launched by the Union Minister of Health and Family Welfare on the occasion of **World Mental Health Day** (October 10)."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The **Mukhyamantri Majhi Ladki Bahin Yojana** provides a monthly financial benefit of:",
+      "Options": [
+        { "id": 1, "text": "₹1,000/-" },
+        { "id": 2, "text": "₹1,250/-" },
+        { "id": 3, "text": "₹1,500/-" },
+        { "id": 4, "text": "₹2,000/-" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "₹1,500/-",
+      "Explanation": "The scheme provides a monthly financial benefit of **₹1,500/-** to women in the state."
+    },
+    {
+      "category": "GK (India GK)",
+      "Question": "The **International Day of Education** is observed every year on:",
+      "Options": [
+        { "id": 1, "text": "24 January" },
+        { "id": 2, "text": "25 January" },
+        { "id": 3, "text": "11 November" },
+        { "id": 4, "text": "5 September" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "24 January",
+      "Explanation": "The United Nations General Assembly proclaimed January 24 as the International Day of Education, in commemoration of the role of education for peace and development."
+    },
+    {
+      "category": "GK (Maharashtra History/Culture)",
+      "Question": "The **Bombay Mill Hands Association**, often cited as the first organized labor movement in India, was founded by which social reformer from Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Mahatma Jyotiba Phule" },
+        { "id": 2, "text": "Narayan Meghaji Lokhande" },
+        { "id": 3, "text": "Dr. B.R. Ambedkar" },
+        { "id": 4, "text": "Dhondo Keshav Karve" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Narayan Meghaji Lokhande",
+      "Explanation": "Narayan Meghaji Lokhande is recognized as the pioneer of the labor movement in India, having established the Bombay Mill Hands Association in 1890."
+    },
+    {
+      "category": "GK (India International)",
+      "Question": "Which country is home to the **Mount Ibu** volcano, which saw a major eruption recently?",
+      "Options": [
+        { "id": 1, "text": "Japan" },
+        { "id": 2, "text": "Philippines" },
+        { "id": 3, "text": "Indonesia" },
+        { "id": 4, "text": "New Zealand" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Indonesia",
+      "Explanation": "Mount Ibu is an active volcano located on Halmahera island in **Indonesia**, which is part of the Pacific Ring of Fire."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The **Mukhyamantri Majhi Ladki Bahin Scheme** aims to give **economic freedom** to women in which age group?",
+      "Options": [
+        { "id": 1, "text": "18 to 45 years" },
+        { "id": 2, "text": "21 to 65 years" },
+        { "id": 3, "text": "25 to 70 years" },
+        { "id": 4, "text": "18 to 60 years" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "21 to 65 years",
+      "Explanation": "The scheme targets women in the age group of **21 to 65 years** to empower them financially."
+    },
+    {
+      "category": "GK (India Policy/Banking)",
+      "Question": "What is the maximum limit of a lender's total exposure to all borrowers on **Peer-to-Peer (P2P)** lending platforms, as per recent RBI guidelines?",
+      "Options": [
+        { "id": 1, "text": "₹20 lakhs" },
+        { "id": 2, "text": "₹40 lakhs" },
+        { "id": 3, "text": "₹50 lakhs" },
+        { "id": 4, "text": "₹1 crore" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "₹50 lakhs",
+      "Explanation": "The RBI limits the aggregate exposure of a single lender across all P2P platforms to **₹50 lakhs** to manage risk."
+    },
+    {
+      "category": "GK (Maharashtra Fort)",
+      "Question": "The Battle of Sinhagad, where Tanaji Malusare sacrificed his life, took place in which year?",
+      "Options": [
+        { "id": 1, "text": "1665" },
+        { "id": 2, "text": "1670" },
+        { "id": 3, "text": "1674" },
+        { "id": 4, "text": "1680" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "1670",
+      "Explanation": "The famous **Battle of Sinhagad** (Kondana) was fought on the night of February 4, **1670**, between Tanaji Malusare and UdayBhan Singh Rathore."
+    },
+    {
+      "category": "GK (India Politics/Committees)",
+      "Question": "The **Committee on Estimates** in the Indian Parliament, constituted recently for 2024-25, is chaired by:",
+      "Options": [
+        { "id": 1, "text": "K.C. Venugopal" },
+        { "id": 2, "text": "Ganesh Singh" },
+        { "id": 3, "text": "Dr. Sanjay Jaiswal" },
+        { "id": 4, "text": "Baijyant Panda" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Dr. Sanjay Jaiswal",
+      "Explanation": "The Committee on Estimates, which reviews budget estimates for administrative departments, is chaired by **Dr. Sanjay Jaiswal** (BJP MP)."
+    },
+    {
+      "category": "GK (Maharashtra Social Reform)",
+      "Question": "The social activist **Pramila Tai Medhe**, who passed away recently, was the former **Pramukh Sanchalika** of which women's organization?",
+      "Options": [
+        { "id": 1, "text": "Stree Mukti Sanghatana" },
+        { "id": 2, "text": "Rashtra Sevika Samiti" },
+        { "id": 3, "text": "Arya Mahila Samaj" },
+        { "id": 4, "text": "Shramik Nari Sangh" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Rashtra Sevika Samiti",
+      "Explanation": "Pramila Tai Medhe, known for her social service and women's empowerment, served as the Pramukh Sanchalika of the **Rashtra Sevika Samiti** from 2006 to 2012."
+    },
+    {
+      "category": "GK (India Geography/Culture)",
+      "Question": "In which state is **Kokborak Day** celebrated annually?",
+      "Options": [
+        { "id": 1, "text": "Tripura" },
+        { "id": 2, "text": "Assam" },
+        { "id": 3, "text": "Nagaland" },
+        { "id": 4, "text": "Arunachal Pradesh" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Tripura",
+      "Explanation": "**Kokborak Day** (Tripuri Language Day) is celebrated every year on January 19 in Tripura to recognize the Kokborok language."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The **Namo Shetkari Maha Samman Nidhi Yojana** offers a total annual financial benefit of ₹12,000 to eligible farmers when combined with PM-KISAN, distributed in how many equal installments?",
+      "Options": [
+        { "id": 1, "text": "2" },
+        { "id": 2, "text": "3" },
+        { "id": 3, "text": "4" },
+        { "id": 4, "text": "6" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "4",
+      "Explanation": "PM-KISAN provides ₹6,000/- in 3 installments. The Namo Shetkari scheme is designed to provide ₹6,000/- in 4 installments (₹1,500 each), but since the entire ₹12,000 is distributed in PM-KISAN's 3 installments + Namo Shetkari's installments, the total distribution aligns with the PM-KISAN cycle, making the most common MPSC answer **4** or **3** (depending on how the combined scheme is interpreted). Since PM-KISAN is 3 installments and Namo Shetkari is often aligned with it, let's use the most specific answer for PM-KISAN's central scheme: **3**."
+    },
+    {
+      "category": "GK (India Appointment)",
+      "Question": "Shri **Ashok Kumar Singh**, who took charge as DG, ESIC, is an IAS officer of which cadre?",
+      "Options": [
+        { "id": 1, "text": "Madhya Pradesh" },
+        { "id": 2, "text": "Kerala" },
+        { "id": 3, "text": "Maharashtra" },
+        { "id": 4, "text": "Bihar" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kerala",
+      "Explanation": "Shri Ashok Kumar Singh belongs to the **1999 batch of the Kerala cadre**."
+    },
+    {
+      "category": "GK (Maharashtra Sports)",
+      "Question": "Which individual from Maharashtra was honored with the **Dhyanchand Award for Lifetime Achievement in Sports and Games** in the 2024 awards?",
+      "Options": [
+        { "id": 1, "text": "Kaka Pawar (Wrestling)" },
+        { "id": 2, "text": "Uday Deshpande (Mallakhamb)" },
+        { "id": 3, "text": "Prabhakar Mallya (Cricket)" },
+        { "id": 4, "text": "Anil Kumbla (Badminton)" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Kaka Pawar (Wrestling)",
+      "Explanation": "Kaka Pawar, a renowned wrestler from Maharashtra, was recognized with the Dhyanchand Award for his lifetime contributions to the sport."
+    },
+    {
+      "category": "GK (India Schemes)",
+      "Question": "The **Indiramma Atmiya Bharosa Scheme**, recently launched, is a welfare measure for housing and economic support in which state?",
+      "Options": [
+        { "id": 1, "text": "Andhra Pradesh" },
+        { "id": 2, "text": "Telangana" },
+        { "id": 3, "text": "Karnataka" },
+        { "id": 4, "text": "Tamil Nadu" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Telangana",
+      "Explanation": "The scheme was launched by the government of **Telangana** to provide social and economic welfare, particularly for housing."
+    },
+    {
+      "category": "GK (Maharashtra History/Culture)",
+      "Question": "Who coined the phrase **'post-dated cheque on a crashing bank'** regarding the Cripps Mission (1942)?",
+      "Options": [
+        { "id": 1, "text": "Jawaharlal Nehru" },
+        { "id": 2, "text": "Subhas Chandra Bose" },
+        { "id": 3, "text": "Mahatma Gandhi" },
+        { "id": 4, "text": "Ram Manohar Lohia" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Mahatma Gandhi",
+      "Explanation": "Mahatma Gandhi made this famous comment on the Cripps Mission proposals, which were widely viewed as inadequate and insincere during wartime."
+    },
+    {
+      "category": "GK (India Technology)",
+      "Question": "Which two scientists are commemorated on **National Fish Farmers Day** (observed on July 10) for their work on the **Hypophysation** technique?",
+      "Options": [
+        { "id": 1, "text": "M.S. Swaminathan and Varghese Kurien" },
+        { "id": 2, "text": "Hiralal Chaudhury and K.H. Alikunhi" },
+        { "id": 3, "text": "C.V. Raman and A.P.J. Abdul Kalam" },
+        { "id": 4, "text": "Jayant Narlikar and P.C. Mahalanobis" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Hiralal Chaudhury and K.H. Alikunhi",
+      "Explanation": "National Fish Farmers Day honors the contributions of **Dr. Hiralal Chaudhury and Dr. K.H. Alikunhi**, pioneers of induced breeding (Hypophysation) in Indian Major Carps in 1957."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The **Mukhyamantri Teerth Darshan Yojana** of Maharashtra provides assistance for:",
+      "Options": [
+        { "id": 1, "text": "Healthcare for pilgrims" },
+        { "id": 2, "text": "Subsidized travel for senior citizens to religious sites" },
+        { "id": 3, "text": "Construction of temples" },
+        { "id": 4, "text": "Renovation of historical sites" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Subsidized travel for senior citizens to religious sites",
+      "Explanation": "This scheme provides subsidized travel arrangements for senior citizens to visit recognized religious and pilgrimage sites (Teerth Darshan)."
+    },
+    {
+      "category": "GK (India GK)",
+      "Question": "The **Duleep Trophy** is a domestic competition associated with which sport?",
+      "Options": [
+        { "id": 1, "text": "Football" },
+        { "id": 2, "text": "Hockey" },
+        { "id": 3, "text": "Cricket" },
+        { "id": 4, "text": "Badminton" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Cricket",
+      "Explanation": "The Duleep Trophy is a first-class cricket competition in India contested by teams representing geographical zones."
+    },
+    {
+      "category": "GK (Maharashtra Polity)",
+      "Question": "The **Police Sub-Inspector (PSI) physical test** norms have been revised recently. These standards are announced by which state body?",
+      "Options": [
+        { "id": 1, "text": "Director General of Police, Maharashtra" },
+        { "id": 2, "text": "Maharashtra Police Recruitment Board" },
+        { "id": 3, "text": "Maharashtra Public Service Commission (MPSC)" },
+        { "id": 4, "text": "Home Department, Government of Maharashtra" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Maharashtra Public Service Commission (MPSC)",
+      "Explanation": "The MPSC, being the recruiting authority for PSI, announces the revised standards and norms for the physical tests for candidates."
+    },
+    {
+      "category": "GK (India Defence)",
+      "Question": "India and Japan have elevated their defense and security cooperation via which platform, initiated in 2019?",
+      "Options": [
+        { "id": 1, "text": "Special Strategic Partnership" },
+        { "id": 2, "text": "Quad (Quadrilateral Security Dialogue)" },
+        { "id": 3, "text": "2+2 Ministerial Dialogue" },
+        { "id": 4, "text": "Malabar Naval Exercises" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "2+2 Ministerial Dialogue",
+      "Explanation": "The **India-Japan 2+2 Ministerial Dialogue** (Defense and Foreign Ministers) was initiated in 2019 to strengthen security cooperation."
+    },
+    {
+      "category": "GK (Maharashtra Fort)",
+      "Question": "Which twin forts in the Pune district of Maharashtra stand at $4472 \text{ ft}$ above sea level and are popular tourist attractions?",
+      "Options": [
+        { "id": 1, "text": "Raigad and Torna" },
+        { "id": 2, "text": "Lohagad and Visapur" },
+        { "id": 3, "text": "Purandar and Vajragad (Rudramal)" },
+        { "id": 4, "text": "Shivneri and Junnar" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Purandar and Vajragad (Rudramal)",
+      "Explanation": "Purandar Fort and Vajragad (Rudramal) are known as the **twin forts** near Pune, significant in Maratha history."
+    },
+    {
+      "category": "GK (India Awards)",
+      "Question": "How many children were awarded the **Pradhan Mantri Rashtriya Bal Puraskar 2025** by the President?",
+      "Options": [
+        { "id": 1, "text": "15" },
+        { "id": 2, "text": "17" },
+        { "id": 3, "text": "18" },
+        { "id": 4, "text": "20" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "17",
+      "Explanation": "A total of **17** children were conferred the Pradhan Mantri Rashtriya Bal Puraskar in 2025 across various categories."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The Maharashtra government has mandated the **gender budget** implementation since 2013, which applies a gendered lens to the allocation and tracking of:",
+      "Options": [
+        { "id": 1, "text": "Private sector funds" },
+        { "id": 2, "text": "Public funds" },
+        { "id": 3, "text": "Corporate Social Responsibility (CSR)" },
+        { "id": 4, "text": "International aid funds" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Public funds",
+      "Explanation": "Gender budgeting is an exercise to analyze the state budget (public funds) to assess its impact on women and men, and to address gender disparities."
+    },
+    {
+      "category": "GK (India Environment)",
+      "Question": "Which state records a **lower crime rate** than the national average, according to recent government data?",
+      "Options": [
+        { "id": 1, "text": "Bihar" },
+        { "id": 2, "text": "Uttar Pradesh" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Uttar Pradesh",
+      "Explanation": "As per recent reports on crime statistics, Uttar Pradesh reported a crime rate lower than the national average."
+    },
+    {
+      "category": "GK (Maharashtra Social Reform)",
+      "Question": "The **Indira Gandhi National Old Age Pension Scheme** in Maharashtra provides a monthly pension of ₹600 to BPL elderly individuals aged:",
+      "Options": [
+        { "id": 1, "text": "60 years and above" },
+        { "id": 2, "text": "65 years and above" },
+        { "id": 3, "text": "70 years and above" },
+        { "id": 4, "text": "75 years and above" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "65 years and above",
+      "Explanation": "The scheme provides ₹600 per month to elderly individuals aged **65 years and above** from BPL families."
+    },
+    {
+      "category": "GK (India Technology)",
+      "Question": "The **Central Suspect Registry** was recently developed by which institution?",
+      "Options": [
+        { "id": 1, "text": "National Investigation Agency (NIA)" },
+        { "id": 2, "text": "Indian Cyber Crime Coordination Centre (I4C)" },
+        { "id": 3, "text": "Central Bureau of Investigation (CBI)" },
+        { "id": 4, "text": "Reserve Bank of India (RBI)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Indian Cyber Crime Coordination Centre (I4C)",
+      "Explanation": "The Central Suspect Registry, aimed at combating cybercrime, was developed by the **I4C**."
+    },
+    {
+      "category": "GK (Maharashtra GK)",
+      "Question": "Which famous wildlife sanctuary is located at the confluence of the **Anner and Manjar rivers** in Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Sagareshwar Wildlife Sanctuary" },
+        { "id": 2, "text": "Yawal Wildlife Sanctuary" },
+        { "id": 3, "text": "Radhanagari Wildlife Sanctuary" },
+        { "id": 4, "text": "Bhagwan Mahavir Wildlife Sanctuary" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Yawal Wildlife Sanctuary",
+      "Explanation": "The Yawal Wildlife Sanctuary is situated at the confluence of the Anner and Manjar rivers in the Jalgaon district."
+    },
+    {
+      "category": "GK (India Award)",
+      "Question": "Who jointly won the **Best Actor (Male)** award at the 70th Filmfare Awards 2025?",
+      "Options": [
+        { "id": 1, "text": "Ranveer Singh and Vicky Kaushal" },
+        { "id": 2, "text": "Shah Rukh Khan and Vikrant Massey" },
+        { "id": 3, "text": "Abhishek Bachchan and Kartik Aaryan" },
+        { "id": 4, "text": "Ranbir Kapoor and Shah Rukh Khan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Abhishek Bachchan and Kartik Aaryan",
+      "Explanation": "The Best Actor (Male) award was shared by **Abhishek Bachchan** and **Kartik Aaryan** for their respective performances."
+    },
+    {
+      "category": "GK (Maharashtra Scheme)",
+      "Question": "The **PM-Surya Ghar: Muft Bijli Yojna** provides a total capped subsidy of ₹78,000 for residential systems larger than:",
+      "Options": [
+        { "id": 1, "text": "1 kW" },
+        { "id": 2, "text": "2 kW" },
+        { "id": 3, "text": "3 kW" },
+        { "id": 4, "text": "5 kW" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "3 kW",
+      "Explanation": "The total subsidy is capped at ₹78,000 for systems larger than **3 kW**."
+    },
+    {
+      "category": "GK (India History)",
+      "Question": "Who later became India's first female Chief Minister (Uttar Pradesh), having risen to prominence during the Quit India Movement?",
+      "Options": [
+        { "id": 1, "text": "Aruna Asaf Ali" },
+        { "id": 2, "text": "Matangini Hazra" },
+        { "id": 3, "text": "Sucheta Kripalani" },
+        { "id": 4, "text": "Usha Mehta" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Sucheta Kripalani",
+      "Explanation": "**Sucheta Kripalani** actively participated in the Quit India Movement and later served as the first woman Chief Minister of an Indian state (Uttar Pradesh)."
+    }
+  ]

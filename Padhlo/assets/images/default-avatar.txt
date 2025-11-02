@@ -1,0 +1,6 @@
+// This is a placeholder for the default avatar image
+// In a real app, you would have an actual image file here
+// For now, we'll use a placeholder URL in the component
+
+
+

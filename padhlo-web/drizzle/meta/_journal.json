@@ -1,0 +1,13 @@
+{
+  "version": "5",
+  "dialect": "pg",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1760935427642,
+      "tag": "0000_little_the_professor",
+      "breakpoints": true
+    }
+  ]
+}
