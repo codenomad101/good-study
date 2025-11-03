@@ -29,6 +29,7 @@ import {
 import { useAuth } from '../contexts/AuthContext';
 import { usePracticeCategories, useCreatePracticeSession, useUpdatePracticeAnswer, useCompletePracticeSession } from '../hooks/usePractice';
 import { useCategories } from '../hooks/useCategories';
+import { useUserStats } from '../hooks/useApi';
 import { apiService } from '../services/api';
 import AppHeader from './AppHeader';
 
@@ -84,15 +85,19 @@ interface PracticeSession {
 
 interface UserPracticeStats {
   totalPracticeSessions: number;
+  totalQuestionsAttempted: number;
+  totalCorrectAnswers: number;
+  totalIncorrectAnswers: number;
+  currentStreak: number;
+  longestStreak: number;
+  totalTimeSpentMinutes: number;
+  overallAccuracy: number;
+  // Fields that are not directly available from /statistics/user but are part of the original interface
   totalPracticeScore: number;
   weeklyPracticeScore: number;
   monthlyPracticeScore: number;
   weeklyPracticeCount: number;
   monthlyPracticeCount: number;
-  currentStreak: number;
-  longestStreak: number;
-  averageAccuracy: number;
-  totalTimeSpentMinutes: number;
   categoryPerformance: Record<string, any>;
 }
 
@@ -101,6 +106,7 @@ const EnhancedPracticeContent: React.FC = () => {
   
   // Try to load categories from API, fallback to hardcoded
   const { data: categoriesResponse, isLoading: categoriesLoading } = useCategories();
+  const { data: statsResponse, refetch: refetchUserStats, error: statsError } = useUserStats();
   const apiCategories = categoriesResponse?.data || (Array.isArray(categoriesResponse) ? categoriesResponse : []);
   
   const fallbackCategories: PracticeCategory[] = [
@@ -149,50 +155,33 @@ const EnhancedPracticeContent: React.FC = () => {
   const updateAnswerMutation = useUpdatePracticeAnswer();
   const completeSessionMutation = useCompletePracticeSession();
 
-  // Load user practice statistics
-  const loadUserStats = async () => {
-    if (!user?.userId) return;
-    
-    try {
-      // Check if userId is a valid UUID format
-      const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
-      if (!uuidRegex.test(user.userId)) {
-        console.log('User ID is not in UUID format, skipping stats load');
-        return;
-      }
-
-      // Use apiService instead of direct fetch to ensure correct base URL
-      const response = await apiService.getUserStats(30);
-      const statsData = (response?.data || {}) as any;
-      
-      // Map the response to UserPracticeStats interface
+  useEffect(() => {
+    if (statsError) {
+      setUserStats(null);
+    } else if (statsResponse?.data) {
+      const statsData = statsResponse.data as any;
       const mappedStats: UserPracticeStats = {
-        totalPracticeSessions: statsData.totalPracticeSessions || statsData.totalSessions || 0,
-        totalPracticeScore: statsData.totalPracticeScore || statsData.totalScore || statsData.totalPoints || 0,
-        weeklyPracticeScore: statsData.weeklyPracticeScore || statsData.weeklyScore || 0,
-        monthlyPracticeScore: statsData.monthlyPracticeScore || statsData.monthlyScore || 0,
-        weeklyPracticeCount: statsData.weeklyPracticeCount || statsData.weeklyCount || 0,
-        monthlyPracticeCount: statsData.monthlyPracticeCount || statsData.monthlyCount || 0,
+        totalPracticeSessions: statsData.totalPracticeSessions || 0,
+        totalQuestionsAttempted: statsData.totalQuestionsAttempted || 0,
+        totalCorrectAnswers: statsData.totalCorrectAnswers || 0,
+        totalIncorrectAnswers: statsData.totalIncorrectAnswers || 0,
         currentStreak: statsData.currentStreak || 0,
         longestStreak: statsData.longestStreak || 0,
-        averageAccuracy: parseFloat(statsData.averageAccuracy || statsData.overallAccuracy || 0),
-        totalTimeSpentMinutes: statsData.totalTimeSpentMinutes || statsData.totalTimeSpent || 0,
-        categoryPerformance: statsData.categoryPerformance || statsData.categoryStats || {},
+        totalTimeSpentMinutes: statsData.totalTimeSpentMinutes || 0,
+        overallAccuracy: parseFloat(statsData.overallAccuracy || '0'),
+        // Fields not directly available from /statistics/user but are part of the original interface
+        totalPracticeScore: statsData.totalCorrectAnswers || 0, // Using totalCorrectAnswers as practice score
+        weeklyPracticeScore: 0,
+        monthlyPracticeScore: 0,
+        weeklyPracticeCount: 0,
+        monthlyPracticeCount: 0,
+        categoryPerformance: {},
       };
-      
       setUserStats(mappedStats);
-    } catch (error: any) {
-      console.error('Error loading user stats:', error);
-      console.error('Error details:', error?.message || error);
     }
-  };
-
-  useEffect(() => {
-    loadUserStats();
-  }, [user?.userId]);
+  }, [statsResponse, statsError]);
 
   const startSession = () => {
-    console.log('Starting practice session...');
     setSessionStarted(true);
     setSessionCompleted(false);
     setSessionResults(null);
@@ -210,7 +199,6 @@ const EnhancedPracticeContent: React.FC = () => {
   };
 
   const loadQuestions = async (category: string) => {
-    console.log('Loading questions for category:', category);
     setIsLoading(true);
     
     try {
@@ -221,6 +209,7 @@ const EnhancedPracticeContent: React.FC = () => {
         case 'economy':
           questionsData = require('../data/English/economyEnglish.json');
           break;
+        case 'current-affairs':
         case 'gk':
           questionsData = require('../data/English/GKEnglish.json');
           break;
@@ -276,7 +265,6 @@ const EnhancedPracticeContent: React.FC = () => {
       setTimeRemaining(15 * 60);
       setQuestionStartTime(Date.now());
       
-      console.log('Questions loaded successfully, creating session...');
       
       // Create a practice session via API if user is authenticated
       if (user?.userId) {
@@ -286,7 +274,6 @@ const EnhancedPracticeContent: React.FC = () => {
             // Ensure category is a valid string (use selectedCategory as fallback)
             const categoryToUse = category || selectedCategory || '';
             if (!categoryToUse || categoryToUse.trim() === '') {
-              console.warn('⚠️ No valid category provided, skipping session creation');
               return;
             }
             
@@ -295,14 +282,7 @@ const EnhancedPracticeContent: React.FC = () => {
             // Prefer slug over UUID, as that's what the web frontend uses
             const categoryForServer = categoryObj?.slug || categoryObj?.categoryId || categoryToUse.trim();
             
-            console.log('Creating practice session via API:', {
-              originalCategory: categoryToUse,
-              categoryForServer: categoryForServer,
-              categoryObj: categoryObj,
-              timeLimitMinutes: 15,
-              language: 'en',
-              userId: user.userId
-            });
+         
             
             const sessionResult = await createSessionMutation.mutateAsync({
               category: categoryForServer, // Send slug or UUID to server
@@ -310,17 +290,14 @@ const EnhancedPracticeContent: React.FC = () => {
               language: 'en'
             });
             
-            console.log('Session creation response:', JSON.stringify(sessionResult, null, 2));
             
             // The response structure is { success: true, data: { sessionId, questions, ... } }
             const sessionData = (sessionResult as any)?.data;
             if (sessionData?.sessionId) {
               setSessionId(sessionData.sessionId);
-              console.log('✅ Session created successfully with ID:', sessionData.sessionId);
               
               // If server returned questions with proper questionIds, update our local questions array
               if (sessionData.questions && Array.isArray(sessionData.questions) && sessionData.questions.length > 0) {
-                console.log('Updating questions with server questionIds');
                 // Map server questions to our format, preserving server questionIds
                 const serverQuestions: PracticeQuestion[] = sessionData.questions.map((q: any, index: number) => ({
                   questionId: q.questionId || `q_${index + 1}`, // Use server questionId if available
@@ -333,21 +310,13 @@ const EnhancedPracticeContent: React.FC = () => {
                   questionType: q.questionType || q.QuestionType || 'multiple_choice'
                 }));
                 setQuestions(serverQuestions);
-                console.log('Updated questions with server questionIds:', serverQuestions.slice(0, 2).map(q => q.questionId));
               }
             } else {
-              console.warn('⚠️ Session created but no sessionId found in response:', sessionData);
             }
           } else {
-            console.log('User ID is not a valid UUID, skipping session creation');
           }
         } catch (error: any) {
-          console.error('❌ Failed to create session via API:', error);
-          console.error('Error details:', {
-            message: error?.message,
-            response: error?.response?.data || error?.response,
-            stack: error?.stack
-          });
+        
           // Continue with local session - don't block the user
         }
       } else {
@@ -358,7 +327,6 @@ const EnhancedPracticeContent: React.FC = () => {
       startSession();
       
     } catch (error) {
-      console.error('Error loading questions:', error);
       Alert.alert('Error', 'Failed to load questions. Please try again.');
     } finally {
       setIsLoading(false);
@@ -410,7 +378,6 @@ const EnhancedPracticeContent: React.FC = () => {
       // Check if userId is a valid UUID format
       const uuidRegex = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
       if (!user?.userId || !uuidRegex.test(user.userId)) {
-        console.log('User ID is not in UUID format, skipping backend save');
         
         // Still show results locally
         setSessionResults({
@@ -444,7 +411,6 @@ const EnhancedPracticeContent: React.FC = () => {
         return;
       }
 
-      console.log('Saving session to backend for user:', user.userId);
 
       // If we have a sessionId, complete it using the API
       if (sessionId) {
@@ -470,7 +436,7 @@ const EnhancedPracticeContent: React.FC = () => {
           });
           
           setSessionCompleted(true);
-          await loadUserStats();
+          await refetchUserStats();
           
           Alert.alert(
             'Session Completed!',
@@ -482,14 +448,12 @@ const EnhancedPracticeContent: React.FC = () => {
           );
           return;
         } catch (error: any) {
-          console.error('Error completing session via API:', error);
           Alert.alert('Error', error.message || 'Failed to save session results');
           return;
         }
       }
 
       // Fallback: For local sessions, save as local results only
-      console.warn('No sessionId found, saving as local session only');
       
       setSessionResults({
         sessionId: `local_${Date.now()}`,
@@ -520,7 +484,6 @@ const EnhancedPracticeContent: React.FC = () => {
         ]
       );
     } catch (error) {
-      console.error('Error completing session:', error);
       Alert.alert('Error', 'Failed to save session results');
     }
   };
@@ -547,14 +510,7 @@ const EnhancedPracticeContent: React.FC = () => {
           }
         }
         
-        console.log('[EnhancedPracticeContent] Updating answer:', {
-          sessionId,
-          questionId,
-          userAnswer: userAnswerValue,
-          originalAnswer: answer,
-          timeSpentSeconds: Math.floor(timeSpent / 1000),
-          hasQuestion: !!currentQuestion
-        });
+     
         
         await updateAnswerMutation.mutateAsync({
           sessionId,
@@ -565,10 +521,7 @@ const EnhancedPracticeContent: React.FC = () => {
       } catch (error: any) {
         console.error('[EnhancedPracticeContent] Failed to save answer to backend:', {
           error: error?.message,
-          questionId,
-          answer,
-          sessionId,
-          endpoint: error?.endpoint
+          
         });
         // Don't block the UI if saving fails - user can still continue
       }
@@ -681,17 +634,17 @@ const EnhancedPracticeContent: React.FC = () => {
           <View style={styles.statsGrid}>
             <View style={styles.statCard}>
               <Target size={24} color="#2563EB" />
-              <Text style={styles.statNumber}>0</Text>
+              <Text style={styles.statNumber}>{userStats?.totalPracticeSessions || 0}</Text>
               <Text style={styles.statLabel}>Sessions Completed</Text>
             </View>
             <View style={styles.statCard}>
               <TrendingUp size={24} color="#10B981" />
-              <Text style={styles.statNumber}>0%</Text>
+              <Text style={styles.statNumber}>{userStats?.averageAccuracy?.toFixed(1) || 0}%</Text>
               <Text style={styles.statLabel}>Average Score</Text>
             </View>
             <View style={styles.statCard}>
               <Clock size={24} color="#F59E0B" />
-              <Text style={styles.statNumber}>0</Text>
+              <Text style={styles.statNumber}>{userStats?.totalTimeSpentMinutes || 0}</Text>
               <Text style={styles.statLabel}>Minutes Practiced</Text>
             </View>
           </View>

@@ -26,7 +26,7 @@ export const queryKeys = {
   progress: {
     all: ['progress'] as const,
     topic: (id: string) => ['progress', 'topic', id] as const,
-    stats: (days?: number) => ['progress', 'stats', days] as const,
+    stats: ['progress', 'stats'] as const,
     subjectWise: ['progress', 'subject-wise'] as const,
     weakTopics: (limit?: number) => ['progress', 'weak-topics', limit] as const,
     sessions: (startDate?: string, endDate?: string) => 
@@ -250,32 +250,15 @@ export const useUpdateProgress = () => {
       queryClient.invalidateQueries({ 
         queryKey: queryKeys.progress.topic(variables.topicId) 
       });
-      queryClient.invalidateQueries({ queryKey: queryKeys.progress.stats() });
+      queryClient.invalidateQueries({ queryKey: queryKeys.progress.stats });
     },
   });
 };
 
-export const useUserStats = (days: number = 30) => {
+export const useUserStats = () => {
   return useQuery({
-    queryKey: queryKeys.progress.stats(days),
-    queryFn: async () => {
-      try {
-        return await apiService.getUserStats(days);
-      } catch (error: any) {
-        console.warn('[useApi] getUserStats error:', error?.message || 'Unknown error');
-        // Return safe fallback
-        return { 
-          success: false, 
-          data: {
-            totalQuestionsAttempted: 0,
-            overallAccuracy: 0,
-            currentStreak: 0,
-            totalTimeSpentMinutes: 0
-          },
-          message: error?.message || 'Failed to load stats'
-        };
-      }
-    },
+    queryKey: queryKeys.progress.stats,
+    queryFn: () => apiService.getUserStatistics(),
     retry: false,
     staleTime: 2 * 60 * 1000,
   });
@@ -341,7 +324,7 @@ export const useCreatePracticeSession = () => {
     }) => apiService.createProgressPracticeSession(sessionData),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: queryKeys.progress.sessions() });
-      queryClient.invalidateQueries({ queryKey: queryKeys.progress.stats() });
+      queryClient.invalidateQueries({ queryKey: queryKeys.progress.stats });
     },
   });
 };
@@ -361,7 +344,7 @@ export const useAddQuestionHistory = () => {
     }) => apiService.addQuestionHistory(historyData),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: queryKeys.progress.all });
-      queryClient.invalidateQueries({ queryKey: queryKeys.progress.stats() });
+      queryClient.invalidateQueries({ queryKey: queryKeys.progress.stats });
     },
   });
 };

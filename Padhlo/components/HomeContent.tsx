@@ -10,35 +10,26 @@ import { useRouter } from 'expo-router';
 const HomeContent: React.FC = () => {
   const { user } = useAuth();
   const router = useRouter();
-  
-  console.log('[HomeContent] Rendering, user:', user?.email);
-  
+    
   // Fetch data using React Query hooks - must be called unconditionally
   const { data: examsData, isLoading: examsLoading, error: examsError } = useExams();
-  const { data: statsResponse, isLoading: statsLoading, error: statsError } = useUserStats(30);
+  const { data: statsResponse, isLoading: statsLoading, error: statsError } = useUserStats();
   const { data: subjectProgressResponse, isLoading: progressLoading, error: progressError } = useSubjectWiseProgress();
 
-  // Log errors for debugging
-  if (examsError || statsError || progressError) {
-    console.log('HomeContent API Errors:', {
-      examsError: examsError?.message,
-      statsError: statsError?.message,
-      progressError: progressError?.message,
-    });
-  }
 
-  // Extract data from API responses
-  const statsData = statsResponse?.data || {};
-  const subjectProgressData = subjectProgressResponse?.data || (Array.isArray(subjectProgressResponse) ? subjectProgressResponse : []);
-  const examsList = examsData?.data || (Array.isArray(examsData) ? examsData : []);
 
-  // Stats formatting
-  const stats = {
-    totalQuestions: statsData.totalQuestionsAttempted || 0,
-    accuracy: Math.round(parseFloat(statsData.overallAccuracy || '0')),
-    currentStreak: statsData.currentStreak || 0,
-    totalTimeSpent: statsData.totalTimeSpentMinutes || 0,
-  };
+  const statsData = statsResponse||{};
+const subjectProgressData = subjectProgressResponse?.data || (Array.isArray(subjectProgressResponse) ? subjectProgressResponse : []);
+const examsList = examsData?.data || (Array.isArray(examsData) ? examsData : []);
+
+
+// Stats formatting with fallbacks
+const stats = {
+  totalQuestions: statsData?.totalQuestionsAttempted || statsData.questionsAttempted || 0,
+  accuracy: Math.round(parseFloat(statsData.overallAccuracy || statsData.accuracy || '0')),
+  currentStreak: statsData.currentStreak || statsData.streak || 0,
+  totalTimeSpent: Math.round(statsData.totalTimeSpentMinutes || statsData.timeSpent || 0),
+};
 
   const mockDailyTopics = [
     { subject: 'Quantitative Aptitude', progress: 65, time: '12 min', questions: 15 },
@@ -105,9 +96,10 @@ const HomeContent: React.FC = () => {
         </View>
         <View style={styles.statCard}>
           <Clock size={24} color="#F59E0B" />
-          <Text style={styles.statNumber}>{Math.floor((stats.totalTimeSpent || 0) / 60)}</Text>
-          <Text style={styles.statLabel}>Minutes Today</Text>
+          <Text style={styles.statNumber}>{stats.totalTimeSpent || 0}</Text>
+          <Text style={styles.statLabel}>Time Spent (min)</Text>
         </View>
+        
       </View>
 
       {/* Available Exams */}
@@ -229,7 +221,6 @@ const HomeContent: React.FC = () => {
   try {
     return renderHome();
   } catch (error) {
-    console.error('HomeContent render error:', error);
     return (
       <View style={styles.container}>
         <View style={styles.header}>

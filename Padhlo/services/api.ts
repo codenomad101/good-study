@@ -769,10 +769,11 @@ class ApiService {
   }
 
   // Statistics API methods
-  async getUserStatistics() {
-    const response = await this.get('/statistics/user');
-    return { ...response, data: (response.data as any)?.data };
-  }
+ async getUserStatistics() {
+  const response = await this.get('/statistics/user');
+  // Return the data directly without double-wrapping
+  return response.data || response;
+}
 
   async getLeaderboard(
     period: 'daily' | 'weekly' | 'monthly' | 'alltime' = 'alltime', 
