@@ -129,9 +129,10 @@ const CommunityContent: React.FC = () => {
             try {
               // Fetch posts count
               const postsResponse = await apiService.getGroupPosts(group.groupId);
-              const posts = Array.isArray(postsResponse?.data) 
-                ? postsResponse.data 
-                : (postsResponse?.data?.data || []);
+              const postsResponseData = postsResponse?.data as any;
+              const posts = Array.isArray(postsResponseData) 
+                ? postsResponseData 
+                : (postsResponseData?.data || []);
               
               // Fetch comments count for all posts (limit to avoid too many requests)
               let totalComments = 0;
@@ -139,9 +140,10 @@ const CommunityContent: React.FC = () => {
               for (const post of postsToCheck) {
                 try {
                   const commentsResponse = await apiService.getPostComments(post.postId);
-                  const comments = Array.isArray(commentsResponse?.data)
-                    ? commentsResponse.data
-                    : (commentsResponse?.data?.data || []);
+                  const commentsResponseData = commentsResponse?.data as any;
+                  const comments = Array.isArray(commentsResponseData)
+                    ? commentsResponseData
+                    : (commentsResponseData?.data || []);
                   totalComments += comments.length;
                 } catch (error) {
                   // Ignore errors for individual post comments
@@ -152,9 +154,10 @@ const CommunityContent: React.FC = () => {
               let memberCount = 0;
               try {
                 const membersResponse = await apiService.getGroupMembers(group.groupId);
-                const members = Array.isArray(membersResponse?.data)
-                  ? membersResponse.data
-                  : (membersResponse?.data?.data || []);
+                const membersResponseData = membersResponse?.data as any;
+                const members = Array.isArray(membersResponseData)
+                  ? membersResponseData
+                  : (membersResponseData?.data || []);
                 memberCount = members.length;
               } catch (error) {
                 // Ignore errors for members
@@ -273,7 +276,7 @@ const CommunityContent: React.FC = () => {
           {topCommunities.map((group: Group, index: number) => (
             <TouchableOpacity
               key={group.groupId}
-              style={[styles.topCommunityCard, { width: 280 }]}
+              style={[styles.topCommunityCard, { width: 200 }]}
               onPress={() => handleGroupClick(group.groupId)}
             >
               <View style={styles.rankBadge}>
@@ -300,17 +303,17 @@ const CommunityContent: React.FC = () => {
               )}
               <View style={styles.topCommunityStats}>
                 <View style={styles.statItem}>
-                  <MessageCircle size={14} color="#667eea" />
+                  <MessageCircle size={12} color="#667eea" />
                   <Text style={styles.statNumber}>{group.postCount || 0}</Text>
                   <Text style={styles.statLabel}>Posts</Text>
                 </View>
                 <View style={styles.statItem}>
-                  <MessageCircle size={14} color="#764ba2" />
+                  <MessageCircle size={12} color="#764ba2" />
                   <Text style={styles.statNumber}>{group.commentCount || 0}</Text>
                   <Text style={styles.statLabel}>Comments</Text>
                 </View>
                 <View style={styles.statItem}>
-                  <Users size={14} color="#f59e0b" />
+                  <Users size={12} color="#f59e0b" />
                   <Text style={styles.statNumber}>{group.memberCount || 0}</Text>
                   <Text style={styles.statLabel}>Members</Text>
                 </View>
@@ -329,7 +332,7 @@ const CommunityContent: React.FC = () => {
     >
       <View style={styles.groupHeader}>
         <View style={styles.groupAvatar}>
-          <Text style={styles.avatarText}>{getInitials(group.name)}</Text>
+          <Text style={styles.avatarTextSmall}>{getInitials(group.name)}</Text>
         </View>
         <View style={styles.groupInfo}>
           <Text style={styles.groupName} numberOfLines={1}>
@@ -623,9 +626,10 @@ const styles = StyleSheet.create({
   },
   topCommunityCard: {
     backgroundColor: '#FFFFFF',
-    borderRadius: 12,
-    padding: 16,
-    marginRight: 12,
+    borderRadius: 10,
+    padding: 12,
+    marginRight: 10,
+    marginBottom: 12,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 2 },
     shadowOpacity: 0.1,
@@ -635,84 +639,89 @@ const styles = StyleSheet.create({
   },
   rankBadge: {
     position: 'absolute',
-    top: 8,
-    right: 8,
+    top: 6,
+    right: 6,
     backgroundColor: '#F59E0B',
-    borderRadius: 12,
-    width: 24,
-    height: 24,
+    borderRadius: 10,
+    width: 20,
+    height: 20,
     alignItems: 'center',
     justifyContent: 'center',
     zIndex: 1,
   },
   rankText: {
     color: '#FFFFFF',
-    fontSize: 12,
+    fontSize: 10,
     fontWeight: 'bold',
   },
   topCommunityAvatar: {
-    width: 56,
-    height: 56,
-    borderRadius: 28,
+    width: 40,
+    height: 40,
+    borderRadius: 20,
     backgroundColor: '#EFF6FF',
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 12,
+    marginBottom: 8,
     alignSelf: 'center',
   },
   avatarText: {
-    fontSize: 20,
+    fontSize: 16,
+    fontWeight: 'bold',
+    color: '#667eea',
+  },
+  avatarTextSmall: {
+    fontSize: 16,
     fontWeight: 'bold',
     color: '#667eea',
   },
   topCommunityName: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: '600',
     color: '#1F2937',
-    marginBottom: 8,
+    marginBottom: 4,
     textAlign: 'center',
   },
   topCommunityDescription: {
-    fontSize: 12,
+    fontSize: 11,
     color: '#6B7280',
-    marginBottom: 8,
+    marginBottom: 4,
     textAlign: 'center',
   },
   topCommunityCreator: {
-    fontSize: 11,
+    fontSize: 10,
     color: '#9CA3AF',
-    marginBottom: 8,
+    marginBottom: 6,
     textAlign: 'center',
   },
   examTypeTag: {
     backgroundColor: '#EFF6FF',
-    borderRadius: 12,
-    paddingHorizontal: 8,
-    paddingVertical: 4,
+    borderRadius: 10,
+    paddingHorizontal: 6,
+    paddingVertical: 3,
     alignSelf: 'center',
-    marginBottom: 8,
+    marginBottom: 6,
   },
   examTypeText: {
     color: '#2563EB',
-    fontSize: 11,
+    fontSize: 10,
     fontWeight: '600',
   },
   topCommunityStats: {
     flexDirection: 'row',
     justifyContent: 'space-around',
-    marginTop: 8,
+    marginTop: 6,
   },
   statItem: {
     alignItems: 'center',
-    gap: 4,
+    gap: 3,
   },
   statNumber: {
-    fontSize: 14,
+    fontSize: 12,
     fontWeight: 'bold',
     color: '#1F2937',
   },
   statLabel: {
-    fontSize: 10,
+    fontSize: 9,
     color: '#6B7280',
   },
   tabsContainer: {
@@ -741,12 +750,13 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   listContainer: {
-    padding: 16,
+    padding: 12,
+    paddingBottom: 16,
   },
   groupCard: {
     backgroundColor: '#FFFFFF',
-    borderRadius: 12,
-    padding: 16,
+    borderRadius: 10,
+    padding: 12,
     marginBottom: 12,
     shadowColor: '#000',
     shadowOffset: { width: 0, height: 1 },
@@ -756,57 +766,57 @@ const styles = StyleSheet.create({
   },
   groupHeader: {
     flexDirection: 'row',
-    marginBottom: 12,
+    marginBottom: 8,
   },
   groupAvatar: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
+    width: 40,
+    height: 40,
+    borderRadius: 20,
     backgroundColor: '#EFF6FF',
     alignItems: 'center',
     justifyContent: 'center',
-    marginRight: 12,
+    marginRight: 10,
   },
   groupInfo: {
     flex: 1,
   },
   groupName: {
-    fontSize: 16,
+    fontSize: 15,
     fontWeight: '600',
     color: '#1F2937',
-    marginBottom: 4,
+    marginBottom: 3,
   },
   groupDescription: {
-    fontSize: 14,
+    fontSize: 13,
     color: '#6B7280',
-    marginBottom: 4,
+    marginBottom: 3,
   },
   groupCreator: {
-    fontSize: 12,
+    fontSize: 11,
     color: '#9CA3AF',
   },
   lockIcon: {
-    marginLeft: 8,
+    marginLeft: 6,
   },
   groupFooter: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingTop: 12,
+    paddingTop: 8,
     borderTopWidth: 1,
     borderTopColor: '#F3F4F6',
   },
   groupStats: {
     flexDirection: 'row',
-    gap: 16,
+    gap: 12,
   },
   statItemSmall: {
     flexDirection: 'row',
     alignItems: 'center',
-    gap: 4,
+    gap: 3,
   },
   statNumberSmall: {
-    fontSize: 12,
+    fontSize: 11,
     fontWeight: '600',
     color: '#1F2937',
   },
