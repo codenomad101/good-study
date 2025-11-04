@@ -739,6 +739,7 @@ export const userPersonalNotes = pgTable('user_personal_notes', {
   // Organization
   color: varchar('color', { length: 7 }).default('#fffacd'),
   tags: json('tags').$type<Array<string>>().default([]),
+  attachments: json('attachments').$type<Array<{ url: string; type: string; filename?: string }>>().default([]),
   isPinned: boolean('is_pinned').default(false),
   isArchived: boolean('is_archived').default(false),
   

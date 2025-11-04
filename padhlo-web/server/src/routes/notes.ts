@@ -5,7 +5,9 @@ import {
   createNote,
   updateNote,
   deleteNote,
-  getNoteById
+  getNoteById,
+  uploadNoteAttachment,
+  uploadAttachment
 } from '../controllers/notes';
 
 const router = Router();
@@ -16,6 +18,7 @@ router.get('/:noteId', authenticateToken, getNoteById);
 router.post('/', authenticateToken, createNote);
 router.put('/:noteId', authenticateToken, updateNote);
 router.delete('/:noteId', authenticateToken, deleteNote);
+router.post('/upload', authenticateToken, uploadAttachment.single('file'), uploadNoteAttachment);
 
 export default router;
 

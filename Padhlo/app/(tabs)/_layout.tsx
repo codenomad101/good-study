@@ -45,6 +45,13 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="notes"
+        options={{
+          title: 'Notes',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="note.text" color={color} />,
+        }}
+      />
+      <Tabs.Screen
         name="community/[groupId]"
         options={{
           href: null, // Hide from tab bar
@@ -64,6 +71,12 @@ export default function TabLayout() {
       />
       <Tabs.Screen
         name="pricing"
+        options={{
+          href: null, // Hide from tab bar
+        }}
+      />
+      <Tabs.Screen
+        name="progress"
         options={{
           href: null, // Hide from tab bar
         }}

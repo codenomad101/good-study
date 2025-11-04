@@ -869,7 +869,9 @@ class ApiService {
     
     const queryString = queryParams.toString();
     const response = await this.get(`/notes${queryString ? `?${queryString}` : ''}`);
-    return { ...response, data: (response.data as any)?.data };
+    console.log('[API] getNotes raw response:', JSON.stringify(response, null, 2));
+    // Backend returns { success: true, data: [...] }
+    return response;
   }
 
   async getNoteById(noteId: string) {
@@ -885,6 +887,7 @@ class ApiService {
     categorySlug?: string; 
     topicSlug?: string; 
     tags?: string[]; 
+    attachments?: Array<{ url: string; type: string; filename?: string }>;
     isPinned?: boolean; 
     isArchived?: boolean 
   }) {
@@ -902,6 +905,7 @@ class ApiService {
       categorySlug: string; 
       topicSlug: string; 
       tags: string[]; 
+      attachments: Array<{ url: string; type: string; filename?: string }>;
       isPinned: boolean; 
       isArchived: boolean 
     }>
@@ -912,6 +916,57 @@ class ApiService {
 
   async deleteNote(noteId: string) {
     return this.delete(`/notes/${noteId}`);
+  }
+
+  async uploadNoteAttachment(fileUri: string, filename: string, mimeType: string): Promise<ApiResponse<{ url: string; type: string; filename: string; size: number }>> {
+    try {
+      // Create FormData for file upload
+      const formData = new FormData();
+      
+      // In React Native, we need to append the file differently
+      // @ts-ignore - React Native FormData supports file objects
+      formData.append('file', {
+        uri: fileUri,
+        type: mimeType,
+        name: filename || 'attachment',
+      } as any);
+
+      const token = await this.getAuthToken();
+      const response = await fetch(`${this.baseURL}/notes/upload`, {
+        method: 'POST',
+        headers: {
+          'Authorization': token ? `Bearer ${token}` : '',
+          // Don't set Content-Type for FormData - let fetch set it with boundary
+        },
+        body: formData,
+      });
+
+      const data = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(data.message || 'Failed to upload attachment');
+      }
+
+      // Return the response in the expected format
+      if (data && typeof data === 'object') {
+        if ('success' in data && 'data' in data) {
+          return data as ApiResponse<{ url: string; type: string; filename: string; size: number }>;
+        } else {
+          return {
+            success: true,
+            data: data as { url: string; type: string; filename: string; size: number }
+          } as ApiResponse<{ url: string; type: string; filename: string; size: number }>;
+        }
+      }
+
+      return {
+        success: true,
+        data: data as { url: string; type: string; filename: string; size: number }
+      } as ApiResponse<{ url: string; type: string; filename: string; size: number }>;
+    } catch (error: any) {
+      console.error('[API] Error uploading attachment:', error);
+      throw error;
+    }
   }
 
   // Logout method

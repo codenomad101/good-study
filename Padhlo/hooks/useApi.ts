@@ -691,6 +691,84 @@ export const useRenewSubscription = () => {
   });
 };
 
+// Notes Hooks
+export const useNotes = (params?: { archived?: string; pinned?: string; category?: string; search?: string }) => {
+  return useQuery({
+    queryKey: ['notes', params],
+    queryFn: async () => {
+      const response = await apiService.getNotes(params);
+      console.log('[useNotes] Response from API:', JSON.stringify(response, null, 2));
+      return response;
+    },
+    retry: 1,
+    staleTime: 2 * 60 * 1000, // 2 minutes
+  });
+};
+
+export const useNote = (noteId: string) => {
+  return useQuery({
+    queryKey: ['notes', noteId],
+    queryFn: () => apiService.getNoteById(noteId),
+    enabled: !!noteId,
+    retry: 1,
+  });
+};
+
+export const useCreateNote = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (note: {
+      title: string;
+      content: string;
+      color?: string;
+      categoryId?: string;
+      categorySlug?: string;
+      topicSlug?: string;
+      tags?: string[];
+      attachments?: Array<{ url: string; type: string; filename?: string }>;
+      isPinned?: boolean;
+      isArchived?: boolean;
+    }) => apiService.createNote(note),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['notes'] });
+    },
+  });
+};
+
+export const useUpdateNote = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: ({ noteId, note }: {
+      noteId: string;
+      note: Partial<{
+        title: string;
+        content: string;
+        color: string;
+        categoryId: string;
+        categorySlug: string;
+        topicSlug: string;
+        tags: string[];
+        attachments: Array<{ url: string; type: string; filename?: string }>;
+        isPinned: boolean;
+        isArchived: boolean;
+      }>;
+    }) => apiService.updateNote(noteId, note),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['notes'] });
+    },
+  });
+};
+
+export const useDeleteNote = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (noteId: string) => apiService.deleteNote(noteId),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['notes'] });
+    },
+  });
+};
+
 // Legacy forum hooks (kept for backward compatibility, but not used)
 export const useForums = () => {
   return useQuery({

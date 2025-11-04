@@ -3,6 +3,9 @@ import { db } from '../db';
 import { userPersonalNotes, type NewUserPersonalNote } from '../db/schema';
 import { eq, and, or, isNull, desc, asc } from 'drizzle-orm';
 import { z } from 'zod';
+import multer from 'multer';
+import path from 'path';
+import fs from 'fs';
 
 // Validation schemas
 const CreateNoteSchema = z.object({
@@ -13,11 +16,99 @@ const CreateNoteSchema = z.object({
   categorySlug: z.string().optional().nullable(),
   topicSlug: z.string().optional().nullable(),
   tags: z.array(z.string()).optional(),
+  attachments: z.array(z.object({
+    url: z.string().url(),
+    type: z.string(), // 'image', 'pdf', 'document', etc.
+    filename: z.string().optional(),
+  })).optional(),
   isPinned: z.boolean().optional().default(false),
   isArchived: z.boolean().optional().default(false),
 });
 
 const UpdateNoteSchema = CreateNoteSchema.partial();
+
+// Multer configuration for note attachments
+const storage = multer.diskStorage({
+  destination: (req, file, cb) => {
+    const uploadDir = path.join(__dirname, '../../uploads/notes');
+    if (!fs.existsSync(uploadDir)) {
+      fs.mkdirSync(uploadDir, { recursive: true });
+    }
+    cb(null, uploadDir);
+  },
+  filename: (req, file, cb) => {
+    const userId = (req as any).user?.userId || 'anonymous';
+    const uniqueSuffix = Date.now() + '-' + Math.round(Math.random() * 1E9);
+    cb(null, `${userId}-${uniqueSuffix}${path.extname(file.originalname)}`);
+  }
+});
+
+export const uploadAttachment = multer({ 
+  storage,
+  fileFilter: (req, file, cb) => {
+    // Allow images and common document types
+    const allowedMimes = [
+      'image/jpeg', 'image/jpg', 'image/png', 'image/gif', 'image/webp',
+      'application/pdf',
+      'application/msword',
+      'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+      'text/plain'
+    ];
+    if (allowedMimes.includes(file.mimetype)) {
+      cb(null, true);
+    } else {
+      cb(new Error(`File type ${file.mimetype} not allowed`));
+    }
+  },
+  limits: {
+    fileSize: 10 * 1024 * 1024 // 10MB limit
+  }
+});
+
+// POST /api/notes/upload - Upload attachment
+export const uploadNoteAttachment = async (req: Request, res: Response) => {
+  try {
+    const userId = (req as any).user.userId;
+    
+    if (!req.file) {
+      return res.status(400).json({
+        success: false,
+        message: 'No file uploaded'
+      });
+    }
+
+    // Generate URL to access the file
+    // In production, you'd want to use a CDN or cloud storage
+    const fileUrl = `/uploads/notes/${req.file.filename}`;
+    const baseUrl = process.env.BASE_URL || 'http://localhost:3000';
+    const fullUrl = `${baseUrl}${fileUrl}`;
+
+    // Determine file type
+    let fileType = 'document';
+    if (req.file.mimetype.startsWith('image/')) {
+      fileType = 'image';
+    } else if (req.file.mimetype === 'application/pdf') {
+      fileType = 'pdf';
+    }
+
+    res.json({
+      success: true,
+      message: 'File uploaded successfully',
+      data: {
+        url: fullUrl,
+        type: fileType,
+        filename: req.file.originalname,
+        size: req.file.size,
+      }
+    });
+  } catch (error: any) {
+    console.error('Error uploading attachment:', error);
+    res.status(500).json({
+      success: false,
+      message: error.message || 'Failed to upload attachment'
+    });
+  }
+};
 
 // GET /api/notes - Get all notes for authenticated user
 export const getNotes = async (req: Request, res: Response) => {
@@ -124,6 +215,7 @@ export const createNote = async (req: Request, res: Response) => {
       categorySlug: validatedData.categorySlug || null,
       topicSlug: validatedData.topicSlug || null,
       tags: validatedData.tags || [],
+      attachments: validatedData.attachments || [],
       isPinned: validatedData.isPinned || false,
       isArchived: validatedData.isArchived || false,
     };
