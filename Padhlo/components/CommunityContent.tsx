@@ -9,8 +9,7 @@ import {
   TextInput,
   Modal,
   FlatList,
-  RefreshControl,
-  Alert
+  RefreshControl
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter } from 'expo-router';
@@ -32,6 +31,7 @@ import {
 import { useAuth } from '../contexts/AuthContext';
 import { responsiveValues } from '../utils/responsive';
 import { apiService } from '../services/api';
+import { showToast } from '../utils/toast';
 
 interface Group {
   groupId: string;
@@ -186,7 +186,7 @@ const CommunityContent: React.FC = () => {
         setGroups(groupsWithStats);
       } catch (error: any) {
         console.error('[CommunityContent] Error fetching groups:', error);
-        Alert.alert('Error', 'Failed to load groups. Please try again.');
+        showToast.error('Failed to load groups. Please try again.');
         setGroups([]);
       } finally {
         setIsLoadingGroups(false);
@@ -229,7 +229,7 @@ const CommunityContent: React.FC = () => {
 
   const handleCreateGroup = async () => {
     if (!groupForm.name.trim() || !groupForm.description.trim()) {
-      Alert.alert('Error', 'Please fill in all required fields');
+      showToast.error('Please fill in all required fields');
       return;
     }
 
@@ -243,10 +243,11 @@ const CommunityContent: React.FC = () => {
       
       setIsModalVisible(false);
       setGroupForm({ name: '', description: '', examType: '', isPublic: true });
-      fetchGroups();
-      Alert.alert('Success', 'Group created successfully!');
+      await fetchGroups();
+      showToast.success('Group created successfully!');
     } catch (error: any) {
-      Alert.alert('Error', error?.message || 'Failed to create group');
+      console.error('[CommunityContent] Error creating group:', error);
+      showToast.error(error?.message || 'Failed to create group');
     }
   };
 

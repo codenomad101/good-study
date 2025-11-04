@@ -5,6 +5,7 @@ import 'react-native-reanimated';
 import { AuthProvider } from '../contexts/AuthContext';
 import { QueryProvider } from '../providers/QueryProvider';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
+import Toast from 'react-native-toast-message';
 
 import { useColorScheme } from '@/hooks/use-color-scheme';
 
@@ -28,6 +29,7 @@ export default function RootLayout() {
           </ThemeProvider>
         </AuthProvider>
       </QueryProvider>
+      <Toast />
     </SafeAreaProvider>
   );
 }

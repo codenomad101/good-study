@@ -6,7 +6,6 @@ import {
   StyleSheet,
   TouchableOpacity,
   ScrollView,
-  Alert,
   ActivityIndicator,
   Modal,
 } from 'react-native';
@@ -23,6 +22,7 @@ import {
   Award
 } from 'lucide-react-native';
 import { useAuth } from '../contexts/AuthContext';
+import { showToast } from '../utils/toast';
 
 interface Question {
   questionId: string;
@@ -128,11 +128,11 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
 
   const handleTimeUp = () => {
     stopTimer();
-    Alert.alert(
-      'Time Up!',
-      'Your exam time has ended. Submitting your answers...',
-      [{ text: 'OK', onPress: completeExam }]
-    );
+    showToast.info('Your exam time has ended. Submitting your answers...', 'Time Up!');
+    // Auto-complete exam after a short delay
+    setTimeout(() => {
+      completeExam();
+    }, 1000);
   };
 
   const formatTime = (seconds: number) => {
@@ -144,7 +144,7 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
   // Create exam session (only used if no initialSessionId provided)
   const createExamSession = async () => {
     if (!user?.userId) {
-      Alert.alert('Error', 'User not authenticated');
+      showToast.error('User not authenticated');
       return;
     }
 
@@ -163,14 +163,14 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
         if (sessionId) {
           await generateQuestions(sessionId);
         } else {
-          Alert.alert('Error', 'No session ID returned');
+          showToast.error('No session ID returned');
         }
       } else {
-        Alert.alert('Error', response.message || 'Failed to create exam session');
+        showToast.error(response.message || 'Failed to create exam session');
       }
     } catch (error: any) {
       console.error('Error creating exam session:', error);
-      Alert.alert('Error', error?.message || 'Failed to create exam session');
+      showToast.error(error?.message || 'Failed to create exam session');
     } finally {
       setIsLoading(false);
     }
@@ -188,11 +188,11 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
         startTimer(response.data.durationMinutes);
         questionStartTime.current = Date.now();
       } else {
-        Alert.alert('Error', response.message || 'Failed to generate questions');
+        showToast.error(response.message || 'Failed to generate questions');
       }
     } catch (error: any) {
       console.error('Error generating questions:', error);
-      Alert.alert('Error', error?.message || 'Failed to generate questions');
+      showToast.error(error?.message || 'Failed to generate questions');
     } finally {
       setIsLoading(false);
     }
@@ -205,11 +205,11 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
     try {
       const result = await apiService.startDynamicExam(examSession.sessionId);
       if (!result.success) {
-        Alert.alert('Error', result.message || 'Failed to start exam');
+        showToast.error(result.message || 'Failed to start exam');
       }
     } catch (error: any) {
       console.error('Error starting exam:', error);
-      Alert.alert('Error', error?.message || 'Failed to start exam');
+      showToast.error(error?.message || 'Failed to start exam');
     }
   };
 
@@ -323,13 +323,14 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
           questions: updatedQuestions
         });
         setCurrentView('results');
+        showToast.success(`Exam completed successfully! You scored ${totalMarksObtained}/${examSession.totalMarks} marks (${percentage.toFixed(1)}%)`, 'Exam Completed');
       } else {
         throw new Error(completeResult.message || 'Failed to complete exam');
       }
     } catch (error: any) {
       console.error('Error completing exam:', error);
       // Still show results even if backend fails
-      Alert.alert('Warning', 'Results saved locally but failed to sync with server. ' + (error?.message || ''));
+      showToast.error('Results saved locally but failed to sync with server. ' + (error?.message || ''), 'Warning');
       setExamStats({
         totalMarks: examSession.totalMarks,
         marksObtained: totalMarksObtained,
@@ -476,18 +477,8 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
             <TouchableOpacity 
               style={styles.quitButton}
               onPress={() => {
-                Alert.alert(
-                  'Quit Exam',
-                  'Are you sure you want to quit? Your progress will be lost.',
-                  [
-                    { text: 'Cancel', style: 'cancel' },
-                    { 
-                      text: 'Quit', 
-                      style: 'destructive',
-                      onPress: resetExam
-                    }
-                  ]
-                );
+                showToast.error('Exam quit. Your progress has been lost.', 'Quit Exam');
+                resetExam();
               }}
             >
               <XCircle size={20} color="#EF4444" />
@@ -540,14 +531,8 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
             <TouchableOpacity 
               style={styles.submitButton}
               onPress={() => {
-                Alert.alert(
-                  'Submit Exam',
-                  'Are you sure you want to submit your exam?',
-                  [
-                    { text: 'Cancel', style: 'cancel' },
-                    { text: 'Submit', onPress: completeExam }
-                  ]
-                );
+                showToast.info('Submitting your exam...', 'Submit Exam');
+                completeExam();
               }}
             >
               <Text style={styles.submitButtonText}>Submit Exam</Text>

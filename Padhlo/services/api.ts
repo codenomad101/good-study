@@ -993,6 +993,27 @@ class ApiService {
   async rejectJoinRequest(requestId: string, rejectionReason?: string) {
     return this.post(`/community/requests/${requestId}/reject`, { rejectionReason });
   }
+
+  // Subscription API methods
+  async getSubscriptionStatus() {
+    return this.get('/subscription/status');
+  }
+
+  async startTrial() {
+    return this.post('/subscription/trial');
+  }
+
+  async subscribeToLite() {
+    return this.post('/subscription/lite');
+  }
+
+  async subscribeToPro() {
+    return this.post('/subscription/pro');
+  }
+
+  async renewSubscription() {
+    return this.post('/subscription/renew');
+  }
 }
 
 export const apiService = new ApiService();

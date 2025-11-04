@@ -637,6 +637,60 @@ export const useRejectJoinRequest = () => {
   });
 };
 
+// Subscription Hooks
+export const useSubscriptionStatus = () => {
+  return useQuery({
+    queryKey: ['subscription', 'status'],
+    queryFn: () => apiService.getSubscriptionStatus(),
+    retry: 1,
+    staleTime: 60 * 1000, // 1 minute
+  });
+};
+
+export const useStartTrial = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: () => apiService.startTrial(),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['subscription'] });
+      queryClient.invalidateQueries({ queryKey: ['auth', 'user'] });
+    },
+  });
+};
+
+export const useSubscribeToLite = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: () => apiService.subscribeToLite(),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['subscription'] });
+      queryClient.invalidateQueries({ queryKey: ['auth', 'user'] });
+    },
+  });
+};
+
+export const useSubscribeToPro = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: () => apiService.subscribeToPro(),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['subscription'] });
+      queryClient.invalidateQueries({ queryKey: ['auth', 'user'] });
+    },
+  });
+};
+
+export const useRenewSubscription = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: () => apiService.renewSubscription(),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['subscription'] });
+      queryClient.invalidateQueries({ queryKey: ['auth', 'user'] });
+    },
+  });
+};
+
 // Legacy forum hooks (kept for backward compatibility, but not used)
 export const useForums = () => {
   return useQuery({

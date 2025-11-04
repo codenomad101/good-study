@@ -9,8 +9,7 @@ import {
   TextInput,
   Modal,
   FlatList,
-  RefreshControl,
-  Alert
+  RefreshControl
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { useRouter, useLocalSearchParams } from 'expo-router';
@@ -31,6 +30,7 @@ import {
 import { apiService } from '@/services/api';
 import { useAuth } from '@/contexts/AuthContext';
 import { responsiveValues } from '@/utils/responsive';
+import { showToast } from '@/utils/toast';
 
 interface Post {
   postId: string;
@@ -114,7 +114,7 @@ const GroupDetailScreen: React.FC = () => {
       setGroup(groupData);
     } catch (error: any) {
       console.error('[GroupDetail] Error fetching group:', error);
-      Alert.alert('Error', 'Failed to load group. Please try again.');
+      showToast.error('Failed to load group. Please try again.');
       router.back();
     } finally {
       setIsLoadingGroup(false);
@@ -217,7 +217,7 @@ const GroupDetailScreen: React.FC = () => {
       setPosts(postsArray);
     } catch (error: any) {
       console.error('[GroupDetail] Error fetching posts:', error);
-      Alert.alert('Error', 'Failed to load posts. Please try again.');
+      showToast.error('Failed to load posts. Please try again.');
       setPosts([]);
     } finally {
       setIsLoadingPosts(false);
@@ -240,23 +240,24 @@ const GroupDetailScreen: React.FC = () => {
     try {
       if (group?.isPublic) {
         await joinGroupMutation.mutateAsync(groupId);
-        Alert.alert('Success', 'Successfully joined group!');
+        showToast.success('You have joined the group successfully!');
         await checkMembership();
         await fetchPosts();
       } else {
         await requestToJoinMutation.mutateAsync(groupId);
-        Alert.alert('Success', 'Join request sent. Waiting for approval.');
+        showToast.success('Join request sent. Waiting for approval.');
         setHasPendingRequest(true);
         await checkMembership();
       }
     } catch (error: any) {
-      Alert.alert('Error', error?.message || 'Failed to join group');
+      console.error('[GroupDetail] Error joining group:', error);
+      showToast.error(error?.message || 'Failed to join group. Please try again.');
     }
   };
 
   const handleCreatePost = async () => {
     if (!postContent.trim()) {
-      Alert.alert('Error', 'Please enter post content');
+      showToast.error('Please enter post content');
       return;
     }
 
@@ -270,9 +271,10 @@ const GroupDetailScreen: React.FC = () => {
       setShowCreatePost(false);
       setPostContent('');
       await fetchPosts();
-      Alert.alert('Success', 'Post created successfully!');
+      showToast.success('Post created successfully!');
     } catch (error: any) {
-      Alert.alert('Error', error?.message || 'Failed to create post');
+      console.error('[GroupDetail] Error creating post:', error);
+      showToast.error(error?.message || 'Failed to create post. Please try again.');
     }
   };
 
@@ -377,7 +379,7 @@ const GroupDetailScreen: React.FC = () => {
           <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
         }
       >
-        {!isMember && !groupLoading && (
+        {!isMember && !isLoadingGroup && (
           <View style={styles.joinPrompt}>
             <User size={48} color="#F59E0B" />
             <Text style={styles.joinPromptTitle}>Join to View Posts</Text>

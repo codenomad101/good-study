@@ -7,7 +7,6 @@ import {
   TouchableOpacity,
   ActivityIndicator,
   RefreshControl,
-  Alert,
   Dimensions,
 } from 'react-native';
 import {
@@ -30,6 +29,7 @@ import {
 import { useCategories } from '../hooks/useCategories';
 import DynamicExamContent from './DynamicExamContent';
 import AppHeader from './AppHeader';
+import { showToast } from '../utils/toast';
 
 const { width } = Dimensions.get('window');
 
@@ -120,13 +120,10 @@ export default function ExamContent() {
     
     if (!validCategories || validCategories.length === 0) {
       if (categoriesLoading) {
-        Alert.alert('Loading', 'Please wait while categories are loading...');
+        showToast.info('Please wait while categories are loading...', 'Loading');
         return;
       }
-      Alert.alert(
-        'No Categories', 
-        'No categories available for quick exam. Please check your connection or try again later.'
-      );
+      showToast.error('No categories available for quick exam. Please check your connection or try again later.', 'No Categories');
       return;
     }
 
@@ -201,7 +198,7 @@ export default function ExamContent() {
           sessionData: sessionData,
           message: response.message
         });
-        Alert.alert('Error', response.message || 'Failed to create exam. No session ID returned.');
+        showToast.error(response.message || 'Failed to create exam. No session ID returned.');
       }
     } catch (error: any) {
       const errorMessage = error?.message || 'Unknown error';
@@ -245,18 +242,11 @@ export default function ExamContent() {
         userMessage = `Failed to create exam: ${errorMessage}`;
       }
       
-      Alert.alert(
-        userTitle,
-        userMessage,
-        [
-          { text: 'OK', style: 'default' },
-          { 
-            text: 'Retry', 
-            style: 'default',
-            onPress: () => handleQuickExam(totalQuestions, negativeMarking)
-          }
-        ]
-      );
+      showToast.error(userMessage, userTitle);
+      // Auto-retry after showing error
+      setTimeout(() => {
+        handleQuickExam(totalQuestions, negativeMarking);
+      }, 2000);
     }
   };
 
@@ -267,18 +257,21 @@ export default function ExamContent() {
       setSelectedExamSessionId(sessionId);
       setShowExamCreator(true);
     } catch (error: any) {
-      Alert.alert('Error', error?.message || 'Failed to resume exam');
+      console.error('[WebExamContent] Error resuming exam:', error);
+      showToast.error(error?.message || 'Failed to resume exam');
     }
   };
 
   const handleViewExam = (exam: any) => {
     if (exam.status === 'completed') {
       // Show results
-      Alert.alert(
-        'Exam Results',
-        `Score: ${exam.marksObtained || 0}/${exam.totalMarks || 0}\n` +
-        `Percentage: ${typeof exam.percentage === 'string' ? parseFloat(exam.percentage) : (exam.percentage || 0)}%\n` +
-        `Time: ${Math.floor((exam.timeSpentSeconds || 0) / 60)} min`,
+      const score = exam.marksObtained || 0;
+      const total = exam.totalMarks || 0;
+      const percentage = total > 0 ? ((score / total) * 100).toFixed(1) : '0';
+      const timeSpent = Math.floor((exam.timeSpentSeconds || 0) / 60);
+      showToast.success(
+        `Score: ${score}/${total} (${percentage}%) - Time: ${timeSpent} min`,
+        'Exam Results'
       );
     } else {
       // Resume exam

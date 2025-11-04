@@ -24,6 +24,7 @@ import {
 } from '@/hooks/useApi';
 import { apiService } from '@/services/api';
 import { useAuth } from '@/contexts/AuthContext';
+import { showToast } from '@/utils/toast';
 
 interface Comment {
   commentId: string;
@@ -93,7 +94,7 @@ const PostDetailScreen: React.FC = () => {
       setPost(postData);
     } catch (error: any) {
       console.error('[PostDetail] Error fetching post:', error);
-      Alert.alert('Error', 'Failed to load post. Please try again.');
+      showToast.error('Failed to load post. Please try again.');
       router.back();
     } finally {
       setIsLoadingPost(false);
@@ -128,7 +129,7 @@ const PostDetailScreen: React.FC = () => {
       setComments(commentsArray);
     } catch (error: any) {
       console.error('[PostDetail] Error fetching comments:', error);
-      Alert.alert('Error', 'Failed to load comments. Please try again.');
+      showToast.error('Failed to load comments. Please try again.');
       setComments([]);
     } finally {
       setIsLoadingComments(false);
@@ -137,7 +138,7 @@ const PostDetailScreen: React.FC = () => {
 
   const handleSendComment = async () => {
     if (!commentContent.trim()) {
-      Alert.alert('Error', 'Please enter a comment');
+      showToast.error('Please enter a comment');
       return;
     }
 
@@ -150,12 +151,14 @@ const PostDetailScreen: React.FC = () => {
       });
       setCommentContent('');
       await fetchComments();
+      showToast.success('Comment posted successfully!');
       // Scroll to bottom after sending
       setTimeout(() => {
         scrollViewRef.current?.scrollToEnd({ animated: true });
       }, 100);
     } catch (error: any) {
-      Alert.alert('Error', error?.message || 'Failed to post comment');
+      console.error('[PostDetail] Error posting comment:', error);
+      showToast.error(error?.message || 'Failed to post comment. Please try again.');
     }
   };
 

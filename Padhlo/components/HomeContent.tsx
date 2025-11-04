@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, ActivityIndicator, Alert, Image } from 'react-native';
-import { BookOpen, Trophy, Target, Clock, TrendingUp, Award, CheckCircle, Bell, Calendar, Users, FileText, Play } from 'lucide-react-native';
-import { useExams, useUserStats, useSubjectWiseProgress } from '../hooks/useApi';
+import { BookOpen, Trophy, Target, Clock, TrendingUp, Award, CheckCircle, Bell, Calendar, Users, FileText, Play, Crown, Rocket, Star } from 'lucide-react-native';
+import { useExams, useUserStats, useSubjectWiseProgress, useSubscriptionStatus } from '../hooks/useApi';
 import { useAuth } from '../contexts/AuthContext';
 import { responsiveValues } from '../utils/responsive';
 import AppHeader from './AppHeader';
@@ -15,6 +15,7 @@ const HomeContent: React.FC = () => {
   const { data: examsData, isLoading: examsLoading, error: examsError } = useExams();
   const { data: statsResponse, isLoading: statsLoading, error: statsError } = useUserStats();
   const { data: subjectProgressResponse, isLoading: progressLoading, error: progressError } = useSubjectWiseProgress();
+  const { data: subscriptionData } = useSubscriptionStatus();
 
 
 
@@ -64,8 +65,38 @@ const stats = {
       
       {/* Welcome Section */}
       <View style={styles.welcomeSection}>
-        <Text style={styles.welcomeText}>Welcome back,</Text>
-        <Text style={styles.userName}>{user?.fullName || 'Student'}! 👋</Text>
+        <View style={styles.welcomeHeader}>
+          <View>
+            <Text style={styles.welcomeText}>Welcome back,</Text>
+            <Text style={styles.userName}>{user?.fullName || 'Student'}! 👋</Text>
+          </View>
+          {/* Current Plan Badge */}
+          {subscriptionData?.data && (() => {
+            const subscription = subscriptionData.data as any;
+            const planType = subscription.type || 'free';
+            const isActive = subscription.active || false;
+            
+            if (isActive && planType !== 'free') {
+              const planColors: Record<string, { bg: string; text: string; icon: any }> = {
+                trial: { bg: '#ECFDF5', text: '#10B981', icon: Rocket },
+                lite: { bg: '#EFF6FF', text: '#2563EB', icon: Star },
+                pro: { bg: '#FFF7ED', text: '#F59E0B', icon: Crown },
+              };
+              
+              const planInfo = planColors[planType] || planColors.lite;
+              const PlanIcon = planInfo.icon;
+              const planName = planType.charAt(0).toUpperCase() + planType.slice(1);
+              
+              return (
+                <View style={[styles.planBadge, { backgroundColor: planInfo.bg }]}>
+                  <PlanIcon size={16} color={planInfo.text} />
+                  <Text style={[styles.planBadgeText, { color: planInfo.text }]}>{planName}</Text>
+                </View>
+              );
+            }
+            return null;
+          })()}
+        </View>
       </View>
 
       <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
@@ -240,6 +271,12 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#F8FAFC',
   },
+  welcomeHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    width: '100%',
+  },
   welcomeSection: {
     paddingHorizontal: 16,
     paddingVertical: 12,
@@ -259,6 +296,18 @@ const styles = StyleSheet.create({
     fontSize: responsiveValues.fontSize.xlarge,
     fontWeight: 'bold',
     color: '#1F2937',
+  },
+  planBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 16,
+    gap: 6,
+  },
+  planBadgeText: {
+    fontSize: 12,
+    fontWeight: '600',
   },
   streakCard: {
     backgroundColor: '#F97316',

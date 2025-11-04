@@ -6,7 +6,6 @@ import {
   ScrollView, 
   TouchableOpacity, 
   ActivityIndicator, 
-  Alert,
   Modal,
   TextInput,
   FlatList
@@ -33,6 +32,7 @@ import {
 } from '../hooks/useApi';
 import { useAuth } from '../contexts/AuthContext';
 import { responsiveValues } from '../utils/responsive';
+import { showToast } from '../utils/toast';
 
 interface PracticeQuestion {
   questionId: string;
@@ -81,7 +81,7 @@ const PracticeContent: React.FC = () => {
 
   const startPracticeSession = async () => {
     if (!selectedTopic || !selectedSubject) {
-      Alert.alert('Error', 'Please select a topic to practice');
+      showToast.error('Please select a topic to practice');
       return;
     }
 
@@ -101,8 +101,10 @@ const PracticeContent: React.FC = () => {
       setUserAnswers({});
       setSessionStats({ correct: 0, incorrect: 0, total: 0, timeSpent: 0 });
       setShowQuestionModal(true);
-    } catch (error) {
-      Alert.alert('Error', 'Failed to start practice session');
+      showToast.success('Practice session started!', 'Session Started');
+    } catch (error: any) {
+      console.error('[PracticeContent] Error starting session:', error);
+      showToast.error(error?.message || 'Failed to start practice session');
     }
   };
 
@@ -159,13 +161,14 @@ const PracticeContent: React.FC = () => {
       setShowQuestionModal(false);
       setSessionStarted(false);
       
-      Alert.alert(
-        'Session Complete!',
-        `You answered ${sessionStats.correct}/${sessionStats.total} questions correctly (${Math.round((sessionStats.correct / sessionStats.total) * 100)}%)`,
-        [{ text: 'OK' }]
+      const percentage = Math.round((sessionStats.correct / sessionStats.total) * 100);
+      showToast.success(
+        `You answered ${sessionStats.correct}/${sessionStats.total} questions correctly (${percentage}%)`,
+        'Test Completed'
       );
-    } catch (error) {
-      Alert.alert('Error', 'Failed to save progress');
+    } catch (error: any) {
+      console.error('[PracticeContent] Error finishing session:', error);
+      showToast.error(error?.message || 'Failed to save progress');
     }
   };
 

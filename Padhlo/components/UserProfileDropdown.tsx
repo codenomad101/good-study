@@ -147,65 +147,24 @@ const UserProfileDropdown: React.FC<UserProfileDropdownProps> = ({ visible, onCl
           {/* Current Plan Section */}
           <View style={styles.section}>
             <Text style={styles.sectionTitle}>Current Plan</Text>
-            <View style={styles.currentPlanCard}>
+            <TouchableOpacity 
+              style={styles.currentPlanCard}
+              onPress={() => {
+                onClose();
+                router.push('/(tabs)/pricing');
+              }}
+            >
               <View style={styles.planInfo}>
                 <Crown size={24} color="#F59E0B" />
                 <View style={styles.planDetails}>
-                  <Text style={styles.currentPlanName}>Lite Plan</Text>
-                  <Text style={styles.currentPlanDescription}>Basic features included</Text>
+                  <Text style={styles.currentPlanName}>View Plans & Pricing</Text>
+                  <Text style={styles.currentPlanDescription}>Manage your subscription</Text>
                 </View>
               </View>
-              <TouchableOpacity style={styles.upgradeButton}>
-                <Text style={styles.upgradeButtonText}>Upgrade</Text>
-              </TouchableOpacity>
-            </View>
+              <ChevronDown size={20} color="#9CA3AF" style={{ transform: [{ rotate: '-90deg' }] }} />
+            </TouchableOpacity>
           </View>
 
-          {/* Plan Selection Section */}
-          <View style={styles.section}>
-            <TouchableOpacity 
-              style={styles.sectionHeader}
-              onPress={() => setIsPlansExpanded(!isPlansExpanded)}
-            >
-              <Text style={styles.sectionTitle}>Choose Your Plan</Text>
-              {isPlansExpanded ? (
-                <ChevronUp size={20} color="#6B7280" />
-              ) : (
-                <ChevronDown size={20} color="#6B7280" />
-              )}
-            </TouchableOpacity>
-            
-            {isPlansExpanded && (
-              <View style={styles.plansContainer}>
-                {renderPlanCard(
-                  'lite',
-                  'Lite Plan',
-                  'Free',
-                  [
-                    '20 Practice Questions',
-                    'Basic Statistics',
-                    'Limited Categories',
-                    'Community Support'
-                  ]
-                )}
-                
-                {renderPlanCard(
-                  'pro',
-                  'Pro Plan',
-                  '₹299/month',
-                  [
-                    'Unlimited Questions',
-                    'Advanced Analytics',
-                    'All Categories',
-                    'Priority Support',
-                    'Offline Mode',
-                    'Custom Tests'
-                  ],
-                  true
-                )}
-              </View>
-            )}
-          </View>
 
           {/* Rankings Section */}
           <View style={styles.section}>
@@ -263,6 +222,18 @@ const UserProfileDropdown: React.FC<UserProfileDropdownProps> = ({ visible, onCl
             >
               <Settings size={20} color="#6B7280" />
               <Text style={styles.actionText}>Settings</Text>
+              <ChevronDown size={20} color="#9CA3AF" style={{ transform: [{ rotate: '-90deg' }] }} />
+            </TouchableOpacity>
+
+            <TouchableOpacity 
+              style={styles.actionItem}
+              onPress={() => {
+                onClose();
+                router.push('/(tabs)/pricing');
+              }}
+            >
+              <Crown size={20} color="#6B7280" />
+              <Text style={styles.actionText}>Plans & Pricing</Text>
               <ChevronDown size={20} color="#9CA3AF" style={{ transform: [{ rotate: '-90deg' }] }} />
             </TouchableOpacity>
           </View>
