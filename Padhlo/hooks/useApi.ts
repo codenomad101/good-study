@@ -498,20 +498,151 @@ export const useUserRankInTest = (userTestId: string) => {
 };
 
 // Community Hooks
-// Note: Community endpoints may not exist on server, returning empty data gracefully
+export const useGroups = () => {
+  return useQuery({
+    queryKey: ['community', 'groups'],
+    queryFn: () => apiService.getGroups(),
+    retry: 1,
+    staleTime: 2 * 60 * 1000,
+  });
+};
+
+export const useGroup = (groupId: string) => {
+  return useQuery({
+    queryKey: ['community', 'groups', groupId],
+    queryFn: () => apiService.getGroup(groupId),
+    enabled: !!groupId,
+  });
+};
+
+export const useGroupMembers = (groupId: string) => {
+  return useQuery({
+    queryKey: ['community', 'groups', groupId, 'members'],
+    queryFn: () => apiService.getGroupMembers(groupId),
+    enabled: !!groupId,
+  });
+};
+
+export const useGroupPosts = (groupId: string) => {
+  return useQuery({
+    queryKey: ['community', 'groups', groupId, 'posts'],
+    queryFn: () => apiService.getGroupPosts(groupId),
+    enabled: !!groupId,
+  });
+};
+
+export const usePost = (postId: string) => {
+  return useQuery({
+    queryKey: ['community', 'posts', postId],
+    queryFn: () => apiService.getPost(postId),
+    enabled: !!postId,
+  });
+};
+
+export const usePostComments = (postId: string) => {
+  return useQuery({
+    queryKey: ['community', 'posts', postId, 'comments'],
+    queryFn: () => apiService.getPostComments(postId),
+    enabled: !!postId,
+  });
+};
+
+export const useJoinRequests = (groupId: string) => {
+  return useQuery({
+    queryKey: ['community', 'groups', groupId, 'requests'],
+    queryFn: () => apiService.getJoinRequests(groupId),
+    enabled: !!groupId,
+  });
+};
+
+export const useCreateGroup = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (data: {
+      name: string;
+      description: string;
+      examType?: string;
+      subjectId?: string;
+      isPublic?: boolean;
+    }) => apiService.createGroup(data),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['community', 'groups'] });
+    },
+  });
+};
+
+export const useJoinGroup = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (groupId: string) => apiService.joinGroup(groupId),
+    onSuccess: (_, groupId) => {
+      queryClient.invalidateQueries({ queryKey: ['community', 'groups', groupId] });
+      queryClient.invalidateQueries({ queryKey: ['community', 'groups', groupId, 'members'] });
+    },
+  });
+};
+
+export const useRequestToJoinGroup = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (groupId: string) => apiService.requestToJoinGroup(groupId),
+    onSuccess: (_, groupId) => {
+      queryClient.invalidateQueries({ queryKey: ['community', 'groups', groupId, 'requests'] });
+    },
+  });
+};
+
+export const useCreatePost = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: ({ groupId, postContent }: { groupId: string; postContent: string }) =>
+      apiService.createPost(groupId, postContent),
+    onSuccess: (_, variables) => {
+      queryClient.invalidateQueries({ queryKey: ['community', 'groups', variables.groupId, 'posts'] });
+      queryClient.invalidateQueries({ queryKey: ['community', 'groups'] });
+    },
+  });
+};
+
+export const useCreateComment = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: ({ postId, commentContent }: { postId: string; commentContent: string }) =>
+      apiService.createComment(postId, commentContent),
+    onSuccess: (_, variables) => {
+      queryClient.invalidateQueries({ queryKey: ['community', 'posts', variables.postId, 'comments'] });
+      queryClient.invalidateQueries({ queryKey: ['community', 'posts', variables.postId] });
+    },
+  });
+};
+
+export const useApproveJoinRequest = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (requestId: string) => apiService.approveJoinRequest(requestId),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['community'] });
+    },
+  });
+};
+
+export const useRejectJoinRequest = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: ({ requestId, rejectionReason }: { requestId: string; rejectionReason?: string }) =>
+      apiService.rejectJoinRequest(requestId, rejectionReason),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['community'] });
+    },
+  });
+};
+
+// Legacy forum hooks (kept for backward compatibility, but not used)
 export const useForums = () => {
   return useQuery({
     queryKey: ['forums'],
     queryFn: async () => {
-      try {
-        return await apiService.get('/community/forums');
-      } catch (error: any) {
-        console.warn('[useApi] Forums endpoint error:', {
-          message: error?.message,
-          endpoint: error?.endpoint || '/community/forums'
-        });
-        return { success: false, data: [], message: error?.message || 'Forums not available' };
-      }
+      return { success: false, data: [], message: 'Forums not available' };
     },
     retry: false,
     staleTime: 10 * 60 * 1000,

@@ -45,10 +45,21 @@ export default function TabLayout() {
         }}
       />
       <Tabs.Screen
+        name="community/[groupId]"
+        options={{
+          href: null, // Hide from tab bar
+        }}
+      />
+      <Tabs.Screen
+        name="community/[groupId]/[postId]"
+        options={{
+          href: null, // Hide from tab bar
+        }}
+      />
+      <Tabs.Screen
         name="leaderboard"
         options={{
-          title: 'Leaderboard',
-          tabBarIcon: ({ color }) => <IconSymbol size={28} name="trophy.fill" color={color} />,
+          href: null, // Hide from tab bar
         }}
       />
     </Tabs>

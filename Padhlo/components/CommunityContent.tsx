@@ -13,697 +13,552 @@ import {
   Alert
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
+import { useRouter } from 'expo-router';
 import AppHeader from './AppHeader';
 import { 
   Users, 
   MessageCircle, 
   Plus, 
-  Search, 
-  Filter,
-  ThumbsUp,
-  Reply,
-  Pin,
-  Lock,
-  Calendar,
-  User,
-  Send,
-  BookOpen,
   Trophy,
-  Star
+  Filter,
+  ArrowRight,
+  Lock,
+  Unlock
 } from 'lucide-react-native';
 import { 
-  useForums,
-  useForumThreads,
-  useForumReplies,
-  useStudyGroups,
-  useStudyGroupMembers,
-  useCreateThread,
-  useCreateReply,
-  useJoinStudyGroup,
-  useCreateStudyGroup
+  useGroups,
+  useCreateGroup
 } from '../hooks/useApi';
 import { useAuth } from '../contexts/AuthContext';
 import { responsiveValues } from '../utils/responsive';
+import { apiService } from '../services/api';
 
-interface Forum {
-  forumId: string;
-  examId: string;
-  forumName: string;
-  description: string;
-  totalThreads: number;
-  totalPosts: number;
-}
-
-interface Thread {
-  threadId: string;
-  forumId: string;
-  userId: string;
-  title: string;
-  content: string;
-  isPinned: boolean;
-  isLocked: boolean;
-  viewCount: number;
-  replyCount: number;
-  createdAt: string;
-  updatedAt: string;
-  user?: {
-    fullName: string;
-    profilePictureUrl?: string;
-  };
-}
-
-interface Reply {
-  replyId: string;
-  threadId: string;
-  userId: string;
-  parentReplyId?: string;
-  content: string;
-  upvotes: number;
-  isSolution: boolean;
-  createdAt: string;
-  updatedAt: string;
-  user?: {
-    fullName: string;
-    profilePictureUrl?: string;
-  };
-}
-
-interface StudyGroup {
+interface Group {
   groupId: string;
-  examId: string;
-  createdBy: string;
-  groupName: string;
+  name: string;
   description: string;
-  groupCode: string;
-  isPrivate: boolean;
-  maxMembers: number;
-  currentMembers: number;
+  createdBy: string;
+  examType?: string;
+  subjectId?: string;
+  isPublic?: boolean;
   createdAt: string;
+  postCount?: number;
+  commentCount?: number;
+  memberCount?: number;
   creator?: {
+    userId: string;
     fullName: string;
+    email: string;
   };
 }
 
 const CommunityContent: React.FC = () => {
   const { user } = useAuth();
-  const [activeTab, setActiveTab] = useState<'forums' | 'groups' | 'discussions'>('forums');
-  const [selectedForum, setSelectedForum] = useState<string>('');
-  const [selectedThread, setSelectedThread] = useState<string>('');
-  const [showCreateThread, setShowCreateThread] = useState(false);
-  const [showCreateGroup, setShowCreateGroup] = useState(false);
-  const [showJoinGroup, setShowJoinGroup] = useState(false);
+  const router = useRouter();
+  const [groups, setGroups] = useState<Group[]>([]);
+  const [filteredGroups, setFilteredGroups] = useState<Group[]>([]);
+  const [isModalVisible, setIsModalVisible] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
-  const [searchQuery, setSearchQuery] = useState('');
-  const [groupCode, setGroupCode] = useState('');
-
+  const [activeTab, setActiveTab] = useState('all');
+  
   // Form states
-  const [threadForm, setThreadForm] = useState({
-    title: '',
-    content: ''
-  });
-  const [replyForm, setReplyForm] = useState({
-    content: ''
-  });
   const [groupForm, setGroupForm] = useState({
-    groupName: '',
+    name: '',
     description: '',
-    isPrivate: false
+    examType: '',
+    isPublic: true
   });
 
-  // React Query hooks
-  const { data: forumsData, isLoading: forumsLoading, refetch: refetchForums } = useForums();
-  const { data: threadsData, isLoading: threadsLoading, refetch: refetchThreads } = useForumThreads(selectedForum);
-  const { data: repliesData, isLoading: repliesLoading, refetch: refetchReplies } = useForumReplies(selectedThread);
-  const { data: groupsData, isLoading: groupsLoading, refetch: refetchGroups } = useStudyGroups();
-  const { data: membersData, isLoading: membersLoading, refetch: refetchMembers } = useStudyGroupMembers(selectedForum);
+  const createGroupMutation = useCreateGroup();
+  const [isLoadingGroups, setIsLoadingGroups] = useState(true);
 
-  // Mutations
-  const createThreadMutation = useCreateThread();
-  const createReplyMutation = useCreateReply();
-  const joinGroupMutation = useJoinStudyGroup();
-  const createGroupMutation = useCreateStudyGroup();
+  // Fetch groups manually like the web app does
+  const fetchGroups = async () => {
+      try {
+        setIsLoadingGroups(true);
+        console.log('[CommunityContent] Fetching groups...');
+        const response = await apiService.getGroups();
+        console.log('[CommunityContent] Raw response:', JSON.stringify(response, null, 2));
+        
+        let groupsArray: Group[] = [];
+        
+        // Handle different response structures
+        // The backend returns an array directly, but our API service wraps it
+        const responseData = response?.data as any;
+        
+        if (responseData) {
+          if (Array.isArray(responseData)) {
+            groupsArray = responseData;
+          } else if (responseData.data && Array.isArray(responseData.data)) {
+            groupsArray = responseData.data;
+          } else if (typeof responseData === 'object' && !Array.isArray(responseData)) {
+            // Handle object with numeric keys (like {"0": {...}, "data": []})
+            // This happens when the response is converted to an object
+            const objectKeys = Object.keys(responseData).filter(key => key !== 'data' && !isNaN(Number(key)));
+            if (objectKeys.length > 0) {
+              // Convert object with numeric keys to array, sorted by key
+              groupsArray = objectKeys
+                .sort((a, b) => Number(a) - Number(b))
+                .map(key => responseData[key])
+                .filter((item: any) => item && item.groupId && typeof item === 'object');
+            }
+          }
+        } else if (Array.isArray(response)) {
+          groupsArray = response as Group[];
+        }
+        
+        console.log('[CommunityContent] Extracted groupsArray:', groupsArray.length, groupsArray);
+        
+        if (groupsArray.length === 0) {
+          setGroups([]);
+          return;
+        }
+        
+        // Show groups immediately with default stats
+        const groupsWithDefaultStats = groupsArray.map((group: any) => ({
+          ...group,
+          postCount: 0,
+          commentCount: 0,
+          memberCount: 0
+        }));
+        setGroups(groupsWithDefaultStats);
+        
+        // Fetch stats for each group asynchronously
+        const groupsWithStats = await Promise.all(
+          groupsArray.map(async (group: any) => {
+            try {
+              // Fetch posts count
+              const postsResponse = await apiService.getGroupPosts(group.groupId);
+              const posts = Array.isArray(postsResponse?.data) 
+                ? postsResponse.data 
+                : (postsResponse?.data?.data || []);
+              
+              // Fetch comments count for all posts (limit to avoid too many requests)
+              let totalComments = 0;
+              const postsToCheck = posts.slice(0, 10); // Limit to first 10 posts
+              for (const post of postsToCheck) {
+                try {
+                  const commentsResponse = await apiService.getPostComments(post.postId);
+                  const comments = Array.isArray(commentsResponse?.data)
+                    ? commentsResponse.data
+                    : (commentsResponse?.data?.data || []);
+                  totalComments += comments.length;
+                } catch (error) {
+                  // Ignore errors for individual post comments
+                }
+              }
 
-  const forums: Forum[] = forumsData?.data || [];
-  const threads: Thread[] = threadsData?.data || [];
-  const replies: Reply[] = repliesData?.data || [];
-  const groups: StudyGroup[] = groupsData?.data || [];
-  const members = membersData?.data || [];
+              // Fetch members count
+              let memberCount = 0;
+              try {
+                const membersResponse = await apiService.getGroupMembers(group.groupId);
+                const members = Array.isArray(membersResponse?.data)
+                  ? membersResponse.data
+                  : (membersResponse?.data?.data || []);
+                memberCount = members.length;
+              } catch (error) {
+                // Ignore errors for members
+              }
+
+              return {
+                ...group,
+                postCount: posts.length,
+                commentCount: totalComments,
+                memberCount: memberCount
+              };
+            } catch (error) {
+              console.warn('[CommunityContent] Error fetching stats for group:', group.groupId, error);
+              // Return group with default stats if fetching fails
+              return {
+                ...group,
+                postCount: 0,
+                commentCount: 0,
+                memberCount: 0
+              };
+            }
+          })
+        );
+        
+        console.log('[CommunityContent] Setting groups with stats:', groupsWithStats.length);
+        setGroups(groupsWithStats);
+      } catch (error: any) {
+        console.error('[CommunityContent] Error fetching groups:', error);
+        Alert.alert('Error', 'Failed to load groups. Please try again.');
+        setGroups([]);
+      } finally {
+        setIsLoadingGroups(false);
+      }
+  };
+
+  useEffect(() => {
+    fetchGroups();
+  }, []);
+
+  useEffect(() => {
+    filterGroups();
+  }, [groups, activeTab]);
+
+  const filterGroups = () => {
+    let sorted = [...groups];
+    
+    switch (activeTab) {
+      case 'most-posts':
+        sorted.sort((a, b) => (b.postCount || 0) - (a.postCount || 0));
+        break;
+      case 'most-comments':
+        sorted.sort((a, b) => (b.commentCount || 0) - (a.commentCount || 0));
+        break;
+      case 'exam-based':
+        sorted = sorted.filter(g => g.examType);
+        break;
+      default:
+        sorted.sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
+    }
+    
+    setFilteredGroups(sorted);
+  };
 
   const onRefresh = async () => {
     setRefreshing(true);
-    await Promise.all([
-      refetchForums(),
-      refetchThreads(),
-      refetchReplies(),
-      refetchGroups(),
-      refetchMembers()
-    ]);
+    await fetchGroups();
     setRefreshing(false);
   };
 
-  const handleCreateThread = async () => {
-    if (!threadForm.title.trim() || !threadForm.content.trim()) {
-      Alert.alert('Error', 'Please fill in all fields');
-      return;
-    }
-
-    try {
-      await createThreadMutation.mutateAsync({
-        forumId: selectedForum,
-        title: threadForm.title,
-        content: threadForm.content
-      });
-      
-      setShowCreateThread(false);
-      setThreadForm({ title: '', content: '' });
-      refetchThreads();
-      Alert.alert('Success', 'Thread created successfully!');
-    } catch (error) {
-      Alert.alert('Error', 'Failed to create thread');
-    }
-  };
-
-  const handleCreateReply = async () => {
-    if (!replyForm.content.trim()) {
-      Alert.alert('Error', 'Please enter a reply');
-      return;
-    }
-
-    try {
-      await createReplyMutation.mutateAsync({
-        threadId: selectedThread,
-        content: replyForm.content
-      });
-      
-      setReplyForm({ content: '' });
-      refetchReplies();
-      Alert.alert('Success', 'Reply posted successfully!');
-    } catch (error) {
-      Alert.alert('Error', 'Failed to post reply');
-    }
-  };
-
-  const handleJoinGroup = async () => {
-    if (!groupCode.trim()) {
-      Alert.alert('Error', 'Please enter a group code');
-      return;
-    }
-
-    try {
-      await joinGroupMutation.mutateAsync(groupCode);
-      setShowJoinGroup(false);
-      setGroupCode('');
-      refetchGroups();
-      Alert.alert('Success', 'Joined group successfully!');
-    } catch (error) {
-      Alert.alert('Error', 'Failed to join group');
-    }
-  };
-
   const handleCreateGroup = async () => {
-    if (!groupForm.groupName.trim() || !groupForm.description.trim()) {
-      Alert.alert('Error', 'Please fill in all fields');
+    if (!groupForm.name.trim() || !groupForm.description.trim()) {
+      Alert.alert('Error', 'Please fill in all required fields');
       return;
     }
 
     try {
       await createGroupMutation.mutateAsync({
-        groupName: groupForm.groupName,
+        name: groupForm.name,
         description: groupForm.description,
-        isPrivate: groupForm.isPrivate
+        examType: groupForm.examType || undefined,
+        isPublic: groupForm.isPublic
       });
       
-      setShowCreateGroup(false);
-      setGroupForm({ groupName: '', description: '', isPrivate: false });
-      refetchGroups();
-      Alert.alert('Success', 'Study group created successfully!');
-    } catch (error) {
-      Alert.alert('Error', 'Failed to create study group');
+      setIsModalVisible(false);
+      setGroupForm({ name: '', description: '', examType: '', isPublic: true });
+      fetchGroups();
+      Alert.alert('Success', 'Group created successfully!');
+    } catch (error: any) {
+      Alert.alert('Error', error?.message || 'Failed to create group');
     }
   };
 
-  const renderForumsTab = () => (
-    <ScrollView 
-      style={styles.tabContent}
-      refreshControl={
-        <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
-      }
-    >
-      <View style={styles.searchContainer}>
-        <Search size={20} color="#6B7280" />
-        <TextInput
-          style={styles.searchInput}
-          placeholder="Search forums..."
-          value={searchQuery}
-          onChangeText={setSearchQuery}
-        />
-      </View>
+  const handleGroupClick = (groupId: string) => {
+    router.push({
+      pathname: '/(tabs)/community/[groupId]',
+      params: { groupId }
+    });
+  };
 
-      {forumsLoading ? (
-        <ActivityIndicator size="large" color="#2563EB" style={styles.loadingIndicator} />
-      ) : (
-        <View style={styles.forumsList}>
-          {forums.map((forum) => (
+  const getInitials = (name: string) => {
+    return name?.split(' ').map(n => n[0]).join('').toUpperCase().substring(0, 2) || 'G';
+  };
+
+  const topCommunities = filteredGroups.slice(0, 3);
+
+  const renderTopCommunities = () => {
+    if (topCommunities.length === 0) return null;
+
+    return (
+      <View style={styles.section}>
+        <View style={styles.sectionHeader}>
+          <Trophy size={20} color="#F59E0B" />
+          <Text style={styles.sectionTitle}>Top Communities</Text>
+        </View>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.topCommunitiesScroll}>
+          {topCommunities.map((group: Group, index: number) => (
             <TouchableOpacity
-              key={forum.forumId}
-              style={styles.forumCard}
-              onPress={() => setSelectedForum(forum.forumId)}
+              key={group.groupId}
+              style={[styles.topCommunityCard, { width: 280 }]}
+              onPress={() => handleGroupClick(group.groupId)}
             >
-              <View style={styles.forumHeader}>
-                <View style={styles.forumIcon}>
-                  <MessageCircle size={24} color="#2563EB" />
-                </View>
-                <View style={styles.forumInfo}>
-                  <Text style={styles.forumName}>{forum.forumName}</Text>
-                  <Text style={styles.forumDescription}>{forum.description}</Text>
-                </View>
+              <View style={styles.rankBadge}>
+                <Text style={styles.rankText}>{index + 1}</Text>
               </View>
-              <View style={styles.forumStats}>
-                <View style={styles.statItem}>
-                  <Text style={styles.statNumber}>{forum.totalThreads}</Text>
-                  <Text style={styles.statLabel}>Threads</Text>
+              <View style={styles.topCommunityAvatar}>
+                <Text style={styles.avatarText}>{getInitials(group.name)}</Text>
+              </View>
+              <Text style={styles.topCommunityName} numberOfLines={2}>
+                {group.name}
+              </Text>
+              <Text style={styles.topCommunityDescription} numberOfLines={2}>
+                {group.description || 'No description'}
+              </Text>
+              {group.creator && (
+                <Text style={styles.topCommunityCreator}>
+                  Created by {group.creator.fullName}
+                </Text>
+              )}
+              {group.examType && (
+                <View style={styles.examTypeTag}>
+                  <Text style={styles.examTypeText}>{group.examType}</Text>
                 </View>
+              )}
+              <View style={styles.topCommunityStats}>
                 <View style={styles.statItem}>
-                  <Text style={styles.statNumber}>{forum.totalPosts}</Text>
+                  <MessageCircle size={14} color="#667eea" />
+                  <Text style={styles.statNumber}>{group.postCount || 0}</Text>
                   <Text style={styles.statLabel}>Posts</Text>
                 </View>
-              </View>
-            </TouchableOpacity>
-          ))}
-        </View>
-      )}
-
-      {selectedForum && (
-        <View style={styles.threadsSection}>
-          <View style={styles.sectionHeader}>
-            <Text style={styles.sectionTitle}>Threads</Text>
-            <TouchableOpacity
-              style={styles.createButton}
-              onPress={() => setShowCreateThread(true)}
-            >
-              <Plus size={16} color="#FFFFFF" />
-              <Text style={styles.createButtonText}>New Thread</Text>
-            </TouchableOpacity>
-          </View>
-
-          {threadsLoading ? (
-            <ActivityIndicator size="small" color="#2563EB" />
-          ) : (
-            <View style={styles.threadsList}>
-              {threads.map((thread) => (
-                <TouchableOpacity
-                  key={thread.threadId}
-                  style={styles.threadCard}
-                  onPress={() => setSelectedThread(thread.threadId)}
-                >
-                  <View style={styles.threadHeader}>
-                    <View style={styles.threadInfo}>
-                      <Text style={styles.threadTitle}>{thread.title}</Text>
-                      <Text style={styles.threadAuthor}>
-                        by {thread.user?.fullName || 'Anonymous'}
-                      </Text>
-                    </View>
-                    <View style={styles.threadMeta}>
-                      {thread.isPinned && <Pin size={16} color="#F59E0B" />}
-                      {thread.isLocked && <Lock size={16} color="#EF4444" />}
-                    </View>
-                  </View>
-                  <View style={styles.threadStats}>
-                    <View style={styles.statItem}>
-                      <Text style={styles.statNumber}>{thread.replyCount}</Text>
-                      <Text style={styles.statLabel}>Replies</Text>
-                    </View>
-                    <View style={styles.statItem}>
-                      <Text style={styles.statNumber}>{thread.viewCount}</Text>
-                      <Text style={styles.statLabel}>Views</Text>
-                    </View>
-                    <Text style={styles.threadDate}>
-                      {new Date(thread.createdAt).toLocaleDateString()}
-                    </Text>
-                  </View>
-                </TouchableOpacity>
-              ))}
-            </View>
-          )}
-        </View>
-      )}
-
-      {selectedThread && (
-        <View style={styles.repliesSection}>
-          <View style={styles.sectionHeader}>
-            <Text style={styles.sectionTitle}>Replies</Text>
-            <TouchableOpacity
-              style={styles.replyButton}
-              onPress={() => setReplyForm({ content: '' })}
-            >
-              <Reply size={16} color="#2563EB" />
-              <Text style={styles.replyButtonText}>Reply</Text>
-            </TouchableOpacity>
-          </View>
-
-          {repliesLoading ? (
-            <ActivityIndicator size="small" color="#2563EB" />
-          ) : (
-            <View style={styles.repliesList}>
-              {replies.map((reply) => (
-                <View key={reply.replyId} style={styles.replyCard}>
-                  <View style={styles.replyHeader}>
-                    <View style={styles.replyAuthor}>
-                      <User size={16} color="#6B7280" />
-                      <Text style={styles.replyAuthorName}>
-                        {reply.user?.fullName || 'Anonymous'}
-                      </Text>
-                    </View>
-                    <View style={styles.replyMeta}>
-                      {reply.isSolution && (
-                        <View style={styles.solutionBadge}>
-                          <Star size={12} color="#FFFFFF" />
-                          <Text style={styles.solutionText}>Solution</Text>
-                        </View>
-                      )}
-                      <Text style={styles.replyDate}>
-                        {new Date(reply.createdAt).toLocaleDateString()}
-                      </Text>
-                    </View>
-                  </View>
-                  <Text style={styles.replyContent}>{reply.content}</Text>
-                  <View style={styles.replyActions}>
-                    <TouchableOpacity style={styles.upvoteButton}>
-                      <ThumbsUp size={16} color="#6B7280" />
-                      <Text style={styles.upvoteText}>{reply.upvotes}</Text>
-                    </TouchableOpacity>
-                  </View>
-                </View>
-              ))}
-            </View>
-          )}
-        </View>
-      )}
-    </ScrollView>
-  );
-
-  const renderGroupsTab = () => (
-    <ScrollView 
-      style={styles.tabContent}
-      refreshControl={
-        <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
-      }
-    >
-      <View style={styles.groupsHeader}>
-        <TouchableOpacity
-          style={styles.createGroupButton}
-          onPress={() => setShowCreateGroup(true)}
-        >
-          <Plus size={16} color="#FFFFFF" />
-          <Text style={styles.createGroupButtonText}>Create Group</Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={styles.joinGroupButton}
-          onPress={() => setShowJoinGroup(true)}
-        >
-          <Users size={16} color="#2563EB" />
-          <Text style={styles.joinGroupButtonText}>Join Group</Text>
-        </TouchableOpacity>
-      </View>
-
-      {groupsLoading ? (
-        <ActivityIndicator size="large" color="#2563EB" style={styles.loadingIndicator} />
-      ) : (
-        <View style={styles.groupsList}>
-          {groups.map((group) => (
-            <View key={group.groupId} style={styles.groupCard}>
-              <View style={styles.groupHeader}>
-                <View style={styles.groupIcon}>
-                  <Users size={24} color="#2563EB" />
-                </View>
-                <View style={styles.groupInfo}>
-                  <Text style={styles.groupName}>{group.groupName}</Text>
-                  <Text style={styles.groupDescription}>{group.description}</Text>
-                  <Text style={styles.groupCreator}>
-                    Created by {group.creator?.fullName || 'Anonymous'}
-                  </Text>
-                </View>
-                {group.isPrivate && <Lock size={16} color="#EF4444" />}
-              </View>
-              <View style={styles.groupStats}>
                 <View style={styles.statItem}>
-                  <Text style={styles.statNumber}>{group.currentMembers}</Text>
+                  <MessageCircle size={14} color="#764ba2" />
+                  <Text style={styles.statNumber}>{group.commentCount || 0}</Text>
+                  <Text style={styles.statLabel}>Comments</Text>
+                </View>
+                <View style={styles.statItem}>
+                  <Users size={14} color="#f59e0b" />
+                  <Text style={styles.statNumber}>{group.memberCount || 0}</Text>
                   <Text style={styles.statLabel}>Members</Text>
                 </View>
-                <View style={styles.statItem}>
-                  <Text style={styles.statNumber}>{group.maxMembers}</Text>
-                  <Text style={styles.statLabel}>Max</Text>
-                </View>
-                <Text style={styles.groupCode}>Code: {group.groupCode}</Text>
               </View>
-              <Text style={styles.groupDate}>
-                Created {new Date(group.createdAt).toLocaleDateString()}
-              </Text>
-            </View>
+            </TouchableOpacity>
           ))}
-        </View>
-      )}
-
-      {groups.length === 0 && (
-        <View style={styles.emptyState}>
-          <Users size={48} color="#9CA3AF" />
-          <Text style={styles.emptyStateText}>No study groups yet</Text>
-          <Text style={styles.emptyStateSubtext}>Create or join a study group to start collaborating</Text>
-        </View>
-      )}
-    </ScrollView>
-  );
-
-  const renderDiscussionsTab = () => (
-    <ScrollView 
-      style={styles.tabContent}
-      refreshControl={
-        <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
-      }
-    >
-      <Text style={styles.sectionTitle}>Recent Discussions</Text>
-      
-      <View style={styles.discussionsList}>
-        {threads.slice(0, 10).map((thread) => (
-          <View key={thread.threadId} style={styles.discussionCard}>
-            <View style={styles.discussionHeader}>
-              <Text style={styles.discussionTitle}>{thread.title}</Text>
-              <Text style={styles.discussionForum}>
-                in {forums.find(f => f.forumId === thread.forumId)?.forumName}
-              </Text>
-            </View>
-            <Text style={styles.discussionContent} numberOfLines={2}>
-              {thread.content}
-            </Text>
-            <View style={styles.discussionMeta}>
-              <Text style={styles.discussionAuthor}>
-                by {thread.user?.fullName || 'Anonymous'}
-              </Text>
-              <Text style={styles.discussionDate}>
-                {new Date(thread.createdAt).toLocaleDateString()}
-              </Text>
-              <View style={styles.discussionStats}>
-                <Text style={styles.discussionReplies}>{thread.replyCount} replies</Text>
-              </View>
-            </View>
-          </View>
-        ))}
+        </ScrollView>
       </View>
-
-      {threads.length === 0 && (
-        <View style={styles.emptyState}>
-          <MessageCircle size={48} color="#9CA3AF" />
-          <Text style={styles.emptyStateText}>No discussions yet</Text>
-          <Text style={styles.emptyStateSubtext}>Start a discussion in any forum</Text>
-        </View>
-      )}
-    </ScrollView>
-  );
-
-  const renderTabContent = () => {
-    switch (activeTab) {
-      case 'forums':
-        return renderForumsTab();
-      case 'groups':
-        return renderGroupsTab();
-      case 'discussions':
-        return renderDiscussionsTab();
-      default:
-        return renderForumsTab();
-    }
+    );
   };
+
+  const renderGroupCard = ({ item: group }: { item: Group }) => (
+    <TouchableOpacity
+      style={styles.groupCard}
+      onPress={() => handleGroupClick(group.groupId)}
+    >
+      <View style={styles.groupHeader}>
+        <View style={styles.groupAvatar}>
+          <Text style={styles.avatarText}>{getInitials(group.name)}</Text>
+        </View>
+        <View style={styles.groupInfo}>
+          <Text style={styles.groupName} numberOfLines={1}>
+            {group.name}
+          </Text>
+          <Text style={styles.groupDescription} numberOfLines={2}>
+            {group.description || 'No description'}
+          </Text>
+          {group.creator && (
+            <Text style={styles.groupCreator}>
+              Created by {group.creator.fullName}
+            </Text>
+          )}
+        </View>
+        {!group.isPublic && (
+          <Lock size={16} color="#EF4444" style={styles.lockIcon} />
+        )}
+      </View>
+      <View style={styles.groupFooter}>
+        {group.examType && (
+          <View style={styles.examTypeTag}>
+            <Text style={styles.examTypeText}>{group.examType}</Text>
+          </View>
+        )}
+        <View style={styles.groupStats}>
+          <View style={styles.statItemSmall}>
+            <MessageCircle size={12} color="#667eea" />
+            <Text style={styles.statNumberSmall}>{group.postCount || 0}</Text>
+          </View>
+          <View style={styles.statItemSmall}>
+            <MessageCircle size={12} color="#764ba2" />
+            <Text style={styles.statNumberSmall}>{group.commentCount || 0}</Text>
+          </View>
+          <View style={styles.statItemSmall}>
+            <Users size={12} color="#f59e0b" />
+            <Text style={styles.statNumberSmall}>{group.memberCount || 0}</Text>
+          </View>
+        </View>
+      </View>
+    </TouchableOpacity>
+  );
 
   return (
     <View style={styles.container}>
       <AppHeader title="Community" showLogo={true} extraTopSpacing={true} />
       
-      {/* Subtitle */}
-      <View style={styles.subtitleContainer}>
-        <Text style={styles.subtitle}>Connect and learn together</Text>
-      </View>
-
-      {/* Tab Navigation */}
-      <View style={styles.tabNavigation}>
+      {/* Hero Section */}
+      <View style={styles.heroSection}>
+        <Text style={styles.heroTitle}>Community Hub</Text>
+        <Text style={styles.heroSubtitle}>Connect, Learn, and Grow Together</Text>
         <TouchableOpacity
-          style={[styles.tabButton, activeTab === 'forums' && styles.tabButtonActive]}
-          onPress={() => setActiveTab('forums')}
+          style={styles.createGroupButton}
+          onPress={() => setIsModalVisible(true)}
         >
-          <MessageCircle size={20} color={activeTab === 'forums' ? '#2563EB' : '#6B7280'} />
-          <Text style={[styles.tabText, activeTab === 'forums' && styles.tabTextActive]}>
-            Forums
-          </Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={[styles.tabButton, activeTab === 'groups' && styles.tabButtonActive]}
-          onPress={() => setActiveTab('groups')}
-        >
-          <Users size={20} color={activeTab === 'groups' ? '#2563EB' : '#6B7280'} />
-          <Text style={[styles.tabText, activeTab === 'groups' && styles.tabTextActive]}>
-            Groups
-          </Text>
-        </TouchableOpacity>
-        <TouchableOpacity
-          style={[styles.tabButton, activeTab === 'discussions' && styles.tabButtonActive]}
-          onPress={() => setActiveTab('discussions')}
-        >
-          <BookOpen size={20} color={activeTab === 'discussions' ? '#2563EB' : '#6B7280'} />
-          <Text style={[styles.tabText, activeTab === 'discussions' && styles.tabTextActive]}>
-            Discussions
-          </Text>
+          <Plus size={20} color="#FFFFFF" />
+          <Text style={styles.createGroupButtonText}>Create New Group</Text>
         </TouchableOpacity>
       </View>
 
-      {/* Tab Content */}
-      {renderTabContent()}
+      {/* Top Communities */}
+      {renderTopCommunities()}
 
-      {/* Create Thread Modal */}
-      <Modal
-        visible={showCreateThread}
-        animationType="slide"
-        presentationStyle="pageSheet"
-      >
-        <View style={styles.modalContainer}>
-          <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>Create New Thread</Text>
-            <TouchableOpacity onPress={() => setShowCreateThread(false)}>
-              <Text style={styles.closeButton}>✕</Text>
-            </TouchableOpacity>
-          </View>
-          <ScrollView style={styles.modalContent}>
-            <TextInput
-              style={styles.input}
-              placeholder="Thread Title"
-              value={threadForm.title}
-              onChangeText={(text) => setThreadForm(prev => ({ ...prev, title: text }))}
-            />
-            <TextInput
-              style={[styles.input, styles.textArea]}
-              placeholder="Thread Content"
-              value={threadForm.content}
-              onChangeText={(text) => setThreadForm(prev => ({ ...prev, content: text }))}
-              multiline
-              numberOfLines={6}
-            />
-          </ScrollView>
-          <View style={styles.modalActions}>
-            <TouchableOpacity
-              style={styles.cancelButton}
-              onPress={() => setShowCreateThread(false)}
-            >
-              <Text style={styles.cancelButtonText}>Cancel</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={styles.submitButton}
-              onPress={handleCreateThread}
-            >
-              <Text style={styles.submitButtonText}>Create Thread</Text>
-            </TouchableOpacity>
-          </View>
+      {/* Tabs */}
+      <View style={styles.tabsContainer}>
+        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+          <TouchableOpacity
+            style={[styles.tab, activeTab === 'all' && styles.tabActive]}
+            onPress={() => setActiveTab('all')}
+          >
+            <Text style={[styles.tabText, activeTab === 'all' && styles.tabTextActive]}>
+              All Groups
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[styles.tab, activeTab === 'most-posts' && styles.tabActive]}
+            onPress={() => setActiveTab('most-posts')}
+          >
+            <Text style={[styles.tabText, activeTab === 'most-posts' && styles.tabTextActive]}>
+              Most Posts
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[styles.tab, activeTab === 'most-comments' && styles.tabActive]}
+            onPress={() => setActiveTab('most-comments')}
+          >
+            <Text style={[styles.tabText, activeTab === 'most-comments' && styles.tabTextActive]}>
+              Most Comments
+            </Text>
+          </TouchableOpacity>
+          <TouchableOpacity
+            style={[styles.tab, activeTab === 'exam-based' && styles.tabActive]}
+            onPress={() => setActiveTab('exam-based')}
+          >
+            <Text style={[styles.tabText, activeTab === 'exam-based' && styles.tabTextActive]}>
+              Exam Based
+            </Text>
+          </TouchableOpacity>
+        </ScrollView>
+      </View>
+
+      {/* Groups List */}
+      {isLoadingGroups && groups.length === 0 ? (
+        <View style={styles.loadingContainer}>
+          <ActivityIndicator size="large" color="#2563EB" />
+          <Text style={styles.loadingText}>Loading communities...</Text>
         </View>
-      </Modal>
+      ) : filteredGroups.length === 0 ? (
+        <View style={styles.emptyState}>
+          <Users size={48} color="#9CA3AF" />
+          <Text style={styles.emptyStateText}>No communities found</Text>
+          <Text style={styles.emptyStateSubtext}>Create your first group to get started!</Text>
+        </View>
+      ) : (
+        <FlatList
+          data={filteredGroups}
+          renderItem={renderGroupCard}
+          keyExtractor={(item) => item.groupId}
+          contentContainerStyle={styles.listContainer}
+          refreshControl={
+            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+          }
+          ListFooterComponent={
+            isLoadingGroups ? (
+              <View style={{ padding: 20 }}>
+                <ActivityIndicator size="small" color="#2563EB" />
+              </View>
+            ) : null
+          }
+        />
+      )}
 
       {/* Create Group Modal */}
       <Modal
-        visible={showCreateGroup}
+        visible={isModalVisible}
         animationType="slide"
         presentationStyle="pageSheet"
+        onRequestClose={() => setIsModalVisible(false)}
       >
-        <View style={styles.modalContainer}>
+        <SafeAreaView style={styles.modalContainer}>
           <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>Create Study Group</Text>
-            <TouchableOpacity onPress={() => setShowCreateGroup(false)}>
+            <Text style={styles.modalTitle}>Create New Community</Text>
+            <TouchableOpacity onPress={() => setIsModalVisible(false)}>
               <Text style={styles.closeButton}>✕</Text>
             </TouchableOpacity>
           </View>
           <ScrollView style={styles.modalContent}>
+            <Text style={styles.inputLabel}>Community Name *</Text>
             <TextInput
               style={styles.input}
-              placeholder="Group Name"
-              value={groupForm.groupName}
-              onChangeText={(text) => setGroupForm(prev => ({ ...prev, groupName: text }))}
+              placeholder="e.g., UPSC Preparation Group"
+              value={groupForm.name}
+              onChangeText={(text) => setGroupForm(prev => ({ ...prev, name: text }))}
             />
+
+            <Text style={styles.inputLabel}>Exam Type (Optional)</Text>
+            <View style={styles.selectContainer}>
+              <TextInput
+                style={styles.input}
+                placeholder="UPSC, MPSC, SSC, Banking, etc."
+                value={groupForm.examType}
+                onChangeText={(text) => setGroupForm(prev => ({ ...prev, examType: text }))}
+              />
+            </View>
+
+            <Text style={styles.inputLabel}>Group Type</Text>
+            <View style={styles.groupTypeContainer}>
+              <TouchableOpacity
+                style={[
+                  styles.groupTypeOption,
+                  groupForm.isPublic && styles.groupTypeOptionActive
+                ]}
+                onPress={() => setGroupForm(prev => ({ ...prev, isPublic: true }))}
+              >
+                <Unlock size={16} color={groupForm.isPublic ? "#FFFFFF" : "#6B7280"} />
+                <Text style={[
+                  styles.groupTypeText,
+                  groupForm.isPublic && styles.groupTypeTextActive
+                ]}>
+                  Public
+                </Text>
+              </TouchableOpacity>
+              <TouchableOpacity
+                style={[
+                  styles.groupTypeOption,
+                  !groupForm.isPublic && styles.groupTypeOptionActive
+                ]}
+                onPress={() => setGroupForm(prev => ({ ...prev, isPublic: false }))}
+              >
+                <Lock size={16} color={!groupForm.isPublic ? "#FFFFFF" : "#6B7280"} />
+                <Text style={[
+                  styles.groupTypeText,
+                  !groupForm.isPublic && styles.groupTypeTextActive
+                ]}>
+                  Private
+                </Text>
+              </TouchableOpacity>
+            </View>
+
+            <Text style={styles.inputLabel}>Description *</Text>
             <TextInput
               style={[styles.input, styles.textArea]}
-              placeholder="Group Description"
+              placeholder="Describe your community, its purpose, and what members can expect."
               value={groupForm.description}
               onChangeText={(text) => setGroupForm(prev => ({ ...prev, description: text }))}
               multiline
-              numberOfLines={4}
+              numberOfLines={6}
+              textAlignVertical="top"
             />
           </ScrollView>
           <View style={styles.modalActions}>
             <TouchableOpacity
               style={styles.cancelButton}
-              onPress={() => setShowCreateGroup(false)}
+              onPress={() => setIsModalVisible(false)}
             >
               <Text style={styles.cancelButtonText}>Cancel</Text>
             </TouchableOpacity>
             <TouchableOpacity
               style={styles.submitButton}
               onPress={handleCreateGroup}
+              disabled={createGroupMutation.isPending}
             >
-              <Text style={styles.submitButtonText}>Create Group</Text>
+              {createGroupMutation.isPending ? (
+                <ActivityIndicator color="#FFFFFF" />
+              ) : (
+                <Text style={styles.submitButtonText}>Create Community</Text>
+              )}
             </TouchableOpacity>
           </View>
-        </View>
-      </Modal>
-
-      {/* Join Group Modal */}
-      <Modal
-        visible={showJoinGroup}
-        animationType="slide"
-        presentationStyle="pageSheet"
-      >
-        <View style={styles.modalContainer}>
-          <View style={styles.modalHeader}>
-            <Text style={styles.modalTitle}>Join Study Group</Text>
-            <TouchableOpacity onPress={() => setShowJoinGroup(false)}>
-              <Text style={styles.closeButton}>✕</Text>
-            </TouchableOpacity>
-          </View>
-          <ScrollView style={styles.modalContent}>
-            <TextInput
-              style={styles.input}
-              placeholder="Enter Group Code"
-              value={groupCode}
-              onChangeText={setGroupCode}
-            />
-          </ScrollView>
-          <View style={styles.modalActions}>
-            <TouchableOpacity
-              style={styles.cancelButton}
-              onPress={() => setShowJoinGroup(false)}
-            >
-              <Text style={styles.cancelButtonText}>Cancel</Text>
-            </TouchableOpacity>
-            <TouchableOpacity
-              style={styles.submitButton}
-              onPress={handleJoinGroup}
-            >
-              <Text style={styles.submitButtonText}>Join Group</Text>
-            </TouchableOpacity>
-          </View>
-        </View>
+        </SafeAreaView>
       </Modal>
     </View>
   );
@@ -714,326 +569,179 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#F9FAFB',
   },
-  subtitleContainer: {
-    paddingHorizontal: 16,
+  heroSection: {
+    backgroundColor: '#667eea',
+    padding: 24,
+    alignItems: 'center',
+    paddingTop: 32,
+    paddingBottom: 32,
+  },
+  heroTitle: {
+    fontSize: 28,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+    marginBottom: 8,
+  },
+  heroSubtitle: {
+    fontSize: 16,
+    color: '#FFFFFF',
+    marginBottom: 20,
+    textAlign: 'center',
+  },
+  createGroupButton: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 12,
+    paddingHorizontal: 24,
     paddingVertical: 12,
-    backgroundColor: '#FFFFFF',
-    borderBottomWidth: 1,
-    borderBottomColor: '#E5E7EB',
-  },
-  subtitle: {
-    fontSize: 14,
-    color: '#6B7280',
-  },
-  tabNavigation: {
-    flexDirection: 'row',
-    backgroundColor: '#FFFFFF',
-    borderBottomWidth: 1,
-    borderBottomColor: '#E5E7EB',
-  },
-  tabButton: {
-    flex: 1,
     flexDirection: 'row',
     alignItems: 'center',
+    gap: 8,
+  },
+  createGroupButtonText: {
+    color: '#667eea',
+    fontSize: 16,
+    fontWeight: '600',
+  },
+  section: {
+    marginTop: 24,
+    marginBottom: 16,
+  },
+  sectionHeader: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    paddingHorizontal: 16,
+    marginBottom: 12,
+    gap: 8,
+  },
+  sectionTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#1F2937',
+  },
+  topCommunitiesScroll: {
+    paddingHorizontal: 16,
+  },
+  topCommunityCard: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 12,
+    padding: 16,
+    marginRight: 12,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+    position: 'relative',
+  },
+  rankBadge: {
+    position: 'absolute',
+    top: 8,
+    right: 8,
+    backgroundColor: '#F59E0B',
+    borderRadius: 12,
+    width: 24,
+    height: 24,
+    alignItems: 'center',
     justifyContent: 'center',
-    paddingVertical: 16,
+    zIndex: 1,
+  },
+  rankText: {
+    color: '#FFFFFF',
+    fontSize: 12,
+    fontWeight: 'bold',
+  },
+  topCommunityAvatar: {
+    width: 56,
+    height: 56,
+    borderRadius: 28,
+    backgroundColor: '#EFF6FF',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginBottom: 12,
+    alignSelf: 'center',
+  },
+  avatarText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#667eea',
+  },
+  topCommunityName: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#1F2937',
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  topCommunityDescription: {
+    fontSize: 12,
+    color: '#6B7280',
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  topCommunityCreator: {
+    fontSize: 11,
+    color: '#9CA3AF',
+    marginBottom: 8,
+    textAlign: 'center',
+  },
+  examTypeTag: {
+    backgroundColor: '#EFF6FF',
+    borderRadius: 12,
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    alignSelf: 'center',
+    marginBottom: 8,
+  },
+  examTypeText: {
+    color: '#2563EB',
+    fontSize: 11,
+    fontWeight: '600',
+  },
+  topCommunityStats: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
+    marginTop: 8,
+  },
+  statItem: {
+    alignItems: 'center',
+    gap: 4,
+  },
+  statNumber: {
+    fontSize: 14,
+    fontWeight: 'bold',
+    color: '#1F2937',
+  },
+  statLabel: {
+    fontSize: 10,
+    color: '#6B7280',
+  },
+  tabsContainer: {
+    backgroundColor: '#FFFFFF',
+    borderBottomWidth: 1,
+    borderBottomColor: '#E5E7EB',
+    paddingVertical: 8,
+  },
+  tab: {
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    marginHorizontal: 4,
     borderBottomWidth: 2,
     borderBottomColor: 'transparent',
   },
-  tabButtonActive: {
+  tabActive: {
     borderBottomColor: '#2563EB',
   },
   tabText: {
-    fontSize: responsiveValues.fontSize.small,
+    fontSize: 14,
     color: '#6B7280',
-    marginLeft: 8,
     fontWeight: '500',
   },
   tabTextActive: {
     color: '#2563EB',
     fontWeight: '600',
   },
-  tabContent: {
-    flex: 1,
-    padding: responsiveValues.padding.medium,
-  },
-  loadingIndicator: {
-    marginTop: 48,
-  },
-  searchContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    backgroundColor: '#FFFFFF',
-    borderRadius: 12,
-    paddingHorizontal: 12,
-    marginBottom: 16,
-    borderWidth: 1,
-    borderColor: '#E5E7EB',
-  },
-  searchInput: {
-    flex: 1,
-    paddingVertical: 12,
-    paddingHorizontal: 8,
-    fontSize: responsiveValues.fontSize.medium,
-    color: '#1F2937',
-  },
-  forumsList: {
-    marginBottom: 24,
-  },
-  forumCard: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: 12,
+  listContainer: {
     padding: 16,
-    marginBottom: 12,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 1 },
-    shadowOpacity: 0.1,
-    shadowRadius: 2,
-    elevation: 2,
-  },
-  forumHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginBottom: 12,
-  },
-  forumIcon: {
-    width: 48,
-    height: 48,
-    borderRadius: 24,
-    backgroundColor: '#EFF6FF',
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginRight: 12,
-  },
-  forumInfo: {
-    flex: 1,
-  },
-  forumName: {
-    fontSize: responsiveValues.fontSize.large,
-    fontWeight: '600',
-    color: '#1F2937',
-    marginBottom: 4,
-  },
-  forumDescription: {
-    fontSize: responsiveValues.fontSize.medium,
-    color: '#6B7280',
-  },
-  forumStats: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-  },
-  statItem: {
-    alignItems: 'center',
-  },
-  statNumber: {
-    fontSize: responsiveValues.fontSize.large,
-    fontWeight: 'bold',
-    color: '#1F2937',
-  },
-  statLabel: {
-    fontSize: responsiveValues.fontSize.small,
-    color: '#6B7280',
-    marginTop: 2,
-  },
-  threadsSection: {
-    marginTop: 24,
-  },
-  sectionHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: 16,
-  },
-  sectionTitle: {
-    fontSize: responsiveValues.fontSize.large,
-    fontWeight: 'bold',
-    color: '#1F2937',
-  },
-  createButton: {
-    backgroundColor: '#2563EB',
-    borderRadius: 8,
-    paddingHorizontal: 12,
-    paddingVertical: 8,
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  createButtonText: {
-    color: '#FFFFFF',
-    fontSize: responsiveValues.fontSize.small,
-    fontWeight: '600',
-    marginLeft: 4,
-  },
-  threadsList: {
-    marginBottom: 24,
-  },
-  threadCard: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: 12,
-    padding: 16,
-    marginBottom: 12,
-    borderWidth: 1,
-    borderColor: '#E5E7EB',
-  },
-  threadHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    marginBottom: 8,
-  },
-  threadInfo: {
-    flex: 1,
-  },
-  threadTitle: {
-    fontSize: responsiveValues.fontSize.medium,
-    fontWeight: '600',
-    color: '#1F2937',
-    marginBottom: 4,
-  },
-  threadAuthor: {
-    fontSize: responsiveValues.fontSize.small,
-    color: '#6B7280',
-  },
-  threadMeta: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  threadStats: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-  },
-  threadDate: {
-    fontSize: responsiveValues.fontSize.small,
-    color: '#9CA3AF',
-  },
-  repliesSection: {
-    marginTop: 24,
-  },
-  replyButton: {
-    backgroundColor: '#EFF6FF',
-    borderRadius: 8,
-    paddingHorizontal: 12,
-    paddingVertical: 8,
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  replyButtonText: {
-    color: '#2563EB',
-    fontSize: responsiveValues.fontSize.small,
-    fontWeight: '600',
-    marginLeft: 4,
-  },
-  repliesList: {
-    marginTop: 16,
-  },
-  replyCard: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: 12,
-    padding: 16,
-    marginBottom: 12,
-    borderWidth: 1,
-    borderColor: '#E5E7EB',
-  },
-  replyHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: 8,
-  },
-  replyAuthor: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  replyAuthorName: {
-    fontSize: responsiveValues.fontSize.small,
-    color: '#6B7280',
-    marginLeft: 4,
-  },
-  replyMeta: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  solutionBadge: {
-    backgroundColor: '#10B981',
-    borderRadius: 12,
-    paddingHorizontal: 8,
-    paddingVertical: 4,
-    flexDirection: 'row',
-    alignItems: 'center',
-    marginRight: 8,
-  },
-  solutionText: {
-    color: '#FFFFFF',
-    fontSize: responsiveValues.fontSize.small,
-    fontWeight: '600',
-    marginLeft: 4,
-  },
-  replyDate: {
-    fontSize: responsiveValues.fontSize.small,
-    color: '#9CA3AF',
-  },
-  replyContent: {
-    fontSize: responsiveValues.fontSize.medium,
-    color: '#1F2937',
-    lineHeight: 20,
-    marginBottom: 12,
-  },
-  replyActions: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  upvoteButton: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    paddingHorizontal: 8,
-    paddingVertical: 4,
-    borderRadius: 6,
-    backgroundColor: '#F3F4F6',
-  },
-  upvoteText: {
-    fontSize: responsiveValues.fontSize.small,
-    color: '#6B7280',
-    marginLeft: 4,
-  },
-  groupsHeader: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    marginBottom: 16,
-  },
-  createGroupButton: {
-    backgroundColor: '#2563EB',
-    borderRadius: 8,
-    paddingHorizontal: 16,
-    paddingVertical: 12,
-    flexDirection: 'row',
-    alignItems: 'center',
-    flex: 1,
-    marginRight: 8,
-  },
-  createGroupButtonText: {
-    color: '#FFFFFF',
-    fontSize: responsiveValues.fontSize.medium,
-    fontWeight: '600',
-    marginLeft: 4,
-  },
-  joinGroupButton: {
-    backgroundColor: '#EFF6FF',
-    borderRadius: 8,
-    paddingHorizontal: 16,
-    paddingVertical: 12,
-    flexDirection: 'row',
-    alignItems: 'center',
-    flex: 1,
-    marginLeft: 8,
-  },
-  joinGroupButtonText: {
-    color: '#2563EB',
-    fontSize: responsiveValues.fontSize.medium,
-    fontWeight: '600',
-    marginLeft: 4,
-  },
-  groupsList: {
-    marginBottom: 24,
   },
   groupCard: {
     backgroundColor: '#FFFFFF',
@@ -1048,10 +756,9 @@ const styles = StyleSheet.create({
   },
   groupHeader: {
     flexDirection: 'row',
-    alignItems: 'center',
     marginBottom: 12,
   },
-  groupIcon: {
+  groupAvatar: {
     width: 48,
     height: 48,
     borderRadius: 24,
@@ -1064,99 +771,69 @@ const styles = StyleSheet.create({
     flex: 1,
   },
   groupName: {
-    fontSize: responsiveValues.fontSize.large,
+    fontSize: 16,
     fontWeight: '600',
     color: '#1F2937',
     marginBottom: 4,
   },
   groupDescription: {
-    fontSize: responsiveValues.fontSize.medium,
+    fontSize: 14,
     color: '#6B7280',
     marginBottom: 4,
   },
   groupCreator: {
-    fontSize: responsiveValues.fontSize.small,
+    fontSize: 12,
     color: '#9CA3AF',
+  },
+  lockIcon: {
+    marginLeft: 8,
+  },
+  groupFooter: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    paddingTop: 12,
+    borderTopWidth: 1,
+    borderTopColor: '#F3F4F6',
   },
   groupStats: {
     flexDirection: 'row',
-    justifyContent: 'space-between',
+    gap: 16,
+  },
+  statItemSmall: {
+    flexDirection: 'row',
     alignItems: 'center',
-    marginBottom: 8,
+    gap: 4,
   },
-  groupCode: {
-    fontSize: responsiveValues.fontSize.small,
-    color: '#2563EB',
-    fontWeight: '600',
-  },
-  groupDate: {
-    fontSize: responsiveValues.fontSize.small,
-    color: '#9CA3AF',
-  },
-  discussionsList: {
-    marginBottom: 24,
-  },
-  discussionCard: {
-    backgroundColor: '#FFFFFF',
-    borderRadius: 12,
-    padding: 16,
-    marginBottom: 12,
-    borderWidth: 1,
-    borderColor: '#E5E7EB',
-  },
-  discussionHeader: {
-    marginBottom: 8,
-  },
-  discussionTitle: {
-    fontSize: responsiveValues.fontSize.medium,
+  statNumberSmall: {
+    fontSize: 12,
     fontWeight: '600',
     color: '#1F2937',
-    marginBottom: 4,
   },
-  discussionForum: {
-    fontSize: responsiveValues.fontSize.small,
-    color: '#6B7280',
-  },
-  discussionContent: {
-    fontSize: responsiveValues.fontSize.medium,
-    color: '#6B7280',
-    lineHeight: 20,
-    marginBottom: 12,
-  },
-  discussionMeta: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
+  loadingContainer: {
+    flex: 1,
+    justifyContent: 'center',
     alignItems: 'center',
+    paddingVertical: 48,
   },
-  discussionAuthor: {
-    fontSize: responsiveValues.fontSize.small,
+  loadingText: {
+    marginTop: 16,
     color: '#6B7280',
-  },
-  discussionDate: {
-    fontSize: responsiveValues.fontSize.small,
-    color: '#9CA3AF',
-  },
-  discussionStats: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  discussionReplies: {
-    fontSize: responsiveValues.fontSize.small,
-    color: '#2563EB',
-    fontWeight: '600',
   },
   emptyState: {
     alignItems: 'center',
     paddingVertical: 48,
+    paddingHorizontal: 32,
   },
   emptyStateText: {
-    fontSize: responsiveValues.fontSize.large,
+    fontSize: 18,
     color: '#6B7280',
     marginTop: 16,
     marginBottom: 8,
+    fontWeight: '600',
   },
   emptyStateSubtext: {
-    fontSize: responsiveValues.fontSize.medium,
+    fontSize: 14,
     color: '#9CA3AF',
     textAlign: 'center',
   },
@@ -1168,30 +845,37 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
-    padding: responsiveValues.padding.medium,
+    padding: 16,
     backgroundColor: '#FFFFFF',
     borderBottomWidth: 1,
     borderBottomColor: '#E5E7EB',
   },
   modalTitle: {
-    fontSize: responsiveValues.fontSize.large,
+    fontSize: 18,
     fontWeight: '600',
     color: '#1F2937',
   },
   closeButton: {
-    fontSize: responsiveValues.fontSize.large,
+    fontSize: 24,
     color: '#6B7280',
   },
   modalContent: {
     flex: 1,
-    padding: responsiveValues.padding.medium,
+    padding: 16,
+  },
+  inputLabel: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#1F2937',
+    marginBottom: 8,
+    marginTop: 8,
   },
   input: {
     backgroundColor: '#FFFFFF',
     borderRadius: 8,
     paddingHorizontal: 12,
     paddingVertical: 12,
-    fontSize: responsiveValues.fontSize.medium,
+    fontSize: 16,
     color: '#1F2937',
     borderWidth: 1,
     borderColor: '#E5E7EB',
@@ -1201,12 +885,46 @@ const styles = StyleSheet.create({
     height: 120,
     textAlignVertical: 'top',
   },
+  selectContainer: {
+    marginBottom: 16,
+  },
+  groupTypeContainer: {
+    flexDirection: 'row',
+    gap: 12,
+    marginBottom: 16,
+  },
+  groupTypeOption: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 12,
+    borderRadius: 8,
+    borderWidth: 1,
+    borderColor: '#E5E7EB',
+    backgroundColor: '#FFFFFF',
+    gap: 8,
+  },
+  groupTypeOptionActive: {
+    backgroundColor: '#2563EB',
+    borderColor: '#2563EB',
+  },
+  groupTypeText: {
+    fontSize: 14,
+    color: '#6B7280',
+    fontWeight: '500',
+  },
+  groupTypeTextActive: {
+    color: '#FFFFFF',
+    fontWeight: '600',
+  },
   modalActions: {
     flexDirection: 'row',
-    padding: responsiveValues.padding.medium,
+    padding: 16,
     backgroundColor: '#FFFFFF',
     borderTopWidth: 1,
     borderTopColor: '#E5E7EB',
+    gap: 12,
   },
   cancelButton: {
     flex: 1,
@@ -1214,11 +932,10 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     paddingVertical: 12,
     alignItems: 'center',
-    marginRight: 8,
   },
   cancelButtonText: {
     color: '#6B7280',
-    fontSize: responsiveValues.fontSize.medium,
+    fontSize: 16,
     fontWeight: '600',
   },
   submitButton: {
@@ -1227,11 +944,10 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     paddingVertical: 12,
     alignItems: 'center',
-    marginLeft: 8,
   },
   submitButtonText: {
     color: '#FFFFFF',
-    fontSize: responsiveValues.fontSize.medium,
+    fontSize: 16,
     fontWeight: '600',
   },
 });

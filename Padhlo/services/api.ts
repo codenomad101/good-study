@@ -3,19 +3,19 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 // API Base URL
 // Note: 'localhost' won't work from Android emulator/device
 // For Android Emulator: use 'http://10.0.2.2:3000/api' (10.0.2.2 is emulator's alias for localhost)
-// For Physical Device: use your computer's IP, e.g., 'http://10.46.150.205:3000/api'
+// For Physical Device: use your computer's IP, e.g., 'http://172.31.122.205:3000/api'
 // For Web: use 'http://localhost:3000/api'
 // IMPORTANT: 'localhost' does NOT work from Android emulator/device!
 // Use 10.0.2.2 for emulator (emulator's alias for localhost)
-// Use your computer's IP (10.46.150.205) for physical device
+// Use your computer's IP (172.31.122.205) for physical device
 // IMPORTANT: Verify the correct URL based on your setup
 // - Android Emulator: http://10.0.2.2:3000/api
-// - Physical Device: http://YOUR_COMPUTER_IP:3000/api (e.g., http://10.46.150.205:3000/api)
+// - Physical Device: http://YOUR_COMPUTER_IP:3000/api (e.g., http://172.31.122.205:3000/api)
 // - Web: http://localhost:3000/api
-// Current IP: 10.46.150.205
+// Current IP: 172.31.122.205 (wlp1s0 interface)
 // Use your actual IP instead of 10.0.2.2 if emulator can't reach it
 const API_BASE_URL = __DEV__ 
-  ? 'http://10.46.150.205:3000/api'  // Using current IP - works for both emulator and physical device
+  ? 'http://172.31.122.205:3000/api'  // Using current IP - works for both emulator and physical device
   : 'http://localhost:3000/api'; // Production
 
 // Log the API URL being used for debugging
@@ -194,12 +194,47 @@ class ApiService {
         isDataArray: Array.isArray(data?.data),
         dataType: typeof data?.data,
         message: data?.message,
-        status: response.status
+        status: response.status,
+        hasGroupId: !!(data as any)?.groupId,
+        hasPostId: !!(data as any)?.postId,
+        isArray: Array.isArray(data)
       });
       
-      // Return the data - make sure we're not holding any references to the response
-      const result = data as ApiResponse<T>;
-      console.log('[API] Returning result successfully');
+      // Handle different response structures:
+      // 1. Backend returns { success: true, data: ... } - use as is
+      // 2. Backend returns array directly [ ... ] - wrap it
+      // 3. Backend returns object directly { groupId, name, ... } - wrap it
+      let result: ApiResponse<T>;
+      
+      if (data && typeof data === 'object' && !Array.isArray(data)) {
+        // Check if it's already in ApiResponse format
+        if ('success' in data && 'data' in data) {
+          result = data as ApiResponse<T>;
+        } else {
+          // It's a direct object response (like group, post, etc.)
+          // Wrap it in ApiResponse format
+          result = {
+            success: true,
+            data: data as T
+          } as ApiResponse<T>;
+        }
+      } else if (Array.isArray(data)) {
+        // Backend returned array directly
+        result = {
+          success: true,
+          data: data as T
+        } as ApiResponse<T>;
+      } else {
+        // Fallback: try to use as ApiResponse
+        result = data as ApiResponse<T>;
+      }
+      
+      console.log('[API] Returning result:', {
+        hasSuccess: 'success' in result,
+        hasData: 'data' in result,
+        dataType: typeof result.data,
+        isDataArray: Array.isArray(result.data)
+      });
       
       // Ensure we return a plain object, not wrapped in any Response-related objects
       // This deep clone prevents any references to the response object that might cause issues
@@ -882,6 +917,81 @@ class ApiService {
   // Logout method
   async logout() {
     return this.post('/auth/logout');
+  }
+
+  // Community API methods
+  async getGroups() {
+    // Backend returns array directly, so we need to handle it properly
+    const response = await this.get('/community/groups');
+    // The backend returns an array directly, but our handleResponse wraps it
+    // So response.data might be the array, or it might be wrapped
+    return response;
+  }
+
+  async getGroup(groupId: string) {
+    return this.get(`/community/groups/${groupId}`);
+  }
+
+  async createGroup(groupData: {
+    name: string;
+    description: string;
+    examType?: string;
+    subjectId?: string;
+    isPublic?: boolean;
+  }) {
+    return this.post('/community/groups', groupData);
+  }
+
+  async joinGroup(groupId: string) {
+    return this.post(`/community/groups/${groupId}/join`);
+  }
+
+  async requestToJoinGroup(groupId: string) {
+    return this.post(`/community/groups/${groupId}/request`);
+  }
+
+  async getGroupMembers(groupId: string) {
+    // Backend returns array directly
+    const response = await this.get(`/community/groups/${groupId}/members`);
+    return response;
+  }
+
+  async getGroupPosts(groupId: string) {
+    // Backend returns array directly, sorted by createdAt descending
+    const response = await this.get(`/community/groups/${groupId}/posts`);
+    return response;
+  }
+
+  async createPost(groupId: string, postContent: string) {
+    return this.post(`/community/groups/${groupId}/posts`, { postContent });
+  }
+
+  async getPost(postId: string) {
+    // Backend returns single post object
+    return this.get(`/community/posts/${postId}`);
+  }
+
+  async getPostComments(postId: string) {
+    // Backend returns array directly, sorted by createdAt ascending
+    const response = await this.get(`/community/posts/${postId}/comments`);
+    return response;
+  }
+
+  async createComment(postId: string, commentContent: string) {
+    return this.post(`/community/posts/${postId}/comments`, { commentContent });
+  }
+
+  async getJoinRequests(groupId: string) {
+    const response = await this.get(`/community/groups/${groupId}/requests`);
+    return { ...response, data: Array.isArray(response.data?.data) ? response.data.data : [] };
+  }
+
+  async approveJoinRequest(requestId: string) {
+    return this.post(`/community/requests/${requestId}/approve`);
+  }
+
+  async rejectJoinRequest(requestId: string, rejectionReason?: string) {
+    return this.post(`/community/requests/${requestId}/reject`, { rejectionReason });
   }
 }
 
