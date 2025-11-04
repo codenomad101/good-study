@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { db } from '../db';
 import { communityGroups, communityGroupMembers, communityPosts, communityComments, communityLikes, communityJoinRequests, users } from '../db/schema';
+import { createNotificationHelper } from './notifications';
 import { eq, and, or } from 'drizzle-orm';
 
 // Group controller functions
@@ -437,6 +438,21 @@ export const approveJoinRequest = async (req: Request, res: Response) => {
             userId: request[0].userId
         });
 
+        // Notify user that their join request was approved
+        const [groupInfo] = await db
+            .select({ name: communityGroups.name })
+            .from(communityGroups)
+            .where(eq(communityGroups.groupId, request[0].groupId))
+            .limit(1);
+        
+        await createNotificationHelper(
+            request[0].userId,
+            'join_request',
+            'Join Request Approved',
+            `Your request to join "${groupInfo?.name || 'the group'}" has been approved!`,
+            `/community/groups/${request[0].groupId}`
+        );
+
         res.status(200).json({ success: true, message: 'Join request approved successfully' });
     } catch (error: any) {
         console.error('Error approving join request:', error);
@@ -488,6 +504,21 @@ export const rejectJoinRequest = async (req: Request, res: Response) => {
                 rejectionReason: rejectionReason || null
             })
             .where(eq(communityJoinRequests.requestId, requestId));
+
+        // Notify user that their join request was rejected
+        const [groupInfo] = await db
+            .select({ name: communityGroups.name })
+            .from(communityGroups)
+            .where(eq(communityGroups.groupId, request[0].groupId))
+            .limit(1);
+        
+        await createNotificationHelper(
+            request[0].userId,
+            'join_request',
+            'Join Request Rejected',
+            `Your request to join "${groupInfo?.name || 'the group'}" has been rejected.${rejectionReason ? ` Reason: ${rejectionReason}` : ''}`,
+            `/community`
+        );
 
         res.status(200).json({ success: true, message: 'Join request rejected successfully' });
     } catch (error: any) {
@@ -668,7 +699,32 @@ export const createComment = async (req: Request, res: Response) => {
     }
 
     try {
+        // Get the post to find the post owner
+        const [post] = await db
+            .select({ userId: communityPosts.userId })
+            .from(communityPosts)
+            .where(eq(communityPosts.postId, postId))
+            .limit(1);
+        
         const newComment = await db.insert(communityComments).values({ postId, userId, commentContent }).returning();
+        
+        // Create notification for post owner if comment is not from the post owner
+        if (post && post.userId !== userId) {
+            const [commenter] = await db
+                .select({ fullName: users.fullName })
+                .from(users)
+                .where(eq(users.userId, userId))
+                .limit(1);
+            
+            await createNotificationHelper(
+                post.userId,
+                'comment_reply',
+                'New Comment on Your Post',
+                `${commenter?.fullName || 'Someone'} commented on your post`,
+                `/community/posts/${postId}`
+            );
+        }
+        
         res.status(201).json(newComment[0]);
     } catch (error) {
         res.status(500).json({ message: 'Error creating comment', error });

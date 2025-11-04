@@ -1,0 +1,95 @@
+.notifications-page {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 32px 24px;
+}
+
+.notifications-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 24px;
+  padding-bottom: 16px;
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.notification-list-item {
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.notification-card {
+  width: 100%;
+  border-radius: 8px;
+  transition: all 0.3s;
+}
+
+.notification-card.unread {
+  border-left: 4px solid #1890ff;
+  background-color: #f0f8ff;
+}
+
+.notification-card:hover {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.notification-card-content {
+  display: flex;
+  gap: 16px;
+}
+
+.notification-icon-wrapper {
+  flex-shrink: 0;
+}
+
+.notification-details {
+  flex: 1;
+  min-width: 0;
+}
+
+.notification-header-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.notification-title {
+  font-size: 16px;
+  flex: 1;
+  min-width: 200px;
+}
+
+.notification-message {
+  display: block;
+  font-size: 14px;
+  color: #595959;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.notification-time {
+  font-size: 12px;
+}
+
+@media (max-width: 768px) {
+  .notifications-page {
+    padding: 16px;
+  }
+
+  .notifications-header {
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  .notification-card-content {
+    flex-direction: column;
+  }
+
+  .notification-header-row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
+

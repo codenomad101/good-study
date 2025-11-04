@@ -1,6 +1,7 @@
 import { Request, Response } from 'express';
 import { PracticeService } from '../services/simplePractice';
 import { PracticeService as BackendPracticeService } from '../services/practice';
+import { createNotificationHelper } from './notifications';
 import { z } from 'zod';
 
 const practiceService = new PracticeService();
@@ -151,6 +152,20 @@ export const completePracticeSession = async (req: Request, res: Response) => {
     const { sessionId } = req.params;
     
     const result = await backendPracticeService.completePracticeSession(sessionId, userId);
+    
+    // Create notification for practice result
+    if (result && result.score !== undefined) {
+      const percentage = result.totalQuestions > 0 
+        ? ((result.score / result.totalQuestions) * 100).toFixed(1)
+        : '0';
+      await createNotificationHelper(
+        userId,
+        'practice_result',
+        'Practice Test Results',
+        `Your practice test is complete! You scored ${result.score}/${result.totalQuestions} (${percentage}%)`,
+        `/practice-test/${result.categoryId || 'history'}`
+      );
+    }
     
     res.json({
       success: true,

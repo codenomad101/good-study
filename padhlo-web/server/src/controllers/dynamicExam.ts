@@ -1,5 +1,6 @@
 import { Request, Response } from 'express';
 import { DynamicExamService } from '../services/dynamicExam';
+import { createNotificationHelper } from './notifications';
 import { z } from 'zod';
 
 const dynamicExamService = new DynamicExamService();
@@ -165,6 +166,19 @@ export const completeExamSession = async (req: Request, res: Response) => {
     const validatedData = CompleteExamSessionSchema.parse(req.body);
 
     const session = await dynamicExamService.completeExamSession(sessionId, userId, validatedData);
+
+    // Create notification for exam result
+    if (session) {
+      const percentage = validatedData.percentage;
+      const marksObtained = validatedData.marksObtained;
+      await createNotificationHelper(
+        userId,
+        'exam_result',
+        'Exam Results Available',
+        `Your exam is complete! You scored ${marksObtained} marks (${percentage.toFixed(1)}%)`,
+        `/exam/${sessionId}`
+      );
+    }
 
     res.json({
       success: true,

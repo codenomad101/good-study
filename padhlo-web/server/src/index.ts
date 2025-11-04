@@ -25,6 +25,7 @@ import studyRoutes from './routes/study';
 import notesRoutes from './routes/notes';
 import communityRoutes from './routes/community';
 import subscriptionRoutes from './routes/subscription';
+import notificationRoutes from './routes/notifications';
 
 // Load environment variables
 config();
@@ -73,6 +74,7 @@ app.use('/api/study', studyRoutes);
 app.use('/api/notes', notesRoutes);
 app.use('/api/community', communityRoutes);
 app.use('/api/subscription', subscriptionRoutes);
+app.use('/api/notifications', notificationRoutes);
 
 // Health check endpoint
 app.get('/health', (req, res) => {

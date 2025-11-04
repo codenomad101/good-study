@@ -23,6 +23,7 @@ import {
 } from '@ant-design/icons';
 import { useAuth } from '../contexts/AuthContext';
 import { useState } from 'react';
+import NotificationDropdown from './NotificationDropdown';
 import './Header.css';
 
 const { Header: AntHeader } = Layout;
@@ -263,17 +264,7 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
           {/* Notifications - Only show when authenticated */}
           {isAuthenticated && (
             <div className="notification-wrapper">
-              <Badge 
-                count={3} 
-                size="small" 
-                className="notification-badge"
-              >
-                <Button 
-                  type="text" 
-                  icon={<BellOutlined />} 
-                  className="notification-btn"
-                />
-              </Badge>
+              <NotificationDropdown />
             </div>
           )}
 

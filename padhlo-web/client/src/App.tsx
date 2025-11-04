@@ -24,6 +24,7 @@ import Community from './pages/Community';
 import Group from './pages/Group';
 import Post from './pages/Post';
 import Pricing from './pages/Pricing';
+import Notifications from './pages/Notifications';
 
 // Create a client
 const queryClient = new QueryClient({
@@ -187,6 +188,14 @@ function App() {
                       element={
                         <ProtectedRoute>
                           <Pricing />
+                        </ProtectedRoute>
+                      } 
+                    />
+                    <Route 
+                      path="/notifications" 
+                      element={
+                        <ProtectedRoute>
+                          <Notifications />
                         </ProtectedRoute>
                       } 
                     />
