@@ -89,6 +89,12 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
       >
         <Link to="/settings">Settings</Link>
       </Menu.Item>
+      <Menu.Item 
+        key="pricing" 
+        className="dropdown-menu-item"
+      >
+        <Link to="/pricing">Plans & Pricing</Link>
+      </Menu.Item>
       
       {/* Admin Panel - Only show for admin users */}
       {user?.role === 'admin' && (
@@ -142,6 +148,11 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
     {
       key: '/study',
       label: <Link to="/study">Study</Link>,
+      className: 'nav-menu-item'
+    },
+    {
+      key: '/community',
+      label: <Link to="/community">Community</Link>,
       className: 'nav-menu-item'
     },
     {
@@ -383,6 +394,9 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
                 </Menu.Item>
                 <Menu.Item key="settings-mobile">
                   <Link to="/settings">Settings</Link>
+                </Menu.Item>
+                <Menu.Item key="pricing-mobile">
+                  <Link to="/pricing">Plans & Pricing</Link>
                 </Menu.Item>
                 <Menu.Item 
                   key="logout-mobile" 

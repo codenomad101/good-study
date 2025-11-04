@@ -29,10 +29,16 @@ apiClient.interceptors.request.use(
 apiClient.interceptors.response.use(
 	(response) => response,
 	(error) => {
+		// Only redirect on actual 401 errors, not network errors
 		if (error.response?.status === 401) {
+			// Don't redirect immediately - let the component handle it
+			// This prevents redirects during network glitches
 			localStorage.removeItem('authToken');
 			localStorage.removeItem('user');
-			window.location.href = '/';
+			// Only redirect if we're not already on the login/landing page
+			if (window.location.pathname !== '/' && window.location.pathname !== '/login') {
+				window.location.href = '/';
+			}
 		}
 		return Promise.reject(error);
 	}

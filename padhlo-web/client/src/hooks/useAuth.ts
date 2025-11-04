@@ -73,6 +73,10 @@ export const useUser = () => {
     queryFn: authAPI.getProfile,
     enabled: !!localStorage.getItem('authToken'),
     retry: false,
+    // Don't refetch on window focus to prevent redirects
+    refetchOnWindowFocus: false,
+    // Don't throw errors to prevent navigation resets
+    throwOnError: false,
     initialData: () => {
       try {
         const user = localStorage.getItem('user');
@@ -85,7 +89,8 @@ export const useUser = () => {
     },
     onError: (error: any) => {
       console.error('Error fetching user profile:', error);
-      // Don't show error message as it might be due to expired token
+      // Don't show error message as it might be due to expired token or network error
+      // Don't clear auth on network errors - let AuthContext handle it
     },
   });
 };

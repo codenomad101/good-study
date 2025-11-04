@@ -23,6 +23,8 @@ import adminRoutes from './routes/admin';
 import statisticsRoutes from './routes/statistics';
 import studyRoutes from './routes/study';
 import notesRoutes from './routes/notes';
+import communityRoutes from './routes/community';
+import subscriptionRoutes from './routes/subscription';
 
 // Load environment variables
 config();
@@ -69,6 +71,8 @@ app.use('/api/admin', adminRoutes);
 app.use('/api/statistics', statisticsRoutes);
 app.use('/api/study', studyRoutes);
 app.use('/api/notes', notesRoutes);
+app.use('/api/community', communityRoutes);
+app.use('/api/subscription', subscriptionRoutes);
 
 // Health check endpoint
 app.get('/health', (req, res) => {

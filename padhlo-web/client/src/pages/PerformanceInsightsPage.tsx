@@ -8,6 +8,7 @@ import {
 } from 'antd';
 import { ArrowLeftOutlined } from '@ant-design/icons';
 import { AppLayout } from '../components/AppLayout';
+import { SubscriptionGate } from '../components/SubscriptionGate';
 import { PerformanceInsights } from '../components/PerformanceInsights';
 import { AIInsights } from '../components/AIInsights';
 import { useAuth } from '../contexts/AuthContext';
@@ -26,7 +27,8 @@ export default function PerformanceInsightsPage() {
   const { data: practiceHistory = [], isLoading } = useDataServicePracticeHistory();
   
   return (
-    <AppLayout>
+    <SubscriptionGate requirePro={true} featureName="AI Insights">
+      <AppLayout>
       <div style={{ padding: '32px 24px', maxWidth: '1400px', margin: '0 auto' }}>
         {/* Header */}
         <div style={{ marginBottom: '32px' }}>
@@ -59,7 +61,8 @@ export default function PerformanceInsightsPage() {
           userStats={userStats}
         />
       </div>
-    </AppLayout>
+      </AppLayout>
+    </SubscriptionGate>
   );
 }
 

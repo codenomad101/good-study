@@ -20,6 +20,10 @@ import StudyPage from './pages/Study';
 import HelpPage from './pages/Help';
 import NotesPage from './pages/Notes';
 import PerformanceInsightsPage from './pages/PerformanceInsightsPage';
+import Community from './pages/Community';
+import Group from './pages/Group';
+import Post from './pages/Post';
+import Pricing from './pages/Pricing';
 
 // Create a client
 const queryClient = new QueryClient({
@@ -151,6 +155,38 @@ function App() {
                       element={
                         <ProtectedRoute>
                           <PerformanceInsightsPage />
+                        </ProtectedRoute>
+                      } 
+                    />
+                     <Route 
+                      path="/community" 
+                      element={
+                        <ProtectedRoute>
+                          <Community />
+                        </ProtectedRoute>
+                      } 
+                    />
+                    <Route 
+                      path="/community/groups/:groupId" 
+                      element={
+                        <ProtectedRoute>
+                          <Group />
+                        </ProtectedRoute>
+                      } 
+                    />
+                    <Route 
+                      path="/community/posts/:postId" 
+                      element={
+                        <ProtectedRoute>
+                          <Post />
+                        </ProtectedRoute>
+                      } 
+                    />
+                    <Route 
+                      path="/pricing" 
+                      element={
+                        <ProtectedRoute>
+                          <Pricing />
                         </ProtectedRoute>
                       } 
                     />

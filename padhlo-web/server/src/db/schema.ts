@@ -5,7 +5,7 @@ import { relations } from 'drizzle-orm';
 // CREATE EXTENSION IF NOT EXISTS "uuid-ossp";
 
 // Enums
-export const subscriptionTypeEnum = pgEnum('subscription_type', ['free', 'premium', 'premium_plus']);
+export const subscriptionTypeEnum = pgEnum('subscription_type', ['free', 'trial', 'lite', 'pro']);
 export const genderEnum = pgEnum('gender', ['male', 'female', 'other']);
 export const difficultyLevelEnum = pgEnum('difficulty_level', ['easy', 'medium', 'hard']);
 export const questionTypeEnum = pgEnum('question_type', ['mcq', 'numerical', 'true_false', 'fill_blank']);
@@ -36,6 +36,7 @@ export const examStatusEnum = pgEnum('exam_status', ['not_started', 'in_progress
 export const userRoleEnum = pgEnum('user_role', ['admin', 'student', 'moderator']);
 export const categoryStatusEnum = pgEnum('category_status', ['active', 'inactive', 'draft']);
 export const questionStatusEnum = pgEnum('question_status', ['active', 'inactive', 'draft']);
+export const requestStatusEnum = pgEnum('request_status', ['pending', 'approved', 'rejected']);
 
 // Users table
 export const users = pgTable('users', {
@@ -747,6 +748,67 @@ export const userPersonalNotes = pgTable('user_personal_notes', {
   deletedAt: timestamp('deleted_at'),
 });
 
+
+export const communityGroups = pgTable('community_groups', {
+  groupId: uuid('group_id').primaryKey().defaultRandom(),
+  name: varchar('name', { length: 100 }).notNull(),
+  description: text('description'),
+  createdBy: uuid('created_by').references(() => users.userId, { onDelete: 'cascade' }).notNull(),
+  examType: varchar('exam_type', { length: 50 }), // UPSC, MPSC, SSC, Banking, Railway, Defense, Other
+  subjectId: uuid('subject_id').references(() => subjects.subjectId, { onDelete: 'set null' }), // Optional subject reference
+  isPublic: boolean('is_public').default(true), // Public groups don't require approval
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+});
+
+export const communityGroupMembers = pgTable('community_group_members', {
+  memberId: uuid('member_id').primaryKey().defaultRandom(),
+  groupId: uuid('group_id').references(() => communityGroups.groupId, { onDelete: 'cascade' }).notNull(),
+  userId: uuid('user_id').references(() => users.userId, { onDelete: 'cascade' }).notNull(),
+  role: userRoleEnum('role').default('student'),
+  joinedAt: timestamp('joined_at').defaultNow().notNull(),
+});
+
+export const communityJoinRequests = pgTable('community_join_requests', {
+  requestId: uuid('request_id').primaryKey().defaultRandom(),
+  groupId: uuid('group_id').references(() => communityGroups.groupId, { onDelete: 'cascade' }).notNull(),
+  userId: uuid('user_id').references(() => users.userId, { onDelete: 'cascade' }).notNull(),
+  status: requestStatusEnum('status').default('pending').notNull(),
+  requestedAt: timestamp('requested_at').defaultNow().notNull(),
+  reviewedAt: timestamp('reviewed_at'),
+  reviewedBy: uuid('reviewed_by').references(() => users.userId, { onDelete: 'set null' }),
+  rejectionReason: text('rejection_reason'),
+});
+
+export const communityPosts = pgTable('community_posts', {
+  postId: uuid('post_id').primaryKey().defaultRandom(),
+  groupId: uuid('group_id').references(() => communityGroups.groupId, { onDelete: 'cascade' }).notNull(),
+  userId: uuid('user_id').references(() => users.userId, { onDelete: 'cascade' }).notNull(),
+  postContent: text('post_content').notNull(),
+  isVulgar: boolean('is_vulgar').default(false),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+});
+
+export const communityComments = pgTable('community_comments', {
+  commentId: uuid('comment_id').primaryKey().defaultRandom(),
+  postId: uuid('post_id').references(() => communityPosts.postId, { onDelete: 'cascade' }).notNull(),
+  userId: uuid('user_id').references(() => users.userId, { onDelete: 'cascade' }).notNull(),
+  commentContent: text('comment_content').notNull(),
+  isVulgar: boolean('is_vulgar').default(false),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+});
+
+export const communityLikes = pgTable('community_likes', {
+  likeId: uuid('like_id').primaryKey().defaultRandom(),
+  postId: uuid('post_id').references(() => communityPosts.postId, { onDelete: 'cascade' }),
+  commentId: uuid('comment_id').references(() => communityComments.commentId, { onDelete: 'cascade' }),
+  userId: uuid('user_id').references(() => users.userId, { onDelete: 'cascade' }).notNull(),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+});
+
+
 // Type exports for new tables
 export type PracticeCategory = typeof practiceCategories.$inferSelect;
 export type NewPracticeCategory = typeof practiceCategories.$inferInsert;
@@ -766,3 +828,13 @@ export type SubjectRanking = typeof subjectRankings.$inferSelect;
 export type NewSubjectRanking = typeof subjectRankings.$inferInsert;
 export type UserPersonalNote = typeof userPersonalNotes.$inferSelect;
 export type NewUserPersonalNote = typeof userPersonalNotes.$inferInsert;
+export type CommunityGroup = typeof communityGroups.$inferSelect;
+export type NewCommunityGroup = typeof communityGroups.$inferInsert;
+export type CommunityGroupMember = typeof communityGroupMembers.$inferSelect;
+export type NewCommunityGroupMember = typeof communityGroupMembers.$inferInsert;
+export type CommunityPost = typeof communityPosts.$inferSelect;
+export type NewCommunityPost = typeof communityPosts.$inferInsert;
+export type CommunityComment = typeof communityComments.$inferSelect;
+export type NewCommunityComment = typeof communityComments.$inferInsert;
+export type CommunityLike = typeof communityLikes.$inferSelect;
+export type NewCommunityLike = typeof communityLikes.$inferInsert;

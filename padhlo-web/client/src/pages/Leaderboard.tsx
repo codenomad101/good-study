@@ -30,6 +30,7 @@ import {
   BarChartOutlined
 } from '@ant-design/icons';
 import { AppLayout } from '../components/AppLayout';
+import { SubscriptionGate } from '../components/SubscriptionGate';
 import { useLeaderboard, useUserRank, useUserStatistics, useAvailableSubjects } from '../hooks/useStatistics';
 
 const { Title, Text } = Typography;
@@ -226,7 +227,8 @@ const LeaderboardPage: React.FC = () => {
   const sortedLeaderboard = getSortedLeaderboard();
 
   return (
-    <AppLayout>
+    <SubscriptionGate requirePro={true} featureName="Leaderboard">
+      <AppLayout>
       <div style={{ padding: '32px 24px', maxWidth: '1600px', margin: '0 auto', width: '100%' }}>
         {/* Header */}
         <div style={{ textAlign: 'center', marginBottom: '32px' }}>
@@ -426,7 +428,8 @@ const LeaderboardPage: React.FC = () => {
           background-color: #e6f7ff !important;
         }
       `}</style>
-    </AppLayout>
+      </AppLayout>
+    </SubscriptionGate>
   );
 };
 

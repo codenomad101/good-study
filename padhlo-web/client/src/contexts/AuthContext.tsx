@@ -39,25 +39,61 @@ interface AuthProviderProps {
 
 export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
   const [isAuthenticated, setIsAuthenticated] = useState(false);
-  const { data: user, isLoading } = useUser();
+  const { data: user, isLoading, error } = useUser();
   const logoutMutation = useLogout();
 
+  // Initialize auth state from localStorage on mount
   useEffect(() => {
     const token = localStorage.getItem('authToken');
-    setIsAuthenticated(!!token);
+    const storedUser = localStorage.getItem('user');
+    if (token) {
+      setIsAuthenticated(true);
+      // If we have a stored user but useUser hasn't loaded yet, use stored user
+      // This prevents flickering and redirects during initial load
+    }
   }, []);
 
+  // Update auth state based on user data, but don't clear on network errors
   useEffect(() => {
     if (user) {
       setIsAuthenticated(true);
-    } else if (!isLoading) {
-      setIsAuthenticated(false);
+      // Update stored user if it changed
+      try {
+        localStorage.setItem('user', JSON.stringify(user));
+      } catch (e) {
+        console.error('Error saving user to localStorage:', e);
+      }
+    } else if (!isLoading && error) {
+      // Only clear auth if it's an actual auth error (401), not a network error
+      const errorMessage = error?.message || '';
+      const isAuthError = errorMessage.includes('401') || 
+                         errorMessage.includes('Unauthorized') ||
+                         (error as any)?.response?.status === 401;
+      
+      if (isAuthError && !errorMessage.includes('Network') && !errorMessage.includes('fetch')) {
+        // Token is invalid, clear auth
+        setIsAuthenticated(false);
+        localStorage.removeItem('authToken');
+        localStorage.removeItem('user');
+      } else {
+        // Network error - keep existing auth state
+        const token = localStorage.getItem('authToken');
+        if (token) {
+          setIsAuthenticated(true);
+        }
+      }
+    } else if (!isLoading && !error && !user) {
+      // No error, no user, and not loading - check if we have a token
+      const token = localStorage.getItem('authToken');
+      setIsAuthenticated(!!token);
     }
-  }, [user, isLoading]);
+  }, [user, isLoading, error]);
 
   const logout = () => {
     logoutMutation.mutate();
     setIsAuthenticated(false);
+    localStorage.removeItem('authToken');
+    localStorage.removeItem('user');
   };
 
   const value: AuthContextType = {

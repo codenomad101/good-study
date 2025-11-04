@@ -1,0 +1,97 @@
+.pricing-page {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.pricing-header {
+  padding: 80px 24px 60px;
+  text-align: center;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+}
+
+.pricing-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 40px 24px 80px;
+  background: #f5f5f5;
+}
+
+.pricing-card {
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  padding: 32px;
+  text-align: center;
+}
+
+.pricing-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-card.current-plan {
+  box-shadow: 0 8px 32px rgba(102, 126, 234, 0.3);
+}
+
+.plan-icon {
+  margin-bottom: 16px;
+}
+
+.plan-price {
+  margin: 16px 0;
+  display: flex;
+  align-items: baseline;
+  justify-content: center;
+}
+
+.plan-features {
+  text-align: left;
+  margin-top: 24px;
+  min-height: 300px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+  padding: 8px 0;
+}
+
+.feature-item.excluded {
+  opacity: 0.6;
+}
+
+.pricing-footer {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.pricing-footer .ant-card {
+  height: 100%;
+  text-align: left;
+}
+
+.pricing-footer .ant-typography h5 {
+  margin-bottom: 12px;
+  color: #1890ff;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .pricing-header {
+    padding: 60px 16px 40px;
+  }
+
+  .pricing-content {
+    padding: 24px 16px 40px;
+  }
+
+  .pricing-card {
+    padding: 24px;
+  }
+
+  .plan-features {
+    min-height: auto;
+  }
+}
+
