@@ -123,6 +123,60 @@ export const useChangePassword = () => {
   });
 };
 
+// Available Exams Hooks (system-wide, visible to all)
+export const useAvailableExams = (params?: { upcoming?: string }) => {
+  return useQuery({
+    queryKey: ['available-exams', params],
+    queryFn: () => apiService.getAvailableExams(params),
+  });
+};
+
+export const useCreateAvailableExam = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (exam: {
+      examName: string;
+      examDate: string;
+      examTime?: string;
+      description?: string;
+      sortOrder?: number;
+    }) => apiService.createAvailableExam(exam),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['available-exams'] });
+    },
+  });
+};
+
+export const useUpdateAvailableExam = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: ({ examId, exam }: {
+      examId: string;
+      exam: {
+        examName?: string;
+        examDate?: string;
+        examTime?: string;
+        description?: string;
+        isActive?: boolean;
+        sortOrder?: number;
+      };
+    }) => apiService.updateAvailableExam(examId, exam),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['available-exams'] });
+    },
+  });
+};
+
+export const useDeleteAvailableExam = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (examId: string) => apiService.deleteAvailableExam(examId),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['available-exams'] });
+    },
+  });
+};
+
 // Exam Hooks
 export const useExams = () => {
   return useQuery({
@@ -765,6 +819,150 @@ export const useDeleteNote = () => {
     mutationFn: (noteId: string) => apiService.deleteNote(noteId),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['notes'] });
+    },
+  });
+};
+
+// Calendar/Reminders Hooks
+export const useReminders = (params?: { upcoming?: string }) => {
+  return useQuery({
+    queryKey: ['reminders', params],
+    queryFn: async () => {
+      const response = await apiService.getReminders(params);
+      return response;
+    },
+    retry: 1,
+    staleTime: 2 * 60 * 1000,
+  });
+};
+
+export const useCreateReminder = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (reminder: {
+      examName: string;
+      examDate: string;
+      examTime?: string;
+      description?: string;
+      reminderBeforeDays?: number;
+      reminderEnabled?: boolean;
+    }) => apiService.createReminder(reminder),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['reminders'] });
+    },
+  });
+};
+
+export const useUpdateReminder = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: ({ reminderId, reminder }: {
+      reminderId: string;
+      reminder: Partial<{
+        examName: string;
+        examDate: string;
+        examTime: string;
+        description: string;
+        reminderBeforeDays: number;
+        reminderEnabled: boolean;
+      }>;
+    }) => apiService.updateReminder(reminderId, reminder),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['reminders'] });
+    },
+  });
+};
+
+export const useDeleteReminder = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (reminderId: string) => apiService.deleteReminder(reminderId),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['reminders'] });
+    },
+  });
+};
+
+// Schedule Hooks
+export const useSchedules = (params?: { active?: string }) => {
+  return useQuery({
+    queryKey: ['schedules', params],
+    queryFn: async () => {
+      const response = await apiService.getSchedules(params);
+      return response;
+    },
+    retry: 1,
+    staleTime: 2 * 60 * 1000,
+  });
+};
+
+export const useCreateSchedule = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (schedule: {
+      subjectName: string;
+      durationMinutes: number;
+      preferredTime?: string;
+      isActive?: boolean;
+    }) => apiService.createSchedule(schedule),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['schedules'] });
+    },
+  });
+};
+
+export const useUpdateSchedule = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: ({ scheduleId, schedule }: {
+      scheduleId: string;
+      schedule: Partial<{
+        subjectName: string;
+        durationMinutes: number;
+        preferredTime: string;
+        isActive: boolean;
+      }>;
+    }) => apiService.updateSchedule(scheduleId, schedule),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['schedules'] });
+    },
+  });
+};
+
+export const useDeleteSchedule = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (scheduleId: string) => apiService.deleteSchedule(scheduleId),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['schedules'] });
+    },
+  });
+};
+
+export const useStudyLogs = (params?: { subject?: string; startDate?: string; endDate?: string; limit?: string }) => {
+  return useQuery({
+    queryKey: ['studyLogs', params],
+    queryFn: async () => {
+      const response = await apiService.getStudyLogs(params);
+      return response;
+    },
+    retry: 1,
+    staleTime: 2 * 60 * 1000,
+  });
+};
+
+export const useLogStudySession = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (session: {
+      scheduleId?: string;
+      subjectName: string;
+      durationMinutes: number;
+      completed?: boolean;
+      notes?: string;
+    }) => apiService.logStudySession(session),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['studyLogs', 'schedules'] });
     },
   });
 };

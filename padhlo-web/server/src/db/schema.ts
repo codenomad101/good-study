@@ -749,6 +749,60 @@ export const userPersonalNotes = pgTable('user_personal_notes', {
   deletedAt: timestamp('deleted_at'),
 });
 
+// Calendar/Exam Reminders table
+export const examReminders = pgTable('exam_reminders', {
+  reminderId: uuid('reminder_id').primaryKey().defaultRandom(),
+  userId: uuid('user_id').references(() => users.userId, { onDelete: 'cascade' }).notNull(),
+  
+  examName: varchar('exam_name', { length: 200 }).notNull(),
+  examDate: date('exam_date').notNull(),
+  examTime: time('exam_time'), // Optional time
+  description: text('description'),
+  
+  // Notification settings
+  reminderBeforeDays: integer('reminder_before_days').default(7), // Remind 7 days before
+  reminderEnabled: boolean('reminder_enabled').default(true),
+  
+  // Metadata
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+});
+
+// Study Schedule table
+export const studySchedules = pgTable('study_schedules', {
+  scheduleId: uuid('schedule_id').primaryKey().defaultRandom(),
+  userId: uuid('user_id').references(() => users.userId, { onDelete: 'cascade' }).notNull(),
+  
+  subjectName: varchar('subject_name', { length: 100 }).notNull(), // e.g., 'History', 'Geography'
+  durationMinutes: integer('duration_minutes').notNull(), // Study duration in minutes (e.g., 30)
+  
+  // Schedule time (optional - can be flexible)
+  preferredTime: time('preferred_time'), // Optional preferred time
+  isActive: boolean('is_active').default(true),
+  
+  // Metadata
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+});
+
+// Study Session Logs table (to track completed sessions)
+export const studySessionLogs = pgTable('study_session_logs', {
+  logId: uuid('log_id').primaryKey().defaultRandom(),
+  userId: uuid('user_id').references(() => users.userId, { onDelete: 'cascade' }).notNull(),
+  scheduleId: uuid('schedule_id').references(() => studySchedules.scheduleId, { onDelete: 'set null' }),
+  
+  subjectName: varchar('subject_name', { length: 100 }).notNull(),
+  durationMinutes: integer('duration_minutes').notNull(), // Actual time studied
+  sessionDate: date('session_date').defaultNow().notNull(),
+  sessionTime: timestamp('session_time').defaultNow().notNull(), // When the session was completed
+  
+  // Completion feedback
+  completed: boolean('completed').default(true),
+  notes: text('notes'), // Optional notes about the session
+  
+  // Metadata
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+});
 
 export const communityGroups = pgTable('community_groups', {
   groupId: uuid('group_id').primaryKey().defaultRandom(),
@@ -839,3 +893,30 @@ export type CommunityComment = typeof communityComments.$inferSelect;
 export type NewCommunityComment = typeof communityComments.$inferInsert;
 export type CommunityLike = typeof communityLikes.$inferSelect;
 export type NewCommunityLike = typeof communityLikes.$inferInsert;
+
+// Calendar/Reminders types
+export type ExamReminder = typeof examReminders.$inferSelect;
+export type NewExamReminder = typeof examReminders.$inferInsert;
+
+// Available Exams table (system-wide, admin-managed)
+export const availableExams = pgTable('available_exams', {
+  examId: uuid('exam_id').primaryKey().defaultRandom(),
+  examName: varchar('exam_name', { length: 200 }).notNull(),
+  examDate: date('exam_date').notNull(),
+  examTime: time('exam_time'),
+  description: text('description'),
+  isActive: boolean('is_active').default(true),
+  sortOrder: integer('sort_order').default(0),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+  updatedAt: timestamp('updated_at').defaultNow().notNull(),
+  createdBy: uuid('created_by').references(() => users.userId, { onDelete: 'set null' }),
+});
+
+export type AvailableExam = typeof availableExams.$inferSelect;
+export type NewAvailableExam = typeof availableExams.$inferInsert;
+
+// Schedule types
+export type StudySchedule = typeof studySchedules.$inferSelect;
+export type NewStudySchedule = typeof studySchedules.$inferInsert;
+export type StudySessionLog = typeof studySessionLogs.$inferSelect;
+export type NewStudySessionLog = typeof studySessionLogs.$inferInsert;

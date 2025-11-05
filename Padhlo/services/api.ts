@@ -1,25 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
-
-// API Base URL
-// Note: 'localhost' won't work from Android emulator/device
-// For Android Emulator: use 'http://10.0.2.2:3000/api' (10.0.2.2 is emulator's alias for localhost)
-// For Physical Device: use your computer's IP, e.g., 'http://172.31.122.205:3000/api'
-// For Web: use 'http://localhost:3000/api'
-// IMPORTANT: 'localhost' does NOT work from Android emulator/device!
-// Use 10.0.2.2 for emulator (emulator's alias for localhost)
-// Use your computer's IP (172.31.122.205) for physical device
-// IMPORTANT: Verify the correct URL based on your setup
-// - Android Emulator: http://10.0.2.2:3000/api
-// - Physical Device: http://YOUR_COMPUTER_IP:3000/api (e.g., http://172.31.122.205:3000/api)
-// - Web: http://localhost:3000/api
-// Current IP: 172.31.122.205 (wlp1s0 interface)
-// Use your actual IP instead of 10.0.2.2 if emulator can't reach it
-const API_BASE_URL = __DEV__ 
-  ? 'http://172.31.122.205:3000/api'  // Using current IP - works for both emulator and physical device
-  : 'http://localhost:3000/api'; // Production
-
-// Log the API URL being used for debugging
-console.log('[API] Base URL configured:', API_BASE_URL);
+import { API_BASE_URL } from '@/config/api';
 
 interface ApiResponse<T> {
   success: boolean;
@@ -522,6 +502,99 @@ class ApiService {
     return this.get('/user/profile');
   }
 
+  // Available Exams methods (system-wide, visible to all)
+  async getAvailableExams(params?: { upcoming?: string }): Promise<ApiResponse<any[]>> {
+    try {
+      const queryParams = new URLSearchParams();
+      if (params?.upcoming) {
+        queryParams.append('upcoming', params.upcoming);
+      }
+      const url = `${this.baseURL}/available-exams${queryParams.toString() ? `?${queryParams.toString()}` : ''}`;
+      console.log('[API] Fetching available exams from:', url);
+      
+      // This is a public endpoint, so we don't need auth headers
+      const headers: Record<string, string> = {
+        'Content-Type': 'application/json',
+      };
+      
+      const response = await fetch(url, {
+        method: 'GET',
+        headers,
+      });
+      
+      console.log('[API] Available exams response status:', response.status);
+      const result = await this.handleResponse<any[]>(response);
+      console.log('[API] Available exams result:', {
+        success: result.success,
+        dataLength: Array.isArray(result.data) ? result.data.length : 'not array',
+        data: result.data
+      });
+      return result;
+    } catch (error: any) {
+      console.error('[API] Error fetching available exams:', error);
+      // Return empty array on error so UI doesn't break
+      return {
+        success: false,
+        data: [],
+        message: error?.message || 'Failed to fetch available exams'
+      };
+    }
+  }
+
+  async createAvailableExam(exam: {
+    examName: string;
+    examDate: string;
+    examTime?: string;
+    description?: string;
+    sortOrder?: number;
+  }): Promise<ApiResponse<any>> {
+    try {
+      const response = await fetch(`${this.baseURL}/available-exams`, {
+        method: 'POST',
+        headers: await this.getHeaders(),
+        body: JSON.stringify(exam),
+      });
+      return await this.handleResponse<any>(response);
+    } catch (error: any) {
+      console.error('[API] Error creating available exam:', error);
+      throw error;
+    }
+  }
+
+  async updateAvailableExam(examId: string, exam: {
+    examName?: string;
+    examDate?: string;
+    examTime?: string;
+    description?: string;
+    isActive?: boolean;
+    sortOrder?: number;
+  }): Promise<ApiResponse<any>> {
+    try {
+      const response = await fetch(`${this.baseURL}/available-exams/${examId}`, {
+        method: 'PUT',
+        headers: await this.getHeaders(),
+        body: JSON.stringify(exam),
+      });
+      return await this.handleResponse<any>(response);
+    } catch (error: any) {
+      console.error('[API] Error updating available exam:', error);
+      throw error;
+    }
+  }
+
+  async deleteAvailableExam(examId: string): Promise<ApiResponse<void>> {
+    try {
+      const response = await fetch(`${this.baseURL}/available-exams/${examId}`, {
+        method: 'DELETE',
+        headers: await this.getHeaders(),
+      });
+      return await this.handleResponse<void>(response);
+    } catch (error: any) {
+      console.error('[API] Error deleting available exam:', error);
+      throw error;
+    }
+  }
+
   // Exam methods
   async getAllExams() {
     return this.get('/exam/exams');
@@ -916,6 +989,98 @@ class ApiService {
 
   async deleteNote(noteId: string) {
     return this.delete(`/notes/${noteId}`);
+  }
+
+  // Calendar/Reminders API
+  async getReminders(params?: { upcoming?: string }) {
+    const queryParams = new URLSearchParams();
+    if (params?.upcoming) queryParams.append('upcoming', params.upcoming);
+    const queryString = queryParams.toString();
+    return this.get(`/calendar${queryString ? `?${queryString}` : ''}`);
+  }
+
+  async getReminderById(reminderId: string) {
+    return this.get(`/calendar/${reminderId}`);
+  }
+
+  async createReminder(reminder: {
+    examName: string;
+    examDate: string; // YYYY-MM-DD
+    examTime?: string; // HH:MM
+    description?: string;
+    reminderBeforeDays?: number;
+    reminderEnabled?: boolean;
+  }) {
+    return this.post('/calendar', reminder);
+  }
+
+  async updateReminder(reminderId: string, reminder: Partial<{
+    examName: string;
+    examDate: string;
+    examTime: string;
+    description: string;
+    reminderBeforeDays: number;
+    reminderEnabled: boolean;
+  }>) {
+    return this.put(`/calendar/${reminderId}`, reminder);
+  }
+
+  async deleteReminder(reminderId: string) {
+    return this.delete(`/calendar/${reminderId}`);
+  }
+
+  // Schedule API
+  async getSchedules(params?: { active?: string }) {
+    const queryParams = new URLSearchParams();
+    if (params?.active) queryParams.append('active', params.active);
+    const queryString = queryParams.toString();
+    return this.get(`/schedule${queryString ? `?${queryString}` : ''}`);
+  }
+
+  async getScheduleById(scheduleId: string) {
+    return this.get(`/schedule/${scheduleId}`);
+  }
+
+  async createSchedule(schedule: {
+    subjectName: string;
+    durationMinutes: number;
+    preferredTime?: string; // HH:MM
+    isActive?: boolean;
+  }) {
+    return this.post('/schedule', schedule);
+  }
+
+  async updateSchedule(scheduleId: string, schedule: Partial<{
+    subjectName: string;
+    durationMinutes: number;
+    preferredTime: string;
+    isActive: boolean;
+  }>) {
+    return this.put(`/schedule/${scheduleId}`, schedule);
+  }
+
+  async deleteSchedule(scheduleId: string) {
+    return this.delete(`/schedule/${scheduleId}`);
+  }
+
+  async getStudyLogs(params?: { subject?: string; startDate?: string; endDate?: string; limit?: string }) {
+    const queryParams = new URLSearchParams();
+    if (params?.subject) queryParams.append('subject', params.subject);
+    if (params?.startDate) queryParams.append('startDate', params.startDate);
+    if (params?.endDate) queryParams.append('endDate', params.endDate);
+    if (params?.limit) queryParams.append('limit', params.limit);
+    const queryString = queryParams.toString();
+    return this.get(`/schedule/logs${queryString ? `?${queryString}` : ''}`);
+  }
+
+  async logStudySession(session: {
+    scheduleId?: string;
+    subjectName: string;
+    durationMinutes: number;
+    completed?: boolean;
+    notes?: string;
+  }) {
+    return this.post('/schedule/logs', session);
   }
 
   async uploadNoteAttachment(fileUri: string, filename: string, mimeType: string): Promise<ApiResponse<{ url: string; type: string; filename: string; size: number }>> {

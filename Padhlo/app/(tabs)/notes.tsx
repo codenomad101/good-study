@@ -136,7 +136,7 @@ export default function NotesScreen() {
           isPinned: note.isPinned !== undefined ? note.isPinned : (note.is_pinned !== undefined ? note.is_pinned : false),
           isArchived: note.isArchived !== undefined ? note.isArchived : (note.is_archived !== undefined ? note.is_archived : false),
           tags: Array.isArray(note.tags) ? note.tags : [],
-          attachments: Array.isArray(note.attachments) ? note.attachments : [],
+          attachments: Array.isArray(note.attachments) ? note.attachments : (note.attachments ? [note.attachments] : []),
           createdAt: note.createdAt || note.created_at || '',
           updatedAt: note.updatedAt || note.updated_at || '',
         };
@@ -188,8 +188,8 @@ export default function NotesScreen() {
         attachments: formData.attachments,
       });
       showToast.success('Note created successfully');
-      closeEditor();
       await refetch();
+      closeEditor();
     } catch (error: any) {
       console.error('[Notes] Error creating note:', error);
       showToast.error(error?.message || 'Failed to create note');
@@ -215,8 +215,8 @@ export default function NotesScreen() {
         },
       });
       showToast.success('Note updated successfully');
-      closeEditor();
       await refetch();
+      closeEditor();
     } catch (error: any) {
       console.error('[Notes] Error updating note:', error);
       showToast.error(error?.message || 'Failed to update note');

@@ -23,6 +23,7 @@ import {
   Timer
 } from 'lucide-react-native';
 import { useAuth } from '../contexts/AuthContext';
+import { API_BASE_URL } from '@/config/api';
 
 const { width } = Dimensions.get('window');
 
@@ -242,7 +243,7 @@ const PracticeContent: React.FC = () => {
     // Save session to backend (optional - for progress tracking)
     if (user?.token) {
       try {
-        await fetch('http://localhost:3000/api/practice/sessions', {
+        await fetch(`${API_BASE_URL}/practice/sessions`, {
           method: 'POST',
           headers: {
             'Content-Type': 'application/json',

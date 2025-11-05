@@ -24,6 +24,7 @@ import {
 } from 'lucide-react-native';
 import { useAuth } from '../contexts/AuthContext';
 import { responsiveValues } from '../utils/responsive';
+import { API_BASE_URL } from '@/config/api';
 
 const { width } = Dimensions.get('window');
 
@@ -88,7 +89,7 @@ const PracticeContent: React.FC = () => {
   const loadCategories = async () => {
     try {
       setIsLoading(true);
-      const response = await fetch('http://localhost:3000/api/practice/categories');
+      const response = await fetch(`${API_BASE_URL}/practice/categories`);
       const data = await response.json();
       
       if (data.success) {
@@ -112,7 +113,7 @@ const PracticeContent: React.FC = () => {
 
     try {
       setIsLoading(true);
-      const response = await fetch('http://localhost:3000/api/practice/sessions', {
+      const response = await fetch(`${API_BASE_URL}/practice/sessions`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
@@ -171,7 +172,7 @@ const PracticeContent: React.FC = () => {
     const timeSpent = Math.floor((Date.now() - questionStartTimeRef.current) / 1000);
 
     try {
-      const response = await fetch(`http://localhost:3000/api/practice/sessions/${currentSession.sessionId}/answer`, {
+      const response = await fetch(`${API_BASE_URL}/practice/sessions/${currentSession.sessionId}/answer`, {
         method: 'PATCH',
         headers: {
           'Content-Type': 'application/json',
@@ -211,7 +212,7 @@ const PracticeContent: React.FC = () => {
     stopTimer();
 
     try {
-      const response = await fetch(`http://localhost:3000/api/practice/sessions/${currentSession.sessionId}/complete`, {
+      const response = await fetch(`${API_BASE_URL}/practice/sessions/${currentSession.sessionId}/complete`, {
         method: 'PATCH',
         headers: {
           'Authorization': `Bearer ${user?.token}`,

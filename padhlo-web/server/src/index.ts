@@ -26,6 +26,9 @@ import notesRoutes from './routes/notes';
 import communityRoutes from './routes/community';
 import subscriptionRoutes from './routes/subscription';
 import notificationRoutes from './routes/notifications';
+import calendarRoutes from './routes/calendar';
+import scheduleRoutes from './routes/schedule';
+import availableExamsRoutes from './routes/availableExams';
 
 // Load environment variables
 config();
@@ -66,6 +69,7 @@ app.use('/api/auth', authRoutes);
 app.use('/api/user', userRoutes);
 app.use('/api/exam', examRoutes);
 app.use('/api/progress', progressRoutes);
+app.use('/api/available-exams', availableExamsRoutes);
 app.use('/api/test', testRoutes);
 app.use('/api/practice', practiceRoutes);
 app.use('/api/practice/enhanced', enhancedPracticeRoutes);
@@ -78,6 +82,8 @@ app.use('/api/notes', notesRoutes);
 app.use('/api/community', communityRoutes);
 app.use('/api/subscription', subscriptionRoutes);
 app.use('/api/notifications', notificationRoutes);
+app.use('/api/calendar', calendarRoutes);
+app.use('/api/schedule', scheduleRoutes);
 
 // Health check endpoint
 app.get('/health', (req, res) => {

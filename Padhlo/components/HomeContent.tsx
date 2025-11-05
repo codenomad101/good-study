@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, ActivityIndicator, Alert, Image } from 'react-native';
 import { BookOpen, Trophy, Target, Clock, TrendingUp, Award, CheckCircle, Bell, Calendar, Users, FileText, Play, Crown, Rocket, Star } from 'lucide-react-native';
-import { useExams, useUserStats, useSubjectWiseProgress, useSubscriptionStatus } from '../hooks/useApi';
+import { useExams, useUserStats, useSubjectWiseProgress, useSubscriptionStatus, useReminders, useAvailableExams } from '../hooks/useApi';
 import { useAuth } from '../contexts/AuthContext';
 import { responsiveValues } from '../utils/responsive';
 import AppHeader from './AppHeader';
@@ -16,12 +16,82 @@ const HomeContent: React.FC = () => {
   const { data: statsResponse, isLoading: statsLoading, error: statsError } = useUserStats();
   const { data: subjectProgressResponse, isLoading: progressLoading, error: progressError } = useSubjectWiseProgress();
   const { data: subscriptionData } = useSubscriptionStatus();
+  const { data: remindersResponse, isLoading: remindersLoading, error: remindersError } = useReminders({ upcoming: 'true' });
+  const { data: availableExamsResponse, isLoading: availableExamsLoading, error: availableExamsError } = useAvailableExams({ upcoming: 'true' });
 
 
 
   const statsData = statsResponse||{};
 const subjectProgressData = subjectProgressResponse?.data || (Array.isArray(subjectProgressResponse) ? subjectProgressResponse : []);
 const examsList = examsData?.data || (Array.isArray(examsData) ? examsData : []);
+
+// Parse reminders - EXACTLY like schedule page does
+// Schedule page: const reminders = remindersResponse?.data || [];
+const reminders = remindersResponse?.data || [];
+
+// Handle available exams response - React Query returns { data: ApiResponse, ... }
+// ApiResponse is { success: true, data: [...] }
+let availableExams: any[] = [];
+if (availableExamsResponse) {
+  // React Query wraps it: availableExamsResponse is the ApiResponse
+  if (availableExamsResponse.data && Array.isArray(availableExamsResponse.data)) {
+    availableExams = availableExamsResponse.data;
+  } else if (Array.isArray(availableExamsResponse)) {
+    availableExams = availableExamsResponse;
+  } else if (availableExamsResponse.success && availableExamsResponse.data && Array.isArray(availableExamsResponse.data)) {
+    availableExams = availableExamsResponse.data;
+  }
+}
+
+// Debug logging BEFORE fallback
+const remindersResponseStr = remindersResponse ? (JSON.stringify(remindersResponse, null, 2) || '').substring(0, 500) : 'null';
+console.log('[HomeContent] Before Fallback:', {
+  availableExamsLength: availableExams.length,
+  remindersLength: reminders?.length || 0,
+  reminders: reminders,
+  remindersResponse: remindersResponseStr,
+  remindersResponseType: typeof remindersResponse,
+  remindersResponseIsArray: Array.isArray(remindersResponse),
+  remindersResponseHasData: !!remindersResponse?.data,
+  remindersResponseHasSuccess: !!remindersResponse?.success,
+  remindersResponseDataIsArray: Array.isArray(remindersResponse?.data),
+  remindersResponseDataDataIsArray: Array.isArray(remindersResponse?.data?.data),
+  remindersLoading: remindersLoading,
+  remindersError: remindersError,
+});
+
+// Fallback: If no available exams but we have reminders, use those (so user sees their exams)
+if (availableExams.length === 0) {
+  console.log('[HomeContent] No available exams, checking reminders for fallback...');
+  if (reminders && Array.isArray(reminders) && reminders.length > 0) {
+    console.log('[HomeContent] Using reminders as fallback, count:', reminders.length);
+    availableExams = reminders.map((r: any) => ({
+      examId: r.reminderId || r.examId,
+      examName: r.examName,
+      examDate: r.examDate,
+      examTime: r.examTime,
+      description: r.description,
+    }));
+  } else {
+    console.log('[HomeContent] No reminders available for fallback');
+  }
+}
+
+// Debug logging AFTER fallback
+console.log('[HomeContent] Available Exams Debug:', {
+  availableExamsResponse,
+  availableExamsLength: availableExams.length,
+  availableExams,
+  availableExamsLoading,
+  availableExamsError,
+  responseType: typeof availableExamsResponse,
+  isArray: Array.isArray(availableExamsResponse),
+  hasData: !!availableExamsResponse?.data,
+  hasSuccess: !!availableExamsResponse?.success,
+  remindersLength: reminders?.length || 0,
+  reminders: reminders,
+  usingFallback: availableExams.length > 0 && reminders && reminders.length > 0,
+});
 
 
 // Stats formatting with fallbacks
@@ -71,71 +141,147 @@ const stats = {
             <Text style={styles.userName}>{user?.fullName || 'Student'}! 👋</Text>
           </View>
           {/* Current Plan Badge */}
-          {subscriptionData?.data && (() => {
-            const subscription = subscriptionData.data as any;
-            const planType = subscription.type || 'free';
-            const isActive = subscription.active || false;
+          {(() => {
+            const subscription = subscriptionData?.data as any;
+            const planType = subscription?.type || 'free';
+            const isActive = subscription?.active || false;
             
-            if (isActive && planType !== 'free') {
-              const planColors: Record<string, { bg: string; text: string; icon: any }> = {
-                trial: { bg: '#ECFDF5', text: '#10B981', icon: Rocket },
-                lite: { bg: '#EFF6FF', text: '#2563EB', icon: Star },
-                pro: { bg: '#FFF7ED', text: '#F59E0B', icon: Crown },
-              };
-              
-              const planInfo = planColors[planType] || planColors.lite;
-              const PlanIcon = planInfo.icon;
-              const planName = planType.charAt(0).toUpperCase() + planType.slice(1);
-              
-              return (
-                <View style={[styles.planBadge, { backgroundColor: planInfo.bg }]}>
-                  <PlanIcon size={16} color={planInfo.text} />
-                  <Text style={[styles.planBadgeText, { color: planInfo.text }]}>{planName}</Text>
-                </View>
-              );
-            }
-            return null;
+            // Always show plan badge (including free plan)
+            const planColors: Record<string, { bg: string; text: string; icon: any }> = {
+              trial: { bg: '#ECFDF5', text: '#10B981', icon: Rocket },
+              lite: { bg: '#EFF6FF', text: '#2563EB', icon: Star },
+              pro: { bg: '#FFF7ED', text: '#F59E0B', icon: Crown },
+              free: { bg: '#F3F4F6', text: '#6B7280', icon: Star },
+            };
+            
+            const planInfo = planColors[planType] || planColors.free;
+            const PlanIcon = planInfo.icon;
+            const planName = planType.charAt(0).toUpperCase() + planType.slice(1);
+            
+            return (
+              <View style={[styles.planBadge, { backgroundColor: planInfo.bg }]}>
+                <PlanIcon size={16} color={planInfo.text} />
+                <Text style={[styles.planBadgeText, { color: planInfo.text }]}>{planName}</Text>
+              </View>
+            );
           })()}
         </View>
       </View>
 
       <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
 
-      {/* Streak Card */}
+      {/* Streak Card - Compact with Stats */}
       <View style={styles.streakCard}>
         <View style={styles.streakHeader}>
-          <View>
-            <Text style={styles.streakDays}>{stats.currentStreak || 0} Days</Text>
-            <Text style={styles.streakLabel}>Learning Streak 🔥</Text>
+          <View style={styles.streakMain}>
+            <View style={styles.streakTitleRow}>
+              <Text style={styles.streakDays}>{stats.currentStreak || 0}</Text>
+              <Text style={styles.streakLabel}>Day Streak 🔥</Text>
+            </View>
+            <View style={styles.streakStatsRow}>
+              <View style={styles.streakStatItem}>
+                <Text style={styles.streakStatNumber}>{stats.totalQuestions || 0}</Text>
+                <Text style={styles.streakStatLabel}>Questions</Text>
+              </View>
+              <View style={styles.streakStatDivider} />
+              <View style={styles.streakStatItem}>
+                <Text style={styles.streakStatNumber}>{stats.accuracy || 0}%</Text>
+                <Text style={styles.streakStatLabel}>Accuracy</Text>
+              </View>
+              <View style={styles.streakStatDivider} />
+              <View style={styles.streakStatItem}>
+                <Text style={styles.streakStatNumber}>{stats.totalTimeSpent || 0}</Text>
+                <Text style={styles.streakStatLabel}>Min</Text>
+              </View>
+            </View>
           </View>
-          <Trophy size={48} color="#FCD34D" />
+          <Trophy size={36} color="#FCD34D" />
         </View>
-        <Text style={styles.streakDescription}>Keep it up! You're in top 5% learners</Text>
-      </View>
-
-      {/* Quick Stats */}
-      <View style={styles.statsGrid}>
-        <View style={styles.statCard}>
-          <Target size={24} color="#2563EB" />
-          <Text style={styles.statNumber}>{stats.totalQuestions || 0}</Text>
-          <Text style={styles.statLabel}>Questions Solved</Text>
-        </View>
-        <View style={styles.statCard}>
-          <TrendingUp size={24} color="#10B981" />
-          <Text style={styles.statNumber}>{stats.accuracy || 0}%</Text>
-          <Text style={styles.statLabel}>Accuracy</Text>
-        </View>
-        <View style={styles.statCard}>
-          <Clock size={24} color="#F59E0B" />
-          <Text style={styles.statNumber}>{stats.totalTimeSpent || 0}</Text>
-          <Text style={styles.statLabel}>Time Spent (min)</Text>
-        </View>
-        
       </View>
 
       {/* Available Exams */}
       <View style={styles.section}>
-        <Text style={styles.sectionTitle}>Available Exams</Text>
+        <View style={styles.sectionHeader}>
+          <Text style={styles.sectionTitle}>Available Exams</Text>
+          {availableExams.length > 0 && (
+            <TouchableOpacity onPress={() => router.push('/(tabs)/schedule')}>
+              <Calendar size={20} color="#2563EB" />
+            </TouchableOpacity>
+          )}
+        </View>
+        
+        {/* Available Exams (System-wide) */}
+        {(availableExamsLoading || remindersLoading) ? (
+          <View style={styles.loadingContainer}>
+            <ActivityIndicator size="small" color="#2563EB" />
+            <Text style={styles.loadingText}>Loading upcoming exams...</Text>
+          </View>
+        ) : availableExamsError && remindersError ? (
+          <View style={styles.errorContainer}>
+            <Text style={styles.errorText}>Failed to load exams</Text>
+            <Text style={styles.errorSubtext}>{availableExamsError?.message || 'Please check your connection'}</Text>
+          </View>
+        ) : availableExams && availableExams.length > 0 ? (
+          <View style={styles.remindersContainer}>
+            <Text style={styles.remindersTitle}>Upcoming Exams</Text>
+            {availableExams.slice(0, 3).map((exam: any) => {
+              console.log('[HomeContent] Rendering exam:', exam);
+              const examDate = new Date(exam.examDate);
+              const today = new Date();
+              const daysUntil = Math.ceil((examDate.getTime() - today.getTime()) / (1000 * 60 * 60 * 24));
+              const isToday = daysUntil === 0;
+              const isTomorrow = daysUntil === 1;
+              
+              return (
+                <View key={exam.examId} style={styles.reminderCard}>
+                  <View style={styles.reminderContent}>
+                    <View style={styles.reminderHeader}>
+                      <Text style={styles.reminderExamName}>{exam.examName}</Text>
+                      {exam.examTime && (
+                        <Text style={styles.reminderTime}>{exam.examTime}</Text>
+                      )}
+                    </View>
+                    <View style={styles.reminderDateRow}>
+                      <Calendar size={14} color="#6B7280" />
+                      <Text style={styles.reminderDate}>
+                        {isToday ? 'Today' : isTomorrow ? 'Tomorrow' : examDate.toLocaleDateString('en-US', { 
+                          month: 'short', 
+                          day: 'numeric',
+                          year: examDate.getFullYear() !== today.getFullYear() ? 'numeric' : undefined
+                        })}
+                      </Text>
+                      {daysUntil > 1 && (
+                        <Text style={styles.reminderDaysAway}>
+                          ({daysUntil} days away)
+                        </Text>
+                      )}
+                    </View>
+                    {exam.description && (
+                      <Text style={styles.reminderDescription} numberOfLines={1}>
+                        {exam.description}
+                      </Text>
+                    )}
+                  </View>
+                </View>
+              );
+            })}
+            {availableExams.length > 3 && (
+              <TouchableOpacity 
+                style={styles.viewAllButton}
+                onPress={() => router.push('/(tabs)/schedule')}
+              >
+                <Text style={styles.viewAllText}>View All ({availableExams.length})</Text>
+              </TouchableOpacity>
+            )}
+          </View>
+        ) : (
+          <View style={styles.noDataContainer}>
+            <Text style={styles.noDataText}>No upcoming exams scheduled</Text>
+            <Text style={styles.noDataSubtext}>Check back later for new exam dates</Text>
+          </View>
+        )}
+        
+        {/* Practice Exams */}
         {examsLoading ? (
           <View style={styles.loadingContainer}>
             <ActivityIndicator size="small" color="#2563EB" />
@@ -312,28 +458,59 @@ const styles = StyleSheet.create({
   streakCard: {
     backgroundColor: '#F97316',
     borderRadius: 16,
-    padding: 24,
+    padding: 16,
     marginHorizontal: responsiveValues.padding.medium,
     marginBottom: responsiveValues.padding.medium,
   },
   streakHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'flex-start',
-    marginBottom: 8,
+    alignItems: 'center',
+  },
+  streakMain: {
+    flex: 1,
+  },
+  streakTitleRow: {
+    flexDirection: 'row',
+    alignItems: 'baseline',
+    marginBottom: 12,
+    gap: 8,
   },
   streakDays: {
-    fontSize: 32,
+    fontSize: 28,
     fontWeight: 'bold',
     color: '#FFFFFF',
   },
   streakLabel: {
-    fontSize: responsiveValues.fontSize.medium,
+    fontSize: 16,
     color: '#FED7AA',
+    fontWeight: '600',
   },
-  streakDescription: {
-    fontSize: responsiveValues.fontSize.small,
+  streakStatsRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  streakStatItem: {
+    alignItems: 'center',
+    flex: 1,
+  },
+  streakStatNumber: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+    marginBottom: 2,
+  },
+  streakStatLabel: {
+    fontSize: 11,
     color: '#FED7AA',
+    fontWeight: '500',
+  },
+  streakStatDivider: {
+    width: 1,
+    height: 30,
+    backgroundColor: '#FED7AA',
+    opacity: 0.5,
   },
   statsGrid: {
     flexDirection: 'row',
@@ -604,6 +781,85 @@ const styles = StyleSheet.create({
   papersButtonText: {
     color: '#7C3AED',
     fontSize: responsiveValues.fontSize.medium,
+    fontWeight: '600',
+  },
+  remindersContainer: {
+    marginBottom: 16,
+    backgroundColor: '#F0F9FF',
+    borderRadius: 12,
+    padding: 12,
+    marginHorizontal: responsiveValues.padding.medium,
+    borderWidth: 1,
+    borderColor: '#DBEAFE',
+  },
+  remindersTitle: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#1E40AF',
+    marginBottom: 12,
+  },
+  reminderCard: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 8,
+    padding: 12,
+    marginBottom: 8,
+    borderLeftWidth: 3,
+    borderLeftColor: '#2563EB',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.05,
+    shadowRadius: 2,
+    elevation: 2,
+  },
+  reminderContent: {
+    flex: 1,
+  },
+  reminderHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    marginBottom: 6,
+  },
+  reminderExamName: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#1F2937',
+    flex: 1,
+  },
+  reminderTime: {
+    fontSize: 12,
+    color: '#6B7280',
+    fontWeight: '500',
+  },
+  reminderDateRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    marginBottom: 4,
+  },
+  reminderDate: {
+    fontSize: 13,
+    color: '#6B7280',
+    fontWeight: '500',
+  },
+  reminderDaysAway: {
+    fontSize: 12,
+    color: '#9CA3AF',
+    marginLeft: 4,
+  },
+  reminderDescription: {
+    fontSize: 12,
+    color: '#6B7280',
+    marginTop: 4,
+  },
+  viewAllButton: {
+    marginTop: 8,
+    paddingVertical: 8,
+    alignItems: 'center',
+  },
+  viewAllText: {
+    fontSize: 14,
+    color: '#2563EB',
     fontWeight: '600',
   },
 });

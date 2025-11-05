@@ -80,7 +80,12 @@ export const uploadNoteAttachment = async (req: Request, res: Response) => {
     // Generate URL to access the file
     // In production, you'd want to use a CDN or cloud storage
     const fileUrl = `/uploads/notes/${req.file.filename}`;
-    const baseUrl = process.env.BASE_URL || 'http://localhost:3000';
+    
+    // Get base URL from request or environment variable
+    // Use request host for dynamic IP address (works for Android app)
+    const protocol = req.protocol || 'http';
+    const host = req.get('host') || process.env.BASE_URL?.replace(/^https?:\/\//, '') || 'localhost:3000';
+    const baseUrl = process.env.BASE_URL || `${protocol}://${host}`;
     const fullUrl = `${baseUrl}${fileUrl}`;
 
     // Determine file type

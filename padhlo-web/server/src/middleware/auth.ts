@@ -75,3 +75,31 @@ export const optionalAuth = async (req: Request, res: Response, next: NextFuncti
     next();
   }
 };
+
+export const requireAdmin = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    const user = (req as any).user;
+    
+    if (!user) {
+      return res.status(401).json({
+        success: false,
+        message: 'Authentication required',
+      });
+    }
+    
+    if (user.role !== 'admin') {
+      return res.status(403).json({
+        success: false,
+        message: 'Admin access required',
+      });
+    }
+    
+    next();
+  } catch (error: any) {
+    console.error('[Auth Middleware] Admin check error:', error);
+    return res.status(500).json({
+      success: false,
+      message: 'Error checking admin status',
+    });
+  }
+};

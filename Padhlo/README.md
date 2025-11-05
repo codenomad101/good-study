@@ -56,7 +56,14 @@ A React Native exam preparation app built with Expo, featuring authentication, r
 
 ## Backend Integration
 
-The app connects to a backend API for authentication and data management. Make sure your backend is running on `http://localhost:3000` or update the API URL in `contexts/AuthContext.tsx`.
+The app connects to a backend API for authentication and data management. 
+
+**API Configuration:**
+- The API base URL is centrally configured in `config/api.ts`
+- Update the `API_HOST` in `config/api.ts` to your computer's IP address for Android app
+- For physical devices, use your computer's IP (e.g., `10.201.248.205`)
+- For emulator, use `10.0.2.2` (emulator's alias for localhost)
+- Make sure your backend is running on the configured host and port 3000
 
 ### Backend Setup
 1. Navigate to the backend directory
