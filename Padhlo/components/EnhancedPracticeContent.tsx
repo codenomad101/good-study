@@ -157,9 +157,42 @@ const EnhancedPracticeContent: React.FC = () => {
 
   useEffect(() => {
     if (statsError) {
+      console.error('[EnhancedPractice] Error fetching stats:', statsError);
       setUserStats(null);
-    } else if (statsResponse?.data) {
-      const statsData = statsResponse.data as any;
+    } else if (statsResponse) {
+      // Handle different response structures
+      const statsData = (statsResponse as any)?.data || statsResponse || {};
+      
+      // Calculate average accuracy from practice data if available
+      let practiceAccuracy = 0;
+      if (statsData.practiceAccuracy !== undefined && statsData.practiceAccuracy !== null) {
+        practiceAccuracy = typeof statsData.practiceAccuracy === 'string' 
+          ? parseFloat(statsData.practiceAccuracy) 
+          : Number(statsData.practiceAccuracy);
+      } else if (statsData.overallAccuracy !== undefined && statsData.overallAccuracy !== null) {
+        practiceAccuracy = typeof statsData.overallAccuracy === 'string' 
+          ? parseFloat(statsData.overallAccuracy) 
+          : Number(statsData.overallAccuracy);
+      }
+      
+      // Calculate average accuracy if we have questions attempted and correct answers
+      let calculatedAccuracy = practiceAccuracy;
+      if (statsData.totalQuestionsAttempted > 0 && statsData.totalCorrectAnswers !== undefined) {
+        const calculated = (statsData.totalCorrectAnswers / statsData.totalQuestionsAttempted) * 100;
+        // Use calculated value if practiceAccuracy is 0 or invalid
+        if (isNaN(practiceAccuracy) || practiceAccuracy === 0) {
+          calculatedAccuracy = calculated;
+        } else {
+          // Prefer stored accuracy, but use calculated if it's more reasonable
+          calculatedAccuracy = practiceAccuracy;
+        }
+      }
+      
+      // Ensure calculatedAccuracy is a valid number
+      if (isNaN(calculatedAccuracy)) {
+        calculatedAccuracy = 0;
+      }
+      
       const mappedStats: UserPracticeStats = {
         totalPracticeSessions: statsData.totalPracticeSessions || 0,
         totalQuestionsAttempted: statsData.totalQuestionsAttempted || 0,
@@ -168,7 +201,7 @@ const EnhancedPracticeContent: React.FC = () => {
         currentStreak: statsData.currentStreak || 0,
         longestStreak: statsData.longestStreak || 0,
         totalTimeSpentMinutes: statsData.totalTimeSpentMinutes || 0,
-        overallAccuracy: parseFloat(statsData.overallAccuracy || '0'),
+        overallAccuracy: calculatedAccuracy,
         // Fields not directly available from /statistics/user but are part of the original interface
         totalPracticeScore: statsData.totalCorrectAnswers || 0, // Using totalCorrectAnswers as practice score
         weeklyPracticeScore: 0,
@@ -177,7 +210,12 @@ const EnhancedPracticeContent: React.FC = () => {
         monthlyPracticeCount: 0,
         categoryPerformance: {},
       };
+      
+      console.log('[EnhancedPractice] Mapped stats:', mappedStats);
       setUserStats(mappedStats);
+    } else {
+      console.log('[EnhancedPractice] No stats response available');
+      setUserStats(null);
     }
   }, [statsResponse, statsError]);
 
@@ -571,21 +609,80 @@ const EnhancedPracticeContent: React.FC = () => {
     <View style={styles.container}>
       <AppHeader title="Practice" showLogo={true} extraTopSpacing={true} />
       
-      {/* Subtitle and Stats Button */}
-      <View style={styles.subtitleSection}>
-        <Text style={styles.subtitle}>Choose a category to start practicing</Text>
-        {userStats && (
-          <TouchableOpacity 
-            style={styles.statsButton}
-            onPress={() => setShowStats(true)}
-          >
-            <BarChart3 size={20} color="#3B82F6" />
-            <Text style={styles.statsButtonText}>Statistics</Text>
-          </TouchableOpacity>
-        )}
-      </View>
-
       <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
+        {/* Your Progress - Styled like streak card */}
+        <View style={styles.progressCard}>
+          <View style={styles.progressHeader}>
+            <View style={styles.progressMain}>
+              <View style={styles.progressTitleRow}>
+                <Text style={styles.progressTitle}>Your Progress</Text>
+              </View>
+              {userStats ? (
+                <View style={styles.progressStatsRow}>
+                  <View style={styles.progressStatItem}>
+                    <Text style={styles.progressStatNumber}>{userStats.totalPracticeSessions || 0}</Text>
+                    <Text style={styles.progressStatLabel}>Sessions</Text>
+                  </View>
+                  <View style={styles.progressStatDivider} />
+                  <View style={styles.progressStatItem}>
+                    <Text style={styles.progressStatNumber}>
+                      {(() => {
+                        let accuracy = 0;
+                        if (userStats.overallAccuracy !== undefined && userStats.overallAccuracy !== null) {
+                          accuracy = typeof userStats.overallAccuracy === 'string' 
+                            ? parseFloat(userStats.overallAccuracy) 
+                            : Number(userStats.overallAccuracy);
+                        } else if (userStats.totalQuestionsAttempted > 0 && userStats.totalCorrectAnswers !== undefined) {
+                          accuracy = (userStats.totalCorrectAnswers / userStats.totalQuestionsAttempted) * 100;
+                        }
+                        return isNaN(accuracy) ? '0' : accuracy.toFixed(1);
+                      })()}%
+                    </Text>
+                    <Text style={styles.progressStatLabel}>Accuracy</Text>
+                  </View>
+                  <View style={styles.progressStatDivider} />
+                  <View style={styles.progressStatItem}>
+                    <Text style={styles.progressStatNumber}>{userStats.totalTimeSpentMinutes || 0}</Text>
+                    <Text style={styles.progressStatLabel}>Minutes</Text>
+                  </View>
+                </View>
+              ) : (
+                <View style={styles.progressStatsRow}>
+                  <View style={styles.progressStatItem}>
+                    <Text style={styles.progressStatNumber}>0</Text>
+                    <Text style={styles.progressStatLabel}>Sessions</Text>
+                  </View>
+                  <View style={styles.progressStatDivider} />
+                  <View style={styles.progressStatItem}>
+                    <Text style={styles.progressStatNumber}>0%</Text>
+                    <Text style={styles.progressStatLabel}>Accuracy</Text>
+                  </View>
+                  <View style={styles.progressStatDivider} />
+                  <View style={styles.progressStatItem}>
+                    <Text style={styles.progressStatNumber}>0</Text>
+                    <Text style={styles.progressStatLabel}>Minutes</Text>
+                  </View>
+                </View>
+              )}
+            </View>
+            <Trophy size={36} color="#FCD34D" />
+          </View>
+        </View>
+
+        {/* Subtitle and Stats Button */}
+        <View style={styles.subtitleSection}>
+          <Text style={styles.subtitle}>Choose a category to start practicing</Text>
+          {userStats && (
+            <TouchableOpacity 
+              style={styles.statsButton}
+              onPress={() => setShowStats(true)}
+            >
+              <BarChart3 size={20} color="#3B82F6" />
+              <Text style={styles.statsButtonText}>Statistics</Text>
+            </TouchableOpacity>
+          )}
+        </View>
+
         {/* Practice Categories */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Available Categories</Text>
@@ -625,28 +722,6 @@ const EnhancedPracticeContent: React.FC = () => {
                 </View>
               </View>
             ))}
-          </View>
-        </View>
-
-        {/* Quick Stats */}
-        <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Your Progress</Text>
-          <View style={styles.statsGrid}>
-            <View style={styles.statCard}>
-              <Target size={24} color="#2563EB" />
-              <Text style={styles.statNumber}>{userStats?.totalPracticeSessions || 0}</Text>
-              <Text style={styles.statLabel}>Sessions Completed</Text>
-            </View>
-            <View style={styles.statCard}>
-              <TrendingUp size={24} color="#10B981" />
-              <Text style={styles.statNumber}>{userStats?.averageAccuracy?.toFixed(1) || 0}%</Text>
-              <Text style={styles.statLabel}>Average Score</Text>
-            </View>
-            <View style={styles.statCard}>
-              <Clock size={24} color="#F59E0B" />
-              <Text style={styles.statNumber}>{userStats?.totalTimeSpentMinutes || 0}</Text>
-              <Text style={styles.statLabel}>Minutes Practiced</Text>
-            </View>
           </View>
         </View>
 
@@ -949,7 +1024,19 @@ const EnhancedPracticeContent: React.FC = () => {
                 </View>
                 
                 <View style={styles.statItem}>
-                  <Text style={styles.statValue}>{userStats.averageAccuracy.toFixed(1)}%</Text>
+                  <Text style={styles.statValue}>
+                    {(() => {
+                      let accuracy = 0;
+                      if (userStats.overallAccuracy !== undefined && userStats.overallAccuracy !== null) {
+                        accuracy = typeof userStats.overallAccuracy === 'string' 
+                          ? parseFloat(userStats.overallAccuracy) 
+                          : Number(userStats.overallAccuracy);
+                      } else if (userStats.totalQuestionsAttempted > 0 && userStats.totalCorrectAnswers !== undefined) {
+                        accuracy = (userStats.totalCorrectAnswers / userStats.totalQuestionsAttempted) * 100;
+                      }
+                      return isNaN(accuracy) ? '0' : accuracy.toFixed(1);
+                    })()}%
+                  </Text>
                   <Text style={styles.statLabel}>Average Accuracy</Text>
                 </View>
                 
@@ -1059,6 +1146,56 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F8FAFC',
+  },
+  progressCard: {
+    backgroundColor: '#F97316',
+    borderRadius: 16,
+    padding: 16,
+    marginHorizontal: 20,
+    marginBottom: 20,
+    marginTop: 10,
+  },
+  progressHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+  },
+  progressMain: {
+    flex: 1,
+  },
+  progressTitleRow: {
+    marginBottom: 12,
+  },
+  progressTitle: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+  },
+  progressStatsRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  progressStatItem: {
+    alignItems: 'center',
+    flex: 1,
+  },
+  progressStatNumber: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#FFFFFF',
+    marginBottom: 2,
+  },
+  progressStatLabel: {
+    fontSize: 11,
+    color: '#FED7AA',
+    fontWeight: '500',
+  },
+  progressStatDivider: {
+    width: 1,
+    height: 30,
+    backgroundColor: '#FED7AA',
+    opacity: 0.5,
   },
   subtitleSection: {
     flexDirection: 'row',

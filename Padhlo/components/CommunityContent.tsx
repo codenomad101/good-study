@@ -286,17 +286,12 @@ const CommunityContent: React.FC = () => {
               <View style={styles.topCommunityAvatar}>
                 <Text style={styles.avatarText}>{getInitials(group.name)}</Text>
               </View>
-              <Text style={styles.topCommunityName} numberOfLines={2}>
+              <Text style={styles.topCommunityName} numberOfLines={1}>
                 {group.name}
               </Text>
-              <Text style={styles.topCommunityDescription} numberOfLines={2}>
+              <Text style={styles.topCommunityDescription} numberOfLines={1}>
                 {group.description || 'No description'}
               </Text>
-              {group.creator && (
-                <Text style={styles.topCommunityCreator}>
-                  Created by {group.creator.fullName}
-                </Text>
-              )}
               {group.examType && (
                 <View style={styles.examTypeTag}>
                   <Text style={styles.examTypeText}>{group.examType}</Text>
@@ -628,7 +623,7 @@ const styles = StyleSheet.create({
   topCommunityCard: {
     backgroundColor: '#FFFFFF',
     borderRadius: 10,
-    padding: 12,
+    padding: 10,
     marginRight: 10,
     marginBottom: 12,
     shadowColor: '#000',
@@ -656,17 +651,17 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   topCommunityAvatar: {
-    width: 40,
-    height: 40,
-    borderRadius: 20,
+    width: 32,
+    height: 32,
+    borderRadius: 16,
     backgroundColor: '#EFF6FF',
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 8,
+    marginBottom: 6,
     alignSelf: 'center',
   },
   avatarText: {
-    fontSize: 16,
+    fontSize: 14,
     fontWeight: 'bold',
     color: '#667eea',
   },
@@ -676,31 +671,31 @@ const styles = StyleSheet.create({
     color: '#667eea',
   },
   topCommunityName: {
-    fontSize: 14,
+    fontSize: 13,
     fontWeight: '600',
     color: '#1F2937',
-    marginBottom: 4,
+    marginBottom: 3,
     textAlign: 'center',
   },
   topCommunityDescription: {
-    fontSize: 11,
+    fontSize: 10,
     color: '#6B7280',
     marginBottom: 4,
     textAlign: 'center',
   },
   topCommunityCreator: {
-    fontSize: 10,
+    fontSize: 9,
     color: '#9CA3AF',
-    marginBottom: 6,
+    marginBottom: 4,
     textAlign: 'center',
   },
   examTypeTag: {
     backgroundColor: '#EFF6FF',
-    borderRadius: 10,
-    paddingHorizontal: 6,
-    paddingVertical: 3,
+    borderRadius: 8,
+    paddingHorizontal: 5,
+    paddingVertical: 2,
     alignSelf: 'center',
-    marginBottom: 6,
+    marginBottom: 4,
   },
   examTypeText: {
     color: '#2563EB',
@@ -710,7 +705,7 @@ const styles = StyleSheet.create({
   topCommunityStats: {
     flexDirection: 'row',
     justifyContent: 'space-around',
-    marginTop: 6,
+    marginTop: 4,
   },
   statItem: {
     alignItems: 'center',

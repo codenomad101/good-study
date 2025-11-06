@@ -879,8 +879,19 @@ class ApiService {
   // Statistics API methods
  async getUserStatistics() {
   const response = await this.get('/statistics/user');
-  // Return the data directly without double-wrapping
-  return response.data || response;
+  // Handle different response structures
+  // API might return: { success: true, data: {...} } or just {...}
+  if (response && typeof response === 'object') {
+    if ('data' in response && response.data) {
+      return response.data;
+    }
+    if ('success' in response && response.success && 'data' in response) {
+      return response.data;
+    }
+    // If response is already the data object, return it
+    return response;
+  }
+  return response;
 }
 
   async getLeaderboard(
