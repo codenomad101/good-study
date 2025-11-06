@@ -120,8 +120,7 @@ const stats = {
         <View style={styles.header}>
           <View style={styles.headerContent}>
             <View style={styles.welcomeSection}>
-              <Text style={styles.welcomeText}>Welcome back,</Text>
-              <Text style={styles.userName}>{user?.fullName || 'Student'}! 👋</Text>
+              <Text style={styles.welcomeText}>{t('home.welcomeBack', { name: user?.fullName || 'Student' })} 👋</Text>
             </View>
           </View>
         </View>
@@ -141,9 +140,8 @@ const stats = {
       <View style={styles.welcomeSection}>
         <View style={styles.welcomeHeader}>
           <View style={styles.welcomeTextContainer}>
-            <Text style={styles.welcomeText}>{t('home.welcomeBack')},</Text>
+            <Text style={styles.welcomeText}>{t('home.welcomeBack', { name: user?.fullName || 'Student' })} 👋</Text>
             <View style={styles.userNameRow}>
-              <Text style={styles.userName}>{user?.fullName || 'Student'}! 👋</Text>
               {(() => {
                 // userRankResponse structure: { success: true, data: { rank: 1 }, message: "..." }
                 // So userRankResponse.data is { rank: 1 }
@@ -454,7 +452,7 @@ const stats = {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-            <Text style={styles.title}>{t('home.welcomeBack')}, {user?.fullName || 'Student'}! 👋</Text>
+            <Text style={styles.title}>{t('home.welcomeBack', { name: user?.fullName || 'Student' })} 👋</Text>
         </View>
         <View style={styles.errorContainer}>
           <Text style={styles.errorText}>Something went wrong</Text>

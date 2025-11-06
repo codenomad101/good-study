@@ -44,7 +44,32 @@ export default function ExamContent() {
   const createExamMutation = useCreateDynamicExam();
   const resumeExamMutation = useResumeExam();
 
-  const examHistory = examHistoryResponse?.data || [];
+  // Parse exam history - API service returns: { success: true, data: [...] }
+  // where data is already the array of exam sessions
+  let examHistory: any[] = [];
+  if (examHistoryResponse) {
+    // The API service getDynamicExamHistory() already extracts the data array
+    // So examHistoryResponse.data should be the array directly
+    if (Array.isArray(examHistoryResponse.data)) {
+      examHistory = examHistoryResponse.data;
+    } else if (Array.isArray(examHistoryResponse)) {
+      // Fallback: if response itself is an array
+      examHistory = examHistoryResponse;
+    } else if (examHistoryResponse.data && Array.isArray(examHistoryResponse.data)) {
+      examHistory = examHistoryResponse.data;
+    }
+  }
+  
+  // Debug logging
+  console.log('[WebExamContent] Exam History Debug:', {
+    examHistoryResponse,
+    examHistoryResponseData: examHistoryResponse?.data,
+    examHistoryResponseDataType: typeof examHistoryResponse?.data,
+    isDataArray: Array.isArray(examHistoryResponse?.data),
+    examHistoryLength: examHistory.length,
+    examHistory,
+    historyLoading,
+  });
   
   // Fallback categories in case API fails
   const fallbackCategories = [
@@ -167,7 +192,7 @@ export default function ExamContent() {
         if (Array.isArray(response.data)) {
           console.log('[WebExamContent] Data is array, taking first item. Array length:', response.data.length);
           sessionData = response.data.length > 0 ? response.data[0] : null;
-        } else if (typeof response.data === 'object' && response.data.sessionId) {
+        } else if (typeof response.data === 'object' && response.data !== null && 'sessionId' in response.data) {
           // Already an object with sessionId
           sessionData = response.data;
         }
@@ -318,12 +343,22 @@ export default function ExamContent() {
     }
   };
 
-  // Calculate statistics
-  const completedExams = examHistory.filter((e: any) => e.status === 'completed');
+  // Calculate statistics - ensure we have valid data
+  const completedExams = Array.isArray(examHistory) 
+    ? examHistory.filter((e: any) => e && e.status === 'completed')
+    : [];
+  
   const avgScore = completedExams.length > 0
     ? (
         completedExams.reduce((sum: number, e: any) => {
-          const pct = typeof e.percentage === 'string' ? parseFloat(e.percentage) : (e.percentage || 0);
+          // Handle different percentage formats
+          let pct = 0;
+          if (e.percentage !== undefined && e.percentage !== null) {
+            pct = typeof e.percentage === 'string' ? parseFloat(e.percentage) : (e.percentage || 0);
+          } else if (e.marksObtained !== undefined && e.totalMarks !== undefined && e.totalMarks > 0) {
+            // Calculate percentage from marks if percentage is not available
+            pct = ((e.marksObtained || 0) / (e.totalMarks || 1)) * 100;
+          }
           return sum + pct;
         }, 0) / completedExams.length
       ).toFixed(1)
@@ -332,14 +367,22 @@ export default function ExamContent() {
   const bestScore = completedExams.length > 0
     ? Math.max(
         ...completedExams.map((e: any) => {
-          const pct = typeof e.percentage === 'string' ? parseFloat(e.percentage) : (e.percentage || 0);
+          // Handle different percentage formats
+          let pct = 0;
+          if (e.percentage !== undefined && e.percentage !== null) {
+            pct = typeof e.percentage === 'string' ? parseFloat(e.percentage) : (e.percentage || 0);
+          } else if (e.marksObtained !== undefined && e.totalMarks !== undefined && e.totalMarks > 0) {
+            pct = ((e.marksObtained || 0) / (e.totalMarks || 1)) * 100;
+          }
           return pct;
         })
       ).toFixed(1)
     : '0.0';
   
   const totalTime = Math.floor(
-    examHistory.reduce((sum: number, e: any) => sum + (e.timeSpentSeconds || 0), 0) / 60
+    (Array.isArray(examHistory) ? examHistory : []).reduce((sum: number, e: any) => {
+      return sum + (e?.timeSpentSeconds || e?.timeSpent || 0);
+    }, 0) / 60
   );
 
   if (!isAuthenticated) {
@@ -533,52 +576,70 @@ export default function ExamContent() {
             </View>
           ) : (
             <View style={styles.historyList}>
-              {examHistory.map((exam: any) => {
-                const percentage = typeof exam.percentage === 'string' 
-                  ? parseFloat(exam.percentage) 
-                  : (exam.percentage || 0);
-                
-                return (
-                  <TouchableOpacity
-                    key={exam.sessionId}
-                    style={styles.historyItem}
-                    onPress={() => handleViewExam(exam)}
-                  >
-                    <View style={styles.historyItemLeft}>
-                      <View style={[styles.statusBadge, { backgroundColor: getStatusColor(exam.status) + '20' }]}>
-                        {getStatusIcon(exam.status)}
-                      </View>
-                      <View style={styles.historyItemInfo}>
-                        <Text style={styles.historyItemTitle}>
-                          {exam.examName || 'Untitled Exam'}
-                        </Text>
-                        <View style={styles.historyItemMeta}>
-                          <Text style={styles.historyItemMetaText}>
-                            {exam.totalQuestions || 0} questions
-                          </Text>
-                          <Text style={styles.historyItemMetaText}> • </Text>
-                          <Text style={styles.historyItemMetaText}>
-                            {formatTime(exam.timeSpentSeconds || 0)}
+              {Array.isArray(examHistory) && examHistory.length > 0 ? (
+                examHistory
+                  .filter((exam: any) => exam && exam.sessionId) // Filter out invalid entries
+                  .map((exam: any) => {
+                    // Calculate percentage - handle different formats
+                    let percentage = 0;
+                    if (exam.percentage !== undefined && exam.percentage !== null) {
+                      percentage = typeof exam.percentage === 'string' 
+                        ? parseFloat(exam.percentage) 
+                        : (exam.percentage || 0);
+                    } else if (exam.marksObtained !== undefined && exam.totalMarks !== undefined && exam.totalMarks > 0) {
+                      percentage = ((exam.marksObtained || 0) / (exam.totalMarks || 1)) * 100;
+                    }
+                    
+                    return (
+                      <TouchableOpacity
+                        key={exam.sessionId || `exam-${Math.random()}`}
+                        style={styles.historyItem}
+                        onPress={() => handleViewExam(exam)}
+                      >
+                        <View style={styles.historyItemLeft}>
+                          <View style={[styles.statusBadge, { backgroundColor: getStatusColor(exam.status || 'not_started') + '20' }]}>
+                            {getStatusIcon(exam.status || 'not_started')}
+                          </View>
+                          <View style={styles.historyItemInfo}>
+                            <Text style={styles.historyItemTitle}>
+                              {exam.examName || exam.name || 'Untitled Exam'}
+                            </Text>
+                            <View style={styles.historyItemMeta}>
+                              <Text style={styles.historyItemMetaText}>
+                                {exam.totalQuestions || exam.questionsCount || 0} questions
+                              </Text>
+                              <Text style={styles.historyItemMetaText}> • </Text>
+                              <Text style={styles.historyItemMetaText}>
+                                {formatTime(exam.timeSpentSeconds || exam.timeSpent || 0)}
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                        <View style={styles.historyItemRight}>
+                          {exam.status === 'completed' && (
+                            <View style={styles.scoreContainer}>
+                              <Text style={styles.scoreText}>
+                                {exam.marksObtained || exam.score || 0}/{exam.totalMarks || exam.maxMarks || 0}
+                              </Text>
+                              <Text style={[styles.percentageText, { color: percentage >= 80 ? '#10B981' : percentage >= 60 ? '#F59E0B' : '#EF4444' }]}>
+                                {percentage.toFixed(1)}%
+                              </Text>
+                            </View>
+                          )}
+                          <Text style={styles.dateText}>
+                            {formatDate(exam.completedAt || exam.finishedAt || exam.createdAt || exam.startTime)}
                           </Text>
                         </View>
-                      </View>
-                    </View>
-                    <View style={styles.historyItemRight}>
-                      {exam.status === 'completed' && (
-                        <View style={styles.scoreContainer}>
-                          <Text style={styles.scoreText}>
-                            {exam.marksObtained || 0}/{exam.totalMarks || 0}
-                          </Text>
-                          <Text style={[styles.percentageText, { color: percentage >= 80 ? '#10B981' : percentage >= 60 ? '#F59E0B' : '#EF4444' }]}>
-                            {percentage.toFixed(1)}%
-                          </Text>
-                        </View>
-                      )}
-                      <Text style={styles.dateText}>{formatDate(exam.completedAt || exam.createdAt)}</Text>
-                    </View>
-                  </TouchableOpacity>
-                );
-              })}
+                      </TouchableOpacity>
+                    );
+                  })
+              ) : (
+                <View style={styles.emptyState}>
+                  <FileText size={48} color="#9CA3AF" />
+                  <Text style={styles.emptyText}>No exams yet</Text>
+                  <Text style={styles.emptySubtext}>Start a quick test to begin!</Text>
+                </View>
+              )}
             </View>
           )}
         </View>

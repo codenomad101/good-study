@@ -863,7 +863,9 @@ class ApiService {
 
   async getDynamicExamHistory() {
     const response = await this.get('/exam/dynamic/history');
-    return { ...response, data: (response.data as any)?.data || [] };
+    // response is { success: true, data: [...] } where data is already the array
+    // So we just return the response as-is, or extract the data array
+    return { ...response, data: Array.isArray(response.data) ? response.data : [] };
   }
 
   async getDynamicExamStats() {
