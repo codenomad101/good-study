@@ -7,9 +7,11 @@ import { useAuth } from '../contexts/AuthContext';
 import { responsiveValues } from '../utils/responsive';
 import AppHeader from './AppHeader';
 import { useRouter } from 'expo-router';
+import { useTranslation } from '../hooks/useTranslation';
 
 const HomeContent: React.FC = () => {
   const { user } = useAuth();
+  const { t } = useTranslation();
   const router = useRouter();
     
   // Fetch data using React Query hooks - must be called unconditionally
@@ -139,7 +141,7 @@ const stats = {
       <View style={styles.welcomeSection}>
         <View style={styles.welcomeHeader}>
           <View style={styles.welcomeTextContainer}>
-            <Text style={styles.welcomeText}>Welcome back,</Text>
+            <Text style={styles.welcomeText}>{t('home.welcomeBack')},</Text>
             <View style={styles.userNameRow}>
               <Text style={styles.userName}>{user?.fullName || 'Student'}! 👋</Text>
               {(() => {
@@ -202,22 +204,22 @@ const stats = {
           <View style={styles.streakMain}>
             <View style={styles.streakTitleRow}>
               <Text style={styles.streakDays}>{stats.currentStreak || 0}</Text>
-              <Text style={styles.streakLabel}>Day Streak 🔥</Text>
+              <Text style={styles.streakLabel}>{t('home.dayStreak')} 🔥</Text>
             </View>
             <View style={styles.streakStatsRow}>
               <View style={styles.streakStatItem}>
                 <Text style={styles.streakStatNumber}>{stats.totalQuestions || 0}</Text>
-                <Text style={styles.streakStatLabel}>Questions</Text>
+                <Text style={styles.streakStatLabel}>{t('home.questions')}</Text>
               </View>
               <View style={styles.streakStatDivider} />
               <View style={styles.streakStatItem}>
                 <Text style={styles.streakStatNumber}>{stats.accuracy || 0}%</Text>
-                <Text style={styles.streakStatLabel}>Accuracy</Text>
+                <Text style={styles.streakStatLabel}>{t('home.accuracy')}</Text>
               </View>
               <View style={styles.streakStatDivider} />
               <View style={styles.streakStatItem}>
                 <Text style={styles.streakStatNumber}>{stats.totalTimeSpent || 0}</Text>
-                <Text style={styles.streakStatLabel}>Min</Text>
+                <Text style={styles.streakStatLabel}>{t('home.min')}</Text>
               </View>
             </View>
           </View>
@@ -252,7 +254,7 @@ const stats = {
       {/* Available Exams */}
       <View style={styles.section}>
         <View style={styles.sectionHeader}>
-          <Text style={styles.sectionTitle}>Available Exams</Text>
+          <Text style={styles.sectionTitle}>{t('home.availableExams')}</Text>
           {availableExams.length > 0 && (
             <TouchableOpacity onPress={() => router.push('/(tabs)/schedule')}>
               <Calendar size={20} color="#2563EB" />
@@ -365,7 +367,7 @@ const stats = {
       {/* Today's Practice */}
       <View style={styles.section}>
         <View style={styles.sectionHeader}>
-          <Text style={styles.sectionTitle}>Today's Practice</Text>
+          <Text style={styles.sectionTitle}>{t('home.todayPractice')}</Text>
           <Text style={styles.dateText}>
             {new Date().toLocaleDateString('en-US', { 
               day: 'numeric', 
@@ -452,7 +454,7 @@ const stats = {
     return (
       <View style={styles.container}>
         <View style={styles.header}>
-          <Text style={styles.title}>Welcome back, {user?.fullName || 'Student'}! 👋</Text>
+            <Text style={styles.title}>{t('home.welcomeBack')}, {user?.fullName || 'Student'}! 👋</Text>
         </View>
         <View style={styles.errorContainer}>
           <Text style={styles.errorText}>Something went wrong</Text>

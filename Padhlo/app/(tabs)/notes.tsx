@@ -40,6 +40,7 @@ import {
 } from '@/hooks/useApi';
 import { showToast } from '@/utils/toast';
 import { apiService } from '@/services/api';
+import { useTranslation } from '@/hooks/useTranslation';
 
 const { width } = Dimensions.get('window');
 const CARD_WIDTH = (width - 48) / 2; // 2 columns with padding
@@ -69,6 +70,7 @@ const COLORS = [
 ];
 
 export default function NotesScreen() {
+  const { t } = useTranslation();
   const [searchQuery, setSearchQuery] = useState('');
   const [showEditor, setShowEditor] = useState(false);
   const [editingNote, setEditingNote] = useState<Note | null>(null);
@@ -246,7 +248,7 @@ export default function NotesScreen() {
 
   const handleCreateNote = async () => {
     if (!formData.title.trim() && !formData.content.trim()) {
-      showToast.error('Please enter a title or content');
+      showToast.error(t('notes.enterTitleOrContent'));
       return;
     }
 
@@ -270,7 +272,7 @@ export default function NotesScreen() {
   const handleUpdateNote = async () => {
     if (!editingNote) return;
     if (!formData.title.trim() && !formData.content.trim()) {
-      showToast.error('Please enter a title or content');
+      showToast.error(t('notes.enterTitleOrContent'));
       return;
     }
 
@@ -503,10 +505,10 @@ export default function NotesScreen() {
   if (isLoading) {
     return (
       <View style={styles.container}>
-        <AppHeader title="Notes" showLogo={true} extraTopSpacing={true} />
+        <AppHeader title={t('notes.title')} showLogo={true} extraTopSpacing={true} />
         <View style={styles.loadingContainer}>
           <ActivityIndicator size="large" color="#2563EB" />
-          <Text style={styles.loadingText}>Loading notes...</Text>
+          <Text style={styles.loadingText}>{t('common.loading')}</Text>
         </View>
       </View>
     );
@@ -514,14 +516,14 @@ export default function NotesScreen() {
 
   return (
     <View style={styles.container}>
-      <AppHeader title="Notes" showLogo={true} extraTopSpacing={true} />
+      <AppHeader title={t('notes.title')} showLogo={true} extraTopSpacing={true} />
       
       {/* Search Bar */}
       <View style={styles.searchContainer}>
         <Search size={20} color="#9CA3AF" style={styles.searchIcon} />
         <TextInput
           style={styles.searchInput}
-          placeholder="Search notes..."
+          placeholder={t('notes.searchNotes')}
           value={searchQuery}
           onChangeText={setSearchQuery}
           placeholderTextColor="#9CA3AF"
@@ -536,7 +538,7 @@ export default function NotesScreen() {
         {/* Pinned Notes Section */}
         {pinnedNotes.length > 0 && (
           <View style={styles.section}>
-            <Text style={styles.sectionTitle}>Pinned</Text>
+            <Text style={styles.sectionTitle}>{t('notes.pinned')}</Text>
             <FlatList
               data={pinnedNotes}
               renderItem={renderNoteCard}
@@ -597,12 +599,12 @@ export default function NotesScreen() {
         {filteredNotes.length === 0 && (
           <View style={styles.emptyState}>
             <Text style={styles.emptyStateText}>
-              {searchQuery ? 'No notes found' : 'No notes yet'}
+              {searchQuery ? t('notes.noNotesFound') : t('notes.noNotesYet')}
             </Text>
             <Text style={styles.emptyStateSubtext}>
               {searchQuery
-                ? 'Try a different search term'
-                : 'Tap the + button to create your first note'}
+                ? t('notes.tryDifferentSearch')
+                : t('notes.createFirstNote')}
             </Text>
           </View>
         )}
@@ -692,7 +694,7 @@ export default function NotesScreen() {
           <ScrollView style={styles.editorContent}>
             <TextInput
               style={styles.editorTitle}
-              placeholder="Title"
+              placeholder={t('notes.titlePlaceholder')}
               value={formData.title}
               onChangeText={(text) => setFormData({ ...formData, title: text })}
               placeholderTextColor="#9CA3AF"
@@ -700,7 +702,7 @@ export default function NotesScreen() {
             />
             <TextInput
               style={styles.editorContentInput}
-              placeholder="Take a note..."
+              placeholder={t('notes.contentPlaceholder')}
               value={formData.content}
               onChangeText={(text) => setFormData({ ...formData, content: text })}
               placeholderTextColor="#9CA3AF"

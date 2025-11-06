@@ -32,6 +32,7 @@ import { useAuth } from '../contexts/AuthContext';
 import { responsiveValues } from '../utils/responsive';
 import { apiService } from '../services/api';
 import { showToast } from '../utils/toast';
+import { useTranslation } from '../hooks/useTranslation';
 
 interface Group {
   groupId: string;
@@ -54,6 +55,7 @@ interface Group {
 
 const CommunityContent: React.FC = () => {
   const { user } = useAuth();
+  const { t } = useTranslation();
   const router = useRouter();
   const [groups, setGroups] = useState<Group[]>([]);
   const [filteredGroups, setFilteredGroups] = useState<Group[]>([]);
@@ -271,7 +273,7 @@ const CommunityContent: React.FC = () => {
       <View style={styles.section}>
         <View style={styles.sectionHeader}>
           <Trophy size={20} color="#F59E0B" />
-          <Text style={styles.sectionTitle}>Top Communities</Text>
+          <Text style={styles.sectionTitle}>{t('community.topCommunities')}</Text>
         </View>
         <ScrollView horizontal showsHorizontalScrollIndicator={false} style={styles.topCommunitiesScroll}>
           {topCommunities.map((group: Group, index: number) => (
@@ -384,7 +386,7 @@ const CommunityContent: React.FC = () => {
           onPress={() => setIsModalVisible(true)}
         >
           <Plus size={20} color="#FFFFFF" />
-          <Text style={styles.createGroupButtonText}>Create New Group</Text>
+          <Text style={styles.createGroupButtonText}>{t('community.createNewGroup')}</Text>
         </TouchableOpacity>
       </View>
 

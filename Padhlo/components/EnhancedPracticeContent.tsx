@@ -32,6 +32,7 @@ import { useCategories } from '../hooks/useCategories';
 import { useUserStats } from '../hooks/useApi';
 import { apiService } from '../services/api';
 import AppHeader from './AppHeader';
+import { useTranslation } from '../hooks/useTranslation';
 
 const { width } = Dimensions.get('window');
 
@@ -103,6 +104,7 @@ interface UserPracticeStats {
 
 const EnhancedPracticeContent: React.FC = () => {
   const { user } = useAuth();
+  const { t } = useTranslation();
   
   // Try to load categories from API, fallback to hardcoded
   const { data: categoriesResponse, isLoading: categoriesLoading } = useCategories();
@@ -671,21 +673,21 @@ const EnhancedPracticeContent: React.FC = () => {
 
         {/* Subtitle and Stats Button */}
         <View style={styles.subtitleSection}>
-          <Text style={styles.subtitle}>Choose a category to start practicing</Text>
+          <Text style={styles.subtitle}>{t('practice.chooseCategory')}</Text>
           {userStats && (
             <TouchableOpacity 
               style={styles.statsButton}
               onPress={() => setShowStats(true)}
             >
               <BarChart3 size={20} color="#3B82F6" />
-              <Text style={styles.statsButtonText}>Statistics</Text>
+              <Text style={styles.statsButtonText}>{t('practice.statistics')}</Text>
             </TouchableOpacity>
           )}
         </View>
 
         {/* Practice Categories */}
         <View style={styles.section}>
-          <Text style={styles.sectionTitle}>Available Categories</Text>
+          <Text style={styles.sectionTitle}>{t('practice.availableCategories')}</Text>
           <View style={styles.practiceContainer}>
             {categories.map((category) => (
               <View key={category.id} style={styles.practiceItem}>
@@ -702,7 +704,7 @@ const EnhancedPracticeContent: React.FC = () => {
                           <Clock size={12} color="#6B7280" />
                           <Text style={styles.practiceMetaText}>15 min</Text>
                         </View>
-                        <Text style={styles.practiceMetaText}>20 questions</Text>
+                        <Text style={styles.practiceMetaText}>20 {t('practice.questions')}</Text>
                       </View>
                     </View>
                   </View>
@@ -712,7 +714,7 @@ const EnhancedPracticeContent: React.FC = () => {
                     onPress={() => loadQuestions(category.id)}
                     disabled={isLoading}
                   >
-                    <Text style={styles.startButtonText}>Start</Text>
+                    <Text style={styles.startButtonText}>{t('practice.start')}</Text>
                   </TouchableOpacity>
                 </View>
                 
@@ -728,7 +730,7 @@ const EnhancedPracticeContent: React.FC = () => {
         {isLoading && (
           <View style={styles.loadingContainer}>
             <ActivityIndicator size="large" color="#3B82F6" />
-            <Text style={styles.loadingText}>Loading questions...</Text>
+            <Text style={styles.loadingText}>{t('practice.loadingQuestions')}</Text>
           </View>
         )}
       </ScrollView>
@@ -744,7 +746,7 @@ const EnhancedPracticeContent: React.FC = () => {
         <View style={styles.questionHeader}>
           <View style={styles.questionCounter}>
             <Text style={styles.questionCounterText}>
-              Question {currentQuestionIndex + 1} of {questions.length}
+              {t('practice.question')} {currentQuestionIndex + 1} {t('practice.of')} {questions.length}
             </Text>
           </View>
           
@@ -763,12 +765,12 @@ const EnhancedPracticeContent: React.FC = () => {
               style={styles.quitButton}
               onPress={() => {
                 Alert.alert(
-                  'Quit Practice Session',
-                  'Are you sure you want to quit? Your progress will be lost.',
+                  t('practice.quit'),
+                  t('practice.quitConfirm'),
                   [
-                    { text: 'Cancel', style: 'cancel' },
+                    { text: t('common.cancel'), style: 'cancel' },
                     { 
-                      text: 'Quit', 
+                      text: t('practice.quit'), 
                       style: 'destructive',
                       onPress: () => {
                         if (timerRef.current) {
@@ -821,7 +823,7 @@ const EnhancedPracticeContent: React.FC = () => {
               styles.navButtonText,
               currentQuestionIndex === 0 && styles.disabledButtonText
             ]}>
-              Previous
+              {t('practice.previousQuestion')}
             </Text>
           </TouchableOpacity>
 
@@ -831,14 +833,14 @@ const EnhancedPracticeContent: React.FC = () => {
               onPress={completeSession}
             >
               <CheckCircle size={20} color="#FFFFFF" />
-              <Text style={styles.completeButtonText}>Complete</Text>
+              <Text style={styles.completeButtonText}>{t('practice.complete')}</Text>
             </TouchableOpacity>
           ) : (
             <TouchableOpacity
               style={styles.navButton}
               onPress={nextQuestion}
             >
-              <Text style={styles.navButtonText}>Next</Text>
+              <Text style={styles.navButtonText}>{t('practice.nextQuestion')}</Text>
               <ArrowRight size={20} color="#3B82F6" />
             </TouchableOpacity>
           )}
@@ -858,16 +860,16 @@ const EnhancedPracticeContent: React.FC = () => {
         <View style={styles.resultsContainer}>
           <View style={styles.resultsHeader}>
             <Trophy size={48} color={scoreColor} />
-            <Text style={styles.resultsTitle}>Session Complete!</Text>
+            <Text style={styles.resultsTitle}>{t('practice.sessionCompleted')}</Text>
             <Text style={styles.resultsSubtitle}>
-              {selectedCategory?.charAt(0).toUpperCase() + selectedCategory?.slice(1)} Practice
+              {selectedCategory?.charAt(0).toUpperCase() + selectedCategory?.slice(1)} {t('practice.title')}
             </Text>
           </View>
 
           <View style={styles.scoreContainer}>
             <View style={styles.scoreItem}>
               <Target size={24} color={scoreColor} />
-              <Text style={styles.scoreLabel}>Score</Text>
+              <Text style={styles.scoreLabel}>{t('practice.score')}</Text>
               <Text style={[styles.scoreValue, { color: scoreColor }]}>
                 {correctAnswers}/{totalQuestions}
               </Text>
@@ -875,7 +877,7 @@ const EnhancedPracticeContent: React.FC = () => {
             
             <View style={styles.scoreItem}>
               <TrendingUp size={24} color={scoreColor} />
-              <Text style={styles.scoreLabel}>Percentage</Text>
+              <Text style={styles.scoreLabel}>{t('practice.percentage')}</Text>
               <Text style={[styles.scoreValue, { color: scoreColor }]}>
                 {percentage.toFixed(1)}%
               </Text>
@@ -883,7 +885,7 @@ const EnhancedPracticeContent: React.FC = () => {
             
             <View style={styles.scoreItem}>
               <Clock size={24} color="#3B82F6" />
-              <Text style={styles.scoreLabel}>Time Taken</Text>
+              <Text style={styles.scoreLabel}>{t('practice.timeSpent')}</Text>
               <Text style={styles.scoreValue}>
                 {Math.floor(timeSpentSeconds / 60)}:{(timeSpentSeconds % 60).toString().padStart(2, '0')}
               </Text>
@@ -904,7 +906,7 @@ const EnhancedPracticeContent: React.FC = () => {
               onPress={resetSession}
             >
               <RefreshCw size={20} color="#FFFFFF" />
-              <Text style={styles.restartButtonText}>Practice Again</Text>
+              <Text style={styles.restartButtonText}>{t('practice.practiceAgain')}</Text>
             </TouchableOpacity>
           </View>
         </View>
@@ -999,7 +1001,7 @@ const EnhancedPracticeContent: React.FC = () => {
       >
         <View style={styles.statsContainer}>
           <View style={styles.statsHeader}>
-            <Text style={styles.statsTitle}>Your Practice Statistics</Text>
+            <Text style={styles.statsTitle}>{t('practice.yourPracticeStatistics')}</Text>
             <TouchableOpacity
               style={styles.closeButton}
               onPress={() => setShowStats(false)}

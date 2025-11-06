@@ -5,8 +5,12 @@ import {
   StyleSheet,
   TouchableOpacity,
   Image,
+  Modal,
+  Pressable,
 } from 'react-native';
+import { Globe, ChevronDown, Check } from 'lucide-react-native';
 import { useAuth } from '../contexts/AuthContext';
+import { useLanguage } from '../contexts/LanguageContext';
 import UserProfileDropdown from './UserProfileDropdown';
 
 interface AppHeaderProps {
@@ -17,7 +21,9 @@ interface AppHeaderProps {
 
 const AppHeader: React.FC<AppHeaderProps> = ({ title, showLogo = true, extraTopSpacing = false }) => {
   const { user } = useAuth();
+  const { language, changeLang } = useLanguage();
   const [showProfileDropdown, setShowProfileDropdown] = useState(false);
+  const [showLanguageDropdown, setShowLanguageDropdown] = useState(false);
 
   return (
     <>
@@ -39,16 +45,69 @@ const AppHeader: React.FC<AppHeaderProps> = ({ title, showLogo = true, extraTopS
           )}
         </View>
         
-        <TouchableOpacity
-          style={styles.profileButton}
-          onPress={() => setShowProfileDropdown(true)}
-        >
-          <Image
-            source={{ uri: user?.profilePictureUrl || 'https://via.placeholder.com/40' }}
-            style={styles.profileImage}
-          />
-        </TouchableOpacity>
+        <View style={styles.rightSection}>
+          {/* Language Switcher */}
+          <TouchableOpacity
+            style={styles.languageButton}
+            onPress={() => setShowLanguageDropdown(true)}
+          >
+            <Globe size={20} color="#FFFFFF" />
+            <Text style={styles.languageText}>{language === 'mr' ? 'मराठी' : 'EN'}</Text>
+            <ChevronDown size={16} color="#FFFFFF" />
+          </TouchableOpacity>
+
+          {/* Profile Button */}
+          <TouchableOpacity
+            style={styles.profileButton}
+            onPress={() => setShowProfileDropdown(true)}
+          >
+            <Image
+              source={{ uri: user?.profilePictureUrl || 'https://via.placeholder.com/40' }}
+              style={styles.profileImage}
+            />
+          </TouchableOpacity>
+        </View>
       </View>
+      
+      {/* Language Dropdown Modal */}
+      <Modal
+        visible={showLanguageDropdown}
+        transparent={true}
+        animationType="fade"
+        onRequestClose={() => setShowLanguageDropdown(false)}
+      >
+        <Pressable
+          style={styles.languageDropdownOverlay}
+          onPress={() => setShowLanguageDropdown(false)}
+        >
+          <View style={styles.languageDropdown} onStartShouldSetResponder={() => true}>
+            <TouchableOpacity
+              style={[styles.languageOption, language === 'en' && styles.languageOptionActive]}
+              onPress={() => {
+                changeLang('en');
+                setShowLanguageDropdown(false);
+              }}
+            >
+              <Text style={[styles.languageOptionText, language === 'en' && styles.languageOptionTextActive]}>
+                English
+              </Text>
+              {language === 'en' && <Check size={18} color="#2563EB" />}
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[styles.languageOption, language === 'mr' && styles.languageOptionActive]}
+              onPress={() => {
+                changeLang('mr');
+                setShowLanguageDropdown(false);
+              }}
+            >
+              <Text style={[styles.languageOptionText, language === 'mr' && styles.languageOptionTextActive]}>
+                मराठी
+              </Text>
+              {language === 'mr' && <Check size={18} color="#2563EB" />}
+            </TouchableOpacity>
+          </View>
+        </Pressable>
+      </Modal>
       
       <UserProfileDropdown
         visible={showProfileDropdown}
@@ -108,6 +167,29 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     color: '#FFFFFF', // White text
   },
+  rightSection: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  languageButton: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    borderRadius: 8,
+    backgroundColor: 'rgba(255, 255, 255, 0.15)',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.3)',
+  },
+  languageText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#FFFFFF',
+    minWidth: 40,
+    textAlign: 'center',
+  },
   profileButton: {
     width: 40,
     height: 40,
@@ -123,6 +205,46 @@ const styles = StyleSheet.create({
     width: 40,
     height: 40,
     borderRadius: 20,
+  },
+  languageDropdownOverlay: {
+    flex: 1,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    justifyContent: 'flex-start',
+    alignItems: 'flex-end',
+    paddingTop: 70,
+    paddingRight: 16,
+  },
+  languageDropdown: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 12,
+    minWidth: 150,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 4 },
+    shadowOpacity: 0.3,
+    shadowRadius: 8,
+    elevation: 8,
+    overflow: 'hidden',
+  },
+  languageOption: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: '#F3F4F6',
+  },
+  languageOptionActive: {
+    backgroundColor: '#EFF6FF',
+  },
+  languageOptionText: {
+    fontSize: 16,
+    fontWeight: '500',
+    color: '#1F2937',
+  },
+  languageOptionTextActive: {
+    fontWeight: '600',
+    color: '#2563EB',
   },
 });
 

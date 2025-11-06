@@ -26,8 +26,10 @@ import {
   Camera,
 } from 'lucide-react-native';
 import { useAuth } from '../contexts/AuthContext';
+import { useLanguage } from '../contexts/LanguageContext';
 import { useRouter } from 'expo-router';
 import { apiService } from '../services/api';
+import { useTranslation } from '../hooks/useTranslation';
 
 const { width } = Dimensions.get('window');
 
@@ -38,6 +40,8 @@ interface UserProfileDropdownProps {
 
 const UserProfileDropdown: React.FC<UserProfileDropdownProps> = ({ visible, onClose }) => {
   const { user, logout, updateProfile } = useAuth();
+  const { language, changeLang } = useLanguage();
+  const { t } = useTranslation();
   const router = useRouter();
   const [selectedPlan, setSelectedPlan] = useState<'lite' | 'pro'>('lite');
   const [isPlansExpanded, setIsPlansExpanded] = useState(false);
@@ -328,17 +332,44 @@ const UserProfileDropdown: React.FC<UserProfileDropdownProps> = ({ visible, onCl
             
             {isSettingsExpanded && (
               <View style={styles.settingsContainer}>
-                <TouchableOpacity style={styles.settingItem}>
-                  <Target size={20} color="#6B7280" />
-                  <Text style={styles.settingText}>Practice Preferences</Text>
+                <View style={styles.settingItem}>
+                  <View style={styles.settingItemLeft}>
+                    <Target size={20} color="#6B7280" />
+                    <Text style={styles.settingText}>Practice Preferences</Text>
+                  </View>
                   <ChevronDown size={20} color="#9CA3AF" />
-                </TouchableOpacity>
+                </View>
                 
-                <TouchableOpacity style={styles.settingItem}>
-                  <Calendar size={20} color="#6B7280" />
-                  <Text style={styles.settingText}>Study Schedule</Text>
+                <View style={styles.settingItem}>
+                  <View style={styles.settingItemLeft}>
+                    <Calendar size={20} color="#6B7280" />
+                    <Text style={styles.settingText}>Study Schedule</Text>
+                  </View>
                   <ChevronDown size={20} color="#9CA3AF" />
-                </TouchableOpacity>
+                </View>
+
+                {/* Language Selector */}
+                <View style={styles.languageSelector}>
+                  <Text style={styles.languageLabel}>Language</Text>
+                  <View style={styles.languageButtons}>
+                    <TouchableOpacity
+                      style={[styles.languageButton, language === 'en' && styles.languageButtonActive]}
+                      onPress={() => changeLang('en')}
+                    >
+                      <Text style={[styles.languageButtonText, language === 'en' && styles.languageButtonTextActive]}>
+                        English
+                      </Text>
+                    </TouchableOpacity>
+                    <TouchableOpacity
+                      style={[styles.languageButton, language === 'mr' && styles.languageButtonActive]}
+                      onPress={() => changeLang('mr')}
+                    >
+                      <Text style={[styles.languageButtonText, language === 'mr' && styles.languageButtonTextActive]}>
+                        मराठी
+                      </Text>
+                    </TouchableOpacity>
+                  </View>
+                </View>
               </View>
             )}
           </View>
@@ -663,11 +694,62 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 1,
   },
+  settingItemLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flex: 1,
+  },
   settingText: {
     flex: 1,
     marginLeft: 12,
     fontSize: 16,
     color: '#374151',
+  },
+  languageSelector: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 8,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 1 },
+    shadowOpacity: 0.05,
+    shadowRadius: 2,
+    elevation: 1,
+  },
+  languageLabel: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#6B7280',
+    marginBottom: 12,
+    textTransform: 'uppercase',
+    letterSpacing: 0.5,
+  },
+  languageButtons: {
+    flexDirection: 'row',
+    gap: 8,
+  },
+  languageButton: {
+    flex: 1,
+    paddingVertical: 10,
+    paddingHorizontal: 16,
+    borderRadius: 8,
+    backgroundColor: '#F3F4F6',
+    alignItems: 'center',
+    justifyContent: 'center',
+    borderWidth: 2,
+    borderColor: 'transparent',
+  },
+  languageButtonActive: {
+    backgroundColor: '#2563EB',
+    borderColor: '#2563EB',
+  },
+  languageButtonText: {
+    fontSize: 14,
+    fontWeight: '600',
+    color: '#6B7280',
+  },
+  languageButtonTextActive: {
+    color: '#FFFFFF',
   },
   logoutButton: {
     backgroundColor: '#FFFFFF',
