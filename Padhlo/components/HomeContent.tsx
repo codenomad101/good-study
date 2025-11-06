@@ -225,6 +225,30 @@ const stats = {
         </View>
       </View>
 
+      {/* Check Out Cards */}
+      <View style={styles.checkOutSection}>
+        <Text style={styles.checkOutTitle}>Check out</Text>
+        <View style={styles.checkOutCards}>
+          <TouchableOpacity 
+            style={styles.checkOutCard}
+            onPress={() => router.push('/(tabs)/leaderboard')}
+          >
+            <Trophy size={24} color="#F59E0B" />
+            <Text style={styles.checkOutCardTitle}>Leaderboard</Text>
+            <Text style={styles.checkOutCardSubtitle}>See rankings</Text>
+          </TouchableOpacity>
+          
+          <TouchableOpacity 
+            style={styles.checkOutCard}
+            onPress={() => router.push('/(tabs)/schedule')}
+          >
+            <Calendar size={24} color="#2563EB" />
+            <Text style={styles.checkOutCardTitle}>Schedule</Text>
+            <Text style={styles.checkOutCardSubtitle}>Plan your study</Text>
+          </TouchableOpacity>
+        </View>
+      </View>
+
       {/* Available Exams */}
       <View style={styles.section}>
         <View style={styles.sectionHeader}>
@@ -342,7 +366,13 @@ const stats = {
       <View style={styles.section}>
         <View style={styles.sectionHeader}>
           <Text style={styles.sectionTitle}>Today's Practice</Text>
-          <Text style={styles.dateText}>15 Oct 2025</Text>
+          <Text style={styles.dateText}>
+            {new Date().toLocaleDateString('en-US', { 
+              day: 'numeric', 
+              month: 'short', 
+              year: 'numeric' 
+            })}
+          </Text>
         </View>
         <View style={styles.practiceContainer}>
           {mockDailyTopics.map((topic, idx) => (
@@ -587,6 +617,47 @@ const styles = StyleSheet.create({
     color: '#6B7280',
     textAlign: 'center',
     marginTop: 4,
+  },
+  checkOutSection: {
+    paddingHorizontal: responsiveValues.padding.medium,
+    marginBottom: responsiveValues.margin.medium,
+  },
+  checkOutTitle: {
+    fontSize: responsiveValues.fontSize.small,
+    fontWeight: '600',
+    color: '#6B7280',
+    marginBottom: responsiveValues.margin.small,
+    textTransform: 'uppercase',
+    letterSpacing: 0.5,
+  },
+  checkOutCards: {
+    flexDirection: 'row',
+    gap: 12,
+  },
+  checkOutCard: {
+    flex: 1,
+    backgroundColor: '#FFFFFF',
+    borderRadius: 12,
+    padding: 16,
+    alignItems: 'center',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
+    borderWidth: 1,
+    borderColor: '#E5E7EB',
+  },
+  checkOutCardTitle: {
+    fontSize: responsiveValues.fontSize.medium,
+    fontWeight: '600',
+    color: '#1F2937',
+    marginTop: 8,
+    marginBottom: 4,
+  },
+  checkOutCardSubtitle: {
+    fontSize: responsiveValues.fontSize.xs,
+    color: '#6B7280',
   },
   section: {
     marginBottom: responsiveValues.padding.medium,

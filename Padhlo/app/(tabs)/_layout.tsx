@@ -23,53 +23,52 @@ export default function TabLayout() {
           borderTopWidth: 0,
         },
         tabBarLabelStyle: {
-          fontSize: 10,
+          fontSize: 9,
           fontWeight: '500',
         },
         tabBarItemStyle: {
-          paddingHorizontal: 0,
+          paddingHorizontal: -4,
         },
       }}>
       <Tabs.Screen
         name="index"
         options={{
           title: 'Home',
-          tabBarIcon: ({ color }) => <IconSymbol size={15} name="house.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={18} name="house.fill" color={color} />,
         }}
       />
       <Tabs.Screen
         name="practice"
         options={{
           title: 'Practice',
-          tabBarIcon: ({ color }) => <IconSymbol size={15} name="play.circle.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={18} name="play.circle.fill" color={color} />,
         }}
       />
       <Tabs.Screen
         name="exam"
         options={{
           title: 'Exam',
-          tabBarIcon: ({ color }) => <IconSymbol size={15} name="doc.text.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={18} name="doc.text.fill" color={color} />,
         }}
       />
       <Tabs.Screen
         name="community"
         options={{
           title: 'Community',
-          tabBarIcon: ({ color }) => <IconSymbol size={15} name="person.2.fill" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={18} name="person.2.fill" color={color} />,
         }}
       />
       <Tabs.Screen
         name="notes"
         options={{
           title: 'Notes',
-          tabBarIcon: ({ color }) => <IconSymbol size={15} name="note.text" color={color} />,
+          tabBarIcon: ({ color }) => <IconSymbol size={18} name="note.text" color={color} />,
         }}
       />
       <Tabs.Screen
         name="schedule"
         options={{
-          title: 'Schedule',
-          tabBarIcon: ({ color }) => <IconSymbol size={15} name="calendar" color={color} />,
+          href: null,
         }}
       />
       <Tabs.Screen
