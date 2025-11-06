@@ -27,6 +27,9 @@ import {
   Archive,
   Image as ImageIcon,
   Paperclip,
+  ChevronDown,
+  ChevronUp,
+  Calendar,
 } from 'lucide-react-native';
 import * as ImagePicker from 'expo-image-picker';
 import {
@@ -79,6 +82,7 @@ export default function NotesScreen() {
     isPinned: false,
     attachments: [] as Attachment[],
   });
+  const [expandedDates, setExpandedDates] = useState<Set<string>>(new Set());
 
   const { data: notesResponse, isLoading, refetch } = useNotes({
     archived: 'false',
@@ -172,6 +176,73 @@ export default function NotesScreen() {
 
   const pinnedNotes = filteredNotes.filter((n) => n.isPinned);
   const unpinnedNotes = filteredNotes.filter((n) => !n.isPinned);
+
+  // Group notes by date
+  const groupNotesByDate = (notesList: Note[]) => {
+    const grouped: { [key: string]: Note[] } = {};
+    
+    notesList.forEach((note) => {
+      const dateStr = note.createdAt ? new Date(note.createdAt).toLocaleDateString('en-US', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric'
+      }) : 'No Date';
+      
+      if (!grouped[dateStr]) {
+        grouped[dateStr] = [];
+      }
+      grouped[dateStr].push(note);
+    });
+    
+    // Sort notes within each date group (newest first)
+    Object.keys(grouped).forEach(date => {
+      grouped[date].sort((a, b) => {
+        const dateA = new Date(a.createdAt || 0).getTime();
+        const dateB = new Date(b.createdAt || 0).getTime();
+        return dateB - dateA;
+      });
+    });
+    
+    return grouped;
+  };
+
+  // Get sorted dates (newest first)
+  const getSortedDates = (grouped: { [key: string]: Note[] }) => {
+    return Object.keys(grouped).sort((a, b) => {
+      // Try to parse dates, fallback to string comparison
+      const dateA = grouped[a][0]?.createdAt ? new Date(grouped[a][0].createdAt).getTime() : 0;
+      const dateB = grouped[b][0]?.createdAt ? new Date(grouped[b][0].createdAt).getTime() : 0;
+      return dateB - dateA;
+    });
+  };
+
+  const toggleDateSection = (date: string) => {
+    const newExpanded = new Set(expandedDates);
+    if (newExpanded.has(date)) {
+      newExpanded.delete(date);
+    } else {
+      newExpanded.add(date);
+    }
+    setExpandedDates(newExpanded);
+  };
+
+  // Initialize all dates as expanded by default when notes change
+  useEffect(() => {
+    if (unpinnedNotes.length > 0) {
+      const grouped = groupNotesByDate(unpinnedNotes);
+      const dates = getSortedDates(grouped);
+      // Add new dates to expanded set, but keep existing expanded state
+      setExpandedDates(prev => {
+        const newSet = new Set(prev);
+        dates.forEach(date => {
+          if (!newSet.has(date)) {
+            newSet.add(date);
+          }
+        });
+        return newSet;
+      });
+    }
+  }, [unpinnedNotes.length]);
 
   const handleCreateNote = async () => {
     if (!formData.title.trim() && !formData.content.trim()) {
@@ -477,22 +548,50 @@ export default function NotesScreen() {
           </View>
         )}
 
-        {/* Other Notes Section */}
-        {unpinnedNotes.length > 0 && (
-          <View style={styles.section}>
-            {pinnedNotes.length > 0 && (
-              <Text style={styles.sectionTitle}>Others</Text>
-            )}
-            <FlatList
-              data={unpinnedNotes}
-              renderItem={renderNoteCard}
-              keyExtractor={(item) => item.noteId}
-              numColumns={2}
-              scrollEnabled={false}
-              columnWrapperStyle={styles.row}
-            />
-          </View>
-        )}
+        {/* Notes Grouped by Date */}
+        {unpinnedNotes.length > 0 && (() => {
+          const groupedByDate = groupNotesByDate(unpinnedNotes);
+          const sortedDates = getSortedDates(groupedByDate);
+          
+          return sortedDates.map((date) => {
+            const dateNotes = groupedByDate[date];
+            const isExpanded = expandedDates.has(date);
+            
+            return (
+              <View key={date} style={styles.dateSection}>
+                <TouchableOpacity
+                  style={styles.dateHeader}
+                  onPress={() => toggleDateSection(date)}
+                  activeOpacity={0.7}
+                >
+                  <View style={styles.dateHeaderContent}>
+                    <Calendar size={18} color="#6B7280" />
+                    <Text style={styles.dateHeaderText}>{date}</Text>
+                    <Text style={styles.dateNoteCount}>({dateNotes.length})</Text>
+                  </View>
+                  {isExpanded ? (
+                    <ChevronUp size={20} color="#6B7280" />
+                  ) : (
+                    <ChevronDown size={20} color="#6B7280" />
+                  )}
+                </TouchableOpacity>
+                
+                {isExpanded && (
+                  <View style={styles.dateNotesContainer}>
+                    <FlatList
+                      data={dateNotes}
+                      renderItem={renderNoteCard}
+                      keyExtractor={(item) => item.noteId}
+                      numColumns={2}
+                      scrollEnabled={false}
+                      columnWrapperStyle={styles.row}
+                    />
+                  </View>
+                )}
+              </View>
+            );
+          });
+        })()}
 
         {/* Empty State */}
         {filteredNotes.length === 0 && (
@@ -699,6 +798,40 @@ const styles = StyleSheet.create({
     marginBottom: 12,
     textTransform: 'uppercase',
     letterSpacing: 0.5,
+  },
+  dateSection: {
+    marginBottom: 16,
+  },
+  dateHeader: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    backgroundColor: '#FFFFFF',
+    paddingHorizontal: 16,
+    paddingVertical: 12,
+    borderRadius: 8,
+    marginBottom: 8,
+    borderWidth: 1,
+    borderColor: '#E5E7EB',
+  },
+  dateHeaderContent: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    flex: 1,
+  },
+  dateHeaderText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#1F2937',
+  },
+  dateNoteCount: {
+    fontSize: 14,
+    color: '#6B7280',
+    fontWeight: '500',
+  },
+  dateNotesContainer: {
+    paddingHorizontal: 0,
   },
   row: {
     justifyContent: 'space-between',
