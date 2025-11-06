@@ -8,7 +8,10 @@ import {
   ScrollView,
   Image,
   Dimensions,
+  ActivityIndicator,
+  Alert,
 } from 'react-native';
+import * as ImagePicker from 'expo-image-picker';
 import {
   User,
   Crown,
@@ -20,9 +23,11 @@ import {
   Calendar,
   ChevronDown,
   ChevronUp,
+  Camera,
 } from 'lucide-react-native';
 import { useAuth } from '../contexts/AuthContext';
 import { useRouter } from 'expo-router';
+import { apiService } from '../services/api';
 
 const { width } = Dimensions.get('window');
 
@@ -32,12 +37,13 @@ interface UserProfileDropdownProps {
 }
 
 const UserProfileDropdown: React.FC<UserProfileDropdownProps> = ({ visible, onClose }) => {
-  const { user, logout } = useAuth();
+  const { user, logout, updateProfile } = useAuth();
   const router = useRouter();
   const [selectedPlan, setSelectedPlan] = useState<'lite' | 'pro'>('lite');
   const [isPlansExpanded, setIsPlansExpanded] = useState(false);
   const [isRankingsExpanded, setIsRankingsExpanded] = useState(false);
   const [isSettingsExpanded, setIsSettingsExpanded] = useState(false);
+  const [uploadingImage, setUploadingImage] = useState(false);
 
   const handleLogout = () => {
     onClose();
@@ -53,6 +59,59 @@ const UserProfileDropdown: React.FC<UserProfileDropdownProps> = ({ visible, onCl
     onClose();
     // Navigate to settings when settings page is created
     // router.push('/(tabs)/settings');
+  };
+
+  const handlePickProfileImage = async () => {
+    try {
+      // Request permission
+      const { status } = await ImagePicker.requestMediaLibraryPermissionsAsync();
+      if (status !== 'granted') {
+        Alert.alert('Permission Required', 'Permission to access camera roll is required to upload profile picture.');
+        return;
+      }
+
+      // Launch image picker
+      const result = await ImagePicker.launchImageLibraryAsync({
+        mediaTypes: ImagePicker.MediaTypeOptions.Images,
+        allowsEditing: true,
+        aspect: [1, 1],
+        quality: 0.8,
+      });
+
+      if (!result.canceled && result.assets && result.assets.length > 0) {
+        const asset = result.assets[0];
+        
+        // Upload the image
+        setUploadingImage(true);
+        try {
+          const uploadResponse = await apiService.uploadNoteAttachment(
+            asset.uri,
+            `profile-${Date.now()}.jpg`,
+            asset.mimeType || 'image/jpeg'
+          );
+
+          if (uploadResponse.success && uploadResponse.data?.url) {
+            // Update profile with new picture URL
+            await updateProfile({
+              profilePictureUrl: uploadResponse.data.url,
+            });
+            
+            Alert.alert('Success', 'Profile picture updated successfully!');
+          } else {
+            Alert.alert('Error', 'Failed to upload image. Please try again.');
+          }
+        } catch (uploadError: any) {
+          console.error('[UserProfile] Error uploading image:', uploadError);
+          Alert.alert('Error', uploadError?.message || 'Failed to upload image');
+        } finally {
+          setUploadingImage(false);
+        }
+      }
+    } catch (error: any) {
+      console.error('[UserProfile] Error picking image:', error);
+      Alert.alert('Error', 'Failed to pick image');
+      setUploadingImage(false);
+    }
   };
 
   const renderPlanCard = (planType: 'lite' | 'pro', title: string, price: string, features: string[], isPopular: boolean = false) => (
@@ -121,12 +180,27 @@ const UserProfileDropdown: React.FC<UserProfileDropdownProps> = ({ visible, onCl
         <ScrollView style={styles.content}>
           {/* User Info Section */}
           <View style={styles.userInfoSection}>
-            <View style={styles.userAvatar}>
-            <Image
-              source={{ uri: user?.profilePictureUrl || 'https://via.placeholder.com/80' }}
-              style={styles.avatarImage}
-            />
-            </View>
+            <TouchableOpacity 
+              style={styles.userAvatar}
+              onPress={handlePickProfileImage}
+              disabled={uploadingImage}
+            >
+              {uploadingImage ? (
+                <View style={styles.avatarLoading}>
+                  <ActivityIndicator size="small" color="#2563EB" />
+                </View>
+              ) : (
+                <View style={styles.avatarContainer}>
+                  <Image
+                    source={{ uri: user?.profilePictureUrl || 'https://via.placeholder.com/80' }}
+                    style={styles.avatarImage}
+                  />
+                  <View style={styles.avatarEditOverlay}>
+                    <Camera size={20} color="#FFFFFF" />
+                  </View>
+                </View>
+              )}
+            </TouchableOpacity>
             
             <View style={styles.userDetails}>
               <Text style={styles.userName}>{user?.fullName || 'User Name'}</Text>
@@ -337,11 +411,38 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     marginRight: 16,
+    overflow: 'hidden',
+  },
+  avatarContainer: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    position: 'relative',
   },
   avatarImage: {
     width: 80,
     height: 80,
     borderRadius: 40,
+  },
+  avatarEditOverlay: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    height: 30,
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderBottomLeftRadius: 40,
+    borderBottomRightRadius: 40,
+  },
+  avatarLoading: {
+    width: 80,
+    height: 80,
+    borderRadius: 40,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#F3F4F6',
   },
   userDetails: {
     flex: 1,
