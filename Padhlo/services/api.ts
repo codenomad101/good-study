@@ -898,12 +898,16 @@ class ApiService {
       params.append('subjectId', subjectId);
     }
     const response = await this.get(`/statistics/leaderboard?${params.toString()}`);
-    return { ...response, data: (response.data as any)?.data };
+    // Response structure: { success: true, data: [...], message: "..." }
+    // So response.data is already the array, not { data: [...] }
+    return { ...response, data: Array.isArray(response.data) ? response.data : (response.data as any)?.data || [] };
   }
 
   async getUserRank(period: 'daily' | 'weekly' | 'monthly' | 'alltime' = 'alltime') {
     const response = await this.get(`/statistics/rank?period=${period}`);
-    return { ...response, data: (response.data as any)?.data };
+    // Response structure: { success: true, data: { rank: 1 }, message: "..." }
+    // So response.data is already { rank: 1 }, not { data: { rank: 1 } }
+    return { ...response, data: response.data };
   }
 
   async getAvailableSubjects() {

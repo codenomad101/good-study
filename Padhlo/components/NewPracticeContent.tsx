@@ -25,6 +25,7 @@ import {
 import { useAuth } from '../contexts/AuthContext';
 import { responsiveValues } from '../utils/responsive';
 import { API_BASE_URL } from '@/config/api';
+import { useCompletePracticeSession } from '../../hooks/usePractice';
 
 const { width } = Dimensions.get('window');
 
@@ -62,6 +63,7 @@ interface PracticeSession {
 
 const PracticeContent: React.FC = () => {
   const { user } = useAuth();
+  const completeSessionMutation = useCompletePracticeSession();
   const [categories, setCategories] = useState<PracticeCategory[]>([]);
   const [selectedCategory, setSelectedCategory] = useState<string>('');
   const [isLoading, setIsLoading] = useState(false);
@@ -212,36 +214,26 @@ const PracticeContent: React.FC = () => {
     stopTimer();
 
     try {
-      const response = await fetch(`${API_BASE_URL}/practice/sessions/${currentSession.sessionId}/complete`, {
-        method: 'PATCH',
-        headers: {
-          'Authorization': `Bearer ${user?.token}`,
-        },
-      });
-
-      const data = await response.json();
+      // Use the hook which automatically invalidates leaderboard and stats queries
+      await completeSessionMutation.mutateAsync(currentSession.sessionId);
       
-      if (data.success) {
-        // Calculate stats
-        const correct = Object.keys(userAnswers).filter(
-          qId => userAnswers[qId] === questions.find(q => q.questionId === qId)?.correctAnswer
-        ).length;
-        const attempted = Object.keys(userAnswers).length;
-        const skipped = questions.length - attempted;
+      // Calculate stats
+      const correct = Object.keys(userAnswers).filter(
+        qId => userAnswers[qId] === questions.find(q => q.questionId === qId)?.correctAnswer
+      ).length;
+      const attempted = Object.keys(userAnswers).length;
+      const skipped = questions.length - attempted;
 
-        setSessionStats({
-          correct,
-          incorrect: attempted - correct,
-          skipped,
-          total: questions.length
-        });
-        setShowResults(true);
-      } else {
-        Alert.alert('Error', data.message || 'Failed to complete session');
-      }
-    } catch (error) {
+      setSessionStats({
+        correct,
+        incorrect: attempted - correct,
+        skipped,
+        total: questions.length
+      });
+      setShowResults(true);
+    } catch (error: any) {
       console.error('Error completing session:', error);
-      Alert.alert('Error', 'Failed to complete session');
+      Alert.alert('Error', error?.message || 'Failed to complete session');
     }
   };
 

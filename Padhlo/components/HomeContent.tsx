@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { View, Text, StyleSheet, ScrollView, TouchableOpacity, ActivityIndicator, Alert, Image } from 'react-native';
 import { BookOpen, Trophy, Target, Clock, TrendingUp, Award, CheckCircle, Bell, Calendar, Users, FileText, Play, Crown, Rocket, Star } from 'lucide-react-native';
 import { useExams, useUserStats, useSubjectWiseProgress, useSubscriptionStatus, useReminders, useAvailableExams } from '../hooks/useApi';
+import { useUserRank } from '../hooks/useStatistics';
 import { useAuth } from '../contexts/AuthContext';
 import { responsiveValues } from '../utils/responsive';
 import AppHeader from './AppHeader';
@@ -18,6 +19,7 @@ const HomeContent: React.FC = () => {
   const { data: subscriptionData } = useSubscriptionStatus();
   const { data: remindersResponse, isLoading: remindersLoading, error: remindersError } = useReminders({ upcoming: 'true' });
   const { data: availableExamsResponse, isLoading: availableExamsLoading, error: availableExamsError } = useAvailableExams({ upcoming: 'true' });
+  const { data: userRankResponse, isLoading: rankLoading } = useUserRank('alltime');
 
 
 
@@ -136,9 +138,33 @@ const stats = {
       {/* Welcome Section */}
       <View style={styles.welcomeSection}>
         <View style={styles.welcomeHeader}>
-          <View>
+          <View style={styles.welcomeTextContainer}>
             <Text style={styles.welcomeText}>Welcome back,</Text>
-            <Text style={styles.userName}>{user?.fullName || 'Student'}! 👋</Text>
+            <View style={styles.userNameRow}>
+              <Text style={styles.userName}>{user?.fullName || 'Student'}! 👋</Text>
+              {(() => {
+                // userRankResponse structure: { success: true, data: { rank: 1 }, message: "..." }
+                // So userRankResponse.data is { rank: 1 }
+                const userRank = userRankResponse?.data?.rank;
+                console.log('[HomeContent] User Rank Debug:', {
+                  userRankResponse,
+                  userRankData: userRankResponse?.data,
+                  userRank,
+                });
+                if (userRank && userRank > 0) {
+                  return (
+                    <TouchableOpacity 
+                      style={styles.rankBadge}
+                      onPress={() => router.push('/(tabs)/leaderboard')}
+                    >
+                      <Trophy size={14} color="#F59E0B" />
+                      <Text style={styles.rankText}>Rank #{userRank}</Text>
+                    </TouchableOpacity>
+                  );
+                }
+                return null;
+              })()}
+            </View>
           </View>
           {/* Current Plan Badge */}
           {(() => {
@@ -294,10 +320,10 @@ const stats = {
               <Text style={styles.retryButtonText}>Retry</Text>
             </TouchableOpacity>
           </View>
-        ) : (
+        ) : examsList.length > 0 ? (
           <ScrollView horizontal showsHorizontalScrollIndicator={false}>
             <View style={styles.examsContainer}>
-              {examsList.length > 0 ? examsList.map((exam: any) => (
+              {examsList.map((exam: any) => (
                 <TouchableOpacity key={exam.examId || exam.id} style={styles.examCard}>
                   <Text style={styles.examName}>{exam.examName || exam.name || 'Exam'}</Text>
                   <Text style={styles.examDescription}>{exam.description || 'Practice exam'}</Text>
@@ -306,15 +332,10 @@ const stats = {
                     <Text style={styles.examStat}>{exam.durationMinutes || 'N/A'} min</Text>
                   </View>
                 </TouchableOpacity>
-              )) : (
-                <View style={styles.noDataContainer}>
-                  <Text style={styles.noDataText}>No exams available</Text>
-                  <Text style={styles.noDataSubtext}>Check back later for new content</Text>
-                </View>
-              )}
+              ))}
             </View>
           </ScrollView>
-        )}
+        ) : null}
       </View>
 
       {/* Today's Practice */}
@@ -420,8 +441,32 @@ const styles = StyleSheet.create({
   welcomeHeader: {
     flexDirection: 'row',
     justifyContent: 'space-between',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     width: '100%',
+  },
+  welcomeTextContainer: {
+    flex: 1,
+  },
+  userNameRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    flexWrap: 'wrap',
+  },
+  rankBadge: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    backgroundColor: '#FEF3C7',
+    paddingHorizontal: 10,
+    paddingVertical: 4,
+    borderRadius: 12,
+    gap: 4,
+    marginTop: 4,
+  },
+  rankText: {
+    fontSize: 12,
+    fontWeight: '600',
+    color: '#92400E',
   },
   welcomeSection: {
     paddingHorizontal: 16,

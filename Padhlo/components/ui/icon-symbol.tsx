@@ -23,6 +23,9 @@ const MAPPING = {
   'person.2.fill': 'group',
   'list.clipboard.fill': 'assignment',
   'doc.text.fill': 'description',
+  'note.text': 'note',
+  'calendar': 'calendar-today',
+  'trophy.fill': 'emoji-events',
 } as IconMapping;
 
 /**
