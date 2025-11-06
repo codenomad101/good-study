@@ -569,7 +569,7 @@ const styles = StyleSheet.create({
     backgroundColor: '#F9FAFB',
   },
   heroSection: {
-    backgroundColor: '#667eea',
+    backgroundColor: '#F97316',
     padding: 24,
     alignItems: 'center',
     paddingTop: 32,
@@ -583,7 +583,7 @@ const styles = StyleSheet.create({
   },
   heroSubtitle: {
     fontSize: 16,
-    color: '#FFFFFF',
+    color: '#FED7AA',
     marginBottom: 20,
     textAlign: 'center',
   },
@@ -597,7 +597,7 @@ const styles = StyleSheet.create({
     gap: 8,
   },
   createGroupButtonText: {
-    color: '#667eea',
+    color: '#F97316',
     fontSize: 16,
     fontWeight: '600',
   },

@@ -62,6 +62,7 @@ const GroupDetailScreen: React.FC = () => {
   const [isLoadingGroup, setIsLoadingGroup] = useState(true);
   const [isLoadingPosts, setIsLoadingPosts] = useState(true);
   const [requestsData, setRequestsData] = useState<any[]>([]);
+  const [canViewRequests, setCanViewRequests] = useState(false);
   
   const createPostMutation = useCreatePost();
   const joinGroupMutation = useJoinGroup();
@@ -74,6 +75,13 @@ const GroupDetailScreen: React.FC = () => {
       checkMembership();
     }
   }, [groupId, user]);
+
+  // Re-check authorization when group data is loaded
+  useEffect(() => {
+    if (group && members.length > 0 && user?.userId) {
+      checkAuthorization();
+    }
+  }, [group, members, user]);
 
   // Fetch posts when member
   useEffect(() => {
@@ -150,42 +158,77 @@ const GroupDetailScreen: React.FC = () => {
         m.userId === user.userId || m.user?.userId === user.userId
       );
       setIsMember(userIsMember);
-
-      // Check for pending join request
-      try {
-        const requestsResponse = await apiService.getJoinRequests(groupId);
-        console.log('[GroupDetail] Join requests response:', JSON.stringify(requestsResponse, null, 2));
-        
-        let requestsArray: any[] = [];
-        const requestsDataResp = requestsResponse?.data as any;
-        
-        if (Array.isArray(requestsDataResp)) {
-          requestsArray = requestsDataResp;
-        } else if (requestsDataResp?.data && Array.isArray(requestsDataResp.data)) {
-          requestsArray = requestsDataResp.data;
-        } else if (typeof requestsDataResp === 'object' && !Array.isArray(requestsDataResp)) {
-          const objectKeys = Object.keys(requestsDataResp).filter(key => key !== 'data' && !isNaN(Number(key)));
-          if (objectKeys.length > 0) {
-            requestsArray = objectKeys
-              .sort((a, b) => Number(a) - Number(b))
-              .map(key => requestsDataResp[key])
-              .filter((item: any) => item && item.requestId);
-          }
-        }
-        
-        setRequestsData(requestsArray);
-        const pending = requestsArray.find((r: any) => 
-          (r.userId === user.userId || r.user?.userId === user.userId) && 
-          r.status === 'pending'
-        );
-        setHasPendingRequest(!!pending);
-      } catch (error) {
-        // User might not have permission to view requests, that's okay
-        setHasPendingRequest(false);
-      }
     } catch (error) {
       console.error('[GroupDetail] Error checking membership:', error);
       setIsMember(false);
+    }
+  };
+
+  const checkAuthorization = async () => {
+    if (!groupId || !user?.userId || !group) return;
+    
+    try {
+      // Check if user can view join requests (only for admins/moderators/creators)
+      // First check if user is the group creator
+      const isCreator = group.createdBy === user.userId;
+      
+      // Then check if user is a member with admin or moderator role
+      const userMember = members.find((m: any) => 
+        (m.userId === user.userId || m.user?.userId === user.userId)
+      );
+      const isAdminOrModerator = userMember && 
+        (userMember.role === 'admin' || userMember.role === 'moderator');
+      
+      const canView = isCreator || isAdminOrModerator;
+      setCanViewRequests(canView);
+
+      // Only fetch join requests if user is authorized (admin/moderator/creator)
+      if (canView) {
+        try {
+          const requestsResponse = await apiService.getJoinRequests(groupId);
+          console.log('[GroupDetail] Join requests response:', JSON.stringify(requestsResponse, null, 2));
+          
+          let requestsArray: any[] = [];
+          const requestsDataResp = requestsResponse?.data as any;
+          
+          if (Array.isArray(requestsDataResp)) {
+            requestsArray = requestsDataResp;
+          } else if (requestsDataResp?.data && Array.isArray(requestsDataResp.data)) {
+            requestsArray = requestsDataResp.data;
+          } else if (typeof requestsDataResp === 'object' && !Array.isArray(requestsDataResp)) {
+            const objectKeys = Object.keys(requestsDataResp).filter(key => key !== 'data' && !isNaN(Number(key)));
+            if (objectKeys.length > 0) {
+              requestsArray = objectKeys
+                .sort((a, b) => Number(a) - Number(b))
+                .map(key => requestsDataResp[key])
+                .filter((item: any) => item && item.requestId);
+            }
+          }
+          
+          setRequestsData(requestsArray);
+          
+          // Also check if current user has a pending request (for display purposes)
+          const pending = requestsArray.find((r: any) => 
+            (r.userId === user.userId || r.user?.userId === user.userId) && 
+            r.status === 'pending'
+          );
+          setHasPendingRequest(!!pending);
+        } catch (error: any) {
+          console.error('[GroupDetail] Error fetching join requests:', error);
+          // If error is 403 (unauthorized), user is not admin, set canViewRequests to false
+          if (error?.message?.includes('403') || error?.message?.includes('not authorized')) {
+            setCanViewRequests(false);
+          }
+          setRequestsData([]);
+        }
+      } else {
+        // User is not authorized, don't try to fetch requests
+        // This prevents the error from showing
+        setRequestsData([]);
+      }
+    } catch (error) {
+      console.error('[GroupDetail] Error checking authorization:', error);
+      setCanViewRequests(false);
     }
   };
 
