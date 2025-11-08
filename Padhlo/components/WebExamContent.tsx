@@ -247,7 +247,7 @@ export default function ExamContent() {
           errorMessage.includes('Network error')) {
         userTitle = 'Connection Error';
         // Get the base URL from the API service if available
-        const baseURL = 'http://10.46.150.205:3000'; // Current IP from api.ts
+        const baseURL = 'http://192.168.1.169:3000'; // Current IP from api.ts
         const fullURL = `${baseURL}/api${endpoint}`;
         userMessage = 'Cannot connect to server. Please check:\n\n' +
           '1. Server is running on port 3000\n' +
@@ -396,7 +396,7 @@ export default function ExamContent() {
   if (showExamCreator) {
     return (
       <View style={styles.container}>
-        <AppHeader title="Exam" showLogo={true} extraTopSpacing={true} />
+        <AppHeader showLogo={true} extraTopSpacing={true} />
         <View style={styles.examHeader}>
           <TouchableOpacity
             style={styles.backButton}
@@ -415,7 +415,7 @@ export default function ExamContent() {
 
   return (
     <View style={styles.container}>
-      <AppHeader title="Exams" showLogo={true} extraTopSpacing={true} />
+      <AppHeader showLogo={true} extraTopSpacing={true} />
       
       {/* Subtitle */}
       <View style={styles.subtitleContainer}>

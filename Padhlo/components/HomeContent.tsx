@@ -134,7 +134,7 @@ const stats = {
 
   const renderHome = () => (
     <View style={styles.container}>
-      <AppHeader title="Home" showLogo={true} />
+      <AppHeader showLogo={true} />
       
       {/* Welcome Section */}
       <View style={styles.welcomeSection}>

@@ -609,7 +609,7 @@ const EnhancedPracticeContent: React.FC = () => {
 
   const renderCategorySelection = () => (
     <View style={styles.container}>
-      <AppHeader title="Practice" showLogo={true} extraTopSpacing={true} />
+      <AppHeader showLogo={true} extraTopSpacing={true} />
       
       <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
         {/* Your Progress - Styled like streak card */}
@@ -1107,7 +1107,7 @@ const EnhancedPracticeContent: React.FC = () => {
   if (categoriesLoading) {
     return (
       <View style={styles.container}>
-        <AppHeader title="Practice" showLogo={true} extraTopSpacing={true} />
+        <AppHeader showLogo={true} extraTopSpacing={true} />
         <View style={styles.loadingContainer}>
           <ActivityIndicator size="large" color="#3B82F6" />
           <Text style={styles.loadingText}>Loading Categories...</Text>

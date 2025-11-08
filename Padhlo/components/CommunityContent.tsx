@@ -301,17 +301,17 @@ const CommunityContent: React.FC = () => {
               )}
               <View style={styles.topCommunityStats}>
                 <View style={styles.statItem}>
-                  <MessageCircle size={12} color="#667eea" />
+                  <MessageCircle size={10} color="#667eea" />
                   <Text style={styles.statNumber}>{group.postCount || 0}</Text>
                   <Text style={styles.statLabel}>Posts</Text>
                 </View>
                 <View style={styles.statItem}>
-                  <MessageCircle size={12} color="#764ba2" />
+                  <MessageCircle size={10} color="#764ba2" />
                   <Text style={styles.statNumber}>{group.commentCount || 0}</Text>
                   <Text style={styles.statLabel}>Comments</Text>
                 </View>
                 <View style={styles.statItem}>
-                  <Users size={12} color="#f59e0b" />
+                  <Users size={10} color="#f59e0b" />
                   <Text style={styles.statNumber}>{group.memberCount || 0}</Text>
                   <Text style={styles.statLabel}>Members</Text>
                 </View>
@@ -375,7 +375,7 @@ const CommunityContent: React.FC = () => {
 
   return (
     <View style={styles.container}>
-      <AppHeader title="Community" showLogo={true} extraTopSpacing={true} />
+      <AppHeader showLogo={true} extraTopSpacing={true} />
       
       {/* Hero Section */}
       <View style={styles.heroSection}>
@@ -625,7 +625,7 @@ const styles = StyleSheet.create({
   topCommunityCard: {
     backgroundColor: '#FFFFFF',
     borderRadius: 10,
-    padding: 10,
+    padding: 8,
     marginRight: 10,
     marginBottom: 12,
     shadowColor: '#000',
@@ -634,6 +634,8 @@ const styles = StyleSheet.create({
     shadowRadius: 4,
     elevation: 3,
     position: 'relative',
+    minHeight: 140,
+    maxHeight: 160,
   },
   rankBadge: {
     position: 'absolute',
@@ -653,17 +655,17 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
   },
   topCommunityAvatar: {
-    width: 32,
-    height: 32,
-    borderRadius: 16,
+    width: 28,
+    height: 28,
+    borderRadius: 14,
     backgroundColor: '#EFF6FF',
     alignItems: 'center',
     justifyContent: 'center',
-    marginBottom: 6,
+    marginBottom: 4,
     alignSelf: 'center',
   },
   avatarText: {
-    fontSize: 14,
+    fontSize: 12,
     fontWeight: 'bold',
     color: '#667eea',
   },
@@ -673,16 +675,16 @@ const styles = StyleSheet.create({
     color: '#667eea',
   },
   topCommunityName: {
-    fontSize: 13,
+    fontSize: 12,
     fontWeight: '600',
     color: '#1F2937',
-    marginBottom: 3,
+    marginBottom: 2,
     textAlign: 'center',
   },
   topCommunityDescription: {
-    fontSize: 10,
+    fontSize: 9,
     color: '#6B7280',
-    marginBottom: 4,
+    marginBottom: 3,
     textAlign: 'center',
   },
   topCommunityCreator: {
@@ -693,11 +695,11 @@ const styles = StyleSheet.create({
   },
   examTypeTag: {
     backgroundColor: '#EFF6FF',
-    borderRadius: 8,
-    paddingHorizontal: 5,
-    paddingVertical: 2,
+    borderRadius: 6,
+    paddingHorizontal: 4,
+    paddingVertical: 1,
     alignSelf: 'center',
-    marginBottom: 4,
+    marginBottom: 3,
   },
   examTypeText: {
     color: '#2563EB',
@@ -707,19 +709,19 @@ const styles = StyleSheet.create({
   topCommunityStats: {
     flexDirection: 'row',
     justifyContent: 'space-around',
-    marginTop: 4,
+    marginTop: 2,
   },
   statItem: {
     alignItems: 'center',
-    gap: 3,
+    gap: 2,
   },
   statNumber: {
-    fontSize: 12,
+    fontSize: 11,
     fontWeight: 'bold',
     color: '#1F2937',
   },
   statLabel: {
-    fontSize: 9,
+    fontSize: 8,
     color: '#6B7280',
   },
   tabsContainer: {

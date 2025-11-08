@@ -8,10 +8,13 @@ import {
   Modal,
   Pressable,
 } from 'react-native';
-import { Globe, ChevronDown, Check } from 'lucide-react-native';
+import { Globe, ChevronDown, Check, Bell } from 'lucide-react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { useAuth } from '../contexts/AuthContext';
 import { useLanguage } from '../contexts/LanguageContext';
 import UserProfileDropdown from './UserProfileDropdown';
+import NotificationDropdown from './NotificationDropdown';
+import { useUnreadCount } from '../hooks/useNotifications';
 
 interface AppHeaderProps {
   title?: string;
@@ -22,12 +25,15 @@ interface AppHeaderProps {
 const AppHeader: React.FC<AppHeaderProps> = ({ title, showLogo = true, extraTopSpacing = false }) => {
   const { user } = useAuth();
   const { language, changeLang } = useLanguage();
+  const { data: unreadCount = 0 } = useUnreadCount();
+  const insets = useSafeAreaInsets();
   const [showProfileDropdown, setShowProfileDropdown] = useState(false);
   const [showLanguageDropdown, setShowLanguageDropdown] = useState(false);
+  const [showNotificationDropdown, setShowNotificationDropdown] = useState(false);
 
   return (
     <>
-      <View style={[styles.header, extraTopSpacing && styles.headerWithExtraSpacing]}>
+      <View style={[styles.header, { paddingTop: insets.top + 8 }, extraTopSpacing && styles.headerWithExtraSpacing]}>
         <View style={styles.leftSection}>
           {showLogo && (
             <View style={styles.logoContainer}>
@@ -54,6 +60,21 @@ const AppHeader: React.FC<AppHeaderProps> = ({ title, showLogo = true, extraTopS
             <Globe size={20} color="#FFFFFF" />
             <Text style={styles.languageText}>{language === 'mr' ? 'मराठी' : 'EN'}</Text>
             <ChevronDown size={16} color="#FFFFFF" />
+          </TouchableOpacity>
+
+          {/* Notification Button */}
+          <TouchableOpacity
+            style={styles.notificationButton}
+            onPress={() => setShowNotificationDropdown(true)}
+          >
+            <Bell size={20} color="#FFFFFF" />
+            {unreadCount > 0 && (
+              <View style={styles.notificationBadge}>
+                <Text style={styles.notificationBadgeText}>
+                  {unreadCount > 99 ? '99+' : unreadCount}
+                </Text>
+              </View>
+            )}
           </TouchableOpacity>
 
           {/* Profile Button */}
@@ -109,6 +130,11 @@ const AppHeader: React.FC<AppHeaderProps> = ({ title, showLogo = true, extraTopS
         </Pressable>
       </Modal>
       
+      <NotificationDropdown
+        visible={showNotificationDropdown}
+        onClose={() => setShowNotificationDropdown(false)}
+      />
+      
       <UserProfileDropdown
         visible={showProfileDropdown}
         onClose={() => setShowProfileDropdown(false)}
@@ -123,14 +149,13 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingHorizontal: 16,
-    paddingTop: 8,
     paddingBottom: 12,
     backgroundColor: '#1E3A8A', // Dark blue
     borderBottomWidth: 1,
     borderBottomColor: '#1E40AF',
   },
   headerWithExtraSpacing: {
-    paddingTop: 32, // Increased spacing more
+    // Additional spacing is now handled by insets.top in inline style
   },
   leftSection: {
     flexDirection: 'row',
@@ -189,6 +214,36 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     minWidth: 40,
     textAlign: 'center',
+  },
+  notificationButton: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    backgroundColor: 'rgba(255, 255, 255, 0.15)',
+    justifyContent: 'center',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: 'rgba(255, 255, 255, 0.3)',
+    position: 'relative',
+  },
+  notificationBadge: {
+    position: 'absolute',
+    top: -2,
+    right: -2,
+    backgroundColor: '#EF4444',
+    borderRadius: 10,
+    minWidth: 18,
+    height: 18,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 4,
+    borderWidth: 2,
+    borderColor: '#1E3A8A',
+  },
+  notificationBadgeText: {
+    color: '#FFFFFF',
+    fontSize: 10,
+    fontWeight: '700',
   },
   profileButton: {
     width: 40,

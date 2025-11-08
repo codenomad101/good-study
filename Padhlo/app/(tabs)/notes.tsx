@@ -505,7 +505,7 @@ export default function NotesScreen() {
   if (isLoading) {
     return (
       <View style={styles.container}>
-        <AppHeader title={t('notes.title')} showLogo={true} extraTopSpacing={true} />
+        <AppHeader showLogo={true} extraTopSpacing={true} />
         <View style={styles.loadingContainer}>
           <ActivityIndicator size="large" color="#2563EB" />
           <Text style={styles.loadingText}>{t('common.loading')}</Text>
@@ -516,7 +516,7 @@ export default function NotesScreen() {
 
   return (
     <View style={styles.container}>
-      <AppHeader title={t('notes.title')} showLogo={true} extraTopSpacing={true} />
+      <AppHeader showLogo={true} extraTopSpacing={true} />
       
       {/* Search Bar */}
       <View style={styles.searchContainer}>

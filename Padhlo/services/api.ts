@@ -878,6 +878,30 @@ class ApiService {
     return { ...response, data: (response.data as any)?.data };
   }
 
+  // Notifications API methods
+  async getNotifications() {
+    const response = await this.get('/notifications');
+    // Response structure: { success: true, data: { notifications: [...], unreadCount: number } }
+    return response;
+  }
+
+  async getUnreadCount() {
+    const response = await this.get('/notifications/unread-count');
+    return response;
+  }
+
+  async markNotificationAsRead(notificationId: string) {
+    return this.put(`/notifications/${notificationId}/read`, {});
+  }
+
+  async markAllNotificationsAsRead() {
+    return this.put('/notifications/read-all', {});
+  }
+
+  async deleteNotification(notificationId: string) {
+    return this.delete(`/notifications/${notificationId}`);
+  }
+
   // Statistics API methods
  async getUserStatistics() {
   const response = await this.get('/statistics/user');
