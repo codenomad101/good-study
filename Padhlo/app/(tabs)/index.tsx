@@ -1,11 +1,11 @@
+
 import React from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import ExamPrepApp from '../../components/ExamPrepApp';
 import HomeContent from '../../components/HomeContent';
 import { LoginScreen, RegisterScreen } from '../../components/AuthScreens';
-import { View, StyleSheet, Alert, Text, ActivityIndicator } from 'react-native';
+import { View, StyleSheet, Alert, Text, StatusBar } from 'react-native';
 import { useState } from 'react';
-import { SafeAreaView } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
   const { isAuthenticated, isLoading, login, register, logout } = useAuth();
@@ -46,12 +46,17 @@ export default function HomeScreen() {
   };
 
   if (isLoading) {
-    return <View style={styles.loadingContainer} />;
+    return (
+      <View style={styles.loadingContainer}>
+        <StatusBar barStyle="dark-content" backgroundColor="#FFFFFF" />
+      </View>
+    );
   }
 
   if (!isAuthenticated) {
     return (
       <View style={styles.container}>
+        <StatusBar barStyle="dark-content" backgroundColor="#FFFFFF" />
         {isLoginScreen ? (
           <LoginScreen
             onLogin={handleLogin}
@@ -69,11 +74,12 @@ export default function HomeScreen() {
 
   // Wrap HomeContent with error boundary
   return (
-    <SafeAreaView style={styles.container} edges={['top']}>
+    <View style={styles.container}>
+      <StatusBar barStyle="light-content" backgroundColor="#3B82F6" />
       <ErrorBoundary>
         <HomeContent />
       </ErrorBoundary>
-    </SafeAreaView>
+    </View>
   );
 }
 
