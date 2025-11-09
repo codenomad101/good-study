@@ -779,11 +779,31 @@ export const useNotes = (params?: { archived?: string; pinned?: string; category
   return useQuery({
     queryKey: ['notes', params],
     queryFn: async () => {
-      const response = await apiService.getNotes(params);
-      console.log('[useNotes] Response from API:', JSON.stringify(response, null, 2));
-      return response;
+      try {
+        const response = await apiService.getNotes(params);
+        if (__DEV__) {
+          console.log('[useNotes] Response from API:', JSON.stringify(response, null, 2));
+        }
+        return response;
+      } catch (error: any) {
+        // Handle 403 subscription errors gracefully
+        if (error?.status === 403 && error?.requiresUpgrade) {
+          // Return empty array for free plan users - PremiumFeatureGate will handle the UI
+          if (__DEV__) {
+            console.log('[useNotes] Subscription required, returning empty array');
+          }
+          return {
+            success: true,
+            data: [],
+            requiresUpgrade: true,
+            message: error.message
+          };
+        }
+        // Re-throw other errors
+        throw error;
+      }
     },
-    retry: 1,
+    retry: false, // Don't retry on subscription errors
     staleTime: 2 * 60 * 1000, // 2 minutes
   });
 };

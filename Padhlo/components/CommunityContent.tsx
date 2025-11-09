@@ -572,10 +572,12 @@ const styles = StyleSheet.create({
   },
   heroSection: {
     backgroundColor: '#F97316',
-    padding: 24,
+    padding: 20,
     alignItems: 'center',
-    paddingTop: 32,
+    paddingTop: 20,
     paddingBottom: 32,
+    marginTop: 16,
+    borderRadius:20
   },
   heroTitle: {
     fontSize: 28,

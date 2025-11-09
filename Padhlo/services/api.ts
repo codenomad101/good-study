@@ -181,7 +181,13 @@ class ApiService {
           throw new Error(`${data?.message || 'Validation failed'}: ${validationMsg}`);
         }
         
-        throw new Error(data?.message || data?.error || `HTTP error! status: ${response.status}`);
+        // Create error with additional context for subscription errors
+        const error = new Error(data?.message || data?.error || `HTTP error! status: ${response.status}`);
+        (error as any).status = response.status;
+        (error as any).requiresUpgrade = data?.requiresUpgrade || false;
+        (error as any).currentPlan = data?.currentPlan;
+        (error as any).availablePlans = data?.availablePlans;
+        throw error;
       }
 
       if (__DEV__) {
@@ -1045,7 +1051,9 @@ class ApiService {
     
     const queryString = queryParams.toString();
     const response = await this.get(`/notes${queryString ? `?${queryString}` : ''}`);
-    console.log('[API] getNotes raw response:', JSON.stringify(response, null, 2));
+    if (__DEV__) {
+      console.log('[API] getNotes raw response:', JSON.stringify(response, null, 2));
+    }
     // Backend returns { success: true, data: [...] }
     return response;
   }

@@ -82,6 +82,7 @@ const PracticeContent: React.FC = () => {
 
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const questionStartTimeRef = useRef<number>(Date.now());
+  const sessionStartTimeRef = useRef<number>(Date.now());
 
   // Load practice categories
   useEffect(() => {
@@ -136,6 +137,7 @@ const PracticeContent: React.FC = () => {
         setCurrentQuestionIndex(0);
         setUserAnswers({});
         setShowResults(false);
+        sessionStartTimeRef.current = Date.now(); // Track session start time
         startTimer();
       } else {
         Alert.alert('Error', data.message || 'Failed to start practice session');
@@ -214,8 +216,14 @@ const PracticeContent: React.FC = () => {
     stopTimer();
 
     try {
+      // Calculate total time spent in seconds
+      const totalTimeSpent = Math.floor((Date.now() - sessionStartTimeRef.current) / 1000);
+      
       // Use the hook which automatically invalidates leaderboard and stats queries
-      await completeSessionMutation.mutateAsync(currentSession.sessionId);
+      await completeSessionMutation.mutateAsync({
+        sessionId: currentSession.sessionId,
+        timeSpentSeconds: totalTimeSpent
+      });
       
       // Calculate stats
       const correct = Object.keys(userAnswers).filter(
@@ -232,7 +240,9 @@ const PracticeContent: React.FC = () => {
       });
       setShowResults(true);
     } catch (error: any) {
-      console.error('Error completing session:', error);
+      if (__DEV__) {
+        console.error('Error completing session:', error);
+      }
       Alert.alert('Error', error?.message || 'Failed to complete session');
     }
   };
@@ -244,6 +254,7 @@ const PracticeContent: React.FC = () => {
     setUserAnswers({});
     setTimeRemaining(0);
     setShowResults(false);
+    sessionStartTimeRef.current = Date.now();
     stopTimer();
   };
 

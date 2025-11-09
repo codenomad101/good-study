@@ -183,7 +183,7 @@ app.listen(PORT, '0.0.0.0', () => {
   console.log(`👑 Admin endpoints: http://localhost:${PORT}/api/admin`);
   console.log(`📖 Study endpoints: http://localhost:${PORT}/api/study`);
   console.log(`🌐 Web app: http://localhost:${PORT}`);
-  console.log(`📱 Mobile Cockpit API accessible at: http://10.170.176.205:${PORT}/api`);
+  console.log(`📱 Mobile Cockpit API accessible at: http://10.99.89.205:${PORT}/api`);
   console.log(`📱 For Android emulator, use: http://10.0.2.2:${PORT}/api`);
   
   if (isDevelopment) {

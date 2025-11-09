@@ -97,11 +97,15 @@ export default function NotesScreen() {
   // Parse notes from response - handle different response structures
   const notes: Note[] = useMemo(() => {
     if (!notesResponse) {
-      console.log('[Notes] No notesResponse yet');
+      if (__DEV__) {
+        console.log('[Notes] No notesResponse yet');
+      }
       return [];
     }
     
-    console.log('[Notes] Raw notesResponse:', JSON.stringify(notesResponse, null, 2));
+    if (__DEV__) {
+      console.log('[Notes] Raw notesResponse:', JSON.stringify(notesResponse, null, 2));
+    }
     
     let notesArray: any[] = [];
     const responseData = notesResponse?.data as any;
@@ -127,7 +131,9 @@ export default function NotesScreen() {
       }
     }
     
-    console.log('[Notes] Extracted notesArray:', notesArray.length, notesArray);
+    if (__DEV__) {
+      console.log('[Notes] Extracted notesArray:', notesArray.length, notesArray);
+    }
     
     // Map backend field names to frontend field names
     // Backend schema (userPersonalNotes) uses: noteId, title, content, color, isPinned, isArchived
@@ -147,11 +153,15 @@ export default function NotesScreen() {
           createdAt: note.createdAt || note.created_at || '',
           updatedAt: note.updatedAt || note.updated_at || '',
         };
-        console.log('[Notes] Mapped note:', mapped);
+        if (__DEV__) {
+          console.log('[Notes] Mapped note:', mapped);
+        }
         return mapped;
       });
     
-    console.log('[Notes] Final mapped notes count:', mappedNotes.length);
+    if (__DEV__) {
+      console.log('[Notes] Final mapped notes count:', mappedNotes.length);
+    }
     return mappedNotes;
   }, [notesResponse]);
 
@@ -265,7 +275,9 @@ export default function NotesScreen() {
       await refetch();
       closeEditor();
     } catch (error: any) {
-      console.error('[Notes] Error creating note:', error);
+      if (__DEV__) {
+        console.error('[Notes] Error creating note:', error);
+      }
       showToast.error(error?.message || 'Failed to create note');
     }
   };
@@ -292,7 +304,9 @@ export default function NotesScreen() {
       await refetch();
       closeEditor();
     } catch (error: any) {
-      console.error('[Notes] Error updating note:', error);
+      if (__DEV__) {
+        console.error('[Notes] Error updating note:', error);
+      }
       showToast.error(error?.message || 'Failed to update note');
     }
   };
@@ -303,7 +317,9 @@ export default function NotesScreen() {
       showToast.success('Note deleted successfully');
       await refetch();
     } catch (error: any) {
-      console.error('[Notes] Error deleting note:', error);
+      if (__DEV__) {
+        console.error('[Notes] Error deleting note:', error);
+      }
       showToast.error(error?.message || 'Failed to delete note');
     }
   };
@@ -316,7 +332,9 @@ export default function NotesScreen() {
       });
       await refetch();
     } catch (error: any) {
-      console.error('[Notes] Error toggling pin:', error);
+      if (__DEV__) {
+        console.error('[Notes] Error toggling pin:', error);
+      }
       showToast.error(error?.message || 'Failed to update note');
     }
   };
@@ -396,12 +414,16 @@ export default function NotesScreen() {
             showToast.error('Failed to upload image');
           }
         } catch (uploadError: any) {
-          console.error('[Notes] Error uploading image:', uploadError);
+          if (__DEV__) {
+            console.error('[Notes] Error uploading image:', uploadError);
+          }
           showToast.error(uploadError?.message || 'Failed to upload image');
         }
       }
     } catch (error: any) {
-      console.error('[Notes] Error picking image:', error);
+      if (__DEV__) {
+        console.error('[Notes] Error picking image:', error);
+      }
       showToast.error('Failed to pick image');
     }
   };
@@ -522,13 +544,13 @@ export default function NotesScreen() {
       
       {/* Search Bar */}
       <View style={styles.searchContainer}>
-        <Search size={20} color="#9CA3AF" style={styles.searchIcon} />
+        <Search size={20} color="#FFFFFF" style={styles.searchIcon} />
         <TextInput
           style={styles.searchInput}
           placeholder={t('notes.searchNotes')}
           value={searchQuery}
           onChangeText={setSearchQuery}
-          placeholderTextColor="#9CA3AF"
+          placeholderTextColor="#FED7AA"
         />
       </View>
 
@@ -768,23 +790,27 @@ const styles = StyleSheet.create({
   searchContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#FFFFFF',
+    backgroundColor: '#F97316',
     marginHorizontal: 16,
-    marginTop: 8,
+    marginTop: 24,
     marginBottom: 12,
-    paddingHorizontal: 12,
-    paddingVertical: 10,
+    paddingHorizontal: 20,
+    paddingVertical: 16,
     borderRadius: 12,
-    borderWidth: 1,
-    borderColor: '#E5E7EB',
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.1,
+    shadowRadius: 4,
+    elevation: 3,
   },
   searchIcon: {
-    marginRight: 8,
+    marginRight: 12,
   },
   searchInput: {
     flex: 1,
     fontSize: 16,
-    color: '#1F2937',
+    color: '#FFFFFF',
+    fontWeight: '500',
   },
   content: {
     flex: 1,
