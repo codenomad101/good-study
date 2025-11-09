@@ -14,6 +14,7 @@ import {
 } from 'react-native';
 import { Mail, Lock, Eye, EyeOff, User, Phone } from 'lucide-react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { showToast } from '../utils/toast';
 
 interface LoginScreenProps {
   onLogin: (emailOrUsername: string, password: string) => void;
@@ -163,9 +164,36 @@ export const RegisterScreen: React.FC<RegisterScreenProps> = ({ onRegister, onSw
 
     setIsLoading(true);
     try {
-      await onRegister({ firstName, lastName, email, phone, password });
-    } catch (error) {
-      Alert.alert('Registration Failed', 'Please try again');
+      // Combine firstName and lastName into fullName for backend
+      const fullName = `${firstName.trim()} ${lastName.trim()}`.trim();
+      await onRegister({ 
+        fullName,
+        email: email.trim(), 
+        phone: phone?.trim() || undefined, 
+        password 
+      });
+    } catch (error: any) {
+      const errorMessage = error?.message || 'Registration failed. Please try again.';
+      
+      // Normalize error message (remove API wrapper text)
+      const normalizedMessage = errorMessage
+        .replace(/Error processing response from[^:]+: /, '')
+        .replace(/Error calling[^:]+: /, '');
+      
+      // Show toast for duplicate phone number error
+      if (normalizedMessage.includes('phone number') || normalizedMessage.includes('cannot use the same phone number')) {
+        showToast.error(normalizedMessage, 'Phone Number Already Registered');
+      } 
+      // Show toast for duplicate email/username error
+      else if (normalizedMessage.includes('email') && normalizedMessage.includes('already exists') || 
+               normalizedMessage.includes('username') && normalizedMessage.includes('already exists') ||
+               normalizedMessage.includes('User with this email or username already exists')) {
+        showToast.error('This email or username is already registered. Please use a different email or login instead.', 'Account Already Exists');
+      }
+      // Show toast for other errors
+      else {
+        showToast.error(normalizedMessage, 'Registration Failed');
+      }
     } finally {
       setIsLoading(false);
     }

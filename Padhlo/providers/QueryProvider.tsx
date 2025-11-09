@@ -8,9 +8,13 @@ const queryClient = new QueryClient({
       retry: 2,
       staleTime: 5 * 60 * 1000, // 5 minutes
       gcTime: 10 * 60 * 1000, // 10 minutes (formerly cacheTime)
+      // Suppress default error notifications - errors are handled in components
+      onError: () => {},
     },
     mutations: {
       retry: 1,
+      // Suppress default error notifications - errors are handled in components with toast
+      onError: () => {},
     },
   },
 });

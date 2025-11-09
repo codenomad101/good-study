@@ -446,14 +446,61 @@ export class DynamicExamService {
               return hay.includes(dist.topic.toLowerCase());
             });
           }
-          // Shuffle and select required number of questions
-          const shuffled = filtered.sort(() => Math.random() - 0.5);
-          const selectedQuestions = shuffled.slice(0, Math.min(dist.count, shuffled.length));
+          
+          // Separate questions by difficulty for balanced selection
+          const hardQuestions = filtered.filter((q: any) => {
+            const difficulty = (q.Difficulty || q.difficulty || '').toString().toLowerCase();
+            return difficulty === 'hard' || difficulty === 'difficult';
+          });
+          
+          const mediumQuestions = filtered.filter((q: any) => {
+            const difficulty = (q.Difficulty || q.difficulty || '').toString().toLowerCase();
+            return difficulty === 'medium' || difficulty === 'moderate';
+          });
+          
+          // Easy questions are those that are explicitly marked easy or have no difficulty marked
+          const easyQuestions = filtered.filter((q: any) => {
+            const difficulty = (q.Difficulty || q.difficulty || '').toString().toLowerCase();
+            if (difficulty === 'easy') return true;
+            // If no difficulty is marked, treat as easy (but not if it's already in hard or medium)
+            if (!difficulty || difficulty === '') {
+              return !hardQuestions.includes(q) && !mediumQuestions.includes(q);
+            }
+            return false;
+          });
+          
+          // Calculate distribution: 30% hard, 40% medium, 30% easy (if available)
+          const requiredCount = Math.min(dist.count, filtered.length);
+          const hardCount = Math.min(Math.ceil(requiredCount * 0.3), hardQuestions.length);
+          const mediumCount = Math.min(Math.ceil(requiredCount * 0.4), mediumQuestions.length);
+          const easyCount = requiredCount - hardCount - mediumCount;
+          
+          // Shuffle each difficulty group
+          const shuffledHard = hardQuestions.sort(() => Math.random() - 0.5);
+          const shuffledMedium = mediumQuestions.sort(() => Math.random() - 0.5);
+          const shuffledEasy = easyQuestions.sort(() => Math.random() - 0.5);
+          
+          // Select questions from each difficulty group
+          const selectedQuestions: any[] = [];
+          selectedQuestions.push(...shuffledHard.slice(0, hardCount));
+          selectedQuestions.push(...shuffledMedium.slice(0, mediumCount));
+          selectedQuestions.push(...shuffledEasy.slice(0, easyCount));
+          
+          // If we still need more questions, fill from remaining
+          if (selectedQuestions.length < requiredCount) {
+            const remaining = filtered.filter(q => !selectedQuestions.includes(q));
+            const shuffledRemaining = remaining.sort(() => Math.random() - 0.5);
+            selectedQuestions.push(...shuffledRemaining.slice(0, requiredCount - selectedQuestions.length));
+          }
+          
+          // Final shuffle to mix difficulties
+          const finalShuffled = selectedQuestions.sort(() => Math.random() - 0.5);
+          const selectedQuestionsFinal = finalShuffled.slice(0, requiredCount);
 
-          console.log(`Selected ${selectedQuestions.length} questions for category ${dist.category}`);
+          console.log(`Selected ${selectedQuestionsFinal.length} questions for category ${dist.category} (Hard: ${hardCount}, Medium: ${mediumCount}, Easy: ${easyCount})`);
 
           // Validate questions before processing
-          selectedQuestions.forEach((q: any, index: number) => {
+          selectedQuestionsFinal.forEach((q: any, index: number) => {
             const correctAnswer = q.CorrectAnswer || q.correctAnswer || '';
             if (!correctAnswer) {
               console.error(`Question ${index + 1} missing correct answer:`, {
@@ -466,7 +513,7 @@ export class DynamicExamService {
           });
 
           // Transform to our format
-          const formattedQuestions = selectedQuestions.map((q: any, index: number) => {
+          const formattedQuestions = selectedQuestionsFinal.map((q: any, index: number) => {
             // Process options first
             const processedOptions = q.Options ? q.Options.map((opt: any, optIndex: number) => {
               // Handle different option formats

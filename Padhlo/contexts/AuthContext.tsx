@@ -145,7 +145,11 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         throw new Error(result.message || 'Registration failed');
       }
     } catch (error: any) {
-      console.error('Registration error:', error);
+      // Don't log to console in production to avoid error notifications
+      // Error is already handled in the component with toast
+      if (__DEV__) {
+        console.error('Registration error:', error);
+      }
       throw new Error(error.message || 'Registration failed');
     } finally {
       setIsLoading(false);

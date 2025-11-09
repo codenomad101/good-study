@@ -29,10 +29,11 @@ import {
 import { useAuth } from '../contexts/AuthContext';
 import { usePracticeCategories, useCreatePracticeSession, useUpdatePracticeAnswer, useCompletePracticeSession } from '../hooks/usePractice';
 import { useCategories } from '../hooks/useCategories';
-import { useUserStats } from '../hooks/useApi';
+import { useUserStats, useRemainingSessions } from '../hooks/useApi';
 import { apiService } from '../services/api';
 import AppHeader from './AppHeader';
 import { useTranslation } from '../hooks/useTranslation';
+import { useRouter } from 'expo-router';
 
 const { width } = Dimensions.get('window');
 
@@ -156,6 +157,8 @@ const EnhancedPracticeContent: React.FC = () => {
   const createSessionMutation = useCreatePracticeSession();
   const updateAnswerMutation = useUpdatePracticeAnswer();
   const completeSessionMutation = useCompletePracticeSession();
+  const { data: remainingSessions, refetch: refetchRemainingSessions } = useRemainingSessions();
+  const router = useRouter();
 
   useEffect(() => {
     if (statsError) {
@@ -322,13 +325,34 @@ const EnhancedPracticeContent: React.FC = () => {
             // Prefer slug over UUID, as that's what the web frontend uses
             const categoryForServer = categoryObj?.slug || categoryObj?.categoryId || categoryToUse.trim();
             
-         
+            // Check remaining practice sessions for free plan
+            if (remainingSessions && remainingSessions.practice !== -1 && remainingSessions.practice <= 0) {
+              Alert.alert(
+                'Daily Practice Limit Reached',
+                'You have reached your daily limit of 3 practice sessions. Upgrade to Pro for unlimited sessions or try again tomorrow.',
+                [
+                  { text: 'Cancel', style: 'cancel', onPress: () => setIsLoading(false) },
+                  { 
+                    text: 'Upgrade to Pro', 
+                    onPress: () => {
+                      setIsLoading(false);
+                      router.push('/(tabs)/pricing');
+                    },
+                    style: 'default'
+                  }
+                ]
+              );
+              return;
+            }
             
             const sessionResult = await createSessionMutation.mutateAsync({
               category: categoryForServer, // Send slug or UUID to server
               timeLimitMinutes: 15,
               language: 'en'
             });
+            
+            // Refetch remaining sessions after creating practice session
+            await refetchRemainingSessions();
             
             
             // The response structure is { success: true, data: { sessionId, questions, ... } }
@@ -356,7 +380,24 @@ const EnhancedPracticeContent: React.FC = () => {
           } else {
           }
         } catch (error: any) {
-        
+          console.error('[EnhancedPractice] Error creating session:', error);
+          // Check if it's a session limit error
+          if (error?.response?.status === 403 && error?.response?.data?.requiresUpgrade) {
+            Alert.alert(
+              'Daily Practice Limit Reached',
+              error.response.data.message || 'You have reached your daily limit of 3 practice sessions. Upgrade to Pro for unlimited sessions.',
+              [
+                { text: 'Cancel', style: 'cancel' },
+                { 
+                  text: 'Upgrade to Pro', 
+                  onPress: () => router.push('/(tabs)/pricing'),
+                  style: 'default'
+                }
+              ]
+            );
+            setIsLoading(false);
+            return;
+          }
           // Continue with local session - don't block the user
         }
       } else {

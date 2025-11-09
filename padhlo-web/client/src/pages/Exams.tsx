@@ -41,7 +41,8 @@ import {
 import { AppLayout } from '../components/AppLayout';
 import { useCategories } from '../hooks/useCategories';
 import { useExamHistory, useResumeExam, useCreateDynamicExam } from '../hooks/useExams';
-import { message } from 'antd';
+import { useRemainingSessions } from '../hooks/useSubscription';
+import { message, Modal } from 'antd';
 
 const { Title, Text, Paragraph } = Typography;
 
@@ -53,6 +54,7 @@ export default function Exams() {
   const { data: examHistoryData = [], isLoading: historyLoading } = useExamHistory();
   const resumeExamMutation = useResumeExam();
   const createExamMutation = useCreateDynamicExam();
+  const { data: remainingSessions, refetch: refetchRemainingSessions } = useRemainingSessions();
   
   const examHistory = examHistoryData || [];
   const [showResultsModal, setShowResultsModal] = useState(false);
@@ -64,13 +66,114 @@ export default function Exams() {
       return;
     }
 
-    // Create equal distribution across available categories
-    const questionsPerCategory = Math.ceil(totalQuestions / categories.length);
-    const distribution = categories.map((cat) => ({
-      category: cat.id,
-      count: questionsPerCategory,
-      marksPerQuestion: 2
-    }));
+    // Check remaining exam sessions for free plan
+    if (remainingSessions && remainingSessions.exam !== -1 && remainingSessions.exam <= 0) {
+      Modal.warning({
+        title: 'Daily Exam Limit Reached',
+        content: 'You have reached your daily limit of 3 exam sessions. Upgrade to Pro for unlimited sessions or try again tomorrow.',
+        okText: 'Upgrade to Pro',
+        cancelText: 'Cancel',
+        onOk: () => {
+          window.location.href = '/pricing';
+        },
+      });
+      return;
+    }
+
+    // Ensure all categories are included (including Marathi)
+    const numCategories = categories.length;
+    
+    // Calculate minimum questions per category based on exam size
+    // For 20 questions: try for at least 2 per category, but adjust if needed
+    // For 40+ questions: at least 3 per category
+    let minQuestionsPerCategory: number;
+    if (totalQuestions <= 20) {
+      // For 20 questions: if we have 11 categories, we can't do 2 each (would be 22)
+      // So calculate: floor(20/11) = 1, but we want at least 1-2
+      minQuestionsPerCategory = Math.max(1, Math.floor(totalQuestions / numCategories));
+      // If possible, ensure at least 2 for most categories
+      if (totalQuestions >= numCategories * 2) {
+        minQuestionsPerCategory = 2;
+      }
+    } else {
+      // For 40+ questions: at least 3 per category
+      minQuestionsPerCategory = Math.max(3, Math.floor(totalQuestions / numCategories));
+      if (totalQuestions >= numCategories * 3) {
+        minQuestionsPerCategory = 3;
+      }
+    }
+    
+    // Calculate distribution: each category gets minimum, then distribute remaining
+    const baseQuestions = minQuestionsPerCategory * numCategories;
+    const remainingQuestions = Math.max(0, totalQuestions - baseQuestions);
+    
+    // Priority categories for extra questions: Polity, Economy, History, Science, GK, Current Affairs
+    const priorityCategories = ['polity', 'economy', 'history', 'science', 'gk', 'current-affairs'];
+    
+    const distribution = categories.map((cat) => {
+      const categorySlug = (cat.slug || cat.id || '').toLowerCase();
+      const baseCount = minQuestionsPerCategory;
+      
+      // Calculate extra questions for this category
+      let extraCount = 0;
+      if (remainingQuestions > 0) {
+        // Priority categories get more extra questions
+        if (priorityCategories.includes(categorySlug)) {
+          // Priority categories get proportionally more
+          extraCount = Math.ceil(remainingQuestions / (priorityCategories.length + 2));
+        } else {
+          // Other categories get fewer extra questions
+          extraCount = Math.floor(remainingQuestions / (numCategories * 3));
+        }
+      }
+      
+      return {
+        category: cat.id,
+        count: baseCount + extraCount,
+        marksPerQuestion: 2
+      };
+    });
+    
+    // Adjust to ensure total matches exactly
+    let currentTotal = distribution.reduce((sum, d) => sum + d.count, 0);
+    let difference = totalQuestions - currentTotal;
+    
+    if (difference !== 0) {
+      // Distribute the difference to priority categories first
+      const priorityIndices = categories
+        .map((cat, idx) => {
+          const slug = (cat.slug || cat.id || '').toLowerCase();
+          return priorityCategories.includes(slug) ? idx : -1;
+        })
+        .filter(idx => idx !== -1);
+      
+      let idx = 0;
+      while (difference > 0 && priorityIndices.length > 0) {
+        const targetIdx = priorityIndices[idx % priorityIndices.length];
+        distribution[targetIdx].count += 1;
+        difference -= 1;
+        idx += 1;
+      }
+      
+      // If still remaining, distribute to all categories
+      idx = 0;
+      while (difference > 0) {
+        distribution[idx % distribution.length].count += 1;
+        difference -= 1;
+        idx += 1;
+      }
+      
+      // Handle negative difference (too many questions)
+      idx = 0;
+      while (difference < 0) {
+        if (distribution[idx % distribution.length].count > minQuestionsPerCategory) {
+          distribution[idx % distribution.length].count -= 1;
+          difference += 1;
+        }
+        idx += 1;
+        if (idx > distribution.length * 10) break; // Safety break
+      }
+    }
 
     const totalQ = distribution.reduce((sum, d) => sum + d.count, 0);
     const totalMarks = totalQ * 2;
@@ -89,6 +192,8 @@ export default function Exams() {
       const response = await createExamMutation.mutateAsync(examData);
       
       if (response.success) {
+        // Refetch remaining sessions after creating exam
+        await refetchRemainingSessions();
         navigate(`/exam/${response.data.sessionId}`);
       } else {
         console.error('Failed to create quick exam:', response.message);
@@ -96,7 +201,20 @@ export default function Exams() {
       }
     } catch (error: any) {
       console.error('Error creating quick exam:', error);
-      message.error(error?.response?.data?.message || 'Failed to create quick exam');
+      // Check if it's a session limit error
+      if (error?.response?.status === 403 && error?.response?.data?.requiresUpgrade) {
+        Modal.warning({
+          title: 'Daily Exam Limit Reached',
+          content: error.response.data.message || 'You have reached your daily limit of 3 exam sessions. Upgrade to Pro for unlimited sessions.',
+          okText: 'Upgrade to Pro',
+          cancelText: 'Cancel',
+          onOk: () => {
+            window.location.href = '/pricing';
+          },
+        });
+      } else {
+        message.error(error?.response?.data?.message || 'Failed to create quick exam');
+      }
     }
   };
 

@@ -93,6 +93,10 @@ export const useRegister = () => {
       // Invalidate auth queries
       queryClient.invalidateQueries({ queryKey: queryKeys.auth.user });
     },
+    onError: () => {
+      // Silently handle errors - they are already handled in the component with toast
+      // This prevents React Query from showing default error notifications
+    },
   });
 };
 
@@ -740,6 +744,31 @@ export const useRenewSubscription = () => {
     mutationFn: () => apiService.renewSubscription(),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['subscription'] });
+      queryClient.invalidateQueries({ queryKey: ['auth', 'user'] });
+    },
+  });
+};
+
+export const useRemainingSessions = () => {
+  return useQuery({
+    queryKey: ['remainingSessions'],
+    queryFn: async () => {
+      const response = await apiService.getRemainingSessions();
+      return response.data as { practice: number; exam: number };
+    },
+    retry: 2,
+    staleTime: 1 * 60 * 1000, // 1 minute
+    refetchInterval: 5 * 60 * 1000, // Refetch every 5 minutes
+  });
+};
+
+export const useHandleTrialExpiry = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: (autoPayToPro: boolean) => apiService.handleTrialExpiry(autoPayToPro),
+    onSuccess: () => {
+      queryClient.invalidateQueries({ queryKey: ['subscription'] });
+      queryClient.invalidateQueries({ queryKey: ['remainingSessions'] });
       queryClient.invalidateQueries({ queryKey: ['auth', 'user'] });
     },
   });

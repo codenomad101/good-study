@@ -23,6 +23,9 @@ import {
 } from 'lucide-react-native';
 import { useAuth } from '../contexts/AuthContext';
 import { showToast } from '../utils/toast';
+import { useCategories } from '../hooks/useCategories';
+import { useRemainingSessions } from '../hooks/useApi';
+import { useRouter } from 'expo-router';
 
 interface Question {
   questionId: string;
@@ -54,6 +57,7 @@ interface DynamicExamContentProps {
 
 const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: initialSessionId }) => {
   const { user } = useAuth();
+  const router = useRouter();
   const [currentView, setCurrentView] = useState<'config' | 'exam' | 'results'>('config');
   const [isLoading, setIsLoading] = useState(false);
   const [examSession, setExamSession] = useState<ExamSession | null>(null);
@@ -66,6 +70,43 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
   const timerRef = useRef<NodeJS.Timeout | null>(null);
   const questionStartTime = useRef<number>(Date.now());
 
+  // Fetch categories
+  const { data: categoriesResponse, isLoading: categoriesLoading } = useCategories();
+  const { data: remainingSessions, refetch: refetchRemainingSessions } = useRemainingSessions();
+  
+  // Extract categories from response
+  let apiCategories: any[] = [];
+  if (categoriesResponse) {
+    if (Array.isArray(categoriesResponse)) {
+      apiCategories = categoriesResponse;
+    } else if (categoriesResponse.data) {
+      if (Array.isArray(categoriesResponse.data)) {
+        apiCategories = categoriesResponse.data;
+      } else if (categoriesResponse.data.data && Array.isArray(categoriesResponse.data.data)) {
+        apiCategories = categoriesResponse.data.data;
+      }
+    } else if (categoriesResponse.success && Array.isArray(categoriesResponse.data)) {
+      apiCategories = categoriesResponse.data;
+    }
+  }
+  
+  // Fallback categories
+  const fallbackCategories = [
+    { id: 'economy', slug: 'economy', categoryId: 'economy', name: 'Economy' },
+    { id: 'gk', slug: 'gk', categoryId: 'gk', name: 'General Knowledge' },
+    { id: 'history', slug: 'history', categoryId: 'history', name: 'History' },
+    { id: 'geography', slug: 'geography', categoryId: 'geography', name: 'Geography' },
+    { id: 'english', slug: 'english', categoryId: 'english', name: 'English' },
+    { id: 'aptitude', slug: 'aptitude', categoryId: 'aptitude', name: 'Aptitude' },
+    { id: 'agriculture', slug: 'agriculture', categoryId: 'agriculture', name: 'Agriculture' },
+    { id: 'polity', slug: 'polity', categoryId: 'polity', name: 'Polity' },
+    { id: 'science', slug: 'science', categoryId: 'science', name: 'Science' },
+    { id: 'current-affairs', slug: 'current-affairs', categoryId: 'current-affairs', name: 'Current Affairs' },
+    { id: 'marathi', slug: 'marathi', categoryId: 'marathi', name: 'Marathi' },
+  ];
+  
+  const categories = apiCategories.length > 0 ? apiCategories : fallbackCategories;
+
   // Auto-load questions if sessionId is provided
   useEffect(() => {
     if (initialSessionId && !examSession && !isLoading) {
@@ -75,34 +116,139 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [initialSessionId]);
 
-  // Exam configuration
-  const [examConfig, setExamConfig] = useState({
-    examName: 'Quick Test',
-    totalMarks: 40,
-    durationMinutes: 20,
-    negativeMarking: true,
-    negativeMarksRatio: 0.25,
-    questionDistribution: [
-      { category: 'economy', count: 3, marksPerQuestion: 2 },
+  // Function to generate question distribution
+  const generateQuestionDistribution = (totalQuestions: number) => {
+    const validCategories = Array.isArray(categories) ? categories : [];
+    const numCategories = validCategories.length;
+    
+    // Calculate minimum questions per category based on exam size
+    let minQuestionsPerCategory: number;
+    if (totalQuestions <= 20) {
+      minQuestionsPerCategory = Math.max(1, Math.floor(totalQuestions / numCategories));
+      if (totalQuestions >= numCategories * 2) {
+        minQuestionsPerCategory = 2;
+      }
+    } else {
+      minQuestionsPerCategory = Math.max(3, Math.floor(totalQuestions / numCategories));
+      if (totalQuestions >= numCategories * 3) {
+        minQuestionsPerCategory = 3;
+      }
+    }
+    
+    // Calculate distribution: each category gets minimum, then distribute remaining
+    const baseQuestions = minQuestionsPerCategory * numCategories;
+    const remainingQuestions = Math.max(0, totalQuestions - baseQuestions);
+    
+    // Priority categories for extra questions
+    const priorityCategories = ['polity', 'economy', 'history', 'science', 'gk', 'current-affairs'];
+    
+    const distribution = validCategories.map((cat: any) => {
+      const categorySlug = (cat.slug || cat.id || cat.categoryId || '').toLowerCase();
+      const baseCount = minQuestionsPerCategory;
+      
+      // Calculate extra questions for this category
+      let extraCount = 0;
+      if (remainingQuestions > 0) {
+        if (priorityCategories.includes(categorySlug)) {
+          extraCount = Math.ceil(remainingQuestions / (priorityCategories.length + 2));
+        } else {
+          extraCount = Math.floor(remainingQuestions / (numCategories * 3));
+        }
+      }
+      
+      return {
+        category: cat.id || cat.slug || cat.categoryId,
+        count: baseCount + extraCount,
+        marksPerQuestion: 2,
+      };
+    });
+    
+    // Adjust to ensure total matches exactly
+    let currentTotal = distribution.reduce((sum: number, d: any) => sum + d.count, 0);
+    let difference = totalQuestions - currentTotal;
+    
+    if (difference !== 0) {
+      const priorityIndices = validCategories
+        .map((cat: any, idx: number) => {
+          const slug = (cat.slug || cat.id || cat.categoryId || '').toLowerCase();
+          return priorityCategories.includes(slug) ? idx : -1;
+        })
+        .filter(idx => idx !== -1);
+      
+      let idx = 0;
+      while (difference > 0 && priorityIndices.length > 0) {
+        const targetIdx = priorityIndices[idx % priorityIndices.length];
+        distribution[targetIdx].count += 1;
+        difference -= 1;
+        idx += 1;
+      }
+      
+      idx = 0;
+      while (difference > 0) {
+        distribution[idx % distribution.length].count += 1;
+        difference -= 1;
+        idx += 1;
+      }
+      
+      idx = 0;
+      while (difference < 0) {
+        if (distribution[idx % distribution.length].count > minQuestionsPerCategory) {
+          distribution[idx % distribution.length].count -= 1;
+          difference += 1;
+        }
+        idx += 1;
+        if (idx > distribution.length * 10) break;
+      }
+    }
+    
+    return distribution;
+  };
+
+  // Exam configuration - initialize with default 20 questions
+  const [examConfig, setExamConfig] = useState(() => {
+    const defaultDistribution = [
+      { category: 'economy', count: 2, marksPerQuestion: 2 },
       { category: 'gk', count: 2, marksPerQuestion: 2 },
       { category: 'history', count: 2, marksPerQuestion: 2 },
       { category: 'geography', count: 2, marksPerQuestion: 2 },
-      { category: 'english', count: 3, marksPerQuestion: 2 },
+      { category: 'english', count: 2, marksPerQuestion: 2 },
       { category: 'aptitude', count: 2, marksPerQuestion: 2 },
       { category: 'agriculture', count: 2, marksPerQuestion: 2 },
-      { category: 'marathi', count: 4, marksPerQuestion: 2 }
-    ]
+      { category: 'marathi', count: 2, marksPerQuestion: 2 }
+    ];
+    const totalQ = defaultDistribution.reduce((sum, d) => sum + d.count, 0);
+    return {
+      examName: 'Quick Test',
+      totalMarks: totalQ * 2,
+      durationMinutes: Math.ceil(totalQ * 0.75),
+      negativeMarking: true,
+      negativeMarksRatio: 0.25,
+      questionDistribution: defaultDistribution
+    };
   });
 
-  const categoryNames: Record<string, string> = {
-    economy: 'Economy',
-    gk: 'General Knowledge',
-    history: 'History',
-    geography: 'Geography',
-    english: 'English',
-    aptitude: 'Aptitude',
-    agriculture: 'Agriculture',
-    marathi: 'Marathi'
+  // Update exam config when categories are loaded
+  useEffect(() => {
+    if (categories.length > 0 && !initialSessionId) {
+      const distribution = generateQuestionDistribution(20);
+      const totalQ = distribution.reduce((sum: number, d: any) => sum + d.count, 0);
+      setExamConfig({
+        examName: 'Quick Test',
+        totalMarks: totalQ * 2,
+        durationMinutes: Math.ceil(totalQ * 0.75),
+        negativeMarking: true,
+        negativeMarksRatio: 0.25,
+        questionDistribution: distribution
+      });
+    }
+  }, [categories.length, initialSessionId]);
+
+  // Helper function to get category name
+  const getCategoryName = (categoryId: string) => {
+    const cat = categories.find((c: any) => 
+      (c.id || c.slug || c.categoryId) === categoryId
+    );
+    return cat?.name || categoryId;
   };
 
   // Timer functions
@@ -154,11 +300,30 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
       return;
     }
 
+    // Check remaining exam sessions for free plan
+    if (remainingSessions && remainingSessions.exam !== -1 && remainingSessions.exam <= 0) {
+      Modal.alert(
+        'Daily Exam Limit Reached',
+        'You have reached your daily limit of 3 exam sessions. Upgrade to Pro for unlimited sessions or try again tomorrow.',
+        [
+          { text: 'Cancel', style: 'cancel' },
+          { 
+            text: 'Upgrade to Pro', 
+            onPress: () => router.push('/(tabs)/pricing'),
+            style: 'default'
+          }
+        ]
+      );
+      return;
+    }
+
     setIsLoading(true);
     try {
       const response = await apiService.createDynamicExam(examConfig);
       
       if (response.success && response.data) {
+        // Refetch remaining sessions after creating exam
+        await refetchRemainingSessions();
         const sessionId = response.data.sessionId || (Array.isArray(response.data) ? response.data[0]?.sessionId : null);
         if (sessionId) {
           await generateQuestions(sessionId);
@@ -166,11 +331,43 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
           showToast.error('No session ID returned');
         }
       } else {
-        showToast.error(response.message || 'Failed to create exam session');
+        // Check if it's a session limit error
+        if (response.message?.includes('limit') || response.message?.includes('Daily')) {
+          Modal.alert(
+            'Daily Exam Limit Reached',
+            response.message || 'You have reached your daily limit of 3 exam sessions. Upgrade to Pro for unlimited sessions.',
+            [
+              { text: 'Cancel', style: 'cancel' },
+              { 
+                text: 'Upgrade to Pro', 
+                onPress: () => router.push('/(tabs)/pricing'),
+                style: 'default'
+              }
+            ]
+          );
+        } else {
+          showToast.error(response.message || 'Failed to create exam session');
+        }
       }
     } catch (error: any) {
       console.error('Error creating exam session:', error);
-      showToast.error(error?.message || 'Failed to create exam session');
+      // Check if it's a session limit error
+      if (error?.response?.status === 403 && error?.response?.data?.requiresUpgrade) {
+        Modal.alert(
+          'Daily Exam Limit Reached',
+          error.response.data.message || 'You have reached your daily limit of 3 exam sessions. Upgrade to Pro for unlimited sessions.',
+          [
+            { text: 'Cancel', style: 'cancel' },
+            { 
+              text: 'Upgrade to Pro', 
+              onPress: () => router.push('/(tabs)/pricing'),
+              style: 'default'
+            }
+          ]
+        );
+      } else {
+        showToast.error(error?.message || 'Failed to create exam session');
+      }
     } finally {
       setIsLoading(false);
     }
@@ -393,45 +590,117 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
           </View>
         </View>
 
+        {/* Quick Exam Buttons */}
+        <View style={styles.section}>
+          <Text style={styles.sectionTitle}>Quick Exam</Text>
+          <View style={styles.quickExamRow}>
+            <TouchableOpacity
+              style={styles.quickExamButton}
+              onPress={() => {
+                const distribution = generateQuestionDistribution(20);
+                const totalQ = distribution.reduce((sum: number, d: any) => sum + d.count, 0);
+                setExamConfig({
+                  examName: `Quick Test - ${totalQ} Questions`,
+                  totalMarks: totalQ * 2,
+                  durationMinutes: Math.ceil(totalQ * 0.75),
+                  negativeMarking: false,
+                  negativeMarksRatio: 0,
+                  questionDistribution: distribution
+                });
+              }}
+              disabled={categoriesLoading || isLoading}
+            >
+              <Text style={styles.quickExamButtonText}>20 Questions</Text>
+            </TouchableOpacity>
+            
+            <TouchableOpacity
+              style={styles.quickExamButton}
+              onPress={() => {
+                const distribution = generateQuestionDistribution(40);
+                const totalQ = distribution.reduce((sum: number, d: any) => sum + d.count, 0);
+                setExamConfig({
+                  examName: `Quick Test - ${totalQ} Questions`,
+                  totalMarks: totalQ * 2,
+                  durationMinutes: Math.ceil(totalQ * 0.75),
+                  negativeMarking: false,
+                  negativeMarksRatio: 0,
+                  questionDistribution: distribution
+                });
+              }}
+              disabled={categoriesLoading || isLoading}
+            >
+              <Text style={styles.quickExamButtonText}>40 Questions</Text>
+            </TouchableOpacity>
+            
+            <TouchableOpacity
+              style={styles.quickExamButton}
+              onPress={() => {
+                const distribution = generateQuestionDistribution(20);
+                const totalQ = distribution.reduce((sum: number, d: any) => sum + d.count, 0);
+                setExamConfig({
+                  examName: `Quick Test - ${totalQ} Questions`,
+                  totalMarks: totalQ * 2,
+                  durationMinutes: Math.ceil(totalQ * 0.75),
+                  negativeMarking: true,
+                  negativeMarksRatio: 0.25,
+                  questionDistribution: distribution
+                });
+              }}
+              disabled={categoriesLoading || isLoading}
+            >
+              <Text style={styles.quickExamButtonText}>20Q (Neg)</Text>
+            </TouchableOpacity>
+          </View>
+        </View>
+
         {/* Question Distribution */}
         <View style={styles.section}>
           <Text style={styles.sectionTitle}>Question Distribution</Text>
-          {examConfig.questionDistribution.map((dist, index) => (
-            <View key={index} style={styles.distributionItem}>
-              <View style={styles.distributionInfo}>
-                <Text style={styles.distributionCategory}>
-                  {categoryNames[dist.category]}
-                </Text>
-                <Text style={styles.distributionDetails}>
-                  {dist.count} questions × {dist.marksPerQuestion} marks
+          {categoriesLoading ? (
+            <View style={styles.loadingContainer}>
+              <ActivityIndicator size="small" color="#3B82F6" />
+              <Text style={styles.loadingText}>Loading categories...</Text>
+            </View>
+          ) : (
+            <>
+              {examConfig.questionDistribution.map((dist, index) => (
+                <View key={index} style={styles.distributionItem}>
+                  <View style={styles.distributionInfo}>
+                    <Text style={styles.distributionCategory}>
+                      {getCategoryName(dist.category)}
+                    </Text>
+                    <Text style={styles.distributionDetails}>
+                      {dist.count} questions × {dist.marksPerQuestion} marks
+                    </Text>
+                  </View>
+                  <Text style={styles.distributionTotal}>
+                    {dist.count * dist.marksPerQuestion}
+                  </Text>
+                </View>
+              ))}
+              
+              <View style={styles.totalRow}>
+                <Text style={styles.totalLabel}>Total Questions</Text>
+                <Text style={styles.totalValue}>
+                  {examConfig.questionDistribution.reduce((sum, dist) => sum + dist.count, 0)}
                 </Text>
               </View>
-              <Text style={styles.distributionTotal}>
-                {dist.count * dist.marksPerQuestion}
-              </Text>
-            </View>
-          ))}
-          
-          <View style={styles.totalRow}>
-            <Text style={styles.totalLabel}>Total Questions</Text>
-            <Text style={styles.totalValue}>
-              {examConfig.questionDistribution.reduce((sum, dist) => sum + dist.count, 0)}
-            </Text>
-          </View>
-          
-          <View style={styles.totalRow}>
-            <Text style={styles.totalLabel}>Total Marks</Text>
-            <Text style={styles.totalValue}>
-              {examConfig.questionDistribution.reduce((sum, dist) => sum + (dist.count * dist.marksPerQuestion), 0)}
-            </Text>
-          </View>
+              
+              <View style={styles.totalRow}>
+                <Text style={styles.totalLabel}>Total Marks</Text>
+                <Text style={styles.totalValue}>
+                  {examConfig.questionDistribution.reduce((sum, dist) => sum + (dist.count * dist.marksPerQuestion), 0)}
+                </Text>
+              </View>
+            </>
+          )}
         </View>
 
         {/* Start Button */}
         <TouchableOpacity 
-          style={styles.startButton}
+          style={[styles.startButton, (categoriesLoading || isLoading) && styles.disabledButton]}
           onPress={createExamSession}
-          disabled={isLoading}
+          disabled={categoriesLoading || isLoading}
         >
           {isLoading ? (
             <ActivityIndicator color="#FFFFFF" />
@@ -490,7 +759,7 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
         <ScrollView style={styles.questionContent}>
           <View style={styles.categoryBadge}>
             <Text style={styles.categoryText}>
-              {categoryNames[question.category]}
+              {getCategoryName(question.category)}
             </Text>
           </View>
           
@@ -980,6 +1249,33 @@ const styles = StyleSheet.create({
     color: '#FFFFFF',
     fontSize: 18,
     fontWeight: '600',
+  },
+  quickExamRow: {
+    flexDirection: 'row',
+    gap: 12,
+    marginTop: 12,
+  },
+  quickExamButton: {
+    flex: 1,
+    backgroundColor: '#3B82F6',
+    paddingVertical: 12,
+    paddingHorizontal: 16,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  quickExamButtonText: {
+    color: '#FFFFFF',
+    fontSize: 14,
+    fontWeight: '600',
+  },
+  loadingContainer: {
+    padding: 20,
+    alignItems: 'center',
+    gap: 12,
+  },
+  loadingText: {
+    fontSize: 14,
+    color: '#6B7280',
   },
 });
 

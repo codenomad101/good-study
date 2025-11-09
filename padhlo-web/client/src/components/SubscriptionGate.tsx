@@ -86,7 +86,7 @@ export const SubscriptionGate: React.FC<SubscriptionGateProps> = ({
               </Paragraph>
             ) : (
               <Paragraph>
-                {featureName} requires a Trial or Pro subscription. Start your free 7-day trial or subscribe to Pro plan.
+                {featureName} requires a Trial or Pro subscription. Start your free 3-day trial or subscribe to Pro plan (₹59/month).
               </Paragraph>
             )
           }
@@ -121,7 +121,7 @@ export const SubscriptionGate: React.FC<SubscriptionGateProps> = ({
           title="Premium Feature Required"
           subTitle={
             <Paragraph>
-              {featureName} requires an active subscription. Start your free 7-day trial or subscribe to a plan.
+              {featureName} requires an active subscription. Start your free 3-day trial or subscribe to Pro plan (₹59/month).
             </Paragraph>
           }
           extra={[

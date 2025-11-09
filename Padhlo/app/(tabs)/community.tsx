@@ -1,6 +1,7 @@
 import React from 'react';
 import { useAuth } from '../../contexts/AuthContext';
 import CommunityContent from '../../components/CommunityContent';
+import { PremiumFeatureGate } from '../../components/PremiumFeatureGate';
 import { View, StyleSheet, Alert } from 'react-native';
 
 export default function CommunityScreen() {
@@ -28,7 +29,11 @@ export default function CommunityScreen() {
     return <View style={styles.loadingContainer} />;
   }
 
-  return <CommunityContent />;
+  return (
+    <PremiumFeatureGate featureName="community">
+      <CommunityContent />
+    </PremiumFeatureGate>
+  );
 }
 
 const styles = StyleSheet.create({

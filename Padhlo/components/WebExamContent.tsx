@@ -152,17 +152,116 @@ export default function ExamContent() {
       return;
     }
 
-    // Create equal distribution across available categories
-    const questionsPerCategory = Math.ceil(totalQuestions / validCategories.length);
-    const distribution = validCategories.map((cat: any) => ({
-      category: cat.id || cat.slug || cat.categoryId,
-      count: questionsPerCategory,
-      marksPerQuestion: 2,
-    }));
+    // Ensure all categories are included (including Marathi)
+    const numCategories = validCategories.length;
+    
+    // Calculate minimum questions per category based on exam size
+    // For 20 questions: try for at least 2 per category, but adjust if needed
+    // For 40+ questions: at least 3 per category
+    let minQuestionsPerCategory: number;
+    if (totalQuestions <= 20) {
+      // For 20 questions: if we have 11 categories, we can't do 2 each (would be 22)
+      // So calculate: floor(20/11) = 1, but we want at least 1-2
+      minQuestionsPerCategory = Math.max(1, Math.floor(totalQuestions / numCategories));
+      // If possible, ensure at least 2 for most categories
+      if (totalQuestions >= numCategories * 2) {
+        minQuestionsPerCategory = 2;
+      }
+    } else {
+      // For 40+ questions: at least 3 per category
+      minQuestionsPerCategory = Math.max(3, Math.floor(totalQuestions / numCategories));
+      if (totalQuestions >= numCategories * 3) {
+        minQuestionsPerCategory = 3;
+      }
+    }
+    
+    // Calculate distribution: each category gets minimum, then distribute remaining
+    const baseQuestions = minQuestionsPerCategory * numCategories;
+    const remainingQuestions = Math.max(0, totalQuestions - baseQuestions);
+    
+    // Priority categories for extra questions: Polity, Economy, History, Science, GK, Current Affairs
+    const priorityCategories = ['polity', 'economy', 'history', 'science', 'gk', 'current-affairs'];
+    
+    const distribution = validCategories.map((cat: any) => {
+      const categorySlug = (cat.slug || cat.id || cat.categoryId || '').toLowerCase();
+      const baseCount = minQuestionsPerCategory;
+      
+      // Calculate extra questions for this category
+      let extraCount = 0;
+      if (remainingQuestions > 0) {
+        // Priority categories get more extra questions
+        if (priorityCategories.includes(categorySlug)) {
+          // Priority categories get proportionally more
+          extraCount = Math.ceil(remainingQuestions / (priorityCategories.length + 2));
+        } else {
+          // Other categories get fewer extra questions
+          extraCount = Math.floor(remainingQuestions / (numCategories * 3));
+        }
+      }
+      
+      return {
+        category: cat.id || cat.slug || cat.categoryId,
+        count: baseCount + extraCount,
+        marksPerQuestion: 2,
+      };
+    });
+    
+    // Adjust to ensure total matches exactly
+    let currentTotal = distribution.reduce((sum: number, d: any) => sum + d.count, 0);
+    let difference = totalQuestions - currentTotal;
+    
+    if (difference !== 0) {
+      // Distribute the difference to priority categories first
+      const priorityIndices = validCategories
+        .map((cat: any, idx: number) => {
+          const slug = (cat.slug || cat.id || cat.categoryId || '').toLowerCase();
+          return priorityCategories.includes(slug) ? idx : -1;
+        })
+        .filter(idx => idx !== -1);
+      
+      let idx = 0;
+      while (difference > 0 && priorityIndices.length > 0) {
+        const targetIdx = priorityIndices[idx % priorityIndices.length];
+        distribution[targetIdx].count += 1;
+        difference -= 1;
+        idx += 1;
+      }
+      
+      // If still remaining, distribute to all categories
+      idx = 0;
+      while (difference > 0) {
+        distribution[idx % distribution.length].count += 1;
+        difference -= 1;
+        idx += 1;
+      }
+      
+      // Handle negative difference (too many questions)
+      idx = 0;
+      while (difference < 0) {
+        if (distribution[idx % distribution.length].count > minQuestionsPerCategory) {
+          distribution[idx % distribution.length].count -= 1;
+          difference += 1;
+        }
+        idx += 1;
+        if (idx > distribution.length * 10) break; // Safety break
+      }
+    }
 
     const totalQ = distribution.reduce((sum: number, d: any) => sum + d.count, 0);
     const totalMarks = totalQ * 2;
     const duration = Math.ceil(totalQ * 0.75); // ~45 seconds per question
+
+    // Log distribution for debugging
+    console.log('[WebExamContent] Question Distribution:', {
+      totalQuestions,
+      numCategories: validCategories.length,
+      minPerCategory: minQuestionsPerCategory,
+      distribution: distribution.map((d: any) => ({
+        category: validCategories.find((c: any) => (c.id || c.slug || c.categoryId) === d.category)?.name || d.category,
+        count: d.count
+      })),
+      total: totalQ
+    });
 
     const examData = {
       examName: `Quick Test - ${totalQ} Questions`,

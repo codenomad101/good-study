@@ -1,9 +1,11 @@
 import { Request, Response } from 'express';
 import { DynamicExamService } from '../services/dynamicExam';
+import { SessionLimitsService } from '../services/sessionLimits';
 import { createNotificationHelper } from './notifications';
 import { z } from 'zod';
 
 const dynamicExamService = new DynamicExamService();
+const sessionLimitsService = new SessionLimitsService();
 
 // Validation schemas
 const CreateExamSessionSchema = z.object({
@@ -36,12 +38,24 @@ export const createExamSession = async (req: Request, res: Response) => {
     const userId = (req as any).user.userId;
     const validatedData = CreateExamSessionSchema.parse(req.body);
 
+    // Check session limits for free plan
+    const limitCheck = await sessionLimitsService.canCreateExamSession(userId);
+    if (!limitCheck.allowed) {
+      return res.status(403).json({
+        success: false,
+        message: limitCheck.reason || 'Daily exam session limit reached',
+        requiresUpgrade: true,
+        remaining: limitCheck.remaining
+      });
+    }
+
     const session = await dynamicExamService.createExamSession(userId, validatedData);
 
     res.status(201).json({
       success: true,
       message: 'Exam session created successfully',
-      data: session
+      data: session,
+      remaining: limitCheck.remaining
     });
   } catch (error: any) {
     console.error('Error creating exam session:', error);

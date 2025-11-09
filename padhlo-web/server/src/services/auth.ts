@@ -31,6 +31,14 @@ export class AuthService {
       throw new Error('User with this email or username already exists');
     }
 
+    // Check if phone number is already in use (if provided)
+    if (phone) {
+      const existingPhone = await db.select().from(users).where(eq(users.phone, phone)).limit(1);
+      if (existingPhone.length > 0) {
+        throw new Error('This phone number is already registered. You cannot use the same phone number for two accounts.');
+      }
+    }
+
     // Hash password
     const hashedPassword = await bcrypt.hash(password, 12);
 

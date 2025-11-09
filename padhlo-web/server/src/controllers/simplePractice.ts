@@ -1,10 +1,12 @@
 import { Request, Response } from 'express';
 import { PracticeService } from '../services/simplePractice';
 import { PracticeService as BackendPracticeService } from '../services/practice';
+import { SessionLimitsService } from '../services/sessionLimits';
 import { createNotificationHelper } from './notifications';
 import { z } from 'zod';
 
 const practiceService = new PracticeService();
+const sessionLimitsService = new SessionLimitsService();
 const backendPracticeService = new BackendPracticeService();
 
 // Validation schemas
@@ -39,6 +41,17 @@ export const createPracticeSession = async (req: Request, res: Response) => {
       validatedData
     });
     
+    // Check session limits for free plan
+    const limitCheck = await sessionLimitsService.canCreatePracticeSession(userId);
+    if (!limitCheck.allowed) {
+      return res.status(403).json({
+        success: false,
+        message: limitCheck.reason || 'Daily practice session limit reached',
+        requiresUpgrade: true,
+        remaining: limitCheck.remaining
+      });
+    }
+    
     const result = await backendPracticeService.createPracticeSession(
       userId,
       validatedData.category,
@@ -55,6 +68,7 @@ export const createPracticeSession = async (req: Request, res: Response) => {
         ...result.session,
         questions: result.questions
       }, // Return session with questions included
+      remaining: limitCheck.remaining
     });
   } catch (error: any) {
     console.error('Create practice session error:', error);

@@ -17,11 +17,37 @@ export const register = async (req: Request, res: Response) => {
   } catch (error: any) {
     console.error('Registration error:', error);
     
-    if (error.message === 'User with this email already exists') {
+    // Handle specific error cases
+    if (error.message === 'User with this email already exists' || 
+        error.message === 'User with this email or username already exists') {
       return res.status(409).json({
         success: false,
-        message: 'User with this email already exists',
+        message: 'User with this email or username already exists',
       });
+    }
+    
+    // Handle duplicate phone number error
+    if (error.message && error.message.includes('phone number is already registered')) {
+      return res.status(409).json({
+        success: false,
+        message: 'This phone number is already registered. You cannot use the same phone number for two accounts.',
+      });
+    }
+    
+    // Handle database constraint errors (fallback)
+    if (error.code === '23505' || error.message?.includes('duplicate key') || error.message?.includes('unique constraint')) {
+      if (error.message?.includes('phone') || error.constraint === 'users_phone_unique') {
+        return res.status(409).json({
+          success: false,
+          message: 'This phone number is already registered. You cannot use the same phone number for two accounts.',
+        });
+      }
+      if (error.message?.includes('email') || error.constraint === 'users_email_unique') {
+        return res.status(409).json({
+          success: false,
+          message: 'User with this email already exists',
+        });
+      }
     }
     
     res.status(400).json({
@@ -162,6 +188,26 @@ export const changePassword = async (req: Request, res: Response) => {
     res.status(400).json({
       success: false,
       message: error.message || 'Password change failed',
+    });
+  }
+};
+
+export const logout = async (req: Request, res: Response) => {
+  try {
+    // Since we're using JWT tokens (stateless), logout on the server side
+    // doesn't require any action. The client will clear the token from storage.
+    // If you want to implement token blacklisting in the future, you can do it here.
+    
+    res.json({
+      success: true,
+      message: 'Logout successful',
+    });
+  } catch (error: any) {
+    console.error('Logout error:', error);
+    
+    res.status(500).json({
+      success: false,
+      message: 'Logout failed',
     });
   }
 };

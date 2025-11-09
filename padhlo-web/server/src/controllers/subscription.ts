@@ -2,6 +2,9 @@ import { Request, Response } from 'express';
 import { db } from '../db';
 import { users } from '../db/schema';
 import { eq } from 'drizzle-orm';
+import { SessionLimitsService } from '../services/sessionLimits';
+
+const sessionLimitsService = new SessionLimitsService();
 
 // Helper function to check if subscription is active
 export const isSubscriptionActive = (subscriptionType: string | null, subscriptionEndDate: Date | null): boolean => {
@@ -83,7 +86,7 @@ export const startTrial = async (req: Request, res: Response) => {
     // For now, we'll allow one trial per user
     const startDate = new Date();
     const endDate = new Date();
-    endDate.setDate(endDate.getDate() + 7); // 7 days trial
+    endDate.setDate(endDate.getDate() + 3); // 3 days trial
     
     await db.update(users)
       .set({
@@ -101,7 +104,7 @@ export const startTrial = async (req: Request, res: Response) => {
         type: 'trial',
         startDate,
         endDate,
-        expiresIn: 7
+        expiresIn: 3
       }
     });
   } catch (error: any) {
@@ -145,7 +148,8 @@ export const subscribeToPro = async (req: Request, res: Response) => {
         type: 'pro',
         startDate,
         endDate,
-        expiresIn: 30
+        expiresIn: 30,
+        price: 59
       }
     });
   } catch (error: any) {
@@ -274,6 +278,83 @@ export const cancelSubscription = async (req: Request, res: Response) => {
   } catch (error: any) {
     console.error('Error cancelling subscription:', error);
     res.status(500).json({ success: false, message: 'Error cancelling subscription' });
+  }
+};
+
+// Get remaining sessions for today
+export const getRemainingSessions = async (req: Request, res: Response) => {
+  try {
+    const userId = (req as any).user?.userId;
+    
+    if (!userId) {
+      return res.status(401).json({ success: false, message: 'Unauthorized' });
+    }
+    
+    const remaining = await sessionLimitsService.getRemainingSessions(userId);
+    
+    res.json({
+      success: true,
+      data: remaining
+    });
+  } catch (error: any) {
+    console.error('Error getting remaining sessions:', error);
+    res.status(500).json({ success: false, message: 'Error getting remaining sessions' });
+  }
+};
+
+// Auto-pay after trial expires (switch to pro or free)
+// This should be called by a cron job or scheduled task
+export const handleTrialExpiry = async (userId: string, autoPayToPro: boolean = false) => {
+  try {
+    const [user] = await db.select().from(users).where(eq(users.userId, userId)).limit(1);
+    
+    if (!user) {
+      throw new Error('User not found');
+    }
+    
+    // Check if user is on trial and trial has expired
+    if (user.subscriptionType === 'trial' && user.subscriptionEndDate) {
+      const now = new Date();
+      const endDate = new Date(user.subscriptionEndDate);
+      
+      if (endDate <= now) {
+        // Trial expired
+        if (autoPayToPro) {
+          // Auto-pay to Pro (₹59/month)
+          const startDate = new Date();
+          const newEndDate = new Date();
+          newEndDate.setDate(newEndDate.getDate() + 30);
+          
+          await db.update(users)
+            .set({
+              subscriptionType: 'pro',
+              subscriptionStartDate: startDate,
+              subscriptionEndDate: newEndDate,
+              updatedAt: new Date()
+            })
+            .where(eq(users.userId, userId));
+          
+          return { success: true, newPlan: 'pro', message: 'Trial expired. Auto-paid to Pro plan (₹59/month)' };
+        } else {
+          // Switch back to free plan
+          await db.update(users)
+            .set({
+              subscriptionType: 'free',
+              subscriptionStartDate: null,
+              subscriptionEndDate: null,
+              updatedAt: new Date()
+            })
+            .where(eq(users.userId, userId));
+          
+          return { success: true, newPlan: 'free', message: 'Trial expired. Switched to free plan' };
+        }
+      }
+    }
+    
+    return { success: false, message: 'Trial not expired or user not on trial' };
+  } catch (error: any) {
+    console.error('Error handling trial expiry:', error);
+    throw error;
   }
 };
 

@@ -14,6 +14,7 @@ import {
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import AppHeader from '@/components/AppHeader';
+import { PremiumFeatureGate } from '@/components/PremiumFeatureGate';
 import {
   Plus,
   Search,
@@ -515,7 +516,8 @@ export default function NotesScreen() {
   }
 
   return (
-    <View style={styles.container}>
+    <PremiumFeatureGate featureName="notes">
+      <View style={styles.container}>
       <AppHeader showLogo={true} extraTopSpacing={true} />
       
       {/* Search Bar */}
@@ -742,7 +744,8 @@ export default function NotesScreen() {
           </ScrollView>
         </SafeAreaView>
       </Modal>
-    </View>
+      </View>
+    </PremiumFeatureGate>
   );
 }
 

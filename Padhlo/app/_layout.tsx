@@ -1,6 +1,7 @@
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
+import { LogBox } from 'react-native';
 import 'react-native-reanimated';
 import { AuthProvider } from '../contexts/AuthContext';
 import { QueryProvider } from '../providers/QueryProvider';
@@ -9,6 +10,15 @@ import { SafeAreaProvider } from 'react-native-safe-area-context';
 import Toast from 'react-native-toast-message';
 
 import { useColorScheme } from '@/hooks/use-color-scheme';
+
+// Suppress specific error logs that are handled with toast notifications
+if (__DEV__) {
+  LogBox.ignoreLogs([
+    'Registration error:',
+    'Error processing response from',
+    'Error calling',
+  ]);
+}
 
 export const unstable_settings = {
   anchor: '(tabs)',

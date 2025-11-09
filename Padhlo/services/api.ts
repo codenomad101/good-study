@@ -1275,6 +1275,14 @@ class ApiService {
   async renewSubscription() {
     return this.post('/subscription/renew');
   }
+
+  async getRemainingSessions() {
+    return this.get('/subscription/remaining-sessions');
+  }
+
+  async handleTrialExpiry(autoPayToPro: boolean) {
+    return this.post('/subscription/handle-trial-expiry', { autoPayToPro });
+  }
 }
 
 export const apiService = new ApiService();

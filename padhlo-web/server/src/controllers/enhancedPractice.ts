@@ -1,7 +1,9 @@
 import { Request, Response } from 'express';
 import { EnhancedPracticeService } from '../services/enhancedPractice';
+import { SessionLimitsService } from '../services/sessionLimits';
 
 const practiceService = new EnhancedPracticeService();
+const sessionLimitsService = new SessionLimitsService();
 
 export class EnhancedPracticeController {
   // Complete a practice session with detailed scoring
@@ -26,6 +28,17 @@ export class EnhancedPracticeController {
       const questionsAttempted = correctAnswers + incorrectAnswers;
       const percentage = questionsData.length > 0 ? (correctAnswers / questionsData.length) * 100 : 0;
 
+      // Check session limits for free plan (before creating the session)
+      const limitCheck = await sessionLimitsService.canCreatePracticeSession(userId);
+      if (!limitCheck.allowed) {
+        return res.status(403).json({
+          success: false,
+          message: limitCheck.reason || 'Daily practice session limit reached',
+          requiresUpgrade: true,
+          remaining: limitCheck.remaining
+        });
+      }
+
       const enhancedSessionData = {
         ...sessionData,
         correctAnswers,
@@ -49,7 +62,8 @@ export class EnhancedPracticeController {
           timeSpentMinutes: Math.round((sessionData.timeSpentSeconds || 0) / 60),
           category: sessionData.category,
           completedAt: session.completedAt
-        }
+        },
+        remaining: limitCheck.remaining !== undefined ? limitCheck.remaining - 1 : undefined
       });
     } catch (error) {
       console.error('Error completing practice session:', error);

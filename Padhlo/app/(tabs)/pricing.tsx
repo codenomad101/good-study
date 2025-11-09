@@ -87,8 +87,8 @@ const Pricing: React.FC = () => {
   const handleStartTrial = async () => {
     try {
       await startTrialMutation.mutateAsync();
-      showToast.success('Trial started successfully! You have 7 days of full access.', 'Trial Activated');
-      setSuccessMessage('Your 7-day trial has started. You now have access to all Pro features including Community, Leaderboard, and AI Insights.');
+      showToast.success('Trial started successfully! You have 3 days of full access.', 'Trial Activated');
+      setSuccessMessage('Your 3-day trial has started. You now have access to all Pro features including Community, Leaderboard, and AI Insights. After 3 days, you can choose to auto-pay to Pro (₹59/month) or switch to the free plan.');
       setShowSuccessModal(true);
       await refetch();
     } catch (error: any) {
@@ -129,20 +129,43 @@ const Pricing: React.FC = () => {
 
   const plans: Plan[] = [
     {
+      name: 'Free',
+      icon: <Star size={32} color="#8c8c8c" />,
+      price: 'Free',
+      duration: 'Forever',
+      description: 'Basic features with daily limits',
+      features: [
+        'Practice & Exams',
+        '3 practice sessions per day',
+        '3 exam sessions per day',
+        'Progress tracking',
+        'Study materials'
+      ],
+      excludedFeatures: [
+        'No Community access',
+        'No Notes access',
+        'No Leaderboard',
+        'No AI Insights'
+      ],
+      type: 'free',
+      color: '#8c8c8c'
+    },
+    {
       name: 'Trial',
       icon: <Rocket size={32} color="#52c41a" />,
       price: 'Free',
-      duration: '7 days',
-      description: 'Full access to all Pro features',
+      duration: '3 days',
+      description: 'Full access to all Pro features for 3 days',
       features: [
         'All Pro features',
         'Community access',
         'Leaderboard',
         'AI Insights',
-        'Practice & Exams',
+        'Unlimited Practice & Exams',
         'Progress tracking',
         'Study materials',
-        'Notes & bookmarks'
+        'Notes & bookmarks',
+        'Auto-pay to Pro (₹59/month) or switch to Free after 3 days'
       ],
       type: 'trial',
       color: '#52c41a',
