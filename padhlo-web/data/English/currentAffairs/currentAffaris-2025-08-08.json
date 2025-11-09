@@ -1,0 +1,2402 @@
+[
+    {
+      "category": "Current Affairs",
+      "Question": "How many individuals were conferred with the Bharat Ratna, India's highest civilian honour, in 2024?",
+      "Options": [
+        { "id": 1, "text": "Two" },
+        { "id": 2, "text": "Three" },
+        { "id": 3, "text": "Four" },
+        { "id": 4, "text": "Five" }
+      ],
+      "CorrectAnswer": "Five",
+      "Explanation": "In 2024, five individuals were awarded the Bharat Ratna: L.K. Advani, Karpoori Thakur (posthumous), P.V. Narasimha Rao (posthumous), Charan Singh (posthumous), and Dr. M.S. Swaminathan (posthumous).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Awards and Honours"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "What was India's final medal tally at the 2024 Paris Olympics?",
+      "Options": [
+        { "id": 1, "text": "1 Gold, 2 Silver, 4 Bronze (Total 7)" },
+        { "id": 2, "text": "1 Silver, 5 Bronze (Total 6)" },
+        { "id": 3, "text": "2 Gold, 1 Silver, 3 Bronze (Total 6)" },
+        { "id": 4, "text": "2 Silver, 4 Bronze (Total 6)" }
+      ],
+      "CorrectAnswer": "1 Silver, 5 Bronze (Total 6)",
+      "Explanation": "India won a total of 6 medals at the 2024 Paris Olympics: one silver (Neeraj Chopra) and five bronze medals (Manu Bhaker, Manu Bhaker/Sarabjot Singh, Swapnil Kusale, Indian Men's Hockey, Aman Sehrawat).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Sports"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Who was appointed as the 53rd Chief Justice of India (CJI) in October 2025?",
+      "Options": [
+        { "id": 1, "text": "Justice D.Y. Chandrachud" },
+        { "id": 2, "text": "Justice Sanjiv Khanna" },
+        { "id": 3, "text": "Justice Surya Kant" },
+        { "id": 4, "text": "Justice B.R. Gavai" }
+      ],
+      "CorrectAnswer": "Justice Surya Kant",
+      "Explanation": "Justice Surya Kant was sworn in as the 53rd Chief Justice of India on October 31, 2025, succeeding Justice Sanjiv Khanna.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Appointments"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Who was appointed as the Chairman of the 16th Finance Commission by the Government of India?",
+      "Options": [
+        { "id": 1, "text": "Dr. Arvind Panagariya" },
+        { "id": 2, "text": "N.K. Singh" },
+        { "id": 3, "text": "Dr. Raghuram Rajan" },
+        { "id": 4, "text": "Dr. Bimal Jalan" }
+      ],
+      "CorrectAnswer": "Dr. Arvind Panagariya",
+      "Explanation": "Dr. Arvind Panagariya, former Vice-Chairman of NITI Aayog, was appointed as the Chairman of the 16th Finance Commission. The commission is set to submit its report by October 2025 for the 2026-31 period.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Economy & Appointments"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "According to ISRO's 2025 announcements, what is the revised target year for India's first manned spaceflight mission, 'Gaganyaan'?",
+      "Options": [
+        { "id": 1, "text": "2025" },
+        { "id": 2, "text": "2026" },
+        { "id": 3, "text": "2027" },
+        { "id": 4, "text": "2028" }
+      ],
+      "CorrectAnswer": "2027",
+      "Explanation": "In late 2025, ISRO announced the first uncrewed G1 mission is postponed to January 2026. The first crewed (manned) mission is now scheduled for 2027, following a series of three uncrewed test flights.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Science and Technology"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "The Maharashtra government announced the 'Mukhya Mantri Mazi Ladaki Bahin Yojana' in 2024. What is the key provision of this scheme?",
+      "Options": [
+        { "id": 1, "text": "Free bus travel for all women." },
+        { "id": 2, "text": "A cash transfer of ₹1,500 per month to eligible women." },
+        { "id": 3, "text": "A 50% reservation in government jobs." },
+        { "id": 4, "text": "Free education for girls up to post-graduation." }
+      ],
+      "CorrectAnswer": "A cash transfer of ₹1,500 per month to eligible women.",
+      "Explanation": "The 'Mukhya Mantri Mazi Ladaki Bahin Yojana' is a flagship cash transfer scheme launched by the Maharashtra government, providing ₹1,500 monthly to eligible women aged 21 to 60.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "State Schemes (Maharashtra)"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "In February 2024, the Supreme Court struck down the Electoral Bonds Scheme. On what primary grounds was the scheme declared unconstitutional?",
+      "Options": [
+        { "id": 1, "text": "It violated the Right to Equality (Article 14)." },
+        { "id": 2, "text": "It violated the voter's Right to Information (Article 19(1)(a))." },
+        { "id": 3, "text": "It was not passed as a Money Bill." },
+        { "id": 4, "text": "It allowed foreign funding, violating the FCRA." }
+      ],
+      "CorrectAnswer": "It violated the voter's Right to Information (Article 19(1)(a)).",
+      "Explanation": "The Supreme Court's constitution bench unanimously ruled that the anonymity of political donations through Electoral Bonds violated the voter's fundamental Right to Information under Article 19(1)(a).",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Judiciary & Polity"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "In the 2024 Lok Sabha General Elections, what was the final number of seats won by the Bharatiya Janata Party (BJP) as a single party?",
+      "Options": [
+        { "id": 1, "text": "303" },
+        { "id": 2, "text": "272" },
+        { "id": 3, "text": "293" },
+        { "id": 4, "text": "240" }
+      ],
+      "CorrectAnswer": "240",
+      "Explanation": "The BJP won 240 seats, falling short of the 272-seat majority mark on its own. The NDA alliance, however, secured a majority with 293 seats, leading to the formation of the government.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "National Politics"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Which state became the first in independent India to pass a Uniform Civil Code (UCC) Bill in its assembly in February 2024?",
+      "Options": [
+        { "id": 1, "text": "Goa" },
+        { "id": 2, "text": "Uttar Pradesh" },
+        { "id": 3, "text": "Uttarakhand" },
+        { "id": 4, "text": "Gujarat" }
+      ],
+      "CorrectAnswer": "Uttarakhand",
+      "Explanation": "While Goa has had a common civil code since Portuguese rule, Uttarakhand became the first state in independent India to pass its own Uniform Civil Code (UCC) Bill in February 2024.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "State Politics & Law"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Which veteran actor from Maharashtra was honoured with the Padma Bhushan in the 2025 Republic Day awards?",
+      "Options": [
+        { "id": 1, "text": "Ashok Saraf" },
+        { "id": 2, "text": "Nana Patekar" },
+        { "id": 3, "text": "Dilip Prabhavalkar" },
+        { "id": 4, "text": "Sachin Khedekar" }
+      ],
+      "CorrectAnswer": "Ashok Saraf",
+      "Explanation": "Veteran Marathi and Hindi film actor Ashok Saraf was awarded the Padma Bhushan in January 2025 for his contributions to the field of Art. (He also received the Maharashtra Bhushan for 2023).",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Awards and Honours"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "As per the Union Budget 2025-26, what is the new income level up to which no income tax is payable for salaried taxpayers under the new tax regime?",
+      "Options": [
+        { "id": 1, "text": "₹7.5 Lakh" },
+        { "id": 2, "text": "₹10 Lakh" },
+        { "id": 3, "text": "₹12.75 Lakh" },
+        { "id": 4, "text": "₹15 Lakh" }
+      ],
+      "CorrectAnswer": "₹12.75 Lakh",
+      "Explanation": "The Union Budget 2025 announced no income tax liability for incomes up to ₹12 lakh. For salaried taxpayers, this limit is effectively ₹12.75 lakh due to the inclusion of a ₹75,000 standard deduction.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Economy & Budget"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "In February 2024, the Election Commission of India (ECI) resolved the dispute in the Nationalist Congress Party (NCP). What was the outcome?",
+      "Options": [
+        { "id": 1, "text": "It froze the party name and symbol, allotting new ones to both factions." },
+        { "id": 2, "text": "It awarded the official 'NCP' name and 'clock' symbol to the faction led by Sharad Pawar." },
+        { "id": 3, "text": "It awarded the official 'NCP' name and 'clock' symbol to the faction led by Ajit Pawar." },
+        { "id": 4, "text": "It ordered a fresh internal election for the party president." }
+      ],
+      "CorrectAnswer": "It awarded the official 'NCP' name and 'clock' symbol to the faction led by Ajit Pawar.",
+      "Explanation": "The ECI, based on the 'test of legislative majority', recognized the faction led by Ajit Pawar as the official Nationalist Congress Party (NCP) and granted it the 'clock' symbol.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "State Politics (Maharashtra)"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Shooter Manu Bhaker was a standout performer for India at the 2024 Paris Olympics. How many medals did she win?",
+      "Options": [
+        { "id": 1, "text": "One Bronze" },
+        { "id": 2, "text": "Two Bronze" },
+        { "id": 3, "text": "One Silver and One Bronze" },
+        { "id": 4, "text": "One Silver" }
+      ],
+      "CorrectAnswer": "Two Bronze",
+      "Explanation": "Manu Bhaker became the first Indian woman to win an Olympic shooting medal, securing a Bronze in the Women's 10m Air Pistol. She then won a second Bronze with Sarabjot Singh in the Mixed 10m Air Pistol team event.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Sports"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Who was appointed as the Chief Election Commissioner (CEC) of India in February 2025?",
+      "Options": [
+        { "id": 1, "text": "Rajiv Kumar" },
+        { "id": 2, "text": "Gyanesh Kumar" },
+        { "id": 3, "text": "S. S. Sandhu" },
+        { "id": 4, "text": "Arun Goel" }
+      ],
+      "CorrectAnswer": "Gyanesh Kumar",
+      "Explanation": "Following the retirement of Rajiv Kumar, Gyanesh Kumar was appointed as the 26th Chief Election Commissioner of India in February 2025.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Appointments"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "In February 2024, ISRO successfully launched the INSAT-3DS satellite. What is the primary purpose of this satellite?",
+      "Options": [
+        { "id": 1, "text": "High-speed broadband communication" },
+        { "id": 2, "text": "GPS Navigation" },
+        { "id": 3, "text": "Meteorological (Weather) forecasting and disaster warning" },
+        { "id": 4, "text": "Military surveillance" }
+      ],
+      "CorrectAnswer": "Meteorological (Weather) forecasting and disaster warning",
+      "Explanation": "INSAT-3DS is an advanced meteorological satellite designed to enhance weather forecasting, climate monitoring, and disaster warning services for India.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Science and Technology"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "What is the targeted Fiscal Deficit as a percentage of GDP for the financial year 2025-26, as announced in the Union Budget 2025?",
+      "Options": [
+        { "id": 1, "text": "5.1%" },
+        { "id": 2, "text": "4.4%" },
+        { "id": 3, "text": "3.9%" },
+        { "id": 4, "text": "3.0%" }
+      ],
+      "CorrectAnswer": "4.4%",
+      "Explanation": "Continuing the path of fiscal consolidation, the government set the fiscal deficit target at 4.4% of GDP for 2025-26 in the Union Budget 2025.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Economy & Budget"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Neeraj Chopra won a silver medal in the 2024 Paris Olympics. Who won the gold medal in the Men's Javelin Throw event?",
+      "Options": [
+        { "id": 1, "text": "Jakub Vadlejch (Czech Republic)" },
+        { "id": 2, "text": "Anderson Peters (Grenada)" },
+        { "id": 3, "text": "Arshad Nadeem (Pakistan)" },
+        { "id": 4, "text": "Julian Weber (Germany)" }
+      ],
+      "CorrectAnswer": "Arshad Nadeem (Pakistan)",
+      "Explanation": "In a historic Olympic final, Arshad Nadeem of Pakistan won the gold medal with a throw of 92.97m, while Neeraj Chopra secured the silver medal for India.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Sports"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Which of these individuals was NOT awarded the Padma Vibhushan in the 2025 Republic Day awards?",
+      "Options": [
+        { "id": 1, "text": "Smt. Kumudini Lakhia (Art)" },
+        { "id": 2, "text": "Shri Osamu Suzuki (Trade and Industry)" },
+        { "id": 3, "text": "Justice (Retd.) Shri Jagdish Singh Khehar (Public Affairs)" },
+        { "id": 4, "text": "Shri Arijit Singh (Art)" }
+      ],
+      "CorrectAnswer": "Shri Arijit Singh (Art)",
+      "Explanation": "Arijit Singh was awarded the Padma Shri in 2025. The Padma Vibhushan recipients included Smt. Kumudini Lakhia, Shri Osamu Suzuki, and Justice J.S. Khehar, among others.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Awards and Honours"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "The Maharashtra State Budget 2025-26 announced a new Industrial Policy. What is the stated investment and job creation target for this policy?",
+      "Options": [
+        { "id": 1, "text": "₹10 lakh crore investment, 10 lakh jobs" },
+        { "id": 2, "text": "₹20 lakh crore investment, 25 lakh jobs" },
+        { "id": 3, "text": "₹40 lakh crore investment, 50 lakh jobs" },
+        { "id": 4, "text": "₹50 lakh crore investment, 1 crore jobs" }
+      ],
+      "CorrectAnswer": "₹40 lakh crore investment, 50 lakh jobs",
+      "Explanation": "The Maharashtra Budget 2025 announced that a new industrial policy will be unveiled, aiming to attract massive investments of ₹40 lakh crore and create 50 lakh new jobs.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "State Economy (Maharashtra)"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "In January 2024, Nitish Kumar resigned as Chief Minister of Bihar. This was his ____ time taking oath as the CM.",
+      "Options": [
+        { "id": 1, "text": "Seventh" },
+        { "id": 2, "text": "Eighth" },
+        { "id": 3, "text": "Ninth" },
+        { "id": 4, "text": "Tenth" }
+      ],
+      "CorrectAnswer": "Ninth",
+      "Explanation": "In a major political shift, Nitish Kumar resigned, ended the 'Mahagathbandhan' coalition with RJD, and took oath as Chief Minister for the ninth time, rejoining the BJP-led NDA.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "National Politics"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "The Union Budget 2025 announced a new mission, 'Aatmanirbharta in Pulses', focusing on self-sufficiency. Which three pulses were specifically mentioned?",
+      "Options": [
+        { "id": 1, "text": "Tur, Urad, and Masoor" },
+        { "id": 2, "text": "Moong, Chana, and Tur" },
+        { "id": 3, "text": "Masoor, Chana, and Moong" },
+        { "id": 4, "text": "Urad, Chana, and Rajma" }
+      ],
+      "CorrectAnswer": "Tur, Urad, and Masoor",
+      "Explanation": "The Union Budget 2025 laid out a plan for 'Aatmanirbharta in Pulses' with a focus on Tur (Pigeon Pea), Urad (Black Gram), and Masoor (Lentil), involving procurement by NAFED and NCCF.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Economy & Budget"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Who took oath as the new Chief Minister of Jharkhand in February 2024, following the arrest of Hemant Soren?",
+      "Options": [
+        { "id": 1, "text": "Shibu Soren" },
+        { "id": 2, "text": "Babulal Marandi" },
+        { "id": 3, "text": "Champai Soren" },
+        { "id": 4, "text": "Kalpana Soren" }
+      ],
+      "CorrectAnswer": "Champai Soren",
+      "Explanation": "Following the arrest of Hemant Soren in a land-related case, JMM leader Champai Soren took oath as the new Chief Minister of Jharkhand.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "State Politics"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Match the Indian bronze medal winners from the 2024 Paris Olympics with their respective sports:\n1. Swapnil Kusale\n2. Aman Sehrawat\n3. Indian Men's Team\n\n(a) Hockey\n(b) Shooting\n(c) Wrestling",
+      "Options": [
+        { "id": 1, "text": "1-a, 2-b, 3-c" },
+        { "id": 2, "text": "1-b, 2-c, 3-a" },
+        { "id": 3, "text": "1-c, 2-b, 3-a" },
+        { "id": 4, "text": "1-b, 2-a, 3-c" }
+      ],
+      "CorrectAnswer": "1-b, 2-c, 3-a",
+      "Explanation": "Swapnil Kusale won bronze in Men's 50m Rifle 3 Positions (Shooting). Aman Sehrawat won bronze in Men's freestyle 57kg (Wrestling). The Indian Men's Team won bronze in (Hockey).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Sports"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "The 'Dilli Chalo' march, part of the 2024 Farmers' Protest (2.0), was organized by farmers primarily from which states?",
+      "Options": [
+        { "id": 1, "text": "Punjab and Haryana" },
+        { "id": 2, "text": "Maharashtra and Gujarat" },
+        { "id": 3, "text": "Uttar Pradesh and Bihar" },
+        { "id": 4, "text": "Karnataka and Tamil Nadu" }
+      ],
+      "CorrectAnswer": "Punjab and Haryana",
+      "Explanation": "The 2024 farmers' protest, demanding a legal guarantee for MSP, primarily involved farmer unions from Punjab and Haryana, who organized the 'Dilli Chalo' march in February 2024.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "National Events"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "The UNEP Emissions Gap Report 2025, titled 'Off Target', warned that current global policies have the world on track for what temperature rise by 2100?",
+      "Options": [
+        { "id": 1, "text": "1.5°C" },
+        { "id": 2, "text": "2.0°C" },
+        { "id": 3, "text": "2.8°C" },
+        { "id": 4, "text": "4.1°C" }
+      ],
+      "CorrectAnswer": "2.8°C",
+      "Explanation": "The UNEP Emissions Gap Report 2025, released in late 2025, warned that the world is 'Off Target' and current policies project a global warming of approximately 2.8°C by 2100.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Environment & Reports"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "The 2024 NEET-UG examination faced a major controversy primarily due to:",
+      "Options": [
+        { "id": 1, "text": "Allegations of paper leaks and irregularities in awarding grace marks." },
+        { "id": 2, "text": "The exam being conducted only in English and Hindi." },
+        { "id": 3, "text": "A sudden change in the syllabus just before the exam." },
+        { "id": 4, "text": "The high application fee, leading to protests." }
+      ],
+      "CorrectAnswer": "Allegations of paper leaks and irregularities in awarding grace marks.",
+      "Explanation": "The 2024 NEET-UG results sparked a nationwide controversy over allegations of widespread paper leaks, an unusual number of perfect scores, and the arbitrary awarding of grace marks.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "National Events"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "What is the projected Gross State Domestic Product (GSDP) growth rate for Maharashtra for the fiscal year 2025-26, as per the state budget?",
+      "Options": [
+        { "id": 1, "text": "7.5%" },
+        { "id": 2, "text": "8.2%" },
+        { "id": 3, "text": "9.0%" },
+        { "id": 4, "text": "10.1%" }
+      ],
+      "CorrectAnswer": "9.0%",
+      "Explanation": "The Maharashtra State Budget 2025-26 projected the state's GSDP (at current prices) to be ₹49.39 lakh crore, amounting to a growth of 9.0% over the previous year.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "State Economy (Maharashtra)"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Which two prominent Indian sports personalities were awarded the Padma Shri in the 2025 Republic Day awards?",
+      "Options": [
+        { "id": 1, "text": "Virat Kohli and Neeraj Chopra" },
+        { "id": 2, "text": "R. Ashwin and I. M. Vijayan" },
+        { "id": 3, "text": "P.V. Sindhu and Rohan Bopanna" },
+        { "id": 4, "text": "Manu Bhaker and Aman Sehrawat" }
+      ],
+      "CorrectAnswer": "R. Ashwin and I. M. Vijayan",
+      "Explanation": "Cricketer Ravichandran Ashwin and legendary footballer Inivalappil Mani (I.M.) Vijayan were among the sports personalities awarded the Padma Shri in January 2025.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Awards and Honours"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "The Union Budget 2025 announced a 'Nuclear Energy Mission for Viksit Bharat'. What is its stated objective?",
+      "Options": [
+        { "id": 1, "text": "To decommission all old nuclear plants by 2030." },
+        { "id": 2, "text": "To achieve self-reliance in nuclear technology and build large-scale reactors." },
+        { "id": 3, "text": "To export nuclear fuel to neighboring countries." },
+        { "id": 4, "text": "To ban the use of nuclear energy for non-civilian purposes." }
+      ],
+      "CorrectAnswer": "To achieve self-reliance in nuclear technology and build large-scale reactors.",
+      "Explanation": "The 'Nuclear Energy Mission for Viksit Bharat' was announced in the 2025 Budget to promote the development of indigenous large-scale nuclear reactors and achieve energy self-reliance.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Economy & Budget"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "The 2024 Rajya Sabha elections saw controversial cross-voting by MLAs, notably in which two states, leading to defeats for Congress and SP candidates?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra and Karnataka" },
+        { "id": 2, "text": "Himachal Pradesh and Uttar Pradesh" },
+        { "id": 3, "text": "Rajasthan and Madhya Pradesh" },
+        { "id": 4, "text": "Bihar and West Bengal" }
+      ],
+      "CorrectAnswer": "Himachal Pradesh and Uttar Pradesh",
+      "Explanation": "In February 2024, cross-voting by Congress MLAs in Himachal Pradesh and SP MLAs in Uttar Pradesh led to unexpected wins for BJP candidates in the Rajya Sabha elections.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "National Politics"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "The FAO's 'State of Food and Agriculture (SOFA) 2025' report highlighted a significant global issue. What was its key finding?",
+      "Options": [
+        { "id": 1, "text": "Global food production is set to double by 2030." },
+        { "id": 2, "text": "20% of global croplands show declining productivity due to land degradation." },
+        { "id": 3, "text": "GM crops have been universally adopted, ending food shortages." },
+        { "id": 4, "text": "Organic farming has surpassed conventional farming in global output." }
+      ],
+      "CorrectAnswer": "20% of global croplands show declining productivity due to land degradation.",
+      "Explanation": "The SOFA 2025 report raised alarms about land degradation, stating that around 20% of global croplands are experiencing declining productivity, with Asia and Africa being most affected.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Environment & Reports"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "As part of economic reforms in 2024, the Mudra loan limit for entrepreneurs who successfully repaid previous 'Tarun' loans was increased. What is the new limit?",
+      "Options": [
+        { "id": 1, "text": "From ₹5 lakh to ₹10 lakh" },
+        { "id": 2, "text": "From ₹10 lakh to ₹20 lakh" },
+        { "id": 3, "text": "From ₹20 lakh to ₹50 lakh" },
+        { "id": 4, "text": "From ₹1 lakh to ₹5 lakh" }
+      ],
+      "CorrectAnswer": "From ₹10 lakh to ₹20 lakh",
+      "Explanation": "To support MSMEs and entrepreneurs, the Union Budget 2024-25 announcements included raising the Mudra loan limit from ₹10 lakh to ₹20 lakh for eligible beneficiaries.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Economy & Budget"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "What allocation was made in the Maharashtra State Budget 2025-26 for the 'Namo Shetkari Mahasanman Nidhi Yojana'?",
+      "Options": [
+        { "id": 1, "text": "₹1,050 crore" },
+        { "id": 2, "text": "₹3,000 crore" },
+        { "id": 3, "text": "₹6,060 crore" },
+        { "id": 4, "text": "₹10,000 crore" }
+      ],
+      "CorrectAnswer": "₹6,060 crore",
+      "Explanation": "The Maharashtra Budget 2025-26 allocated ₹6,060 crore for the 'Namo Shetkari Mahasanman Nidhi Yojana', a state scheme that provides additional income support to farmers, supplementing the central PM-KISAN scheme.",
+      "Difficulty": "Hard",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "State Economy (Maharashtra)"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Consider the following individuals awarded the Bharat Ratna in 2024:\n1. P.V. Narasimha Rao\n2. M.S. Swaminathan\n3. L.K. Advani\n4. Karpoori Thakur\n5. Charan Singh\nWhich of them were awarded posthumously?",
+      "Options": [
+        { "id": 1, "text": "1, 2, 3 and 4 only" },
+        { "id": 2, "text": "1, 2, 4 and 5 only" },
+        { "id": 3, "text": "3, 4 and 5 only" },
+        { "id": 4, "text": "All of them" }
+      ],
+      "CorrectAnswer": "1, 2, 4 and 5 only",
+      "Explanation": "Of the five recipients in 2024, only L.K. Advani was alive to receive the award. The other four—P.V. Narasimha Rao, M.S. Swaminathan, Karpoori Thakur, and Charan Singh—were all honoured posthumously.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Awards and Honours"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Aman Sehrawat won a bronze medal for India at the 2024 Paris Olympics in which sport?",
+      "Options": [
+        { "id": 1, "text": "Wrestling" },
+        { "id": 2, "text": "Boxing" },
+        { "id": 3, "text": "Weightlifting" },
+        { "id": 4, "text": "Judo" }
+      ],
+      "CorrectAnswer": "Wrestling",
+      "Explanation": "Aman Sehrawat secured a bronze medal in the Men's freestyle 57kg wrestling event, becoming one of India's youngest Olympic medallists.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Sports"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "The 2024 economic reforms included scrapping the 'Angel Tax'. What did this tax apply to?",
+      "Options": [
+        { "id": 1, "text": "Investments made by foreign institutional investors (FIIs) in the stock market." },
+        { "id": 2, "text": "Capital gains made by angel investors from selling startup shares." },
+        { "id": 3, "text": "Investments received by unlisted startups from angel investors, if the investment was above the startup's 'fair market value'." },
+        { "id": 4, "text": "Donations made to charitable organizations by high-net-worth individuals." }
+      ],
+      "CorrectAnswer": "Investments received by unlisted startups from angel investors, if the investment was above the startup's 'fair market value'.",
+      "Explanation": "The 'Angel Tax' (under Section 56(2)(viib) of the Income Tax Act) was a controversial tax levied on startups for raising capital above their 'fair market value'. Its abolition was a major relief for the Indian startup ecosystem.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Economy & Taxation"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Justice (Retd.) Jagdish Singh Khehar was awarded the Padma Vibhushan in 2025. He holds which distinct position in India's judicial history?",
+      "Options": [
+        { "id": 1, "text": "The longest-serving Chief Justice of India." },
+        { "id": 2, "text": "The first Chief Justice of India from the Sikh community." },
+        { "id": 3, "text": "The judge who authored the Ayodhya Ram Janmabhoomi verdict." },
+        { "id": 4, "text": "The first CJI to be appointed directly from the bar." }
+      ],
+      "CorrectAnswer": "The first Chief Justice of India from the Sikh community.",
+      "Explanation": "Justice J.S. Khehar, who served as the 44th CJI, was the first member of the Sikh community to be appointed to the post. He was awarded the Padma Vibhushan (posthumous) for Public Affairs in 2025.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Awards and Honours"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "In 2024, Maharashtra government officials announced the launch of Mumbai's first fully underground metro line. Which line is this?",
+      "Options": [
+        { "id": 1, "text": "Line 1 (Versova-Andheri-Ghatkopar)" },
+        { "id": 2, "text": "Line 2A (Dahisar-DN Nagar)" },
+        { "id": 3, "text": "Line 3 (Colaba-Bandra-SEEPZ)" },
+        { "id": 4, "text": "Line 7 (Dahisar E-Andheri E)" }
+      ],
+      "CorrectAnswer": "Line 3 (Colaba-Bandra-SEEPZ)",
+      "Explanation": "The Mumbai Metro Line 3 (Aqua Line) is the city's first fully underground corridor, stretching from Colaba in the south to SEEPZ in the north. Its first phase was inaugurated in 2024.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "State Infrastructure (Maharashtra)"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Who won the bronze medal for India in the Men's 50m Rifle 3 Positions shooting event at the 2024 Paris Olympics?",
+      "Options": [
+        { "id": 1, "text": "Sarabjot Singh" },
+        { "id": 2, "text": "Swapnil Kusale" },
+        { "id": 3, "text": "Abhinav Bindra" },
+        { "id": 4, "text": "Gagan Narang" }
+      ],
+      "CorrectAnswer": "Swapnil Kusale",
+      "Explanation": "Swapnil Kusale, who hails from Maharashtra, won the bronze medal in the Men's 50m Rifle 3 Positions event, contributing to India's strong showing in shooting at the 2024 Paris Olympics.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Sports"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "In 2024, the Maharashtra government decided to give a 'Rajya Mata' (Queen Mother) title. To whom or what does this title apply?",
+      "Options": [
+        { "id": 1, "text": "Veteran female social workers in the state." },
+        { "id": 2, "text": "Indigenous (desi) cows to promote their conservation." },
+        { "id": 3, "text": "The wives of former Chief Ministers." },
+        { "id": 4, "text": "Historic forts in Maharashtra." }
+      ],
+      "CorrectAnswer": "Indigenous (desi) cows to promote their conservation.",
+      "Explanation": "The state cabinet approved a proposal to give the 'Rajya Mata' title to indigenous cow breeds and announced new subsidy schemes to promote their rearing and conservation.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "State Governance (Maharashtra)"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "The Union Budget 2025 announced the establishment of a 'Makhana Board' to boost its production and marketing. This board will be established in which state?",
+      "Options": [
+        { "id": 1, "text": "West Bengal" },
+        { "id": 2, "text": "Bihar" },
+        { "id": 3, "text": "Assam" },
+        { "id": 4, "text": "Odisha" }
+      ],
+      "CorrectAnswer": "Bihar",
+      "Explanation": "To support the 'Makhana' (fox nut) industry, the Union Budget 2025 announced the formation of a Makhana Board to be established in Bihar, a state known for its high production.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Economy & Budget"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "In 2024, the Reserve Bank of India (RBI) imposed business restrictions on which Maharashtra-based co-operative bank?",
+      "Options": [
+        { "id": 1, "text": "Saraswat Co-operative Bank" },
+        { "id": 2, "text": "PMC Bank" },
+        { "id": 3, "text": "New India Co-operative Bank" },
+        { "id": 4, "text": "Abhyudaya Co-operative Bank" }
+      ],
+      "CorrectAnswer": "New India Co-operative Bank",
+      "Explanation": "The RBI imposed restrictions on the New India Co-operative Bank in 2024, citing its poor financial condition, and placed it under the Directions of the central bank.",
+      "Difficulty": "Hard",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "State Economy (Maharashtra)"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "As per ISRO's plans announced in 2025, what is the target year for establishing India's first space station, the 'Bhartiya Antariksh Station'?",
+      "Options": [
+        { "id": 1, "text": "2027" },
+        { "id": 2, "text": "2028" },
+        { "id": 3, "text": "2030" },
+        { "id": 4, "text": "2035" }
+      ],
+      "CorrectAnswer": "2028",
+      "Explanation": "Alongside the Gaganyaan mission, ISRO officials in 2025 stated the plan to launch India's first space station module, the 'Bhartiya Antariksh Station', by 2028, with expansion planned by 2035.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Science and Technology"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Which renowned Marathi writer and environmentalist from Maharashtra was awarded the Padma Shri in 2025?",
+      "Options": [
+        { "id": 1, "text": "Maruti Bhujangrao Chitampalli" },
+        { "id": 2, "text": "Dr. Chaitram Deochand Pawar" },
+        { "id": 3, "text": "Achyut Ramchandra Palav" },
+        { "id": 4, "text": "Arundhati Bhattacharya" }
+      ],
+      "CorrectAnswer": "Maruti Bhujangrao Chitampalli",
+      "Explanation": "Maruti Bhujangrao Chitampalli, a celebrated writer known for his literature on forests and wildlife (Aranyavaibhav), was awarded the Padma Shri for Literature and Education in 2025.",
+      "Difficulty": "Hard",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Awards and Honours"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Consider the following statements about the 2024 Lok Sabha election results:\n1. The NDA alliance crossed the majority mark of 272 seats.\n2. The INDIA alliance, led by the Congress, won more seats than the NDA.\n3. Narendra Modi took oath as Prime Minister for a third consecutive term.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "Statement (2) is incorrect. The NDA won 293 seats, securing a majority. The INDIA alliance won 234 seats. Statement (1) and (3) are correct.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "National Politics"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "What was the total number of medals won by India at the 2024 Paris Olympics?",
+      "Options": [
+        { "id": 1, "text": "5" },
+        { "id": 2, "text": "6" },
+        { "id": 3, "text": "7" },
+        { "id": 4, "text": "8" }
+      ],
+      "CorrectAnswer": "6",
+      "Explanation": "India's final medal tally at the 2024 Paris Olympics was 6 medals (1 Silver and 5 Bronze).",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Sports"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "What is the targeted Fiscal Deficit as a percentage of GSDP for Maharashtra in the 2025-26 state budget?",
+      "Options": [
+        { "id": 1, "text": "1.9%" },
+        { "id": 2, "text": "2.8%" },
+        { "id": 3, "text": "3.5%" },
+        { "id": 4, "text": "4.1%" }
+      ],
+      "CorrectAnswer": "2.8%",
+      "Explanation": "The Maharashtra Budget 2025-26 targeted a fiscal deficit of 2.8% of GSDP (₹1,36,235 crore), which is within the 3% limit set by the FRBM Act.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "State Economy (Maharashtra)"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Consider the following statements about the 16th Finance Commission:\n1. It is chaired by Dr. Arvind Panagariya.\n2. It is a constitutional body under Article 280.\n3. It will submit its report for the 5-year period beginning April 1, 2025.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "Statements (1) and (2) are correct. Statement (3) is incorrect. The 16th Finance Commission will make recommendations for the 5-year period beginning April 1, 2026 (not 2025).",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Economy & Polity"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Which of these appointments, made in 2025, is correctly matched?\n1. Justice Surya Kant - 53rd Chief Justice of India\n2. Gyanesh Kumar - Chief Election Commissioner\n3. Dr. Arvind Panagariya - Governor of RBI",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "Justice Surya Kant became the 53rd CJI (Oct 2025) and Gyanesh Kumar became the CEC (Feb 2025). Dr. Arvind Panagariya was appointed Chairman of the 16th Finance Commission, not the RBI Governor.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Appointments"
+    },
+    {
+      "category": "Current Affairs",
+      "Question": "Dr. M.S. Swaminathan, who was awarded the Bharat Ratna posthumously in 2024, is famously known as:",
+      "Options": [
+        { "id": 1, "text": "The Father of India's Space Programme" },
+        { "id": 2, "text": "The Father of India's Green Revolution" },
+        { "id": 3, "text": "The Father of India's White Revolution" },
+        { "id": 4, "text": "The Father of India's Economic Reforms" }
+      ],
+      "CorrectAnswer": "The Father of India's Green Revolution",
+      "Explanation": "Dr. M.S. Swaminathan was a renowned agricultural scientist and was the key architect of India's Green Revolution, for which he was awarded the Bharat Ratna in 2024.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Awards and Honours"
+    },
+    {
+        "category": "Current Affairs",
+        "Question": "What was the final seat tally of the 'Mahayuti' alliance (BJP, Shiv Sena, NCP) in the 2024 Maharashtra Vidhan Sabha (Assembly) elections?",
+        "Options": [
+          { "id": 1, "text": "182" },
+          { "id": 2, "text": "205" },
+          { "id": 3, "text": "235" },
+          { "id": 4, "text": "145" }
+        ],
+        "CorrectAnswer": "235",
+        "Explanation": "The Mahayuti alliance won a landslide victory in the 2024 Maharashtra Assembly elections, securing 235 out of the 288 seats. This was a significant increase from their previous tally.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "State Politics (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Who was the Player of the Tournament in the 2024 ICC Men's T20 World Cup, which India won?",
+        "Options": [
+          { "id": 1, "text": "Virat Kohli" },
+          { "id": 2, "text": "Rohit Sharma" },
+          { "id": 3, "text": "Jasprit Bumrah" },
+          { "id": 4, "text": "Hardik Pandya" }
+        ],
+        "CorrectAnswer": "Jasprit Bumrah",
+        "Explanation": "India won the 2024 T20 World Cup by defeating South Africa. Jasprit Bumrah was named Player of the Tournament for his exceptional bowling, while Virat Kohli was Player of the Final.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC, Banking",
+        "correctOption": 3,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The Union Budget 2025-26 set the fiscal deficit target for 2025-26 at what percentage of GDP?",
+        "Options": [
+          { "id": 1, "text": "5.1%" },
+          { "id": 2, "text": "4.4%" },
+          { "id": 3, "text": "3.9%" },
+          { "id": 4, "text": "3.0%" }
+        ],
+        "CorrectAnswer": "4.4%",
+        "Explanation": "Continuing the path of fiscal consolidation, the Finance Minister announced a fiscal deficit target of 4.4% of GDP for the fiscal year 2025-26.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, RBI Grade B",
+        "correctOption": 2,
+        "topic": "Economy & Budget"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In 2024, ISRO successfully launched a dedicated satellite for the Indian Navy. What was the name of this satellite?",
+        "Options": [
+          { "id": 1, "text": "GSAT-20" },
+          { "id": 2, "text": "INSAT-3DS" },
+          { "id": 3, "text": "GSAT-7R" },
+          { "id": 4, "text": "RISAT-1B" }
+        ],
+        "CorrectAnswer": "GSAT-7R",
+        "Explanation": "In November 2024, ISRO launched the GSAT-7R, a next-generation communication satellite exclusively for the Indian Navy, to enhance its maritime communication and surveillance capabilities.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Science and Technology"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which of the following statements about the 2024 Lok Sabha election results is correct?",
+        "Options": [
+          { "id": 1, "text": "The BJP won 272 seats on its own." },
+          { "id": 2, "text": "The NDA alliance won 293 seats." },
+          { "id": 3, "text": "The INDIA alliance won a majority with 305 seats." },
+          { "id": 4, "text": "The BJP won 240 seats, but the NDA failed to get a majority." }
+        ],
+        "CorrectAnswer": "The NDA alliance won 293 seats.",
+        "Explanation": "The BJP-led NDA alliance secured a majority by winning 293 seats. The BJP as a single party won 240 seats, which was short of the 272-seat majority mark on its own.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "National Politics"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The Maharashtra Budget 2025 announced a new flagship scheme, 'Mukhya Mantri Mazi Ladaki Bahin Yojana'. What does this scheme provide?",
+        "Options": [
+          { "id": 1, "text": "A monthly cash transfer of ₹1,500 to eligible women." },
+          { "id": 2, "text": "Free bus travel for women across the state." },
+          { "id": 3, "text": "A one-time grant of ₹1,00,000 for girls' education." },
+          { "id": 4, "text": "Subsidized loans for women-led SHGs." }
+        ],
+        "CorrectAnswer": "A monthly cash transfer of ₹1,500 to eligible women.",
+        "Explanation": "With a massive allocation of ₹36,000 crore, the 'Mazi Ladaki Bahin Yojana' was announced to provide ₹1,500 per month to eligible women aged 21-60, aiming to benefit 2.53 crore women.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "State Schemes (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The three new criminal laws—Bharatiya Nyaya Sanhita, Bharatiya Nagarik Suraksha Sanhita, and Bharatiya Sakshya Adhiniyam—came into force on which date in 2024?",
+        "Options": [
+          { "id": 1, "text": "January 1, 2024" },
+          { "id": 2, "text": "April 1, 2024" },
+          { "id": 3, "text": "July 1, 2024" },
+          { "id": 4, "text": "October 1, 2024" }
+        ],
+        "CorrectAnswer": "July 1, 2024",
+        "Explanation": "The three new criminal laws, which replaced the Indian Penal Code (IPC), Code of Criminal Procedure (CrPC), and the Indian Evidence Act, were implemented across India on July 1, 2024.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Judiciary & Law"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Who won India's only silver medal at the 2024 Paris Olympics?",
+        "Options": [
+          { "id": 1, "text": "Manu Bhaker" },
+          { "id": 2, "text": "Neeraj Chopra" },
+          { "id": 3, "text": "Aman Sehrawat" },
+          { "id": 4, "text": "Swapnil Kusale" }
+        ],
+        "CorrectAnswer": "Neeraj Chopra",
+        "Explanation": "Neeraj Chopra won the silver medal in the Men's Javelin Throw, securing India's only silver at the 2024 Paris Olympics. India finished with a total of 6 medals (1 Silver, 5 Bronze).",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Who was appointed as the 30th Chief of the Army Staff (COAS) in June 2024?",
+        "Options": [
+          { "id": 1, "text": "General Manoj Pande" },
+          { "id": 2, "text": "General Anil Chauhan" },
+          { "id": 3, "text": "Lt. General Upendra Dwivedi" },
+          { "id": 4, "text": "Lt. General M. V. Suchindra Kumar" }
+        ],
+        "CorrectAnswer": "Lt. General Upendra Dwivedi",
+        "Explanation": "Lt. General Upendra Dwivedi took charge as the 30th Chief of the Army Staff on June 30, 2024, succeeding General Manoj Pande.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Appointments"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which veteran Marathi writer, known for his works on forests and wildlife, was awarded the Padma Shri in 2025?",
+        "Options": [
+          { "id": 1, "text": "Ashok Saraf" },
+          { "id": 2, "text": "Maruti Bhujangrao Chitampalli" },
+          { "id": 3, "text": "Achyut Ramchandra Palav" },
+          { "id": 4, "text": "Laxman Gaikwad" }
+        ],
+        "CorrectAnswer": "Maruti Bhujangrao Chitampalli",
+        "Explanation": "Maruti Bhujangrao Chitampalli, a celebrated author and environmentalist known for his 'Aranyavaibhav' (Forest Literature), was awarded the Padma Shri for Literature and Education.",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The Union Budget 2025-26 raised the income level for 'no tax liability' under the new tax regime. What is this new limit for salaried taxpayers?",
+        "Options": [
+          { "id": 1, "text": "₹7.5 Lakh" },
+          { "id": 2, "text": "₹10 Lakh" },
+          { "id": 3, "text": "₹12.75 Lakh" },
+          { "id": 4, "text": "₹15 Lakh" }
+        ],
+        "CorrectAnswer": "₹12.75 Lakh",
+        "Explanation": "The budget announced no income tax liability for incomes up to ₹12 lakh. For salaried taxpayers, this limit is effectively ₹12.75 lakh due to the inclusion of a ₹75,000 standard deduction.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Economy & Budget"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In March 2024, the Supreme Court modified its 2021 order regarding the Great Indian Bustard (GIB). What was the modification?",
+        "Options": [
+          { "id": 1, "text": "It banned all renewable energy projects in Rajasthan and Gujarat." },
+          { "id": 2, "text": "It relaxed the mandate for undergrounding power lines in 'Potential GIB Areas'." },
+          { "id": 3, "text": "It ordered the relocation of all GIBs to a new sanctuary." },
+          { "id": 4, "text": "It transferred the case to the National Green Tribunal (NGT)." }
+        ],
+        "CorrectAnswer": "It relaxed the mandate for undergrounding power lines in 'Potential GIB Areas'.",
+        "Explanation": "Balancing conservation with India's renewable energy goals, the SC relaxed its blanket order for undergrounding power lines, maintaining it for 'Priority Areas' but allowing overhead lines in 'Potential Areas' subject to expert committee approval.",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Environment & Judiciary"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which two individuals were awarded the 59th Jnanpith Award (for 2024)?",
+        "Options": [
+          { "id": 1, "text": "Damodar Mauzo and Nilmani Phookan Jr." },
+          { "id": 2, "text": "Gulzar and Jagadguru Rambhadracharya" },
+          { "id": 3, "text": "Vinod Kumar Shukla and A. R. Rahman" },
+          { "id": 4, "text": "Amitav Ghosh and Javed Akhtar" }
+        ],
+        "CorrectAnswer": "Gulzar and Jagadguru Rambhadracharya",
+        "Explanation": "For 2024, the 59th Jnanpith Award was jointly awarded to two individuals: Sanskrit scholar Jagadguru Rambhadracharya and renowned Urdu poet and lyricist Gulzar.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Swapnil Kusale, who won a bronze medal at the 2024 Paris Olympics, is associated with which sport?",
+        "Options": [
+          { "id": 1, "text": "Wrestling" },
+          { "id": 2, "text": "Shooting" },
+          { "id": 3, "text": "Archery" },
+          { "id": 4, "text": "Javelin Throw" }
+        ],
+        "CorrectAnswer": "Shooting",
+        "Explanation": "Swapnil Kusale, who hails from Maharashtra, won the bronze medal in the Men's 50m Rifle 3 Positions shooting event, securing India's first-ever Olympic medal in this specific event.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The Maharashtra Budget 2025 announced a new Industrial Policy (2025). What is the stated investment target for this policy?",
+        "Options": [
+          { "id": 1, "text": "₹10 lakh crore" },
+          { "id": 2, "text": "₹25 lakh crore" },
+          { "id": 3, "text": "₹40 lakh crore" },
+          { "id": 4, "text": "₹50 lakh crore" }
+        ],
+        "CorrectAnswer": "₹40 lakh crore",
+        "Explanation": "The Maharashtra Budget 2025-26, themed 'Viksit Bharat – Viksit Maharashtra', announced a new Industrial Policy aiming to attract ₹40 lakh crore in investment and create 50 lakh jobs.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "State Economy (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Cyclone Remal, which made landfall in May 2024, primarily affected which two regions?",
+        "Options": [
+          { "id": 1, "text": "Maharashtra and Gujarat" },
+          { "id": 2, "text": "West Bengal and Bangladesh" },
+          { "id": 3, "text": "Tamil Nadu and Sri Lanka" },
+          { "id": 4, "text": "Odisha and Andhra Pradesh" }
+        ],
+        "CorrectAnswer": "West Bengal and Bangladesh",
+        "Explanation": "Severe Cyclonic Storm Remal made landfall in May 2024, causing significant damage and flooding in the coastal areas of West Bengal (India) and Bangladesh.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Environment & Geography"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 'PM Surya Ghar: Muft Bijli Yojana', launched in February 2024, aims to provide rooftop solar panels for how many households?",
+        "Options": [
+          { "id": 1, "text": "50 lakh" },
+          { "id": 2, "text": "1 crore" },
+          { "id": 3, "text": "5 crore" },
+          { "id": 4, "text": "10 crore" }
+        ],
+        "CorrectAnswer": "1 crore",
+        "Explanation": "The 'PM Surya Ghar: Muft Bijli Yojana' is a central scheme launched in 2024 with the objective of installing rooftop solar systems for 1 crore households, providing them with up to 300 units of free electricity per month.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Government Schemes"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "What was India's rank in the World Press Freedom Index 2025, as released by Reporters Without Borders (RSF)?",
+        "Options": [
+          { "id": 1, "text": "131" },
+          { "id": 2, "text": "142" },
+          { "id": 3, "text": "151" },
+          { "id": 4, "text": "159" }
+        ],
+        "CorrectAnswer": "151",
+        "Explanation": "India was ranked 151st out of 180 countries in the 2025 World Press Freedom Index, showing a marginal improvement from its 159th rank in 2024, but still remaining in the 'very serious' category.",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Reports and Indices"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which of these veteran actors from Maharashtra was NOT a recipient of a Padma Award in 2025?",
+        "Options": [
+          { "id": 1, "text": "Ashok Saraf (Padma Bhushan)" },
+          { "id": 2, "text": "Nana Patekar" },
+          { "id": 3, "text": "Arundhati Bhattacharya (Padma Shri)" },
+          { "id": 4, "text": "Jaspinder Narula (Padma Shri)" }
+        ],
+        "CorrectAnswer": "Nana Patekar",
+        "Explanation": "In the 2025 Padma Awards, Ashok Saraf (Padma Bhushan), Arundhati Bhattacharya, and Jaspinder Narula (both Padma Shri) were among the recipients from Maharashtra. Nana Patekar was not on the list.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "As per the Union Budget 2025, the 'Aatmanirbharta in Pulses' mission will focus on which three specific pulses?",
+        "Options": [
+          { "id": 1, "text": "Chana, Moong, and Urad" },
+          { "id": 2, "text": "Tur, Urad, and Masoor" },
+          { "id": 3, "text": "Masoor, Chana, and Rajma" },
+          { "id": 4, "text": "Moong, Tur, and Masoor" }
+        ],
+        "CorrectAnswer": "Tur, Urad, and Masoor",
+        "Explanation": "The Union Budget 2025 announced a new mission for self-reliance in pulses, with a specific focus on boosting the production of Tur (Pigeon Pea), Urad (Black Gram), and Masoor (Lentil).",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Economy & Budget"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2024 Paris Olympics saw the Indian Men's Hockey team win a bronze medal. This was India's second consecutive Olympic medal in hockey. When was the previous one?",
+        "Options": [
+          { "id": 1, "text": "Tokyo 2020 (Bronze)" },
+          { "id": 2, "text": "Rio 2016 (Silver)" },
+          { "id": 3, "text": "Beijing 2008 (Gold)" },
+          { "id": 4, "text": "Moscow 1980 (Gold)" }
+        ],
+        "CorrectAnswer": "Tokyo 2020 (Bronze)",
+        "Explanation": "The Indian Men's Hockey team won a bronze at the 2024 Paris Olympics, replicating their performance from the Tokyo 2020 Olympics (held in 2021), where they also won a bronze, ending a 41-year medal drought.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In September 2025, who was appointed as the new Chief Justice of the Bombay High Court?",
+        "Options": [
+          { "id": 1, "text": "Justice D.Y. Chandrachud" },
+          { "id": 2, "text": "Justice Devendra Kumar Upadhyaya" },
+          { "id": 3, "text": "Justice Shree Chandrashekhar" },
+          { "id": 4, "text": "Justice B.R. Gavai" }
+        ],
+        "CorrectAnswer": "Justice Shree Chandrashekhar",
+        "Explanation": "Justice Shree Chandrashekhar, formerly of the Jharkhand High Court, was appointed as the new Chief Justice of the Bombay High Court in September 2025.",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Appointments (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Who was appointed as the Chairman of the 16th Finance Commission in December 2023 (to be active in 2024-25)?",
+        "Options": [
+          { "id": 1, "text": "N.K. Singh" },
+          { "id": 2, "text": "Dr. Arvind Panagariya" },
+          { "id": 3, "text": "Raghuram Rajan" },
+          { "id": 4, "text": "Bimal Jalan" }
+        ],
+        "CorrectAnswer": "Dr. Arvind Panagariya",
+        "Explanation": "Dr. Arvind Panagariya, former Vice-Chairman of NITI Aayog, was appointed as the Chairman of the 16th Finance Commission. The commission will make recommendations for the 2026-2031 period.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Appointments & Economy"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The NISAR satellite, a joint Earth-observation mission, was successfully launched by ISRO in July 2025. This mission is a collaboration between ISRO and which other space agency?",
+        "Options": [
+          { "id": 1, "text": "NASA (USA)" },
+          { "id": 2, "text": "JAXA (Japan)" },
+          { "id": 3, "text": "ESA (Europe)" },
+          { "id": 4, "text": "Roscosmos (Russia)" }
+        ],
+        "CorrectAnswer": "NASA (USA)",
+        "Explanation": "NISAR (NASA-ISRO Synthetic Aperture Radar) is a joint project between NASA and ISRO, launched in July 2025. It is designed to map the entire globe in 12 days and provide data on Earth's ecosystems, land deformation, and natural hazards.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Science and Technology"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which of these Bharat Ratna recipients in 2024 was NOT awarded posthumously?",
+        "Options": [
+          { "id": 1, "text": "Karpoori Thakur" },
+          { "id": 2, "text": "P.V. Narasimha Rao" },
+          { "id": 3, "text": "L.K. Advani" },
+          { "id": 4, "text": "M.S. Swaminathan" }
+        ],
+        "CorrectAnswer": "L.K. Advani",
+        "Explanation": "In 2024, a total of five individuals were awarded the Bharat Ratna. Four of them—Karpoori Thakur, P.V. Narasimha Rao, Charan Singh, and M.S. Swaminathan—were awarded posthumously. L.K. Advani was the only living recipient.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The Union Budget 2025 announced the 'Jan Vishwas Bill 2.0'. What is the primary objective of this bill?",
+        "Options": [
+          { "id": 1, "text": "To establish a national trust for public data." },
+          { "id": 2, "text": "To create a new framework for public-private partnerships." },
+          { "id": 3, "text": "To decriminalize over 100 minor provisions in various laws to improve 'Ease of Doing Business'." },
+          { "id": 4, "text": "To provide a new framework for Lokpal and Lokayuktas." }
+        ],
+        "CorrectAnswer": "To decriminalize over 100 minor provisions in various laws to improve 'Ease of Doing Business'.",
+        "Explanation": "Following the first 'Jan Vishwas Bill', the 2025 Budget announced a 'Jan Vishwas Bill 2.0' to further the goal of improving 'Ease of Doing Business' and 'Ease of Living' by decriminalizing more than 100 minor provisions in various laws.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Economy & Law"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In the 2024 Paris Olympics, Manu Bhaker won two bronze medals. One was in the individual 10m Air Pistol. In which event did she win her second bronze?",
+        "Options": [
+          { "id": 1, "text": "Women's 25m Pistol" },
+          { "id": 2, "text": "Mixed 10m Air Rifle Team" },
+          { "id": 3, "text": "Mixed 10m Air Pistol Team" },
+          { "id": 4, "text": "Women's 50m Rifle 3 Positions" }
+        ],
+        "CorrectAnswer": "Mixed 10m Air Pistol Team",
+        "Explanation": "Manu Bhaker won her first individual Olympic medal (Bronze) in the Women's 10m Air Pistol. She won her second bronze medal in the Mixed 10m Air Pistol Team event, partnering with Sarabjot Singh.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Who was appointed as the 53rd Chief Justice of India (CJI) in October 2025?",
+        "Options": [
+          { "id": 1, "text": "Justice Sanjiv Khanna" },
+          { "id": 2, "text": "Justice Surya Kant" },
+          { "id": 3, "text": "Justice B.R. Gavai" },
+          { "id": 4, "text": "Justice D.Y. Chandrachud" }
+        ],
+        "CorrectAnswer": "Justice Surya Kant",
+        "Explanation": "Justice Surya Kant was sworn in as the 53rd Chief Justice of India on October 31, 2025, succeeding Justice Sanjiv Khanna, who had a short tenure.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Appointments & Judiciary"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Aman Sehrawat, who won a bronze medal at the 2024 Paris Olympics, is associated with which sport and weight category?",
+        "Options": [
+          { "id": 1, "text": "Boxing (57kg)" },
+          { "id": 2, "text": "Wrestling (Freestyle 57kg)" },
+          { "id": 3, "text": "Weightlifting (61kg)" },
+          { "id": 4, "text": "Judo (60kg)" }
+        ],
+        "CorrectAnswer": "Wrestling (Freestyle 57kg)",
+        "Explanation": "Aman Sehrawat won the bronze medal in the Men's Freestyle 57kg wrestling category, becoming one of India's youngest Olympic medallists.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which state became the first in independent India to pass a Uniform Civil Code (UCC) Bill in its assembly in February 2024?",
+        "Options": [
+          { "id": 1, "text": "Gujarat" },
+          { "id": 2, "text": "Assam" },
+          { "id": 3, "text": "Goa" },
+          { "id": 4, "text": "Uttarakhand" }
+        ],
+        "CorrectAnswer": "Uttarakhand",
+        "Explanation": "While Goa has a common civil code from the Portuguese era, Uttarakhand became the first state in independent India to pass its own Uniform Civil Code (UCC) Bill in February 2024.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 4,
+        "topic": "State Politics & Law"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In the 2024 Maharashtra Assembly elections, how many seats did the Indian National Congress (INC) win?",
+        "Options": [
+          { "id": 1, "text": "16" },
+          { "id": 2, "text": "31" },
+          { "id": 3, "text": "44" },
+          { "id": 4, "text": "52" }
+        ],
+        "CorrectAnswer": "16",
+        "Explanation": "The 2024 Maharashtra Assembly polls were a major setback for the MVA. The Congress party, as part of the alliance, managed to win only 16 seats out of the 101 it contested.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "State Politics (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The Union Budget 2025 announced the setup of a National Manufacturing Mission. What is its stated goal?",
+        "Options": [
+          { "id": 1, "text": "To cover small, medium, and large industries to further 'Make in India'." },
+          { "id": 2, "text": "To focus exclusively on defence and aerospace manufacturing." },
+          { "id": 3, "text": "To nationalize all private manufacturing units." },
+          { "id": 4, "text": "To create a digital-only manufacturing ecosystem." }
+        ],
+        "CorrectAnswer": "To cover small, medium, and large industries to further 'Make in India'.",
+        "Explanation": "The 2025 Budget announced a National Manufacturing Mission to boost the 'Make in India' initiative, with a comprehensive scope covering small, medium, and large industries.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Economy & Budget"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Who was the Player of the Match in the final of the 2024 ICC Men's T20 World Cup?",
+        "Options": [
+          { "id": 1, "text": "Jasprit Bumrah" },
+          { "id": 2, "text": "Virat Kohli" },
+          { "id": 3, "text": "Axar Patel" },
+          { "id": 4, "text": "Heinrich Klaasen" }
+        ],
+        "CorrectAnswer": "Virat Kohli",
+        "Explanation": "Virat Kohli was named Player of the Match for his crucial innings of 76 runs in the final against South Africa, which helped India set a winning total. He announced his retirement from T20Is after this match.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, Banking",
+        "correctOption": 2,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In February 2025, ISRO's Aditya-L1 spacecraft captured an unprecedented image. What did it capture?",
+        "Options": [
+          { "id": 1, "text": "A new ring around Saturn." },
+          { "id": 2, "text": "The dark side of the Moon." },
+          { "id": 3, "text": "A powerful solar flare 'kernel' in the lower solar atmosphere." },
+          { "id": 4, "text": "A detailed image of the Sun's L1 point." }
+        ],
+        "CorrectAnswer": "A powerful solar flare 'kernel' in the lower solar atmosphere.",
+        "Explanation": "The Solar Ultraviolet Imaging Telescope (SUIT) payload on board the Aditya-L1 spacecraft captured a first-of-its-kind view of a solar flare 'kernel' in the Sun's lower atmosphere (photosphere and chromosphere).",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Science and Technology"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The Maharashtra Budget 2025 announced a massive outlay for the tourism sector. How much is planned to be invested over the next 10 years?",
+        "Options": [
+          { "id": 1, "text": "₹10,000 crore" },
+          { "id": 2, "text": "₹50,000 crore" },
+          { "id": 3, "text": "₹1 lakh crore" },
+          { "id": 4, "text": "₹5 lakh crore" }
+        ],
+        "CorrectAnswer": "₹1 lakh crore",
+        "Explanation": "The state budget 2025 proposed a major push for tourism, with a planned outlay of ₹1 lakh crore for the development of the tourism sector over the next 10 years.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "State Economy (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In September 2025, who was given the additional charge as the Governor of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Acharya Devvrat" },
+          { "id": 2, "text": "C.P. Radhakrishnan" },
+          { "id": 3, "text": "Ramesh Bais" },
+          { "id": 4, "text": "Anandiben Patel" }
+        ],
+        "CorrectAnswer": "Acharya Devvrat",
+        "Explanation": "Acharya Devvrat, the Governor of Gujarat, was given the additional charge as the Governor of Maharashtra in September 2025.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Appointments (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which two Indian sports personalities were awarded the Padma Shri in the 2025 Republic Day awards?",
+        "Options": [
+          { "id": 1, "text": "Neeraj Chopra and P.V. Sindhu" },
+          { "id": 2, "text": "R. Ashwin and I. M. Vijayan" },
+          { "id": 3, "text": "Manu Bhaker and Swapnil Kusale" },
+          { "id": 4, "text": "Rohan Bopanna and Chirag Shetty" }
+        ],
+        "CorrectAnswer": "R. Ashwin and I. M. Vijayan",
+        "Explanation": "Veteran cricketer Ravichandran Ashwin and legendary Indian footballer I.M. Vijayan were among the recipients of the Padma Shri award in January 2025.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "What is the 'Namo Shetkari Mahasanman Nidhi Yojana' of the Maharashtra government?",
+        "Options": [
+          { "id": 1, "text": "A crop insurance scheme." },
+          { "id": 2, "text": "A pension scheme for elderly farmers." },
+          { "id": 3, "text": "An additional income support scheme supplementing the central PM-KISAN." },
+          { "id": 4, "text": "A loan waiver scheme for all farmers." }
+        ],
+        "CorrectAnswer": "An additional income support scheme supplementing the central PM-KISAN.",
+        "Explanation": "This scheme provides an additional amount per year to farmers in Maharashtra, which is paid on top of the ₹6,000 received under the central PM-KISAN scheme. The 2025 budget allocated ₹6,060 crore for it.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "State Schemes (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The Supreme Court's 2024 judgment in 'Property Owners Assn. v. State of Maharashtra' was related to which constitutional article?",
+        "Options": [
+          { "id": 1, "text": "Article 21 (Right to Life)" },
+          { "id": 2, "text": "Article 32 (Right to Constitutional Remedies)" },
+          { "id": 3, "text": "Article 39(b) (Material Resources of the Community)" },
+          { "id": 4, "text": "Article 14 (Right to Equality)" }
+        ],
+        "CorrectAnswer": "Article 39(b) (Material Resources of the Community)",
+        "Explanation": "A 9-judge bench ruled that 'private properties' cannot all be considered 'material resources of the community' under Article 39(b) of the Directive Principles. This case was related to Maharashtra's housing laws (MHADA).",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Judiciary & Law"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "What is the revised target year for India's first crewed (manned) spaceflight mission, 'Gaganyaan', as per ISRO's 2025 updates?",
+        "Options": [
+          { "id": 1, "text": "2025" },
+          { "id": 2, "text": "2026" },
+          { "id": 3, "text": "2027" },
+          { "id": 4, "text": "2028" }
+        ],
+        "CorrectAnswer": "2027",
+        "Explanation": "Following the first uncrewed 'G1' mission planned for late 2025/early 2026, ISRO has scheduled the first historic crewed 'Gaganyaan' mission for 2027.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Science and Technology"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which renowned calligrapher from Maharashtra was awarded the Padma Shri in 2025 for his contributions to Art?",
+        "Options": [
+          { "id": 1, "text": "Ashok Saraf" },
+          { "id": 2, "text": "Maruti Bhujangrao Chitampalli" },
+          { "id": 3, "text": "Achyut Ramchandra Palav" },
+          { "id": 4, "text": "Chaitram Deochand Pawar" }
+        ],
+        "CorrectAnswer": "Achyut Ramchandra Palav",
+        "Explanation": "Achyut Ramchandra Palav, a globally recognized master calligrapher from Mumbai, was awarded the Padma Shri in 2025 for his work in elevating calligraphy as a mainstream art form.",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The Union Budget 2025 announced 50,000 new 'Atal Tinkering Labs' will be set up over the next 5 years. In which institutions will these be established?",
+        "Options": [
+          { "id": 1, "text": "In all IITs and IIMs" },
+          { "id": 2, "text": "In Government schools" },
+          { "id": 3, "text": "In private universities" },
+          { "id": 4, "text": "In rural post offices" }
+        ],
+        "CorrectAnswer": "In Government schools",
+        "Explanation": "To foster innovation and a scientific temper among youth, the 2025 Budget announced the expansion of the 'Atal Tinkering Labs' (ATL) program by setting up 50,000 new labs in Government schools.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Economy & Budget"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In February 2024, the Maharashtra legislature passed a bill to provide reservation to the Maratha community. What percentage of reservation was granted?",
+        "Options": [
+          { "id": 1, "text": "5%" },
+          { "id": 2, "text": "10%" },
+          { "id": 3, "text": "16%" },
+          { "id": 4, "text": "27%" }
+        ],
+        "CorrectAnswer": "10%",
+        "Explanation": "In February 2024, the Maharashtra legislature unanimously passed a bill granting a 10% reservation in education and government jobs to the Maratha community under a separate 'Socially and Educationally Backward Class' (SEBC) category.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "State Politics (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "What was the total number of medals won by India at the 2024 Paris Olympics?",
+        "Options": [
+          { "id": 1, "text": "5 (1 Silver, 4 Bronze)" },
+          { "id": 2, "text": "6 (1 Silver, 5 Bronze)" },
+          { "id": 3, "text": "7 (1 Gold, 2 Silver, 4 Bronze)" },
+          { "id": 4, "text": "8 (2 Gold, 2 Silver, 4 Bronze)" }
+        ],
+        "CorrectAnswer": "6 (1 Silver, 5 Bronze)",
+        "Explanation": "India won a total of 6 medals at the 2024 Paris Olympics, consisting of 1 Silver (Neeraj Chopra) and 5 Bronze (Manu Bhaker x2, Sarabjot Singh, Swapnil Kusale, Aman Sehrawat, Men's Hockey).",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which former Chairman of the State Bank of India (SBI) from Maharashtra was awarded the Padma Shri in 2025 for Trade and Industry?",
+        "Options": [
+          { "id": 1, "text": "Rajnish Kumar" },
+          { "id": 2, "text": "Arundhati Bhattacharya" },
+          { "id": 3, "text": "Dinesh Kumar Khara" },
+          { "id": 4, "text": "O. P. Bhatt" }
+        ],
+        "CorrectAnswer": "Arundhati Bhattacharya",
+        "Explanation": "Arundhati Bhattacharya, the first woman to be the Chairperson of SBI, was awarded the Padma Shri in 2025 for her contributions to Trade and Industry.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, Banking",
+        "correctOption": 2,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2025 Maharashtra state budget announced the 'Jalyukt Shivar Campaign 2.0'. What is the primary objective of this campaign?",
+        "Options": [
+          { "id": 1, "text": "To provide piped drinking water to all urban homes." },
+          { "id": 2, "text": "To build new large-scale dams on major rivers." },
+          { "id": 3, "text": "To undertake and complete water conservation and rainwater harvesting works." },
+          { "id": 4, "text": "To interlink all rivers in Maharashtra." }
+        ],
+        "CorrectAnswer": "To undertake and complete water conservation and rainwater harvesting works.",
+        "Explanation": "The 'Jalyukt Shivar Campaign 2.0' is a revival of the state's flagship water conservation program, aiming to complete 1.5 lakh works (like desilting, deepening streams, etc.) by March 2026 to make the state drought-resilient.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "State Schemes (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which of these individuals was NOT one of the five recipients of the Bharat Ratna award in 2024?",
+        "Options": [
+          { "id": 1, "text": "P.V. Narasimha Rao" },
+          { "id": 2, "text": "L.K. Advani" },
+          { "id": 3, "text": "M.S. Swaminathan" },
+          { "id": 4, "text": "Atal Bihari Vajpayee" }
+        ],
+        "CorrectAnswer": "Atal Bihari Vajpayee",
+        "Explanation": "The five recipients of the Bharat Ratna in 2024 were Karpoori Thakur, L.K. Advani, P.V. Narasimha Rao, Charan Singh, and M.S. Swaminathan. Atal Bihari Vajpayee was awarded the Bharat Ratna in 2015.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 4,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2025 Union Budget announced the creation of a 'National Institute of Food Technology, Entrepreneurship and Management' in which state?",
+        "Options": [
+          { "id": 1, "text": "Punjab" },
+          { "id": 2, "text": "Maharashtra" },
+          { "id": 3, "text": "Bihar" },
+          { "id": 4, "text": "Andhra Pradesh" }
+        ],
+        "CorrectAnswer": "Bihar",
+        "Explanation": "To support the food processing sector, the 2025 Budget announced the establishment of a new National Institute of Food Technology, Entrepreneurship and Management (NIFTEM) in Bihar.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Economy & Budget"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In the 2024 Maharashtra Assembly elections, which party emerged as the single largest party?",
+        "Options": [
+          { "id": 1, "text": "Bharatiya Janata Party (BJP)" },
+          { "id": 2, "text": "Shiv Sena" },
+          { "id": 3, "text": "Nationalist Congress Party (NCP)" },
+          { "id": 4, "text": "Indian National Congress (INC)" }
+        ],
+        "CorrectAnswer": "Bharatiya Janata Party (BJP)",
+        "Explanation": "The BJP emerged as the single largest party in the 2024 Maharashtra Assembly polls, winning 132 seats, which was a key factor in the Mahayuti alliance's overall victory of 235 seats.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "State Politics (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "As per ISRO's 2025 update, what is the new target year for launching India's first space station, the 'Bharatiya Antariksh Station'?",
+        "Options": [
+          { "id": 1, "text": "2027" },
+          { "id": 2, "text": "2028" },
+          { "id": 3, "text": "2030" },
+          { "id": 4, "text": "2035" }
+        ],
+        "CorrectAnswer": "2028",
+        "Explanation": "ISRO announced in 2025 its ambitious plan to launch the first module of the 'Bharatiya Antariksh Station' (Indian Space Station) by 2028, following the Gaganyaan crewed mission.",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Science and Technology"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In the 2024 T20 World Cup final, India defeated South Africa. Who was named the 'Player of the Tournament' for his exceptional performance?",
+        "Options": [
+          { "id": 1, "text": "Virat Kohli" },
+          { "id": 2, "text": "Rohit Sharma" },
+          { "id": 3, "text": "Jasprit Bumrah" },
+          { "id": 4, "text": "Heinrich Klaasen" }
+        ],
+        "CorrectAnswer": "Jasprit Bumrah",
+        "Explanation": "India won the 2024 ICC Men's T20 World Cup. While Virat Kohli was 'Player of the Final' for his 76 runs, Jasprit Bumrah was named 'Player of the Tournament' for his match-winning bowling spells.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC, Banking",
+        "correctOption": 3,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "What was the final seat tally of the 'Mahayuti' alliance in the 2024 Maharashtra Vidhan Sabha (Assembly) elections?",
+        "Options": [
+          { "id": 1, "text": "145 seats" },
+          { "id": 2, "text": "192 seats" },
+          { "id": 3, "text": "235 seats" },
+          { "id": 4, "text": "288 seats" }
+        ],
+        "CorrectAnswer": "235 seats",
+        "Explanation": "The Mahayuti alliance (comprising BJP, Shiv Sena, and NCP) secured a landslide victory in the 2024 Maharashtra Assembly elections, winning 235 out of the 288 seats.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "State Politics (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2025 Union Budget announced 'Aatmanirbharta in Pulses' to achieve self-sufficiency. Which three pulses were specifically highlighted?",
+        "Options": [
+          { "id": 1, "text": "Chana, Moong, and Matki" },
+          { "id": 2, "text": "Tur, Urad, and Masoor" },
+          { "id": 3, "text": "Masoor, Chana, and Moong" },
+          { "id": 4, "text": "Urad, Chana, and Rajma" }
+        ],
+        "CorrectAnswer": "Tur, Urad, and Masoor",
+        "Explanation": "The budget laid out a strategy for self-sufficiency in pulses, focusing on Tur (Pigeon Pea), Urad (Black Gram), and Masoor (Lentil) through various support measures for farmers.",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Economy & Budget"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Who took charge as the 30th Chief of the Army Staff (COAS) of the Indian Army on June 30, 2024?",
+        "Options": [
+          { "id": 1, "text": "General Manoj Pande" },
+          { "id": 2, "text": "General Upendra Dwivedi" },
+          { "id": 3, "text": "General Anil Chauhan" },
+          { "id": 4, "text": "General M. M. Naravane" }
+        ],
+        "CorrectAnswer": "General Upendra Dwivedi",
+        "Explanation": "General Upendra Dwivedi took over as the 30th Chief of the Army Staff, succeeding General Manoj Pande who retired from service.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Appointments"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2025 Maharashtra State Budget introduced a flagship welfare scheme, 'Mukhya Mantri Mazi Ladaki Bahin Yojana'. What is its primary provision?",
+        "Options": [
+          { "id": 1, "text": "A one-time grant of ₹1 lakh for girls' education." },
+          { "id": 2, "text": "A monthly cash transfer of ₹1,500 to eligible women." },
+          { "id": 3, "text": "Free bus travel for all women over 60." },
+          { "id": 4, "text": "Subsidized loans for women-led SHGs." }
+        ],
+        "CorrectAnswer": "A monthly cash transfer of ₹1,500 to eligible women.",
+        "Explanation": "This major scheme provides a direct benefit transfer of ₹1,500 per month to eligible women in the 21-60 age group, with a massive budgetary allocation.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "State Schemes (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "India won a total of 6 medals at the 2024 Paris Olympics. Which athlete won India's only silver medal?",
+        "Options": [
+          { "id": 1, "text": "Manu Bhaker" },
+          { "id": 2, "text": "Aman Sehrawat" },
+          { "id": 3, "text": "The Men's Hockey Team" },
+          { "id": 4, "text": "Neeraj Chopra" }
+        ],
+        "CorrectAnswer": "Neeraj Chopra",
+        "Explanation": "India's medal tally at the 2024 Paris Olympics was 1 Silver and 5 Bronze. The silver medal was won by Neeraj Chopra in the Men's Javelin Throw event.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 4,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which of these individuals was NOT one of the five recipients of the Bharat Ratna, India's highest civilian award, announced in 2024?",
+        "Options": [
+          { "id": 1, "text": "P.V. Narasimha Rao" },
+          { "id": 2, "text": "L.K. Advani" },
+          { "id": 3, "text": "M.S. Swaminathan" },
+          { "id": 4, "text": "Sachin Tendulkar" }
+        ],
+        "CorrectAnswer": "Sachin Tendulkar",
+        "Explanation": "In 2024, five Bharat Ratnas were announced for: Karpoori Thakur, L.K. Advani, P.V. Narasimha Rao, Charan Singh, and M.S. Swaminathan. Sachin Tendulkar was awarded the Bharat Ratna in 2014.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 4,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2025 Union Budget raised the income level for 'no tax liability' under the new tax regime. What is this new limit for salaried taxpayers?",
+        "Options": [
+          { "id": 1, "text": "₹7.5 Lakh" },
+          { "id": 2, "text": "₹10 Lakh" },
+          { "id": 3, "text": "₹12.75 Lakh" },
+          { "id": 4, "text": "₹15 Lakh" }
+        ],
+        "CorrectAnswer": "₹12.75 Lakh",
+        "Explanation": "The budget announced no income tax liability for incomes up to ₹12 lakh. For salaried taxpayers, this limit is effectively ₹12.75 lakh due to the inclusion of a ₹75,000 standard deduction.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Economy & Budget"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In the 2024 Paris Olympics, shooter Manu Bhaker won two bronze medals. One was in the individual 10m Air Pistol. What was her second bronze medal event?",
+        "Options": [
+          { "id": 1, "text": "Women's 25m Pistol" },
+          { "id": 2, "text": "Women's 50m Rifle 3 Positions" },
+          { "id": 3, "text": "Mixed 10m Air Pistol Team" },
+          { "id": 4, "text": "Mixed Skeet Team" }
+        ],
+        "CorrectAnswer": "Mixed 10m Air Pistol Team",
+        "Explanation": "Manu Bhaker became the first Indian woman to win two Olympic medals in a single edition. She won bronze in the individual 10m Air Pistol and a second bronze in the Mixed 10m Air Pistol Team event with Sarabjot Singh.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Who will take oath as the 53rd Chief Justice of India (CJI) on November 11, 2025?",
+        "Options": [
+          { "id": 1, "text": "Justice Sanjiv Khanna" },
+          { "id": 2, "text": "Justice Surya Kant" },
+          { "id": 3, "text": "Justice B.R. Gavai" },
+          { "id": 4, "text": "Justice D.Y. Chandrachud" }
+        ],
+        "CorrectAnswer": "Justice Surya Kant",
+        "Explanation": "Justice Surya Kant is set to be sworn in as the 53rd Chief Justice of India on November 11, 2025, succeeding Justice Sanjiv Khanna.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Appointments"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In the 2024 Lok Sabha elections, the BJP secured 240 seats. What was the total number of seats won by the BJP-led NDA alliance?",
+        "Options": [
+          { "id": 1, "text": "272" },
+          { "id": 2, "text": "293" },
+          { "id": 3, "text": "234" },
+          { "id": 4, "text": "303" }
+        ],
+        "CorrectAnswer": "293",
+        "Explanation": "While the BJP alone won 240 seats (short of the 272 majority mark), the National Democratic Alliance (NDA) as a whole secured 293 seats, allowing it to form the government.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "National Politics"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2025 Maharashtra Budget announced a new Industrial Policy. What is the stated investment target for this policy?",
+        "Options": [
+          { "id": 1, "text": "₹10 lakh crore" },
+          { "id": 2, "text": "₹25 lakh crore" },
+          { "id": 3, "text": "₹40 lakh crore" },
+          { "id": 4, "text": "₹50 lakh crore" }
+        ],
+        "CorrectAnswer": "₹40 lakh crore",
+        "Explanation": "The new Industrial Policy 2025, announced in the state budget, aims to attract a massive ₹40 lakh crore in investments and create 50 lakh jobs.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "State Economy (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which wrestler won a bronze medal for India in the Men's Freestyle 57kg category at the 2024 Paris Olympics?",
+        "Options": [
+          { "id": 1, "text": "Bajrang Punia" },
+          { "id": 2, "text": "Ravi Kumar Dahiya" },
+          { "id": 3, "text": "Deepak Punia" },
+          { "id": 4, "text": "Aman Sehrawat" }
+        ],
+        "CorrectAnswer": "Aman Sehrawat",
+        "Explanation": "Aman Sehrawat secured India's final medal at the 2024 Paris Olympics, winning a bronze in the Men's Freestyle 57kg wrestling event.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 4,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In February 2024, the Supreme Court struck down the Electoral Bonds Scheme. On what primary grounds was the scheme declared unconstitutional?",
+        "Options": [
+          { "id": 1, "text": "It violated the Right to Equality (Article 14)." },
+          { "id": 2, "text": "It violated the voter's Right to Information (Article 19(1)(a))." },
+          { "id": 3, "text": "It was not passed as a Money Bill." },
+          { "id": 4, "text": "It allowed foreign funding, violating the FCRA." }
+        ],
+        "CorrectAnswer": "It violated the voter's Right to Information (Article 19(1)(a)).",
+        "Explanation": "The Supreme Court's constitution bench unanimously ruled that the anonymity of political donations through Electoral Bonds violated the voter's fundamental Right to Information under Article 19(1)(a).",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Judiciary & Polity"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which veteran actor from Maharashtra was honoured with the Padma Bhushan in the 2025 Republic Day awards?",
+        "Options": [
+          { "id": 1, "text": "Ashok Saraf" },
+          { "id": 2, "text": "Nana Patekar" },
+          { "id": 3, "text": "Dilip Prabhavalkar" },
+          { "id": 4, "text": "Sachin Khedekar" }
+        ],
+        "CorrectAnswer": "Ashok Saraf",
+        "Explanation": "Veteran Marathi and Hindi film actor Ashok Saraf was awarded the Padma Bhushan in January 2025 for his contributions to the field of Art.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which of these individuals was awarded the Bharat Ratna posthumously in 2024 and is known as the 'Father of India's Green Revolution'?",
+        "Options": [
+          { "id": 1, "text": "Karpoori Thakur" },
+          { "id": 2, "text": "P.V. Narasimha Rao" },
+          { "id": 3, "text": "Charan Singh" },
+          { "id": 4, "text": "M.S. Swaminathan" }
+        ],
+        "CorrectAnswer": "M.S. Swaminathan",
+        "Explanation": "Dr. M.S. Swaminathan, the renowned agricultural scientist credited as the 'Father of India's Green Revolution', was awarded the Bharat Ratna posthumously in 2024.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 4,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2025 Union Budget announced the 'Jan Vishwas 2.0' bill. What is the primary objective of this bill?",
+        "Options": [
+          { "id": 1, "text": "To provide a new framework for public-private partnerships." },
+          { "id": 2, "text": "To establish a national trust for public data security." },
+          { "id": 3, "text": "To decriminalize minor offenses in various laws to improve 'Ease of Doing Business'." },
+          { "id": 4, "text": "To provide a new framework for the Lokpal." }
+        ],
+        "CorrectAnswer": "To decriminalize minor offenses in various laws to improve 'Ease of Doing Business'.",
+        "Explanation": "Following the first 'Jan Vishwas Bill', 'Jan Vishwas 2.0' was announced to further enhance 'Ease of Doing Business' and 'Ease of Living' by decriminalizing minor, non-serious offenses and technical violations across various central acts.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Economy & Law"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Swapnil Kusale won a bronze medal for India at the 2024 Paris Olympics. He is associated with which sport?",
+        "Options": [
+          { "id": 1, "text": "Wrestling" },
+          { "id": 2, "text": "Shooting" },
+          { "id": 3, "text": "Archery" },
+          { "id": 4, "text": "Javelin Throw" }
+        ],
+        "CorrectAnswer": "Shooting",
+        "Explanation": "Swapnil Kusale, who hails from Maharashtra, won the bronze medal in the Men's 50m Rifle 3 Positions shooting event, securing India's first-ever Olympic medal in this specific event.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In January 2024, the Supreme Court quashed the remission granted to 11 convicts in the Bilkis Bano case. Why did the court invalidate the Gujarat government's order?",
+        "Options": [
+          { "id": 1, "text": "The convicts had not served the minimum 14-year sentence." },
+          { "id": 2, "text": "The Gujarat government was not the 'appropriate government' to grant remission." },
+          { "id": 3, "text": "The remission was granted without the President's approval." },
+          { "id": 4, "text": "The CBI, the investigating agency, had objected to the remission." }
+        ],
+        "CorrectAnswer": "The Gujarat government was not the 'appropriate government' to grant remission.",
+        "Explanation": "The Supreme Court ruled that the 'appropriate government' to decide on remission is the state where the trial was held (in this case, Maharashtra), not the state where the crime occurred (Gujarat). Therefore, the Gujarat government's order was an invalid exercise of power.",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Judiciary & Law"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "What was the targeted Fiscal Deficit as a percentage of GDP for the financial year 2025-26, as announced in the Union Budget 2025?",
+        "Options": [
+          { "id": 1, "text": "5.1%" },
+          { "id": 2, "text": "4.4%" },
+          { "id": 3, "text": "3.9%" },
+          { "id": 4, "text": "3.0%" }
+        ],
+        "CorrectAnswer": "4.4%",
+        "Explanation": "Continuing the path of fiscal consolidation, the Finance Minister announced a fiscal deficit target of 4.4% of GDP for the fiscal year 2025-26.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, RBI Grade B",
+        "correctOption": 2,
+        "topic": "Economy & Budget"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2025 Maharashtra state budget announced the 'Jalyukt Shivar Campaign 2.0'. What is the primary objective of this campaign?",
+        "Options": [
+          { "id": 1, "text": "To provide piped drinking water to all urban homes." },
+          { "id": 2, "text": "To build new large-scale dams on major rivers." },
+          { "id": 3, "text": "To undertake water conservation and rainwater harvesting works." },
+          { "id": 4, "text": "To interlink all rivers in Maharashtra." }
+        ],
+        "CorrectAnswer": "To undertake water conservation and rainwater harvesting works.",
+        "Explanation": "The 'Jalyukt Shivar Campaign 2.0' is a revival of the state's flagship water conservation program, aiming to complete 1.5 lakh works (like desilting, deepening streams, etc.) by March 2026 to make the state drought-resilient.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "State Schemes (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which former Prime Minister, known for his role in India's 1991 economic reforms, was awarded the Bharat Ratna posthumously in 2024?",
+        "Options": [
+          { "id": 1, "text": "P.V. Narasimha Rao" },
+          { "id": 2, "text": "Charan Singh" },
+          { "id": 3, "text": "Atal Bihari Vajpayee" },
+          { "id": 4, "text": "Inder Kumar Gujral" }
+        ],
+        "CorrectAnswer": "P.V. Narasimha Rao",
+        "Explanation": "P.V. Narasimha Rao, who served as India's 9th Prime Minister and ushered in the era of economic liberalization, was one of the five individuals awarded the Bharat Ratna in 2024.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In the 2024 Lok Sabha elections, the 'INDIA' alliance (Indian National Developmental Inclusive Alliance) secured how many seats?",
+        "Options": [
+          { "id": 1, "text": "193" },
+          { "id": 2, "text": "234" },
+          { "id": 3, "text": "272" },
+          { "id": 4, "text": "293" }
+        ],
+        "CorrectAnswer": "234",
+        "Explanation": "In the 2024 General Elections, the NDA alliance won 293 seats to form the government, while the INDIA alliance secured a total of 234 seats.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "National Politics"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2024 T20 World Cup final was a historic match where India won. Who was named the 'Player of the Final'?",
+        "Options": [
+          { "id": 1, "text": "Jasprit Bumrah" },
+          { "id": 2, "text": "Rohit Sharma" },
+          { "id": 3, "text": "Virat Kohli" },
+          { "id": 4, "text": "Hardik Pandya" }
+        ],
+        "CorrectAnswer": "Virat Kohli",
+        "Explanation": "Virat Kohli was named 'Player of the Final' for his match-winning knock of 76 runs. He announced his retirement from T20 Internationals after this match.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which state became the first in independent India to pass a Uniform Civil Code (UCC) Bill in its assembly in February 2024?",
+        "Options": [
+          { "id": 1, "text": "Goa" },
+          { "id": 2, "text": "Uttar Pradesh" },
+          { "id": 3, "text": "Uttarakhand" },
+          { "id": 4, "text": "Gujarat" }
+        ],
+        "CorrectAnswer": "Uttarakhand",
+        "Explanation": "While Goa has had a common civil code since Portuguese rule, Uttarakhand became the first state in independent India to pass its own Uniform Civil Code (UCC) Bill in February 2024.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "State Politics & Law"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2025 Union Budget announced the 'Jan Vishwas Bill 2.0'. This initiative is primarily aimed at improving what?",
+        "Options": [
+          { "id": 1, "text": "Voter trust and election transparency" },
+          { "id": 2, "text": "Ease of Doing Business and Ease of Living" },
+          { "id": 3, "text": "Judicial speed and case disposal" },
+          { "id": 4, "text": "Inter-state water dispute resolution" }
+        ],
+        "CorrectAnswer": "Ease of Doing Business and Ease of Living",
+        "Explanation": "The Jan Vishwas 2.0 bill aims to decriminalize over 100 minor, non-serious, and technical provisions in various laws, reducing the compliance burden on businesses and citizens.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Economy & Law"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "What was the total medal haul for India at the 2024 Paris Olympics?",
+        "Options": [
+          { "id": 1, "text": "7 Medals (1 Gold, 2 Silver, 4 Bronze)" },
+          { "id": 2, "text": "6 Medals (1 Silver, 5 Bronze)" },
+          { "id": 3, "text": "8 Medals (2 Gold, 3 Silver, 3 Bronze)" },
+          { "id": 4, "text": "5 Medals (2 Silver, 3 Bronze)" }
+        ],
+        "CorrectAnswer": "6 Medals (1 Silver, 5 Bronze)",
+        "Explanation": "India won a total of 6 medals at the 2024 Paris Olympics: 1 Silver (Neeraj Chopra) and 5 Bronze (Manu Bhaker x2, Swapnil Kusale, Aman Sehrawat, Men's Hockey).",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In November 2024, the Supreme Court delivered a landmark 8:1 judgment on a key constitutional question. What did it rule regarding Article 39(b)?",
+        "Options": [
+          { "id": 1, "text": "That Article 39(b) is unconstitutional and should be removed." },
+          { "id": 2, "text": "That 'material resources of the community' includes all private property." },
+          { "id": 3, "text": "That 'material resources of the community' does not include all private property." },
+          { "id": 4, "text": "That only the central government can define 'material resources'." }
+        ],
+        "CorrectAnswer": "That 'material resources of the community' does not include all private property.",
+        "Explanation": "In a case related to Maharashtra's housing laws (MHADA), an 8:1 bench ruled that 'material resources of the community' under Article 39(b) cannot be interpreted to mean all private property.",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Judiciary & Polity"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which former Bihar Chief Minister, known for his work on social justice, was awarded the Bharat Ratna posthumously in 2024?",
+        "Options": [
+          { "id": 1, "text": "Lalu Prasad Yadav" },
+          { "id": 2, "text": "Karpoori Thakur" },
+          { "id": 3, "text": "Nitish Kumar" },
+          { "id": 4, "text": "B.P. Mandal" }
+        ],
+        "CorrectAnswer": "Karpoori Thakur",
+        "Explanation": "Karpoori Thakur, a two-time Chief Minister of Bihar and a champion of social justice and reservation for backward classes, was the first Bharat Ratna recipient announced in 2024.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The Indian Men's Hockey Team won a bronze medal at the 2024 Paris Olympics. This was their second consecutive Olympic medal, after also winning bronze at:",
+        "Options": [
+          { "id": 1, "text": "Tokyo 2020" },
+          { "id": 2, "text": "Rio 2016" },
+          { "id": 3, "text": "London 2012" },
+          { "id": 4, "text": "Beijing 2008" }
+        ],
+        "CorrectAnswer": "Tokyo 2020",
+        "Explanation": "The Indian Men's Hockey team's bronze at Paris 2024 marked a resurgence in the sport, as it was their second consecutive Olympic medal, having also won bronze at the Tokyo 2020 Olympics (held in 2021).",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Sports"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In November 2024, Justice Shree Chandrashekhar was sworn in as the new Chief Justice of which High Court?",
+        "Options": [
+          { "id": 1, "text": "Delhi High Court" },
+          { "id": 2, "text": "Allahabad High Court" },
+          { "id": 3, "text": "Madras High Court" },
+          { "id": 4, "text": "Bombay High Court" }
+        ],
+        "CorrectAnswer": "Bombay High Court",
+        "Explanation": "Justice Shree Chandrashekhar, formerly of the Jharkhand High Court, was appointed and sworn in as the new Chief Justice of the Bombay High Court in November 2024.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Appointments (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2025 Union Budget announced a 'Nuclear Energy Mission for Viksit Bharat'. What is its stated objective?",
+        "Options": [
+          { "id": 1, "text": "To decommission all old nuclear plants by 2030." },
+          { "id": 2, "text": "To achieve self-reliance and build large-scale indigenous reactors." },
+          { "id": 3, "text": "To ban the use of nuclear energy for non-civilian purposes." },
+          { "id": 4, "text": "To import new nuclear technology exclusively from Russia." }
+        ],
+        "CorrectAnswer": "To achieve self-reliance and build large-scale indigenous reactors.",
+        "Explanation": "The 'Nuclear Energy Mission for Viksit Bharat' was announced to fast-track the development and construction of indigenous large-scale nuclear reactors to meet India's clean energy goals.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Economy & Budget"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which former Prime Minister, known as a 'farmers' leader', was awarded the Bharat Ratna posthumously in 2024?",
+        "Options": [
+          { "id": 1, "text": "P.V. Narasimha Rao" },
+          { "id": 2, "text": "Charan Singh" },
+          { "id": 3, "text": "Lal Bahadur Shastri" },
+          { "id": 4, "text": "Morarji Desai" }
+        ],
+        "CorrectAnswer": "Charan Singh",
+        "Explanation": "Chaudhary Charan Singh, who served as India's 5th Prime Minister and was widely known for his dedication to farmers' rights and welfare, was awarded the Bharat Ratna posthumously in 2024.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In the 2024 Maharashtra Assembly elections, which party emerged as the single largest party?",
+        "Options": [
+          { "id": 1, "text": "Bharatiya Janata Party (BJP)" },
+          { "id": 2, "text": "Shiv Sena" },
+          { "id": 3, "text": "Nationalist Congress Party (NCP)" },
+          { "id": 4, "text": "Indian National Congress (INC)" }
+        ],
+        "CorrectAnswer": "Bharatiya Janata Party (BJP)",
+        "Explanation": "The BJP emerged as the single largest party in the 2024 Maharashtra Assembly polls, winning 132 seats, which was the foundation of the Mahayuti alliance's landslide victory.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "State Politics (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 'PM Surya Ghar: Muft Bijli Yojana', launched in February 2024, aims to provide rooftop solar panels for how many households?",
+        "Options": [
+          { "id": 1, "text": "50 lakh" },
+          { "id": 2, "text": "1 crore" },
+          { "id": 3, "text": "5 crore" },
+          { "id": 4, "text": "10 crore" }
+        ],
+        "CorrectAnswer": "1 crore",
+        "Explanation": "The 'PM Surya Ghar: Muft Bijli Yojana' is a central scheme launched in 2024 with the objective of installing rooftop solar systems for 1 crore households, providing them with up to 300 units of free electricity per month.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Government Schemes"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which former Chairman of the State Bank of India (SBI) from Maharashtra was awarded the Padma Shri in 2025 for Trade and Industry?",
+        "Options": [
+          { "id": 1, "text": "Rajnish Kumar" },
+          { "id": 2, "text": "Arundhati Bhattacharya" },
+          { "id": 3, "text": "Dinesh Kumar Khara" },
+          { "id": 4, "text": "O. P. Bhatt" }
+        ],
+        "CorrectAnswer": "Arundhati Bhattacharya",
+        "Explanation": "Arundhati Bhattacharya, the first woman to be the Chairperson of SBI, was awarded the Padma Shri in 2025 for her contributions to Trade and Industry.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, Banking",
+        "correctOption": 2,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In February 2024, the Maharashtra legislature passed a bill to provide reservation to the Maratha community. What percentage of reservation was granted?",
+        "Options": [
+          { "id": 1, "text": "5%" },
+          { "id": 2, "text": "10%" },
+          { "id": 3, "text": "16%" },
+          { "id": 4, "text": "27%" }
+        ],
+        "CorrectAnswer": "10%",
+        "Explanation": "In February 2024, the Maharashtra legislature unanimously passed a bill granting a 10% reservation in education and government jobs to the Maratha community under a separate 'Socially and Educationally Backward Class' (SEBC) category.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "State Politics (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2025 Union Budget announced the establishment of a 'Makhana Board' to boost its production. This board will be established in which state?",
+        "Options": [
+          { "id": 1, "text": "West Bengal" },
+          { "id": 2, "text": "Bihar" },
+          { "id": 3, "text": "Assam" },
+          { "id": 4, "text": "Odisha" }
+        ],
+        "CorrectAnswer": "Bihar",
+        "Explanation": "To support the 'Makhana' (fox nut) industry, the Union Budget 2025 announced the formation of a Makhana Board to be established in Bihar, a state known for its high production.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Economy & Budget"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "What major economic reform related to startups was announced in the 2024 Union Budget to promote investment?",
+        "Options": [
+          { "id": 1, "text": "Abolition of the 'Angel Tax'" },
+          { "id": 2, "text": "Introduction of a 'Startup Tax'" },
+          { "id": 3, "text": "Mandatory 5-year tax holiday for all new companies" },
+          { "id": 4, "text": "Doubling of the GST rate for service-based startups" }
+        ],
+        "CorrectAnswer": "Abolition of the 'Angel Tax'",
+        "Explanation": "The Union Budget 2024 announced the abolition of the controversial 'Angel Tax' (Section 56(2)(viib) of the Income Tax Act), a move widely praised for improving the 'Ease of Doing Business' for startups.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Economy & Taxation"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2024 Lok Sabha elections were held for how many seats in Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "288" },
+          { "id": 2, "text": "48" },
+          { "id": 3, "text": "40" },
+          { "id": 4, "text": "543" }
+        ],
+        "CorrectAnswer": "48",
+        "Explanation": "Maharashtra sends 48 members to the Lok Sabha (the lower house of Parliament). 288 is the number of seats in the State Legislative Assembly (Vidhan Sabha).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "National Politics"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which renowned Marathi writer and environmentalist from Maharashtra, known for his 'Aranyavaibhav' (forest literature), was awarded the Padma Shri in 2025?",
+        "Options": [
+          { "id": 1, "text": "Maruti Bhujangrao Chitampalli" },
+          { "id": 2, "text": "Achyut Ramchandra Palav" },
+          { "id": 3, "text": "Ashok Saraf" },
+          { "id": 4, "text": "Arundhati Bhattacharya" }
+        ],
+        "CorrectAnswer": "Maruti Bhujangrao Chitampalli",
+        "Explanation": "Maruti Bhujangrao Chitampalli, a celebrated writer and former forest officer known for his literature on forests and wildlife, was awarded the Padma Shri for Literature and Education in 2025.",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "As per the 2025 Maharashtra Budget, what is the projected GSDP growth rate for the state for the fiscal year 2025-26?",
+        "Options": [
+          { "id": 1, "text": "7.5%" },
+          { "id": 2, "text": "8.2%" },
+          { "id": 3, "text": "9.0%" },
+          { "id": 4, "text": "10.1%" }
+        ],
+        "CorrectAnswer": "9.0%",
+        "Explanation": "The Maharashtra State Budget 2025-26 projected the state's Gross State Domestic Product (GSDP) (at current prices) to be ₹49.39 lakh crore, amounting to a growth of 9.0%.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "State Economy (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which former Vice President of India was awarded the Padma Vibhushan in 2024?",
+        "Options": [
+          { "id": 1, "text": "Shri M. Venkaiah Naidu" },
+          { "id": 2, "text": "Shri Hamid Ansari" },
+          { "id": 3, "text": "Shri Bhairon Singh Shekhawat" },
+          { "id": 4, "text": "L.K. Advani" }
+        ],
+        "CorrectAnswer": "Shri M. Venkaiah Naidu",
+        "Explanation": "Shri M. Venkaiah Naidu, who served as the 13th Vice President of India, was one of the five recipients of the Padma Vibhushan in 2024 for his contributions to Public Affairs.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "ISRO launched the NISAR satellite in July 2025. This is a joint Earth-observation mission between ISRO and which other space agency?",
+        "Options": [
+          { "id": 1, "text": "NASA (USA)" },
+          { "id": 2, "text": "JAXA (Japan)" },
+          { "id": 3, "text": "ESA (Europe)" },
+          { "id": 4, "text": "Roscosmos (Russia)" }
+        ],
+        "CorrectAnswer": "NASA (USA)",
+        "Explanation": "NISAR (NASA-ISRO Synthetic Aperture Radar) is a highly advanced, joint Earth-observation satellite. It was launched by ISRO in 2025 and is one of the most expensive Earth-imaging satellites ever built.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Science and Technology"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "The 2025 Union Budget announced the establishment of 50,000 new 'Atal Tinkering Labs'. In which institutions will these be set up?",
+        "Options": [
+          { "id": 1, "text": "In all IITs and IIMs" },
+          { "id": 2, "text": "In Government schools" },
+          { "id": 3, "text": "In private universities" },
+          { "id": 4, "text": "In rural post offices" }
+        ],
+        "CorrectAnswer": "In Government schools",
+        "Explanation": "To foster innovation and a scientific temper among youth, the 2025 Budget announced the expansion of the 'Atal Tinkering Labs' (ATL) program by setting up 50,000 new labs in Government schools.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Economy & Budget"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In 2024, the Maharashtra government decided to give a 'Rajya Mata' (Queen Mother) title to what?",
+        "Options": [
+          { "id": 1, "text": "Veteran female social workers" },
+          { "id": 2, "text": "Indigenous (desi) cows" },
+          { "id": 3, "text": "The wives of former Chief Ministers" },
+          { "id": 4, "text": "Major historic forts" }
+        ],
+        "CorrectAnswer": "Indigenous (desi) cows",
+        "Explanation": "The state cabinet approved a proposal to give the 'Rajya Mata' (Queen Mother) title to indigenous cow breeds to promote their conservation and rearing, along with new subsidy schemes.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "State Governance (Maharashtra)"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which renowned calligrapher from Maharashtra was awarded the Padma Shri in 2025 for his contributions to Art?",
+        "Options": [
+          { "id": 1, "text": "Ashok Saraf" },
+          { "id": 2, "text": "Maruti Bhujangrao Chitampalli" },
+          { "id": 3, "text": "Achyut Ramchandra Palav" },
+          { "id": 4, "text": "Chaitram Deochand Pawar" }
+        ],
+        "CorrectAnswer": "Achyut Ramchandra Palav",
+        "Explanation": "Achyut Ramchandra Palav, a globally recognized master calligrapher from Mumbai, was awarded the Padma Shri in 2025 for his work in elevating calligraphy as a mainstream art form.",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Who became the new Chief Minister of Jharkhand in February 2024, following the arrest of Hemant Soren?",
+        "Options": [
+          { "id": 1, "text": "Shibu Soren" },
+          { "id": 2, "text": "Babulal Marandi" },
+          { "id": 3, "text": "Champai Soren" },
+          { "id": 4, "text": "Kalpana Soren" }
+        ],
+        "CorrectAnswer": "Champai Soren",
+        "Explanation": "Following the arrest of Hemant Soren in a land-related case, JMM leader and long-time loyalist Champai Soren took oath as the new Chief Minister of Jharkhand.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "State Politics"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "Which two Indian sports personalities were awarded the Padma Shri in the 2025 Republic Day awards?",
+        "Options": [
+          { "id": 1, "text": "Neeraj Chopra and P.V. Sindhu" },
+          { "id": 2, "text": "R. Ashwin and I. M. Vijayan" },
+          { "id": 3, "text": "Manu Bhaker and Swapnil Kusale" },
+          { "id": 4, "text": "Rohan Bopanna and Chirag Shetty" }
+        ],
+        "CorrectAnswer": "R. Ashwin and I. M. Vijayan",
+        "Explanation": "Veteran cricketer Ravichandran Ashwin and legendary Indian footballer I.M. Vijayan were among the recipients of the Padma Shri award in January 2025.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Awards and Honours"
+      },
+      {
+        "category": "Current Affairs",
+        "Question": "In 2024, Mumbai's first fully underground metro line was inaugurated. Which line is this?",
+        "Options": [
+          { "id": 1, "text": "Line 1 (Versova-Andheri-Ghatkopar)" },
+          { "id": 2, "text": "Line 2A (Dahisar-DN Nagar)" },
+          { "id": 3, "text": "Line 3 (Colaba-Bandra-SEEPZ)" },
+          { "id": 4, "text": "Line 7 (Dahisar E-Andheri E)" }
+        ],
+        "CorrectAnswer": "Line 3 (Colaba-Bandra-SEEPZ)",
+        "Explanation": "The Mumbai Metro Line 3 (Aqua Line) is the city's first fully underground corridor, stretching from Colaba in the south to SEEPZ in the north. Its first phase was inaugurated in 2024.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "State Infrastructure (Maharashtra)"
+      }
+  ]

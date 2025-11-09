@@ -12,7 +12,11 @@
     "db:generate": "drizzle-kit generate:pg",
     "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push:pg",
-    "db:studio": "drizzle-kit studio"
+    "db:studio": "drizzle-kit studio",
+    "import:dated": "tsx --require dotenv/config scripts/import-dated-questions.ts",
+    "check:counts": "tsx --require dotenv/config scripts/check-question-counts.ts",
+    "check:dated": "tsx --require dotenv/config scripts/check-dated-file-categories.ts",
+    "fix:dated": "tsx --require dotenv/config scripts/fix-dated-file-categories.ts"
   },
   "workspaces": [
     "client",

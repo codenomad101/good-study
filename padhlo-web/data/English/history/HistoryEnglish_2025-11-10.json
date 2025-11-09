@@ -1,0 +1,1602 @@
+[
+    {
+      "category": "Indian History (Ancient)",
+      "Question": "Consider the following statements about the Indus Valley Civilization (IVC):\n1. It was primarily a rural, agrarian society with no evidence of urban centers.\n2. The Pashupati Seal, found at Mohenjo-Daro, is considered a representation of a proto-Shiva.\n3. Iron tools were commonly used for agriculture and warfare by the Harappans.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 only",
+      "Explanation": "(1) is incorrect; the IVC is renowned for its sophisticated urban planning (e.g., Harappa, Mohenjo-Daro) and grid-based cities. (2) is correct; the seal depicting a three-faced deity seated in a yogic posture and surrounded by animals is widely interpreted by scholars as a 'proto-Shiva'. (3) is incorrect; the IVC was a Bronze Age civilization. Iron was not known to them; it appeared in India much later (around 1000 BCE).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Indus Valley Civilization"
+    },
+    {
+      "category": "Indian History (Ancient)",
+      "Question": "Which of the following statements regarding the Vedic Period is/are correct?\n1. The Rigvedic society was matriarchal, with women holding dominant positions.\n2. The 'Sabha' and 'Samiti' were important political assemblies in the Early Vedic period.\n3. The varna system in the Later Vedic period became rigid and based on birth, not occupation.",
+      "Options": [
+        { "id": 1, "text": "3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "(1) is incorrect; Rigvedic society was patriarchal, although women enjoyed a respectable position and had access to education and assemblies. (2) is correct; Sabha (council of elders) and Samiti (general assembly) were key tribal assemblies that advised the 'Rajan' (king). (3) is correct; in the Later Vedic period, the varna system (Brahmin, Kshatriya, Vaishya, Shudra) lost its flexibility and became a hereditary, rigid social hierarchy.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Vedic Period"
+    },
+    {
+      "category": "Indian History (Ancient)",
+      "Question": "Consider the following statements about Buddhism and Jainism:\n1. Both Buddhism and Jainism rejected the authority of the Vedas and priestly rituals.\n2. Jainism places a stronger emphasis on 'Ahimsa' (non-violence) than Buddhism.\n3. Both Mahavira and Buddha were Kshatriyas by birth and preached in Prakrit, the language of the common people.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. (1) Both were heterodox movements that challenged Brahmanical orthodoxy, rejecting Vedic authority and complex rituals. (2) Jainism's core tenet is extreme Ahimsa, extending to all living and non-living matter, which is a stricter interpretation than in Buddhism. (3) Both founders came from Kshatriya clans (Siddhartha Gautama from the Shakya clan, Mahavira from the Jnatrika clan) and used Prakrit (or its variants like Pali) to make their teachings accessible to the masses, unlike Sanskrit.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Buddhism and Jainism"
+    },
+    {
+      "category": "Indian History (Ancient)",
+      "Question": "Which of the following elements were part of Ashoka's 'Dhamma' (Dharma)?\n1. Worship of the Emperor as a divine figure.\n2. Respect for elders and tolerance for all religious sects.\n3. Total prohibition on animal sacrifice.\n4. Conquest of foreign lands to spread Dhamma.",
+      "Options": [
+        { "id": 1, "text": "2 and 3 only" },
+        { "id": 2, "text": "1, 2 and 3" },
+        { "id": 3, "text": "2, 3 and 4" },
+        { "id": 4, "text": "1 and 4 only" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "(1) is incorrect; Ashoka never promoted his own worship. (2) is correct; Ashoka's edicts repeatedly stress tolerance (Major Rock Edict XII) and obedience to elders. (3) is correct; Major Rock Edict I explicitly prohibits animal sacrifice, especially in the royal kitchen and at festivals. (4) is incorrect; after the Kalinga War, Ashoka renounced military conquest ('Bherighosha') in favor of cultural conquest ('Dhammaghosha'), but this was through missions, not military force.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Mauryan Empire"
+    },
+    {
+      "category": "Indian History (Ancient)",
+      "Question": "Match List-I (Text) with List-II (Author/Subject):\nList-I:\nA. Arthashastra\nB. Mudrarakshasa\nC. Milinda Panha\nD. Indica\nList-II:\n1. Megasthenes\n2. Kautilya\n3. Dialogue between Menander and Nagasena\n4. Vishakhadatta",
+      "Options": [
+        { "id": 1, "text": "A-2, B-4, C-3, D-1" },
+        { "id": 2, "text": "A-2, B-1, C-3, D-4" },
+        { "id": 3, "text": "A-3, B-4, C-2, D-1" },
+        { "id": 4, "text": "A-1, B-2, C-4, D-3" }
+      ],
+      "CorrectAnswer": "A-2, B-4, C-3, D-1",
+      "Explanation": "A. Arthashastra is a treatise on statecraft and administration attributed to Kautilya (Chanakya). B. Mudrarakshasa is a Sanskrit play by Vishakhadatta that narrates the ascent of Chandragupta Maurya. C. Milinda Panha is a Buddhist text recording a dialogue between the Indo-Greek king Menander I and the sage Nagasena. D. Indica is an account of Mauryan India written by Megasthenes, the Greek ambassador to Chandragupta's court.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Ancient Texts and Authors"
+    },
+    {
+      "category": "Indian History (Ancient)",
+      "Question": "The Gupta period is often called the 'Golden Age' of ancient India. Which statements justify this title?\n1. A highly centralized administrative system with no local autonomy.\n2. Remarkable achievements in Sanskrit literature, science, and art.\n3. Complete absence of social evils like the caste system and untouchability.",
+      "Options": [
+        { "id": 1, "text": "2 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 only",
+      "Explanation": "(1) is incorrect; the Gupta administration was decentralized. Feudatories ('Samantas') and local bodies held significant power, unlike the centralized Mauryan state. (2) is correct; this period saw the works of Kalidasa (literature), Aryabhata and Varahamihira (science/math), and the zenith of classical Indian art (Ajanta paintings, temple architecture). (3) is incorrect; the caste system became more rigid, and the practice of untouchability (as noted by Fa-Hien) became more pronounced during this period.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Gupta Empire"
+    },
+    {
+      "category": "Indian History (Ancient)",
+      "Question": "Who was the founder of the Satavahana dynasty, which ruled over the Deccan region?",
+      "Options": [
+        { "id": 1, "text": "Gautamiputra Satakarni" },
+        { "id": 2, "text": "Simuka" },
+        { "id": 3, "text": "Hala" },
+        { "id": 4, "text": "Pulakeshin I" }
+      ],
+      "CorrectAnswer": "Simuka",
+      "Explanation": "Simuka is credited as the founder of the Satavahana dynasty, which emerged after the decline of the Mauryan Empire in the Deccan. Gautamiputra Satakarni was their most celebrated ruler, who revived the dynasty's power. Hala was another notable ruler, famous for compiling the 'Gaha Sattasai'. Pulakeshin I was the founder of the Chalukya dynasty.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Post-Mauryan Dynasties"
+    },
+    {
+      "category": "Indian History (Ancient)",
+      "Question": "The 'Tripartite Struggle' in the 8th-10th centuries was a conflict for control over the city of Kannauj between which three powers?",
+      "Options": [
+        { "id": 1, "text": "Cholas, Pandyas, and Cheras" },
+        { "id": 2, "text": "Gurjara-Pratiharas, Rashtrakutas, and Palas" },
+        { "id": 3, "text": "Mauryas, Guptas, and Kushanas" },
+        { "id": 4, "text": "Chalukyas, Pallavas, and Satavahanas" }
+      ],
+      "CorrectAnswer": "Gurjara-Pratiharas, Rashtrakutas, and Palas",
+      "Explanation": "The Tripartite Struggle (or Kannauj Triangle War) was a long-drawn conflict for the control of Kannauj, which symbolized imperial power in North India. The three major powers involved were the Gurjara-Pratiharas (from the west), the Palas (from the east), and the Rashtrakutas (from the Deccan).",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Post-Gupta Period"
+    },
+    {
+      "category": "Indian History (Ancient)",
+      "Question": "Consider the following statements regarding the Pallava dynasty:\n1. They were responsible for the creation of monolithic rock-cut temples at Mahabalipuram (Mamallapuram).\n2. Their capital was Kanchipuram, a major center of learning.\n3. They were constantly in conflict with the Cholas in the south.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct; rulers like Narasimhavarman I pioneered the Dravidian style of architecture, including the famous 'Rathas' (chariots) of Mahabalipuram. (2) is correct; Kanchipuram was their capital and a great center for Sanskrit and Tamil learning. (3) is incorrect; while they had many conflicts, their primary and most persistent rivals were the Chalukyas of Badami, not the Cholas (who rose to prominence after the Pallavas' decline).",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "South Indian Dynasties"
+    },
+    {
+      "category": "Indian History (Ancient)",
+      "Question": "The 'Sangam literature' is a collection of Tamil poems and texts primarily associated with which ancient kingdom(s)?",
+      "Options": [
+        { "id": 1, "text": "Cholas, Cheras, and Pandyas" },
+        { "id": 2, "text": "Chalukyas and Rashtrakutas" },
+        { "id": 3, "text": "Gupta Empire" },
+        { "id": 4, "text": "Vijayanagara Empire" }
+      ],
+      "CorrectAnswer": "Cholas, Cheras, and Pandyas",
+      "Explanation": "Sangam literature refers to the body of classical Tamil literature created between c. 300 BCE and 300 CE. It was compiled in three 'Sangams' (assemblies of poets) held under the patronage of the Pandya kings of Madurai, and it provides rich details about the society, culture, and politics of the Chola, Chera, and Pandya kingdoms.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Sangam Age"
+    },
+    {
+      "category": "Indian History (Medieval)",
+      "Question": "Why did Mahmud of Ghazni attack India in the early 11th century?",
+      "Options": [
+        { "id": 1, "text": "To establish a permanent Islamic empire in India." },
+        { "id": 2, "text": "To plunder the wealth of Indian temples and finance his campaigns in Central Asia." },
+        { "id": 3, "text": "To spread Buddhism in the Indian subcontinent." },
+        { "id": 4, "text": "To form a military alliance with the Rajput kings against the Seljuk Turks." }
+      ],
+      "CorrectAnswer": "To plunder the wealth of Indian temples and finance his campaigns in Central Asia.",
+      "Explanation": "Mahmud of Ghazni's raids on India (most famously the Somnath temple) were not motivated by a desire to build an empire in India (that was the goal of Muhammad Ghori later). His primary objective was to acquire the immense wealth of India to fund his vast empire and his wars in Central Asia. He was a plunderer, not an empire-builder in the Indian context.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Early Medieval Invasions"
+    },
+    {
+      "category": "Indian History (Medieval)",
+      "Question": "Consider the following administrative reforms by Alauddin Khalji:\n1. He introduced the 'Dagh' (branding of horses) and 'Chehra' (descriptive roll of soldiers) systems.\n2. He separated religion from politics, declaring 'Kingship knows no kinship'.\n3. He implemented a system of price controls (market reforms) to maintain a large army with low salaries.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. (1) The Dagh and Chehra systems were military reforms to prevent corruption and ensure the quality of the army. (2) Khalji was a pragmatist who did not let the Ulema (clergy) dictate state policy, famously stating he did not know what was lawful or unlawful, but only what was for the good of the state. (3) His market reforms (Diwan-i-Riyasat) were a groundbreaking economic measure to fix the prices of essential goods, enabling him to pay his soldiers a modest but fixed salary.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Delhi Sultanate (Khalji)"
+    },
+    {
+      "category": "Indian History (Medieval)",
+      "Question": "Why did Muhammad-bin-Tughlaq's 'token currency' experiment fail?\n1. The token coins were made of pure gold, which drained the treasury.\n2. The state failed to prevent widespread counterfeiting of the bronze and copper coins.\n3. The value of the token currency was set far below the intrinsic value of the metal.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 only",
+      "Explanation": "(1) is incorrect; the token currency was made of bronze and copper, intended to have the *face value* of silver (Tanka) and gold coins, not be made of them. (2) is correct; the experiment failed because the government could not maintain a monopoly on the minting. People began minting counterfeit coins in their homes, leading to hyperinflation and economic chaos. (3) is incorrect; the face value was set *equal* to silver/gold coins, but the intrinsic (metal) value was far lower, which is the entire point of a token currency.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Delhi Sultanate (Tughlaq)"
+    },
+    {
+      "category": "Indian History (Medieval)",
+      "Question": "The 'Ashta Pradhan' (Council of Eight) was the administrative council of which ruler?",
+      "Options": [
+        { "id": 1, "text": "Akbar" },
+        { "id": 2, "text": "Krishnadevaraya" },
+        { "id": 3, "text": "Chhatrapati Shivaji Maharaj" },
+        { "id": 4, "text": "Tipu Sultan" }
+      ],
+      "CorrectAnswer": "Chhatrapati Shivaji Maharaj",
+      "Explanation": "The Ashta Pradhan was the council of eight ministers that advised Chhatrapati Shivaji Maharaj on administrative matters. It included key posts like the Peshwa (Prime Minister), Amatya (Finance Minister), and Senapati (Commander-in-Chief). It was not a cabinet in the modern sense, as the ministers were directly responsible to Shivaji.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Maratha Empire"
+    },
+    {
+      "category": "Indian History (Medieval)",
+      "Question": "The Vijayanagara Empire and the Bahmani Sultanate were in constant conflict over the control of which fertile region?",
+      "Options": [
+        { "id": 1, "text": "Konkan Coast" },
+        { "id": 2, "text": "Raichur Doab" },
+        { "id": 3, "text": "Malwa Plateau" },
+        { "id": 4, "text": "Coromandel Coast" }
+      ],
+      "CorrectAnswer": "Raichur Doab",
+      "Explanation": "The Raichur Doab, the fertile land between the Krishna and Tungabhadra rivers, was the primary bone of contention between the Vijayanagara Empire (based to the south) and the Bahmani Sultanate (based in the Deccan plateau to the north). Its economic and strategic importance led to centuries of warfare.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Vijayanagara & Bahmani"
+    },
+    {
+      "category": "Indian History (Medieval)",
+      "Question": "Which of the following are correctly matched pairs of Bhakti/Sufi saints and their philosophy?\n1. Shankara - Advaita (Non-dualism)\n2. Ramanuja - Vishishtadvaita (Qualified Non-dualism)\n3. Kabir - Advocated for syncretism between Hinduism and Islam.\n4. Chisti Silsila - Believed in living a secluded life, away from political power.",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3 only" },
+        { "id": 2, "text": "1, 2 and 4 only" },
+        { "id": 3, "text": "2, 3 and 4 only" },
+        { "id": 4, "text": "1, 2, 3 and 4" }
+      ],
+      "CorrectAnswer": "1, 2 and 3 only",
+      "Explanation": "(1) is correct; Shankara (Adi Shankaracharya) was the chief exponent of Advaita Vedanta. (2) is correct; Ramanuja was the chief exponent of Vishishtadvaita. (3) is correct; Kabir's poetry (dohas) strongly criticized religious dogma and sought to find a common ground (e.g., 'Ram and Rahim are one'). (4) is incorrect; The Chisti Silsila (like Nizamuddin Auliya, Moinuddin Chisti) were famous for *associating* with common people and sometimes royalty (though they often maintained a principled distance, they did not live in total seclusion) and used music (Sama) to achieve union with God. The Suhrawardi silsila was more known for accepting state patronage.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Bhakti and Sufi Movements"
+    },
+    {
+      "category": "Indian History (Medieval)",
+      "Question": "Consider the following statements about Akbar's reign:\n1. He introduced the 'Mansabdari' system, a military-administrative rank.\n2. He established 'Din-i-Ilahi' as a state religion, which all subjects were forced to convert to.\n3. He abolished the 'Jizya' tax on non-Muslims.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct; the Mansabdari system was the steel frame of Mughal administration, where a 'Mansab' (rank) determined a noble's salary (paid in jagirs or cash) and his military obligations (number of 'zat' and 'sawar'). (2) is incorrect; Din-i-Ilahi was an ethical code or syncretic cult, not a new religion. It was not forced upon anyone, and very few nobles (like Birbal) actually accepted it. (3) is correct; in 1564, Akbar abolished the Jizya (poll tax) as part of his policy of universal tolerance (Sulh-i-Kul).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Mughal Empire (Akbar)"
+    },
+    {
+      "category": "Indian History (Medieval)",
+      "Question": "The 'Ibadat Khana' (House of Worship) at Fatehpur Sikri was established by Akbar for what purpose?",
+      "Options": [
+        { "id": 1, "text": "To serve as his private prayer hall." },
+        { "id": 2, "text": "To hold philosophical and theological discussions with leaders of different religions." },
+        { "id": 3, "text": "To distribute alms to the poor." },
+        { "id": 4, "text": "To issue judicial decrees (Fatwas)." }
+      ],
+      "CorrectAnswer": "To hold philosophical and theological discussions with leaders of different religions.",
+      "Explanation": "Akbar built the Ibadat Khana in 1575. Initially, the discussions were limited to Sunni scholars. However, after witnessing their intolerant bickering, he opened its doors to scholars from all religions—Shia, Hindus, Jains, Zoroastrians, and even Jesuit priests from Goa. This led to his development of the policy of 'Sulh-i-Kul' (peace with all).",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Mughal Empire (Akbar)"
+    },
+    {
+      "category": "Indian History (Medieval)",
+      "Question": "What was the 'Zabt' system of land revenue, introduced by Todar Mal during Akbar's reign?",
+      "Options": [
+        { "id": 1, "text": "A system of fixed tax on all land, regardless of fertility." },
+        { "id": 2, "text": "A system of tax-farming, where revenue collection was auctioned to the highest bidder." },
+        { "id": 3, "text": "A system where the state's share was 50% of the produce, paid only in kind." },
+        { "id": 4, "text": "A system of measurement of land, classification based on fertility, and fixation of revenue based on average produce." }
+      ],
+      "CorrectAnswer": "A system of measurement of land, classification based on fertility, and fixation of revenue based on average produce.",
+      "Explanation": "The Zabt system (or Todar Mal's Bandobast) was a sophisticated land revenue system. It involved: (1) Careful measurement of land (using 'Jarib'), (2) Classification of land based on fertility and continuity of cultivation ('Polaj', 'Parauti', etc.), (3) Calculating the average produce over 10 years (Dahsala), and (4) Fixing the state's share (usually one-third) in cash, based on this average.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Mughal Administration"
+    },
+    {
+      "category": "Indian History (Medieval)",
+      "Question": "The Battle of Talikota (1565) was a decisive battle that led to the decline of which empire?",
+      "Options": [
+        { "id": 1, "text": "Mughal Empire" },
+        { "id": 2, "text": "Bahmani Sultanate" },
+        { "id": 3, "text": "Vijayanagara Empire" },
+        { "id": 4, "text": "Maratha Empire" }
+      ],
+      "CorrectAnswer": "Vijayanagara Empire",
+      "Explanation": "The Battle of Talikota (also called Rakshasi-Tangadi) was fought between the Vijayanagara Empire and a confederacy of Deccan Sultanates (Bijapur, Golconda, Ahmednagar, Bidar). The Vijayanagara army suffered a catastrophic defeat, leading to the sacking of the capital city of Vijayanagara and the eventual collapse of the empire.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Vijayanagara & Bahmani"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "Arrange the following European powers in the chronological order of their first arrival in India for trade:",
+      "Options": [
+        { "id": 1, "text": "Portuguese, Dutch, English, French" },
+        { "id": 2, "text": "Dutch, Portuguese, French, English" },
+        { "id": 3, "text": "English, Portuguese, Dutch, French" },
+        { "id": 4, "text": "Portuguese, English, French, Dutch" }
+      ],
+      "CorrectAnswer": "Portuguese, Dutch, English, French",
+      "Explanation": "The correct chronological order of arrival is: 1. Portuguese (Vasco da Gama reached Calicut in 1498). 2. Dutch (Dutch East India Company formed in 1602, first factory at Masulipatnam). 3. English (English East India Company formed in 1600, Captain Hawkins arrived in 1608, first factory at Surat in 1613). 4. French (French East India Company formed in 1664).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Advent of Europeans"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Dual System of Government' in Bengal, introduced by Robert Clive after the Battle of Buxar, meant that:",
+      "Options": [
+        { "id": 1, "text": "The British controlled the army, while the Nawab controlled the revenue." },
+        { "id": 2, "text": "The British controlled both the army and revenue, while the Nawab was the symbolic head." },
+        { "id": 3, "text": "The British held the 'Diwani' (revenue) rights, while the 'Nizamat' (administration) was with the Nawab." },
+        { "id": 4, "text": "Bengal was divided into two parts, one ruled by the British and the other by the Nawab." }
+      ],
+      "CorrectAnswer": "The British held the 'Diwani' (revenue) rights, while the 'Nizamat' (administration) was with the Nawab.",
+      "Explanation": "The Dual System (1765-1772) was a disastrous experiment. The East India Company acquired the 'Diwani' (right to collect revenue) from the Mughal Emperor. However, the 'Nizamat' (civil administration and criminal justice) was left in the hands of the Nawab of Bengal. This created a system where the British had power and money without responsibility, while the Nawab had responsibility without power or resources, leading to a complete breakdown of governance and the Bengal Famine of 1770.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "British Conquest of India"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "What was the 'Doctrine of Lapse' implemented by Lord Dalhousie?",
+      "Options": [
+        { "id": 1, "text": "A policy to annex any Indian state whose ruler was deemed 'incompetent' or 'misgoverning'." },
+        { "id": 2, "text": "A policy that divided the assets of a deceased ruler between the British and his natural heir." },
+        { "id": 3, "text": "A policy to annex any princely state if the ruler died without a 'natural' (biological) male heir." },
+        { "id": 4, "text": "A policy that lapsed all trade agreements with Indian rulers upon their death." }
+      ],
+      "CorrectAnswer": "A policy to annex any princely state if the ruler died without a 'natural' (biological) male heir.",
+      "Explanation": "The Doctrine of Lapse stated that any princely state under the suzerainty of the Company would be annexed if the ruler died without a natural male heir. The traditional Indian right to adopt a successor was disallowed. This policy was used by Dalhousie to annex states like Satara, Jhansi, and Nagpur, and was a major cause of the 1857 Revolt.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "British Policies"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "Consider the following statements about the Revolt of 1857:\n1. It was started by Mangal Pandey in Meerut.\n2. The revolt was actively supported by all sections of Indian society, including the intelligentsia and merchants.\n3. It led to the end of the East India Company's rule and the beginning of direct rule by the British Crown.",
+      "Options": [
+        { "id": 1, "text": "3 only" },
+        { "id": 2, "text": "1 and 3 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "3 only",
+      "Explanation": "(1) is incorrect; Mangal Pandey's mutiny was at Barrackpore in March 1857. The main revolt (the 'sepoy mutiny') began in Meerut on May 10, 1857. (2) is incorrect; the modern educated intelligentsia and merchant classes largely remained aloof, fearing the revolt was a backward-looking, feudal uprising. (3) is correct; the Government of India Act, 1858, was passed, liquidating the EIC and transferring all its powers to the British Crown. The post of 'Secretary of State for India' was created.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Revolt of 1857"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "Who founded the 'Satyashodhak Samaj' (Truth-Seekers' Society) in 1873?",
+      "Options": [
+        { "id": 1, "text": "Raja Ram Mohan Roy" },
+        { "id": 2, "text": "Swami Vivekananda" },
+        { "id": 3, "text": "Dr. B. R. Ambedkar" },
+        { "id": 4, "text": "Jyotiba Phule" }
+      ],
+      "CorrectAnswer": "Jyotiba Phule",
+      "Explanation": "Jyotiba Phule, a prominent social reformer from Maharashtra, founded the Satyashodhak Samaj in 1873. The society's main objective was to liberate the 'Shudras' and 'Ati-Shudras' (lower castes) from oppression and exploitation by the Brahmanical elite and to fight against caste-based discrimination and promote education for all.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Socio-Religious Reforms"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "Match List-I (Organization) with List-II (Founder):\nList-I:\nA. Brahmo Samaj\nB. Arya Samaj\nC. Ramakrishna Mission\nD. Theosophical Society\nList-II:\n1. Swami Dayanand Saraswati\n2. Raja Ram Mohan Roy\n3. H.P. Blavatsky & H.S. Olcott\n4. Swami Vivekananda",
+      "Options": [
+        { "id": 1, "text": "A-2, B-1, C-4, D-3" },
+        { "id": 2, "text": "A-1, B-2, C-3, D-4" },
+        { "id": 3, "text": "A-2, B-4, C-1, D-3" },
+        { "id": 4, "text": "A-3, B-1, C-4, D-2" }
+      ],
+      "CorrectAnswer": "A-2, B-1, C-4, D-3",
+      "Explanation": "A. Brahmo Samaj was founded by Raja Ram Mohan Roy in 1828 to promote monotheism and reform Hindu practices. B. Arya Samaj was founded by Swami Dayanand Saraswati in 1875 with the call 'Go back to the Vedas'. C. Ramakrishna Mission was founded by Swami Vivekananda in 1897 to carry out humanitarian relief and spread the message of Vedanta. D. Theosophical Society was founded by H.P. Blavatsky and Colonel Olcott in New York in 1875 (later moved to Adyar, India).",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Socio-Religious Reforms"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "What was the 'Safety Valve' theory regarding the formation of the Indian National Congress in 1885?",
+      "Options": [
+        { "id": 1, "text": "A theory that Congress was formed by Indians to act as a 'safety valve' to protect their political rights." },
+        { "id": 2, "text": "A theory that Congress was formed by A.O. Hume to provide a 'safety valve' for popular discontent, thereby preventing another revolt." },
+        { "id": 3, "text": "A theory that Congress was a 'safety valve' for economic exploitation, allowing Indians to discuss trade." },
+        { "id": 4, "text": "A theory that Congress was formed to release the 'pressure' of social reforms." }
+      ],
+      "CorrectAnswer": "A theory that Congress was formed by A.O. Hume to provide a 'safety valve' for popular discontent, thereby preventing another revolt.",
+      "Explanation": "The 'Safety Valve' theory, first proposed by extremist leaders like Lala Lajpat Rai, suggests that the British official A.O. Hume and Viceroy Lord Dufferin intentionally created the INC. Their goal was to provide a controlled, constitutional outlet (a 'safety valve') for the rising political frustrations of the Indian educated class, thereby preventing a violent mass uprising like the 1857 Revolt.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Formation of INC"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The Partition of Bengal in 1905, announced by Lord Curzon, was officially justified on the grounds of:",
+      "Options": [
+        { "id": 1, "text": "Promoting communal harmony between Hindus and Muslims." },
+        { "id": 2, "text": "Administrative convenience, as the province was too large to govern efficiently." },
+        { "id": 3, "text": "Granting self-government to the people of Bengal." },
+        { "id": 4, "text": "Punishing the people of Bengal for their revolutionary activities." }
+      ],
+      "CorrectAnswer": "Administrative convenience, as the province was too large to govern efficiently.",
+      "Explanation": "The official reason given by Lord Curzon for the partition was that the province of Bengal was too large and unwieldy for a single administration, and partition would lead to better governance. However, the real, unstated motive was political: to 'Divide and Rule' by splitting the Hindu-majority western part from the Muslim-majority eastern part, and thereby break the back of Bengali nationalism, which was the nerve center of the Indian freedom struggle.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Partition of Bengal"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "Which of the following were key features of the Swadeshi Movement (1905-1908)?\n1. Boycott of British goods, schools, and courts.\n2. Promotion of Swadeshi (indigenous) goods and national education.\n3. Large-scale participation of the Muslim peasantry in East Bengal.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) and (2) are the core components of the Swadeshi Movement. The boycott of foreign goods was linked to the promotion of indigenous industries and the establishment of national schools and colleges. (3) is incorrect; while some Muslim leaders participated, the British were successful in portraying the movement (which used Hindu cultural symbols) as a 'Hindu' movement. This, along with the formation of the Muslim League in 1906, led to a large section of the Muslim peasantry remaining aloof or even opposing the movement.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Swadeshi Movement"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Lucknow Pact' of 1916 was a significant event in the Indian freedom struggle because:",
+      "Options": [
+        { "id": 1, "text": "It marked the union of the Extremist and Moderate factions of the Congress." },
+        { "id": 2, "text": "The Congress and the Muslim League agreed on a joint scheme of political reforms." },
+        { "id": 3, "text": "Both 1 and 2 are correct." },
+        { "id": 4, "text": "It was the session where Mahatma Gandhi took over the leadership of the Congress." }
+      ],
+      "CorrectAnswer": "Both 1 and 2 are correct.",
+      "Explanation": "The Lucknow session of the INC in 1916 was historic for two reasons: (1) The Moderates and Extremists (who had split in Surat in 1907) were reunited. (2) The Congress and the Muslim League, led by Muhammad Ali Jinnah at the time, signed the Lucknow Pact. They presented a common set of demands to the British, and in a significant (and controversial) move, the Congress accepted the principle of separate electorates for Muslims.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Lucknow Pact"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "What was the immediate trigger for the launch of the Non-Cooperation Movement in 1920?",
+      "Options": [
+        { "id": 1, "text": "The Jallianwala Bagh Massacre and the harsh terms of the Hunter Committee report." },
+        { "id": 2, "text": "The 'Khilafat' issue concerning the abolition of the Caliphate in Turkey." },
+        { "id": 3, "text": "The passing of the Rowlatt Act, which allowed detention without trial." },
+        { "id": 4, "text": "Both 1 and 2" }
+      ],
+      "CorrectAnswer": "Both 1 and 2",
+      "Explanation": "The Non-Cooperation Movement (NCM) was launched on a 'trio' of issues, but the primary immediate triggers were: (1) The 'Punjab wrongs', specifically the Jallianwala Bagh massacre (1919) and the subsequent Hunter Committee report which was seen as a whitewash. (2) The 'Khilafat issue', where Indian Muslims were outraged by the British treatment of the Ottoman Sultan (the Khalifa). Gandhi saw this as an opportunity to unite Hindus and Muslims in a common struggle.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Non-Cooperation Movement"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Swaraj Party' was formed in 1923 by C.R. Das and Motilal Nehru with what main objective?",
+      "Options": [
+        { "id": 1, "text": "To launch a 'No-Tax' campaign against the British." },
+        { "id": 2, "text": "To participate in the legislative councils and 'end or mend' them from within." },
+        { "id": 3, "text": "To boycott the Simon Commission." },
+        { "id": 4, "text": "To form a parallel government outside British India." }
+      ],
+      "CorrectAnswer": "To participate in the legislative councils and 'end or mend' them from within.",
+      "Explanation": "After the abrupt suspension of the NCM in 1922, there was a debate within Congress. The 'No-Changers' (like Rajagopalachari) wanted to continue the boycott and focus on constructive work. The 'Pro-Changers' or 'Swarajists' (led by C.R. Das and Motilal Nehru) argued that Congress should enter the legislative councils (created by the 1919 Act) to obstruct their functioning from within and expose their limitations.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Swaraj Party"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "Why was the 'Simon Commission' (1927) boycotted by all major Indian political parties?",
+      "Options": [
+        { "id": 1, "text": "It proposed the partition of India." },
+        { "id": 2, "text": "It recommended the abolition of separate electorates." },
+        { "id": 3, "text": "It did not include any Indian members." },
+        { "id": 4, "text": "It refused to consider 'Dominion Status' for India." }
+      ],
+      "CorrectAnswer": "It did not include any Indian members.",
+      "Explanation": "The Simon Commission was a 7-member all-white, all-British parliamentary group sent to India to review the functioning of the Government of India Act 1919 and suggest further reforms. The exclusion of any Indian members was seen as a grave insult and a violation of the principle of self-determination. This led to a universal boycott by all parties (Congress, Muslim League, etc.) under the slogan 'Simon Go Back'.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Simon Commission"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Gandhi-Irwin Pact' of 1931 led to which of the following outcomes?\n1. The immediate release of all political prisoners, including Bhagat Singh.\n2. The suspension of the Civil Disobedience Movement by Congress.\n3. Congress's agreement to participate in the Second Round Table Conference.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "(1) is incorrect; The pact agreed to the release of only *non-violent* political prisoners. This excluded Bhagat Singh, Sukhdev, and Rajguru, whose death sentences were not commuted, a major point of criticism against Gandhi. (2) is correct; Gandhi, on behalf of Congress, agreed to suspend the CDM. (3) is correct; Congress, which had boycotted the First RTC, agreed to participate in the Second RTC, with Gandhi as its sole representative.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Civil Disobedience Movement"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Poona Pact' (1932) was an agreement between Mahatma Gandhi and Dr. B. R. Ambedkar regarding:",
+      "Options": [
+        { "id": 1, "text": "The demand for a separate electorate for the Depressed Classes." },
+        { "id": 2, "text": "The withdrawal of the Civil Disobedience Movement." },
+        { "id": 3, "text": "The joint demand for 'Purna Swaraj' (Complete Independence)." },
+        { "id": 4, "text": "The entry of untouchables into Hindu temples." }
+      ],
+      "CorrectAnswer": "The demand for a separate electorate for the Depressed Classes.",
+      "Explanation": "British PM Ramsay MacDonald announced the 'Communal Award', granting separate electorates to the Depressed Classes (Dalits). Gandhi saw this as a plot to divide Hindu society and began a fast-unto-death. Dr. Ambedkar, who had fought for separate electorates, was pressured to negotiate. The Poona Pact was the result: Ambedkar agreed to give up separate electorates in favor of 'reserved seats' (from 71 to 147) within the general Hindu electorate.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Poona Pact"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'August Offer' (1940) by Lord Linlithgow proposed:\n1. Complete independence for India after the end of World War II.\n2. The formation of a constituent assembly after the war, mainly composed of Indians.\n3. Expansion of the Viceroy's Executive Council to include more Indians.",
+      "Options": [
+        { "id": 1, "text": "3 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "The August Offer was made to secure Indian cooperation in WWII. (1) is incorrect; it offered 'Dominion Status', not complete independence, which Congress rejected as a 'dead as a doornail' proposal. (2) is correct; it was the first time the British explicitly recognized the right of Indians to frame their own constitution (though 'mainly composed' was a qualifier). (3) is correct; it offered the immediate expansion of the Viceroy's Executive Council to include more Indians.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "August Offer"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "Why did the 'Cripps Mission' (1942) fail?\n1. The Congress rejected the 'Dominion Status' offer, demanding complete independence.\n2. The Muslim League rejected the proposals as they did not explicitly provide for the creation of Pakistan.\n3. The proposals gave states the right to secede, which Congress saw as a 'balkanization' of India.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "The Cripps Mission failed to get any party on board. (1) Congress, now focused on 'Purna Swaraj', rejected the offer of post-war Dominion Status; Gandhi famously called it a 'post-dated cheque on a crashing bank'. (2) The Muslim League rejected it because the proposal did not contain a clear-cut promise of Pakistan. (3) The mission proposed that provinces could opt out of the new constitution, which Congress saw as a blueprint for India's disintegration.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Cripps Mission"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Quit India' movement was launched in 1942 with the famous slogan 'Do or Die'. Which of the following statements about it is correct?",
+      "Options": [
+        { "id": 1, "text": "It was a non-violent and highly organized movement led personally by Gandhi." },
+        { "id": 2, "text": "The Muslim League and the Hindu Mahasabha actively participated in the movement." },
+        { "id": 3, "text": "It was a spontaneous, leaderless movement after the entire Congress leadership was arrested." },
+        { "id": 4, "text": "The movement was called off by Gandhi after the Chauri Chaura incident." }
+      ],
+      "CorrectAnswer": "It was a spontaneous, leaderless movement after the entire Congress leadership was arrested.",
+      "Explanation": "(1) is incorrect; while launched by Gandhi, he and all senior leaders were arrested on the very first day (Operation Zero Hour). The movement that followed was spontaneous, decentralized, and often violent. (2) is incorrect; the Muslim League, Hindu Mahasabha, and the Communist Party of India (CPI) boycotted the movement. (3) is correct; with no leaders, the masses took charge, leading to underground activities, parallel governments (e.g., in Satara), and widespread sabotage. (4) is incorrect; Chauri Chaura led to the suspension of the Non-Cooperation Movement in 1922.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Quit India Movement"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Cabinet Mission Plan' (1946) proposed which of the following?\n1. A three-tiered federal structure with strong provinces and a weak center.\n2. The creation of a sovereign, independent state of Pakistan.\n3. The formation of an interim government and a Constituent Assembly.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "The Cabinet Mission was the last attempt to keep India united. (1) It proposed a complex 3-tier system (Provinces, Groups A/B/C, and a Union Centre) where the Centre would control only Defence, Foreign Affairs, and Communications. (2) It explicitly *rejected* the demand for a separate, sovereign Pakistan, which is why the Muslim League later rejected the plan. (3) It successfully proposed the formation of a Constituent Assembly (which was later formed) and an interim government.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Cabinet Mission"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'INA Trials' (Red Fort Trials) were a significant event in 1945-46 because:",
+      "Options": [
+        { "id": 1, "text": "They led to the execution of Subhas Chandra Bose." },
+        { "id": 2, "text": "They sparked widespread popular support and sympathy for the INA soldiers, uniting the country." },
+        { "id": 3, "text": "They proved the INA soldiers were guilty of treason, and all were executed." },
+        { "id": 4, "text": "They were held in secret to prevent public outrage." }
+      ],
+      "CorrectAnswer": "They sparked widespread popular support and sympathy for the INA soldiers, uniting the country.",
+      "Explanation": "The British decided to hold public trials of INA officers (notably P.K. Sahgal, G.S. Dhillon, and Shah Nawaz Khan - a Hindu, Sikh, and Muslim) at the Red Fort. This backfired spectacularly. The trials generated a massive wave of sympathy. Congress formed a defence committee (including Nehru, Bhulabhai Desai), and there were widespread protests. This popular support, and the subsequent naval mutiny (RIN, 1946), convinced the British that their control over the Indian armed forces was no longer secure.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "INA & End of British Rule"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "Who announced the 'Direct Action Day' on August 16, 1946, leading to widespread communal riots?",
+      "Options": [
+        { "id": 1, "text": "The Indian National Congress" },
+        { "id": 2, "text": "The Muslim League" },
+        { "id": 3, "text": "The Hindu Mahasabha" },
+        { "id": 4, "text": "The Communist Party of India" }
+      ],
+      "CorrectAnswer": "The Muslim League",
+      "Explanation": "After the failure of the Cabinet Mission Plan (from their perspective), the Muslim League, led by Muhammad Ali Jinnah, withdrew its acceptance of the plan. To press for the demand for Pakistan, Jinnah called for 'Direct Action Day' on August 16, 1946. This call led to the 'Great Calcutta Killings', a horrific outbreak of communal violence that soon spread to other parts of India, making partition seem inevitable.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Partition of India"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Mountbatten Plan' (June 3, 1947) was the plan that finalized the:",
+      "Options": [
+        { "id": 1, "text": "Formation of an interim government." },
+        { "id": 2, "text": "Withdrawal of the British from India by 1950." },
+        { "id": 3, "text": "Partition of India into two dominions, India and Pakistan." },
+        { "id": 4, "text": "Implementation of the Cabinet Mission Plan." }
+      ],
+      "CorrectAnswer": "Partition of India into two dominions, India and Pakistan.",
+      "Explanation": "By 1947, the situation was too volatile to implement the Cabinet Mission Plan. Lord Mountbatten, the last Viceroy, concluded that partition was unavoidable. The 3rd June Plan (or Mountbatten Plan) was the formal proposal, accepted by both Congress and the Muslim League, that outlined the procedure for the partition of India and the creation of the two dominions, India and Pakistan, on August 15, 1947.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Partition of India"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Mahad Satyagraha' (1927) was led by Dr. B. R. Ambedkar for what purpose?",
+      "Options": [
+        { "id": 1, "text": "To demand separate electorates for Dalits." },
+        { "id": 2, "text": "To protest against the Simon Commission." },
+        { "id": 3, "text": "To assert the right of untouchables to use water from a public tank." },
+        { "id": 4, "text": "To demand the abolition of the 'Khoti' system (landlordism)." }
+      ],
+      "CorrectAnswer": "To assert the right of untouchables to use water from a public tank.",
+      "Explanation": "The Mahad Satyagraha was a landmark event in the Dalit rights movement. Although the Mahad municipality had legally allowed untouchables to use the Chavdar Tank, caste Hindus had prevented it. Dr. Ambedkar led thousands of Dalits to the tank to drink water, a symbolic and powerful assertion of their civil and human rights.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Ambedkar & Dalit Movements"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Ryotwari' system of land revenue, introduced by Thomas Munro in Madras, was different from the 'Permanent Settlement' because:",
+      "Options": [
+        { "id": 1, "text": "In Ryotwari, the tax was collected directly from the 'Ryot' (cultivator), whereas in Permanent Settlement, it was collected from the Zamindar." },
+        { "id": 2, "text": "In Ryotwari, the tax was permanently fixed, whereas in Permanent Settlement, it was revised periodically." },
+        { "id": 3, "text": "The Ryotwari system was only for cash crops, while Permanent Settlement was for food crops." },
+        { "id": 4, "text": "The Ryotwari system gave ownership of land to the village community (Mahal)." }
+      ],
+      "CorrectAnswer": "In Ryotwari, the tax was collected directly from the 'Ryot' (cultivator), whereas in Permanent Settlement, it was collected from the Zamindar.",
+      "Explanation": "(1) is the correct distinction. In Permanent Settlement (Bengal, Bihar), the Zamindar was made the landowner and was responsible for collecting revenue. In the Ryotwari system (Madras, Bombay), the British state established a direct link with the cultivator (Ryot), who was recognized as the owner, and the revenue was collected directly from them. (2) is the opposite of the truth. (4) describes the 'Mahalwari' system.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "British Economic Policies"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "Who founded the 'Ghadar Party' in San Francisco in 1913 with the aim of overthrowing British rule in India?",
+      "Options": [
+        { "id": 1, "text": "Bhagat Singh" },
+        { "id": 2, "text": "Lala Lajpat Rai" },
+        { "id": 3, "text": "Subhas Chandra Bose" },
+        { "id": 4, "text": "Lala Hardayal" }
+      ],
+      "CorrectAnswer": "Lala Hardayal",
+      "Explanation": "The Ghadar Party was a revolutionary organization founded primarily by Sikh immigrants in the USA and Canada. Lala Hardayal was a key intellectual and organizer who helped establish the party, with Sohan Singh Bhakna as its president. They published a journal called 'Ghadar' (Revolt) to mobilize Indians abroad for a revolution.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Revolutionary Nationalism"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Home Rule League' movement was started in 1916 by which two leaders?",
+      "Options": [
+        { "id": 1, "text": "Mahatma Gandhi and Jawaharlal Nehru" },
+        { "id": 2, "text": "Bal Gangadhar Tilak and Annie Besant" },
+        { "id": 3, "text": "C.R. Das and Motilal Nehru" },
+        { "id": 4, "text": "Lala Lajpat Rai and Bipin Chandra Pal" }
+      ],
+      "CorrectAnswer": "Bal Gangadhar Tilak and Annie Besant",
+      "Explanation": "The Home Rule League movement was inspired by the Irish Home Rule movement. Two separate leagues were launched to work in coordination: Tilak's league (April 1916) focused on Maharashtra and Karnataka, while Annie Besant's league (September 1916) covered the rest of India. Their objective was to achieve 'Home Rule' or self-government within the British Empire.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Home Rule Movement"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "Who was the first woman President of the Indian National Congress?",
+      "Options": [
+        { "id": 1, "text": "Sarojini Naidu" },
+        { "id": 2, "text": "Annie Besant" },
+        { "id": 3, "text": "Nellie Sengupta" },
+        { "id": 4, "text": "Indira Gandhi" }
+      ],
+      "CorrectAnswer": "Annie Besant",
+      "Explanation": "Annie Besant, the Irish theosophist and leader of the Home Rule League, was elected as the first woman President of the INC at the Calcutta session in 1917. Sarojini Naidu was the *first Indian woman* President of the INC (Kanpur session, 1925).",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Facts and Personalities"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Indian National Army' (INA) was first conceived and founded by:",
+      "Options": [
+        { "id": 1, "text": "Subhas Chandra Bose" },
+        { "id": 2, "text": "Rash Behari Bose" },
+        { "id": 3, "text": "Captain Mohan Singh" },
+        { "id": 4, "text": "Bhagat Singh" }
+      ],
+      "CorrectAnswer": "Captain Mohan Singh",
+      "Explanation": "The *first* INA was formed by Captain Mohan Singh, an Indian officer in the British army who was captured by the Japanese in Malaya. He, along with Rash Behari Bose (an exiled revolutionary in Japan), organized the Indian prisoners of war into the INA. Subhas Chandra Bose (Netaji) arrived later in 1943, revived a defunct INA, and led it as its Supreme Commander, transforming it into a powerful force.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "INA"
+    },
+    {
+      "category": "Indian History (Post-Independence)",
+      "Question": "What was 'Operation Polo'?",
+      "Options": [
+        { "id": 1, "text": "The Indian army operation to liberate Goa from Portuguese rule." },
+        { "id": 2, "text": "The code name for the 'Police Action' to integrate the princely state of Hyderabad into India." },
+        { "id": 3, "text": "The military operation during the 1971 Indo-Pak war." },
+        { "id": 4, "text": "The operation to integrate Junagadh into India." }
+      ],
+      "CorrectAnswer": "The code name for the 'Police Action' to integrate the princely state of Hyderabad into India.",
+      "Explanation": "After the Nizam of Hyderabad refused to accede to India in 1947, and with rising violence by his 'Razakar' militia, the Government of India launched a 'Police Action' codenamed 'Operation Polo' in September 1948. The Indian army quickly defeated the Nizam's forces, and Hyderabad was integrated into the Indian Union.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Integration of States"
+    },
+    {
+      "category": "Indian History (Post-Independence)",
+      "Question": "The 'States Reorganisation Act' of 1956, which reorganized Indian states, was based on the recommendations of which commission?",
+      "Options": [
+        { "id": 1, "text": "S.K. Dhar Commission" },
+        { "id": 2, "text": "JVP Committee (Nehru, Patel, Sitaramayya)" },
+        { "id": 3, "text": "Fazl Ali Commission" },
+        { "id": 4, "text": "Sarkaria Commission" }
+      ],
+      "CorrectAnswer": "Fazl Ali Commission",
+      "Explanation": "The Dhar Commission and JVP Committee had both rejected 'language' as the basis for reorganization. However, after the death of Potti Sriramulu and the creation of Andhra state, the government was forced to reconsider. The Fazl Ali Commission (1953) was set up, and it broadly accepted language as the basis for reorganizing states, leading to the States Reorganisation Act of 1956, which created 14 states and 6 UTs.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "States Reorganisation"
+    },
+    {
+      "category": "Indian History (Modern)",
+      "Question": "The 'Drain of Wealth' theory, which critiqued the economic impact of British rule, was systematically put forward by whom?",
+      "Options": [
+        { "id": 1, "text": "Dadabhai Naoroji" },
+        { "id": 2, "text": "Gopal Krishna Gokhale" },
+        { "id": 3, "text": "R. C. Dutt" },
+        { "id": 4, "text": "Mahatma Gandhi" }
+      ],
+      "CorrectAnswer": "Dadabhai Naoroji",
+      "Explanation": "Dadabhai Naoroji, the 'Grand Old Man of India', was the first to systematically articulate the 'Drain of Wealth' theory in his book 'Poverty and Un-British Rule in India'. He argued that India's wealth was being drained to England in the form of salaries, pensions, military expenditures, and profits, leaving India impoverished. This theory became the cornerstone of the early nationalist critique of British rule.",
+      "Difficulty": "Easy",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "British Economic Policies"
+    },
+    {
+        "category": "Modern Indian History",
+        "Question": "Arrange the following European powers in the chronological order of their first arrival (factory establishment) in India:\n1. Portuguese\n2. English\n3. Dutch\n4. French",
+        "Options": [
+          { "id": 1, "text": "1, 2, 3, 4" },
+          { "id": 2, "text": "1, 3, 2, 4" },
+          { "id": 3, "text": "2, 1, 3, 4" },
+          { "id": 4, "text": "1, 3, 4, 2" }
+        ],
+        "CorrectAnswer": "1, 3, 2, 4",
+        "Explanation": "The correct chronological order is: 1. Portuguese (Vasco da Gama 1498, first factory at Cochin 1503). 2. Dutch (First factory at Masulipatnam, 1605). 3. English (First factory at Surat, 1613). 4. French (First factory at Surat, 1668).",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Advent of Europeans"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "What was the 'Dual System of Government' introduced in Bengal by Robert Clive in 1765?",
+        "Options": [
+          { "id": 1, "text": "The Company held the 'Diwani' (revenue) rights, while the 'Nizamat' (administration) was with the Nawab." },
+          { "id": 2, "text": "The British controlled administration, while the Nawab controlled revenue." },
+          { "id": 3, "text": "The province was divided into two parts, one under the Company and one under the Nawab." },
+          { "id": 4, "text": "The Company and the Nawab had joint control over both revenue and administration." }
+        ],
+        "CorrectAnswer": "The Company held the 'Diwani' (revenue) rights, while the 'Nizamat' (administration) was with the Nawab.",
+        "Explanation": "The Dual System (1765-1772) meant the East India Company had all the power (Diwani/revenue) but no responsibility, while the Nawab had all the responsibility (Nizamat/administration) but no power or resources. This led to a complete breakdown of governance.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "British Conquest of India"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "Consider the following statements about the Permanent Settlement (1793):\n1. It was introduced by Lord Cornwallis in Bengal and Bihar.\n2. It made the Zamindars owners of the land, with the right to collect rent.\n3. The revenue demand on the Zamindar was fixed permanently and could not be increased.",
+        "Options": [
+          { "id": 1, "text": "1 and 2 only" },
+          { "id": 2, "text": "2 and 3 only" },
+          { "id": 3, "text": "1 and 3 only" },
+          { "id": 4, "text": "1, 2 and 3" }
+        ],
+        "CorrectAnswer": "1, 2 and 3",
+        "Explanation": "All three statements are correct. The Permanent Settlement, introduced by Lord Cornwallis, fixed the Zamindars as landowners, responsible for paying a *permanently fixed* revenue to the state. While it secured state income, it was often disastrous for the peasants, who were left at the mercy of the Zamindars.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 4,
+        "topic": "British Land Revenue Systems"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "How was the 'Ryotwari System' different from the 'Permanent Settlement'?",
+        "Options": [
+          { "id": 1, "text": "Ryotwari made the village community ('Mahal') the owner of the land." },
+          { "id": 2, "text": "Ryotwari established a direct settlement between the Company and the 'Ryot' (cultivator)." },
+          { "id": 3, "text": "Ryotwari fixed the revenue permanently, while Permanent Settlement was temporary." },
+          { "id": 4, "text": "Ryotwari was introduced in Bengal, while Permanent Settlement was in Madras." }
+        ],
+        "CorrectAnswer": "Ryotwari established a direct settlement between the Company and the 'Ryot' (cultivator).",
+        "Explanation": "The key difference was the absence of a 'Zamindar' (middleman). In the Ryotwari system, introduced by Thomas Munro in the Madras Presidency, the British state collected revenue directly from the peasant cultivator (Ryot), who was recognized as the owner. The revenue was also revised periodically, unlike in the Permanent Settlement.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "British Land Revenue Systems"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Drain of Wealth' theory, which provided a foundational critique of British economic policies in India, was systematically articulated by:",
+        "Options": [
+          { "id": 1, "text": "R. C. Dutt" },
+          { "id": 2, "text": "Gopal Krishna Gokhale" },
+          { "id": 3, "text": "Dadabhai Naoroji" },
+          { "id": 4, "text": "M. G. Ranade" }
+        ],
+        "CorrectAnswer": "Dadabhai Naoroji",
+        "Explanation": "Dadabhai Naoroji, the 'Grand Old Man of India', was the first to systematically put forward the 'Drain of Wealth' theory. In his book 'Poverty and Un-British Rule in India', he explained how India's wealth was being transferred to England in the form of salaries, pensions, and profits, leaving India impoverished.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "British Economic Policies"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "Which of the following was the *most* significant political and administrative consequence of the Revolt of 1857?",
+        "Options": [
+          { "id": 1, "text": "The East India Company's rule was ended, and India came under the direct rule of the British Crown." },
+          { "id": 2, "text": "The Doctrine of Lapse was introduced as a new policy." },
+          { "id": 3, "text": "The proportion of Indian soldiers in the army was increased." },
+          { "id": 4, "text": "The Mughal dynasty was restored to full power." }
+        ],
+        "CorrectAnswer": "The East India Company's rule was ended, and India came under the direct rule of the British Crown.",
+        "Explanation": "The Government of India Act, 1858, was passed, which liquidated the East India Company and transferred all its powers to the British Crown. A Secretary of State for India was appointed. This was the most direct and significant consequence. The Doctrine of Lapse was *abolished*, and the proportion of Indian soldiers was *decreased*.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Revolt of 1857"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "Match List-I (Social Reform Movement) with List-II (Founder):\nList-I:\nA. Brahmo Samaj\nB. Arya Samaj\nC. Satyashodhak Samaj\nD. Ramakrishna Mission\nList-II:\n1. Swami Dayanand Saraswati\n2. Jyotiba Phule\n3. Swami Vivekananda\n4. Raja Ram Mohan Roy",
+        "Options": [
+          { "id": 1, "text": "A-4, B-1, C-2, D-3" },
+          { "id": 2, "text": "A-1, B-4, C-3, D-2" },
+          { "id": 3, "text": "A-4, B-2, C-1, D-3" },
+          { "id": 4, "text": "A-3, B-1, C-4, D-2" }
+        ],
+        "CorrectAnswer": "A-4, B-1, C-2, D-3",
+        "Explanation": "A. Brahmo Samaj (1828) - Raja Ram Mohan Roy\nB. Arya Samaj (1875) - Swami Dayanand Saraswati\nC. Satyashodhak Samaj (1873) - Jyotiba Phule\nD. Ramakrishna Mission (1897) - Swami Vivekananda",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Socio-Religious Reforms"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Safety Valve' theory regarding the formation of the Indian National Congress (1885) suggests that:",
+        "Options": [
+          { "id": 1, "text": "It was formed by A.O. Hume to provide a 'safe' outlet for growing Indian discontent, thereby preventing another revolt." },
+          { "id": 2, "text": "It was formed by Indian nationalists to act as a 'valve' to release pressure on the British government." },
+          { "id": 3, "text": "It was an economic theory about releasing pressure from land revenue." },
+          { "id": 4, "text": "It was a military strategy to protect British garrisons." }
+        ],
+        "CorrectAnswer": "It was formed by A.O. Hume to provide a 'safe' outlet for growing Indian discontent, thereby preventing another revolt.",
+        "Explanation": "The 'Safety Valve' theory, propounded by some historians (and later used by extremist leaders to critique the INC), argues that A.O. Hume, with the implicit support of Viceroy Dufferin, created the INC to divert a potential violent uprising into a more manageable, constitutional channel—a 'safety valve' for popular anger.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Formation of INC"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The method of the 'Moderates' (1885-1905) in the Indian National Congress was often described as:",
+        "Options": [
+          { "id": 1, "text": "Passive Resistance and Boycott" },
+          { "id": 2, "text": "Revolutionary Terrorism" },
+          { "id": 3, "text": "Constitutional Agitation (Prayer, Petition, Protest)" },
+          { "id": 4, "text": "Mass Civil Disobedience" }
+        ],
+        "CorrectAnswer": "Constitutional Agitation (Prayer, Petition, Protest)",
+        "Explanation": "The early Moderates (like Gokhale, Naoroji, S.N. Banerjea) had faith in British justice. Their method involved constitutional agitation, often called the '3 P's'—Prayer (petitions), Petition, and Protest. They believed in gradually persuading the British government to grant reforms. Passive resistance and boycott were methods of the Extremists.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Moderate Phase"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "What was the immediate reason for the launch of the Swadeshi Movement (1905)?",
+        "Options": [
+          { "id": 1, "text": "The Jallianwala Bagh Massacre" },
+          { "id": 2, "text": "The Partition of Bengal by Lord Curzon" },
+          { "id": 3, "text": "The passing of the Rowlatt Act" },
+          { "id": 4, "text": "The failure of the Cripps Mission" }
+        ],
+        "CorrectAnswer": "The Partition of Bengal by Lord Curzon",
+        "Explanation": "The Swadeshi Movement was a direct, anti-partition agitation launched in response to Lord Curzon's 1905 decision to partition Bengal. The movement involved the boycott of British goods and the promotion of indigenous (Swadeshi) alternatives.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Swadeshi Movement"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The split in the Indian National Congress between Moderates and Extremists (Surat Split) occurred in 1907 over:",
+        "Options": [
+          { "id": 1, "text": "The issue of the Non-Cooperation Movement." },
+          { "id": 2, "text": "The election of the President and the extent of the Swadeshi movement." },
+          { "id": 3, "text": "The acceptance of the Government of India Act, 1909." },
+          { "id": 4, "text": "The Khilafat issue." }
+        ],
+        "CorrectAnswer": "The election of the President and the extent of the Swadeshi movement.",
+        "Explanation": "The split at the Surat session (1907) was the culmination of rising tensions. The Extremists (led by Tilak, Pal, Rai) wanted to extend the Swadeshi and Boycott movement beyond Bengal and wanted Lala Lajpat Rai as President. The Moderates (led by Gokhale) wanted to keep the movement limited and backed Rashbehari Ghosh. The dispute escalated, leading to the split.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Surat Split"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The Government of India Act, 1909 (Morley-Minto Reforms) is most infamous for:",
+        "Options": [
+          { "id": 1, "text": "Introducing 'Dyarchy' in the provinces." },
+          { "id": 2, "text": "Granting universal adult franchise." },
+          { "id": 3, "text": "Introducing the principle of 'separate electorates' for Muslims." },
+          { "id": 4, "text": "Granting provincial autonomy." }
+        ],
+        "CorrectAnswer": "Introducing the principle of 'separate electorates' for Muslims.",
+        "Explanation": "The Morley-Minto Reforms introduced separate electorates, which meant that Muslim candidates would be elected only by Muslim voters. This was a deliberate act of 'Divide and Rule' that sowed the seeds of communal politics and, ultimately, partition. Dyarchy came in 1919, and provincial autonomy in 1935.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Morley-Minto Reforms"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The Ghadar Party, a revolutionary organization, was founded in 1913 by Lala Hardayal in which city?",
+        "Options": [
+          { "id": 1, "text": "London" },
+          { "id": 2, "text": "Berlin" },
+          { "id": 3, "text": "Tokyo" },
+          { "id": 4, "text": "San Francisco" }
+        ],
+        "CorrectAnswer": "San Francisco",
+        "Explanation": "The Ghadar Party was founded at San Francisco, USA, by Indian immigrants, with Lala Hardayal as a key organizer. Its aim was to organize a revolutionary overthrow of British rule in India, and it published a journal named 'Ghadar' (Revolt).",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 4,
+        "topic": "Revolutionary Nationalism"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The Lucknow Pact of 1916 was a significant event because it involved:\n1. The reunion of the Moderate and Extremist factions of the Congress.\n2. A joint agreement between the Congress and the Muslim League to demand reforms.\n3. The Congress's acceptance of the principle of separate electorates.",
+        "Options": [
+          { "id": 1, "text": "1 and 2 only" },
+          { "id": 2, "text": "2 and 3 only" },
+          { "id": 3, "text": "1 and 3 only" },
+          { "id": 4, "text": "1, 2 and 3" }
+        ],
+        "CorrectAnswer": "1, 2 and 3",
+        "Explanation": "All three statements are correct. The Lucknow session (1916) was historic because: (1) The Moderates and Extremists, split since 1907, were reunited. (2) The Congress and the Muslim League (led by Jinnah at the time) signed the Lucknow Pact, presenting a common set of demands. (3) As part of this pact, Congress, in a bid for unity, accepted the controversial principle of separate electorates for Muslims.",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 4,
+        "topic": "Lucknow Pact"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The Home Rule League movement was started in 1916 by which two leaders, who had separate leagues?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi and Jawaharlal Nehru" },
+          { "id": 2, "text": "Bal Gangadhar Tilak and Annie Besant" },
+          { "id": 3, "text": "C.R. Das and Motilal Nehru" },
+          { "id": 4, "text": "Subhas Chandra Bose and Sardar Patel" }
+        ],
+        "CorrectAnswer": "Bal Gangadhar Tilak and Annie Besant",
+        "Explanation": "The Home Rule League movement, inspired by the Irish model, was launched to demand 'Home Rule' or self-government. Two separate leagues were established: Tilak's league (April 1916) operated in Maharashtra/Karnataka, and Annie Besant's league (Sept 1916) covered the rest of India.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Home Rule Movement"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "Arrange Mahatma Gandhi's early satyagrahas in India in the correct chronological order:\n1. Ahmedabad Mill Strike\n2. Champaran Satyagraha\n3. Kheda Satyagraha",
+        "Options": [
+          { "id": 1, "text": "1, 2, 3" },
+          { "id": 2, "text": "2, 1, 3" },
+          { "id": 3, "text": "2, 3, 1" },
+          { "id": 4, "text": "3, 2, 1" }
+        ],
+        "CorrectAnswer": "2, 1, 3",
+        "Explanation": "The correct chronological order is: 1. Champaran Satyagraha (1917) - Against the 'Tinkathia' system for indigo planters. 2. Ahmedabad Mill Strike (Feb-March 1918) - For mill workers' wages, where Gandhi first used the hunger strike. 3. Kheda Satyagraha (March 1918) - A 'no-tax' campaign for peasants whose crops had failed.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Rowlatt Act' (1919) was met with widespread protests because it:",
+        "Options": [
+          { "id": 1, "text": "Introduced separate electorates." },
+          { "id": 2, "text": "Allowed the British to detain any person without trial for two years." },
+          { "id": 3, "text": "Imposed a new, heavy salt tax." },
+          { "id": 4, "text": "Partitioned Bengal again." }
+        ],
+        "CorrectAnswer": "Allowed the British to detain any person without trial for two years.",
+        "Explanation": "Officially the 'Anarchical and Revolutionary Crimes Act', the Rowlatt Act gave the government emergency powers to repress political activity. It allowed for the detention of political prisoners without trial for up to two years. It was called the 'Black Act', and Gandhi launched the Rowlatt Satyagraha against it.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Rowlatt Satyagraha"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The Jallianwala Bagh massacre (April 13, 1919) occurred when General Dyer ordered his troops to fire on a peaceful crowd that had gathered to protest:",
+        "Options": [
+          { "id": 1, "text": "The partition of Bengal." },
+          { "id": 2, "text": "The arrest of Dr. Saifuddin Kitchlew and Dr. Satyapal." },
+          { "id": 3, "text": "The implementation of the Salt Tax." },
+          { "id": 4, "text": "The failure of the Cripps Mission." }
+        ],
+        "CorrectAnswer": "The arrest of Dr. Saifuddin Kitchlew and Dr. Satyapal.",
+        "Explanation": "The crowd had gathered at Jallianwala Bagh in Amritsar for a peaceful Baisakhi celebration and to protest the arrests of two popular nationalist leaders, Dr. Saifuddin Kitchlew and Dr. Satyapal, under the repressive Rowlatt Act. General Dyer sealed the only exit and ordered firing, killing hundreds.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Jallianwala Bagh"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The Non-Cooperation Movement (1920-22) was launched by Mahatma Gandhi on which 'trio' of issues?",
+        "Options": [
+          { "id": 1, "text": "The Punjab wrongs (Jallianwala), the Khilafat issue, and the demand for Swaraj." },
+          { "id": 2, "text": "The Salt Tax, the Simon Commission, and the demand for Purna Swaraj." },
+          { "id": 3, "text": "The Rowlatt Act, the Partition of Bengal, and the Drain of Wealth." },
+          { "id": 4, "text": "The failure of Cripps Mission, 'Do or Die', and the demand for 'Quit India'." }
+        ],
+        "CorrectAnswer": "The Punjab wrongs (Jallianwala), the Khilafat issue, and the demand for Swaraj.",
+        "Explanation": "The movement was launched on the basis of three key issues: (1) The 'Punjab wrongs' (Justice for the Jallianwala Bagh massacre), (2) The 'Khilafat issue' (to support Indian Muslims protesting the British treatment of the Turkish Caliph), and (3) The attainment of 'Swaraj' (self-rule) within a year.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Non-Cooperation Movement"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "Mahatma Gandhi abruptly suspended the Non-Cooperation Movement in 1922 due to which incident?",
+        "Options": [
+          { "id": 1, "text": "The Jallianwala Bagh Massacre" },
+          { "id": 2, "text": "The Kakori train robbery" },
+          { "id": 3, "text": "The Chauri Chaura incident" },
+          { "id": 4, "text": "The Lahore Conspiracy Case" }
+        ],
+        "CorrectAnswer": "The Chauri Chaura incident",
+        "Explanation": "The Chauri Cha_incident (Feb 1922) involved a mob of protesters setting fire to a police station, killing 22 policemen. As this violated his cardinal principle of 'Ahimsa' (non-violence), Gandhi, despite the movement's success, immediately called for its suspension.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Non-Cooperation Movement"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Swaraj Party' (1923) was formed by C.R. Das and Motilal Nehru with what main objective?",
+        "Options": [
+          { "id": 1, "text": "To launch another mass Civil Disobedience movement." },
+          { "id": 2, "text": "To participate in the legislative councils and 'end or mend' them from within." },
+          { "id": 3, "text": "To focus solely on constructive work like spinning Khadi." },
+          { "id": 4, "text": "To organize an armed revolution against the British." }
+        ],
+        "CorrectAnswer": "To participate in the legislative councils and 'end or mend' them from within.",
+        "Explanation": "After the NCM's suspension, there was a split. The 'No-Changers' (like Rajaji) advocated constructive work. The 'Pro-Changers' or 'Swarajists' (Das and Nehru) argued that Congress should enter the councils, not to cooperate, but to obstruct their functioning from within and expose their undemocratic nature.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Swaraj Party"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "Why was the Simon Commission (1927) universally boycotted by Indian political parties?",
+        "Options": [
+          { "id": 1, "text": "It proposed the partition of India." },
+          { "id": 2, "text": "It did not include any Indian members." },
+          { "id": 3, "text": "It recommended the abolition of separate electorates." },
+          { "id": 4, "text": "It was appointed to audit Indian finances." }
+        ],
+        "CorrectAnswer": "It did not include any Indian members.",
+        "Explanation": "The Simon Commission was a 7-member, all-white British commission sent to review the Government of India Act 1919. The exclusion of any Indian member was seen as a grave insult and a denial of India's right to participate in determining its own future. This led to a universal boycott with the slogan 'Simon Go Back'.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Simon Commission"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Nehru Report' (1928) was a response to the Simon Commission's challenge. What was its primary recommendation?",
+        "Options": [
+          { "id": 1, "text": "Purna Swaraj (Complete Independence)" },
+          { "id": 2, "text": "Separate Electorates for all minorities" },
+          { "id": 3, "text": "Dominion Status for India" },
+          { "id": 4, "text": "A socialist state" }
+        ],
+        "CorrectAnswer": "Dominion Status for India",
+        "Explanation": "The Nehru Report, drafted by a committee headed by Motilal Nehru, was India's first attempt to draft a constitution. Its primary demand was 'Dominion Status' on the lines of Canada or Australia. This was seen as too moderate by the younger faction (J. Nehru, Bose), who then pushed for 'Purna Swaraj'.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Nehru Report"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Purna Swaraj' (Complete Independence) resolution was passed by the Indian National Congress at which historic session?",
+        "Options": [
+          { "id": 1, "text": "Surat Session (1907)" },
+          { "id": 2, "text": "Lucknow Session (1916)" },
+          { "id": 3, "text": "Lahore Session (1929)" },
+          { "id": 4, "text": "Karachi Session (1931)" }
+        ],
+        "CorrectAnswer": "Lahore Session (1929)",
+        "Explanation": "The Lahore Session, presided over by Jawaharlal Nehru, was historic. It officially discarded the 'Dominion Status' demand (of the Nehru Report) and passed the 'Purna Swaraj' resolution. It also decided to celebrate January 26, 1930, as the first 'Independence Day', and to launch a Civil Disobedience movement.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Purna Swaraj"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "Mahatma Gandhi launched the Civil Disobedience Movement in 1930 with which symbolic act?",
+        "Options": [
+          { "id": 1, "text": "The Dandi March to break the Salt Law" },
+          { "id": 2, "text": "A hunger strike in Ahmedabad" },
+          { "id": 3, "text": "Boycotting the Simon Commission" },
+          { "id": 4, "text": "The 'Quit India' speech in Bombay" }
+        ],
+        "CorrectAnswer": "The Dandi March to break the Salt Law",
+        "Explanation": "Gandhi chose the salt tax as the central issue, as it affected every Indian. He launched the Civil Disobedience Movement with the historic Dandi March (March-April 1930) from Sabarmati Ashram to the coastal village of Dandi, where he symbolically broke the British Salt Law.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Civil Disobedience Movement"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The Gandhi-Irwin Pact (1931) led to which of the following outcomes?\n1. The suspension of the Civil Disobedience Movement by Congress.\n2. Congress's agreement to participate in the Second Round Table Conference.\n3. The commutation of the death sentences of Bhagat Singh, Sukhdev, and Rajguru.",
+        "Options": [
+          { "id": 1, "text": "1 and 2 only" },
+          { "id": 2, "text": "2 and 3 only" },
+          { "id": 3, "text": "1 and 3 only" },
+          { "id": 4, "text": "1, 2 and 3" }
+        ],
+        "CorrectAnswer": "1 and 2 only",
+        "Explanation": "(1) and (2) are correct. As per the pact, Congress suspended the CDM and Gandhi agreed to attend the Second RTC in London. (3) is incorrect. Gandhi's failure to secure commutation of the death sentences for the revolutionaries was a major point of criticism of the pact.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Gandhi-Irwin Pact"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Communal Award' (1932) by Ramsay MacDonald, which led to Gandhi's fast unto death, proposed:",
+        "Options": [
+          { "id": 1, "text": "Separate electorates for the 'Depressed Classes' (Dalits)." },
+          { "id": 2, "text": "The partition of India." },
+          { "id": 3, "text": "Dominion status for India." },
+          { "id": 4, "text": "The abolition of princely states." }
+        ],
+        "CorrectAnswer": "Separate electorates for the 'Depressed Classes' (Dalits).",
+        "Explanation": "The Communal Award extended the principle of separate electorates (already given to Muslims, Sikhs, etc.) to the Depressed Classes. Gandhi saw this as a British plot to divide Hindu society and began a fast unto death in Yerwada Jail to oppose it.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 1,
+        "topic": "Communal Award & Poona Pact"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Poona Pact' (1932) was an agreement between Mahatma Gandhi and Dr. B. R. Ambedkar that:",
+        "Options": [
+          { "id": 1, "text": "Accepted the separate electorates as proposed in the Communal Award." },
+          { "id": 2, "text": "Rejected the Communal Award entirely and gave no concessions." },
+          { "id": 3, "text": "Gave up separate electorates in exchange for 'reserved seats' for the Depressed Classes in legislatures." },
+          { "id": 4, "text": "Was an agreement to launch a joint Civil Disobedience movement." }
+        ],
+        "CorrectAnswer": "Gave up separate electorates in exchange for 'reserved seats' for the Depressed Classes in legislatures.",
+        "Explanation": "To save Gandhi's life, Dr. Ambedkar (who had initially supported separate electorates) negotiated the Poona Pact. He agreed to give up the demand for separate electorates. In return, the pact reserved 147 seats for the Depressed Classes within the general Hindu electorate, a significant increase from the 71 offered by the Communal Award.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Communal Award & Poona Pact"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "Which of the following were key features of the Government of India Act, 1935?\n1. It introduced 'Dyarchy' at the Centre.\n2. It abolished 'Dyarchy' in the provinces and granted 'Provincial Autonomy'.\n3. It proposed an 'All-India Federation' (which never materialized).",
+        "Options": [
+          { "id": 1, "text": "1 and 2 only" },
+          { "id": 2, "text": "2 and 3 only" },
+          { "id": 3, "text": "1 and 3 only" },
+          { "id": 4, "text": "1, 2 and 3" }
+        ],
+        "CorrectAnswer": "1, 2 and 3",
+        "Explanation": "All three statements are correct. The 1935 Act was a complex document. It abolished Dyarchy (dual government) in the provinces, granting them autonomy. It then tried to introduce this same failed Dyarchy at the Centre. It also proposed a federation of British Indian provinces and the Princely States, but this part of the act was never implemented as the princes refused to join.",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 4,
+        "topic": "Government of India Act 1935"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "Who was chosen by Mahatma Gandhi as the *first* Satyagrahi for the 'Individual Satyagraha' in 1940?",
+        "Options": [
+          { "id": 1, "text": "Jawaharlal Nehru" },
+          { "id": 2, "text": "Sardar Patel" },
+          { "id": 3, "text": "Acharya Vinoba Bhave" },
+          { "id": 4, "text": "C. Rajagopalachari" }
+        ],
+        "CorrectAnswer": "Acharya Vinoba Bhave",
+        "Explanation": "The Individual Satyagraha was launched as a limited, non-violent protest against India's forced participation in WWII. Gandhi chose individuals to court arrest by making anti-war speeches. Acharya Vinoba Bhave was the first Satyagrahi (Oct 1940), followed by Jawaharlal Nehru as the second.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Individual Satyagraha"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Cripps Mission' (1942) failed primarily because:\n1. It offered 'Dominion Status' after the war, not complete independence.\n2. It gave provinces the right to secede, which Congress saw as a blueprint for partition.\n3. The Muslim League rejected it for not explicitly promising Pakistan.",
+        "Options": [
+          { "id": 1, "text": "1 only" },
+          { "id": 2, "text": "1 and 3 only" },
+          { "id": 3, "text": "2 and 3 only" },
+          { "id": 4, "text": "1, 2 and 3" }
+        ],
+        "CorrectAnswer": "1, 2 and 3",
+        "Explanation": "The mission failed to satisfy any major party. (1) Congress rejected the 'post-dated cheque' of Dominion Status, demanding immediate independence. (2) Congress also fiercely opposed the provision allowing provinces to opt out of the new union. (3) The Muslim League rejected it because the proposal for a single 'Indian Union' was its basis, and the right to secede was not a clear enough promise of Pakistan.",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 4,
+        "topic": "Cripps Mission"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Quit India' Movement (1942) was launched with Gandhi's famous call of 'Do or Die'. Which statement accurately describes the movement?",
+        "Options": [
+          { "id": 1, "text": "It was a highly organized and disciplined non-violent movement led personally by Gandhi." },
+          { "id": 2, "text": "It was a spontaneous, leaderless mass uprising after all senior leaders were arrested on the first day." },
+          { "id": 3, "text": "It was actively supported by the Muslim League and the Communist Party of India." },
+          { "id": 4, "text": "It was a complete failure and was called off by Gandhi within a week." }
+        ],
+        "CorrectAnswer": "It was a spontaneous, leaderless mass uprising after all senior leaders were arrested on the first day.",
+        "Explanation": "The British responded to the Quit India resolution (Aug 8, 1942) with 'Operation Zero Hour', arresting Gandhi and the entire Congress leadership overnight. This left the movement 'leaderless'. What followed was a spontaneous and decentralized mass revolt, often violent, with underground activities and 'parallel governments' (e.g., Satara, Midnapore). The Muslim League and CPI boycotted it.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Quit India Movement"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Indian National Army' (INA) or Azad Hind Fauj, which Subhas Chandra Bose led, was *first* formed by:",
+        "Options": [
+          { "id": 1, "text": "Subhas Chandra Bose" },
+          { "id": 2, "text": "Rash Behari Bose" },
+          { "id": 3, "text": "Captain Mohan Singh" },
+          { "id": 4, "text": "Bhagat Singh" }
+        ],
+        "CorrectAnswer": "Captain Mohan Singh",
+        "Explanation": "This is a tricky but important fact. The *first* INA was conceived and formed by Captain Mohan Singh, a British-Indian army officer captured by the Japanese in Malaya. He, with Japanese support, organized the Indian PoWs. This first INA collapsed due to differences. It was *revived*, reorganized, and led to glory by Subhas Chandra Bose, who took over from Rash Behari Bose in 1943.",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "INA / Subhas Chandra Bose"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'INA Trials' (1945-46) at the Red Fort were a significant event that rallied public support. The three main officers tried together were:",
+        "Options": [
+          { "id": 1, "text": "Bhagat Singh, Sukhdev, Rajguru" },
+          { "id": 2, "text": "Shah Nawaz Khan, Prem Kumar Sahgal, Gurbaksh Singh Dhillon" },
+          { "id": 3, "text": "Subhas Chandra Bose, Rash Behari Bose, Captain Mohan Singh" },
+          { "id": 4, "text": "Jawaharlal Nehru, Sardar Patel, Maulana Azad" }
+        ],
+        "CorrectAnswer": "Shah Nawaz Khan, Prem Kumar Sahgal, Gurbaksh Singh Dhillon",
+        "Explanation": "The British miscalculated by holding a public trial of three INA officers: Shah Nawaz Khan (a Muslim), P.K. Sahgal (a Hindu), and G.S. Dhillon (a Sikh). This trio symbolized national unity, and the trials unleashed a massive wave of popular support across India, with Congress leaders like Nehru defending them in court.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "INA / Subhas Chandra Bose"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Cabinet Mission Plan' (1946) was a last-ditch effort by the British to find a solution. What did it propose?",
+        "Options": [
+          { "id": 1, "text": "It recommended the immediate creation of two sovereign states: India and Pakistan." },
+          { "id": 2, "text": "It rejected the demand for Pakistan and proposed a 3-tier federal structure with a weak Centre." },
+          { "id": 3, "text": "It proposed that all provinces and princely states become fully independent." },
+          { "id": 4, "text": "It proposed to postpone independence for another 10 years." }
+        ],
+        "CorrectAnswer": "It rejected the demand for Pakistan and proposed a 3-tier federal structure with a weak Centre.",
+        "Explanation": "The Cabinet Mission (Pethick-Lawrence, Cripps, Alexander) *rejected* the Muslim League's demand for a sovereign Pakistan. Instead, it proposed a complex three-tiered federation of provinces, 'grouping' them into Hindu-majority and Muslim-majority regions, with a very weak central government controlling only Defence, Foreign Affairs, and Communications. Both parties initially accepted it, but later differed on interpretations.",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Cabinet Mission"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Direct Action Day' (August 16, 1946), which triggered the 'Great Calcutta Killings' and widespread communal riots, was called by:",
+        "Options": [
+          { "id": 1, "text": "The Indian National Congress (to demand 'Quit India')" },
+          { "id": 2, "text": "The Muslim League (to press for the demand for Pakistan)" },
+          { "id": 3, "text": "The Hindu Mahasabha (to protest the Cabinet Mission)" },
+          { "id": 4, "text": "The Communist Party of India (to support the Naval Mutiny)" }
+        ],
+        "CorrectAnswer": "The Muslim League (to press for the demand for Pakistan)",
+        "Explanation": "After withdrawing its acceptance of the Cabinet Mission Plan, the Muslim League, led by Jinnah, called for 'Direct Action Day' to show its strength and achieve its goal of Pakistan. The day resulted in horrific communal violence, especially in Calcutta, making partition seem inevitable.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Partition of India"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'RIN Mutiny' (Royal Indian Navy Mutiny) of 1946 is considered a significant event because:",
+        "Options": [
+          { "id": 1, "text": "It was the first time Indians were allowed to join the navy." },
+          { "id": 2, "text": "It was a successful mutiny that overthrew British naval commanders." },
+          { "id": 3, "text": "It was called by Mahatma Gandhi." },
+          { "id": 4, "text": "It showed the British that they could no longer rely on the loyalty of the Indian armed forces." }
+        ],
+        "CorrectAnswer": "It showed the British that they could no longer rely on the loyalty of the Indian armed forces.",
+        "Explanation": "The INA Trials had already created unrest. The RIN Mutiny, which started in Bombay and spread, showed that nationalist sentiment had entered the armed forces—the very pillar of British rule. This, more than anything, convinced the British (especially PM Attlee) that their time in India was up, as they could no longer guarantee the loyalty of their own troops.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 4,
+        "topic": "RIN Mutiny"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Mountbatten Plan' (June 3, 1947) was the plan that:",
+        "Options": [
+          { "id": 1, "text": "Implemented the Cabinet Mission Plan." },
+          { "id": 2, "text": "Postponed independence by one year." },
+          { "id": 3, "text": "Outlined the procedure for the partition of India and the transfer of power." },
+          { "id": 4, "text": "Created a united India with a federal structure." }
+        ],
+        "CorrectAnswer": "Outlined the procedure for the partition of India and the transfer of power.",
+        "Explanation": "By 1947, partition was deemed unavoidable. The Mountbatten Plan (or 3rd June Plan) was the final plan, accepted by both Congress (led by Nehru/Patel) and the Muslim League (led by Jinnah), that laid down the specifics: India would be partitioned, and the provinces of Punjab and Bengal would also be partitioned based on district-level majorities. Power would be transferred to two new dominions, India and Pakistan.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Partition of India"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Hindustan Socialist Republican Association' (HSRA) was a revolutionary organization founded in 1928 at Feroz Shah Kotla, Delhi, by:",
+        "Options": [
+          { "id": 1, "text": "Lala Lajpat Rai" },
+          { "id": 2, "text": "C.R. Das and Motilal Nehru" },
+          { "id": 3, "text": "Chandrashekhar Azad, Bhagat Singh, and others" },
+          { "id": 4, "text": "Subhas Chandra Bose" }
+        ],
+        "CorrectAnswer": "Chandrashekhar Azad, Bhagat Singh, and others",
+        "Explanation": "The HSRA was reorganized from the earlier 'Hindustan Republican Association' (HRA). The key change, led by young revolutionaries like Bhagat Singh and Chandrashekhar Azad, was the addition of the word 'Socialist', indicating their new ideological leaning towards socialism as the goal for a future independent India.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Revolutionary Nationalism"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "Bhagat Singh and B.K. Dutt threw bombs in the Central Legislative Assembly in 1929. What was their stated objective?",
+        "Options": [
+          { "id": 1, "text": "To kill the Viceroy, Lord Irwin." },
+          { "id": 2, "text": "To protest the Simon Commission." },
+          { "id": 3, "text": "To 'make the deaf hear' by protesting the Public Safety Bill and Trade Disputes Bill." },
+          { "id": 4, "text": "To avenge the death of Lala Lajpat Rai." }
+        ],
+        "CorrectAnswer": "To 'make the deaf hear' by protesting the Public Safety Bill and Trade Disputes Bill.",
+        "Explanation": "Their goal was not to kill anyone (they threw the bombs in an empty area) but to gain publicity for their cause. They shouted 'Inquilab Zindabad' and threw pamphlets, stating their protest was against the two repressive bills. Their aim was to court arrest and use the subsequent trial as a platform to spread their revolutionary message. Avenging Lala Lajpat Rai was the motive for the Saunders' assassination, not this.",
+        "Difficulty": "Hard",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Revolutionary Nationalism"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Kakori Conspiracy' (1925) was a significant event in the revolutionary movement. What did it involve?",
+        "Options": [
+          { "id": 1, "text": "An attempt to assassinate a British judge in Muzaffarpur." },
+          { "id": 2, "text": "A train robbery to fund the activities of the Hindustan Republican Association (HRA)." },
+          { "id": 3, "text": "A plan to bomb the Central Legislative Assembly." },
+          { "id": 4, "text": "An armed uprising by naval ratings in Bombay." }
+        ],
+        "CorrectAnswer": "A train robbery to fund the activities of the Hindustan Republican Association (HRA).",
+        "Explanation": "The Kakori train robbery was organized by members of the HRA, including Ram Prasad Bismil, Ashfaqulla Khan, and Roshan Singh. Their objective was to loot a train carrying government treasury funds to buy arms and fund their revolutionary activities. They were later caught, tried, and executed, which was a major setback for the HRA.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Revolutionary Nationalism"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Wood's Despatch' of 1854 is considered the 'Magna Carta of English Education in India'. What did it recommend?",
+        "Options": [
+          { "id": 1, "text": "It recommended promoting only oriental, vernacular education." },
+          { "id": 2, "text": "It recommended a hierarchical system from primary school (vernacular) to University (English)." },
+          { "id": 3, "text": "It recommended closing all existing universities." },
+          { "id": 4, "text": "It recommended that all education be imparted only in English (Downward Filtration Theory)." }
+        ],
+        "CorrectAnswer": "It recommended a hierarchical system from primary school (vernacular) to University (English).",
+        "Explanation": "Wood's Despatch was a comprehensive plan. It rejected the 'Downward Filtration Theory' (which said education should only be for the elite). Instead, it recommended a systematic hierarchy: vernacular primary schools in villages, Anglo-vernacular high schools, and colleges/universities (in English) in presidency towns (like Calcutta, Bombay, Madras, which were founded in 1857).",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "British Education Policy"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "Who was the first woman President of the Indian National Congress?",
+        "Options": [
+          { "id": 1, "text": "Sarojini Naidu" },
+          { "id": 2, "text": "Annie Besant" },
+          { "id": 3, "text": "Nellie Sengupta" },
+          { "id": 4, "text": "Kasturba Gandhi" }
+        ],
+        "CorrectAnswer": "Annie Besant",
+        "Explanation": "Annie Besant, the Irish theosophist and leader of the Home Rule League, was elected as the first woman President of the INC at the Calcutta session in 1917. Sarojini Naidu was the *first Indian woman* President (Kanpur session, 1925).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Facts and Personalities"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Mahad Satyagraha' (1927) was led by Dr. B. R. Ambedkar for what purpose?",
+        "Options": [
+          { "id": 1, "text": "To demand separate electorates for Dalits." },
+          { "id": 2, "text": "To protest against the Simon Commission." },
+          { "id": 3, "text": "To assert the right of untouchables to use water from a public tank." },
+          { "id": 4, "text": "To demand the abolition of the 'Khoti' system (landlordism)." }
+        ],
+        "CorrectAnswer": "To assert the right of untouchables to use water from a public tank.",
+        "Explanation": "The Mahad Satyagraha was a landmark event in the Dalit rights movement. Although the Mahad municipality had legally allowed untouchables to use the Chavdar Tank, caste Hindus had prevented it. Dr. Ambedkar led thousands of Dalits to the tank to drink water, a symbolic and powerful assertion of their civil and human rights.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Ambedkar & Dalit Movements"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Instrument of Accession' was the legal document that:",
+        "Options": [
+          { "id": 1, "text": "Ended the rule of the East India Company in 1858." },
+          { "id": 2, "text": "Gave India independence from Britain in 1947." },
+          { "id": 3, "text": "The princely states signed to accede to either India or Pakistan." },
+          { "id": 4, "text": "Formed the Constituent Assembly." }
+        ],
+        "CorrectAnswer": "The princely states signed to accede to either India or Pakistan.",
+        "Explanation": "The Instrument of Accession was the document used at the time of Partition, by which the rulers of the 500+ princely states could join either of the new dominions (India or Pakistan). By signing, the ruler would accede to the dominion on three subjects: Defence, External Affairs, and Communications.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Integration of States"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "What was 'Operation Polo'?",
+        "Options": [
+          { "id": 1, "text": "The Indian army operation to liberate Goa from Portuguese rule." },
+          { "id": 2, "text": "The code name for the 'Police Action' to integrate the princely state of Hyderabad into India." },
+          { "id": 3, "text": "The military operation during the 1971 Indo-Pak war." },
+          { "id": 4, "text": "The operation to integrate Junagadh into India." }
+        ],
+        "CorrectAnswer": "The code name for the 'Police Action' to integrate the princely state of Hyderabad into India.",
+        "Explanation": "After the Nizam of Hyderabad refused to accede to India in 1947, and with rising violence by his 'Razakar' militia, the Government of India launched a 'Police Action' codenamed 'Operation Polo' in September 1948. The Indian army quickly defeated the Nizam's forces, and Hyderabad was integrated into the Indian Union.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Integration of States"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'States Reorganisation Act' of 1956, which reorganized Indian states, was based on the recommendations of which commission?",
+        "Options": [
+          { "id": 1, "text": "S.K. Dhar Commission" },
+          { "id": 2, "text": "JVP Committee (Nehru, Patel, Sitaramayya)" },
+          { "id": 3, "text": "Fazl Ali Commission" },
+          { "id": 4, "text": "Sarkaria Commission" }
+        ],
+        "CorrectAnswer": "Fazl Ali Commission",
+        "Explanation": "The Dhar Commission and JVP Committee had both rejected 'language' as the basis for reorganization. However, after the death of Potti Sriramulu and the creation of Andhra state, the government was forced to reconsider. The Fazl Ali Commission (1953) was set up, and it broadly accepted language as the basis for reorganizing states, leading to the States Reorganisation Act of 1956, which created 14 states and 6 UTs.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Post-Independence India"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "Who founded the 'Forward Bloc' in 1939 after resigning as the President of the Indian National Congress?",
+        "Options": [
+          { "id": 1, "text": "Jawaharlal Nehru" },
+          { "id": 2, "text": "Subhas Chandra Bose" },
+          { "id": 3, "text": "Sardar Patel" },
+          { "id": 4, "text": "M.N. Roy" }
+        ],
+        "CorrectAnswer": "Subhas Chandra Bose",
+        "Explanation": "Subhas Chandra Bose was re-elected as Congress President in 1939 (Tripuri session), defeating Gandhi's preferred candidate, Pattabhi Sitaramayya. However, the subsequent non-cooperation from the Congress Working Committee (which was loyal to Gandhi) forced Bose to resign. He then formed the 'Forward Bloc' as a new party within the Congress to consolidate the leftist and revolutionary factions.",
+        "Difficulty": "Easy",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "INA / Subhas Chandra Bose"
+      },
+      {
+        "category": "Modern Indian History",
+        "Question": "The 'Karachi Session' of the INC in 1931, presided over by Sardar Patel, is famous for:",
+        "Options": [
+          { "id": 1, "text": "Passing the 'Purna Swaraj' resolution." },
+          { "id": 2, "text": "Passing a resolution on 'Fundamental Rights' and the 'National Economic Programme'." },
+          { "id": 3, "text": "Launching the Quit India Movement." },
+          { "id": 4, "text": "Endorsing the Simon Commission." }
+        ],
+        "CorrectAnswer": "Passing a resolution on 'Fundamental Rights' and the 'National Economic Programme'.",
+        "Explanation": "The Karachi Session (1931) was held just after the Gandhi-Irwin Pact and the execution of Bhagat Singh. It is famous for two main resolutions: one endorsing the Gandhi-Irwin Pact, and another, more landmark resolution, on Fundamental Rights and the National Economic Programme, which outlined a vision for the social and economic structure of an independent India.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 2,
+        "topic": "Karachi Session"
+      }
+  ]
