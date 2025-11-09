@@ -294,57 +294,232 @@ const EnhancedPracticeContent: React.FC = () => {
     setIsLoading(true);
     
     try {
-      // Import the JSON data directly
-      let questionsData: any[] = [];
-      
-      switch (category) {
-        case 'economy':
-          questionsData = require('../data/English/economyEnglish.json');
-          break;
-        case 'current-affairs':
-        case 'gk':
-          questionsData = require('../data/English/GKEnglish.json');
-          break;
-        case 'history':
-          questionsData = require('../data/English/historyEnglish.json');
-          break;
-        case 'geography':
-          questionsData = require('../data/English/geographyEnglish.json');
-          break;
-        case 'english':
-          questionsData = require('../data/English/englishGrammer.json');
-          break;
-        case 'aptitude':
-          questionsData = require('../data/English/AptitudeEnglish.json');
-          break;
-        case 'agriculture':
-          questionsData = require('../data/English/agricultureEnglish.json');
-          break;
-        case 'polity':
+      // Define multiple file paths per category
+      // Add all your JSON files here - they will be loaded and combined
+      const categoryFiles: Record<string, string[]> = {
+        'economy': [
+          '../data/data/English/economy/economyEnglish1.json',
+          '../data/data/English/economy/economyEnglish2.json',
+          '../data/data/English/economy/economyExtra.json',
+          '../data/data/English/economy/economyEnglish.json',
+          '../data/data/English/economy/Economy-2025-11-08.json',
+          '../data/English/economyEnglish.json',
+          // Add more economy files here as needed
+          // '../data/English/economy/economy4.json',
+          // '../data/English/economy/economy5.json',
+        ],
+        'geography': [
+          '../data/English/geography/geographyEnglish.json',
+          '../data/English/geography/geographyExtra.json',
+          '../data/English/geography/geographyEnglish_2025-11-10.json',
+          '../data/English/geographyEnglish.json',
+          // Add more geography files here as needed
+          // '../data/English/geography/geography4.json',
+          // '../data/English/geography/geography5.json',
+        ],
+        'current-affairs': [
+          '../data/data/English/currentAffairs/currentAffairsEnglish.json',
+          '../data/data/English/currentAffairs/currentAffairsEnglish_2025-08-08.json',
+        
+          // Add more current affairs files here
+          // '../data/English/current-affairs/file1.json',
+          // '../data/English/current-affairs/file2.json',
+        ],
+        'gk': [
+          '../data/English/GKEnglish.json',
+          '../data/data/English/gk/gkEnglish.json',
+          '../data/data/English/gk/GKEnglish_2025-11-10.json',
+
+          // Add more GK files here
+          // '../data/English/gk/file1.json',
+          // '../data/English/gk/file2.json',
+        ],
+        'history': [
+          '../data/data/English/history/historyEnglish1.json',
+          '../data/data/English/history/historyEnglish2.json',
+          '../data/data/English/history/historyEnglish3.json',
+          '../data/data/English/history/historyExtra.json',
+          '../data/data/English/history/historyEnglish.json',
+          '../data/data/English/history/HistoryEnglish_2025-11-10.json',
+
+          // Add more history files here
+          // '../data/English/history/history4.json',
+          // '../data/English/history/history5.json',
+        ],
+        'english': [
+          '../data/data/English/english/englishGrammer.json',
+          // Add more English files here
+          // '../data/English/english/english4.json',
+          // '../data/English/english/english5.json',
+        ],
+        'aptitude': [
+          '../data/data/English/aptitude/AptitudeEnglish.json',
+          '../data/data/English/aptitude/aptitude-2025-11-08.json',
+          '../data//English/AptitudeEnglish.json',
+          // Add more aptitude files here
+          // '../data/English/aptitude/AptitudeEnglish_2025-11-10.json',
+          // '../data/English/aptitude/AptitudeEnglish_2025-11-10.json',
+        ],
+        'polity': [
           // Polity questions should come from database via API
           // Fallback: use GK questions if local file not available
-          try {
-            questionsData = require('../data/English/GKEnglish.json');
-          } catch {
-            questionsData = [];
-          }
-          break;
-        case 'science':
+          '../data/data/English/polity/polityEnglish.json',
+          '../data/data/English/polity/Polity-2025-11-10.json',
+          '../data/data/English/polity/polityEnglish1.json',
+          '../data/data/English/polity/polityEnglish2.json',
+          '../data/data/English/polity/polityExtra.json',
+          // Add more polity files here when available
+          // '../data/English/polity/polity1.json',
+          // '../data/English/polity/polity2.json',
+        ],
+        'science': [
           // Science questions should come from database via API
           // Fallback: use GK questions if local file not available
-          try {
-            questionsData = require('../data/English/GKEnglish.json');
-          } catch {
-            questionsData = [];
+          '../data/data/science/scienceEnglish.json',
+          '../data/data/science/Science-2025-11-08.json',
+          // Add more science files here when available
+          // '../data/English/science/science1.json',
+          // '../data/English/science/science2.json',
+        ],
+        'marathi': [
+              '../data/Marathi/grammerMarathi.json',
+              '../data/data/Marathi/marathi/Marathi-2025-11-08.json',
+
+          // Add more Marathi files here
+          // '../data/Marathi/marathi/file1.json',
+          // '../data/Marathi/marathi/file2.json',
+        ],
+      };
+
+      // Helper function to load file data by path (using static require)
+      const loadFileByPath = (filePath: string): any => {
+        try {
+          // Map file paths to static require calls
+          // This is required because React Native doesn't support dynamic require()
+          switch (filePath) {
+            // Economy files
+            case '../data/data/English/economy/economyEnglish1.json':
+              return require('../data/data/English/economy/economyEnglish1.json');
+            case '../data/data/English/economy/economyEnglish2.json':
+              return require('../data/data/English/economy/economyEnglish2.json');
+            case '../data/data/English/economy/economyExtra.json':
+              return require('../data/data/English/economy/economyExtra.json');
+            case '../data/data/English/economy/economyEnglish.json':
+              return require('../data/data/English/economy/economyEnglish.json');
+            case '../data/data/English/economy/Economy-2025-11-08.json':
+              return require('../data/data/English/economy/Economy-2025-11-08.json');
+            case '../data/English/economyEnglish.json':
+              return require('../data/English/economyEnglish.json');
+            
+            // Geography files
+            case '../data/English/geography/geographyEnglish.json':
+              return require('../data/English/geography/geographyEnglish.json');
+            case '../data/English/geography/geographyExtra.json':
+              return require('../data/English/geography/geographyExtra.json');
+            case '../data/English/geography/geographyEnglish_2025-11-10.json':
+              return require('../data/English/geography/geographyEnglish_2025-11-10.json');
+            case '../data/English/geographyEnglish.json':
+              return require('../data/English/geographyEnglish.json');
+            
+            // Current Affairs files
+            case '../data/data/English/currentAffairs/currentAffairsEnglish.json':
+              return require('../data/data/English/currentAffairs/currentAffairsEnglish.json');
+            case '../data/data/English/currentAffairs/currentAffairsEnglish_2025-08-08.json':
+              return require('../data/data/English/currentAffairs/currentAffairsEnglish_2025-08-08.json');
+            
+            // GK files
+            case '../data/English/GKEnglish.json':
+              return require('../data/English/GKEnglish.json');
+            case '../data/data/English/gk/gkEnglish.json':
+              return require('../data/data/English/gk/gkEnglish.json');
+            case '../data/data/English/gk/GKEnglish_2025-11-10.json':
+              return require('../data/data/English/gk/GKEnglish_2025-11-10.json');
+            
+            // History files
+            case '../data/data/English/history/historyEnglish1.json':
+              return require('../data/data/English/history/historyEnglish1.json');
+            case '../data/data/English/history/historyEnglish2.json':
+              return require('../data/data/English/history/historyEnglish2.json');
+            case '../data/data/English/history/historyEnglish3.json':
+              return require('../data/data/English/history/historyEnglish3.json');
+            case '../data/data/English/history/historyExtra.json':
+              return require('../data/data/English/history/historyExtra.json');
+            case '../data/data/English/history/historyEnglish.json':
+              return require('../data/data/English/history/historyEnglish.json');
+            case '../data/data/English/history/HistoryEnglish_2025-11-10.json':
+              return require('../data/data/English/history/HistoryEnglish_2025-11-10.json');
+            
+            // English files
+            case '../data/data/English/english/englishGrammer.json':
+              return require('../data/data/English/english/englishGrammer.json');
+            
+            // Aptitude files
+            case '../data/data/English/aptitude/AptitudeEnglish.json':
+              return require('../data/data/English/aptitude/AptitudeEnglish.json');
+            case '../data/data/English/aptitude/aptitude-2025-11-08.json':
+              return require('../data/data/English/aptitude/aptitude-2025-11-08.json');
+            case '../data//English/AptitudeEnglish.json':
+              return require('../data/English/AptitudeEnglish.json');
+            
+            // Polity files
+            case '../data/data/English/polity/polityEnglish.json':
+              return require('../data/data/English/polity/polityEnglish.json');
+            case '../data/data/English/polity/Polity-2025-11-10.json':
+              return require('../data/data/English/polity/Polity-2025-11-10.json');
+            case '../data/data/English/polity/polityEnglish1.json':
+              return require('../data/data/English/polity/polityEnglish1.json');
+            case '../data/data/English/polity/polityEnglish2.json':
+              return require('../data/data/English/polity/polityEnglish2.json');
+            case '../data/data/English/polity/polityExtra.json':
+              return require('../data/data/English/polity/polityExtra.json');
+            
+            // Science files
+            case '../data/data/science/scienceEnglish.json':
+              return require('../data/data/science/scienceEnglish.json');
+            case '../data/data/science/Science-2025-11-08.json':
+              return require('../data/data/science/Science-2025-11-08.json');
+            
+            // Marathi files
+            case '../data/Marathi/grammerMarathi.json':
+              return require('../data/Marathi/grammerMarathi.json');
+            case '../data/data/Marathi/marathi/Marathi-2025-11-08.json':
+              return require('../data/data/Marathi/marathi/Marathi-2025-11-08.json');
+            
+            default:
+              throw new Error(`File path not mapped: ${filePath}`);
           }
-          break;
-        case 'marathi':
-          questionsData = require('../data/Marathi/grammerMarathi.json');
-          break;
-        default:
-          // For unknown categories, try to use API only (no local fallback)
-          questionsData = [];
-          console.warn(`[EnhancedPractice] Category '${category}' not found in local files. Will use API only.`);
+        } catch (error) {
+          throw error;
+        }
+      };
+
+      // Load questions from multiple files for the category
+      let questionsData: any[] = [];
+      const filesToLoad = categoryFiles[category] || [];
+      
+      if (filesToLoad.length === 0) {
+        console.warn(`[EnhancedPractice] Category '${category}' not found in local files. Will use API only.`);
+      } else {
+        // Load and combine questions from all files for this category
+        for (const filePath of filesToLoad) {
+          try {
+            const fileData = loadFileByPath(filePath);
+            if (Array.isArray(fileData)) {
+              questionsData = [...questionsData, ...fileData];
+              console.log(`[EnhancedPractice] Loaded ${fileData.length} questions from ${filePath}`);
+            } else if (fileData && Array.isArray(fileData.questions)) {
+              questionsData = [...questionsData, ...fileData.questions];
+              console.log(`[EnhancedPractice] Loaded ${fileData.questions.length} questions from ${filePath}`);
+            } else {
+              console.warn(`[EnhancedPractice] Invalid format in ${filePath}, skipping`);
+            }
+          } catch (error) {
+            console.warn(`[EnhancedPractice] Failed to load ${filePath}:`, error);
+            // Continue loading other files even if one fails
+          }
+        }
+        
+        console.log(`[EnhancedPractice] Total questions loaded for ${category}: ${questionsData.length}`);
       }
 
       if (!Array.isArray(questionsData)) {
