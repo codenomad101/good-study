@@ -1,0 +1,2369 @@
+[{
+    "category": "Geography (Maharashtra)",
+    "Question": "Arrange the following peaks of the Sahyadri range in Maharashtra in descending order of their height:\n1. Kalsubai\n2. Salher\n3. Taramati\n4. Harishchandragad",
+    "Options": [
+      { "id": 1, "text": "1, 2, 3, 4" },
+      { "id": 2, "text": "1, 3, 2, 4" },
+      { "id": 3, "text": "2, 1, 4, 3" },
+      { "id": 4, "text": "1, 2, 4, 3" }
+    ],
+    "CorrectAnswer": "1, 2, 3, 4",
+    "Explanation": "The correct descending order of height is: Kalsubai (1646m, highest in Maharashtra), Salher (1567m, highest fort), Taramati (1431m), and Harishchandragad (1424m).",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following statements regarding the 'Rain Shadow Zone' (Parjanyachhayakshetra) in Maharashtra is correct?\n1. It is located on the western slopes of the Sahyadris.\n2. This region receives heavy orographic rainfall.\n3. Large parts of Western Maharashtra (Desh) fall under this zone.",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "3 only" },
+      { "id": 3, "text": "1, 2 and 3" },
+      { "id": 4, "text": "2 and 3 only" }
+    ],
+    "CorrectAnswer": "3 only",
+    "Explanation": "(1) is incorrect; it is located on the eastern (leeward) slopes. (2) is incorrect; this region receives very low rainfall. (3) is correct; the leeward side of the Sahyadris, which includes large parts of Western Maharashtra (e.g., Solapur, Ahmednagar), is a rain shadow zone.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Climate of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following is an incorrect pair of rivers and their origin?",
+    "Options": [
+      { "id": 1, "text": "Godavari - Trimbakeshwar (Nashik)" },
+      { "id": 2, "text": "Krishna - Mahabaleshwar (Satara)" },
+      { "id": 3, "text": "Tapi - Multai (Madhya Pradesh)" },
+      { "id": 4, "text": "Bhima - Bhimashankar (Satara)" }
+    ],
+    "CorrectAnswer": "Bhima - Bhimashankar (Satara)",
+    "Explanation": "The Bhima river originates at Bhimashankar, which is located in the Pune district, not Satara district. All other pairs are correctly matched.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Deccan Traps' which form the Maharashtra Plateau are predominantly composed of which type of rock?",
+    "Options": [
+      { "id": 1, "text": "Granite" },
+      { "id": 2, "text": "Basalt" },
+      { "id": 3, "text": "Sandstone" },
+      { "id": 4, "text": "Marble" }
+    ],
+    "CorrectAnswer": "Basalt",
+    "Explanation": "The Deccan Plateau is a large igneous province formed by fissured volcanic eruptions. It is composed almost entirely of basaltic rock, which weathers to form the black cotton soil (Regur).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Geology of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which mountain range forms the northern border of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Sahyadri Range" },
+      { "id": 2, "text": "Satpuda Range" },
+      { "id": 3, "text": "Satmala-Ajanta Range" },
+      { "id": 4, "text": "Harishchandra-Balaghat Range" }
+    ],
+    "CorrectAnswer": "Satpuda Range",
+    "Explanation": "The Satpuda Range and its hills (like Gawilgarh hills) form the northern boundary of Maharashtra, separating it from Madhya Pradesh. The Tapi river flows through the valley south of this range.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which two districts in Maharashtra share a border with the state of Chhattisgarh?",
+    "Options": [
+      { "id": 1, "text": "Bhandara and Gondia" },
+      { "id": 2, "text": "Gondia and Gadchiroli" },
+      { "id": 3, "text": "Gadchiroli and Chandrapur" },
+      { "id": 4, "text": "Chandrapur and Yavatmal" }
+    ],
+    "CorrectAnswer": "Gondia and Gadchiroli",
+    "Explanation": "The state of Chhattisgarh lies to the east of Maharashtra. Only two districts, Gondia in the north and Gadchiroli in the south, share a border with it.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Administrative Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Satmala-Ajanta' range acts as a water divide between which two river basins?",
+    "Options": [
+      { "id": 1, "text": "Godavari and Krishna" },
+      { "id": 2, "text": "Tapi and Godavari" },
+      { "id": 3, "text": "Krishna and Bhima" },
+      { "id": 4, "text": "Godavari and Wainganga" }
+    ],
+    "CorrectAnswer": "Tapi and Godavari",
+    "Explanation": "The Satmala-Ajanta range is a prominent eastward extension of the Sahyadris. It acts as a major watershed, separating the Tapi river basin to its north from the Godavari river basin to its south.",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following National Parks is **not** located in the Vidarbha region of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Tadoba-Andhari National Park" },
+      { "id": 2, "text": "Navegaon National Park" },
+      { "id": 3, "text": "Sanjay Gandhi National Park" },
+      { "id": 4, "text": "Pench (Jawaharlal Nehru) National Park" }
+    ],
+    "CorrectAnswer": "Sanjay Gandhi National Park",
+    "Explanation": "Sanjay Gandhi National Park is located in the Konkan division (Mumbai). Tadoba (Chandrapur), Navegaon (Gondia), and Pench (Nagpur) are all prominent national parks in the Vidarbha region.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Environment and Biodiversity"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Jayakwadi Dam, one of the largest irrigation projects in Maharashtra, is built on which river?",
+    "Options": [
+      { "id": 1, "text": "Krishna" },
+      { "id": 2, "text": "Bhima" },
+      { "id": 3, "text": "Godavari" },
+      { "id": 4, "text": "Purna" }
+    ],
+    "CorrectAnswer": "Godavari",
+    "Explanation": "The Jayakwadi Dam is built on the Godavari River near Paithan in Aurangabad (Chh. Sambhajinagar) district. Its reservoir is called 'Nath Sagar' and it is crucial for irrigation in the Marathwada region.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "As per the 2011 Census, which district in Maharashtra has the highest sex ratio?",
+    "Options": [
+      { "id": 1, "text": "Ratnagiri" },
+      { "id": 2, "text": "Sindhudurg" },
+      { "id": 3, "text": "Pune" },
+      { "id": 4, "text": "Mumbai Suburban" }
+    ],
+    "CorrectAnswer": "Ratnagiri",
+    "Explanation": "Ratnagiri district in the Konkan region had the highest sex ratio in Maharashtra (1122), followed by Sindhudurg (1036). This is often attributed to high rates of out-migration of the male working population.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Population and Demographics"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Regur' soil found extensively in Maharashtra is also known as:",
+    "Options": [
+      { "id": 1, "text": "Alluvial Soil" },
+      { "id": 2, "text": "Laterite Soil" },
+      { "id": 3, "text": "Black Cotton Soil" },
+      { "id": 4, "text": "Red Soil" }
+    ],
+    "CorrectAnswer": "Black Cotton Soil",
+    "Explanation": "Regur soil is formed from the weathering of basalt rock. It is moisture-retentive (high clay content) and rich in lime, making it ideal for cotton cultivation, hence the name 'Black Cotton Soil'.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Soils and Agriculture"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following is a west-flowing river in the Konkan region of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Manjara" },
+      { "id": 2, "text": "Vaitarna" },
+      { "id": 3, "text": "Pravara" },
+      { "id": 4, "text": "Purna" }
+    ],
+    "CorrectAnswer": "Vaitarna",
+    "Explanation": "Konkan rivers originate in the Sahyadris and flow rapidly westwards to the Arabian Sea. Vaitarna is a major Konkan river. Manjara, Pravara, and Purna are all east-flowing tributaries in the Godavari basin.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Lonar Lake, a declared Ramsar site, is located in which district of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Buldhana" },
+      { "id": 2, "text": "Akola" },
+      { "id": 3, "text": "Washim" },
+      { "id": 4, "text": "Jalna" }
+    ],
+    "CorrectAnswer": "Buldhana",
+    "Explanation": "Lonar Lake is a saline soda lake located in Buldhana district. It was created by a meteor impact during the Pleistocene Epoch and is a significant geological and ecological site.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Harishchandra-Balaghat range acts as a water divide between which two river basins?",
+    "Options": [
+      { "id": 1, "text": "Godavari and Krishna" },
+      { "id": 2, "text": "Tapi and Godavari" },
+      { "id": 3, "text": "Godavari and Bhima" },
+      { "id": 4, "text": "Krishna and Tapi" }
+    ],
+    "CorrectAnswer": "Godavari and Bhima",
+    "Explanation": "The Harishchandra-Balaghat range is another major eastward extension of the Sahyadris, located south of the Godavari. It separates the Godavari basin to its north from the Bhima basin (a tributary of Krishna) to its south.",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Amba Ghat connects which two districts in Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Pune and Raigad" },
+      { "id": 2, "text": "Satara and Ratnagiri" },
+      { "id": 3, "text": "Kolhapur and Ratnagiri" },
+      { "id": 4, "text": "Nashik and Thane" }
+    ],
+    "CorrectAnswer": "Kolhapur and Ratnagiri",
+    "Explanation": "Amba Ghat is a mountain pass in the Sahyadris that connects the plateau city of Kolhapur (on the 'Desh') to the coastal district of Ratnagiri (in 'Konkan').",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Transport Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following is the correct north-to-south arrangement of rivers in the Konkan region?",
+    "Options": [
+      { "id": 1, "text": "Vaitarna, Ulhas, Savitri, Vashishthi" },
+      { "id": 2, "text": "Ulhas, Vaitarna, Vashishthi, Savitri" },
+      { "id": 3, "text": "Savitri, Vashishthi, Ulhas, Vaitarna" },
+      { "id": 4, "text": "Vaitarna, Savitri, Ulhas, Vashishthi" }
+    ],
+    "CorrectAnswer": "Vaitarna, Ulhas, Savitri, Vashishthi",
+    "Explanation": "The correct sequence of major Konkan rivers from north to south is: Daman-Ganga, Vaitarna, Ulhas, Savitri, Vashishthi, and Terekhol.",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Warli' painting, a famous folk art, is associated with a tribe predominantly found in which district of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Gadchiroli" },
+      { "id": 2, "text": "Nandurbar" },
+      { "id": 3, "text": "Palghar" },
+      { "id": 4, "text": "Solapur" }
+    ],
+    "CorrectAnswer": "Palghar",
+    "Explanation": "The Warli tribe, and their distinct style of painting, are predominantly found in the Palghar district (formerly part of Thane district) in the northern Konkan region.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Cultural Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following districts is **not** a part of the Aurangabad (Chhatrapati Sambhajinagar) Administrative Division?",
+    "Options": [
+      { "id": 1, "text": "Beed" },
+      { "id": 2, "text": "Nanded" },
+      { "id": 3, "text": "Latur" },
+      { "id": 4, "text": "Washim" }
+    ],
+    "CorrectAnswer": "Washim",
+    "Explanation": "Aurangabad (Chh. Sambhajinagar) Division, also known as Marathwada, consists of 8 districts: Aurangabad, Jalna, Parbhani, Hingoli, Nanded, Latur, Osmanabad (Dharashiv), and Beed. Washim is part of the Amravati Division.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Administrative Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Laterite soil, rich in iron and aluminum oxides, is primarily found in which parts of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "The coastal Konkan region (Raigad, Ratnagiri, Sindhudurg)" },
+      { "id": 2, "text": "The Vidarbha region (Nagpur, Wardha)" },
+      { "id": 3, "text": "The Marathwada region (Aurangabad, Beed)" },
+      { "id": 4, "text": "The Tapi river valley (Jalgaon, Dhule)" }
+    ],
+    "CorrectAnswer": "The coastal Konkan region (Raigad, Ratnagiri, Sindhudurg)",
+    "Explanation": "Laterite soil is formed in areas with high rainfall and high temperatures, which leads to leaching. This condition is prevalent in the southern Konkan region, especially Ratnagiri and Sindhudurg, and also in the ghat areas of Kolhapur.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Soils of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following statements about the Tapi River in Maharashtra is INCORRECT?",
+    "Options": [
+      { "id": 1, "text": "It is a west-flowing river that flows through a rift valley." },
+      { "id": 2, "text": "It forms the border between Maharashtra and Madhya Pradesh for some distance." },
+      { "id": 3, "text": "The Purna River is its main tributary in Maharashtra." },
+      { "id": 4, "text": "It originates in the Sahyadri range at Trimbakeshwar." }
+    ],
+    "CorrectAnswer": "It originates in the Sahyadri range at Trimbakeshwar.",
+    "Explanation": "This statement is incorrect. The Godavari river originates at Trimbakeshwar. The Tapi River originates at Multai in the Satpuda range in Madhya Pradesh. All other statements are correct.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following is the correct order of administrative divisions of Maharashtra by area, from largest to smallest?",
+    "Options": [
+      { "id": 1, "text": "Aurangabad, Nashik, Pune, Nagpur" },
+      { "id": 2, "text": "Pune, Nashik, Aurangabad, Nagpur" },
+      { "id": 3, "text": "Aurangabad, Pune, Nashik, Nagpur" },
+      { "id": 4, "text": "Nashik, Aurangabad, Pune, Nagpur" }
+    ],
+    "CorrectAnswer": "Aurangabad, Nashik, Pune, Nagpur",
+    "Explanation": "The Aurangabad (Chh. Sambhajinagar) division (Marathwada) is the largest in area. The correct descending order is: Aurangabad (Marathwada) > Nashik (Khandesh) > Pune (Western Maharashtra) > Nagpur (Vidarbha) > Amravati (Varhad) > Konkan.",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Administrative Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Gawilgarh Hills' are located in which district of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Nandurbar" },
+      { "id": 2, "text": "Amravati" },
+      { "id": 3, "text": "Gadchiroli" },
+      { "id": 4, "text": "Satara" }
+    ],
+    "CorrectAnswer": "Amravati",
+    "Explanation": "The Gawilgarh Hills are a part of the Satpuda Range and are located in the Amravati district of the Vidarbha region. Melghat Tiger Reserve is located in these hills.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following is a major iron ore mining center in the Gadchiroli district of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Malvan" },
+      { "id": 2, "text": "Koyna" },
+      { "id": 3, "text": "Umred" },
+      { "id": 4, "text": "Surjagarh" }
+    ],
+    "CorrectAnswer": "Surjagarh",
+    "Explanation": "Surjagarh in the Gadchiroli district is known for its high-quality iron ore deposits. Umred is known for coal (Nagpur), Malvan for its fort (Sindhudurg), and Koyna for the dam (Satara).",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Minerals and Resources"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Wainganga and Penganga are major south-flowing tributaries of which river?",
+    "Options": [
+      { "id": 1, "text": "Godavari" },
+      { "id": 2, "text": "Krishna" },
+      { "id": 3, "text": "Tapi" },
+      { "id": 4, "text": "Narmada" }
+    ],
+    "CorrectAnswer": "Godavari",
+    "Explanation": "The Wainganga and Penganga (which joins Wardha to form Pranhita) are major rivers of the Vidarbha region. They flow south and join the Godavari river, forming its largest tributary system.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "As per the 2011 Census, which administrative division of Maharashtra has the lowest population density?",
+    "Options": [
+      { "id": 1, "text": "Konkan Division" },
+      { "id": 2, "text": "Amravati Division" },
+      { "id": 3, "text": "Nagpur Division" },
+      { "id": 4, "text": "Aurangabad Division" }
+    ],
+    "CorrectAnswer": "Amravati Division",
+    "Explanation": "Amravati Division (Varhad) has the lowest population density in Maharashtra, largely due to its agrarian nature and lack of major industrial centers. Konkan Division (with Mumbai) has the highest.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Population and Demographics"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 82.5°E longitude, which determines the Indian Standard Time (IST), passes through which of the following cities?",
+    "Options": [
+      { "id": 1, "text": "Nagpur" },
+      { "id": 2, "text": "Jaipur" },
+      { "id": 3, "text": "Mirzapur" },
+      { "id": 4, "text": "Kolkata" }
+    ],
+    "CorrectAnswer": "Mirzapur",
+    "Explanation": "The Standard Meridian of India (82°30' E) passes through Mirzapur in Uttar Pradesh (near Prayagraj). It is 5 hours and 30 minutes ahead of Greenwich Mean Time (GMT).",
+    "Difficulty": "Easy",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Consider the following statements about the Himalayan river systems:\n1. They are perennial, fed by both rain and melting snow.\n2. They form deep gorges and V-shaped valleys in their upper course.\n3. They are typically older than the Peninsular rivers.",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 3 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1 and 2 only",
+    "Explanation": "(1) is correct; they have water throughout the year. (2) is correct; they are in their youthful stage, leading to intense erosion. (3) is incorrect; the Peninsular rivers (e.g., Narmada, Godavari) are much older, flowing through stable landforms, while the Himalayas (and their rivers) are geologically young.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 1,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Western Disturbances' that cause winter rainfall in North India originate from which of the following?",
+    "Options": [
+      { "id": 1, "text": "Bay of Bengal" },
+      { "id": 2, "text": "Arabian Sea" },
+      { "id": 3, "text": "Mediterranean Sea" },
+      { "id": 4, "text": "Indian Ocean" }
+    ],
+    "CorrectAnswer": "Mediterranean Sea",
+    "Explanation": "Western Disturbances are extratropical storms originating in the Mediterranean region. They are brought into India by the westerly jet stream and cause crucial winter rain (Rabi crops) in the northern plains.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Climate of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following statements about Alluvial Soils in India is incorrect?",
+    "Options": [
+      { "id": 1, "text": "They are the most widely spread soils in India." },
+      { "id": 2, "text": "They are rich in potash and lime, but deficient in phosphorus and humus." },
+      { "id": 3, "text": "They are classified into Khadar (new alluvium) and Bhangar (old alluvium)." },
+      { "id": 4, "text": "They are primarily found in the peninsular plateau and high Himalayas." }
+    ],
+    "CorrectAnswer": "They are primarily found in the peninsular plateau and high Himalayas.",
+    "Explanation": "This statement is incorrect. Alluvial soils are predominantly found in the great Northern Plains (Indus-Ganga-Brahmaputra) and coastal deltas. The peninsular plateau is dominated by Black and Red soils.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 4,
+    "topic": "Soils of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Silent Valley' National Park, known for its rich biodiversity, is located in which state?",
+    "Options": [
+      { "id": 1, "text": "Tamil Nadu" },
+      { "id": 2, "text": "Karnataka" },
+      { "id": 3, "text": "Kerala" },
+      { "id": 4, "text": "Andhra Pradesh" }
+    ],
+    "CorrectAnswer": "Kerala",
+    "Explanation": "Silent Valley National Park is located in the Nilgiri hills in Palakkad district of Kerala. It is a core area of the Nilgiri Biosphere Reserve and is famous for its undisturbed tropical rainforests and lion-tailed macaques.",
+    "Difficulty": "Easy",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Environment and Biodiversity"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Arrange the following states in descending order of their total mangrove cover:\n1. West Bengal\n2. Gujarat\n3. Andaman & Nicobar Islands\n4. Odisha",
+    "Options": [
+      { "id": 1, "text": "1, 2, 3, 4" },
+      { "id": 2, "text": "1, 3, 2, 4" },
+      { "id": 3, "text": "2, 1, 3, 4" },
+      { "id": 4, "text": "1, 2, 4, 3" }
+    ],
+    "CorrectAnswer": "1, 2, 3, 4",
+    "Explanation": "As per the India State of Forest Report (ISFR) 2021, the correct descending order of mangrove cover is: West Bengal (Sundarbans), followed by Gujarat, then Andaman & Nicobar Islands, and then Odisha.",
+    "Difficulty": "Hard",
+    "Job": "UPSC, MPSC",
+    "correctOption": 1,
+    "topic": "Natural Vegetation"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Duncan Passage' separates which of the following?",
+    "Options": [
+      { "id": 1, "text": "Andaman and Nicobar Islands" },
+      { "id": 2, "text": "Rutland Island and Little Andaman" },
+      { "id": 3, "text": "Little Andaman and Car Nicobar" },
+      { "id": 4, "text": "North Andaman and Middle Andaman" }
+    ],
+    "CorrectAnswer": "Rutland Island and Little Andaman",
+    "Explanation": "The Duncan Passage separates Rutland Island (part of Great Andaman) from Little Andaman. The 'Ten Degree Channel' is the wider channel that separates the Andaman Islands from the Nicobar Islands.",
+    "Difficulty": "Hard",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "What is 'Jhum Cultivation'?",
+    "Options": [
+      { "id": 1, "text": "A method of terrace farming in the Himalayas." },
+      { "id": 2, "text": "A type of commercial plantation farming." },
+      { "id": 3, "text": "A 'slash and burn' shifting cultivation practiced in Northeast India." },
+      { "id": 4, "text": "An intensive subsistence farming technique." }
+    ],
+    "CorrectAnswer": "A 'slash and burn' shifting cultivation practiced in Northeast India.",
+    "Explanation": "Jhum cultivation is the local name for shifting (slash and burn) agriculture in the northeastern states of India. A patch of forest is cleared, burned, cultivated for a few years, and then abandoned to allow regeneration.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Agriculture"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The Nathu La Pass, a major trade route, connects India with which country?",
+    "Options": [
+      { "id": 1, "text": "Nepal" },
+      { "id": 2, "text": "Bhutan" },
+      { "id": 3, "text": "China (Tibet)" },
+      { "id": 4, "text": "Pakistan" }
+    ],
+    "CorrectAnswer": "China (Tibet)",
+    "Explanation": "Nathu La is a high-altitude pass in the Himalayas in the state of Sikkim. It connects the Indian state of Sikkim with China's Tibet Autonomous Region and was reopened for trade in 2006.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which river is known as the 'Sorrow of Bihar' due to its frequent and devastating floods?",
+    "Options": [
+      { "id": 1, "text": "Ganga" },
+      { "id": 2, "text": "Gandak" },
+      { "id": 3, "text": "Kosi" },
+      { "id": 4, "text": "Damodar" }
+    ],
+    "CorrectAnswer": "Kosi",
+    "Explanation": "The Kosi River, originating in Tibet, is notorious for its frequent floods and for changing its course, which causes widespread destruction in northern Bihar. The Damodar river was similarly known as the 'Sorrow of Bengal'.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is the correct order of the Himalayan ranges from North to South?",
+    "Options": [
+      { "id": 1, "text": "Shiwalik, Himadri, Himachal" },
+      { "id": 2, "text": "Himadri, Himachal, Shiwalik" },
+      { "id": 3, "text": "Himachal, Himadri, Shiwalik" },
+      { "id": 4, "text": "Karakoram, Shiwalik, Himadri" }
+    ],
+    "CorrectAnswer": "Himadri, Himachal, Shiwalik",
+    "Explanation": "The correct north-to-south sequence of the main Himalayan ranges is: The Himadri (Great Himalayas), followed by the Himachal (Lesser Himalayas), and finally the Shiwalik (Outer Himalayas) as the southernmost range. (Karakoram is a Trans-Himalayan range, even further north).",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Karewas', which are fertile deposits of glacial clay and moraines, are found in which part of India and are famous for saffron cultivation?",
+    "Options": [
+      { "id": 1, "text": "Kangra Valley, Himachal Pradesh" },
+      { "id": 2, "text": "Kashmir Valley, Jammu & Kashmir" },
+      { "id": 3, "text": "Doon Valley, Uttarakhand" },
+      { "id": 4, "text": "Brahmaputra Valley, Assam" }
+    ],
+    "CorrectAnswer": "Kashmir Valley, Jammu & Kashmir",
+    "Explanation": "Karewas are thick lacustrine deposits found in the Kashmir Valley. These deposits are highly fertile and are world-famous for the cultivation of 'Zafran' (saffron), almonds, and walnuts.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography & Agriculture"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is an example of a 'Rabi' crop in India?",
+    "Options": [
+      { "id": 1, "text": "Rice" },
+      { "id": 2, "text": "Maize" },
+      { "id": 3, "text": "Wheat" },
+      { "id": 4, "text": "Cotton" }
+    ],
+    "CorrectAnswer": "Wheat",
+    "Explanation": "Rabi crops are sown in winter (October-December) and harvested in summer (April-June). Wheat is the primary Rabi crop. Rice, maize, and cotton are Kharif crops, sown with the onset of monsoon.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Agriculture"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Tropic of Cancer' (23.5°N) passes through which of the following states?\n1. Gujarat\n2. Maharashtra\n3. Chhattisgarh\n4. Manipur",
+    "Options": [
+      { "id": 1, "text": "1 and 3 only" },
+      { "id": 2, "text": "1, 3 and 4 only" },
+      { "id": 3, "text": "1, 2 and 3 only" },
+      { "id": 4, "text": "1, 2, 3 and 4" }
+    ],
+    "CorrectAnswer": "1 and 3 only",
+    "Explanation": "The Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram. It does not pass through Maharashtra or Manipur.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which type of forest is most widespread in India?",
+    "Options": [
+      { "id": 1, "text": "Tropical Evergreen Forests" },
+      { "id": 2, "text": "Tropical Deciduous Forests" },
+      { "id": 3, "text": "Mangrove Forests" },
+      { "id": 4, "text": "Montane Forests" }
+    ],
+    "CorrectAnswer": "Tropical Deciduous Forests",
+    "Explanation": "Tropical Deciduous Forests, also known as 'Monsoon Forests', are the most widespread in India. They are found in regions receiving rainfall between 70 cm and 200 cm and are characterized by trees that shed their leaves in the dry season.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Natural Vegetation"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Palk Strait' separates India from which country?",
+    "Options": [
+      { "id": 1, "text": "Maldives" },
+      { "id": 2, "text": "Indonesia" },
+      { "id": 3, "text": "Myanmar" },
+      { "id": 4, "text": "Sri Lanka" }
+    ],
+    "CorrectAnswer": "Sri Lanka",
+    "Explanation": "The Palk Strait is a narrow body of water between the Indian state of Tamil Nadu and the Jaffna District of Sri Lanka. It connects the Bay of Bengal in the northeast with Palk Bay in the southwest.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The Koderma region in Jharkhand is famous for being the leading producer of which mineral?",
+    "Options": [
+      { "id": 1, "text": "Iron Ore" },
+      { "id": 2, "text": "Coal" },
+      { "id": 3, "text": "Mica" },
+      { "id": 4, "text": "Bauxite" }
+    ],
+    "CorrectAnswer": "Mica",
+    "Explanation": "The Koderma-Hazaribagh belt in Jharkhand was historically known as the 'Mica Capital of India' and is one of the world's largest reserves of high-quality mica.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Minerals and Resources"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is the highest peak in the Eastern Ghats?",
+    "Options": [
+      { "id": 1, "text": "Anai Mudi" },
+      { "id": 2, "text": "Doddabetta" },
+      { "id": 3, "text": "Mahendragiri" },
+      { "id": 4, "text": "Jindhagada" }
+    ],
+    "CorrectAnswer": "Jindhagada",
+    "Explanation": "Jindhagada Peak (1690m) in Andhra Pradesh is the highest peak of the Eastern Ghats. Mahendragiri (1501m) in Odisha was earlier considered the highest. Anai Mudi and Doddabetta are in the Western Ghats.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 4,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'El Niño' phenomenon, which can negatively affect the Indian Monsoon, is characterized by:",
+    "Options": [
+      { "id": 1, "text": "Unusual cooling of the surface water in the eastern tropical Pacific Ocean." },
+      { "id": 2, "text": "Unusual warming of the surface water in the eastern tropical Pacific Ocean." },
+      { "id": 3, "text": "Unusual warming of the Indian Ocean." },
+      { "id": 4, "text": "The strengthening of the trade winds in the Pacific." }
+    ],
+    "CorrectAnswer": "Unusual warming of the surface water in the eastern tropical Pacific Ocean.",
+    "Explanation": "El Niño is the warm phase of the El Niño-Southern Oscillation (ENSO). It involves the abnormal warming of the sea surface in the central and eastern tropical Pacific (off the coast of Peru), which disrupts global weather patterns and is often linked to weaker monsoons and droughts in India.",
+    "Difficulty":"Hard",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "Climate of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Golden Quadrilateral' project connects which four major metropolitan cities of India?",
+    "Options": [
+      { "id": 1, "text": "Delhi, Mumbai, Bengaluru, Kolkata" },
+      { "id": 2, "text": "Delhi, Mumbai, Chennai, Kolkata" },
+      { "id": 3, "text": "Delhi, Mumbai, Chennai, Hyderabad" },
+      { "id": 4, "text": "Delhi, Jaipur, Mumbai, Kolkata" }
+    ],
+    "CorrectAnswer": "Delhi, Mumbai, Chennai, Kolkata",
+    "Explanation": "The Golden Quadrilateral is a national highway network connecting the four largest metro cities of India: Delhi (North), Kolkata (East), Mumbai (West), and Chennai (South).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Transport Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Saddle Peak, the highest point in the Andaman and Nicobar Islands, is located in:",
+    "Options": [
+      { "id": 1, "text": "North Andaman" },
+      { "id": 2, "text": "Middle Andaman" },
+      { "id": 3, "text": "South Andaman" },
+      { "id": 4, "text": "Great Nicobar" }
+    ],
+    "CorrectAnswer": "North Andaman",
+    "Explanation": "Saddle Peak (732m) is located on North Andaman Island and is the highest peak in the entire Andaman and Nicobar archipelago.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 1,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following Indian states shares the longest international border?",
+    "Options": [
+      { "id": 1, "text": "Arunachal Pradesh" },
+      { "id": 2, "text": "Rajasthan" },
+      { "id": 3, "text": "West Bengal" },
+      { "id": 4, "text": "Jammu & Kashmir (Union Territory)" }
+    ],
+    "CorrectAnswer": "West Bengal",
+    "Explanation": "This is a tricky question. While Rajasthan's border with Pakistan is long (approx 1070 km), West Bengal's combined border with Bangladesh, Nepal, and Bhutan is the longest (approx 2509 km), with the border with Bangladesh alone being over 2217 km.",
+    "Difficulty": "Hard",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Administrative Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Chilika Lake', the largest saltwater lagoon in India, is located in which state?",
+    "Options": [
+      { "id": 1, "text": "Tamil Nadu" },
+      { "id": 2, "text": "Andhra Pradesh" },
+      { "id": 3, "text": "Odisha" },
+      { "id": 4, "text": "West Bengal" }
+    ],
+    "CorrectAnswer": "Odisha",
+    "Explanation": "Chilika Lake is a brackish water lagoon located on the east coast of India in the state of Odisha. It is a Ramsar site and a major biodiversity hotspot, famous for migratory birds.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "What are 'Kharif' crops?",
+    "Options": [
+      { "id": 1, "text": "Crops sown in winter and harvested in summer (e.g., Wheat)." },
+      { "id": 2, "text": "Crops sown with the onset of the monsoon and harvested in autumn (e.g., Rice)." },
+      { "id": 3, "text": "Crops grown in the short season between Rabi and Kharif (e.g., Watermelon)." },
+      { "id": 4, "text": "Crops grown only in the Himalayas." }
+    ],
+    "CorrectAnswer": "Crops sown with the onset of the monsoon and harvested in autumn (e.g., Rice).",
+    "Explanation": "Kharif crops (or monsoon crops) are sown at the beginning of the rainy season (June-July) and harvested at the end (September-October). Major Kharif crops include Rice (Paddy), Maize, Cotton, and Soybean.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Agriculture"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Jim Corbett' National Park, India's first national park, is located in which state?",
+    "Options": [
+      { "id": 1, "text": "Madhya Pradesh" },
+      { "id": 2, "text": "Assam" },
+      { "id": 3, "text": "Uttarakhand" },
+      { "id": 4, "text": "Karnataka" }
+    ],
+    "CorrectAnswer": "Uttarakhand",
+    "Explanation": "Established in 1936 as 'Hailey National Park', Jim Corbett National Park is India's oldest. It is located in the Nainital district of Uttarakhand and is famous for being the launch site of 'Project Tiger' in 1973.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Environment and Biodiversity"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following rivers flows through a rift valley?",
+    "Options": [
+      { "id": 1, "text": "Godavari" },
+      { "id": 2, "text": "Mahanadi" },
+      { "id": 3, "text": "Narmada" },
+      { "id": 4, "text": "Krishna" }
+    ],
+    "CorrectAnswer": "Narmada",
+    "Explanation": "The Narmada and the Tapi are the two major peninsular rivers that flow westwards through rift valleys (grabens) between the Vindhya and Satpuda ranges. Because they flow through hard rock, they do not carry much silt and form estuaries, not deltas.",
+    "Difficulty": "Easy",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "According to the 2011 Census, which state has the highest population density?",
+    "Options": [
+      { "id": 1, "text": "West Bengal" },
+      { "id": 2, "text": "Bihar" },
+      { "id": 3, "text": "Kerala" },
+      { "id": 4, "text": "Uttar Pradesh" }
+    ],
+    "CorrectAnswer": "Bihar",
+    "Explanation": "As per the 2011 Census, Bihar has the highest population density among all states with 1,106 persons per sq km, followed by West Bengal (1,028). Uttar Pradesh has the highest total population, but not the highest density.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Population and Demographics"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The Khetri mines in Rajasthan are famous for the production of which mineral?",
+    "Options": [
+      { "id": 1, "text": "Iron Ore" },
+      { "id": 2, "text": "Mica" },
+      { "id": 3, "text": "Coal" },
+      { "id": 4, "text": "Copper" }
+    ],
+    "CorrectAnswer": "Copper",
+    "Explanation": "The Khetri Copper Belt in the Jhunjhunu district of Rajasthan is one of India's most significant copper mining and production centers, with a history of mining dating back to ancient times.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Minerals and Resources"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Retreating Monsoon' (or Northeast Monsoon) provides significant rainfall to which region of India?",
+    "Options": [
+      { "id": 1, "text": "Punjab and Haryana" },
+      { "id": 2, "text": "Kerala Coast" },
+      { "id": 3, "text": "Coromandel Coast (Tamil Nadu)" },
+      { "id": 4, "text": "Gujarat" }
+    ],
+    "CorrectAnswer": "Coromandel Coast (Tamil Nadu)",
+    "Explanation": "The Northeast Monsoon (October-December) involves winds blowing from the land to the sea. However, when these winds pass over the Bay of Bengal, they pick up moisture and strike the Coromandel Coast (Tamil Nadu and southern Andhra Pradesh), giving this region its main rainy season.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Climate of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is the correct order of the 'Ghar' (Passes) in the Sahyadris from North to South?",
+    "Options": [
+      { "id": 1, "text": "Thalghat, Bhorghat, Amba Ghat, Amboli Ghat" },
+      { "id": 2, "text": "Bhorghat, Thalghat, Amboli Ghat, Amba Ghat" },
+      { "id": 3, "text": "Amboli Ghat, Amba Ghat, Bhorghat, Thalghat" },
+      { "id": 4, "text": "Thalghat, Amba Ghat, Bhorghat, Amboli Ghat" }
+    ],
+    "CorrectAnswer": "Thalghat, Bhorghat, Amba Ghat, Amboli Ghat",
+    "Explanation": "The correct North-to-South sequence is: Thalghat (connects Mumbai-Nashik), Bhorghat (connects Mumbai-Pune), Amba Ghat (connects Ratnagiri-Kolhapur), and Amboli Ghat (connects Sindhudurg-Kolhapur/Belgaum).",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The river Narmada originates from which place?",
+    "Options": [
+      { "id": 1, "text": "Trimbakeshwar" },
+      { "id": 2, "text": "Amarkantak Plateau" },
+      { "id": 3, "text": "Mahabaleshwar" },
+      { "id": 4, "text": "Gangotri Glacier" }
+    ],
+    "CorrectAnswer": "Amarkantak Plateau",
+    "Explanation": "The Narmada River (a west-flowing river) originates from the Amarkantak Plateau in Madhya Pradesh. This plateau is also the source of the Son River (which flows north to the Ganga) and the Johila.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following statements is/are correct about Laterite Soil?\n1. It is formed in regions with high temperature and high rainfall.\n2. It is rich in iron and aluminum oxides, but poor in humus.\n3. It is highly fertile and suitable for growing wheat and sugarcane.",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1 and 2 only",
+    "Explanation": "(1) and (2) are correct. Laterite soil is formed by intense 'leaching' due to high rainfall, which washes away silica, leaving iron and aluminum oxides (giving it a red color). This process also removes humus. (3) is incorrect; because it is poor in nutrients, it is not very fertile. It is suitable for crops like cashew, tapioca, tea, and coffee with heavy use of fertilizers.",
+    "Difficulty": "Hard",
+    "Job": "UPSC, MPSC",
+    "correctOption": 1,
+    "topic": "Soils of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Ten Degree Channel' separates which two landmasses?",
+    "Options": [
+      { "id": 1, "text": "India and Sri Lanka" },
+      { "id": 2, "text": "North Andaman and South Andaman" },
+      { "id": 3, "text": "Andaman Islands and Nicobar Islands" },
+      { "id": 4, "text": "Lakshadweep and Maldives" }
+    ],
+    "CorrectAnswer": "Andaman Islands and Nicobar Islands",
+    "Explanation": "The Ten Degree Channel is a 10-degree wide channel of latitude that separates the Andaman Islands (specifically Little Andaman) to the north from the Nicobar Islands (specifically Car Nicobar) to the south.",
+    "Difficulty": "Easy",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Singareni' collieries, a major coal-producing area, are located in which Indian state?",
+    "Options": [
+      { "id": 1, "text": "Jharkhand" },
+      { "id": 2, "text": "Chhattisgarh" },
+      { "id": 3, "text": "Telangana" },
+      { "id": 4, "text": "Odisha" }
+    ],
+    "CorrectAnswer": "Telangana",
+    "Explanation": "The Singareni Collieries Company Limited is a government-owned coal mining company. Its mining operations are located in the Godavari valley region of Telangana (formerly part of Andhra Pradesh).",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Minerals and Resources"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is an example of a 'Kharif' crop?\n1. Rice\n2. Cotton\n3. Wheat\n4. Mustard",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "3 and 4 only" },
+      { "id": 3, "text": "1, 2 and 3" },
+      { "id": 4, "text": "2, 3 and 4" }
+    ],
+    "CorrectAnswer": "1 and 2 only",
+    "Explanation": "Kharif crops are monsoon crops (sown June-July). Rice and Cotton are major Kharif crops. Wheat and Mustard are 'Rabi' crops (winter crops, sown Oct-Nov).",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Agriculture"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is the highest peak in the Western Ghats?",
+    "Options": [
+      { "id": 1, "text": "Doddabetta" },
+      { "id": 2, "text": "Anai Mudi" },
+      { "id": 3, "text": "Kalsubai" },
+      { "id": 4, "text": "Mahendragiri" }
+    ],
+    "CorrectAnswer": "Anai Mudi",
+    "Explanation": "Anai Mudi (2,695m) in the Anamalai Hills, Kerala, is the highest peak in the Western Ghats and in all of South India. Doddabetta is the second highest (in the Nilgiris), and Kalsubai is the highest in Maharashtra.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Green Revolution' in India in the 1960s was most successful in which regions and for which crops?",
+    "Options": [
+      { "id": 1, "text": "Eastern India (Rice, Jute)" },
+      { "id": 2, "text": "Western India (Cotton, Sugarcane)" },
+      { "id": 3, "text": "North-Western India (Wheat, Rice)" },
+      { "id": 4, "text": "Southern India (Spices, Coffee)" }
+    ],
+    "CorrectAnswer": "North-Western India (Wheat, Rice)",
+    "Explanation": "The Green Revolution, based on High-Yielding Variety (HYV) seeds, irrigation, and fertilizers, had its most dramatic success in the states of Punjab, Haryana, and Western Uttar Pradesh, primarily for the Wheat crop, and later for Rice.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Agriculture"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Jaduguda' mines in Jharkhand are famous for:",
+    "Options": [
+      { "id": 1, "text": "Gold" },
+      { "id": 2, "text": "Diamonds" },
+      { "id": 3, "text": "Uranium" },
+      { "id": 4, "text": "Coal" }
+    ],
+    "CorrectAnswer": "Uranium",
+    "Explanation": "The Jaduguda mine in the Singhbhum district of Jharkhand is India's first and most important uranium mine, operated by the Uranium Corporation of India (UCIL).",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Minerals and Resources"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is the southernmost point of the *Indian mainland*?",
+    "Options": [
+      { "id": 1, "text": "Indira Point" },
+      { "id": 2, "text": "Kanyakumari" },
+      { "id": 3, "text": "Kavaratti" },
+      { "id": 4, "text": "Port Blair" }
+    ],
+    "CorrectAnswer": "Kanyakumari",
+    "Explanation": "The question specifically asks for the 'Indian mainland'. Kanyakumari (Cape Comorin) in Tamil Nadu is the southernmost tip of the mainland. 'Indira Point' in the Great Nicobar Island is the southernmost point of the Indian *Union* (territory).",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Almatti Dam' is a major multipurpose project on which river?",
+    "Options": [
+      { "id": 1, "text": "Godavari" },
+      { "id": 2, "text": "Krishna" },
+      { "id": 3, "text": "Kaveri" },
+      { "id": 4, "text": "Mahanadi" }
+    ],
+    "CorrectAnswer": "Krishna",
+    "Explanation": "The Almatti Dam (Lal Bahadur Shastri Dam) is a major project on the Krishna River in North Karnataka. It is a frequent point of dispute between Karnataka, Andhra Pradesh, and Telangana over water sharing.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which Indian state has the longest coastline?",
+    "Options": [
+      { "id": 1, "text": "Tamil Nadu" },
+      { "id": 2, "text": "Maharashtra" },
+      { "id": 3, "text": "Andhra Pradesh" },
+      { "id": 4, "text": "Gujarat" }
+    ],
+    "CorrectAnswer": "Gujarat",
+    "Explanation": "Gujarat has the longest mainland coastline in India (approx 1,215 km). If Union Territories are included, Andaman & Nicobar Islands has the longest (approx 1,962 km). Among states, Gujarat is first, followed by Tamil Nadu and then Andhra Pradesh.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Jog Falls', one of the highest plunge waterfalls in India, is located on which river?",
+    "Options": [
+      { "id": 1, "text": "Sharavathi River (Karnataka)" },
+      { "id": 2, "text": "Kaveri River (Tamil Nadu)" },
+      { "id": 3, "text": "Narmada River (Madhya Pradesh)" },
+      { "id": 4, "text": "Godavari River (Maharashtra)" }
+    ],
+    "CorrectAnswer": "Sharavathi River (Karnataka)",
+    "Explanation": "Jog Falls (also known as Gerosoppa Falls) is located on the Sharavathi River in the Shimoga district of Karnataka. It is a major tourist attraction.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Bokaro' Steel Plant was established with the collaboration of which country?",
+    "Options": [
+      { "id": 1, "text": "Germany" },
+      { "id": 2, "text": "United Kingdom" },
+      { "id": 3, "text": "USA" },
+      { "id": 4, "text": "Soviet Union (USSR)" }
+    ],
+    "CorrectAnswer": "Soviet Union (USSR)",
+    "Explanation": "The Bokaro Steel Plant in Jharkhand was established during the Third Five-Year Plan (1965) with technical and financial assistance from the Soviet Union (USSR).",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 4,
+    "topic": "Industries"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "According to the 2011 Census, which state has the lowest population density?",
+    "Options": [
+      { "id": 1, "text": "Sikkim" },
+      { "id": 2, "text": "Mizoram" },
+      { "id": 3, "text": "Arunachal Pradesh" },
+      { "id": 4, "text": "Nagaland" }
+    ],
+    "CorrectAnswer": "Arunachal Pradesh",
+    "Explanation": "Arunachal Pradesh has the lowest population density in India, with only 17 persons per square kilometer, owing to its rugged mountain terrain and large forest cover.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Population and Demographics"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "Which of the following is the correct order of the layers of Earth's atmosphere from the surface upwards?",
+    "Options": [
+      { "id": 1, "text": "Troposphere, Stratosphere, Mesosphere, Thermosphere" },
+      { "id": 2, "text": "Stratosphere, Troposphere, Mesosphere, Thermosphere" },
+      { "id": 3, "text": "Troposphere, Mesosphere, Stratosphere, Thermosphere" },
+      { "id": 4, "text": "Mesosphere, Stratosphere, Troposphere, Thermosphere" }
+    ],
+    "CorrectAnswer": "Troposphere, Stratosphere, Mesosphere, Thermosphere",
+    "Explanation": "The correct order is: 1. Troposphere (where weather occurs) 2. Stratosphere (where the ozone layer is) 3. Mesosphere (where meteors burn up) 4. Thermosphere (contains the ionosphere).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Climatology"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "The 'Ozone Layer', which absorbs harmful UV radiation, is found in which layer of the atmosphere?",
+    "Options": [
+      { "id": 1, "text": "Troposphere" },
+      { "id": 2, "text": "Stratosphere" },
+      { "id": 3, "text": "Mesosphere" },
+      { "id": 4, "text": "Thermosphere" }
+    ],
+    "CorrectAnswer": "Stratosphere",
+    "Explanation": "The ozone layer is a concentration of ozone (O3) molecules found in the lower part of the Stratosphere, approximately 15 to 35 kilometers above Earth's surface.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Climatology"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "Which of the following rock types is formed from the cooling and solidification of magma or lava?",
+    "Options": [
+      { "id": 1, "text": "Sedimentary Rock" },
+      { "id": 2, "text": "Igneous Rock" },
+      { "id": 3, "text": "Metamorphic Rock" },
+      { "id": 4, "text": "Fossil Rock" }
+    ],
+    "CorrectAnswer": "Igneous Rock",
+    "Explanation": "Igneous rocks (like Granite and Basalt) are formed when molten rock (magma from below the surface or lava on the surface) cools and hardens. Sedimentary rocks are formed from deposits, and Metamorphic rocks are formed when other rocks are changed by heat and pressure.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Geomorphology"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "The 'Ring of Fire' is a major area in the basin of which ocean, known for frequent earthquakes and volcanic eruptions?",
+    "Options": [
+      { "id": 1, "text": "Atlantic Ocean" },
+      { "id": 2, "text": "Indian Ocean" },
+      { "id": 3, "text": "Pacific Ocean" },
+      { "id": 4, "text": "Arctic Ocean" }
+    ],
+    "CorrectAnswer": "Pacific Ocean",
+    "Explanation": "The Ring of Fire is a path along the Pacific Ocean characterized by active volcanoes and frequent earthquakes. It is a result of plate tectonics, where the massive Pacific Plate interacts with surrounding continental plates.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Geomorphology"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "What are 'Roaring Forties'?",
+    "Options": [
+      { "id": 1, "text": "A type of tropical cyclone in the Atlantic." },
+      { "id": 2, "text": "Strong westerly winds found in the Southern Hemisphere (between 40° and 50° latitude)." },
+      { "id": 3, "text": "A migratory bird pattern in North America." },
+      { "id": 4, "text": "A term for the age of a mountain range." }
+    ],
+    "CorrectAnswer": "Strong westerly winds found in the Southern Hemisphere (between 40° and 50° latitude).",
+    "Explanation": "The 'Roaring Forties' (also 'Furious Fifties' and 'Shrieking Sixties') are strong westerly winds in the Southern Hemisphere. They are strong because of the lack of landmasses to slow them down, making them dangerous for sailing.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Climatology"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "The boundary between the Earth's crust and the mantle is known as the:",
+    "Options": [
+      { "id": 1, "text": "Mohorovicic Discontinuity (Moho)" },
+      { "id": 2, "text": "Gutenberg Discontinuity" },
+      { "id": 3, "text": "Lehmann Discontinuity" },
+      { "id": 4, "text": "Conrad Discontinuity" }
+    ],
+    "CorrectAnswer": "Mohorovicic Discontinuity (Moho)",
+    "Explanation": "The Mohorovicic Discontinuity (or Moho) is the boundary where seismic waves change velocity, separating the less dense crust from the denser mantle. The Gutenberg Discontinuity separates the mantle and the outer core.",
+    "Difficulty": "Hard",
+    "Job": "UPSC, MPSC",
+    "correctOption": 1,
+    "topic": "Geomorphology"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "'Stalactites' and 'Stalagmites' are landforms typically found in which type of environment?",
+    "Options": [
+      { "id": 1, "text": "Glacial moraines" },
+      { "id": 2, "text": "Desert sand dunes" },
+      { "id": 3, "text": "Volcanic craters" },
+      { "id": 4, "text": "Limestone caves (Karst topography)" }
+    ],
+    "CorrectAnswer": "Limestone caves (Karst topography)",
+    "Explanation": "These are 'dripstone' features. Stalactites hang *tight* to the ceiling, and Stalagmites grow *mighty* from the ground, formed by the slow deposition of calcium carbonate from dripping water in limestone caves (Karst landscapes).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Geomorphology"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "The 'Coriolis Effect', caused by the Earth's rotation, is responsible for:",
+    "Options": [
+      { "id": 1, "text": "The deflection of winds and ocean currents (to the right in the Northern Hemisphere)." },
+      { "id": 2, "text": "The formation of tides." },
+      { "id": 3, "text": "The occurrence of earthquakes." },
+      { "id": 4, "text": "The change of seasons." }
+    ],
+    "CorrectAnswer": "The deflection of winds and ocean currents (to the right in the Northern Hemisphere).",
+    "Explanation": "The Coriolis Effect is an inertial force that acts on objects in motion relative to a rotating frame of reference. On Earth, it deflects moving objects (like wind, airplanes, and ocean currents) to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 1,
+    "topic": "Climatology"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "Warm ocean currents, like the Gulf Stream, generally:",
+    "Options": [
+      { "id": 1, "text": "Flow from high latitudes (poles) towards the equator." },
+      { "id": 2, "text": "Flow from low latitudes (equator) towards the poles." },
+      { "id": 3, "text": "Cause desert conditions on adjacent coastlines." },
+      { "id": 4, "text": "Are very nutrient-rich and good for fishing." }
+    ],
+    "CorrectAnswer": "Flow from low latitudes (equator) towards the poles.",
+    "Explanation": "Warm currents (e.g., Gulf Stream, Kuroshio) originate near the equator and move warm water towards the poles, warming the adjacent coastlines. Cold currents (e.g., Labrador, Peru) flow from the poles towards the equator and are generally more nutrient-rich.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Oceanography"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "Which of the following is an example of a Metamorphic Rock?",
+    "Options": [
+      { "id": 1, "text": "Granite" },
+      { "id": 2, "text": "Sandstone" },
+      { "id": 3, "text": "Basalt" },
+      { "id": 4, "text": "Marble" }
+    ],
+    "CorrectAnswer": "Marble",
+    "Explanation": "Metamorphic rocks are formed from other rocks. Marble is formed when Limestone (a sedimentary rock) is subjected to intense heat and pressure. Granite and Basalt are igneous; Sandstone is sedimentary.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Geomorphology"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "The 'International Date Line' (IDL) is located approximately along which meridian?",
+    "Options": [
+      { "id": 1, "text": "0° Longitude (Prime Meridian)" },
+      { "id": 2, "text": "180° Longitude" },
+      { "id": 3, "text": "90° E Longitude" },
+      { "id": 4, "text": "90° W Longitude" }
+    ],
+    "CorrectAnswer": "180° Longitude",
+    "Explanation": "The International Date Line is an imaginary line that roughly follows the 180° meridian in the Pacific Ocean. It is where the date officially changes. It deviates to avoid cutting through landmasses.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "'Cirque', 'Arete', and 'Moraine' are landforms associated with:",
+    "Options": [
+      { "id": 1, "text": "Volcanic activity" },
+      { "id": 2, "text": "River (Fluvial) erosion" },
+      { "id": 3, "text": "Glacial activity" },
+      { "id": 4, "text": "Wind (Aeolian) erosion" }
+    ],
+    "CorrectAnswer": "Glacial activity",
+    "Explanation": "A 'Cirque' is an amphitheater-like valley head. An 'Arete' is a sharp ridge between two cirques. A 'Moraine' is the debris (till) left behind by a moving glacier. All are classic glacial landforms.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Geomorphology"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "The 'Strait of Gibraltar' connects which two bodies of water?",
+    "Options": [
+      { "id": 1, "text": "The Mediterranean Sea and the Atlantic Ocean" },
+      { "id": 2, "text": "The Red Sea and the Mediterranean Sea" },
+      { "id": 3, "text": "The Black Sea and the Mediterranean Sea" },
+      { "id": 4, "text": "The Persian Gulf and the Arabian Sea" }
+    ],
+    "CorrectAnswer": "The Mediterranean Sea and the Atlantic Ocean",
+    "Explanation": "The Strait of Gibraltar is a narrow strait that connects the Atlantic Ocean to the Mediterranean Sea and separates Spain (Europe) from Morocco (Africa).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "The 'Aswan High Dam' is located on which river?",
+    "Options": [
+      { "id": 1, "text": "Amazon River" },
+      { "id": 2, "text": "Nile River" },
+      { "id": 3, "text": "Congo River" },
+      { "id": 4, "text": "Yangtze River" }
+    ],
+    "CorrectAnswer": "Nile River",
+    "Explanation": "The Aswan High Dam is a major embankment dam located on the Nile River in Aswan, Egypt. It was built in the 1960s and created Lake Nasser.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "Which of the following mountain ranges separates Europe from Asia?",
+    "Options": [
+      { "id": 1, "text": "The Alps" },
+      { "id": 2, "text": "The Andes" },
+      { "id": 3, "text": "The Rocky Mountains" },
+      { "id": 4, "text": "The Ural Mountains" }
+    ],
+    "CorrectAnswer": "The Ural Mountains",
+    "Explanation": "The Ural Mountains, along with the Ural River, are traditionally considered the natural boundary between the continents of Europe and Asia.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "The 'Great Barrier Reef', the world's largest coral reef system, is located off the coast of:",
+    "Options": [
+      { "id": 1, "text": "Brazil" },
+      { "id": 2, "text": "Australia" },
+      { "id": 3, "text": "South Africa" },
+      { "id": 4, "text": "India" }
+    ],
+    "CorrectAnswer": "Australia",
+    "Explanation": "The Great Barrier Reef is located in the Coral Sea, off the coast of Queensland in northeastern Australia. It is a UNESCO World Heritage Site.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "The 'Pampas' are temperate grasslands found in which country?",
+    "Options": [
+      { "id": 1, "text": "United States" },
+      { "id": 2, "text": "South Africa" },
+      { "id": 3, "text": "Argentina" },
+      { "id": 4, "text": "Australia" }
+    ],
+    "CorrectAnswer": "Argentina",
+    "Explanation": "The Pampas are fertile lowlands in South America, primarily covering parts of Argentina, Uruguay, and Brazil. They are known for cattle ranching (estancias). (Prairies = North America, Veld = South Africa, Steppes = Eurasia, Downs = Australia).",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "Which of the following is the largest desert in the world (including all types)?",
+    "Options": [
+      { "id": 1, "text": "Sahara Desert" },
+      { "id": 2, "text": "Gobi Desert" },
+      { "id": 3, "text": "Antarctic Polar Desert" },
+      { "id": 4, "text": "Arabian Desert" }
+    ],
+    "CorrectAnswer": "Antarctic Polar Desert",
+    "Explanation": "A desert is defined by its low precipitation. By this definition, the two largest deserts are polar deserts. The Antarctic Polar Desert is the largest, followed by the Arctic Polar Desert. The Sahara is the largest *hot* desert.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "The 'Strait of Malacca' is a major shipping lane connecting:",
+    "Options": [
+      { "id": 1, "text": "The Pacific Ocean and the Indian Ocean" },
+      { "id": 2, "text": "The Atlantic Ocean and the Pacific Ocean" },
+      { "id": 3, "text": "The Mediterranean Sea and the Black Sea" },
+      { "id": 4, "text": "The Red Sea and the Indian Ocean" }
+    ],
+    "CorrectAnswer": "The Pacific Ocean and the Indian Ocean",
+    "Explanation": "The Strait of Malacca runs between the Malay Peninsula and the Indonesian island of Sumatra. It is the primary shipping channel between the Indian Ocean and the Pacific Ocean (South China Sea).",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 1,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "Which river forms the border between Germany and Poland?",
+    "Options": [
+      { "id": 1, "text": "Danube River" },
+      { "id": 2, "text": "Rhine River" },
+      { "id": 3, "text": "Oder-Neisse Line" },
+      { "id": 4, "text": "Elbe River" }
+    ],
+    "CorrectAnswer": "Oder-Neisse Line",
+    "Explanation": "The Oder–Neisse line is the basis of the border between Germany and Poland. It is formed primarily by the Oder and Neisse rivers and was established after World War II.",
+    "Difficulty": "Hard",
+    "Job": "UPSC",
+    "correctOption": 3,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "The 'Atacama Desert', one of the driest places on Earth, is located on which continent?",
+    "Options": [
+      { "id": 1, "text": "Africa" },
+      { "id": 2, "text": "Australia" },
+      { "id": 3, "text": "North America" },
+      { "id": 4, "text": "South America" }
+    ],
+    "CorrectAnswer": "South America",
+    "Explanation": "The Atacama Desert is a coastal desert in western South America, primarily in Chile. It is extremely arid due to the cold, offshore Peru Current (ocean) and the rain shadow of the Andes mountains.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "The 'Suez Canal' connects which two bodies of water?",
+    "Options": [
+      { "id": 1, "text": "The Mediterranean Sea and the Red Sea" },
+      { "id": 2, "text": "The Atlantic Ocean and the Pacific Ocean" },
+      { "id": 3, "text": "The Mediterranean Sea and the Black Sea" },
+      { "id": 4, "text": "The Persian Gulf and the Arabian Sea" }
+    ],
+    "CorrectAnswer": "The Mediterranean Sea and the Red Sea",
+    "Explanation": "The Suez Canal is an artificial sea-level waterway in Egypt, connecting the Mediterranean Sea to the Red Sea. It provides the shortest maritime route between Europe and the Indian Ocean, bypassing Africa.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following is the correct order of districts in the Konkan region from North to South?",
+    "Options": [
+      { "id": 1, "text": "Palghar, Thane, Mumbai, Raigad, Ratnagiri, Sindhudurg" },
+      { "id": 2, "text": "Thane, Palghar, Mumbai, Raigad, Sindhudurg, Ratnagiri" },
+      { "id": 3, "text": "Palghar, Mumbai, Thane, Raigad, Ratnagiri, Sindhudurg" },
+      { "id": 4, "text": "Palghar, Thane, Raigad, Mumbai, Ratnagiri, Sindhudurg" }
+    ],
+    "CorrectAnswer": "Palghar, Thane, Mumbai, Raigad, Ratnagiri, Sindhudurg",
+    "Explanation": "The correct North-to-South sequence of Konkan districts is: Palghar, Thane, Mumbai Suburban & City, Raigad, Ratnagiri, and Sindhudurg (which borders Goa).",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Administrative Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following tribes is **not** predominantly found in Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Bhil" },
+      { "id": 2, "text": "Gond" },
+      { "id": 3, "text": "Warli" },
+      { "id": 4, "text": "Toda" }
+    ],
+    "CorrectAnswer": "Toda",
+    "Explanation": "The Bhil (Nandurbar), Gond (Vidarbha), and Warli (Palghar) are major tribes of Maharashtra. The Toda tribe is a pastoral tribe predominantly found in the Nilgiri Hills of Tamil Nadu.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Population and Tribes"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Mumbai-Nagpur Super Communication Expressway' is also known as the:",
+    "Options": [
+      { "id": 1, "text": "Yashwantrao Chavan Expressway" },
+      { "id": 2, "text": "Samruddhi Mahamarg" },
+      { "id": 3, "text": "Konkan Expressway" },
+      { "id": 4, "text": "Deccan Expressway" }
+    ],
+    "CorrectAnswer": "Samruddhi Mahamarg",
+    "Explanation": "The Hindu Hrudaysamrat Balasaheb Thackeray Maharashtra Samruddhi Mahamarg is the official name for the 701-km long expressway connecting Mumbai and Nagpur. The Yashwantrao Chavan Expressway is the Mumbai-Pune Expressway.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Transport Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following tributaries of the Indus River flows entirely outside of Indian territory (after the 1947 partition)?",
+    "Options": [
+      { "id": 1, "text": "Chenab" },
+      { "id": 2, "text": "Ravi" },
+      { "id": 3, "text": "Sutlej" },
+      { "id": 4, "text": "All of them flow through India." }
+    ],
+    "CorrectAnswer": "All of them flow through India.",
+    "Explanation": "This is a bit of a trick question. All the major tributaries of the Indus (Jhelum, Chenab, Ravi, Beas, Sutlej) originate in or flow through Indian territory (or territory administered by India) before entering Pakistan. The Indus Waters Treaty (1960) governs their water usage.",
+    "Difficulty": "Hard",
+    "Job": "UPSC, MPSC",
+    "correctOption": 4,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Nagarjuna Sagar' Dam is built on which river?",
+    "Options": [
+      { "id": 1, "text": "Krishna River" },
+      { "id": 2, "text": "Kaveri River" },
+      { "id": 3, "text": "Godavari River" },
+      { "id": 4, "text": "Mahanadi River" }
+    ],
+    "CorrectAnswer": "Krishna River",
+    "Explanation": "The Nagarjuna Sagar Dam is a major masonry dam on the Krishna River, located on the border of Telangana and Andhra Pradesh. It is a major source of irrigation and power.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Bhilai' Steel Plant in Chhattisgarh was set up with the assistance of which country?",
+    "Options": [
+      { "id": 1, "text": "Germany" },
+      { "id": 2, "text": "United Kingdom" },
+      { "id": 3, "text": "Soviet Union (USSR)" },
+      { "id": 4, "text": "USA" }
+    ],
+    "CorrectAnswer": "Soviet Union (USSR)",
+    "Explanation": "During the Second Five-Year Plan, three major steel plants were set up: Bhilai (with USSR), Rourkela (with Germany), and Durgapur (with UK).",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Industries"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is the correct drainage pattern of the Narmada River?",
+    "Options": [
+      { "id": 1, "text": "Dendritic" },
+      { "id": 2, "text": "Radial" },
+      { "id": 3, "text": "Trellis" },
+      { "id": 4, "text": "Rectangular" }
+    ],
+    "CorrectAnswer": "Radial",
+    "Explanation": "The Narmada river originates from the Amarkantak Plateau. This plateau is a classic example of a 'Radial' drainage pattern, where rivers (like Narmada, Son) originate from a central high point and flow in all directions.",
+    "Difficulty": "Hard",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Barren Island', India's only active volcano, is located in:",
+    "Options": [
+      { "id": 1, "text": "Lakshadweep Islands" },
+      { "id": 2, "text": "Andaman and Nicobar Islands" },
+      { "id": 3, "text": "Off the coast of Gujarat" },
+      { "id": 4, "text": "Off the coast of Odisha" }
+    ],
+    "CorrectAnswer": "Andaman and Nicobar Islands",
+    "Explanation": "Barren Island is an island located in the Andaman Sea and is the only confirmed active volcano in South Asia. It is part of the Andaman and Nicobar Union Territory.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Match List-I (River) with List-II (Origin):\nList-I:\nA. Godavari\nB. Krishna\nC. Bhima\nD. Tapi\nList-II:\n1. Bhimashankar (Pune)\n2. Mahabaleshwar (Satara)\n3. Trimbakeshwar (Nashik)\n4. Multai (Madhya Pradesh)",
+    "Options": [
+      { "id": 1, "text": "A-3, B-2, C-1, D-4" },
+      { "id": 2, "text": "A-2, B-3, C-4, D-1" },
+      { "id": 3, "text": "A-3, B-1, C-2, D-4" },
+      { "id": 4, "text": "A-1, B-2, C-3, D-4" }
+    ],
+    "CorrectAnswer": "A-3, B-2, C-1, D-4",
+    "Explanation": "The correct pairings are: Godavari originates at Trimbakeshwar (Nashik), Krishna originates at Mahabaleshwar (Satara), Bhima originates at Bhimashankar (Pune), and Tapi originates at Multai (in Madhya Pradesh, but is a major river in Maharashtra).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Consider the following statements about the Indian Monsoon:\n1. The 'Breaking' of the monsoon first occurs on the Malabar Coast (Kerala).\n2. The 'Retreating Monsoon' (Northeast Monsoon) provides the main rainfall for the Coromandel Coast (Tamil Nadu).\n3. 'Western Disturbances' cause winter rainfall in North India.",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 3 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three statements are correct. (1) The SW Monsoon hits Kerala first (around June 1). (2) The NE Monsoon (Oct-Dec) is the main rainy season for Tamil Nadu. (3) Western Disturbances are extra-tropical storms from the Mediterranean that bring winter rain, crucial for Rabi crops.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 4,
+    "topic": "Climate of India"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following districts in Maharashtra shares a border with **both** Gujarat and Madhya Pradesh?",
+    "Options": [
+      { "id": 1, "text": "Dhule" },
+      { "id": 2, "text": "Jalgaon" },
+      { "id": 3, "text": "Nandurbar" },
+      { "id": 4, "text": "Nashik" }
+    ],
+    "CorrectAnswer": "Nandurbar",
+    "Explanation": "Nandurbar district is located in the extreme northwest of Maharashtra. Its northern border is with Madhya Pradesh, and its western border is with Gujarat.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Administrative Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Arrange the following Himalayan ranges in order from North to South:\n1. Karakoram\n2. Shiwalik\n3. Ladakh\n4. Pir Panjal",
+    "Options": [
+      { "id": 1, "text": "1, 3, 4, 2" },
+      { "id": 2, "text": "1, 3, 2, 4" },
+      { "id": 3, "text": "3, 1, 4, 2" },
+      { "id": 4, "text": "3, 1, 2, 4" }
+    ],
+    "CorrectAnswer": "1, 3, 4, 2",
+    "Explanation": "The correct sequence from North to South is: Karakoram (Trans-Himalayas), Ladakh (Trans-Himalayas), Zanskar (not listed), Pir Panjal (part of Lesser Himalayas/Himachal), and finally Shiwalik (Outer Himalayas).",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 1,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "In Maharashtra, 'Regur' soil is predominantly found. Which of the following statements about it is INCORRECT?",
+    "Options": [
+      { "id": 1, "text": "It is also known as Black Cotton Soil." },
+      { "id": 2, "text": "It is formed from the weathering of basalt rock (Deccan Traps)." },
+      { "id": 3, "text": "It has high water-retentive capacity." },
+      { "id": 4, "text": "It is primarily found in the Konkan coastal region." }
+    ],
+    "CorrectAnswer": "It is primarily found in the Konkan coastal region.",
+    "Explanation": "Statements 1, 2, and 3 are correct. Statement 4 is incorrect. Regur soil covers the vast Deccan Plateau (Desh). The Konkan coastal region is dominated by 'Laterite' and 'Alluvial' soils.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Soils of Maharashtra"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Tropic of Cancer' (23.5°N) passes through which of the following states?\n1. Gujarat\n2. Maharashtra\n3. Chhattisgarh\n4. Odisha",
+    "Options": [
+      { "id": 1, "text": "1 and 3 only" },
+      { "id": 2, "text": "1, 3 and 4 only" },
+      { "id": 3, "text": "1, 2 and 3 only" },
+      { "id": 4, "text": "1, 2, 3 and 4" }
+    ],
+    "CorrectAnswer": "1 and 3 only",
+    "Explanation": "The Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram. It does not pass through Maharashtra or Odisha.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Satmala-Ajanta' range acts as a water divide between which two river basins?",
+    "Options": [
+      { "id": 1, "text": "Godavari and Krishna" },
+      { "id": 2, "text": "Tapi and Godavari" },
+      { "id": 3, "text": "Krishna and Bhima" },
+      { "id": 4, "text": "Godavari and Wainganga" }
+    ],
+    "CorrectAnswer": "Tapi and Godavari",
+    "Explanation": "The Satmala-Ajanta range is a prominent eastward extension of the Sahyadris. It acts as a major watershed, separating the Tapi river basin to its north from the Godavari river basin to its south.",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Palk Strait' separates India from which country?",
+    "Options": [
+      { "id": 1, "text": "Maldives" },
+      { "id": 2, "text": "Indonesia" },
+      { "id": 3, "text": "Myanmar" },
+      { "id": 4, "text": "Sri Lanka" }
+    ],
+    "CorrectAnswer": "Sri Lanka",
+    "Explanation": "The Palk Strait is a narrow body of water between the Indian state of Tamil Nadu and the Jaffna District of Sri Lanka. It connects the Bay of Bengal in the northeast with Palk Bay in the southwest.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "As per the 2011 Census, which district in Maharashtra has the highest sex ratio?",
+    "Options": [
+      { "id": 1, "text": "Ratnagiri" },
+      { "id": 2, "text": "Sindhudurg" },
+      { "id": 3, "text": "Pune" },
+      { "id": 4, "text": "Mumbai Suburban" }
+    ],
+    "CorrectAnswer": "Ratnagiri",
+    "Explanation": "Ratnagiri district in the Konkan region had the highest sex ratio in Maharashtra (1122), followed by Sindhudurg (1036). This is often attributed to high rates of out-migration of the male working population.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Population and Demographics"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is an example of a 'Rabi' crop in India?",
+    "Options": [
+      { "id": 1, "text": "Rice" },
+      { "id": 2, "text": "Maize" },
+      { "id": 3, "text": "Wheat" },
+      { "id": 4, "text": "Cotton" }
+    ],
+    "CorrectAnswer": "Wheat",
+    "Explanation": "Rabi crops are sown in winter (October-December) and harvested in summer (April-June). Wheat is the primary Rabi crop. Rice, maize, and cotton are Kharif crops, sown with the onset of monsoon.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Agriculture"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Gawilgarh Hills' and 'Melghat Tiger Reserve' are located in which district of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Nandurbar" },
+      { "id": 2, "text": "Amravati" },
+      { "id": 3, "text": "Gadchiroli" },
+      { "id": 4, "text": "Satara" }
+    ],
+    "CorrectAnswer": "Amravati",
+    "Explanation": "The Gawilgarh Hills are a part of the Satpuda Range and are located in the Amravati district of the Vidarbha region. Melghat Tiger Reserve is located in these hills.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Nagarjuna Sagar' Dam is a major multipurpose project on which river?",
+    "Options": [
+      { "id": 1, "text": "Godavari" },
+      { "id": 2, "text": "Krishna" },
+      { "id": 3, "text": "Kaveri" },
+      { "id": 4, "text": "Mahanadi" }
+    ],
+    "CorrectAnswer": "Krishna",
+    "Explanation": "The Nagarjuna Sagar Dam is a major masonry dam on the Krishna River, located on the border of Telangana and Andhra Pradesh. It is a major source of irrigation and power.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following is a west-flowing river in the Konkan region of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Manjara" },
+      { "id": 2, "text": "Vaitarna" },
+      { "id": 3, "text": "Pravara" },
+      { "id": 4, "text": "Purna (Godavari tributary)" }
+    ],
+    "CorrectAnswer": "Vaitarna",
+    "Explanation": "Konkan rivers originate in the Sahyadris and flow rapidly westwards to the Arabian Sea. Vaitarna is a major Konkan river. Manjara, Pravara, and Purna are all east-flowing tributaries in the Godavari basin.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which type of forest is most widespread in India?",
+    "Options": [
+      { "id": 1, "text": "Tropical Evergreen Forests" },
+      { "id": 2, "text": "Tropical Deciduous Forests" },
+      { "id": 3, "text": "Mangrove Forests" },
+      { "id": 4, "text": "Montane Forests" }
+    ],
+    "CorrectAnswer": "Tropical Deciduous Forests",
+    "Explanation": "Tropical Deciduous Forests, also known as 'Monsoon Forests', are the most widespread in India. They are found in regions receiving rainfall between 70 cm and 200 cm and are characterized by trees that shed their leaves in the dry season.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Natural Vegetation"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Harishchandra-Balaghat range acts as a water divide between which two river basins?",
+    "Options": [
+      { "id": 1, "text": "Godavari and Krishna" },
+      { "id": 2, "text": "Tapi and Godavari" },
+      { "id": 3, "text": "Godavari and Bhima" },
+      { "id": 4, "text": "Krishna and Tapi" }
+    ],
+    "CorrectAnswer": "Godavari and Bhima",
+    "Explanation": "The Harishchandra-Balaghat range is another major eastward extension of the Sahyadris, located south of the Godavari. It separates the Godavari basin to its north from the Bhima basin (a tributary of Krishna) to its south.",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "The 'Ozone Layer', which absorbs harmful UV radiation, is found in which layer of the atmosphere?",
+    "Options": [
+      { "id": 1, "text": "Troposphere" },
+      { "id": 2, "text": "Stratosphere" },
+      { "id": 3, "text": "Mesosphere" },
+      { "id": 4, "text": "Thermosphere" }
+    ],
+    "CorrectAnswer": "Stratosphere",
+    "Explanation": "The ozone layer is a concentration of ozone (O3) molecules found in the lower part of the Stratosphere, approximately 15 to 35 kilometers above Earth's surface.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Climatology"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Karewas', which are fertile deposits of glacial clay and moraines, are found in which part of India and are famous for saffron cultivation?",
+    "Options": [
+      { "id": 1, "text": "Kangra Valley, Himachal Pradesh" },
+      { "id": 2, "text": "Kashmir Valley, Jammu & Kashmir" },
+      { "id": 3, "text": "Doon Valley, Uttarakhand" },
+      { "id": 4, "text": "Brahmaputra Valley, Assam" }
+    ],
+    "CorrectAnswer": "Kashmir Valley, Jammu & Kashmir",
+    "Explanation": "Karewas are thick lacustrine deposits found in the Kashmir Valley. These deposits are highly fertile and are world-famous for the cultivation of 'Zafran' (saffron), almonds, and walnuts.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography & Agriculture"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Amba Ghat connects which two districts in Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Pune and Raigad" },
+      { "id": 2, "text": "Satara and Ratnagiri" },
+      { "id": 3, "text": "Kolhapur and Ratnagiri" },
+      { "id": 4, "text": "Nashik and Thane" }
+    ],
+    "CorrectAnswer": "Kolhapur and Ratnagiri",
+    "Explanation": "Amba Ghat is a mountain pass in the Sahyadris that connects the plateau city of Kolhapur (on the 'Desh') to the coastal district of Ratnagiri (in 'Konkan').",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Transport Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Bhilai' Steel Plant in Chhattisgarh was set up with the assistance of which country?",
+    "Options": [
+      { "id": 1, "text": "Germany" },
+      { "id": 2, "text": "United Kingdom" },
+      { "id": 3, "text": "Soviet Union (USSR)" },
+      { "id": 4, "text": "USA" }
+    ],
+    "CorrectAnswer": "Soviet Union (USSR)",
+    "Explanation": "During the Second Five-Year Plan, three major steel plants were set up: Bhilai (with USSR), Rourkela (with Germany), and Durgapur (with UK).",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Industries"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following is the correct order of administrative divisions of Maharashtra by area, from largest to smallest?",
+    "Options": [
+      { "id": 1, "text": "Aurangabad, Nashik, Pune, Nagpur" },
+      { "id": 2, "text": "Pune, Nashik, Aurangabad, Nagpur" },
+      { "id": 3, "text": "Aurangabad, Pune, Nashik, Nagpur" },
+      { "id": 4, "text": "Nashik, Aurangabad, Pune, Nagpur" }
+    ],
+    "CorrectAnswer": "Aurangabad, Nashik, Pune, Nagpur",
+    "Explanation": "The Aurangabad (Chh. Sambhajinagar) division (Marathwada) is the largest in area. The correct descending order is: Aurangabad > Nashik > Pune > Nagpur > Amravati > Konkan.",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Administrative Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Jog Falls', one of the highest plunge waterfalls in India, is located on which river?",
+    "Options": [
+      { "id": 1, "text": "Sharavathi River (Karnataka)" },
+      { "id": 2, "text": "Kaveri River (Tamil Nadu)" },
+      { "id": 3, "text": "Narmada River (Madhya Pradesh)" },
+      { "id": 4, "text": "Godavari River (Maharashtra)" }
+    ],
+    "CorrectAnswer": "Sharavathi River (Karnataka)",
+    "Explanation": "Jog Falls (also known as Gerosoppa Falls) is located on the Sharavathi River in the Shimoga district of Karnataka. It is a major tourist attraction.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "Which of the following rock types is formed from the cooling and solidification of magma or lava?",
+    "Options": [
+      { "id": 1, "text": "Sedimentary Rock" },
+      { "id": 2, "text": "Igneous Rock" },
+      { "id": 3, "text": "Metamorphic Rock" },
+      { "id": 4, "text": "Fossil Rock" }
+    ],
+    "CorrectAnswer": "Igneous Rock",
+    "Explanation": "Igneous rocks (like Granite and Basalt) are formed when molten rock (magma from below the surface or lava on the surface) cools and hardens. Sedimentary rocks are formed from deposits, and Metamorphic rocks are formed when other rocks are changed by heat and pressure.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Geomorphology"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Warli' painting, a famous folk art, is associated with a tribe predominantly found in which district of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Gadchiroli" },
+      { "id": 2, "text": "Nandurbar" },
+      { "id": 3, "text": "Palghar" },
+      { "id": 4, "text": "Solapur" }
+    ],
+    "CorrectAnswer": "Palghar",
+    "Explanation": "The Warli tribe, and their distinct style of painting, are predominantly found in the Palghar district (formerly part of Thane district) in the northern Konkan region.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Cultural Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The river Narmada originates from which place?",
+    "Options": [
+      { "id": 1, "text": "Trimbakeshwar" },
+      { "id": 2, "text": "Amarkantak Plateau" },
+      { "id": 3, "text": "Mahabaleshwar" },
+      { "id": 4, "text": "Gangotri Glacier" }
+    ],
+    "CorrectAnswer": "Amarkantak Plateau",
+    "Explanation": "The Narmada River (a west-flowing river) originates from the Amarkantak Plateau in Madhya Pradesh. This plateau is also the source of the Son River (which flows north to the Ganga).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which mountain range forms the northern border of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Sahyadri Range" },
+      { "id": 2, "text": "Satpuda Range" },
+      { "id": 3, "text": "Satmala-Ajanta Range" },
+      { "id": 4, "text": "Harishchandra-Balaghat Range" }
+    ],
+    "CorrectAnswer": "Satpuda Range",
+    "Explanation": "The Satpuda Range and its hills (like Gawilgarh hills) form the northern boundary of Maharashtra, separating it from Madhya Pradesh. The Tapi river flows through the valley south of this range.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Ten Degree Channel' separates which two landmasses?",
+    "Options": [
+      { "id": 1, "text": "India and Sri Lanka" },
+      { "id": 2, "text": "North Andaman and South Andaman" },
+      { "id": 3, "text": "Andaman Islands and Nicobar Islands" },
+      { "id": 4, "text": "Lakshadweep and Maldives" }
+    ],
+    "CorrectAnswer": "Andaman Islands and Nicobar Islands",
+    "Explanation": "The Ten Degree Channel is a 10-degree wide channel of latitude that separates the Andaman Islands (specifically Little Andaman) to the north from the Nicobar Islands (specifically Car Nicobar) to the south.",
+    "Difficulty": "Easy",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "What are 'Roaring Forties'?",
+    "Options": [
+      { "id": 1, "text": "A type of tropical cyclone in the Atlantic." },
+      { "id": 2, "text": "Strong westerly winds found in the Southern Hemisphere (between 40° and 50° latitude)." },
+      { "id": 3, "text": "A migratory bird pattern in North America." },
+      { "id": 4, "text": "A term for the age of a mountain range." }
+    ],
+    "CorrectAnswer": "Strong westerly winds found in the Southern Hemisphere (between 40° and 50° latitude).",
+    "Explanation": "The 'Roaring Forties' (also 'Furious Fifties' and 'Shrieking Sixties') are strong westerly winds in the Southern Hemisphere. They are strong because of the lack of landmasses to slow them down.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Climatology"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Deccan Traps' which form the Maharashtra Plateau are predominantly composed of which type of rock?",
+    "Options": [
+      { "id": 1, "text": "Granite" },
+      { "id": 2, "text": "Basalt" },
+      { "id": 3, "text": "Sandstone" },
+      { "id": 4, "text": "Marble" }
+    ],
+    "CorrectAnswer": "Basalt",
+    "Explanation": "The Deccan Plateau is a large igneous province formed by fissured volcanic eruptions. It is composed almost entirely of basaltic rock, which weathers to form the black cotton soil (Regur).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Geology of Maharashtra"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Silent Valley' National Park, known for its rich biodiversity, is located in which state?",
+    "Options": [
+      { "id": 1, "text": "Tamil Nadu" },
+      { "id": 2, "text": "Karnataka" },
+      { "id": 3, "text": "Kerala" },
+      { "id": 4, "text": "Andhra Pradesh" }
+    ],
+    "CorrectAnswer": "Kerala",
+    "Explanation": "Silent Valley National Park is located in the Nilgiri hills in Palakkad district of Kerala. It is a core area of the Nilgiri Biosphere Reserve and is famous for its undisturbed tropical rainforests.",
+    "Difficulty": "Easy",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Environment and Biodiversity"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following National Parks is **not** located in the Vidarbha region of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Tadoba-Andhari National Park" },
+      { "id": 2, "text": "Navegaon National Park" },
+      { "id": 3, "text": "Sanjay Gandhi National Park" },
+      { "id": 4, "text": "Pench (Jawaharlal Nehru) National Park" }
+    ],
+    "CorrectAnswer": "Sanjay Gandhi National Park",
+    "Explanation": "Sanjay Gandhi National Park is located in the Konkan division (Mumbai). Tadoba (Chandrapur), Navegaon (Gondia), and Pench (Nagpur) are all prominent national parks in the Vidarbha region.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Environment and Biodiversity"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following rivers flows through a rift valley?",
+    "Options": [
+      { "id": 1, "text": "Godavari" },
+      { "id": 2, "text": "Mahanadi" },
+      { "id": 3, "text": "Narmada" },
+      { "id": 4, "text": "Krishna" }
+    ],
+    "CorrectAnswer": "Narmada",
+    "Explanation": "The Narmada and the Tapi are the two major peninsular rivers that flow westwards through rift valleys (grabens) between the Vindhya and Satpuda ranges. This is why they form estuaries and not deltas.",
+    "Difficulty": "Easy",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Lonar Lake, a declared Ramsar site, is located in which district of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Buldhana" },
+      { "id": 2, "text": "Akola" },
+      { "id": 3, "text": "Washim" },
+      { "id": 4, "text": "Jalna" }
+    ],
+    "CorrectAnswer": "Buldhana",
+    "Explanation": "Lonar Lake is a saline soda lake located in Buldhana district. It was created by a meteor impact during the Pleistocene Epoch and is a significant geological and ecological site.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which Indian state has the longest coastline?",
+    "Options": [
+      { "id": 1, "text": "Tamil Nadu" },
+      { "id": 2, "text": "Maharashtra" },
+      { "id": 3, "text": "Andhra Pradesh" },
+      { "id": 4, "text": "Gujarat" }
+    ],
+    "CorrectAnswer": "Gujarat",
+    "Explanation": "Gujarat has the longest mainland coastline in India (approx 1,215 km) due to its indented nature (Gulf of Kutch, Gulf of Khambhat). It is followed by Tamil Nadu, then Andhra Pradesh.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "'Stalactites' and 'Stalagmites' are landforms typically found in which type of environment?",
+    "Options": [
+      { "id": 1, "text": "Glacial moraines" },
+      { "id": 2, "text": "Desert sand dunes" },
+      { "id": 3, "text": "Volcanic craters" },
+      { "id": 4, "text": "Limestone caves (Karst topography)" }
+    ],
+    "CorrectAnswer": "Limestone caves (Karst topography)",
+    "Explanation": "These are 'dripstone' features. Stalactites hang *tight* to the ceiling, and Stalagmites grow *mighty* from the ground, formed by the slow deposition of calcium carbonate from dripping water in limestone caves.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Geomorphology"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Mumbai-Nagpur Super Communication Expressway' is also officially known as the:",
+    "Options": [
+      { "id": 1, "text": "Yashwantrao Chavan Expressway" },
+      { "id": 2, "text": "Samruddhi Mahamarg" },
+      { "id": 3, "text": "Konkan Expressway" },
+      { "id": 4, "text": "Deccan Expressway" }
+    ],
+    "CorrectAnswer": "Samruddhi Mahamarg",
+    "Explanation": "The Hindu Hrudaysamrat Balasaheb Thackeray Maharashtra Samruddhi Mahamarg is the official name for the 701-km long expressway connecting Mumbai and Nagpur. The Yashwantrao Chavan Expressway is the Mumbai-Pune Expressway.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Transport Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Green Revolution' in India in the 1960s was most successful in which regions and for which crops?",
+    "Options": [
+      { "id": 1, "text": "Eastern India (Rice, Jute)" },
+      { "id": 2, "text": "Western India (Cotton, Sugarcane)" },
+      { "id": 3, "text": "North-Western India (Wheat, Rice)" },
+      { "id": 4, "text": "Southern India (Spices, Coffee)" }
+    ],
+    "CorrectAnswer": "North-Western India (Wheat, Rice)",
+    "Explanation": "The Green Revolution, based on High-Yielding Variety (HYV) seeds, irrigation, and fertilizers, had its most dramatic success in the states of Punjab, Haryana, and Western Uttar Pradesh, primarily for the Wheat crop, and later for Rice.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Agriculture"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "The 'Coriolis Effect', caused by the Earth's rotation, is responsible for:",
+    "Options": [
+      { "id": 1, "text": "The deflection of winds and ocean currents." },
+      { "id": 2, "text": "The formation of tides." },
+      { "id": 3, "text": "The occurrence of earthquakes." },
+      { "id": 4, "text": "The change of seasons." }
+    ],
+    "CorrectAnswer": "The deflection of winds and ocean currents.",
+    "Explanation": "The Coriolis Effect is an inertial force that deflects moving objects (like wind, airplanes, and ocean currents) to the right in the Northern Hemisphere and to the left in the Southern Hemisphere.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 1,
+    "topic": "Climatology"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following is the correct order of the 'Ghat' (Passes) in the Sahyadris from North to South?",
+    "Options": [
+      { "id": 1, "text": "Thalghat, Bhorghat, Amba Ghat, Amboli Ghat" },
+      { "id": 2, "text": "Bhorghat, Thalghat, Amboli Ghat, Amba Ghat" },
+      { "id": 3, "text": "Amboli Ghat, Amba Ghat, Bhorghat, Thalghat" },
+      { "id": 4, "text": "Thalghat, Amba Ghat, Bhorghat, Amboli Ghat" }
+    ],
+    "CorrectAnswer": "Thalghat, Bhorghat, Amba Ghat, Amboli Ghat",
+    "Explanation": "The correct North-to-South sequence is: Thalghat (Kasara Ghat: connects Mumbai-Nashik), Bhorghat (connects Mumbai-Pune), Amba Ghat (connects Ratnagiri-Kolhapur), and Amboli Ghat (connects Sindhudurg-Kolhapur/Belgaum).",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Jaduguda' mines in Jharkhand are famous for:",
+    "Options": [
+      { "id": 1, "text": "Gold" },
+      { "id": 2, "text": "Diamonds" },
+      { "id": 3, "text": "Uranium" },
+      { "id": 4, "text": "Coal" }
+    ],
+    "CorrectAnswer": "Uranium",
+    "Explanation": "The Jaduguda mine in the Singhbhum district of Jharkhand is India's first and most important uranium mine, operated by the Uranium Corporation of India (UCIL).",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Minerals and Resources"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "The 'Strait of Gibraltar' connects which two bodies of water?",
+    "Options": [
+      { "id": 1, "text": "The Mediterranean Sea and the Atlantic Ocean" },
+      { "id": 2, "text": "The Red Sea and the Mediterranean Sea" },
+      { "id": 3, "text": "The Black Sea and the Mediterranean Sea" },
+      { "id": 4, "text": "The Persian Gulf and the Arabian Sea" }
+    ],
+    "CorrectAnswer": "The Mediterranean Sea and the Atlantic Ocean",
+    "Explanation": "The Strait of Gibraltar is a narrow strait that connects the Atlantic Ocean to the Mediterranean Sea and separates Spain (Europe) from Morocco (Africa).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Laterite soil, rich in iron and aluminum oxides, is primarily found in which parts of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "The coastal Konkan region (Raigad, Ratnagiri, Sindhudurg)" },
+      { "id": 2, "text": "The Vidarbha region (Nagpur, Wardha)" },
+      { "id": 3, "text": "The Marathwada region (Aurangabad, Beed)" },
+      { "id": 4, "text": "The Tapi river valley (Jalgaon, Dhule)" }
+    ],
+    "CorrectAnswer": "The coastal Konkan region (Raigad, Ratnagiri, Sindhudurg)",
+    "Explanation": "Laterite soil is formed in areas with high rainfall and high temperatures, which leads to leaching. This condition is prevalent in the southern Konkan region, especially Ratnagiri and Sindhudurg, and also in the ghat areas of Kolhapur.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Soils of Maharashtra"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is the highest peak in the Eastern Ghats?",
+    "Options": [
+      { "id": 1, "text": "Anai Mudi" },
+      { "id": 2, "text": "Doddabetta" },
+      { "id": 3, "text": "Mahendragiri" },
+      { "id": 4, "text": "Jindhagada" }
+    ],
+    "CorrectAnswer": "Jindhagada",
+    "Explanation": "Jindhagada Peak (1690m) in Andhra Pradesh is the highest peak of the Eastern Ghats. Mahendragiri (1501m) in Odisha was earlier considered the highest. Anai Mudi and Doddabetta are in the Western Ghats.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 4,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "The 'Pampas' are temperate grasslands found in which country?",
+    "Options": [
+      { "id": 1, "text": "United States" },
+      { "id": 2, "text": "South Africa" },
+      { "id": 3, "text": "Argentina" },
+      { "id": 4, "text": "Australia" }
+    ],
+    "CorrectAnswer": "Argentina",
+    "Explanation": "The Pampas are fertile lowlands in South America, primarily covering parts of Argentina, Uruguay, and Brazil. They are known for cattle ranching (estancias). (Prairies = N. America, Veld = S. Africa, Steppes = Eurasia).",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Barren Island', India's only active volcano, is located in:",
+    "Options": [
+      { "id": 1, "text": "Lakshadweep Islands" },
+      { "id": 2, "text": "Andaman and Nicobar Islands" },
+      { "id": 3, "text": "Off the coast of Gujarat" },
+      { "id": 4, "text": "Off the coast of Odisha" }
+    ],
+    "CorrectAnswer": "Andaman and Nicobar Islands",
+    "Explanation": "Barren Island is an island located in the Andaman Sea and is the only confirmed active volcano in South Asia. It is part of the Andaman and Nicobar Union Territory.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "As per the 2011 Census, which administrative division of Maharashtra has the lowest population density?",
+    "Options": [
+      { "id": 1, "text": "Konkan Division" },
+      { "id": 2, "text": "Amravati Division" },
+      { "id": 3, "text": "Nagpur Division" },
+      { "id": 4, "text": "Aurangabad Division" }
+    ],
+    "CorrectAnswer": "Amravati Division",
+    "Explanation": "Amravati Division (Varhad) has the lowest population density in Maharashtra, largely due to its agrarian nature and lack of major industrial centers. Konkan Division (with Mumbai) has the highest.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Population and Demographics"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The Khetri mines in Rajasthan are famous for the production of which mineral?",
+    "Options": [
+      { "id": 1, "text": "Iron Ore" },
+      { "id": 2, "text": "Mica" },
+      { "id": 3, "text": "Coal" },
+      { "id": 4, "text": "Copper" }
+    ],
+    "CorrectAnswer": "Copper",
+    "Explanation": "The Khetri Copper Belt in the Jhunjhunu district of Rajasthan is one of India's most significant copper mining and production centers, with a history of mining dating back to ancient times.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Minerals and Resources"
+  },
+  {
+    "category": "Geography (Physical)",
+    "Question": "Which of the following is an example of a Metamorphic Rock?",
+    "Options": [
+      { "id": 1, "text": "Granite" },
+      { "id": 2, "text": "Sandstone" },
+      { "id": 3, "text": "Basalt" },
+      { "id": 4, "text": "Marble" }
+    ],
+    "CorrectAnswer": "Marble",
+    "Explanation": "Metamorphic rocks are formed from other rocks. Marble is formed when Limestone (a sedimentary rock) is subjected to intense heat and pressure. Granite and Basalt are igneous; Sandstone is sedimentary.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Geomorphology"
+  },
+  {
+    "category": "Geography (World)",
+    "Question": "The 'Suez Canal' connects which two bodies of water?",
+    "Options": [
+      { "id": 1, "text": "The Mediterranean Sea and the Red Sea" },
+      { "id": 2, "text": "The Atlantic Ocean and the Pacific Ocean" },
+      { "id": 3, "text": "The Mediterranean Sea and the Black Sea" },
+      { "id": 4, "text": "The Persian Gulf and the Arabian Sea" }
+    ],
+    "CorrectAnswer": "The Mediterranean Sea and the Red Sea",
+    "Explanation": "The Suez Canal is an artificial sea-level waterway in Egypt, connecting the Mediterranean Sea to the Red Sea. It provides the shortest maritime route between Europe and the Indian Ocean, bypassing Africa.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "World Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is the southernmost point of the *Indian mainland*?",
+    "Options": [
+      { "id": 1, "text": "Indira Point" },
+      { "id": 2, "text": "Kanyakumari" },
+      { "id": 3, "text": "Kavaratti" },
+      { "id": 4, "text": "Port Blair" }
+    ],
+    "CorrectAnswer": "Kanyakumari",
+    "Explanation": "The question specifically asks for the 'Indian mainland'. Kanyakumari (Cape Comorin) in Tamil Nadu is the southernmost tip of the mainland. 'Indira Point' in the Great Nicobar Island is the southernmost point of the Indian *Union* (territory).",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "General Geography"
+  }
+]

@@ -1,0 +1,1171 @@
+[
+      {
+        "category": "Ancient History",
+        "Question": "The famous rock-cut Kailasa temple at Ellora was built by which of the following dynasties?",
+        "Options": [
+          { "id": 1, "text": "Chalukyas" },
+          { "id": 2, "text": "Cholas" },
+          { "id": 3, "text": "Rashtrakutas" },
+          { "id": 4, "text": "Pallavas" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Rashtrakutas",
+        "Explanation": "The magnificent monolithic Kailasa temple (Cave 16) at Ellora was carved out of a single rock under the patronage of the Rashtrakuta king Krishna I in the 8th century. It is considered one of the most remarkable architectural feats of ancient India."
+      },
+      {
+        "category": "Ancient History",
+        "Question": "Who was the court poet of Harshavardhana?",
+        "Options": [
+          { "id": 1, "text": "Kalidasa" },
+          { "id": 2, "text": "Banabhatta" },
+          { "id": 3, "text": "Harisena" },
+          { "id": 4, "text": "Bhavabhuti" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Banabhatta",
+        "Explanation": "Banabhatta was the 'Asthana Kavi' (court poet) of King Harshavardhana. He authored the 'Harshacharita', a biography of Harsha, and 'Kadambari', one of the earliest novels in the world."
+      },
+      {
+        "category": "Medieval History",
+        "Question": "The 'Iqta' system was introduced by which Sultan of Delhi?",
+        "Options": [
+          { "id": 1, "text": "Alauddin Khilji" },
+          { "id": 2, "text": "Balban" },
+          { "id": 3, "text": "Iltutmish" },
+          { "id": 4, "text": "Qutub-ud-din Aibak" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Iltutmish",
+        "Explanation": "Shams-ud-din Iltutmish introduced the Iqta system as an administrative and land revenue assignment system. Under this system, the empire was divided into several large and small tracts of land, called Iqtas, which were assigned to soldiers, officers, and nobles."
+      },
+      {
+        "category": "Medieval History",
+        "Question": "Which Mughal Emperor abolished the pilgrimage tax (Jizya)?",
+        "Options": [
+          { "id": 1, "text": "Akbar" },
+          { "id": 2, "text": "Jahangir" },
+          { "id": 3, "text": "Shah Jahan" },
+          { "id": 4, "text": "Aurangzeb" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "Akbar",
+        "Explanation": "In 1564, Mughal Emperor Akbar abolished the Jizya tax, which was a per capita yearly tax historically levied on non-Muslim subjects. This was a significant step in his policy of religious tolerance. It was later re-introduced by Aurangzeb in 1679."
+      },
+      {
+        "category": "Medieval History",
+        "Question": "The Ashtapradhan Mandal was a council of ministers in which empire?",
+        "Options": [
+          { "id": 1, "text": "Mughal Empire" },
+          { "id": 2, "text": "Vijayanagara Empire" },
+          { "id": 3, "text": "Maratha Empire" },
+          { "id": 4, "text": "Bahmani Sultanate" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Maratha Empire",
+        "Explanation": "The Ashtapradhan Mandal was a council of eight ministers that administered the Maratha empire. This system was instituted by Chhatrapati Shivaji Maharaj and was crucial for the efficient administration of his kingdom."
+      },
+      {
+        "category": "Modern History",
+        "Question": "The Doctrine of Lapse was an annexation policy famously applied by:",
+        "Options": [
+          { "id": 1, "text": "Lord Wellesley" },
+          { "id": 2, "text": "Lord Dalhousie" },
+          { "id": 3, "text": "Lord Canning" },
+          { "id": 4, "text": "Lord Curzon" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Lord Dalhousie",
+        "Explanation": "The Doctrine of Lapse was an expansionist policy of the British East India Company applied by Lord Dalhousie, Governor-General of India from 1848 to 1856. It stated that any princely state under the direct influence of the company would be annexed if the ruler was 'manifestly incompetent or died without a direct heir'."
+      },
+      {
+        "category": "Social Reforms",
+        "Question": "Who founded the 'Satyashodhak Samaj' in 1873?",
+        "Options": [
+          { "id": 1, "text": "Dr. B. R. Ambedkar" },
+          { "id": 2, "text": "Swami Dayanand Saraswati" },
+          { "id": 3, "text": "Gopal Ganesh Agarkar" },
+          { "id": 4, "text": "Jyotiba Phule" }
+        ],
+        "Answer": "Option 4",
+        "CorrectAnswer": "Jyotiba Phule",
+        "Explanation": "Jyotiba Phule, a prominent social reformer from Maharashtra, founded the Satyashodhak Samaj (Society of Truth Seekers) on 24 September 1873. Its main objective was to liberate the Shudras and Ati Shudras (lower castes) and to prevent their exploitation by the Brahmins."
+      },
+      {
+        "category": "Freedom Struggle",
+        "Question": "The partition of Bengal in 1905 was carried out by which Viceroy?",
+        "Options": [
+          { "id": 1, "text": "Lord Minto" },
+          { "id": 2, "text": "Lord Hardinge" },
+          { "id": 3, "text": "Lord Curzon" },
+          { "id": 4, "text": "Lord Chelmsford" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Lord Curzon",
+        "Explanation": "Lord Curzon, the Viceroy of India from 1899 to 1905, was responsible for the Partition of Bengal. The stated reason was administrative efficiency, but it was widely seen as a 'divide and rule' tactic to weaken the growing nationalist movement."
+      },
+      {
+        "category": "Freedom Struggle",
+        "Question": "The 'Poorna Swaraj' (Complete Independence) resolution was passed by the Indian National Congress at which session?",
+        "Options": [
+          { "id": 1, "text": "Surat Session, 1907" },
+          { "id": 2, "text": "Lahore Session, 1929" },
+          { "id": 3, "text": "Karachi Session, 1931" },
+          { "id": 4, "text": "Nagpur Session, 1920" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Lahore Session, 1929",
+        "Explanation": "At the Lahore Session of the Indian National Congress in December 1929, presided over by Jawaharlal Nehru, the historic 'Poorna Swaraj' resolution was passed. It declared complete independence as the goal of the Congress, and 26th January 1930 was fixed as the first Independence Day."
+      },
+      {
+        "category": "Gandhian Era",
+        "Question": "The Dandi March, also known as the Salt Satyagraha, was initiated by Mahatma Gandhi in which year?",
+        "Options": [
+          { "id": 1, "text": "1920" },
+          { "id": 2, "text": "1930" },
+          { "id": 3, "text": "1942" },
+          { "id": 4, "text": "1928" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "1930",
+        "Explanation": "Mahatma Gandhi started the Dandi March on March 12, 1930, from Sabarmati Ashram to the coastal village of Dandi. This act of nonviolent civil disobedience against the British salt tax marked the beginning of the Civil Disobedience Movement."
+      },
+      {
+        "category": "Ancient History",
+        "Question": "The 'Arthashastra', an ancient Indian treatise on statecraft, economic policy, and military strategy, is attributed to:",
+        "Options": [
+          { "id": 1, "text": "Megasthenes" },
+          { "id": 2, "text": "Kautilya" },
+          { "id": 3, "text": "Ashoka" },
+          { "id": 4, "text": "Patanjali" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Kautilya",
+        "Explanation": "The Arthashastra is traditionally credited to Kautilya, also known as Chanakya or Vishnugupta, who was the chief advisor to the Mauryan emperor Chandragupta Maurya. It is a comprehensive manual on how to run a state."
+      },
+      {
+        "category": "Medieval History",
+        "Question": "Who founded the city of Agra and made it his capital?",
+        "Options": [
+          { "id": 1, "text": "Bahlul Lodi" },
+          { "id": 2, "text": "Akbar" },
+          { "id": 3, "text": "Sikandar Lodi" },
+          { "id": 4, "text": "Ibrahim Lodi" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Sikandar Lodi",
+        "Explanation": "Sikandar Lodi, the second ruler of the Lodi dynasty of the Delhi Sultanate, founded the city of Agra in 1504. He shifted his capital from Delhi to Agra to have better control over the trade routes and the rebellious chiefs of the region."
+      },
+      {
+        "category": "Freedom Struggle",
+        "Question": "The Ghadar Party was established in 1913 by Indian revolutionaries primarily in which country?",
+        "Options": [
+          { "id": 1, "text": "Germany" },
+          { "id": 2, "text": "United Kingdom" },
+          { "id": 3, "text": "Japan" },
+          { "id": 4, "text": "USA" }
+        ],
+        "Answer": "Option 4",
+        "CorrectAnswer": "USA",
+        "Explanation": "The Ghadar Party was founded by Punjabi Indians in the United States and Canada with the aim of liberating India from British rule. Its headquarters were in San Francisco, and Lala Har Dayal was a key founding member."
+      },
+      {
+        "category": "Modern History",
+        "Question": "The 'Ryotwari System' of land revenue was introduced by the British in which region?",
+        "Options": [
+          { "id": 1, "text": "Bengal Presidency" },
+          { "id": 2, "text": "Madras and Bombay Presidencies" },
+          { "id": 3, "text": "Central Provinces" },
+          { "id": 4, "text": "United Provinces" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Madras and Bombay Presidencies",
+        "Explanation": "The Ryotwari System was introduced by Thomas Munro and Alexander Read in the late 18th century and was primarily implemented in parts of the Madras and Bombay Presidencies. Under this system, the revenue was collected directly from the cultivators (ryots)."
+      },
+      {
+        "category": "Freedom Struggle",
+        "Question": "Who gave the slogan 'Do or Die' during the Quit India Movement?",
+        "Options": [
+          { "id": 1, "text": "Jawaharlal Nehru" },
+          { "id": 2, "text": "Subhas Chandra Bose" },
+          { "id": 3, "text": "Sardar Vallabhbhai Patel" },
+          { "id": 4, "text": "Mahatma Gandhi" }
+        ],
+        "Answer": "Option 4",
+        "CorrectAnswer": "Mahatma Gandhi",
+        "Explanation": "Mahatma Gandhi gave the famous slogan 'Do or Die' (Karo ya Maro) in his speech at the Gowalia Tank Maidan in Bombay on August 8, 1942, marking the beginning of the Quit India Movement, the final push for independence."
+      },
+      {
+        "category": "Social Reforms",
+        "Question": "The Widow Remarriage Act was passed in 1856 largely due to the efforts of which social reformer?",
+        "Options": [
+          { "id": 1, "text": "Raja Ram Mohan Roy" },
+          { "id": 2, "text": "Ishwar Chandra Vidyasagar" },
+          { "id": 3, "text": "Keshab Chandra Sen" },
+          { "id": 4, "text": "M. G. Ranade" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Ishwar Chandra Vidyasagar",
+        "Explanation": "Ishwar Chandra Vidyasagar, a key figure of the Bengal Renaissance, championed the cause of widow remarriage. His tireless campaign and petitions led to the enactment of the Hindu Widows' Remarriage Act, 1856, by the British government."
+      },
+      {
+        "category": "Freedom Struggle",
+        "Question": "The Jallianwala Bagh massacre occurred on April 13, 1919, in protest against which act?",
+        "Options": [
+          { "id": 1, "text": "Rowlatt Act" },
+          { "id": 2, "text": "Morley-Minto Reforms" },
+          { "id": 3, "text": "Simon Commission" },
+          { "id": 4, "text": "Government of India Act, 1919" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "Rowlatt Act",
+        "Explanation": "The Jallianwala Bagh gathering in Amritsar was a peaceful protest against the repressive Rowlatt Act of 1919, which allowed the British government to imprison any person suspected of terrorism without a trial. The massacre occurred when British troops under General Dyer opened fire on the unarmed crowd."
+      },
+      {
+        "category": "Ancient History",
+        "Question": "The Third Buddhist Council was held at Pataliputra under the patronage of which ruler?",
+        "Options": [
+          { "id": 1, "text": "Ajatashatru" },
+          { "id": 2, "text": "Kalasoka" },
+          { "id": 3, "text": "Ashoka" },
+          { "id": 4, "text": "Kanishka" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Ashoka",
+        "Explanation": "The Third Buddhist Council was convened around 250 BCE at Pataliputra, the capital of the Mauryan Empire, under the patronage of Emperor Ashoka. It was presided over by Moggaliputta Tissa and aimed to purify the Buddhist movement of opportunistic factions."
+      },
+      {
+        "category": "Medieval History",
+        "Question": "The famous Persian poet Amir Khusrau was a contemporary of which of the following rulers?",
+        "Options": [
+          { "id": 1, "text": "Akbar" },
+          { "id": 2, "text": "Iltutmish" },
+          { "id": 3, "text": "Alauddin Khilji" },
+          { "id": 4, "text": "Muhammad bin Tughlaq" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Alauddin Khilji",
+        "Explanation": "Amir Khusrau was a prolific poet, musician, and scholar who lived through the reigns of several sultans of Delhi. He was a prominent court poet for Alauddin Khilji and is often called the 'Parrot of India' (Tuti-e-Hind)."
+      },
+      {
+        "category": "Modern History",
+        "Question": "Who was the first Governor-General of Bengal?",
+        "Options": [
+          { "id": 1, "text": "Robert Clive" },
+          { "id": 2, "text": "Warren Hastings" },
+          { "id": 3, "text": "Lord Cornwallis" },
+          { "id": 4, "text": "Lord William Bentinck" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Warren Hastings",
+        "Explanation": "Warren Hastings became the first Governor of the Presidency of Fort William (Bengal) in 1772 and the first Governor-General of Bengal in 1773 under the Regulating Act of 1773. Robert Clive was a Governor of Bengal before the post of Governor-General was created."
+      },
+      {
+        "category": "Freedom Struggle",
+        "Question": "The Bardoli Satyagraha of 1928 was led by:",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "Sardar Vallabhbhai Patel" },
+          { "id": 3, "text": "Rajendra Prasad" },
+          { "id": 4, "text": "Vinoba Bhave" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Sardar Vallabhbhai Patel",
+        "Explanation": "The Bardoli Satyagraha was a major peasant movement in Gujarat against an unjust tax hike. Vallabhbhai Patel successfully led the movement, and it was the women of Bardoli who bestowed upon him the title 'Sardar' for his leadership."
+      },
+      {
+        "category": "Freedom Struggle",
+        "Question": "The 'Home Rule League' movement was started in India by:",
+        "Options": [
+          { "id": 1, "text": "Annie Besant and Bal Gangadhar Tilak" },
+          { "id": 2, "text": "Mahatma Gandhi" },
+          { "id": 3, "text": "Gopal Krishna Gokhale" },
+          { "id": 4, "text": "Subhas Chandra Bose" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "Annie Besant and Bal Gangadhar Tilak",
+        "Explanation": "The Indian Home Rule movement was started in 1916 on the lines of the Irish Home Rule movement. Bal Gangadhar Tilak launched his league in April 1916 in Pune, while Annie Besant started her league in September 1916 in Madras, with both working in different areas to avoid friction."
+      },
+      {
+        "category": "Medieval History",
+        "Question": "Which ruler of the Vijayanagara Empire was the author of 'Amuktamalyada'?",
+        "Options": [
+          { "id": 1, "text": "Harihara I" },
+          { "id": 2, "text": "Deva Raya II" },
+          { "id": 3, "text": "Krishnadevaraya" },
+          { "id": 4, "text": "Achyuta Deva Raya" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Krishnadevaraya",
+        "Explanation": "Krishnadevaraya, the greatest ruler of the Vijayanagara Empire, was a great patron of literature and was himself a scholar. He authored the Telugu epic poem 'Amuktamalyada', which describes the story of the wedding of the god Vishnu to Andal."
+      },
+      {
+        "category": "Modern History",
+        "Question": "The Permanent Settlement of Bengal was introduced in 1793 by:",
+        "Options": [
+          { "id": 1, "text": "Warren Hastings" },
+          { "id": 2, "text": "Sir John Shore" },
+          { "id": 3, "text": "Lord Wellesley" },
+          { "id": 4, "text": "Lord Cornwallis" }
+        ],
+        "Answer": "Option 4",
+        "CorrectAnswer": "Lord Cornwallis",
+        "Explanation": "The Permanent Settlement was an agreement between the East India Company and Bengali landlords to fix land revenue. It was introduced by Governor-General Lord Cornwallis in 1793, making the Zamindars the owners of the land in their districts."
+      },
+      {
+        "category": "Social Reforms",
+        "Question": "Who founded the 'Prarthana Samaj' in Bombay in 1867?",
+        "Options": [
+          { "id": 1, "text": "Keshab Chandra Sen" },
+          { "id": 2, "text": "Debendranath Tagore" },
+          { "id": 3, "text": "Atmaram Pandurang" },
+          { "id": 4, "text": "M. G. Ranade" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Atmaram Pandurang",
+        "Explanation": "The Prarthana Samaj was founded by Atmaram Pandurang in 1867 with the aim of promoting social and religious reforms in Western India. It was inspired by the Brahmo Samaj and focused on monotheism, social equality, and the abolition of caste restrictions and child marriage."
+      }, {
+        "category": "Maharashtra History",
+        "Question": "In which year did Chhatrapati Shivaji Maharaj get crowned as 'Chhatrapati' at Raigad Fort?",
+        "Options": [
+          { "id": 1, "text": "1672" },
+          { "id": 2, "text": "1674" },
+          { "id": 3, "text": "1680" },
+          { "id": 4, "text": "1665" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "1674",
+        "Explanation": "Shivaji Maharaj was formally crowned as the 'Chhatrapati' (sovereign monarch) of the Maratha Kingdom on June 6, 1674, at Raigad Fort."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Which saint is considered the first Varkari saint in Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Saint Tukaram" },
+          { "id": 2, "text": "Saint Eknath" },
+          { "id": 3, "text": "Saint Dnyaneshwar" },
+          { "id": 4, "text": "Saint Namdev" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Saint Dnyaneshwar",
+        "Explanation": "Saint Dnyaneshwar (or Dnyandev), who wrote the Dnyaneshwari (a commentary on the Bhagavad Gita), is widely considered the founder and first great saint of the Varkari tradition."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The Treaty of Purandar (1665) was signed between Shivaji Maharaj and which Mughal general?",
+        "Options": [
+          { "id": 1, "text": "Shaista Khan" },
+          { "id": 2, "text": "Afzal Khan" },
+          { "id": 3, "text": "Jai Singh I" },
+          { "id": 4, "text": "Dilir Khan" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Jai Singh I",
+        "Explanation": "The Treaty of Purandar was signed in 1665 between the Maratha ruler Shivaji Maharaj and Raja Jai Singh I, the commander of the Mughal army sent by Emperor Aurangzeb."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who was the founder of the Bahamani Sultanate, which significantly influenced the history of the Deccan?",
+        "Options": [
+          { "id": 1, "text": "Malik Ahmad" },
+          { "id": 2, "text": "Allauddin Hasan Bahman Shah (Zafar Khan)" },
+          { "id": 3, "text": "Yusuf Adil Shah" },
+          { "id": 4, "text": "Quli Qutb Shah" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Allauddin Hasan Bahman Shah (Zafar Khan)",
+        "Explanation": "Allauddin Hasan Bahman Shah, originally known as Zafar Khan, founded the Bahamani Sultanate in 1347 A.D. with its capital at Gulbarga."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Which fort is considered the birthplace of Chhatrapati Shivaji Maharaj?",
+        "Options": [
+          { "id": 1, "text": "Raigad Fort" },
+          { "id": 2, "text": "Sinhagad Fort" },
+          { "id": 3, "text": "Shivneri Fort" },
+          { "id": 4, "text": "Panhala Fort" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Shivneri Fort",
+        "Explanation": "Chhatrapati Shivaji Maharaj was born at Shivneri Fort, located in the Junnar region of Pune district, on February 19, 1630."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The First Anglo-Maratha War concluded with the signing of which treaty?",
+        "Options": [
+          { "id": 1, "text": "Treaty of Bassein" },
+          { "id": 2, "text": "Treaty of Salbai" },
+          { "id": 3, "text": "Treaty of Surji-Anjangaon" },
+          { "id": 4, "text": "Treaty of Purandar" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Treaty of Salbai",
+        "Explanation": "The First Anglo-Maratha War (1775-1782) was concluded with the Treaty of Salbai in 1782, mediated by Mahadaji Shinde."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who was the last Peshwa of the Maratha Empire?",
+        "Options": [
+          { "id": 1, "text": "Balaji Baji Rao" },
+          { "id": 2, "text": "Madhavrao I" },
+          { "id": 3, "text": "Baji Rao II" },
+          { "id": 4, "text": "Raghunathrao" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Baji Rao II",
+        "Explanation": "Baji Rao II was the last Peshwa of the Maratha Empire, who was defeated by the British in the Third Anglo-Maratha War in 1818."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The city of **Aurangabad** was historically known by which name before being renamed by Aurangzeb?",
+        "Options": [
+          { "id": 1, "text": "Daulatabad" },
+          { "id": 2, "text": "Khidki" },
+          { "id": 3, "text": "Junnar" },
+          { "id": 4, "text": "Ahmednagar" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Khidki",
+        "Explanation": "The city of Aurangabad was originally founded by Malik Ambar in 1610 and named **Khidki**. It was renamed to Aurangabad by the Mughal Emperor Aurangzeb."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who founded the 'Bahishkrit Hitakarini Sabha' for the upliftment of the depressed classes?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Jyotirao Phule" },
+          { "id": 2, "text": "Dr. B. R. Ambedkar" },
+          { "id": 3, "text": "Gopal Ganesh Agarkar" },
+          { "id": 4, "text": "Maharshi Vitthal Ramji Shinde" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Dr. B. R. Ambedkar",
+        "Explanation": "Dr. B. R. Ambedkar founded the **Bahishkrit Hitakarini Sabha** (Outcastes Welfare Association) in Bombay on July 20, 1924, to promote education and socio-economic status among the depressed classes."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Which Marathi newspaper was started by Bal Gangadhar Tilak in 1881?",
+        "Options": [
+          { "id": 1, "text": "Sudharak" },
+          { "id": 2, "text": "Indu Prakash" },
+          { "id": 3, "text": "Kesari" },
+          { "id": 4, "text": "Maratha" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Kesari",
+        "Explanation": "Bal Gangadhar Tilak started the Marathi newspaper **Kesari** on January 4, 1881. He also started an English newspaper called 'Maratha' simultaneously."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The historic **Wadala Salt Pan Satyagraha** during the Civil Disobedience Movement took place in which city of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Nagpur" },
+          { "id": 3, "text": "Mumbai (Bombay)" },
+          { "id": 4, "text": "Nashik" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Mumbai (Bombay)",
+        "Explanation": "The Wadala salt pan, located in Bombay, was a major center for the Salt Satyagraha in 1930, demonstrating civil disobedience against the British salt tax."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who is known as the **Spiritual Guru of Chhatrapati Shivaji Maharaj**?",
+        "Options": [
+          { "id": 1, "text": "Tukaram" },
+          { "id": 2, "text": "Samarth Ramdas" },
+          { "id": 3, "text": "Eknath" },
+          { "id": 4, "text": "Jijabai" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Samarth Ramdas",
+        "Explanation": "Samarth Ramdas was a prominent saint and spiritual advisor to Chhatrapati Shivaji Maharaj. He is also known for composing the 'Dasbodh'."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The Elephanta Caves, a UNESCO World Heritage Site in Maharashtra, are primarily dedicated to which Hindu deity?",
+        "Options": [
+          { "id": 1, "text": "Lord Vishnu" },
+          { "id": 2, "text": "Lord Shiva" },
+          { "id": 3, "text": "Goddess Durga" },
+          { "id": 4, "text": "Lord Brahma" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Lord Shiva",
+        "Explanation": "The main cave temple at Elephanta Caves is a dedicated place of worship to the Hindu god Shiva, famous for the Trimurti sculpture."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Which dynasty ruled the Deccan, including parts of present-day Maharashtra, between the 6th and 12th centuries AD and was known for the cave temples at Badami and Aihole?",
+        "Options": [
+          { "id": 1, "text": "Mauryan Dynasty" },
+          { "id": 2, "text": "Chola Dynasty" },
+          { "id": 3, "text": "Chalukya Dynasty" },
+          { "id": 4, "text": "Rashtrakuta Dynasty" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Chalukya Dynasty",
+        "Explanation": "The Chalukya Dynasty was a prominent imperial power in the Deccan, ruling from the 6th to the 12th century, with their capital at Badami (Vatapi)."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The city of **Bombay** was officially renamed **Mumbai** in which year?",
+        "Options": [
+          { "id": 1, "text": "1947" },
+          { "id": 2, "text": "1960" },
+          { "id": 3, "text": "1995" },
+          { "id": 4, "text": "2000" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "1995",
+        "Explanation": "The city's name was officially changed from Bombay to Mumbai in 1995, reflecting the demands of the Shiv Sena party to use the local Marathi name."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who was the first Chief Minister of Maharashtra State, formed on May 1, 1960?",
+        "Options": [
+          { "id": 1, "text": "Vasantdada Patil" },
+          { "id": 2, "text": "P. K. Sawant" },
+          { "id": 3, "text": "Sharad Pawar" },
+          { "id": 4, "text": "Yashwantrao Chavan" }
+        ],
+        "Answer": "Option 4",
+        "CorrectAnswer": "Yashwantrao Chavan",
+        "Explanation": "Yashwantrao Chavan was the first Chief Minister of Maharashtra State, which was formed on May 1, 1960, after the separation of the Marathi and Gujarati linguistic regions of the Bombay State."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Which historical figure is popularly known as **'Lokhitwadi'** in Maharashtra for his writings on social and cultural reform?",
+        "Options": [
+          { "id": 1, "text": "Gopal Krishna Gokhale" },
+          { "id": 2, "text": "Gopal Hari Deshmukh" },
+          { "id": 3, "text": "Justice Mahadev Govind Ranade" },
+          { "id": 4, "text": "Bal Gangadhar Tilak" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Gopal Hari Deshmukh",
+        "Explanation": "Gopal Hari Deshmukh was a social reformer and thinker from Maharashtra who wrote essays in the Marathi weekly 'Prabhakar' under the pseudonym **'Lokhitwadi'** (Well-wisher of the People)."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who founded the **'Arya Mahila Samaj'** in Pune in 1882?",
+        "Options": [
+          { "id": 1, "text": "Savitribai Phule" },
+          { "id": 2, "text": "Pandita Ramabai" },
+          { "id": 3, "text": "Tarabai Shinde" },
+          { "id": 4, "text": "Ramabai Ranade" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Pandita Ramabai",
+        "Explanation": "Pandita Ramabai founded the Arya Mahila Samaj (Aryan Women's Society) in Pune in 1882 to promote women's education and abolish child marriage."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Mumbai University** was established in which year, along with the universities of Calcutta and Madras?",
+        "Options": [
+          { "id": 1, "text": "1853" },
+          { "id": 2, "text": "1857" },
+          { "id": 3, "text": "1885" },
+          { "id": 4, "text": "1905" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "1857",
+        "Explanation": "The University of Bombay (now Mumbai University) was established in 1857, following the model of the University of London."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who was the founder of the **Ahmednagar Sultanate**, one of the five Deccan Sultanates?",
+        "Options": [
+          { "id": 1, "text": "Malik Ahmad Nizam Shah I" },
+          { "id": 2, "text": "Qasim Barid" },
+          { "id": 3, "text": "Yusuf Adil Shah" },
+          { "id": 4, "text": "Burhan Nizam Shah I" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "Malik Ahmad Nizam Shah I",
+        "Explanation": "Malik Ahmad Nizam Shah I declared independence in 1490 and established the Nizam Shahi dynasty, with his capital initially at Junnar and later at Ahmednagar."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Which military campaign in 1803 resulted in General Wellesley capturing the Ahmednagar Fort, promoting British power in the region?",
+        "Options": [
+          { "id": 1, "text": "First Anglo-Maratha War" },
+          { "id": 2, "text": "Second Anglo-Maratha War" },
+          { "id": 3, "text": "Third Anglo-Maratha War" },
+          { "id": 4, "text": "Battle of Assaye" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Second Anglo-Maratha War",
+        "Explanation": "Ahmednagar fort was captured by Major General Arthur Wellesley (later Duke of Wellington) in August 1803 during the Second Anglo-Maratha War."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Which Bhosale ruler signed the **'Treaty of Nagpur'** with the British in 1817, leading to a loss of territory?",
+        "Options": [
+          { "id": 1, "text": "Raghuji Bhonsle II" },
+          { "id": 2, "text": "Appa Saheb" },
+          { "id": 3, "text": "Raghuji Bhonsle III" },
+          { "id": 4, "text": "Janoji Bhonsle" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Appa Saheb",
+        "Explanation": "Appa Saheb (Mudhoji II Bhonsle) signed the Treaty of Nagpur with the British in 1817, which brought the Nagpur kingdom under British subsidiary alliance."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who among the following was the founder of the **'Prarthana Samaj'** in Bombay in 1867?",
+        "Options": [
+          { "id": 1, "text": "Dayanand Saraswati" },
+          { "id": 2, "text": "Gopal Ganesh Agarkar" },
+          { "id": 3, "text": "Atmaram Pandurang" },
+          { "id": 4, "text": "Dadabhai Naoroji" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Atmaram Pandurang",
+        "Explanation": "The Prarthana Samaj was founded by **Atmaram Pandurang** in Bombay in 1867 with the help of Keshab Chandra Sen and others, emphasizing monotheism and social reform."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Ganeshotsav** (Ganesha Festival) was popularized by which nationalist leader to unite people against British rule?",
+        "Options": [
+          { "id": 1, "text": "Gopal Krishna Gokhale" },
+          { "id": 2, "text": "Bal Gangadhar Tilak" },
+          { "id": 3, "text": "Justice Ranade" },
+          { "id": 4, "text": "Shivaji Maharaj" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Bal Gangadhar Tilak",
+        "Explanation": "Bal Gangadhar Tilak revived and popularized the public celebration of Ganeshotsav in 1893 to promote nationalist ideas and unite people."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Godavari River**, one of the longest rivers in India, has its source in which district of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Nashik" },
+          { "id": 3, "text": "Ahmednagar" },
+          { "id": 4, "text": "Nanded" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Nashik",
+        "Explanation": "The Godavari River originates near Nashik in the Western Ghats of Maharashtra, at Trimbakeshwar."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who established the **Sharada Sadan** school for Hindu widows in Bombay (later shifted to Pune) in 1889?",
+        "Options": [
+          { "id": 1, "text": "Pandita Ramabai" },
+          { "id": 2, "text": "Dhondo Keshav Karve" },
+          { "id": 3, "text": "Savitribai Phule" },
+          { "id": 4, "text": "Mahatma Phule" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "Pandita Ramabai",
+        "Explanation": "Pandita Ramabai opened Sharada Sadan, a residential school for Hindu widows, in 1889."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **First Session of the Indian National Congress** in 1885 was held in which city of Maharashtra (then Bombay Presidency)?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Nagpur" },
+          { "id": 3, "text": "Bombay" },
+          { "id": 4, "text": "Nashik" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Bombay",
+        "Explanation": "The first session of the Indian National Congress was held in Bombay at the Gokuldas Tejpal Sanskrit Pathshala."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who founded the **Hingane Female Educational Institute** in Pune, an institution dedicated to women's education and welfare?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Jyotirao Phule" },
+          { "id": 2, "text": "Dhondo Keshav Karve" },
+          { "id": 3, "text": "Gopal Ganesh Agarkar" },
+          { "id": 4, "text": "Rajarshi Shahu Maharaj" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Dhondo Keshav Karve",
+        "Explanation": "Dhondo Keshav Karve established the Hingane Female Educational Institute in 1896, which later became the first women's university in India (SNDT Women's University)."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The famous **Ellora Caves** are known for the co-existence of which three religious monuments?",
+        "Options": [
+          { "id": 1, "text": "Hinduism, Jainism, Buddhism" },
+          { "id": 2, "text": "Hinduism, Islam, Buddhism" },
+          { "id": 3, "text": "Buddhism, Jainism, Sikhism" },
+          { "id": 4, "text": "Hinduism, Jainism, Sikhism" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "Hinduism, Jainism, Buddhism",
+        "Explanation": "The Ellora Caves complex features temples and monasteries of three different religions: Buddhism, Hinduism, and Jainism, constructed between the 6th and 10th centuries."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who is known as the **'Father of the Marathi Theatre'**?",
+        "Options": [
+          { "id": 1, "text": "Annasaheb Kirloskar" },
+          { "id": 2, "text": "V. S. Khandekar" },
+          { "id": 3, "text": "P. K. Atre" },
+          { "id": 4, "text": "Vishnu Bhikaji Gokhale" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "Annasaheb Kirloskar",
+        "Explanation": "Balgandharva Annasaheb Kirloskar (Kirloskar Natak Mandali) is credited with establishing the first successful Marathi Sangeet Natak (musical play) tradition."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Which social reformer from Maharashtra started the newspaper **'Sudharak'** in 1888, focusing on social reforms?",
+        "Options": [
+          { "id": 1, "text": "Bal Gangadhar Tilak" },
+          { "id": 2, "text": "Gopal Ganesh Agarkar" },
+          { "id": 3, "text": "Gopal Krishna Gokhale" },
+          { "id": 4, "text": "Mahatma Jyotirao Phule" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Gopal Ganesh Agarkar",
+        "Explanation": "Gopal Ganesh Agarkar was a key social reformer who separated from Tilak over the primacy of social reform over political reform and started the newspaper 'Sudharak' in 1888."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Rashtrakuta Dynasty**, which constructed the magnificent Kailasa Temple at Ellora, ruled from which capital city in the Deccan?",
+        "Options": [
+          { "id": 1, "text": "Badami" },
+          { "id": 2, "text": "Manyakheta (Malkhed)" },
+          { "id": 3, "text": "Kalyani" },
+          { "id": 4, "text": "Pattadakal" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Manyakheta (Malkhed)",
+        "Explanation": "The Rashtrakuta Dynasty's capital was Manyakheta (present-day Malkhed in Karnataka), and their kingdom included a significant portion of modern-day Maharashtra."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The famous poet-saint **Tukaram** was a contemporary of which Maratha ruler?",
+        "Options": [
+          { "id": 1, "text": "Chhatrapati Sambhaji" },
+          { "id": 2, "text": "Chhatrapati Shivaji Maharaj" },
+          { "id": 3, "text": "Shahu Maharaj" },
+          { "id": 4, "text": "Peshwa Bajirao I" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Chhatrapati Shivaji Maharaj",
+        "Explanation": "Sant Tukaram lived during the early to mid-17th century and was a contemporary of Chhatrapati Shivaji Maharaj."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "In which year was the state of **Maharashtra** officially established?",
+        "Options": [
+          { "id": 1, "text": "1947" },
+          { "id": 2, "text": "1956" },
+          { "id": 3, "text": "1960" },
+          { "id": 4, "text": "1972" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "1960",
+        "Explanation": "Maharashtra was established on May 1, 1960, after the Bombay Reorganisation Act split the bilingual Bombay State into two separate states: Maharashtra and Gujarat."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who founded the **'Depressed Classes Mission of India'** in 1906 in Bombay?",
+        "Options": [
+          { "id": 1, "text": "Dr. B. R. Ambedkar" },
+          { "id": 2, "text": "Maharshi Vitthal Ramji Shinde" },
+          { "id": 3, "text": "Karmaveer Bhaurao Patil" },
+          { "id": 4, "text": "Gopal Krishna Gokhale" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Maharshi Vitthal Ramji Shinde",
+        "Explanation": "Maharshi Vitthal Ramji Shinde founded the **Depressed Classes Mission Society of India** in 1906 with the aim of educating and uplifting the untouchable classes."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Shaniwar Wada**, an iconic historical structure, was the seat of the Maratha **Peshwas** and is located in which city?",
+        "Options": [
+          { "id": 1, "text": "Satara" },
+          { "id": 2, "text": "Nagpur" },
+          { "id": 3, "text": "Pune" },
+          { "id": 4, "text": "Kolhapur" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Pune",
+        "Explanation": "Shaniwar Wada was the fortress-palace of the Maratha Peshwas until 1818 and is located in Pune."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who among the following wrote the famous book **'Gulamgiri'** (Slavery) in 1873?",
+        "Options": [
+          { "id": 1, "text": "Dr. B. R. Ambedkar" },
+          { "id": 2, "text": "Mahatma Jyotirao Phule" },
+          { "id": 3, "text": "Savitribai Phule" },
+          { "id": 4, "text": "Gopal Ganesh Agarkar" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Mahatma Jyotirao Phule",
+        "Explanation": "Mahatma Jyotirao Phule wrote the book 'Gulamgiri' in 1873, dedicating it to the American people who fought to end slavery."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Battle of Kharda** in 1795 marked the last major military conflict between the Marathas and which regional power?",
+        "Options": [
+          { "id": 1, "text": "Nizam of Hyderabad" },
+          { "id": 2, "text": "Mysore" },
+          { "id": 3, "text": "British East India Company" },
+          { "id": 4, "text": "Mughals" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "Nizam of Hyderabad",
+        "Explanation": "The Battle of Kharda in 1795 was fought between the Maratha Confederacy and the Nizam of Hyderabad, resulting in a decisive Maratha victory."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who is credited with being the political guru of Mahatma Gandhi and hailed from Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Bal Gangadhar Tilak" },
+          { "id": 2, "text": "Gopal Krishna Gokhale" },
+          { "id": 3, "text": "Dadabhai Naoroji" },
+          { "id": 4, "text": "Justice Mahadev Govind Ranade" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Gopal Krishna Gokhale",
+        "Explanation": "Gopal Krishna Gokhale, a moderate leader of the Indian National Congress and a prominent figure from Maharashtra, was considered the political guru of Mahatma Gandhi."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Gateway of India** in Mumbai was erected to commemorate the landing of which British monarch?",
+        "Options": [
+          { "id": 1, "text": "Queen Victoria" },
+          { "id": 2, "text": "King Edward VII" },
+          { "id": 3, "text": "King George V" },
+          { "id": 4, "text": "Queen Elizabeth II" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "King George V",
+        "Explanation": "The Gateway of India was built to commemorate the landing of King George V and Queen Mary at Apollo Bunder during their visit to India in 1911."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Which historical region of Maharashtra was ruled by the **Farooqi Dynasty** from 1382 till its annexation by Akbar in 1601?",
+        "Options": [
+          { "id": 1, "text": "Konkan" },
+          { "id": 2, "text": "Marathwada" },
+          { "id": 3, "text": "Vidarbha" },
+          { "id": 4, "text": "Khandesh" }
+        ],
+        "Answer": "Option 4",
+        "CorrectAnswer": "Khandesh",
+        "Explanation": "The Farooqi Dynasty ruled the Khandesh Sultanate, with its capital at Burhanpur, until it was annexed by the Mughal Emperor Akbar in 1601."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Third Battle of Panipat** (1761) was fought between the Maratha Empire and which invader?",
+        "Options": [
+          { "id": 1, "text": "Nadir Shah" },
+          { "id": 2, "text": "Ahmad Shah Durrani" },
+          { "id": 3, "text": "Zaman Shah Durrani" },
+          { "id": 4, "text": "Mughal Empire" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Ahmad Shah Durrani",
+        "Explanation": "The Third Battle of Panipat was fought on January 14, 1761, between the Maratha forces under Sadashivrao Bhau and the Afghan forces led by Ahmad Shah Durrani."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who founded the **'Deccan Education Society'** in Pune in 1884, along with Tilak and others?",
+        "Options": [
+          { "id": 1, "text": "Gopal Krishna Gokhale" },
+          { "id": 2, "text": "Justice Mahadev Govind Ranade" },
+          { "id": 3, "text": "Vishnu Krishna Chiplunkar" },
+          { "id": 4, "text": "Dhondo Keshav Karve" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Vishnu Krishna Chiplunkar",
+        "Explanation": "The Deccan Education Society was founded by Vishnu Krishna Chiplunkar, Bal Gangadhar Tilak, Gopal Ganesh Agarkar, and others to promote quality education."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Ashtapradhan Mandal** was the council of eight ministers in the administration of which ruler?",
+        "Options": [
+          { "id": 1, "text": "Peshwa Bajirao I" },
+          { "id": 2, "text": "Chhatrapati Sambhaji" },
+          { "id": 3, "text": "Chhatrapati Shivaji Maharaj" },
+          { "id": 4, "text": "Shahu Maharaj" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Chhatrapati Shivaji Maharaj",
+        "Explanation": "The Ashtapradhan Mandal was the administrative and advisory council of eight ministers created by Chhatrapati Shivaji Maharaj."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Which historical figure from Maharashtra is known for his work on the emancipation of women and the establishment of the first girls' school in Pune in 1848?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Jyotirao Phule" },
+          { "id": 2, "text": "Gopal Ganesh Agarkar" },
+          { "id": 3, "text": "Dr. B. R. Ambedkar" },
+          { "id": 4, "text": "Rajarshi Shahu Maharaj" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "Mahatma Jyotirao Phule",
+        "Explanation": "Mahatma Jyotirao Phule, along with his wife Savitribai Phule, pioneered women's education in India by establishing one of the first girls' schools in Pune in 1848."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The Sikh Gurudwara **Takht Sachkhand Sri Hazur Sahib**, one of the five Takhts, is located in which city of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Nagpur" },
+          { "id": 3, "text": "Nanded" },
+          { "id": 4, "text": "Amravati" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Nanded",
+        "Explanation": "Takht Sachkhand Sri Hazur Sahib is located in Nanded, where Guru Gobind Singhji breathed his last."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who was the founder of the Gwalior State of the Scindia Dynasty, which originated as a Maratha confederacy state?",
+        "Options": [
+          { "id": 1, "text": "Daulat Rao Scindia" },
+          { "id": 2, "text": "Mahadaji Shinde" },
+          { "id": 3, "text": "Ranojirao Scindia" },
+          { "id": 4, "text": "Jankoji Rao Scindia" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Ranojirao Scindia",
+        "Explanation": "Ranojirao Scindia was the founder of the Scindia dynasty that ruled the Gwalior State, initially a powerful Maratha chief under Peshwa Bajirao I."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Which social reformer from Maharashtra was the first person from the state to receive the **Bharat Ratna** award (posthumously)?",
+        "Options": [
+          { "id": 1, "text": "Dr. B. R. Ambedkar" },
+          { "id": 2, "text": "J. R. D. Tata" },
+          { "id": 3, "text": "Dhondo Keshav Karve" },
+          { "id": 4, "text": "Acharya Vinoba Bhave" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Dhondo Keshav Karve",
+        "Explanation": "Dhondo Keshav Karve was awarded the Bharat Ratna in 1958 for his immense contributions to women's education and welfare."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The city of **Kolhapur** was the seat of the Maratha Empire's junior branch, founded by which Queen?",
+        "Options": [
+          { "id": 1, "text": "Jijabai" },
+          { "id": 2, "text": "Yesubai" },
+          { "id": 3, "text": "Tarabai" },
+          { "id": 4, "text": "Ahilyabai Holkar" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Tarabai",
+        "Explanation": "After the death of Rajaram, Queen Tarabai, his wife, established the Kolhapur branch of the Maratha Empire in opposition to the Satara branch under Shahu Maharaj."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **'Poona Pact'** of 1932 was signed between Mahatma Gandhi and which other leader, concerning the reservation of electoral seats?",
+        "Options": [
+          { "id": 1, "text": "Jawaharlal Nehru" },
+          { "id": 2, "text": "Muhammad Ali Jinnah" },
+          { "id": 3, "text": "Dr. B. R. Ambedkar" },
+          { "id": 4, "text": "Subhas Chandra Bose" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Dr. B. R. Ambedkar",
+        "Explanation": "The Poona Pact was an agreement between Mahatma Gandhi and Dr. B. R. Ambedkar on the reservation of electoral seats for the depressed classes in the British India legislature."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who built the famous rock-cut **Kailasa Temple** at Ellora, a magnificent monolithic structure?",
+        "Options": [
+          { "id": 1, "text": "Chalukyas" },
+          { "id": 2, "text": "Rashtrakutas" },
+          { "id": 3, "text": "Vakatakas" },
+          { "id": 4, "text": "Yadavas" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Rashtrakutas",
+        "Explanation": "The Kailasa Temple (Cave 16) at Ellora was built by the Rashtrakuta King Krishna I (756–773 CE)."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The medieval city of **Daulatabad** (previously Devagiri) was briefly the capital of the Delhi Sultanate under which ruler?",
+        "Options": [
+          { "id": 1, "text": "Alauddin Khalji" },
+          { "id": 2, "text": "Firoz Shah Tughlaq" },
+          { "id": 3, "text": "Muhammad bin Tughlaq" },
+          { "id": 4, "text": "Ibrahim Lodi" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Muhammad bin Tughlaq",
+        "Explanation": "Muhammad bin Tughlaq famously shifted his capital from Delhi to Devagiri (renamed Daulatabad) in 1327-28, though the move was short-lived."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Vakataka Dynasty**, which patronized the Ajanta Caves, had their capital in which region of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Marathwada" },
+          { "id": 2, "text": "Vidarbha" },
+          { "id": 3, "text": "Konkan" },
+          { "id": 4, "text": "Khandesh" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Vidarbha",
+        "Explanation": "The Vakataka Dynasty was a powerful kingdom in the Deccan from the 3rd to 5th centuries, primarily ruling over the Vidarbha region."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who founded the **Satya Shodhak Samaj** (Truth-Seekers' Society) in 1873 to challenge social inequalities?",
+        "Options": [
+          { "id": 1, "text": "Gopal Krishna Gokhale" },
+          { "id": 2, "text": "Mahatma Jyotirao Phule" },
+          { "id": 3, "text": "Vithal Ramji Shinde" },
+          { "id": 4, "text": "Dayanand Saraswati" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Mahatma Jyotirao Phule",
+        "Explanation": "Mahatma Jyotirao Phule established the Satya Shodhak Samaj in Pune on September 24, 1873, focusing on the rights of the depressed classes and women."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Battle of Pavan Khind** in 1660 is a famous instance of sacrifice involving which of Shivaji's loyal commanders?",
+        "Options": [
+          { "id": 1, "text": "Tanaji Malusare" },
+          { "id": 2, "text": "Baji Prabhu Deshpande" },
+          { "id": 3, "text": "Netaji Palkar" },
+          { "id": 4, "text": "Murarbaji Deshpande" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Baji Prabhu Deshpande",
+        "Explanation": "Baji Prabhu Deshpande and his contingent fought a heroic rearguard action at the Ghodkhind pass (later renamed Pavan Khind) to cover Shivaji's escape from Panhala fort."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Which Maratha general's wife, **Ahilyabai Holkar**, is renowned for her administrative and construction work, primarily in Malwa and other parts of India?",
+        "Options": [
+          { "id": 1, "text": "Yashwantrao Holkar" },
+          { "id": 2, "text": "Tukoji Rao Holkar" },
+          { "id": 3, "text": "Malhar Rao Holkar" },
+          { "id": 4, "text": "Shivaji Rao Holkar" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Malhar Rao Holkar",
+        "Explanation": "Ahilyabai Holkar was the daughter-in-law of Malhar Rao Holkar, the founder of the Holkar Dynasty, and took charge of the administration after the death of her husband and father-in-law."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The first **Co-operative Sugar Factory** in Maharashtra (and India) was established in which district in 1950?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Ahmednagar" },
+          { "id": 3, "text": "Satara" },
+          { "id": 4, "text": "Kolhapur" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Ahmednagar",
+        "Explanation": "The first co-operative sugar factory, Pravara Sahakari Sakhar Karkhana, was established in 1950 in Pravaranagar, Ahmednagar district, by Vitthalrao Vikhe Patil."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who was the founder of the **Chhatrapati Shahu Maharaj** regime in Kolhapur, known for his progressive social reforms and patronage of Ambedkar?",
+        "Options": [
+          { "id": 1, "text": "Rajaram II" },
+          { "id": 2, "text": "Shivaji IV" },
+          { "id": 3, "text": "Yeshwantrao alias Appasaheb Ghatge" },
+          { "id": 4, "text": "Shahaji II" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Yeshwantrao alias Appasaheb Ghatge",
+        "Explanation": "Chhatrapati Shahu Maharaj (Rajashri Shahu of Kolhapur) was born Yeshwantrao Ghatge and adopted by Anandibai, the widow of Shivaji IV of Kolhapur."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Satyagraha** led by Dr. B. R. Ambedkar in 1927 to allow the untouchables to use water from a public tank took place at which place in Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Mahad" },
+          { "id": 3, "text": "Nasik" },
+          { "id": 4, "text": "Bombay" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Mahad",
+        "Explanation": "The famous **Mahad Satyagraha** was launched by Dr. B. R. Ambedkar in 1927 at Mahad, Raigad district, to establish the right of untouchables to use public water sources."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The famous poet **Shahir Anant Phandi** was born in which district of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Kolhapur" },
+          { "id": 3, "text": "Ahmednagar" },
+          { "id": 4, "text": "Satara" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Ahmednagar",
+        "Explanation": "Shahir Anant Phandi (Anant Gholap) was an old 'Shahir' (ballad singer) who lived at Sangamner in the Ahmednagar district."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "In which city of Maharashtra was the **Second Session of the Indian National Congress** in 1886 originally planned before it was shifted to Calcutta?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Bombay" },
+          { "id": 3, "text": "Nagpur" },
+          { "id": 4, "text": "Madras" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "Pune",
+        "Explanation": "The first session was planned for Pune but was moved to Bombay due to an outbreak of cholera in Pune. The second session was held in Calcutta."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who was the first Maratha ruler to be bestowed with the title of **'Peshwa'** (Prime Minister) by Chhatrapati Shahu I?",
+        "Options": [
+          { "id": 1, "text": "Balaji Vishwanath" },
+          { "id": 2, "text": "Baji Rao I" },
+          { "id": 3, "text": "Balaji Baji Rao" },
+          { "id": 4, "text": "Moropant Pingale" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "Balaji Vishwanath",
+        "Explanation": "Balaji Vishwanath (1713–1720) was the first of a series of hereditary Peshwas who effectively controlled the Maratha Empire."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Battle of Sinhagad** (1670) is famous for the sacrifice of which Maratha general, which led Shivaji Maharaj to lament, 'Gad ala pan sinha gela' (The fort is won, but the lion is lost)?",
+        "Options": [
+          { "id": 1, "text": "Baji Prabhu Deshpande" },
+          { "id": 2, "text": "Netaji Palkar" },
+          { "id": 3, "text": "Tanaji Malusare" },
+          { "id": 4, "text": "Murarbaji Deshpande" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Tanaji Malusare",
+        "Explanation": "Tanaji Malusare led the Maratha forces to capture Sinhagad (Kondhana) but lost his life in the battle."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "The **Bhuleshwar Temple** near Pune, known for its unique architecture and sculptures, was built during the reign of which dynasty?",
+        "Options": [
+          { "id": 1, "text": "Marathas" },
+          { "id": 2, "text": "Bahamani Sultanate" },
+          { "id": 3, "text": "Yadavas of Devagiri" },
+          { "id": 4, "text": "Chalukyas" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Yadavas of Devagiri",
+        "Explanation": "The Bhuleshwar Temple is believed to have been constructed during the time of the Yadavas of Devagiri (13th century)."
+      },
+      {
+        "category": "Maharashtra History",
+        "Question": "Who was the author of the famous Marathi biography of Chhatrapati Shivaji Maharaj, **'Shivaji Kon Hota'** (Who was Shivaji)?",
+        "Options": [
+          { "id": 1, "text": "V. S. Khandekar" },
+          { "id": 2, "text": "P. K. Atre" },
+          { "id": 3, "text": "Govind Pansare" },
+          { "id": 4, "text": "Narayan Vaman Tilak" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Govind Pansare",
+        "Explanation": "Comrade Govind Pansare wrote the popular and influential book 'Shivaji Kon Hota' to counter communal interpretations of Maratha history."
+      }
+    ]

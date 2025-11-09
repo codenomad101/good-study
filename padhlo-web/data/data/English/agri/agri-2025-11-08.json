@@ -1,0 +1,2514 @@
+[
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Which soil type is predominantly found on the Deccan Plateau of Maharashtra and is also known as 'Black Cotton Soil'?",
+      "Options": [
+        { "id": 1, "text": "Laterite Soil" },
+        { "id": 2, "text": "Alluvial Soil" },
+        { "id": 3, "text": "Regur Soil" },
+        { "id": 4, "text": "Red Soil" }
+      ],
+      "CorrectAnswer": "Regur Soil",
+      "Explanation": "Regur Soil, or Black Cotton Soil, is formed from the weathering of basaltic lava of the Deccan Traps. It covers a major portion of Maharashtra and is ideal for cotton cultivation due to its high moisture-retention capacity.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Soil Science (MH)"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'Green Revolution' in India is most closely associated with which crop?",
+      "Options": [
+        { "id": 1, "text": "Rice" },
+        { "id": 2, "text": "Wheat" },
+        { "id": 3, "text": "Pulses" },
+        { "id": 4, "text": "Cotton" }
+      ],
+      "CorrectAnswer": "Wheat",
+      "Explanation": "The Green Revolution in the late 1960s primarily focused on introducing High-Yielding Varieties (HYV) of Wheat, leading to a massive increase in its production, especially in Punjab, Haryana, and Western UP.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Agricultural Revolutions"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Nagpur in Maharashtra is famous worldwide for the cultivation of which fruit?",
+      "Options": [
+        { "id": 1, "text": "Grapes" },
+        { "id": 2, "text": "Mangoes" },
+        { "id": 3, "text": "Bananas" },
+        { "id": 4, "text": "Oranges" }
+      ],
+      "CorrectAnswer": "Oranges",
+      "Explanation": "Nagpur is known as the 'Orange City' of India and is renowned for its mandarin oranges, which are a major horticultural export from the Vidarbha region.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Horticulture (MH)"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "Which of the following are 'Rabi' crops (winter crops)?\n1. Wheat\n2. Rice\n3. Mustard\n4. Cotton",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 4 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "3 and 4 only" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "Rabi crops are sown in winter (Oct-Dec) and harvested in summer (Apr-Jun). Wheat and Mustard are classic Rabi crops. Rice and Cotton are Kharif (monsoon) crops.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Crop Types"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'Minimum Support Price' (MSP) for crops in India is recommended by which body?",
+      "Options": [
+        { "id": 1, "text": "Food Corporation of India (FCI)" },
+        { "id": 2, "text": "NITI Aayog" },
+        { "id": 3, "text": "NABARD" },
+        { "id": 4, "text": "Commission for Agricultural Costs and Prices (CACP)" }
+      ],
+      "CorrectAnswer": "Commission for Agricultural Costs and Prices (CACP)",
+      "Explanation": "The CACP is the nodal agency that recommends the Minimum Support Prices (MSPs) for various crops to the Government of India, which then makes the final decision.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Govt. Policy"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "The Konkan region of Maharashtra is known for 'Laterite' soil. This soil is most suitable for which type of cultivation?",
+      "Options": [
+        { "id": 1, "text": "Wheat and Jowar" },
+        { "id": 2, "text": "Sugarcane and Cotton" },
+        { "id": 3, "text": "Horticulture (Mango, Cashew)" },
+        { "id": 4, "text": "Soybean and Pulses" }
+      ],
+      "CorrectAnswer": "Horticulture (Mango, Cashew)",
+      "Explanation": "Laterite soil, found in the high rainfall areas of Konkan, is acidic and less fertile for field crops but is extremely well-suited for horticultural crops like Alphonso Mango, Cashew, and Coconut.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Soil Science (MH)"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'White Revolution' is associated with the increase in production of:",
+      "Options": [
+        { "id": 1, "text": "Cotton" },
+        { "id": 2, "text": "Eggs" },
+        { "id": 3, "text": "Milk" },
+        { "id": 4, "text": "Fish" }
+      ],
+      "CorrectAnswer": "Milk",
+      "Explanation": "The White Revolution, or Operation Flood, was a program that made India the world's largest milk producer. Dr. Verghese Kurien is known as its father.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Agricultural Revolutions"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "What is 'Jhum' cultivation?",
+      "Options": [
+        { "id": 1, "text": "A type of terrace farming in the Himalayas." },
+        { "id": 2, "text": "A 'slash and burn' shifting cultivation practiced in Northeast India." },
+        { "id": 3, "text": "A commercial plantation farming." },
+        { "id": 4, "text": "A method of dryland farming in Rajasthan." }
+      ],
+      "CorrectAnswer": "A 'slash and burn' shifting cultivation practiced in Northeast India.",
+      "Explanation": "'Jhum' is the local name for shifting cultivation in Northeast India, where a patch of forest is cleared, burned, cultivated for a few years, and then abandoned to regenerate.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Farming Systems"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Match the following agricultural universities in Maharashtra with their locations:\nList-I (University)\nA. MPKV\nB. PDKV\nC. VNMKV\nD. BSKKV\nList-II (Location)\n1. Akola\n2. Dapoli\n3. Rahuri\n4. Parbhani",
+      "Options": [
+        { "id": 1, "text": "A-3, B-1, C-4, D-2" },
+        { "id": 2, "text": "A-1, B-2, C-3, D-4" },
+        { "id": 3, "text": "A-3, B-4, C-1, D-2" },
+        { "id": 4, "text": "A-2, B-1, C-4, D-3" }
+      ],
+      "CorrectAnswer": "A-3, B-1, C-4, D-2",
+      "Explanation": "The four main agricultural universities are: A. Mahatma Phule Krishi Vidyapeeth (MPKV) at Rahuri (W. Maharashtra), B. Dr. Panjabrao Deshmukh Krishi Vidyapeeth (PDKV) at Akola (Vidarbha), C. Vasantrao Naik Marathwada Krishi Vidyapeeth (VNMKV) at Parbhani (Marathwada), D. Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth (BSKKV) at Dapoli (Konkan).",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "MH Institutions"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'PM-KISAN' (Pradhan Mantri Kisan Samman Nidhi) scheme provides:",
+      "Options": [
+        { "id": 1, "text": "Crop insurance to farmers" },
+        { "id": 2, "text": "Soil health cards to all farmers" },
+        { "id": 3, "text": "An income support of ₹6000 per year to all landholding farmer families" },
+        { "id": 4, "text": "Subsidized loans for agricultural equipment" }
+      ],
+      "CorrectAnswer": "An income support of ₹6000 per year to all landholding farmer families",
+      "Explanation": "PM-KISAN is a central sector scheme that provides direct income support of ₹6,000 annually, in three equal installments of ₹2,000, to all landholding farmer families.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Govt. Schemes"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "Which of the following statements about Black Soil is/are correct?\n1. It is highly retentive of moisture.\n2. It is deficient in nitrogen, phosphorus, and organic matter.\n3. It is primarily found in the river deltas of the East coast.",
+      "Options": [
+        { "id": 1, "text": "1 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct; its clayey nature gives it high moisture retention. (2) is correct; it is rich in lime and iron but poor in N, P, and humus. (3) is incorrect; it is found in the Deccan Plateau. Alluvial soil is found in river deltas.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Soil Science"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "The 'Jalyukt Shivar Abhiyan' was a flagship program of the Maharashtra government primarily aimed at:",
+      "Options": [
+        { "id": 1, "text": "Promoting organic farming" },
+        { "id": 2, "text": "Water conservation and making Maharashtra drought-free" },
+        { "id": 3, "text": "Providing solar pumps to farmers" },
+        { "id": 4, "text": "Establishing new agricultural universities" }
+      ],
+      "CorrectAnswer": "Water conservation and making Maharashtra drought-free",
+      "Explanation": "Launched in 2014-15, the Jalyukt Shivar Abhiyan was a water conservation scheme focused on deepening and widening streams, building check dams, and harvesting rainwater to make villages drought-proof.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Govt. Schemes (MH)"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "What is the NPK ratio (Nitrogen:Phosphorus:Potassium) generally recommended for balanced use in Indian soils?",
+      "Options": [
+        { "id": 1, "text": "1:1:1" },
+        { "id": 2, "text": "1:2:3" },
+        { "id": 3, "text": "4:2:1" },
+        { "id": 4, "text": "3:2:1" }
+      ],
+      "CorrectAnswer": "4:2:1",
+      "Explanation": "The ideal NPK ratio for balanced fertilization in most Indian soils is generally considered to be 4:2:1. However, this varies by crop and soil type, and the Soil Health Card scheme aims to provide customized recommendations.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Soil Science"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Which district in Maharashtra is the largest producer of Grapes and is known as the 'Wine Capital of India'?",
+      "Options": [
+        { "id": 1, "text": "Nagpur" },
+        { "id": 2, "text": "Sangli" },
+        { "id": 3, "text": "Kolhapur" },
+        { "id": 4, "text": "Nashik" }
+      ],
+      "CorrectAnswer": "Nashik",
+      "Explanation": "Nashik is the leading grape-producing district in Maharashtra. It is also the center of India's wine industry, with numerous vineyards and wineries.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Horticulture (MH)"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'Yellow Revolution' is associated with the production of:",
+      "Options": [
+        { "id": 1, "text": "Oilseeds (Mustard, Sunflower)" },
+        { "id": 2, "text": "Fruits (Mango, Banana)" },
+        { "id": 3, "text": "Turmeric" },
+        { "id": 4, "text": "Jute" }
+      ],
+      "CorrectAnswer": "Oilseeds (Mustard, Sunflower)",
+      "Explanation": "The Yellow Revolution refers to the mission to boost the production of edible oilseeds (like mustard, sunflower, soybean) to achieve self-reliance.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Agricultural Revolutions"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "Which of the following is NOT a 'Kharif' crop?",
+      "Options": [
+        { "id": 1, "text": "Rice" },
+        { "id": 2, "text": "Soybean" },
+        { "id": 3, "text": "Cotton" },
+        { "id": 4, "text": "Barley" }
+      ],
+      "CorrectAnswer": "Barley",
+      "Explanation": "Kharif crops are sown during the monsoon. Rice, Soybean, and Cotton are all Kharif crops. Barley (like Wheat) is a 'Rabi' (winter) crop.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Crop Types"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "The Jayakwadi Dam, a major irrigation project in Maharashtra, is built on which river?",
+      "Options": [
+        { "id": 1, "text": "Godavari" },
+        { "id": 2, "text": "Krishna" },
+        { "id": 3, "text": "Bhima" },
+        { "id": 4, "text": "Tapi" }
+      ],
+      "CorrectAnswer": "Godavari",
+      "Explanation": "The Jayakwadi Dam is located on the Godavari River near Paithan in Aurangabad (Chh. Sambhajinagar) district. Its reservoir, 'Nath Sagar', is crucial for irrigating the drought-prone Marathwada region.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Irrigation (MH)"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'Soil Health Card' (SHC) scheme provides farmers with information on:\n1. The nutrient status (NPK, etc.) of their soil.\n2. Recommended dosage of fertilizers.\n3. Crop insurance options.",
+      "Options": [
+        { "id": 1, "text": "1 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "The SHC scheme involves testing soil and providing farmers with a 'card' that details the nutrient status of their soil and provides customized recommendations on the correct dosage of fertilizers (like NPK, sulphur) to use for specific crops, thereby improving soil health and reducing costs. It is not related to crop insurance.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Govt. Schemes"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "What is 'Sericulture'?",
+      "Options": [
+        { "id": 1, "text": "The rearing of honey bees for honey." },
+        { "id": 2, "text": "The cultivation of grapes for wine." },
+        { "id": 3, "text": "The rearing of silkworms for silk production." },
+        { "id": 4, "text": "The cultivation of vegetables, fruits, and flowers." }
+      ],
+      "CorrectAnswer": "The rearing of silkworms for silk production.",
+      "Explanation": "Sericulture is the art and science of rearing silkworms (which feed on mulberry leaves) to produce raw silk. (Bees = Apiculture; Grapes = Viticulture; Horticulture = general gardening).",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Terminology"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Which region of Maharashtra is the largest producer of Cotton and Soybean?",
+      "Options": [
+        { "id": 1, "text": "Konkan" },
+        { "id": 2, "text": "Western Maharashtra" },
+        { "id": 3, "text": "Vidarbha" },
+        { "id": 4, "text": "North Maharashtra" }
+      ],
+      "CorrectAnswer": "Vidarbha",
+      "Explanation": "The Vidarbha region (and adjoining Marathwada) has the ideal 'Regur' (black soil) and climate for growing Cotton and Soybean. These are the main cash crops of this region.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "MH Crops"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'Blue Revolution' is associated with the production of:",
+      "Options": [
+        { "id": 1, "text": "Fish and aquaculture" },
+        { "id": 2, "text": "Oilseeds" },
+        { "id": 3, "text": "Fertilizers" },
+        { "id": 4, "text": "Water conservation" }
+      ],
+      "CorrectAnswer": "Fish and aquaculture",
+      "Explanation": "The Blue Revolution refers to the remarkable emergence of aquaculture as an important and highly productive agricultural activity. (Oilseeds = Yellow; Fertilizers = Grey).",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Agricultural Revolutions"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The primary objective of 'NABARD' (National Bank for Agriculture and Rural Development) is to:",
+      "Options": [
+        { "id": 1, "text": "Conduct agricultural research." },
+        { "id": 2, "text": "Recommend Minimum Support Prices (MSP)." },
+        { "id": 3, "text": "Provide and regulate credit for agriculture and rural development." },
+        { "id": 4, "text": "Procure and store food grains." }
+      ],
+      "CorrectAnswer": "Provide and regulate credit for agriculture and rural development.",
+      "Explanation": "NABARD is an apex development financial institution. Its main role is to provide (refinance) and regulate credit and other financial services for the promotion of agriculture, small scale industries, and other rural activities.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Institutions"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Which of the following statements is/are correct regarding agriculture in Maharashtra?\n1. Maharashtra is the largest producer of Sugarcane in India.\n2. Maharashtra is a leading state in Drip Irrigation adoption.\n3. The Konkan region primarily grows Rabi crops like Wheat.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct; Maharashtra often competes with UP but is a top producer. (2) is correct; Maharashtra is a pioneer and leader in micro-irrigation (drip/sprinkler). (3) is incorrect; Konkan is a high-rainfall region that primarily grows Kharif crops (Rice) and horticulture (Mangoes). Wheat is a Rabi crop grown in the plateau region.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "General (MH)"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "What is 'Mixed Farming'?",
+      "Options": [
+        { "id": 1, "text": "Growing two or more crops in the same field at the same time." },
+        { "id": 2, "text": "Rearing of livestock and cultivation of crops on the same farm." },
+        { "id": 3, "text": "Growing different crops in succession on the same land (Crop Rotation)." },
+        { "id": 4, "text": "Cultivating crops in a 'slash and burn' method." }
+      ],
+      "CorrectAnswer": "Rearing of livestock and cultivation of crops on the same farm.",
+      "Explanation": "Mixed Farming is a system where a farmer conducts two or more agricultural activities on the same farm, most commonly crop cultivation and animal husbandry (livestock). This diversifies income and reduces risk.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Farming Systems"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'Golden Revolution' is associated with the production of:",
+      "Options": [
+        { "id": 1, "text": "Pulses" },
+        { "id": 2, "text": "Jute" },
+        { "id": 3, "text": "Horticulture (Fruits) and Honey" },
+        { "id": 4, "text": "Oilseeds" }
+      ],
+      "CorrectAnswer": "Horticulture (Fruits) and Honey",
+      "Explanation": "The Golden Revolution (1991-2003) refers to the period of high growth in the horticulture sector (fruits, vegetables, flowers) and honey production. (Jute = Golden *Fibre* Revolution).",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Agricultural Revolutions"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Which of the following is the main 'Kharif' (monsoon) cereal crop of the Konkan region?",
+      "Options": [
+        { "id": 1, "text": "Jowar" },
+        { "id": 2, "text": "Bajra" },
+        { "id": 3, "text": "Wheat" },
+        { "id": 4, "text": "Rice" }
+      ],
+      "CorrectAnswer": "Rice",
+      "Explanation": "The Konkan region receives very heavy monsoon rainfall, which is ideal for the cultivation of paddy (Rice). Jowar and Bajra are grown in the drier plateau regions, and Wheat is a Rabi (winter) crop.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "MH Crops"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "Which government scheme aims to create a unified national market for agricultural commodities by linking existing APMC mandis?",
+      "Options": [
+        { "id": 1, "text": "PM-KISAN" },
+        { "id": 2, "text": "e-NAM (Electronic National Agriculture Market)" },
+        { "id": 3, "text": "PM Fasal Bima Yojana" },
+        { "id": 4, "text": "Soil Health Card Scheme" }
+      ],
+      "CorrectAnswer": "e-NAM (Electronic National Agriculture Market)",
+      "Explanation": "e-NAM is a pan-India online trading portal that networks the existing APMC (Agricultural Produce Market Committee) mandis to create a unified national market for agricultural commodities.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Govt. Schemes"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "A 'Zaid' crop is:",
+      "Options": [
+        { "id": 1, "text": "A winter crop (e.g., Wheat)" },
+        { "id": 2, "text": "A monsoon crop (e.g., Rice)" },
+        { "id": 3, "text": "A short-duration crop grown in the summer season between Rabi and Kharif." },
+        { "id": 4, "text": "A crop grown in hilly areas." }
+      ],
+      "CorrectAnswer": "A short-duration crop grown in the summer season between Rabi and Kharif.",
+      "Explanation": "Zaid is a short crop season during the hot summer months (March-June), in between the Rabi harvest and Kharif sowing. Typical Zaid crops include watermelon, muskmelon, and cucumber.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Crop Types"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Which of the following is the main 'Rabi' (winter) crop of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Cotton" },
+        { "id": 2, "text": "Soybean" },
+        { "id": 3, "text": "Jowar" },
+        { "id": 4, "text": "Rice" }
+      ],
+      "CorrectAnswer": "Jowar",
+      "Explanation": "While Jowar (Sorghum) is grown in both Kharif and Rabi seasons, 'Rabi Jowar' is a major food and fodder crop in the rain shadow (drier) regions of Maharashtra, like Solapur.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "MH Crops"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "Which type of irrigation system is most efficient in terms of water use, delivering water directly to the plant's roots?",
+      "Options": [
+        { "id": 1, "text": "Flood Irrigation" },
+        { "id": 2, "text": "Canal Irrigation" },
+        { "id": 3, "text": "Sprinkler Irrigation" },
+        { "id": 4, "text": "Drip Irrigation" }
+      ],
+      "CorrectAnswer": "Drip Irrigation",
+      "Explanation": "Drip irrigation (or trickle irrigation) is a micro-irrigation system that saves water and fertilizers by allowing water to drip slowly and directly to the roots of plants, minimizing evaporation and runoff.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Irrigation"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'Indian Council of Agricultural Research' (ICAR) is an autonomous body responsible for coordinating agricultural education and research. Its headquarters is in:",
+      "Options": [
+        { "id": 1, "text": "Mumbai" },
+        { "id": 2, "text": "New Delhi" },
+        { "id": 3, "text": "Hyderabad" },
+        { "id": 4, "text": "Bengaluru" }
+      ],
+      "CorrectAnswer": "New Delhi",
+      "Explanation": "ICAR, the apex body for agricultural research and education in India, is headquartered in New Delhi.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Institutions"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "The Alphonso (Hapus) mango, which has a GI tag, is predominantly grown in which region of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Vidarbha" },
+        { "id": 2, "text": "Marathwada" },
+        { "id": 3, "text": "Konkan (Ratnagiri, Sindhudurg)" },
+        { "id": 4, "text": "Khandesh (North Maharashtra)" }
+      ],
+      "CorrectAnswer": "Konkan (Ratnagiri, Sindhudurg)",
+      "Explanation": "The world-famous Alphonso or 'Hapus' mango is a specialty of the coastal Konkan region, particularly the districts of Ratnagiri and Sindhudurg, which have the ideal laterite soil and climate for it.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Horticulture (MH)"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "Which of the following is NOT a primary macronutrient required by plants?",
+      "Options": [
+        { "id": 1, "text": "Nitrogen (N)" },
+        { "id": 2, "text": "Phosphorus (P)" },
+        { "id": 3, "text": "Potassium (K)" },
+        { "id": 4, "text": "Zinc (Zn)" }
+      ],
+      "CorrectAnswer": "Zinc (Zn)",
+      "Explanation": "The three primary macronutrients are Nitrogen (N), Phosphorus (P), and Potassium (K), often seen in the NPK ratio. Zinc (Zn) is an essential nutrient, but it is a *micronutrient*, required in much smaller quantities.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Soil Science"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'Golden Fibre' revolution refers to the production of:",
+      "Options": [
+        { "id": 1, "text": "Cotton" },
+        { "id": 2, "text": "Jute" },
+        { "id": 3, "text": "Silk" },
+        { "id": 4, "text": "Wool" }
+      ],
+      "CorrectAnswer": "Jute",
+      "Explanation": "Jute is known as the 'Golden Fibre' due to its yellowish-brown color and its economic value. The Golden Fibre Revolution refers to efforts to increase its production. (Cotton = Silver Fibre).",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Agricultural Revolutions"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Which of the following statements about irrigation in Maharashtra is correct?\n1. Well irrigation is the most dominant form of irrigation.\n2. The 'Koyna Dam' is primarily an irrigation project.\n3. The Marathwada region has the highest percentage of irrigated land.",
+      "Options": [
+        { "id": 1, "text": "1 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 only",
+      "Explanation": "(1) is correct; Well irrigation (including tube wells) accounts for the largest share of irrigation in Maharashtra. (2) is incorrect; The Koyna Dam is primarily a hydroelectric project, though its water is used for irrigation. (3) is incorrect; Western Maharashtra (especially the sugarcane belt) has a higher percentage of irrigated land than the rain-fed Marathwada region.",
+      "Difficulty": "Hard",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Irrigation (MH)"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'Pradhan Mantri Fasal Bima Yojana' (PMFBY) is a government scheme for:",
+      "Options": [
+        { "id": 1, "text": "Providing income support" },
+        { "id": 2, "text": "Providing crop insurance against crop failure" },
+        { "id": 3, "text": "Promoting organic farming" },
+        { "id": 4, "text": "Building irrigation canals" }
+      ],
+      "CorrectAnswer": "Providing crop insurance against crop failure",
+      "Explanation": "PMFBY is the government's flagship crop insurance scheme. It provides insurance cover and financial support to farmers in the event of crop failure due to natural calamities, pests, or diseases.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Govt. Schemes"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "Which Indian state is the largest producer of Rice?",
+      "Options": [
+        { "id": 1, "text": "Punjab" },
+        { "id": 2, "text": "Uttar Pradesh" },
+        { "id": 3, "text": "West Bengal" },
+        { "id": 4, "text": "Andhra Pradesh" }
+      ],
+      "CorrectAnswer": "West Bengal",
+      "Explanation": "West Bengal is traditionally the largest rice-producing state in India, followed by Uttar Pradesh and Punjab. (Punjab has the highest *productivity* or yield, but West Bengal has the highest total *production*).",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "India Crops"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "The Marathwada region of Maharashtra is a major producer of which of the following crop combinations?",
+      "Options": [
+        { "id": 1, "text": "Rice and Mango" },
+        { "id": 2, "text": "Grapes and Oranges" },
+        { "id": 3, "text": "Cotton and Soybean" },
+        { "id": 4, "text": "Wheat and Sugarcane" }
+      ],
+      "CorrectAnswer": "Cotton and Soybean",
+      "Explanation": "The Marathwada region, being part of the Deccan Plateau with black soil and moderate rainfall, is a major hub for Cotton and Soybean cultivation (along with Vidarbha).",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "MH Crops"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The headquarters of the 'National Dairy Development Board' (NDDB), the organization behind Operation Flood, is located in:",
+      "Options": [
+        { "id": 1, "text": "Anand, Gujarat" },
+        { "id": 2, "text": "New Delhi" },
+        { "id": 3, "text": "Karnal, Haryana" },
+        { "id": 4, "text": "Mumbai, Maharashtra" }
+      ],
+      "CorrectAnswer": "Anand, Gujarat",
+      "Explanation": "The NDDB was founded in 1965 and is headquartered in Anand, Gujarat, which is the heart of the 'Amul' milk cooperative movement.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Institutions"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "Which type of soil is formed by the deposition of silt by rivers and is the most fertile soil in India?",
+      "Options": [
+        { "id": 1, "text": "Black Soil (Regur)" },
+        { "id": 2, "text": "Laterite Soil" },
+        { "id": 3, "text": "Red Soil" },
+        { "id": 4, "text": "Alluvial Soil" }
+      ],
+      "CorrectAnswer": "Alluvial Soil",
+      "Explanation": "Alluvial soil is found in the Indo-Gangetic plains and river deltas. It is formed by the deposition of silt (alluvium) by rivers, making it extremely fertile and supporting a large population.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Soil Science"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Which district in Maharashtra is the largest producer of Jowar (Sorghum)?",
+      "Options": [
+        { "id": 1, "text": "Ratnagiri" },
+        { "id": 2, "text": "Nagpur" },
+        { "id": 3, "text": "Solapur" },
+        { "id": 4, "text": "Nashik" }
+      ],
+      "CorrectAnswer": "Solapur",
+      "Explanation": "Solapur, located in the rain shadow region of Western Maharashtra, is the largest producer of Jowar, particularly Rabi Jowar, which is its staple food crop.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "MH Crops"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'Silver Revolution' is associated with a significant increase in the production of:",
+      "Options": [
+        { "id": 1, "text": "Cotton" },
+        { "id": 2, "text": "Eggs and Poultry" },
+        { "id": 3, "text": "Silver (the metal)" },
+        { "id": 4, "text": "Milk" }
+      ],
+      "CorrectAnswer": "Eggs and Poultry",
+      "Explanation": "The Silver Revolution refers to the period of rapid growth in egg and poultry production. (Cotton = Silver *Fibre* Revolution; Milk = White Revolution).",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Agricultural Revolutions"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "What is 'Apiculture'?",
+      "Options": [
+        { "id": 1, "text": "The rearing of fish." },
+        { "id": 2, "text": "The rearing of honey bees for honey." },
+        { "id": 3, "text": "The rearing of silkworms." },
+        { "id": 4, "text": "The cultivation of fruits." }
+      ],
+      "CorrectAnswer": "The rearing of honey bees for honey.",
+      "Explanation": "Apiculture, or beekeeping, is the science and art of rearing honey bees. (Fish = Pisciculture; Silkworms = Sericulture; Fruits = Pomology/Horticulture).",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Terminology"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Consider the following statements about crops in Maharashtra:\n1. Cotton is a major crop of the Vidarbha region.\n2. Sugarcane is a major crop of the Konkan region.\n3. Rice is the main cereal of the Konkan region.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) is correct; Vidarbha's black soil is ideal for cotton. (2) is incorrect; Sugarcane is a major crop of Western Maharashtra (Kolhapur, Satara, Pune), not Konkan. (3) is correct; Rice (paddy) is the staple crop of the high-rainfall Konkan region.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "MH Crops"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "Which type of farming involves growing crops without the use of synthetic fertilizers and pesticides?",
+      "Options": [
+        { "id": 1, "text": "Mixed Farming" },
+        { "id": 2, "text": "Plantation Farming" },
+        { "id": 3, "text": "Organic Farming" },
+        { "id": 4, "text": "Dryland Farming" }
+      ],
+      "CorrectAnswer": "Organic Farming",
+      "Explanation": "Organic farming is an agricultural system that relies on natural inputs like compost, manure, and biological pest control rather than synthetic (chemical) fertilizers, pesticides, and GMOs.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Farming Systems"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'Indian Agricultural Research Institute' (IARI), popularly known as the Pusa Institute, is located in:",
+      "Options": [
+        { "id": 1, "text": "New Delhi" },
+        { "id": 2, "text": "Pusa, Bihar" },
+        { "id": 3, "text": "Shimla" },
+        { "id": 4, "text": "Nagpur" }
+      ],
+      "CorrectAnswer": "New Delhi",
+      "Explanation": "The IARI was originally established in Pusa, Bihar, in 1905. However, after a devastating earthquake in 1934, it was relocated to New Delhi in 1936. It is still popularly known as the Pusa Institute.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Institutions"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "The Vasantrao Naik Marathwada Krishi Vidyapeeth (VNMKV) is located in which city?",
+      "Options": [
+        { "id": 1, "text": "Aurangabad" },
+        { "id": 2, "text": "Nanded" },
+        { "id": 3, "text": "Latur" },
+        { "id": 4, "text": "Parbhani" }
+      ],
+      "CorrectAnswer": "Parbhani",
+      "Explanation": "The Vasantrao Naik Marathwada Krishi Vidyapeeth, which serves the Marathwada region, is located in Parbhani.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "MH Institutions"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "The 'Golden Fibre Revolution' is associated with:",
+      "Options": [
+        { "id": 1, "text": "Cotton" },
+        { "id": 2, "text": "Jute" },
+        { "id": 3, "text": "Fruits (Horticulture)" },
+        { "id": 4, "text": "Eggs" }
+      ],
+      "CorrectAnswer": "Jute",
+      "Explanation": "Jute is known as the 'Golden Fibre' due to its color and value. (Cotton = Silver Fibre Revolution; Fruits = Golden Revolution; Eggs = Silver Revolution).",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Agricultural Revolutions"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "Which of the following is an example of a 'Plantation Crop'?",
+      "Options": [
+        { "id": 1, "text": "Wheat" },
+        { "id": 2, "text": "Rice" },
+        { "id": 3, "text": "Tea" },
+        { "id": 4, "text": "Pulses" }
+      ],
+      "CorrectAnswer": "Tea",
+      "Explanation": "Plantation farming involves growing a single cash crop (like Tea, Coffee, Rubber, or Bananas) on a large estate. Wheat, Rice, and Pulses are food grains.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Crop Types"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Which district is a part of the 'Khandesh' region of Maharashtra, known for banana cultivation?",
+      "Options": [
+        { "id": 1, "text": "Solapur" },
+        { "id": 2, "text": "Jalgaon" },
+        { "id": 3, "text": "Ratnagiri" },
+        { "id": 4, "text": "Wardha" }
+      ],
+      "CorrectAnswer": "Jalgaon",
+      "Explanation": "The Khandesh region (North Maharashtra) includes Jalgaon, Dhule, and Nandurbar. Jalgaon is particularly famous for its extensive banana cultivation.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Horticulture (MH)"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "Laterite soil is formed in regions with:",
+      "Options": [
+        { "id": 1, "text": "Low temperature and low rainfall" },
+        { "id": 2, "text": "High temperature and high rainfall" },
+        { "id": 3, "text": "Low temperature and high rainfall" },
+        { "id": 4, "text": "High temperature and low rainfall" }
+      ],
+      "CorrectAnswer": "High temperature and high rainfall",
+      "Explanation": "Laterite soil is formed by intense 'leaching' (washing away of silica and lime) that occurs in tropical regions with high, seasonal rainfall and high temperatures, leaving behind iron and aluminum oxides.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Soil Science"
+    },
+    {
+      "category": "Agriculture (India)",
+      "Question": "Which Indian state is the largest producer of Sugarcane?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Uttar Pradesh" },
+        { "id": 3, "text": "Karnataka" },
+        { "id": 4, "text": "Tamil Nadu" }
+      ],
+      "CorrectAnswer": "Uttar Pradesh",
+      "Explanation": "While Maharashtra and Uttar Pradesh are both massive producers, Uttar Pradesh currently holds the top position for the largest *production* of sugarcane in India. Maharashtra is a close second.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "India Crops"
+    },
+    {
+      "category": "Agriculture (Maharashtra)",
+      "Question": "Which of the following is NOT one of the four main agricultural universities of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "MPKV, Rahuri" },
+        { "id": 2, "text": "PDKV, Akola" },
+        { "id": 3, "text": "VNMKV, Parbhani" },
+        { "id": 4, "text": "YCMOU, Nashik" }
+      ],
+      "CorrectAnswer": "YCMOU, Nashik",
+      "Explanation": "The four main agricultural universities are MPKV (Rahuri), PDKV (Akola), VNMKV (Parbhani), and BSKKV (Dapoli). YCMOU (Yashwantrao Chavan Maharashtra Open University) is an open university, not a dedicated agricultural university.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "MH Institutions"
+    },
+    {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "Sangli district in Maharashtra is a major trading center and GI tag holder for which crop?",
+        "Options": [
+          { "id": 1, "text": "Grapes" },
+          { "id": 2, "text": "Sugarcane" },
+          { "id": 3, "text": "Turmeric" },
+          { "id": 4, "text": "Cotton" }
+        ],
+        "CorrectAnswer": "Turmeric",
+        "Explanation": "Sangli is one of the largest trading centers for Turmeric (Halad) in Asia. The 'Sangli Halad' has been granted a Geographical Indication (GI) tag.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Horticulture (MH)"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Wheat?",
+        "Options": [
+          { "id": 1, "text": "Punjab" },
+          { "id": 2, "text": "Haryana" },
+          { "id": 3, "text": "Madhya Pradesh" },
+          { "id": 4, "text": "Uttar Pradesh" }
+        ],
+        "CorrectAnswer": "Uttar Pradesh",
+        "Explanation": "Uttar Pradesh is the largest wheat-producing state in India in terms of total production. Punjab has the highest productivity (kg/hectare), but its total output is less than UP.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "India Crops"
+      },
+      {
+        "category": "Agriculture (Terminology)",
+        "Question": "What is 'Pisciculture'?",
+        "Options": [
+          { "id": 1, "text": "The cultivation of grapes." },
+          { "id": 2, "text": "The breeding and rearing of fish." },
+          { "id": 3, "text": "The rearing of silkworms." },
+          { "id": 4, "text": "The rearing of honey bees." }
+        ],
+        "CorrectAnswer": "The breeding and rearing of fish.",
+        "Explanation": "Pisciculture (or fish farming) is the principal form of aquaculture, involving the controlled breeding and rearing of fish. (Grapes = Viticulture; Silkworms = Sericulture; Bees = Apiculture).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Terminology"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Kisan Credit Card' (KCC) scheme was introduced to provide farmers with:",
+        "Options": [
+          { "id": 1, "text": "Life insurance" },
+          { "id": 2, "text": "Access to timely and adequate credit (loans)" },
+          { "id": 3, "text": "Free electricity" },
+          { "id": 4, "text": "A Soil Health Card" }
+        ],
+        "CorrectAnswer": "Access to timely and adequate credit (loans)",
+        "Explanation": "The KCC scheme was launched in 1998 to provide short-term formal credit (loans) to farmers for their agricultural needs in a simple and timely manner.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Govt. Schemes"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Pink Revolution' is associated with the production of:\n1. Onions\n2. Pharmaceuticals\n3. Prawns\n4. Tomatoes",
+        "Options": [
+          { "id": 1, "text": "1, 2 and 3" },
+          { "id": 2, "text": "1 and 4 only" },
+          { "id": 3, "text": "1 and 3 only" },
+          { "id": 4, "text": "2 and 4 only" }
+        ],
+        "CorrectAnswer": "1, 2 and 3",
+        "Explanation": "The Pink Revolution is a broad term. It is most commonly associated with the boom in Onion production and Prawn production. It is also used to refer to the Pharmaceuticals sector. (Tomatoes = Red Revolution).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Agricultural Revolutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "What is the primary characteristic of Laterite soil?",
+        "Options": [
+          { "id": 1, "text": "High moisture retention" },
+          { "id": 2, "text": "High fertility and rich in humus" },
+          { "id": 3, "text": "Formed by intense leaching in high-rainfall areas" },
+          { "id": 4, "text": "Rich in calcium (lime)" }
+        ],
+        "CorrectAnswer": "Formed by intense leaching in high-rainfall areas",
+        "Explanation": "Laterite soil is formed in tropical areas with high temperature and heavy rainfall. The intense rain causes 'leaching', washing away silica and lime, leaving a soil rich in iron and aluminum oxides, which is acidic and less fertile.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Soil Science"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which of the following statements about Alluvial Soil is/are correct?\n1. It is primarily found in the Deccan Plateau region.\n2. It is rich in potash and lime but poor in nitrogen and humus.\n3. It is classified into 'Khadar' (new alluvium) and 'Bhangar' (old alluvium).",
+        "Options": [
+          { "id": 1, "text": "1 and 3 only" },
+          { "id": 2, "text": "2 and 3 only" },
+          { "id": 3, "text": "1 only" },
+          { "id": 4, "text": "1, 2 and 3" }
+        ],
+        "CorrectAnswer": "2 and 3 only",
+        "Explanation": "(1) is incorrect; Alluvial soil is found in the Indo-Gangetic plains and deltas. Black soil (Regur) is found in the Deccan Plateau. (2) and (3) are both correct properties of Alluvial soil.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Soil Science"
+      },
+      {
+        "category": "Agriculture (Botany)",
+        "Question": "In plants, which tissue is responsible for transporting food (sugars) from the leaves to other parts?",
+        "Options": [
+          { "id": 1, "text": "Xylem" },
+          { "id": 2, "text": "Phloem" },
+          { "id": 3, "text": "Parenchyma" },
+          { "id": 4, "text": "Sclerenchyma" }
+        ],
+        "CorrectAnswer": "Phloem",
+        "Explanation": "Phloem is the vascular tissue that transports food (sucrose) made during photosynthesis from the leaves (source) to other parts of the plant like roots and fruits (sinks). Xylem transports water.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Botany"
+      },
+      {
+        "category": "Agriculture (Botany)",
+        "Question": "Which plant hormone is a 'stress hormone' that promotes dormancy and the closing of stomata?",
+        "Options": [
+          { "id": 1, "text": "Auxin" },
+          { "id": 2, "text": "Gibberellin" },
+          { "id": 3, "text": "Ethylene" },
+          { "id": 4, "text": "Abscisic Acid (ABA)" }
+        ],
+        "CorrectAnswer": "Abscisic Acid (ABA)",
+        "Explanation": "Abscisic Acid (ABA) is a plant stress hormone. It is produced during drought conditions and signals the stomata (leaf pores) to close, reducing water loss (transpiration). It also promotes seed dormancy.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Botany"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'National Research Centre for Grapes' (NRCG) is located in which city of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Nashik" },
+          { "id": 2, "text": "Sangli" },
+          { "id": 3, "text": "Pune" },
+          { "id": 4, "text": "Nagpur" }
+        ],
+        "CorrectAnswer": "Pune",
+        "Explanation": "The National Research Centre for Grapes is located at Manjri in Pune, Maharashtra. It is the premier institute for research related to viticulture (grape cultivation).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "MH Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which of the following is the main 'Kharif' crop?",
+        "Options": [
+          { "id": 1, "text": "Wheat" },
+          { "id": 2, "text": "Gram" },
+          { "id": 3, "text": "Mustard" },
+          { "id": 4, "text": "Rice" }
+        ],
+        "CorrectAnswer": "Rice",
+        "Explanation": "Kharif crops are sown at the beginning of the monsoon (June-July). Rice (Paddy) is the primary Kharif food grain. Wheat, Gram, and Mustard are all Rabi (winter) crops.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Crop Types"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "NABARD (National Bank for Agriculture and Rural Development) was established in which year?",
+        "Options": [
+          { "id": 1, "text": "1969" },
+          { "id": 2, "text": "1975" },
+          { "id": 3, "text": "1982" },
+          { "id": 4, "text": "1991" }
+        ],
+        "CorrectAnswer": "1982",
+        "Explanation": "NABARD was established on July 12, 1982, on the recommendations of the B. Sivaraman Committee. It is the apex financial institution for agriculture and rural development.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Round Revolution' is associated with the production of:",
+        "Options": [
+          { "id": 1, "text": "Potato" },
+          { "id": 2, "text": "Egg" },
+          { "id": 3, "text": "Onion" },
+          { "id": 4, "text": "Tomato" }
+        ],
+        "CorrectAnswer": "Potato",
+        "Explanation": "The Round Revolution refers to the mission to increase the production of potatoes. (Egg = Silver; Onion = Pink; Tomato = Red).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Agricultural Revolutions"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The Solapur district in Maharashtra is a leading producer and has a GI tag for which fruit?",
+        "Options": [
+          { "id": 1, "text": "Pomegranate (Anar)" },
+          { "id": 2, "text": "Banana (Keli)" },
+          { "id": 3, "text": "Orange (Santra)" },
+          { "id": 4, "text": "Mango (Amba)" }
+        ],
+        "CorrectAnswer": "Pomegranate (Anar)",
+        "Explanation": "Solapur is a major producer of pomegranates, and the 'Solapur Anar' has been granted a Geographical Indication (GI) tag for its unique quality.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Horticulture (MH)"
+      },
+      {
+        "category": "Agriculture (Terminology)",
+        "Question": "The cultivation of grapes is known as:",
+        "Options": [
+          { "id": 1, "text": "Horticulture" },
+          { "id": 2, "text": "Sericulture" },
+          { "id": 3, "text": "Apiculture" },
+          { "id": 4, "text": "Viticulture" }
+        ],
+        "CorrectAnswer": "Viticulture",
+        "Explanation": "Viticulture is the science, production, and study of grapes. (Sericulture = silkworms; Apiculture = honey bees; Horticulture = general garden crops).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Terminology"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "Which of the following are major 'Kharif' crops in Maharashtra?\n1. Cotton\n2. Soybean\n3. Wheat\n4. Gram",
+        "Options": [
+          { "id": 1, "text": "1 and 2 only" },
+          { "id": 2, "text": "3 and 4 only" },
+          { "id": 3, "text": "1, 2 and 3" },
+          { "id": 4, "text": "2, 3 and 4" }
+        ],
+        "CorrectAnswer": "1 and 2 only",
+        "Explanation": "Cotton and Soybean are the two most dominant Kharif (monsoon) cash crops in Maharashtra, especially in Vidarbha and Marathwada. Wheat and Gram (Chana) are major Rabi (winter) crops.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "MH Crops"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "What is the 'Fair and Remunerative Price' (FRP) in Indian agriculture?",
+        "Options": [
+          { "id": 1, "text": "The price at which FCI procures wheat and rice." },
+          { "id": 2, "text": "The minimum price that sugar mills must pay to sugarcane farmers." },
+          { "id": 3, "text": "The insurance premium for the PM Fasal Bima Yojana." },
+          { "id": 4, "text": "The price of organic fertilizers." }
+        ],
+        "CorrectAnswer": "The minimum price that sugar mills must pay to sugarcane farmers.",
+        "Explanation": "FRP is the minimum price fixed by the Central Government (on CACP's recommendation) that sugar mills must legally pay to farmers for their sugarcane. This is different from the MSP for other crops.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Govt. Policy"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Pulses (total)?",
+        "Options": [
+          { "id": 1, "text": "Uttar Pradesh" },
+          { "id": 2, "text": "Rajasthan" },
+          { "id": 3, "text": "Madhya Pradesh" },
+          { "id": 4, "text": "Maharashtra" }
+        ],
+        "CorrectAnswer": "Madhya Pradesh",
+        "Explanation": "Madhya Pradesh is the largest producer of total pulses in India, followed by states like Rajasthan and Maharashtra.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "India Crops"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'self-ploughing' capacity (swelling when wet, shrinking when dry) is a unique feature of which soil?",
+        "Options": [
+          { "id": 1, "text": "Red Soil" },
+          { "id": 2, "text": "Laterite Soil" },
+          { "id": 3, "text": "Alluvial Soil" },
+          { "id": 4, "text": "Black Soil (Regur)" }
+        ],
+        "CorrectAnswer": "Black Soil (Regur)",
+        "Explanation": "Black soil (Regur) has a high clay content, which causes it to swell significantly when wet and shrink when dry. This shrinking creates deep cracks, which is known as 'self-ploughing' as it helps in aeration.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Soil Science"
+      },
+      {
+        "category": "Agriculture (Terminology)",
+        "Question": "The science and art of growing fruits is known as:",
+        "Options": [
+          { "id": 1, "text": "Olericulture" },
+          { "id": 2, "text": "Floriculture" },
+          { "id": 3, "text": "Pomology" },
+          { "id": 4, "text": "Agronomy" }
+        ],
+        "CorrectAnswer": "Pomology",
+        "Explanation": "Pomology is the branch of horticulture that focuses on the cultivation of fruits. (Olericulture = vegetables; Floriculture = flowers; Agronomy = field crops).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Terminology"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "What is 'Relay Cropping'?",
+        "Options": [
+          { "id": 1, "text": "Growing the same crop year after year." },
+          { "id": 2, "text": "Planting a second crop into the first crop before the first crop is harvested." },
+          { "id": 3, "text": "Growing two crops in alternating rows in the same season." },
+          { "id": 4, "text": "Leaving the land fallow for a season." }
+        ],
+        "CorrectAnswer": "Planting a second crop into the first crop before the first crop is harvested.",
+        "Explanation": "Relay cropping (or overlap planting) is a form of intercropping where a second crop is sown shortly before the first crop is harvested, to save time and utilize residual moisture.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Farming Systems"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'Bhiwapuri Chilli' (Bhiwapuri Mirchi), which has a GI tag, is a famous product from which district?",
+        "Options": [
+          { "id": 1, "text": "Kolhapur" },
+          { "id": 2, "text": "Nagpur" },
+          { "id": 3, "text": "Jalgaon" },
+          { "id": 4, "text": "Solapur" }
+        ],
+        "CorrectAnswer": "Nagpur",
+        "Explanation": "The Bhiwapuri chilli, known for its unique taste and color, is a traditional crop from the Bhiwapur taluka of Nagpur district.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Horticulture (MH)"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Grey Revolution' is associated with:",
+        "Options": [
+          { "id": 1, "text": "Fertilizer production" },
+          { "id": 2, "text": "Cement production" },
+          { "id": 3, "text": "Egg production" },
+          { "id": 4, "text": "Cotton production" }
+        ],
+        "CorrectAnswer": "Fertilizer production",
+        "Explanation": "The Grey Revolution refers to the increase in fertilizer production and use, which was a key component of the Green Revolution's success. (Egg = Silver; Cotton = Silver Fibre).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Agricultural Revolutions"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'Central Institute for Cotton Research' (CICR) has one of its main centers in which city of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Parbhani" },
+          { "id": 3, "text": "Nagpur" },
+          { "id": 4, "text": "Jalgaon" }
+        ],
+        "CorrectAnswer": "Nagpur",
+        "Explanation": "The headquarters of the Central Institute for Cotton Research (CICR) is located in Nagpur, which is in the heart of the cotton-growing Vidarbha region.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "MH Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which of the following are 'Secondary' macronutrients for plants?\n1. Nitrogen (N)\n2. Calcium (Ca)\n3. Magnesium (Mg)\n4. Zinc (Zn)",
+        "Options": [
+          { "id": 1, "text": "1 and 4 only" },
+          { "id": 2, "text": "2 and 3 only" },
+          { "id": 3, "text": "1, 2 and 3" },
+          { "id": 4, "text": "2, 3 and 4" }
+        ],
+        "CorrectAnswer": "2 and 3 only",
+        "Explanation": "Primary macronutrients are Nitrogen (N), Phosphorus (P), and Potassium (K). \nSecondary macronutrients are Calcium (Ca), Magnesium (Mg), and Sulfur (S). \nZinc (Zn) is a micronutrient.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Soil Science"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "'Tikka' disease is a major fungal disease that affects which crop?",
+        "Options": [
+          { "id": 1, "text": "Sugarcane" },
+          { "id": 2, "text": "Rice" },
+          { "id": 3, "text": "Groundnut (Peanut)" },
+          { "id": 4, "text": "Cotton" }
+        ],
+        "CorrectAnswer": "Groundnut (Peanut)",
+        "Explanation": "Tikka disease, or leaf spot, is a common and serious fungal disease in groundnut plants, causing spots on the leaves and significant yield loss.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Plant Diseases"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Coffee?",
+        "Options": [
+          { "id": 1, "text": "Kerala" },
+          { "id": 2, "text": "Tamil Nadu" },
+          { "id": 3, "text": "Karnataka" },
+          { "id": 4, "text": "Assam" }
+        ],
+        "CorrectAnswer": "Karnataka",
+        "Explanation": "Karnataka is by far the largest producer of coffee in India, accounting for over 70% of the total production. The hills of Kodagu, Chikkamagaluru, and Hassan are the main coffee-growing regions.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "India Crops"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Paramparagat Krishi Vikas Yojana' (PKVY) is a government scheme to promote:",
+        "Options": [
+          { "id": 1, "text": "Organic farming" },
+          { "id": 2, "text": "Drip irrigation" },
+          { "id": 3, "text": "Crop insurance" },
+          { "id": 4, "text": "Mechanized farming" }
+        ],
+        "CorrectAnswer": "Organic farming",
+        "Explanation": "PKVY is a scheme to promote 'Paramparagat Krishi' (traditional farming), which is organic farming. It supports farmers to form clusters and adopt organic farming methods without synthetic chemicals.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Govt. Schemes"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The region formed by the Tapi river basin in North Maharashtra, known for banana cultivation, is called:",
+        "Options": [
+          { "id": 1, "text": "Konkan" },
+          { "id": 2, "text": "Marathwada" },
+          { "id": 3, "text": "Vidarbha" },
+          { "id": 4, "text": "Khandesh" }
+        ],
+        "CorrectAnswer": "Khandesh",
+        "Explanation": "The Khandesh region (comprising Jalgaon, Dhule, Nandurbar) is geographically defined by the Tapi river basin and is a major agricultural zone, especially for bananas and cotton.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Geography (MH)"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "What is 'Khadar' soil?",
+        "Options": [
+          { "id": 1, "text": "Old alluvial soil, less fertile" },
+          { "id": 2, "text": "New alluvial soil, highly fertile" },
+          { "id": 3, "text": "Acidic soil found in mountains" },
+          { "id": 4, "text": "Saline soil found in deserts" }
+        ],
+        "CorrectAnswer": "New alluvial soil, highly fertile",
+        "Explanation": "Alluvial soil is divided into two types: 'Khadar' is the new alluvium, found in the floodplains, which is replenished every year and is highly fertile. 'Bhangar' is the old alluvium, found on higher terraces, which is less fertile.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Soil Science"
+      },
+      {
+        "category": "Agriculture (Terminology)",
+        "Question": "The science and practice of growing vegetables is known as:",
+        "Options": [
+          { "id": 1, "text": "Pomology" },
+          { "id": 2, "text": "Olericulture" },
+          { "id": 3, "text": "Floriculture" },
+          { "id": 4, "text": "Viticulture" }
+        ],
+        "CorrectAnswer": "Olericulture",
+        "Explanation": "Olericulture is the branch of horticulture that deals with the production, storage, and marketing of vegetables. (Pomology = fruits; Floriculture = flowers; Viticulture = grapes).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Terminology"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Natural Rubber?",
+        "Options": [
+          { "id": 1, "text": "Karnataka" },
+          { "id": 2, "text": "Tamil Nadu" },
+          { "id": 3, "text": "Assam" },
+          { "id": 4, "text": "Kerala" }
+        ],
+        "CorrectAnswer": "Kerala",
+        "Explanation": "Kerala dominates natural rubber production in India, accounting for the vast majority of the country's output, thanks to its suitable tropical climate.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "India Crops"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Brown Revolution' is associated with:",
+        "Options": [
+          { "id": 1, "text": "Leather and Cocoa production" },
+          { "id": 2, "text": "Fertilizer production" },
+          { "id": 3, "text": "Potato production" },
+          { "id": 4, "text": "Jute production" }
+        ],
+        "CorrectAnswer": "Leather and Cocoa production",
+        "Explanation": "The Brown Revolution is associated with the promotion of non-conventional energy sources and also with leather and cocoa production. (Fertilizer = Grey; Potato = Round; Jute = Golden Fibre).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Agricultural Revolutions"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'Gopinath Munde Shetkari Apghat Vima Yojana' is a scheme by the Maharashtra government that provides:",
+        "Options": [
+          { "id": 1, "text": "Crop insurance" },
+          { "id": 2, "text": "Tractor subsidies" },
+          { "id": 3, "text": "Insurance cover to farmers in case of accidental death or disability" },
+          { "id": 4, "text": "Pension for old farmers" }
+        ],
+        "CorrectAnswer": "Insurance cover to farmers in case of accidental death or disability",
+        "Explanation": "This scheme is an accident insurance policy that provides financial support (insurance cover) to the family of a farmer in the event of their accidental death or disability.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Govt. Schemes (MH)"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which of the following statements about 'Plantation Farming' is/are correct?\n1. It involves growing a single cash crop on a large area.\n2. It is capital-intensive and requires a large labor force.\n3. It is primarily practiced to grow food grains like wheat and rice.",
+        "Options": [
+          { "id": 1, "text": "1 and 2 only" },
+          { "id": 2, "text": "2 and 3 only" },
+          { "id": 3, "text": "1 and 3 only" },
+          { "id": 4, "text": "1, 2 and 3" }
+        ],
+        "CorrectAnswer": "1 and 2 only",
+        "Explanation": "(1) and (2) are correct. Plantation farming is defined by a single crop (tea, coffee, rubber, banana) grown on a large estate, requiring significant capital and labor. (3) is incorrect; it is used for cash crops, not food grains.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Farming Systems"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The red color of 'Red Soil' is due to the presence of:",
+        "Options": [
+          { "id": 1, "text": "High humus content" },
+          { "id": 2, "text": "High moisture content" },
+          { "id": 3, "text": "High magnesium content" },
+          { "id": 4, "text": "High iron oxide content" }
+        ],
+        "CorrectAnswer": "High iron oxide content",
+        "Explanation": "Red soil gets its characteristic red color from the wide diffusion of iron oxides (specifically, ferric oxide) in the soil. It often appears yellow when in a hydrated form.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Soil Science"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Indian Institute of Soil Science' (IISS) is located in:",
+        "Options": [
+          { "id": 1, "text": "New Delhi" },
+          { "id": 2, "text": "Nagpur" },
+          { "id": 3, "text": "Bhopal" },
+          { "id": 4, "text": "Ludhiana" }
+        ],
+        "CorrectAnswer": "Bhopal",
+        "Explanation": "The Indian Institute of Soil Science (IISS) is an ICAR institute located in Bhopal, Madhya Pradesh, dedicated to research on soil science.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Institutions"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The Marathwada region (Beed, Latur, Osmanabad) is a major producer of which pulse crop?",
+        "Options": [
+          { "id": 1, "text": "Tur (Pigeon Pea)" },
+          { "id": 2, "text": "Urad (Black Gram)" },
+          { "id": 3, "text": "Masoor (Lentil)" },
+          { "id": 4, "text": "Moong (Green Gram)" }
+        ],
+        "CorrectAnswer": "Tur (Pigeon Pea)",
+        "Explanation": "The Marathwada region is one of the largest producers of Tur (Pigeon Pea or Arhar) in India. It is a staple pulse crop for the region.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "MH Crops"
+      },
+      {
+        "category": "Agriculture (Botany)",
+        "Question": "The loss of water in the form of vapor from the aerial parts (mainly leaves) of plants is called:",
+        "Options": [
+          { "id": 1, "text": "Photosynthesis" },
+          { "id": 2, "text": "Respiration" },
+          { "id": 3, "text": "Transpiration" },
+          { "id": 4, "text": "Guttation" }
+        ],
+        "CorrectAnswer": "Transpiration",
+        "Explanation": "Transpiration is the process of water movement through a plant and its evaporation from aerial parts, such as leaves (through stomata), stems, and flowers.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Botany"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Silver Fibre' revolution is associated with:",
+        "Options": [
+          { "id": 1, "text": "Cotton" },
+          { "id": 2, "text": "Jute" },
+          { "id": 3, "text": "Silk" },
+          { "id": 4, "text": "Eggs" }
+        ],
+        "CorrectAnswer": "Cotton",
+        "Explanation": "The 'Silver Fibre' revolution refers to efforts to boost Cotton production. (Jute = Golden Fibre; Eggs = Silver Revolution - without the word 'Fibre').",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Agricultural Revolutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "What is 'Zero Budget Natural Farming' (ZBNF)?",
+        "Options": [
+          { "id": 1, "text": "A method of farming using only synthetic fertilizers." },
+          { "id": 2, "text": "A method of farming that relies on external inputs and subsidies." },
+          { "id": 3, "text": "A method of farming that aims for zero net cost of inputs, using natural farm-made inputs." },
+          { "id": 4, "text": "A method of farming using only genetically modified (GM) seeds." }
+        ],
+        "CorrectAnswer": "A method of farming that aims for zero net cost of inputs, using natural farm-made inputs.",
+        "Explanation": "ZBNF is a model of farming that is based on using natural, on-farm inputs (like 'Jeevamrutha' and 'Beejamrutha') and eliminating all chemical/synthetic inputs. The 'Zero Budget' refers to making the cost of production zero.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Farming Systems"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'Central Institute for Cotton Research' (CICR) is headquartered in which city of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Aurangabad" },
+          { "id": 3, "text": "Nagpur" },
+          { "id": 4, "text": "Akola" }
+        ],
+        "CorrectAnswer": "Nagpur",
+        "Explanation": "The CICR, an ICAR institute, is headquartered in Nagpur, which is in the center of the main cotton-growing belt of Vidarbha.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "MH Institutions"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'Waghya Ghevda' (a type of kidney bean), which has a GI tag, is a famous crop from which district?",
+        "Options": [
+          { "id": 1, "text": "Satara" },
+          { "id": 2, "text": "Pune" },
+          { "id": 3, "text": "Kolhapur" },
+          { "id": 4, "text": "Solapur" }
+        ],
+        "CorrectAnswer": "Satara",
+        "Explanation": "The 'Waghya Ghevda' is a specific type of kidney bean known for its unique color and taste, grown in the Koregaon taluka of Satara district.",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Horticulture (MH)"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'National Research Centre on Pomegranate' is located in which city?",
+        "Options": [
+          { "id": 1, "text": "Nashik" },
+          { "id": 2, "text": "Pune" },
+          { "id": 3, "text": "Solapur" },
+          { "id": 4, "text": "Bengaluru" }
+        ],
+        "CorrectAnswer": "Solapur",
+        "Explanation": "The National Research Centre on Pomegranate (NRCP) is an ICAR institute located in Solapur, Maharashtra, which is a major pomegranate-producing district.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Jute?",
+        "Options": [
+          { "id": 1, "text": "Bihar" },
+          { "id": 2, "text": "Assam" },
+          { "id": 3, "text": "Odisha" },
+          { "id": 4, "text": "West Bengal" }
+        ],
+        "CorrectAnswer": "West Bengal",
+        "Explanation": "West Bengal is the largest producer of jute in India, followed by Bihar and Assam. The fertile soil of the Ganga-Brahmaputra delta is ideal for its cultivation.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "India Crops"
+      },
+      {
+        "category": "Agriculture (Terminology)",
+        "Question": "The cultivation of flowers and ornamental plants is known as:",
+        "Options": [
+          { "id": 1, "text": "Floriculture" },
+          { "id": 2, "text": "Olericulture" },
+          { "id": 3, "text": "Pomology" },
+          { "id": 4, "text": "Silviculture" }
+        ],
+        "CorrectAnswer": "Floriculture",
+        "Explanation": "Floriculture is a branch of horticulture concerned with the cultivation of flowering and ornamental plants for gardens and for floristry.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Terminology"
+      },
+      {
+        "category": "Agriculture (Botany)",
+        "Question": "Which element is a key component of chlorophyll and is essential for photosynthesis?",
+        "Options": [
+          { "id": 1, "text": "Iron (Fe)" },
+          { "id": 2, "text": "Calcium (Ca)" },
+          { "id": 3, "text": "Magnesium (Mg)" },
+          { "id": 4, "text": "Potassium (K)" }
+        ],
+        "CorrectAnswer": "Magnesium (Mg)",
+        "Explanation": "The chlorophyll molecule has a magnesium ion at the center of its porphyrin ring. This magnesium is essential for the molecule to be able to absorb light energy.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Botany"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Protein Revolution' (a term coined by the government) is a mission focused on boosting the production of:",
+        "Options": [
+          { "id": 1, "text": "Milk" },
+          { "id": 2, "text": "Eggs" },
+          { "id": 3, "text": "Pulses" },
+          { "id": 4, "text": "Soybean" }
+        ],
+        "CorrectAnswer": "Pulses",
+        "Explanation": "The 'Protein Revolution' is a government mission aimed at achieving self-sufficiency in pulse (dal) production, which is a key source of protein for the Indian diet.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Agricultural Revolutions"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "Which type of irrigation has the highest percentage share in Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Canal Irrigation" },
+          { "id": 2, "text": "Well Irrigation" },
+          { "id": 3, "text": "Tank Irrigation" },
+          { "id": 4, "text": "Drip Irrigation" }
+        ],
+        "CorrectAnswer": "Well Irrigation",
+        "Explanation": "Due to the basalt rock topography and reliance on groundwater, well irrigation (including borewells and dug wells) accounts for the largest share of irrigated area in Maharashtra, significantly more than canal or tank irrigation.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Irrigation (MH)"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'National Bureau of Soil Survey and Land Use Planning' (NBSS&LUP) is headquartered in which city?",
+        "Options": [
+          { "id": 1, "text": "New Delhi" },
+          { "id": 2, "text": "Pune" },
+          { "id": 3, "text": "Nagpur" },
+          { "id": 4, "text": "Bhopal" }
+        ],
+        "CorrectAnswer": "Nagpur",
+        "Explanation": "The National Bureau of Soil Survey and Land Use Planning, a premier institute of ICAR for soil survey and land use planning, is headquartered in Nagpur, Maharashtra.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which of the following is NOT a 'Zaid' (summer) crop?",
+        "Options": [
+          { "id": 1, "text": "Watermelon" },
+          { "id": 2, "text": "Muskmelon" },
+          { "id": 3, "text": "Cucumber" },
+          { "id": 4, "text": "Gram (Chana)" }
+        ],
+        "CorrectAnswer": "Gram (Chana)",
+        "Explanation": "Zaid crops are summer-season crops grown between Rabi and Kharif. Watermelon, muskmelon, and cucumber are typical Zaid crops. Gram (Chana) is a Rabi (winter) crop.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Crop Types"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Operation Flood' is a mission associated with which revolution?",
+        "Options": [
+          { "id": 1, "text": "Green Revolution" },
+          { "id": 2, "text": "White Revolution" },
+          { "id": 3, "text": "Blue Revolution" },
+          { "id": 4, "text": "Yellow Revolution" }
+        ],
+        "CorrectAnswer": "White Revolution",
+        "Explanation": "'Operation Flood' was the program launched by the National Dairy Development Board (NDDB) in 1970 that led to the 'White Revolution' (increase in milk production).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Agricultural Revolutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Pulses (total)?",
+        "Options": [
+          { "id": 1, "text": "Uttar Pradesh" },
+          { "id": 2, "text": "Rajasthan" },
+          { "id": 3, "text": "Madhya Pradesh" },
+          { "id": 4, "text": "Maharashtra" }
+        ],
+        "CorrectAnswer": "Madhya Pradesh",
+        "Explanation": "Madhya Pradesh is the largest producer of total pulses in India, followed by states like Rajasthan and Maharashtra.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "India Crops"
+      },
+      {
+        "category": "Agriculture (Soil Science)",
+        "Question": "The 'self-ploughing' capacity (swelling when wet, shrinking when dry) is a unique feature of which soil?",
+        "Options": [
+          { "id": 1, "text": "Red Soil" },
+          { "id": 2, "text": "Laterite Soil" },
+          { "id": 3, "text": "Alluvial Soil" },
+          { "id": 4, "text": "Black Soil (Regur)" }
+        ],
+        "CorrectAnswer": "Black Soil (Regur)",
+        "Explanation": "Black soil (Regur) has a high clay (montmorillonite) content, which causes it to swell significantly when wet and shrink when dry. This shrinking creates deep cracks, which is known as 'self-ploughing' as it helps in aeration.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Soil Science"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "What is 'Viticulture'?",
+        "Options": [
+          { "id": 1, "text": "The cultivation of grapes." },
+          { "id": 2, "text": "The rearing of fish." },
+          { "id": 3, "text": "The cultivation of vegetables." },
+          { "id": 4, "text": "The rearing of silkworms." }
+        ],
+        "CorrectAnswer": "The cultivation of grapes.",
+        "Explanation": "Viticulture is the science, production, and study of grapes, often for winemaking. (Fish = Pisciculture; Vegetables = Olericulture; Silkworms = Sericulture).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Terminology"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'Beed' district in Marathwada, Maharashtra, is well-known for the cultivation of which fruit?",
+        "Options": [
+          { "id": 1, "text": "Grapes" },
+          { "id": 2, "text": "Custard Apple (Sitaphal)" },
+          { "id": 3, "text": "Banana" },
+          { "id": 4, "text": "Orange" }
+        ],
+        "CorrectAnswer": "Custard Apple (Sitaphal)",
+        "Explanation": "The Beed district, particularly the hilly and dry areas, is famous for its high-quality Custard Apples (Sitaphal), and 'Beed Custard Apple' holds a GI tag.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Horticulture (MH)"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which of the following government schemes is designed to provide income support directly to farmers?",
+        "Options": [
+          { "id": 1, "text": "PM Fasal Bima Yojana (PMFBY)" },
+          { "id": 2, "text": "PM Krishi Sinchayee Yojana (PMKSY)" },
+          { "id": 3, "text": "PM Kisan Samman Nidhi (PM-KISAN)" },
+          { "id": 4, "text": "e-NAM" }
+        ],
+        "CorrectAnswer": "PM Kisan Samman Nidhi (PM-KISAN)",
+        "Explanation": "The PM-KISAN scheme provides a direct income support of ₹6000 per year in three installments to eligible farmer families. PMFBY is for crop insurance, and PMKSY is for irrigation.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Govt. Schemes"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Brown Revolution' is associated with:\n1. Leather Production\n2. Cocoa Production\n3. Fertilizer Production",
+        "Options": [
+          { "id": 1, "text": "1 only" },
+          { "id": 2, "text": "1 and 2 only" },
+          { "id": 3, "text": "1 and 3 only" },
+          { "id": 4, "text": "3 only" }
+        ],
+        "CorrectAnswer": "1 and 2 only",
+        "Explanation": "The Brown Revolution is associated with Leather and Cocoa production, as well as non-conventional energy sources. The 'Grey Revolution' is associated with Fertilizer production.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Agricultural Revolutions"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "Which type of irrigation has the highest percentage share in Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Canal Irrigation" },
+          { "id": 2, "text": "Well Irrigation" },
+          { "id": 3, "text": "Tank Irrigation" },
+          { "id": 4, "text": "Drip Irrigation" }
+        ],
+        "CorrectAnswer": "Well Irrigation",
+        "Explanation": "Due to the basalt rock topography and reliance on groundwater, well irrigation (including borewells and dug wells) accounts for the largest share (over 55-60%) of irrigated area in Maharashtra.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Irrigation (MH)"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Sugarcane?",
+        "Options": [
+          { "id": 1, "text": "Maharashtra" },
+          { "id": 2, "text": "Uttar Pradesh" },
+          { "id": 3, "text": "Karnataka" },
+          { "id": 4, "text": "Tamil Nadu" }
+        ],
+        "CorrectAnswer": "Uttar Pradesh",
+        "Explanation": "Uttar Pradesh is the largest sugarcane-producing state in India. Maharashtra is typically the second largest.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "India Crops"
+      },
+      {
+        "category": "Agriculture (Soil Science)",
+        "Question": "Which of the following statements about Laterite Soil is INCORRECT?",
+        "Options": [
+          { "id": 1, "text": "It is formed in regions with high temperature and high rainfall." },
+          { "id": 2, "text": "It is rich in iron and aluminum oxides." },
+          { "id": 3, "text": "It is very fertile and rich in humus." },
+          { "id": 4, "text": "It is acidic in nature and suitable for cashew and tapioca." }
+        ],
+        "CorrectAnswer": "It is very fertile and rich in humus.",
+        "Explanation": "Statements 1, 2, and 4 are correct. Statement 3 is incorrect. Due to intense leaching from heavy rain, humus, lime, and silica are washed away, making the soil acidic and generally infertile (poor in humus).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Soil Science"
+      },
+      {
+        "category": "Agriculture (Botany)",
+        "Question": "The loss of water in the form of vapor from the aerial parts (mainly leaves) of plants is called:",
+        "Options": [
+          { "id": 1, "text": "Photosynthesis" },
+          { "id": 2, "text": "Respiration" },
+          { "id": 3, "text": "Transpiration" },
+          { "id": 4, "text": "Guttation" }
+        ],
+        "CorrectAnswer": "Transpiration",
+        "Explanation": "Transpiration is the process of water movement through a plant and its evaporation (loss as vapor) from aerial parts, such as leaves (through stomata), stems, and flowers. Guttation is the loss of water in liquid form.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Botany"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'National Research Centre on Pomegranate' is located in which city?",
+        "Options": [
+          { "id": 1, "text": "Nashik" },
+          { "id": 2, "text": "Pune" },
+          { "id": 3, "text": "Solapur" },
+          { "id": 4, "text": "Bengaluru" }
+        ],
+        "CorrectAnswer": "Solapur",
+        "Explanation": "The National Research Centre on Pomegranate (NRCP) is an ICAR institute located in Solapur, Maharashtra, which is a major pomegranate-producing district.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Natural Rubber?",
+        "Options": [
+          { "id": 1, "text": "Karnataka" },
+          { "id": 2, "text": "Tamil Nadu" },
+          { "id": 3, "text": "Assam" },
+          { "id": 4, "text": "Kerala" }
+        ],
+        "CorrectAnswer": "Kerala",
+        "Explanation": "Kerala dominates natural rubber production in India, accounting for the vast majority of the country's output, thanks to its suitable tropical climate.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "India Crops"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'Jalna' district in Maharashtra is renowned as a major hub for which agricultural industry?",
+        "Options": [
+          { "id": 1, "text": "Seed production" },
+          { "id": 2, "text": "Wine production" },
+          { "id": 3, "text": "Cotton spinning" },
+          { "id": 4, "text": "Sugar processing" }
+        ],
+        "CorrectAnswer": "Seed production",
+        "Explanation": "Jalna, in the Marathwada region, is known as the 'Seed Capital of Maharashtra' (and one of the biggest in India) due to the presence of numerous national and multinational seed companies.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Agri-Industry (MH)"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "What is 'Zero Budget Natural Farming' (ZBNF)?",
+        "Options": [
+          { "id": 1, "text": "A method of farming using only synthetic fertilizers and pesticides." },
+          { "id": 2, "text": "A method of farming that aims for zero net cost of inputs, using natural farm-made inputs." },
+          { "id": 3, "text": "A method of farming using only genetically modified (GM) seeds." },
+          { "id": 4, "text": "A method of farming that relies completely on government subsidies." }
+        ],
+        "CorrectAnswer": "A method of farming that aims for zero net cost of inputs, using natural farm-made inputs.",
+        "Explanation": "ZBNF is a model of farming that is based on using natural, on-farm inputs (like 'Jeevamrutha' and 'Beejamrutha') and eliminating all chemical/synthetic inputs. The 'Zero Budget' refers to making the cost of production zero by using these on-farm resources.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Farming Systems"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which of the following is NOT a good example of a 'leguminous' crop used in crop rotation to fix nitrogen?",
+        "Options": [
+          { "id": 1, "text": "Gram (Chana)" },
+          { "id": 2, "text": "Soybean" },
+          { "id": 3, "text": "Groundnut" },
+          { "id": 4, "text": "Wheat" }
+        ],
+        "CorrectAnswer": "Wheat",
+        "Explanation": "Leguminous crops (pulses, groundnut, soybean) have root nodules containing *Rhizobium* bacteria, which fix atmospheric nitrogen in the soil. Wheat is a cereal (non-legume) that consumes nitrogen from the soil.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Soil Science"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'National Research Centre for Grapes' (NRCG) is located in:",
+        "Options": [
+          { "id": 1, "text": "Nashik" },
+          { "id": 2, "text": "Sangli" },
+          { "id": 3, "text": "Pune" },
+          { "id": 4, "text": "Nagpur" }
+        ],
+        "CorrectAnswer": "Pune",
+        "Explanation": "The National Research Centre for Grapes is located at Manjri in Pune, Maharashtra. (Nashik is the main production hub, but the research center is in Pune).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Spices (total)?",
+        "Options": [
+          { "id": 1, "text": "Kerala" },
+          { "id": 2, "text": "Andhra Pradesh" },
+          { "id": 3, "text": "Madhya Pradesh" },
+          { "id": 4, "text": "Rajasthan" }
+        ],
+        "CorrectAnswer": "Madhya Pradesh",
+        "Explanation": "While Kerala is known as the 'Land of Spices', in terms of total volume of production (including chillies, garlic, coriander), Madhya Pradesh is currently the largest spice-producing state in India.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "India Crops"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which of the following are 'Zaid' crops (summer crops)?\n1. Watermelon\n2. Cucumber\n3. Wheat\n4. Mustard",
+        "Options": [
+          { "id": 1, "text": "1 and 2 only" },
+          { "id": 2, "text": "3 and 4 only" },
+          { "id": 3, "text": "1, 2 and 3" },
+          { "id": 4, "text": "1, 2, 3 and 4" }
+        ],
+        "CorrectAnswer": "1 and 2 only",
+        "Explanation": "Zaid crops are grown in the short summer season (March-June). Watermelon and Cucumber are classic examples. Wheat and Mustard are Rabi (winter) crops.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Crop Types"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "What is 'Vermi-composting'?",
+        "Options": [
+          { "id": 1, "text": "Composting using chemical additives." },
+          { "id": 2, "text": "Composting using a 'vermi-reactor'." },
+          { "id": 3, "text": "Composting using various species of earthworms." },
+          { "id": 4, "text": "Composting in a high-temperature environment." }
+        ],
+        "CorrectAnswer": "Composting using various species of earthworms.",
+        "Explanation": "Vermi-composting is the process of using earthworms ('vermi' = worm) to decompose organic waste (like food scraps, farm waste) into a nutrient-rich fertilizer called vermi-compost or worm castings.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Farming Systems"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'Marathwada Agricultural University' (VNMKV) is located in which city?",
+        "Options": [
+          { "id": 1, "text": "Aurangabad (Chh. Sambhajinagar)" },
+          { "id": 2, "text": "Nanded" },
+          { "id": 3, "text": "Latur" },
+          { "id": 4, "text": "Parbhani" }
+        ],
+        "CorrectAnswer": "Parbhani",
+        "Explanation": "The Vasantrao Naik Marathwada Krishi Vidyapeeth (VNMKV), the agricultural university for the Marathwada region, is located in Parbhani.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "MH Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Protein Revolution' (a term coined by the government) is a mission focused on boosting the production of:",
+        "Options": [
+          { "id": 1, "text": "Milk" },
+          { "id": 2, "text": "Eggs" },
+          { "id": 3, "text": "Pulses" },
+          { "id": 4, "text": "Soybean" }
+        ],
+        "CorrectAnswer": "Pulses",
+        "Explanation": "The 'Protein Revolution' is a government mission aimed at achieving self-sufficiency in pulse (dal) production, which is a key source of protein for the Indian diet.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Agricultural Revolutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which element is a key component of chlorophyll and is essential for photosynthesis?",
+        "Options": [
+          { "id": 1, "text": "Iron (Fe)" },
+          { "id": 2, "text": "Calcium (Ca)" },
+          { "id": 3, "text": "Magnesium (Mg)" },
+          { "id": 4, "text": "Potassium (K)" }
+        ],
+        "CorrectAnswer": "Magnesium (Mg)",
+        "Explanation": "The chlorophyll molecule has a magnesium ion at the center of its porphyrin ring. This magnesium is essential for the molecule to be able to absorb light energy.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Botany"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which of the following is an example of a 'Plantation Crop'?",
+        "Options": [
+          { "id": 1, "text": "Wheat" },
+          { "id": 2, "text": "Rice" },
+          { "id": 3, "text": "Tea" },
+          { "id": 4, "text": "Pulses" }
+        ],
+        "CorrectAnswer": "Tea",
+        "Explanation": "Plantation farming involves growing a single cash crop (like Tea, Coffee, Rubber, or Bananas) on a large estate. Wheat, Rice, and Pulses are food grains.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Crop Types"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "What is 'Horticulture'?",
+        "Options": [
+          { "id": 1, "text": "The cultivation of field crops like wheat and rice." },
+          { "id": 2, "text": "The cultivation of fruits, vegetables, flowers, and ornamental plants." },
+          { "id": 3, "text": "The rearing of livestock." },
+          { "id": 4, "text": "The practice of forestry." }
+        ],
+        "CorrectAnswer": "The cultivation of fruits, vegetables, flowers, and ornamental plants.",
+        "Explanation": "Horticulture is the branch of agriculture that deals with 'garden crops', which includes Pomology (fruits), Olericulture (vegetables), and Floriculture (flowers).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Terminology"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The Dr. Balasaheb Sawant Konkan Krishi Vidyapeeth (BSKKV) is located at:",
+        "Options": [
+          { "id": 1, "text": "Ratnagiri" },
+          { "id": 2, "text": "Dapoli" },
+          { "id": 3, "text": "Sindhudurg" },
+          { "id": 4, "text": "Raigad" }
+        ],
+        "CorrectAnswer": "Dapoli",
+        "Explanation": "The BSKKV, which serves the Konkan region, is located at Dapoli in the Ratnagiri district of Maharashtra.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "MH Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Cotton?",
+        "Options": [
+          { "id": 1, "text": "Gujarat" },
+          { "id": 2, "text": "Maharashtra" },
+          { "id": 3, "text": "Telangana" },
+          { "id": 4, "text": "Madhya Pradesh" }
+        ],
+        "CorrectAnswer": "Gujarat",
+        "Explanation": "Gujarat is the largest cotton-producing state in India, followed by Maharashtra. Both states have large areas of black soil (Regur) suitable for cotton.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "India Crops"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Food Corporation of India' (FCI) performs which of the following functions?\n1. Procurement of foodgrains at MSP.\n2. Maintenance of buffer stocks.\n3. Distribution of foodgrains for PDS.",
+        "Options": [
+          { "id": 1, "text": "1 and 2 only" },
+          { "id": 2, "text": "2 and 3 only" },
+          { "id": 3, "text": "1 and 3 only" },
+          { "id": 4, "text": "1, 2 and 3" }
+        ],
+        "CorrectAnswer": "1, 2 and 3",
+        "Explanation": "All three are the primary functions of the FCI. It procures grains from farmers, maintains the national buffer stock for food security, and issues the grains to states for the Public Distribution System (PDS).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Institutions"
+      },
+      {
+        "category": "Agriculture (Botany)",
+        "Question": "Which plant hormone is a 'stress hormone' that promotes dormancy and the closing of stomata?",
+        "Options": [
+          { "id": 1, "text": "Auxin" },
+          { "id": 2, "text": "Gibberellin" },
+          { "id": 3, "text": "Ethylene" },
+          { "id": 4, "text": "Abscisic Acid (ABA)" }
+        ],
+        "CorrectAnswer": "Abscisic Acid (ABA)",
+        "Explanation": "Abscisic Acid (ABA) is a plant stress hormone. It is produced during drought conditions and signals the stomata (leaf pores) to close, reducing water loss (transpiration). It also promotes seed dormancy.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Botany"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'Waghya Ghevda' (a type of kidney bean), which has a GI tag, is a famous crop from which district?",
+        "Options": [
+          { "id": 1, "text": "Satara" },
+          { "id": 2, "text": "Pune" },
+          { "id": 3, "text": "Kolhapur" },
+          { "id": 4, "text": "Solapur" }
+        ],
+        "CorrectAnswer": "Satara",
+        "Explanation": "The 'Waghya Ghevda' is a specific type of kidney bean known for its unique color and taste, grown in the Koregaon taluka of Satara district.",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Horticulture (MH)"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'National Research Centre on Pomegranate' is located in which city?",
+        "Options": [
+          { "id": 1, "text": "Nashik" },
+          { "id": 2, "text": "Pune" },
+          { "id": 3, "text": "Solapur" },
+          { "id": 4, "text": "Bengaluru" }
+        ],
+        "CorrectAnswer": "Solapur",
+        "Explanation": "The National Research Centre on Pomegranate (NRCP) is an ICAR institute located in Solapur, Maharashtra, which is a major pomegranate-producing district.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Jute?",
+        "Options": [
+          { "id": 1, "text": "Bihar" },
+          { "id": 2, "text": "Assam" },
+          { "id": 3, "text": "Odisha" },
+          { "id": 4, "text": "West Bengal" }
+        ],
+        "CorrectAnswer": "West Bengal",
+        "Explanation": "West Bengal is the largest producer of jute in India, followed by Bihar and Assam. The fertile soil of the Ganga-Brahmaputra delta is ideal for its cultivation.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "India Crops"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Golden Fibre' revolution is associated with:",
+        "Options": [
+          { "id": 1, "text": "Cotton" },
+          { "id": 2, "text": "Jute" },
+          { "id": 3, "text": "Fruits (Horticulture)" },
+          { "id": 4, "text": "Eggs" }
+        ],
+        "CorrectAnswer": "Jute",
+        "Explanation": "Jute is known as the 'Golden Fibre' due to its color and value. (Cotton = Silver Fibre Revolution; Fruits = Golden Revolution; Eggs = Silver Revolution).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Agricultural Revolutions"
+      },
+      {
+        "category": "Agriculture (Farming Systems)",
+        "Question": "The practice of growing two or more crops in alternating rows in the same field at the same time is called:",
+        "Options": [
+          { "id": 1, "text": "Crop Rotation" },
+          { "id": 2, "text": "Monocropping" },
+          { "id": 3, "text": "Intercropping" },
+          { "id": 4, "text": "Relay Cropping" }
+        ],
+        "CorrectAnswer": "Intercropping",
+        "Explanation": "Intercropping involves growing two or more different crops in proximity (e.g., in alternating rows) to produce a greater yield on a given piece of land.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Farming Systems"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'National Dairy Research Institute' (NDRI) is located in:",
+        "Options": [
+          { "id": 1, "text": "Karnal, Haryana" },
+          { "id": 2, "text": "Anand, Gujarat" },
+          { "id": 3, "text": "New Delhi" },
+          { "id": 4, "text": "Hisar, Haryana" }
+        ],
+        "CorrectAnswer": "Karnal, Haryana",
+        "Explanation": "The NDRI is India's premier institute for dairy research and education, located in Karnal, Haryana. (The National Dairy Development Board, NDDB, is in Anand).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Institutions"
+      },
+      {
+        "category": "Agriculture (Plant Diseases)",
+        "Question": "'Tungro' is a major viral disease that affects which crop?",
+        "Options": [
+          { "id": 1, "text": "Wheat" },
+          { "id": 2, "text": "Sugarcane" },
+          { "id": 3, "text": "Rice" },
+          { "id": 4, "text": "Cotton" }
+        ],
+        "CorrectAnswer": "Rice",
+        "Explanation": "Rice Tungro Virus is a significant disease in rice-growing regions of Asia. It is transmitted by green leafhoppers and causes yellowing/discoloration of leaves and stunted growth.",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Plant Diseases"
+      },
+      {
+        "category": "Agriculture (Animal Husbandry)",
+        "Question": "The 'Pashmina' wool, known for its fine quality, is obtained from a special breed of:",
+        "Options": [
+          { "id": 1, "text": "Sheep" },
+          { "id": 2, "text": "Rabbit" },
+          { "id": 3, "text": "Goat" },
+          { "id": 4, "text": "Yak" }
+        ],
+        "CorrectAnswer": "Goat",
+        "Explanation": "Pashmina wool is obtained from the Changthangi goat, a special breed found in the high altitudes of the Himalayas (Ladakh and Tibet).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Animal Husbandry"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'Central Institute for Cotton Research' (CICR) is headquartered in which city of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Aurangabad" },
+          { "id": 3, "text": "Nagpur" },
+          { "id": 4, "text": "Akola" }
+        ],
+        "CorrectAnswer": "Nagpur",
+        "Explanation": "The CICR, an ICAR institute, is headquartered in Nagpur, which is in the center of the main cotton-growing belt of Vidarbha.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "MH Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which of the following statements about 'Drip Irrigation' is/are correct?\n1. It is a type of micro-irrigation system.\n2. It saves water by delivering it directly to the roots.\n3. It is most suitable for crops like paddy (rice).",
+        "Options": [
+          { "id": 1, "text": "1 and 2 only" },
+          { "id": 2, "text": "2 and 3 only" },
+          { "id": 3, "text": "1 only" },
+          { "id": 4, "text": "1, 2 and 3" }
+        ],
+        "CorrectAnswer": "1 and 2 only",
+        "Explanation": "(1) and (2) are correct. Drip irrigation is a highly efficient micro-irrigation method. (3) is incorrect; it is not suitable for crops that require standing water, like paddy (rice), which is grown using flood irrigation.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Irrigation"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Golden Revolution' is associated with the production of:",
+        "Options": [
+          { "id": 1, "text": "Pulses" },
+          { "id": 2, "text": "Jute" },
+          { "id": 3, "text": "Horticulture (Fruits) and Honey" },
+          { "id": 4, "text": "Oilseeds" }
+        ],
+        "CorrectAnswer": "Horticulture (Fruits) and Honey",
+        "Explanation": "The Golden Revolution (1991-2003) refers to the period of high growth in the horticulture sector (fruits, vegetables, flowers) and honey production. (Jute = Golden *Fibre* Revolution).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Agricultural Revolutions"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'Vasantrao Naik Marathwada Krishi Vidyapeeth' (VNMKV) is located in which city?",
+        "Options": [
+          { "id": 1, "text": "Aurangabad" },
+          { "id": 2, "text": "Nanded" },
+          { "id": 3, "text": "Latur" },
+          { "id": 4, "text": "Parbhani" }
+        ],
+        "CorrectAnswer": "Parbhani",
+        "Explanation": "The Vasantrao Naik Marathwada Krishi Vidyapeeth, which serves the Marathwada region, is located in Parbhani.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "MH Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which type of farming involves growing crops without the use of synthetic fertilizers and pesticides?",
+        "Options": [
+          { "id": 1, "text": "Mixed Farming" },
+          { "id": 2, "text": "Plantation Farming" },
+          { "id": 3, "text": "Organic Farming" },
+          { "id": 4, "text": "Dryland Farming" }
+        ],
+        "CorrectAnswer": "Organic Farming",
+        "Explanation": "Organic farming is an agricultural system that relies on natural inputs like compost, manure, and biological pest control rather than synthetic (chemical) fertilizers, pesticides, and GMOs.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Farming Systems"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Indian Agricultural Research Institute' (IARI), popularly known as the Pusa Institute, is located in:",
+        "Options": [
+          { "id": 1, "text": "New Delhi" },
+          { "id": 2, "text": "Pusa, Bihar" },
+          { "id": 3, "text": "Shimla" },
+          { "id": 4, "text": "Nagpur" }
+        ],
+        "CorrectAnswer": "New Delhi",
+        "Explanation": "The IARI was originally established in Pusa, Bihar, in 1905. However, after a devastating earthquake in 1934, it was relocated to New Delhi in 1936. It is still popularly known as the Pusa Institute.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Silver Revolution' is associated with a significant increase in the production of:",
+        "Options": [
+          { "id": 1, "text": "Cotton" },
+          { "id": 2, "text": "Eggs and Poultry" },
+          { "id": 3, "text": "Silver (the metal)" },
+          { "id": 4, "text": "Milk" }
+        ],
+        "CorrectAnswer": "Eggs and Poultry",
+        "Explanation": "The Silver Revolution refers to the period of rapid growth in egg and poultry production. (Cotton = Silver *Fibre* Revolution; Milk = White Revolution).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Agricultural Revolutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "What is 'Apiculture'?",
+        "Options": [
+          { "id": 1, "text": "The rearing of fish." },
+          { "id": 2, "text": "The rearing of honey bees for honey." },
+          { "id": 3, "text": "The rearing of silkworms." },
+          { "id": 4, "text": "The cultivation of fruits." }
+        ],
+        "CorrectAnswer": "The rearing of honey bees for honey.",
+        "Explanation": "Apiculture, or beekeeping, is the science and art of rearing honey bees. (Fish = Pisciculture; Silkworms = Sericulture; Fruits = Pomology/Horticulture).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Terminology"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "Which district in Maharashtra is the largest producer of Jowar (Sorghum)?",
+        "Options": [
+          { "id": 1, "text": "Ratnagiri" },
+          { "id": 2, "text": "Nagpur" },
+          { "id": 3, "text": "Solapur" },
+          { "id": 4, "text": "Nashik" }
+        ],
+        "CorrectAnswer": "Solapur",
+        "Explanation": "Solapur, located in the rain shadow region of Western Maharashtra, is the largest producer of Jowar, particularly Rabi Jowar, which is its staple food crop.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "MH Crops"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Spices (total)?",
+        "Options": [
+          { "id": 1, "text": "Kerala" },
+          { "id": 2, "text": "Andhra Pradesh" },
+          { "id": 3, "text": "Madhya Pradesh" },
+          { "id": 4, "text": "Rajasthan" }
+        ],
+        "CorrectAnswer": "Madhya Pradesh",
+        "Explanation": "While Kerala is known as the 'Land of Spices', in terms of total volume of production (including chillies, garlic, coriander), Madhya Pradesh is currently the largest spice-producing state in India.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "India Crops"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "The 'Indian Institute of Soil Science' (IISS) is located in:",
+        "Options": [
+          { "id": 1, "text": "New Delhi" },
+          { "id": 2, "text": "Nagpur" },
+          { "id": 3, "text": "Bhopal" },
+          { "id": 4, "text": "Ludhiana" }
+        ],
+        "CorrectAnswer": "Bhopal",
+        "Explanation": "The Indian Institute of Soil Science (IISS) is an ICAR institute located in Bhopal, Madhya Pradesh, dedicated to research on soil science.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Institutions"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which of the following is an example of a 'bio-fertilizer'?\n1. Rhizobium\n2. Azotobacter\n3. Blue-Green Algae (BGA)\n4. Urea",
+        "Options": [
+          { "id": 1, "text": "4 only" },
+          { "id": 2, "text": "1 and 2 only" },
+          { "id": 3, "text": "1, 2 and 3" },
+          { "id": 4, "text": "1, 2, 3 and 4" }
+        ],
+        "CorrectAnswer": "1, 2 and 3",
+        "Explanation": "Bio-fertilizers are living microorganisms. Rhizobium and Azotobacter are nitrogen-fixing bacteria. Blue-Green Algae (cyanobacteria) also fixes nitrogen. Urea is a synthetic *chemical* fertilizer.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Soil Science"
+      },
+      {
+        "category": "Agriculture (Animal Husbandry)",
+        "Question": "The 'National Centre for Disease Control' (NCDC), which works on controlling diseases like Avian Flu, is headquartered in:",
+        "Options": [
+          { "id": 1, "text": "New Delhi" },
+          { "id": 2, "text": "Pune" },
+          { "id": 3, "text": "Hyderabad" },
+          { "id": 4, "text": "Bengaluru" }
+        ],
+        "CorrectAnswer": "New Delhi",
+        "Explanation": "The National Centre for Disease Control (NCDC) is the nodal agency in India for disease surveillance and control, under the Ministry of Health and Family Welfare, headquartered in New Delhi.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Institutions"
+      },
+      {
+        "category": "Agriculture (Farming Systems)",
+        "Question": "The practice of growing trees and crops on the same piece of land is called:",
+        "Options": [
+          { "id": 1, "text": "Horticulture" },
+          { "id": 2, "text": "Silviculture" },
+          { "id": 3, "text": "Agroforestry" },
+          { "id": 4, "text": "Mixed Farming" }
+        ],
+        "CorrectAnswer": "Agroforestry",
+        "Explanation": "Agroforestry is a land-use management system that intentionally integrates trees and shrubs with crops or livestock on the same land. (Silviculture = forest management; Mixed Farming = crops + livestock).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Farming Systems"
+      },
+      {
+        "category": "Agriculture (Maharashtra)",
+        "Question": "The 'Gopinath Munde Shetkari Apghat Vima Yojana' is a scheme by the Maharashtra government that provides:",
+        "Options": [
+          { "id": 1, "text": "Crop insurance" },
+          { "id": 2, "text": "Tractor subsidies" },
+          { "id": 3, "text": "Insurance cover to farmers in case of accidental death or disability" },
+          { "id": 4, "text": "Pension for old farmers" }
+        ],
+        "CorrectAnswer": "Insurance cover to farmers in case of accidental death or disability",
+        "Explanation": "This scheme is an accident insurance policy that provides financial support (insurance cover) to the family of a farmer in the event of their accidental death or disability.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Govt. Schemes (MH)"
+      },
+      {
+        "category": "Agriculture (India)",
+        "Question": "Which Indian state is the largest producer of Coffee?",
+        "Options": [
+          { "id": 1, "text": "Kerala" },
+          { "id": 2, "text": "Tamil Nadu" },
+          { "id": 3, "text": "Karnataka" },
+          { "id": 4, "text": "Assam" }
+        ],
+        "CorrectAnswer": "Karnataka",
+        "Explanation": "Karnataka is by far the largest producer of coffee in India, accounting for over 70% of the total production. The hills of Kodagu, Chikkamagaluru, and Hassan are the main coffee-growing regions.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "India Crops"
+      }
+  ]

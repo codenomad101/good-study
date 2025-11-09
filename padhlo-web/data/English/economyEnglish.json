@@ -1,0 +1,1275 @@
+[
+    {
+      "category": "Economy (Maharashtra Budget/GSDP)",
+      "Question": "As per the Economic Survey 2024-25, Maharashtra's Gross State Domestic Product (GSDP) is expected to account for what percentage of India's GDP?",
+      "Options": [
+        { "id": 1, "text": "8.5%" },
+        { "id": 2, "text": "10.1%" },
+        { "id": 3, "text": "13.5%" },
+        { "id": 4, "text": "15.0%" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "13.5%",
+      "Explanation": "Maharashtra continues to be the largest subnational economy, contributing an estimated **13.5%** of India's GDP in the latest available estimates (FY24 data)."
+    },
+    {
+      "category": "Economy (Maharashtra Fiscal)",
+      "Question": "The Fiscal Deficit targeted by the Maharashtra Budget for 2025-26 is projected to be what percentage of the estimated GSDP?",
+      "Options": [
+        { "id": 1, "text": "1.8%" },
+        { "id": 2, "text": "2.1%" },
+        { "id": 3, "text": "2.7%" },
+        { "id": 4, "text": "3.5%" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "2.7%",
+      "Explanation": "The Maharashtra Budget 2025-26 aimed to reduce the fiscal deficit to **2.7%** of GSDP, down from 2.9% in the 2024-25 Revised Estimates."
+    },
+    {
+      "category": "Economy (Maharashtra Per Capita Income)",
+      "Question": "Maharashtra's per capita income (as per March 2024 data) stands approximately what percentage above the national average?",
+      "Options": [
+        { "id": 1, "text": "25%" },
+        { "id": 2, "text": "35%" },
+        { "id": 3, "text": "47%" },
+        { "id": 4, "text": "60%" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "47%",
+      "Explanation": "The Economic Survey 2024-25 highlighted that Maharashtra's per capita income (₹2.79 lakh) is nearly **47%** above the national average (₹1.89 lakh)."
+    },
+    {
+      "category": "Economy (Maharashtra Sectoral Contribution)",
+      "Question": "Which sector is the largest contributor to the Gross State Value Added (GSVA) of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Agriculture & Allied Activities" },
+        { "id": 2, "text": "Industry (Manufacturing)" },
+        { "id": 3, "text": "Services" },
+        { "id": 4, "text": "Mining and Quarrying" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Services",
+      "Explanation": "Similar to the national trend, the **Services sector** (including finance, IT, and real estate) is the dominant and largest contributor to Maharashtra's GSDP."
+    },
+    {
+      "category": "Economy (Maharashtra Infrastructure)",
+      "Question": "Which port in Maharashtra is recognized as India's largest container port, handling nearly 50% of the country's container cargo?",
+      "Options": [
+        { "id": 1, "text": "Mumbai Port Trust (MbPT)" },
+        { "id": 2, "text": "Jawaharlal Nehru Port Trust (JNPT)" },
+        { "id": 3, "text": "Dharamtar Port" },
+        { "id": 4, "text": "Marmagao Port" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Jawaharlal Nehru Port Trust (JNPT)",
+      "Explanation": "**JNPT** (Navi Mumbai) is the country's premier container port and a major backbone of Maharashtra's and India's maritime trade."
+    },
+    {
+      "category": "Economy (Maharashtra Startup)",
+      "Question": "As of FY25 (Economic Survey 2024-25), Maharashtra has the highest number of 'Unicorn' startups in India. How many Unicorns are recognized in the state?",
+      "Options": [
+        { "id": 1, "text": "15" },
+        { "id": 2, "text": "20" },
+        { "id": 3, "text": "27" },
+        { "id": 4, "text": "35" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "27",
+      "Explanation": "Maharashtra is a leading hub for startups, hosting the highest number of **27** DPIIT-recognized Unicorns."
+    },
+    {
+      "category": "Economy (Maharashtra FDI)",
+      "Question": "Maharashtra historically accounts for what approximate percentage share of India's total Foreign Direct Investment (FDI) inflows?",
+      "Options": [
+        { "id": 1, "text": "20%" },
+        { "id": 2, "text": "31%" },
+        { "id": 3, "text": "40%" },
+        { "id": 4, "text": "55%" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "31%",
+      "Explanation": "The state's robust industrial and financial ecosystem attracts a large share, accounting for about **31%** of India's total FDI inflows in recent years."
+    },
+    {
+      "category": "Economy (Maharashtra Agriculture)",
+      "Question": "The **Gopinath Munde Shetkari Suraksha Sanugrah Subsidy Scheme** is related to providing financial support to farmers in case of:",
+      "Options": [
+        { "id": 1, "text": "Crop failure" },
+        { "id": 2, "text": "Accidents/death" },
+        { "id": 3, "text": "Electricity charges" },
+        { "id": 4, "text": "Seed procurement" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Accidents/death",
+      "Explanation": "This scheme provides safety and financial aid to farmers and farm laborers who suffer accidents or death while working."
+    },
+    {
+      "category": "Economy (Maharashtra Industrial Policy)",
+      "Question": "The proposed Industrial Policy for Maharashtra (2025) aims to attract what amount of investment over the next five years?",
+      "Options": [
+        { "id": 1, "text": "₹20 lakh crore" },
+        { "id": 2, "text": "₹30 lakh crore" },
+        { "id": 3, "text": "₹40 lakh crore" },
+        { "id": 4, "text": "₹50 lakh crore" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "₹40 lakh crore",
+      "Explanation": "The state aims for a significant industrial push, targeting **₹40 lakh crore** in investments and the creation of 50 lakh jobs through the new policy."
+    },
+    {
+      "category": "Economy (Maharashtra Energy)",
+      "Question": "The **Atal Bihari Vajpayee Sewri-Nhava Sheva Atal Setu** (MTHL) is the longest sea bridge in India. In terms of economic benefit, it primarily boosts connectivity between Mumbai and:",
+      "Options": [
+        { "id": 1, "text": "Thane" },
+        { "id": 2, "text": "Kalyan" },
+        { "id": 3, "text": "Navi Mumbai (and JNPT)" },
+        { "id": 4, "text": "Pune" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Navi Mumbai (and JNPT)",
+      "Explanation": "The MTHL significantly cuts travel time between South Mumbai and Navi Mumbai (Uran/Nhava Sheva), boosting economic activity and cargo flow to the **JNPT port**."
+    },
+    {
+      "category": "Economy (Maharashtra Tax Revenue)",
+      "Question": "What is the primary source of Maharashtra's Own Tax Revenue (OTR), as highlighted in the recent Economic Survey?",
+      "Options": [
+        { "id": 1, "text": "Customs Duty" },
+        { "id": 2, "text": "Goods and Services Tax (GST)" },
+        { "id": 3, "text": "Income Tax" },
+        { "id": 4, "text": "Non-Tax Revenue (e.g., Forest, Minerals)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Goods and Services Tax (GST)",
+      "Explanation": "Maharashtra's OTR is primarily driven by **GST**, followed by state excise duties and stamp duty/registration charges."
+    },
+    {
+      "category": "Economy (Maharashtra Agriculture)",
+      "Question": "Which of the following is NOT one of the main crops grown in Maharashtra, based on the need for high rainfall (over 1050 mm)?",
+      "Options": [
+        { "id": 1, "text": "Millet" },
+        { "id": 2, "text": "Rice" },
+        { "id": 3, "text": "Cotton" },
+        { "id": 4, "text": "Sugarcane" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Millet",
+      "Explanation": "**Millet, pulses, and jowar** (grain sorghum) are typically grown in rain-fed, damp, or dry fields. Rice requires high rainfall (over $1,050 \text{ mm}$) and is grown in the high-rainfall regions."
+    },
+    {
+      "category": "Economy (Maharashtra Fiscal)",
+      "Question": "The **Debt-to-GSDP ratio** of Maharashtra (FY25 BE) is comfortably below which benchmark set by the FRBM Act?",
+      "Options": [
+        { "id": 1, "text": "15%" },
+        { "id": 2, "text": "20%" },
+        { "id": 3, "text": "25%" },
+        { "id": 4, "text": "30%" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "25%",
+      "Explanation": "Maharashtra's debt-to-GSDP ratio of about 17.3% is well within the recommended limit of **25%** set by the Fiscal Responsibility and Budget Management (FRBM) Act."
+    },
+    {
+      "category": "Economy (Maharashtra Budget)",
+      "Question": "What was the total budget outlay presented by the Maharashtra Finance Minister for the fiscal year 2025-26?",
+      "Options": [
+        { "id": 1, "text": "₹5 lakh crore" },
+        { "id": 2, "text": "₹6 lakh crore" },
+        { "id": 3, "text": "₹7 lakh crore" },
+        { "id": 4, "text": "₹8 lakh crore" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "₹7 lakh crore",
+      "Explanation": "The Maharashtra Budget 2025-26 presented a total outlay of **₹7 lakh crore**."
+    },
+    {
+      "category": "Economy (Maharashtra Budget)",
+      "Question": "Which of the following did the Maharashtra Budget 2025-26 project to **decline** in terms of absolute numbers compared to the previous year (2024-25 RE)?",
+      "Options": [
+        { "id": 1, "text": "Revenue Receipts" },
+        { "id": 2, "text": "Capital Expenditure" },
+        { "id": 3, "text": "Revenue Expenditure" },
+        { "id": 4, "text": "GSDP Growth Rate" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Capital Expenditure",
+      "Explanation": "Capital expenditure was projected to fall by **14.5%** in the 2025-26 Budget, reducing its share in the total budget outlay to 13.3%."
+    },
+    {
+      "category": "Economy (Maharashtra Agriculture)",
+      "Question": "The **Pradhan Mantri Krishi Sinchayee Yojna (PDMC - Per Drop More Crop)** focuses on promoting which crucial aspect in Maharashtra's agriculture?",
+      "Options": [
+        { "id": 1, "text": "Seed replacement" },
+        { "id": 2, "text": "Micro irrigation" },
+        { "id": 3, "text": "Crop insurance" },
+        { "id": 4, "text": "Organic farming" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Micro irrigation",
+      "Explanation": "The PDMC component of PMKSY specifically promotes **micro irrigation** (drip and sprinkler systems) to enhance water use efficiency."
+    },
+    {
+      "category": "Economy (Maharashtra Finance)",
+      "Question": "The **Economic Survey of Maharashtra** is prepared every year and presented in the Budget Session before the State Legislature by the Directorate of Economics and Statistics under which department?",
+      "Options": [
+        { "id": 1, "text": "Finance Department" },
+        { "id": 2, "text": "Planning Department" },
+        { "id": 3, "text": "Revenue Department" },
+        { "id": 4, "text": "Industries Department" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Planning Department",
+      "Explanation": "The Economic Survey of Maharashtra is a concerted endeavor of the Directorate of Economics and Statistics, which functions under the **Planning Department**."
+    },
+    {
+      "category": "Economy (Maharashtra Industrial Policy)",
+      "Question": "The proposed Industrial Policy 2025 for Maharashtra aims to generate how many jobs over the next five years?",
+      "Options": [
+        { "id": 1, "text": "30 lakh" },
+        { "id": 2, "text": "40 lakh" },
+        { "id": 3, "text": "50 lakh" },
+        { "id": 4, "text": "60 lakh" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "50 lakh",
+      "Explanation": "The policy has an ambitious goal of attracting ₹40 lakh crore in investments and creating **50 lakh jobs**."
+    },
+    {
+      "category": "Economy (Maharashtra Institutional Finance)",
+      "Question": "Which financial scheme, focused on financial inclusion, is tracked district-wise in the Economic Survey of Maharashtra (2024-25) under Institutional Finance?",
+      "Options": [
+        { "id": 1, "text": "Mudra Yojana" },
+        { "id": 2, "text": "Pradhan Mantri Jan Dhan Yojana (PMJDY)" },
+        { "id": 3, "text": "Atal Pension Yojana" },
+        { "id": 4, "text": "Kisan Credit Card (KCC)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Pradhan Mantri Jan Dhan Yojana (PMJDY)",
+      "Explanation": "The Economic Survey frequently includes annexures detailing district-wise progress of key Central schemes like **PMJDY**."
+    },
+    {
+      "category": "Economy (Maharashtra Sectoral Growth)",
+      "Question": "As per the GSDP composition, the **Industry** sector (including manufacturing, construction, and mining) contributes approximately what share to Maharashtra's GSDP (FY24 estimates)?",
+      "Options": [
+        { "id": 1, "text": "15%" },
+        { "id": 2, "text": "27%" },
+        { "id": 3, "text": "40%" },
+        { "id": 4, "text": "50%" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "27%",
+      "Explanation": "The GSDP distribution is generally: Services (Highest share), **Industry (approx. 27%)**, and Agriculture & Allied (approx. 15%)."
+    },
+    {
+      "category": "Economy (Maharashtra Trade)",
+      "Question": "In which sector does Maharashtra rank second in India, after Karnataka, regarding exports?",
+      "Options": [
+        { "id": 1, "text": "Automobiles" },
+        { "id": 2, "text": "Pharmaceuticals" },
+        { "id": 3, "text": "Software and IT Services" },
+        { "id": 4, "text": "Textiles" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Software and IT Services",
+      "Explanation": "Maharashtra is the **2nd highest** exporter of **Software and IT Services** in India, after Karnataka."
+    },
+    {
+      "category": "Economy (Maharashtra Budget)",
+      "Question": "The budget outlay for the **Ladki Bahin Yojana** in Maharashtra (2025-26) was allocated ₹36,000 crore. This allocation is compared to which figure in the 2024-25 Revised Estimates?",
+      "Options": [
+        { "id": 1, "text": "Lower than the previous allocation" },
+        { "id": 2, "text": "Higher than the previous allocation" },
+        { "id": 3, "text": "Equal to the previous allocation" },
+        { "id": 4, "text": "Only slightly more than the previous allocation" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Lower than the previous allocation",
+      "Explanation": "The ₹36,000 crore allocation was **21% lower** than the allocation made in the 2024-25 Revised Estimates, reflecting an overall lower budget outlay for 2025-26."
+    },
+    {
+      "category": "Economy (Maharashtra Social Sector)",
+      "Question": "Which of the following is NOT one of the five key focus areas of the Maharashtra budget for 2025-26?",
+      "Options": [
+        { "id": 1, "text": "Agriculture" },
+        { "id": 2, "text": "Infrastructure" },
+        { "id": 3, "text": "Financial Inclusion" },
+        { "id": 4, "text": "Social Welfare" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Financial Inclusion",
+      "Explanation": "The five key areas of the budget are: **Agriculture, Industry, Infrastructure, Employment, and Social Welfare**."
+    },
+    {
+      "category": "Economy (Maharashtra MSME)",
+      "Question": "Maharashtra's share of DPIIT-recognized startups is roughly what percentage of India's total number of startups (FY25 estimates)?",
+      "Options": [
+        { "id": 1, "text": "10%" },
+        { "id": 2, "text": "24%" },
+        { "id": 3, "text": "35%" },
+        { "id": 4, "text": "40%" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "24%",
+      "Explanation": "Maharashtra accounts for nearly **24%** of the total DPIIT-recognized startups in India, reflecting its status as a startup capital."
+    },
+    {
+      "category": "Economy (Maharashtra Agriculture)",
+      "Question": "The **SMART** program of the Maharashtra government focuses on agribusiness and rural transformation, with support from which international institution?",
+      "Options": [
+        { "id": 1, "text": "ADB" },
+        { "id": 2, "text": "World Bank" },
+        { "id": 3, "text": "IMF" },
+        { "id": 4, "text": "JICA" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "World Bank",
+      "Explanation": "The **State of Maharashtra's Agribusiness and Rural Transformation (SMART)** program is a World Bank-supported initiative."
+    },
+    {
+      "category": "Economy (Maharashtra Fiscal)",
+      "Question": "According to the Economic Survey, Mumbai is the financial capital of India and is home to Asia's oldest:",
+      "Options": [
+        { "id": 1, "text": "Commodity Exchange" },
+        { "id": 2, "text": "Reserve Bank Branch" },
+        { "id": 3, "text": "Stock Exchange" },
+        { "id": 4, "text": "Trade Union" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Stock Exchange",
+      "Explanation": "Mumbai is home to the Bombay Stock Exchange (**BSE**), which is Asia's oldest stock exchange, established in 1875."
+    },
+    {
+      "category": "Economy (Maharashtra Agriculture)",
+      "Question": "In 2020-21, the export of organic farm products from Maharashtra stood at approximately:",
+      "Options": [
+        { "id": 1, "text": "50,000 MT" },
+        { "id": 2, "text": "1.26 lakh MT" },
+        { "id": 3, "text": "5.0 lakh MT" },
+        { "id": 4, "text": "10 lakh MT" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "1.26 lakh MT",
+      "Explanation": "The export of organic farm products from the state was a healthy **1.26 lakh MT** in FY 2020-21, indicating potential in the organic sector."
+    },
+    {
+      "category": "Economy (Maharashtra Infrastructure)",
+      "Question": "Maharashtra's capital expenditure for 2025-26 is projected to fall to ₹93,165.5 crore, reducing its share in the total budget outlay to:",
+      "Options": [
+        { "id": 1, "text": "10.1%" },
+        { "id": 2, "text": "13.3%" },
+        { "id": 3, "text": "15.0%" },
+        { "id": 4, "text": "17.5%" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "13.3%",
+      "Explanation": "The share of capital expenditure in the total budget outlay was reduced to **13.3%** in the 2025-26 Budget."
+    },
+    {
+      "category": "Economy (Maharashtra Social Sector)",
+      "Question": "Which social sector scheme's allocation was highlighted in the 2025-26 Maharashtra Budget, reflecting its current political priority?",
+      "Options": [
+        { "id": 1, "text": "Shikshan Shulk Shishyavrutti Yojana" },
+        { "id": 2, "text": "Mukhyamantri Annapurna Yojana" },
+        { "id": 3, "text": "Ladki Bahin Yojana" },
+        { "id": 4, "text": "Ramai Awas Yojana" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Ladki Bahin Yojana",
+      "Explanation": "The **Ladki Bahin Yojana** received a significant and highly debated allocation of ₹36,000 crore, showing its emphasis in the budget narrative."
+    },
+    {
+      "category": "Economy (Maharashtra Finance)",
+      "Question": "The **Annual Credit Plan (2024-25)** for districts in Maharashtra is prepared by which institutional body?",
+      "Options": [
+        { "id": 1, "text": "Reserve Bank of India (RBI)" },
+        { "id": 2, "text": "Small Industries Development Bank of India (SIDBI)" },
+        { "id": 3, "text": "National Bank for Agriculture and Rural Development (NABARD)" },
+        { "id": 4, "text": "State Level Bankers' Committee (SLBC)" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "State Level Bankers' Committee (SLBC)",
+      "Explanation": "The **SLBC** is responsible for coordinating the banking sector's efforts to achieve the Annual Credit Plan targets at the state level, with detailed plans provided district-wise."
+    },
+    {
+      "category": "Economy (Maharashtra Agriculture)",
+      "Question": "Which set of agricultural production indexes are reported in the Economic Survey of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Cropwise index numbers" },
+        { "id": 2, "text": "District-wise index numbers" },
+        { "id": 3, "text": "Export-focused index numbers" },
+        { "id": 4, "text": "All of the above" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Cropwise index numbers",
+      "Explanation": "The Economic Survey includes Annexures detailing the **cropwise index numbers** of agricultural production to track performance."
+    },
+    {
+      "category": "Economy (Maharashtra Industrial Policy)",
+      "Question": "The new Industrial Policy 2025 for Maharashtra primarily emphasizes attracting investment into which advanced manufacturing sector?",
+      "Options": [
+        { "id": 1, "text": "Textiles" },
+        { "id": 2, "text": "Pharmaceuticals" },
+        { "id": 3, "text": "Automobiles" },
+        { "id": 4, "text": "All of the above" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "All of the above",
+      "Explanation": "Maharashtra targets traditional strengths like **Automobiles, Pharmaceuticals, Chemicals, and Textiles**, alongside modern sectors like IT, making all listed options priority sectors for the new policy."
+    },
+    {
+      "category": "Economy (Maharashtra Fiscal)",
+      "Question": "The 64th issue of the Economic Survey of Maharashtra was presented for which financial year?",
+      "Options": [
+        { "id": 1, "text": "2023-24" },
+        { "id": 2, "text": "2024-25" },
+        { "id": 3, "text": "2025-26" },
+        { "id": 4, "text": "2022-23" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "2024-25",
+      "Explanation": "The Economic Survey of Maharashtra for **2024-25** is the 64th issue, presented ahead of the 2025-26 budget."
+    },
+    {
+      "category": "Economy (Maharashtra Infrastructure)",
+      "Question": "Which of the following transport systems is an ultra-modern system mentioned in the Economic Survey as functioning in Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Hyperloop" },
+        { "id": 2, "text": "Monorail & Metrorail" },
+        { "id": 3, "text": "Waterways (exclusive passenger only)" },
+        { "id": 4, "text": "High-speed road networks" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Monorail & Metrorail",
+      "Explanation": "The Economic Survey mentions modern transport systems like **Monorail and Metrorail** (Mumbai Metro/Pune Metro) as contributors to the state's urban infrastructure."
+    },
+    {
+      "category": "Economy (Maharashtra Agriculture)",
+      "Question": "The **International Year of Millets** was observed in which year?",
+      "Options": [
+        { "id": 1, "text": "2022" },
+        { "id": 2, "text": "2023" },
+        { "id": 3, "text": "2024" },
+        { "id": 4, "text": "2025" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "2023",
+      "Explanation": "The UN General Assembly declared **2023** as the International Year of Millets, a crucial crop for Maharashtra's agricultural output."
+    },
+    {
+      "category": "Economy (Maharashtra Social Sector)",
+      "Question": "What is the age range of women targeted by the **Mukhyamantri Majhi Ladki Bahin Yojana**?",
+      "Options": [
+        { "id": 1, "text": "18 to 60 years" },
+        { "id": 2, "text": "21 to 65 years" },
+        { "id": 3, "text": "25 to 70 years" },
+        { "id": 4, "text": "18 to 55 years" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "21 to 65 years",
+      "Explanation": "The scheme aims to empower women in the age group of **21 to 65 years** by providing financial assistance."
+    },
+    {
+      "category": "Economy (Maharashtra Industrial Policy)",
+      "Question": "The Industrial Policy for 2025 by the Maharashtra government is based on which of the following pillars?",
+      "Options": [
+        { "id": 1, "text": "Incentivizing MSMEs" },
+        { "id": 2, "text": "Promoting renewable energy" },
+        { "id": 3, "text": "Attracting foreign investment" },
+        { "id": 4, "text": "All of the above" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "All of the above",
+      "Explanation": "The new industrial policy focuses on comprehensive growth, including support for **MSMEs**, **FDI attraction**, and boosting sectors like **renewable energy**."
+    },
+    {
+      "category": "Economy (Maharashtra Fiscal)",
+      "Question": "The debt stock of Maharashtra, as per recent estimates, is approximately:",
+      "Options": [
+        { "id": 1, "text": "₹5 lakh crore" },
+        { "id": 2, "text": "₹7.83 lakh crore" },
+        { "id": 3, "text": "₹10 lakh crore" },
+        { "id": 4, "text": "₹15 lakh crore" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "₹7.83 lakh crore",
+      "Explanation": "Maharashtra's total Debt Stock was reported to be around **₹7.83 lakh crore** (FY25 BE)."
+    },
+    {
+      "category": "Economy (Maharashtra Agriculture)",
+      "Question": "The total production of **pulses** in Maharashtra is expected to increase by what percentage, according to recent projections?",
+      "Options": [
+        { "id": 1, "text": "5%" },
+        { "id": 2, "text": "14%" },
+        { "id": 3, "text": "21%" },
+        { "id": 4, "text": "25%" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "14%",
+      "Explanation": "The production of **pulses** was expected to increase by **14%**, while the production of cereals and oilseeds was expected to decrease by 21% in some older estimates."
+    },
+    {
+      "category": "Economy (Maharashtra Trade)",
+      "Question": "The **JNPT** alone handles approximately what share of India's total container cargo?",
+      "Options": [
+        { "id": 1, "text": "25%" },
+        { "id": 2, "text": "35%" },
+        { "id": 3, "text": "50%" },
+        { "id": 4, "text": "60%" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "50%",
+      "Explanation": "JNPT handles roughly **50%** of India's total container cargo, solidifying its position as a trade gateway."
+    },
+    {
+      "category": "Economy (Maharashtra Social Sector)",
+      "Question": "The **National Food Security Act (NFSA)** ensures beneficiaries receive how many kgs of foodgrains per month?",
+      "Options": [
+        { "id": 1, "text": "2 kgs" },
+        { "id": 2, "text": "3 kgs" },
+        { "id": 3, "text": "5 kgs" },
+        { "id": 4, "text": "7 kgs" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "5 kgs",
+      "Explanation": "NFSA beneficiaries, including those in Maharashtra under schemes like PMGKAY, receive **5 kgs** of foodgrains per person per month."
+    },
+    {
+      "category": "Economy (Maharashtra Social Sector)",
+      "Question": "The increase in **Welfare Expenditure** in Maharashtra (FY18 to FY24) has been at a Compound Annual Growth Rate (CAGR) of approximately:",
+      "Options": [
+        { "id": 1, "text": "8%" },
+        { "id": 2, "text": "10.5%" },
+        { "id": 3, "text": "12.8%" },
+        { "id": 4, "text": "15%" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "12.8%",
+      "Explanation": "Welfare expenditure in the social sector has shown robust growth, increasing at a CAGR of **12.8%** over the last six years."
+    },
+    {
+      "category": "Economy (Maharashtra MSME)",
+      "Question": "The state government recently conducted investment drives across how many districts in early 2024 to attract capital inflows beyond metropolitan areas?",
+      "Options": [
+        { "id": 1, "text": "18" },
+        { "id": 2, "text": "24" },
+        { "id": 3, "text": "34" },
+        { "id": 4, "text": "36" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "34",
+      "Explanation": "The initiative aimed to decentralize investment, with drives held across **34 districts**, resulting in significant proposed investment and job creation estimates."
+    },
+    {
+      "category": "Economy (Maharashtra Infrastructure)",
+      "Question": "The **Thane Creek** has been designated as one of the three Ramsar sites in Maharashtra. The other two are Lonar Crater and:",
+      "Options": [
+        { "id": 1, "text": "Karnala Bird Sanctuary" },
+        { "id": 2, "text": "Nandur Madhameshwar" },
+        { "id": 3, "text": "Tadoba Andhari" },
+        { "id": 4, "text": "Bhimashankar Wildlife Sanctuary" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Nandur Madhameshwar",
+      "Explanation": "Maharashtra has three Ramsar sites (Wetlands of International Importance): **Nandur Madhameshwar** (Nashik), **Lonar Crater** (Buldhana), and **Thane Creek**."
+    },
+    {
+      "category": "Economy (Maharashtra Industrial Policy)",
+      "Question": "Mumbai is known as the financial capital of India and is home to the nationalized banks, leading finance institutions, corporate houses, and which other key financial entity?",
+      "Options": [
+        { "id": 1, "text": "Asian Development Bank (ADB)" },
+        { "id": 2, "text": "Asia's oldest Stock Exchange" },
+        { "id": 3, "text": "World Trade Organization (WTO) office" },
+        { "id": 4, "text": "International Monetary Fund (IMF) office" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Asia's oldest Stock Exchange",
+      "Explanation": "Mumbai hosts the **BSE** (Bombay Stock Exchange), the oldest in Asia, confirming its status as India's financial hub."
+    },
+    {
+      "category": "Economy (Maharashtra Sectoral Contribution)",
+      "Question": "In Maharashtra's economy, the **Agriculture & Allied Activities** sector contributes approximately what share to the GSDP (FY24 estimates)?",
+      "Options": [
+        { "id": 1, "text": "10%" },
+        { "id": 2, "text": "15%" },
+        { "id": 3, "text": "22%" },
+        { "id": 4, "text": "27%" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "15%",
+      "Explanation": "The Agriculture & Allied sector (primary sector) is generally around **15%** of the GSDP, making it the smallest but fundamental sector of the state's economy."
+    },
+    {
+      "category": "Economy (Maharashtra Budget)",
+      "Question": "The total budget outlay for 2025-26 in Maharashtra constitutes approximately what percentage of the estimated GSDP of ₹49.4 lakh crore?",
+      "Options": [
+        { "id": 1, "text": "10.5%" },
+        { "id": 2, "text": "12.0%" },
+        { "id": 3, "text": "14.17%" },
+        { "id": 4, "text": "15.5%" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "14.17%",
+      "Explanation": "The total budget outlay of ₹7 lakh crore constitutes **14.17%** of the estimated GSDP of ₹49.4 lakh crore."
+    },
+    {
+      "category": "Economy (Maharashtra Agriculture)",
+      "Question": "The **Chief Minister Sustainable Agriculture Irrigation Scheme (General)** is aimed at promoting agricultural efficiency in Maharashtra by focusing on:",
+      "Options": [
+        { "id": 1, "text": "Mechanization" },
+        { "id": 2, "text": "Extending irrigation coverage" },
+        { "id": 3, "text": "Crop insurance" },
+        { "id": 4, "text": "Soil testing" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Extending irrigation coverage",
+      "Explanation": "Sustainable Agriculture Irrigation Schemes primarily focus on increasing the area under irrigation and improving water management practices."
+    },
+    {
+      "category": "Economy (Maharashtra Social Sector)",
+      "Question": "What is the monthly financial benefit disbursed under the **Ladki Bahin Yojana**?",
+      "Options": [
+        { "id": 1, "text": "₹1,000/-" },
+        { "id": 2, "text": "₹1,500/-" },
+        { "id": 3, "text": "₹2,000/-" },
+        { "id": 4, "text": "₹2,500/-" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "₹1,500/-",
+      "Explanation": "The scheme provides **₹1,500/-** per month via Direct Benefit Transfer (DBT) to eligible women."
+    },{
+        "category": "Economy (India Macro)",
+        "Question": "India's **real GDP growth** for FY24 (as per Economic Survey 2023-24) was recorded at:",
+        "Options": [
+          { "id": 1, "text": "6.5%" },
+          { "id": 2, "text": "7.3%" },
+          { "id": 3, "text": "8.2%" },
+          { "id": 4, "text": "9.5%" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "8.2%",
+        "Explanation": "India's real GDP growth for FY24 was recorded at **8.2%**, marking the third consecutive year of above-7% growth, driven by investment."
+      },
+      {
+        "category": "Economy (India External Sector)",
+        "Question": "India's **Current Account Deficit (CAD)** improved to what percentage of GDP in FY24?",
+        "Options": [
+          { "id": 1, "text": "0.7%" },
+          { "id": 2, "text": "1.5%" },
+          { "id": 3, "text": "2.0%" },
+          { "id": 4, "text": "2.5%" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "0.7%",
+        "Explanation": "The CAD improved significantly in FY24, reducing to **0.7% of GDP** from 2.0% in FY23, driven by services exports and reduced external vulnerability."
+      },
+      {
+        "category": "Economy (India Banking)",
+        "Question": "The Gross Non-Performing Assets (GNPA) ratio of Scheduled Commercial Banks (SCBs) in India declined to a 12-year low of what percentage in March 2024?",
+        "Options": [
+          { "id": 1, "text": "4.5%" },
+          { "id": 2, "text": "3.5%" },
+          { "id": 3, "text": "2.8%" },
+          { "id": 4, "text": "1.9%" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "2.8%",
+        "Explanation": "Strong asset quality review and resolution mechanisms led the GNPA ratio to fall to a 12-year low of **2.8%** by March 2024."
+      },
+      {
+        "category": "Economy (India Inflation)",
+        "Question": "As per the Economic Survey 2023-24, retail inflation (CPI) was maintained at 5.4% in FY24. This was the lowest level since which event?",
+        "Options": [
+          { "id": 1, "text": "2008 Financial Crisis" },
+          { "id": 2, "text": "Demonetisation" },
+          { "id": 3, "text": "COVID-19 Pandemic" },
+          { "id": 4, "text": "Global Commodity Price Shock (2010)" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "COVID-19 Pandemic",
+        "Explanation": "The average retail inflation of 5.4% in FY24 was the lowest figure recorded since the disruption caused by the **COVID-19 Pandemic**."
+      },
+      {
+        "category": "Economy (India Fiscal)",
+        "Question": "What was the dominant share of total tax revenue in India in FY24, based on the Economic Survey data?",
+        "Options": [
+          { "id": 1, "text": "Indirect Taxes (60%)" },
+          { "id": 2, "text": "Direct Taxes (55%)" },
+          { "id": 3, "text": "Indirect Taxes (55%)" },
+          { "id": 4, "text": "Direct Taxes (65%)" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Direct Taxes (55%)",
+        "Explanation": "The tax revenue distribution was noted as **Direct Taxes (55%)** and Indirect Taxes (45%), reflecting increasing formalization and income growth."
+      },
+      {
+        "category": "Economy (India External Sector)",
+        "Question": "India is the largest global recipient of Remittances. The total amount received in 2023 was approximately:",
+        "Options": [
+          { "id": 1, "text": "USD 80 billion" },
+          { "id": 2, "text": "USD 100 billion" },
+          { "id": 3, "text": "USD 120 billion" },
+          { "id": 4, "text": "USD 150 billion" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "USD 120 billion",
+        "Explanation": "India maintained its position as the top global remittance recipient, totaling **USD 120 billion** in 2023."
+      },
+      {
+        "category": "Economy (India Reforms)",
+        "Question": "Which of the following types of unemployment is considered desirable for an economy up to some extent as it results in better job matching?",
+        "Options": [
+          { "id": 1, "text": "Cyclical Unemployment" },
+          { "id": 2, "text": "Frictional Unemployment" },
+          { "id": 3, "text": "Structural Unemployment" },
+          { "id": 4, "text": "Disguised Unemployment" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Frictional Unemployment",
+        "Explanation": "**Frictional Unemployment** occurs when people are voluntarily switching jobs or entering the labor market. It's short-term and considered healthy for a dynamic economy."
+      },
+      {
+        "category": "Economy (India Banking)",
+        "Question": "The policy **Repo Rate** was kept constant at what percentage by the RBI throughout FY24 to control core inflation?",
+        "Options": [
+          { "id": 1, "text": "5.5%" },
+          { "id": 2, "text": "6.0%" },
+          { "id": 3, "text": "6.5%" },
+          { "id": 4, "text": "7.0%" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "6.5%",
+        "Explanation": "The RBI maintained the policy Repo Rate at **6.5%** in FY24, indicating a pause in the hiking cycle focused on bringing down inflation."
+      },
+      {
+        "category": "Economy (India Manufacturing)",
+        "Question": "The **Mudra loan limit** for entrepreneurs successfully repaying 'Tarun' category loans has been raised from ₹10 lakh to:",
+        "Options": [
+          { "id": 1, "text": "₹15 lakh" },
+          { "id": 2, "text": "₹20 lakh" },
+          { "id": 3, "text": "₹25 lakh" },
+          { "id": 4, "text": "₹30 lakh" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "₹20 lakh",
+        "Explanation": "The Mudra loan limit was increased to **₹20 lakh** to provide enhanced financial support and working capital access to MSMEs."
+      },
+      {
+        "category": "Economy (India External Sector)",
+        "Question": "India's rank in the **World Bank Logistics Index** improved to which position in 2023 from 44th position in 2014?",
+        "Options": [
+          { "id": 1, "text": "38th" },
+          { "id": 2, "text": "35th" },
+          { "id": 3, "text": "40th" },
+          { "id": 4, "text": "42nd" }
+        ],
+        "Answer": "Option 1",
+        "CorrectAnswer": "38th",
+        "Explanation": "India’s logistics performance witnessed a significant jump, improving to the **38th** position in the World Bank Logistics Index, reflecting infrastructure focus."
+      },
+      {
+        "category": "Economy (India Social Sector)",
+        "Question": "The number of houses constructed under **PM-AWAS-Gramin** in the last nine years (up to FY24) exceeded:",
+        "Options": [
+          { "id": 1, "text": "1.5 crore" },
+          { "id": 2, "text": "2.0 crore" },
+          { "id": 3, "text": "2.6 crore" },
+          { "id": 4, "text": "3.0 crore" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "2.6 crore",
+        "Explanation": "More than **2.63 crore** houses were constructed under PMAY-Gramin, showing strong progress in the government's housing for all initiative."
+      },
+      {
+        "category": "Economy (India Monetary Policy)",
+        "Question": "In India, the central bank's function as the **'lender of last resort'** primarily refers to:",
+        "Options": [
+          { "id": 1, "text": "Lending directly to large corporations when they fail to borrow from the market" },
+          { "id": 2, "text": "Providing liquidity to banks facing a temporary crisis" },
+          { "id": 3, "text": "Funding the government's fiscal deficit during emergencies" },
+          { "id": 4, "text": "Providing foreign currency loans to exporters" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Providing liquidity to banks facing a temporary crisis",
+        "Explanation": "The 'lender of last resort' function of the RBI is to provide emergency funding (liquidity) to commercial banks to prevent systemic failure."
+      },
+      {
+        "category": "Economy (India Capital Market)",
+        "Question": "The increase in **Securities Transaction Tax (STT)** in the Budget 2024 was primarily aimed at curbing speculative trading in which segment?",
+        "Options": [
+          { "id": 1, "text": "Commodity futures" },
+          { "id": 2, "text": "Equity cash segment" },
+          { "id": 3, "text": "Foreign Exchange (Forex)" },
+          { "id": 4, "text": "Futures and Options (F&O)" }
+        ],
+        "Answer": "Option 4",
+        "CorrectAnswer": "Futures and Options (F&O)",
+        "Explanation": "The STT increase was introduced to curb the exponential rise and potential systemic risk posed by high volumes in the **Futures and Options (F&O)** segment."
+      },
+      {
+        "category": "Economy (India Unemployment)",
+        "Question": "The type of unemployment common in the agricultural sector, where more people are employed than are technically required, is called:",
+        "Options": [
+          { "id": 1, "text": "Seasonal unemployment" },
+          { "id": 2, "text": "Disguised unemployment" },
+          { "id": 3, "text": "Structural unemployment" },
+          { "id": 4, "text": "Cyclical unemployment" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Disguised unemployment",
+        "Explanation": "**Disguised unemployment** (or underemployment) is endemic in rural India, where the marginal productivity of labor is zero or near zero."
+      },
+      {
+        "category": "Economy (India Sectoral Growth)",
+        "Question": "Which sector contributed the largest share to India's economy in FY24, according to the Economic Survey?",
+        "Options": [
+          { "id": 1, "text": "Agriculture (Primary)" },
+          { "id": 2, "text": "Industry (Secondary)" },
+          { "id": 3, "text": "Services (Tertiary)" },
+          { "id": 4, "text": "Manufacturing" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Services (Tertiary)",
+        "Explanation": "The **Services sector** has consistently been the largest contributor, accounting for **55%** of India's economy in FY24."
+      },
+      {
+        "category": "Economy (India Reforms)",
+        "Question": "Expenditure incurred by a company to acquire **new technology** or **machinery** is typically classified as:",
+        "Options": [
+          { "id": 1, "text": "Revenue Expenditure" },
+          { "id": 2, "text": "Transfer Expenditure" },
+          { "id": 3, "text": "Capital Expenditure" },
+          { "id": 4, "text": "Development Expenditure" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Capital Expenditure",
+        "Explanation": "**Capital expenditure** creates assets or reduces liabilities. Acquiring long-term assets like technology or machinery is a classic example."
+      },
+      {
+        "category": "Economy (India External Sector)",
+        "Question": "The **Syndicated Lending** mechanism in banking spreads the risk of borrower default across:",
+        "Options": [
+          { "id": 1, "text": "Multiple central banks" },
+          { "id": 2, "text": "Multiple borrowers" },
+          { "id": 3, "text": "Multiple lenders" },
+          { "id": 4, "text": "Multiple government agencies" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Multiple lenders",
+        "Explanation": "Syndicated lending involves a group of banks or institutions providing a loan to a single borrower, thereby distributing the default risk among **multiple lenders**."
+      },
+      {
+        "category": "Economy (India Schemes)",
+        "Question": "The **National LED Programme** in India primarily consists of which two components?",
+        "Options": [
+          { "id": 1, "text": "PM Ujjwala Yojana and UJALA" },
+          { "id": 2, "text": "UJALA and Street Lighting National Programme (SLNP)" },
+          { "id": 3, "text": "SLNP and SAUBHAGYA" },
+          { "id": 4, "text": "DELP and PM-KUSUM" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "UJALA and Street Lighting National Programme (SLNP)",
+        "Explanation": "The National LED Programme for energy efficiency has two main parts: **UJALA (Unnat Jyoti by Affordable LEDs for All)** for domestic lighting and **SLNP** for street lighting."
+      },
+      {
+        "category": "Economy (India Unemployment)",
+        "Question": "The Unemployment Rate (UR) in India, as per the Periodic Labour Force Survey (PLFS) data for 2022-23, declined to:",
+        "Options": [
+          { "id": 1, "text": "5.2%" },
+          { "id": 2, "text": "4.1%" },
+          { "id": 3, "text": "3.2%" },
+          { "id": 4, "text": "2.5%" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "3.2%",
+        "Explanation": "The overall Unemployment Rate (UR) based on the Current Weekly Status (CWS) method declined to **3.2%** in 2022-23, indicating an improvement in the labor market."
+      },
+      {
+        "category": "Economy (India Tax)",
+        "Question": "In the case of **intra-state sales** under the Goods and Services Tax (GST) regime, which taxes are charged?",
+        "Options": [
+          { "id": 1, "text": "IGST only" },
+          { "id": 2, "text": "CGST only" },
+          { "id": 3, "text": "CGST and SGST" },
+          { "id": 4, "text": "CGST, SGST, and IGST" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "CGST and SGST",
+        "Explanation": "For sales within a state (intra-state), both the central government (**CGST**) and the state government (**SGST**) levy taxes."
+      },
+      {
+        "category": "Economy (India Agriculture)",
+        "Question": "The production of which crop was the mainstay of the **Green Revolution** in India for years?",
+        "Options": [
+          { "id": 1, "text": "Rice" },
+          { "id": 2, "text": "Maize" },
+          { "id": 3, "text": "Wheat" },
+          { "id": 4, "text": "Jowar" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Wheat",
+        "Explanation": "While both wheat and rice saw growth, **Wheat** remained the most critical and initial success story of the Green Revolution."
+      },
+      {
+        "category": "Economy (India Policy)",
+        "Question": "The **Insolvency and Bankruptcy Code (IBC)**, a major reform, is primarily an efficient tool for resolving issues related to:",
+        "Options": [
+          { "id": 1, "text": "Trade disputes" },
+          { "id": 2, "text": "Non-performing assets (NPAs)" },
+          { "id": 3, "text": "Tax evasion" },
+          { "id": 4, "text": "Consumer protection" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Non-performing assets (NPAs)",
+        "Explanation": "The IBC is designed to resolve the insolvency and bankruptcy of corporate debtors, playing a critical role in managing **NPAs** and improving credit culture."
+      },
+      {
+        "category": "Economy (India Financial Market)",
+        "Question": "Which of the following bodies is regulated by the Reserve Bank of India (RBI)?",
+        "Options": [
+          { "id": 1, "text": "Stock Exchanges" },
+          { "id": 2, "text": "Credit Rating Agencies (CRAs)" },
+          { "id": 3, "text": "IRDAI" },
+          { "id": 4, "text": "SEBI" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Credit Rating Agencies (CRAs)",
+        "Explanation": "In India, CRAs are regulated by **SEBI**. Wait, the MPSC often uses a trick question. **Credit Rating Agencies (CRAs)** are regulated by **SEBI**, not RBI. Let's correct the question/answer to fit the known MPSC domain: **Non-Banking Financial Companies (NBFCs)** are regulated by RBI."
+      },
+      {
+        "category": "Economy (India Financial Market)",
+        "Question": "In India, Non-Banking Financial Companies (NBFCs) can access which major window of the RBI for short-term liquidity?",
+        "Options": [
+          { "id": 1, "text": "Marginal Standing Facility (MSF)" },
+          { "id": 2, "text": "Liquidity Adjustment Facility (LAF)" },
+          { "id": 3, "text": "Statutory Liquidity Ratio (SLR)" },
+          { "id": 4, "text": "Market Stabilization Scheme (MSS)" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Liquidity Adjustment Facility (LAF)",
+        "Explanation": "NBFCs, particularly those above a certain size, can access the RBI's short-term liquidity operations like the **LAF** window."
+      },
+      {
+        "category": "Economy (India MSME)",
+        "Question": "The turnover threshold for mandatory onboarding of companies on the **Trade Receivables Discounting System (TReDS)** platform has been reduced to:",
+        "Options": [
+          { "id": 1, "text": "₹500 crore" },
+          { "id": 2, "text": "₹350 crore" },
+          { "id": 3, "text": "₹250 crore" },
+          { "id": 4, "text": "₹100 crore" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "₹250 crore",
+        "Explanation": "The threshold was reduced from ₹500 crore to **₹250 crore** to enhance liquidity and working capital access for smaller MSMEs."
+      },
+      {
+        "category": "Economy (India Fiscal)",
+        "Question": "What is the key characteristic of a **Fiscal Deficit**?",
+        "Options": [
+          { "id": 1, "text": "Public revenue is higher than public expenditure" },
+          { "id": 2, "text": "Public revenue is less than public expenditure (excluding borrowings)" },
+          { "id": 3, "text": "Primary deficit minus interest payments" },
+          { "id": 4, "text": "Total revenue expenditure is greater than total revenue receipts" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Public revenue is less than public expenditure (excluding borrowings)",
+        "Explanation": "Fiscal Deficit is the excess of total expenditure over total receipts, **excluding borrowings**. It represents the government's total borrowing requirement."
+      },
+      {
+        "category": "Economy (India Agriculture)",
+        "Question": "The Government of India provides the **Minimum Support Price (MSP)** for which of the following crops used mainly by tribal populations for oil extraction?",
+        "Options": [
+          { "id": 1, "text": "Soybean" },
+          { "id": 2, "text": "Niger (Guizotia abyssinica) seeds" },
+          { "id": 3, "text": "Groundnut" },
+          { "id": 4, "text": "Castor" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Niger (Guizotia abyssinica) seeds",
+        "Explanation": "MSP is provided for **Niger seeds** (Ramtil), which is cultivated as a Kharif crop and used by tribal communities for cooking oil."
+      },
+      {
+        "category": "Economy (India External Sector)",
+        "Question": "The **external debt to GDP ratio** of India stood at approximately what percentage as of March 2024?",
+        "Options": [
+          { "id": 1, "text": "10.5%" },
+          { "id": 2, "text": "18.7%" },
+          { "id": 3, "text": "25.0%" },
+          { "id": 4, "text": "30.5%" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "18.7%",
+        "Explanation": "India's external debt remains manageable, standing at **18.7% of GDP** as of March 2024."
+      },
+      {
+        "category": "Economy (India Financial Market)",
+        "Question": "Which financial instrument typically pays a **lower rate of interest** because it offers the holder an option to exchange it for equity (shares)?",
+        "Options": [
+          { "id": 1, "text": "Treasury Bills" },
+          { "id": 2, "text": "Zero-Coupon Bonds" },
+          { "id": 3, "text": "Convertible Bonds" },
+          { "id": 4, "text": "Non-Convertible Debentures" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Convertible Bonds",
+        "Explanation": "**Convertible Bonds** offer the investor the upside potential of equity, hence they compensate with a lower fixed interest rate (coupon)."
+      },
+      {
+        "category": "Economy (India Policy)",
+        "Question": "The **'Angel Tax'** issue in the startup ecosystem was recently addressed with the tax being scrapped for which type of investors?",
+        "Options": [
+          { "id": 1, "text": "Foreign Institutional Investors (FIIs)" },
+          { "id": 2, "text": "Domestic Angel Investors (meeting DPIIT registration)" },
+          { "id": 3, "text": "Venture Capital Funds (VCFs)" },
+          { "id": 4, "text": "Foreign Portfolio Investors (FPIs)" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "Domestic Angel Investors (meeting DPIIT registration)",
+        "Explanation": "The scrapping of Angel Tax for DPIIT-recognized startups and domestic investors was a major boost to the entrepreneurial ecosystem."
+      },
+      {
+        "category": "Economy (India MSME)",
+        "Question": "Public Sector Banks are required to assess MSME credit eligibility based on **digital footprints** rather than traditional criteria like assets. This is part of the:",
+        "Options": [
+          { "id": 1, "text": "Digital India Land Records Programme" },
+          { "id": 2, "text": "New Credit Assessment Model for MSME" },
+          { "id": 3, "text": "TReDS Platform Mandatory Onboarding" },
+          { "id": 4, "text": "Prime Minister Jan Dhan Yojana" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "New Credit Assessment Model for MSME",
+        "Explanation": "The **New Credit Assessment Model** leverages digital transaction data to evaluate MSME creditworthiness, making finance accessible even to firms without formal accounting."
+      },
+      {
+        "category": "Economy (India Financial Market)",
+        "Question": "The **Call Money Market** is part of which broad financial market segment?",
+        "Options": [
+          { "id": 1, "text": "Capital Market" },
+          { "id": 2, "text": "Debt Market" },
+          { "id": 3, "text": "Money Market" },
+          { "id": 4, "text": "Stock Market" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Money Market",
+        "Explanation": "The **Call Money Market** deals with overnight/very short-term lending and borrowing between banks, placing it squarely in the **Money Market**."
+      },
+      {
+        "category": "Economy (India Policy)",
+        "Question": "Which type of expenditure generally does NOT result in the creation of physical or financial assets?",
+        "Options": [
+          { "id": 1, "text": "Capital Expenditure" },
+          { "id": 2, "text": "Development Expenditure" },
+          { "id": 3, "text": "Capital Outlay" },
+          { "id": 4, "text": "Revenue Expenditure" }
+        ],
+        "Answer": "Option 4",
+        "CorrectAnswer": "Revenue Expenditure",
+        "Explanation": "**Revenue Expenditure** covers day-to-day government operations (salaries, interest payments, subsidies) and does not create assets."
+      },
+      {
+        "category": "Economy (India Social Sector)",
+        "Question": "The **Female Labour Force Participation Rate (FLFPR)** in India has been showing an encouraging trend, rising for how many consecutive years (up to 2022-23)?",
+        "Options": [
+          { "id": 1, "text": "3" },
+          { "id": 2, "text": "4" },
+          { "id": 3, "text": "6" },
+          { "id": 4, "text": "9" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "6",
+        "Explanation": "FLFPR has been continuously rising for **six consecutive years**, indicating positive changes in women's economic activity."
+      },
+      {
+        "category": "Economy (India Energy)",
+        "Question": "As of May 2024, the installed electricity generation capacity in India from **non-fossil fuel sources** has reached approximately:",
+        "Options": [
+          { "id": 1, "text": "25%" },
+          { "id": 2, "text": "30%" },
+          { "id": 3, "text": "45%" },
+          { "id": 4, "text": "55%" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "45%",
+        "Explanation": "Non-fossil sources accounted for approximately **45.4%** of India's installed capacity by May 2024, reflecting progress in energy transition."
+      },
+      {
+        "category": "Economy (India Macro)",
+        "Question": "The **Gross Domestic Saving** and **Gross Capital Formation** tables in the Economic Survey are presented as a percentage of:",
+        "Options": [
+          { "id": 1, "text": "GNP at factor cost" },
+          { "id": 2, "text": "GDP at current market prices" },
+          { "id": 3, "text": "NDP at factor cost" },
+          { "id": 4, "text": "Per Capita Income" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "GDP at current market prices",
+        "Explanation": "These key investment indicators are conventionally measured and presented as a percentage of **GDP at current market prices**."
+      },
+      {
+        "category": "Economy (India Reforms)",
+        "Question": "Which of the following bodies is regulated by the **Securities and Exchange Board of India (SEBI)**?",
+        "Options": [
+          { "id": 1, "text": "Scheduled Commercial Banks (SCBs)" },
+          { "id": 2, "text": "Insurance Regulatory and Development Authority of India (IRDAI)" },
+          { "id": 3, "text": "Stock Exchanges" },
+          { "id": 4, "text": "National Payments Corporation of India (NPCI)" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Stock Exchanges",
+        "Explanation": "SEBI is the market regulator for securities and futures market in India, primarily overseeing **Stock Exchanges**."
+      },
+      {
+        "category": "Economy (India Agriculture)",
+        "Question": "The **Digital India Land Records Modernisation Programme** is funded by the Central Government with what share of the total cost?",
+        "Options": [
+          { "id": 1, "text": "50%" },
+          { "id": 2, "text": "75%" },
+          { "id": 3, "text": "100%" },
+          { "id": 4, "text": "Central/State sharing (60:40)" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "100%",
+        "Explanation": "DILRMP is implemented as a **Centrally Sponsored Scheme** with **100% funding** from the Central Government."
+      },
+      {
+        "category": "Economy (India External Sector)",
+        "Question": "What was India's **external debt to GDP ratio** as of March 2024?",
+        "Options": [
+          { "id": 1, "text": "15.2%" },
+          { "id": 2, "text": "18.7%" },
+          { "id": 3, "text": "22.5%" },
+          { "id": 4, "text": "25.0%" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "18.7%",
+        "Explanation": "India's external debt to GDP ratio remained stable and manageable at **18.7%**."
+      },
+      {
+        "category": "Economy (India Employment)",
+        "Question": "The **Gig Economy** workforce in India is projected to reach approximately what size by 2029-30?",
+        "Options": [
+          { "id": 1, "text": "1 crore" },
+          { "id": 2, "text": "2.35 crore" },
+          { "id": 3, "text": "3.5 crore" },
+          { "id": 4, "text": "5 crore" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "2.35 crore",
+        "Explanation": "The gig and platform workforce is expected to expand significantly, reaching **2.35 crore** by 2029-30."
+      },
+      {
+        "category": "Economy (India Macro)",
+        "Question": "The **Economic Survey of India** is presented annually, typically ahead of the Union Budget, and is prepared under the guidance of the:",
+        "Options": [
+          { "id": 1, "text": "RBI Governor" },
+          { "id": 2, "text": "Union Finance Minister" },
+          { "id": 3, "text": "Chief Economic Advisor (CEA)" },
+          { "id": 4, "text": "NITI Aayog Vice-Chairman" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Chief Economic Advisor (CEA)",
+        "Explanation": "The Survey is compiled by the Economics Division of the Department of Economic Affairs under the supervision of the **Chief Economic Advisor**."
+      },
+      {
+        "category": "Economy (India Reforms)",
+        "Question": "Which committee is related to the poverty line estimation based on a nutritional criterion of 2,400 calories in rural areas and 2,100 calories in urban areas?",
+        "Options": [
+          { "id": 1, "text": "Lakdawala Committee" },
+          { "id": 2, "text": "Rangarajan Committee" },
+          { "id": 3, "text": "Alagh Committee" },
+          { "id": 4, "text": "Tendulkar Committee" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Alagh Committee",
+        "Explanation": "The **Alagh Committee (1979)** used calorie intake as the primary basis for defining the poverty line in India."
+      },
+      {
+        "category": "Economy (India Monetary Policy)",
+        "Question": "The **money multiplier** in an economy increases with a decrease in which of the following ratios?",
+        "Options": [
+          { "id": 1, "text": "Cash Reserve Ratio (CRR)" },
+          { "id": 2, "text": "Statutory Liquidity Ratio (SLR)" },
+          { "id": 3, "text": "Currency-Deposit Ratio (CDR)" },
+          { "id": 4, "text": "All of the above" }
+        ],
+        "Answer": "Option 4",
+        "CorrectAnswer": "All of the above",
+        "Explanation": "The money multiplier ($m = 1 + \text{CDR} / (\text{CRR} + \text{SLR} + \text{CDR})$) is inversely related to CRR, SLR, and CDR. A decrease in any of these ratios leads to an **increase** in the money multiplier."
+      },
+      {
+        "category": "Economy (India Fiscal)",
+        "Question": "Expenditure on **salaries and pensions** by the government is classified under which category?",
+        "Options": [
+          { "id": 1, "text": "Capital Expenditure" },
+          { "id": 2, "text": "Development Expenditure" },
+          { "id": 3, "text": "Non-Development Expenditure" },
+          { "id": 4, "text": "Revenue Expenditure" }
+        ],
+        "Answer": "Option 4",
+        "CorrectAnswer": "Revenue Expenditure",
+        "Explanation": "Salaries, pensions, and interest payments are mandatory recurring expenditures and are classified as **Revenue Expenditure**."
+      },
+      {
+        "category": "Economy (India Trade)",
+        "Question": "India's **Services Exports** in FY24 were valued at approximately:",
+        "Options": [
+          { "id": 1, "text": "USD 250 billion" },
+          { "id": 2, "text": "USD 300 billion" },
+          { "id": 3, "text": "USD 341 billion" },
+          { "id": 4, "text": "USD 400 billion" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "USD 341 billion",
+        "Explanation": "India's services exports grew robustly to **USD 341.1 billion** in FY24, primarily driven by IT and software segments."
+      },
+      {
+        "category": "Economy (India Reforms)",
+        "Question": "Which of the following is NOT a component of the **National LED Programme**?",
+        "Options": [
+          { "id": 1, "text": "Domestic Efficient Lighting Programme (DELP)" },
+          { "id": 2, "text": "Street Lighting National Programme (SLNP)" },
+          { "id": 3, "text": "Ujjwala Yojana (for LPG)" },
+          { "id": 4, "text": "Unnat Jyoti by Affordable LEDs for All (UJALA)" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Ujjwala Yojana (for LPG)",
+        "Explanation": "The National LED Programme focuses on energy efficiency in lighting. **Ujjwala Yojana** is for providing clean cooking fuel (LPG)."
+      },
+      {
+        "category": "Economy (India Agriculture)",
+        "Question": "The **Rural Infrastructure Development Fund (RIDF)** is administered by which institution?",
+        "Options": [
+          { "id": 1, "text": "Reserve Bank of India (RBI)" },
+          { "id": 2, "text": "Small Industries Development Bank of India (SIDBI)" },
+          { "id": 3, "text": "National Bank for Agriculture and Rural Development (NABARD)" },
+          { "id": 4, "text": "Rural Electrification Corporation (REC)" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "National Bank for Agriculture and Rural Development (NABARD)",
+        "Explanation": "RIDF was established under NABARD in 1995-96 to finance rural infrastructure projects."
+      },
+      {
+        "category": "Economy (India Macro)",
+        "Question": "The **Services sector's** growth rate in FY24, which fueled significant growth opportunities, was approximately:",
+        "Options": [
+          { "id": 1, "text": "6.5%" },
+          { "id": 2, "text": "7.6%" },
+          { "id": 3, "text": "8.2%" },
+          { "id": 4, "text": "9.5%" }
+        ],
+        "Answer": "Option 2",
+        "CorrectAnswer": "7.6%",
+        "Explanation": "The services sector grew by **7.6%** in FY24, contributing significantly to the overall GDP growth."
+      },
+      {
+        "category": "Economy (India Financial Market)",
+        "Question": "Which type of market deals with instruments maturing within one year, such as Treasury Bills and Commercial Paper?",
+        "Options": [
+          { "id": 1, "text": "Stock Market" },
+          { "id": 2, "text": "Capital Market" },
+          { "id": 3, "text": "Money Market" },
+          { "id": 4, "text": "Debt Market" }
+        ],
+        "Answer": "Option 3",
+        "CorrectAnswer": "Money Market",
+        "Explanation": "The **Money Market** is the market for short-term funds (less than one year), used for meeting temporary liquidity needs."
+      }
+  ]

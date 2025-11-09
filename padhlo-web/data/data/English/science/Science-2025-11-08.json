@@ -1,0 +1,2355 @@
+[
+    {
+      "category": "Science (Biology)",
+      "Question": "Which vitamin deficiency causes the disease 'Scurvy'?",
+      "Options": [
+        { "id": 1, "text": "Vitamin A" },
+        { "id": 2, "text": "Vitamin B12" },
+        { "id": 3, "text": "Vitamin C" },
+        { "id": 4, "text": "Vitamin D" }
+      ],
+      "CorrectAnswer": "Vitamin C",
+      "Explanation": "Scurvy (leading to bleeding gums and poor wound healing) is caused by a severe deficiency of Vitamin C (Ascorbic Acid). Vitamin A deficiency causes night blindness. Vitamin D deficiency causes rickets.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Vitamins and Nutrition"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "What is the SI unit of electric current?",
+      "Options": [
+        { "id": 1, "text": "Volt" },
+        { "id": 2, "text": "Watt" },
+        { "id": 3, "text": "Ampere" },
+        { "id": 4, "text": "Ohm" }
+      ],
+      "CorrectAnswer": "Ampere",
+      "Explanation": "The SI unit of electric current is the Ampere (A). Volt is the unit of potential difference, Watt for power, and Ohm for resistance.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Units and Measurement"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "Litmus paper turns ______ when dipped in an acidic solution.",
+      "Options": [
+        { "id": 1, "text": "Blue to Red" },
+        { "id": 2, "text": "Red to Blue" },
+        { "id": 3, "text": "Green to Red" },
+        { "id": 4, "text": "It becomes colorless" }
+      ],
+      "CorrectAnswer": "Blue to Red",
+      "Explanation": "Acids (pH < 7) turn blue litmus paper red. Bases (pH > 7) turn red litmus paper blue.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Acids, Bases, and Salts"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "Which component of blood is responsible for clotting (coagulation)?",
+      "Options": [
+        { "id": 1, "text": "Red Blood Cells (RBCs)" },
+        { "id": 2, "text": "White Blood Cells (WBCs)" },
+        { "id": 3, "text": "Plasma" },
+        { "id": 4, "text": "Platelets (Thrombocytes)" }
+      ],
+      "CorrectAnswer": "Platelets (Thrombocytes)",
+      "Explanation": "Platelets (Thrombocytes) are cell fragments that gather at the site of an injury to form a clot, preventing blood loss. Vitamin K is essential for this process.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Human Circulatory System"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "The eye defect 'Myopia' (nearsightedness) is corrected using a ______ lens.",
+      "Options": [
+        { "id": 1, "text": "Concave lens" },
+        { "id": 2, "text": "Convex lens" },
+        { "id": 3, "text": "Cylindrical lens" },
+        { "id": 4, "text": "Bifocal lens" }
+      ],
+      "CorrectAnswer": "Concave lens",
+      "Explanation": "In Myopia, the image is formed *in front* of the retina. A concave (diverging) lens is used to diverge the light rays so they focus correctly on the retina. Hypermetropia (farsightedness) is corrected by a convex lens.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Optics"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "Which of the following is the best conductor of electricity?",
+      "Options": [
+        { "id": 1, "text": "Gold" },
+        { "id": 2, "text": "Silver" },
+        { "id": 3, "text": "Copper" },
+        { "id": 4, "text": "Aluminum" }
+      ],
+      "CorrectAnswer": "Silver",
+      "Explanation": "Silver is the best electrical conductor of all metals. However, it is expensive, so copper (the second-best) is more commonly used for wiring.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Metals and Non-metals"
+    },
+    
+    {
+      "category": "Science (Physics)",
+      "Question": "Sound waves cannot travel through which of the following?",
+      "Options": [
+        { "id": 1, "text": "Solid (Steel)" },
+        { "id": 2, "text": "Liquid (Water)" },
+        { "id": 3, "text": "Gas (Air)" },
+        { "id": 4, "text": "Vacuum" }
+      ],
+      "CorrectAnswer": "Vacuum",
+      "Explanation": "Sound is a mechanical wave, which means it requires a medium (solid, liquid, or gas) to propagate by vibrating particles. It cannot travel through a vacuum, which has no particles.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Sound"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "What is the chemical name for 'Baking Soda'?",
+      "Options": [
+        { "id": 1, "text": "Sodium Carbonate" },
+        { "id": 2, "text": "Sodium Bicarbonate" },
+        { "id": 3, "text": "Calcium Carbonate" },
+        { "id": 4, "text": "Sodium Chloride" }
+      ],
+      "CorrectAnswer": "Sodium Bicarbonate",
+      "Explanation": "Baking Soda is Sodium Bicarbonate (also called Sodium Hydrogen Carbonate, NaHCO3). Sodium Carbonate (Na2CO3) is 'Washing Soda'.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Common Chemical Compounds"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "The green pigment in plants that absorbs sunlight for photosynthesis is called:",
+      "Options": [
+        { "id": 1, "text": "Xanthophyll" },
+        { "id": 2, "text": "Chlorophyll" },
+        { "id": 3, "text": "Carotene" },
+        { "id": 4, "text": "Phycobilin" }
+      ],
+      "CorrectAnswer": "Chlorophyll",
+      "Explanation": "Chlorophyll is the primary pigment found in the chloroplasts of plants that absorbs light energy (primarily blue and red) to drive the process of photosynthesis.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Botany"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "Newton's First Law of Motion is also known as the Law of:",
+      "Options": [
+        { "id": 1, "text": "Action-Reaction" },
+        { "id": 2, "text": "Inertia" },
+        { "id": 3, "text": "Momentum" },
+        { "id": 4, "text": "Gravitation" }
+      ],
+      "CorrectAnswer": "Inertia",
+      "Explanation": "Newton's First Law states that an object at rest stays at rest and an object in motion stays in motion unless acted upon by an external force. This property of resisting a change in the state of motion is called 'Inertia'.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Laws of Motion"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "Brass is an alloy composed of which two metals?",
+      "Options": [
+        { "id": 1, "text": "Copper and Tin" },
+        { "id": 2, "text": "Copper and Zinc" },
+        { "id": 3, "text": "Iron and Carbon" },
+        { "id": 4, "text": "Aluminum and Magnesium" }
+      ],
+      "CorrectAnswer": "Copper and Zinc",
+      "Explanation": "Brass is an alloy of Copper (Cu) and Zinc (Zn). Bronze is an alloy of Copper (Cu) and Tin (Sn). Steel is an alloy of Iron (Fe) and Carbon (C).",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Alloys"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "Which gland in the human body is often called the 'Master Gland'?",
+      "Options": [
+        { "id": 1, "text": "Thyroid Gland" },
+        { "id": 2, "text": "Adrenal Gland" },
+        { "id": 3, "text": "Pituitary Gland" },
+        { "id": 4, "text": "Pancreas" }
+      ],
+      "CorrectAnswer": "Pituitary Gland",
+      "Explanation": "The Pituitary Gland, located at the base of the brain, is called the 'Master Gland' because it produces hormones that control many other glands in the endocrine system.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Human Endocrine System"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "The energy possessed by a body due to its motion is called:",
+      "Options": [
+        { "id": 1, "text": "Potential Energy" },
+        { "id": 2, "text": "Kinetic Energy" },
+        { "id": 3, "text": "Chemical Energy" },
+        { "id": 4, "text": "Nuclear Energy" }
+      ],
+      "CorrectAnswer": "Kinetic Energy",
+      "Explanation": "Kinetic Energy (KE = 1/2 mv²) is the energy of motion. Potential Energy is stored energy due to position or configuration (e.g., holding a ball up high).",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Work, Power, and Energy"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "What is the pH value of pure, neutral water?",
+      "Options": [
+        { "id": 1, "text": "0" },
+        { "id": 2, "text": "7" },
+        { "id": 3, "text": "14" },
+        { "id": 4, "text": "1" }
+      ],
+      "CorrectAnswer": "7",
+      "Explanation": "The pH scale ranges from 0 to 14. A pH of 7 is neutral (pure water). A pH less than 7 is acidic, and a pH greater than 7 is basic (alkaline).",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Acids, Bases, and Salts"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "Which organelle is known as the 'Powerhouse of the Cell'?",
+      "Options": [
+        { "id": 1, "text": "Nucleus" },
+        { "id": 2, "text": "Ribosome" },
+        { "id": 3, "text": "Mitochondrion" },
+        { "id": 4, "text": "Lysosome" }
+      ],
+      "CorrectAnswer": "Mitochondrion",
+      "Explanation": "Mitochondria are the sites of cellular respiration. They generate most of the cell's supply of adenosine triphosphate (ATP), which is used as a source of chemical energy.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Cell Biology"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "The beautiful colors in a rainbow are due to the phenomenon of:",
+      "Options": [
+        { "id": 1, "text": "Dispersion of light" },
+        { "id": 2, "text": "Scattering of light" },
+        { "id": 3, "text": "Diffraction of light" },
+        { "id": 4, "text": "Interference of light" }
+      ],
+      "CorrectAnswer": "Dispersion of light",
+      "Explanation": "A rainbow is caused by the dispersion, refraction, and total internal reflection of sunlight by water droplets. 'Dispersion' is the key phenomenon, where white light splits into its constituent colors (VIBGYOR).",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Optics"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "Which of the following is a 'Noble Gas'?",
+      "Options": [
+        { "id": 1, "text": "Nitrogen" },
+        { "id": 2, "text": "Oxygen" },
+        { "id": 3, "text": "Hydrogen" },
+        { "id": 4, "text": "Helium" }
+      ],
+      "CorrectAnswer": "Helium",
+      "Explanation": "Noble Gases (Group 18 of the periodic table) are odorless, colorless, monatomic gases with very low chemical reactivity. They include Helium (He), Neon (Ne), Argon (Ar), etc.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Periodic Table"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "Which vitamin is essential for blood clotting?",
+      "Options": [
+        { "id": 1, "text": "Vitamin A" },
+        { "id": 2, "text": "Vitamin E" },
+        { "id": 3, "text": "Vitamin K" },
+        { "id": 4, "text": "Vitamin C" }
+      ],
+      "CorrectAnswer": "Vitamin K",
+      "Explanation": "Vitamin K is essential for the synthesis of prothrombin, a protein that is a key factor in the blood clotting cascade.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Vitamins and Nutrition"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "The acceleration due to gravity (g) is:",
+      "Options": [
+        { "id": 1, "text": "Maximum at the poles" },
+        { "id": 2, "text": "Maximum at the equator" },
+        { "id": 3, "text": "The same at all places on Earth" },
+        { "id": 4, "text": "Maximum at the center of the Earth" }
+      ],
+      "CorrectAnswer": "Maximum at the poles",
+      "Explanation": "The Earth is not a perfect sphere; it is an oblate spheroid (flattened at the poles and bulging at the equator). Since the poles are closer to the center of the Earth, the force of gravity (g) is maximum at the poles.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Gravitation"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "Which acid is found in vinegar?",
+      "Options": [
+        { "id": 1, "text": "Citric Acid" },
+        { "id": 2, "text": "Lactic Acid" },
+        { "id": 3, "text": "Acetic Acid" },
+        { "id": 4, "text": "Formic Acid" }
+      ],
+      "CorrectAnswer": "Acetic Acid",
+      "Explanation": "Vinegar is a dilute solution of Acetic Acid (CH3COOH). Citric acid is in lemons, Lactic acid is in sour milk/curd, and Formic acid is in ant stings.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Acids, Bases, and Salts"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "What is the largest organ in the human body?",
+      "Options": [
+        { "id": 1, "text": "Liver" },
+        { "id": 2, "text": "Brain" },
+        { "id": 3, "text": "Skin" },
+        { "id": 4, "text": "Heart" }
+      ],
+      "CorrectAnswer": "Skin",
+      "Explanation": "The Skin is the largest organ of the human body, covering the entire outer surface. The Liver is the largest *internal* organ.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Human Anatomy"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "A 'Light Year' is a unit of:",
+      "Options": [
+        { "id": 1, "text": "Time" },
+        { "id": 2, "text": "Distance" },
+        { "id": 3, "text": "Light Intensity" },
+        { "id": 4, "text": "Speed" }
+      ],
+      "CorrectAnswer": "Distance",
+      "Explanation": "A 'light-year' is an astronomical unit of length. It is defined as the distance that light travels in a vacuum in one year (approximately 9.46 trillion kilometers).",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Units and Measurement"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "The nucleus of an atom consists of which of the following?",
+      "Options": [
+        { "id": 1, "text": "Protons and Electrons" },
+        { "id": 2, "text": "Neutrons and Electrons" },
+        { "id": 3, "text": "Protons and Neutrons" },
+        { "id": 4, "text": "Only Neutrons" }
+      ],
+      "CorrectAnswer": "Protons and Neutrons",
+      "Explanation": "The central nucleus of an atom contains Protons (positive charge) and Neutrons (no charge). Electrons (negative charge) orbit the nucleus.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Atomic Structure"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "Dengue fever is transmitted by the bite of which mosquito?",
+      "Options": [
+        { "id": 1, "text": "Aedes aegypti" },
+        { "id": 2, "text": "Anopheles" },
+        { "id": 3, "text": "Culex" },
+        { "id": 4, "text": "Sandfly" }
+      ],
+      "CorrectAnswer": "Aedes aegypti",
+      "Explanation": "Dengue is a viral disease transmitted by the bite of the *Aedes aegypti* mosquito, which typically bites during the day. *Anopheles* transmits malaria.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Diseases"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "A fuse wire in an electric circuit should have:",
+      "Options": [
+        { "id": 1, "text": "High melting point and High resistance" },
+        { "id": 2, "text": "Low melting point and High resistance" },
+        { "id": 3, "text": "Low melting point and Low resistance" },
+        { "id": 4, "text": "High melting point and Low resistance" }
+      ],
+      "CorrectAnswer": "Low melting point and High resistance",
+      "Explanation": "A fuse wire is a safety device. It should have *High resistance* to generate heat (Joule's law) when high current flows, and a *Low melting point* so that it melts and breaks the circuit, protecting the appliances.",
+      "Difficulty": "Hard",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Electricity"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "Which is the only non-metal that is liquid at room temperature?",
+      "Options": [
+        { "id": 1, "text": "Mercury" },
+        { "id": 2, "text": "Bromine" },
+        { "id": 3, "text": "Chlorine" },
+        { "id": 4, "text": "Iodine" }
+      ],
+      "CorrectAnswer": "Bromine",
+      "Explanation": "Bromine (Br) is the only non-metal that exists as a liquid at room temperature. Mercury (Hg) is the only *metal* that is liquid at room temperature.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Metals and Non-metals"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "A person with blood group 'O' is called a 'Universal Donor' because:",
+      "Options": [
+        { "id": 1, "text": "They have both A and B antigens on their RBCs." },
+        { "id": 2, "text": "They have no antigens (A or B) on their RBCs." },
+        { "id": 3, "text": "They have no antibodies in their plasma." },
+        { "id": 4, "text": "They have 'Rh' antigen." }
+      ],
+      "CorrectAnswer": "They have no antigens (A or B) on their RBCs.",
+      "Explanation": "Blood group 'O' (specifically O-negative) is the universal donor because its Red Blood Cells (RBCs) have *no* A or B antigens on their surface, so they do not trigger an immune response in the recipient.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Human Circulatory System"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "The SI unit of Work and Energy is the:",
+      "Options": [
+        { "id": 1, "text": "Watt" },
+        { "id": 2, "text": "Newton" },
+        { "id": 3, "text": "Pascal" },
+        { "id": 4, "text": "Joule" }
+      ],
+      "CorrectAnswer": "Joule",
+      "Explanation": "The SI unit for both Work and Energy is the Joule (J). Watt is the unit of Power. Newton is the unit of Force. Pascal is the unit of Pressure.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Units and Measurement"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "PVC (Polyvinyl Chloride), used for making pipes, is a:",
+      "Options": [
+        { "id": 1, "text": "Monomer" },
+        { "id": 2, "text": "Polymer" },
+        { "id": 3, "text": "Alloy" },
+        { "id": 4, "text": "Catalyst" }
+      ],
+      "CorrectAnswer": "Polymer",
+      "Explanation": "PVC is a thermoplastic *polymer*. It is made by polymerizing its monomer unit, *vinyl chloride*.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Polymers"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "In plants, which tissue is responsible for transporting water and minerals from the roots to the leaves?",
+      "Options": [
+        { "id": 1, "text": "Phloem" },
+        { "id": 2, "text": "Xylem" },
+        { "id": 3, "text": "Parenchyma" },
+        { "id": 4, "text": "Epidermis" }
+      ],
+      "CorrectAnswer": "Xylem",
+      "Explanation": "Xylem transports water and dissolved minerals upwards from the roots. Phloem transports food (sugars) produced during photosynthesis from the leaves to other parts of the plant.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Botany"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "What is the SI unit of Pressure?",
+      "Options": [
+        { "id": 1, "text": "Pascal" },
+        { "id": 2, "text": "Newton" },
+        { "id": 3, "text": "Joule" },
+        { "id": 4, "text": "Watt" }
+      ],
+      "CorrectAnswer": "Pascal",
+      "Explanation": "The SI unit of Pressure (Force/Area) is the Pascal (Pa), which is defined as one newton per square meter (N/m²).",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Units and Measurement"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "What is the chemical formula for 'Laughing Gas'?",
+      "Options": [
+        { "id": 1, "text": "NO (Nitric Oxide)" },
+        { "id": 2, "text": "NO2 (Nitrogen Dioxide)" },
+        { "id": 3, "text": "N2O (Nitrous Oxide)" },
+        { "id": 4, "text": "N2O5 (Dinitrogen Pentoxide)" }
+      ],
+      "CorrectAnswer": "N2O (Nitrous Oxide)",
+      "Explanation": "Nitrous Oxide (N2O) is commonly known as 'laughing gas' due to its euphoric effects upon inhalation. It is used as an anesthetic.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Common Chemical Compounds"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "The functional unit of the kidney, responsible for filtering blood, is the:",
+      "Options": [
+        { "id": 1, "text": "Neuron" },
+        { "id": 2, "text": "Alveolus" },
+        { "id": 3, "text": "Nephron" },
+        { "id": 4, "text": "Sarcomere" }
+      ],
+      "CorrectAnswer": "Nephron",
+      "Explanation": "The Nephron is the microscopic structural and functional unit of the kidney. The Neuron is the functional unit of the nervous system. The Alveolus is the functional unit of the lungs.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Human Excretory System"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "A convex mirror is used as a rear-view mirror in vehicles because:",
+      "Options": [
+        { "id": 1, "text": "It forms a real and inverted image." },
+        { "id": 2, "text": "It forms a virtual, erect, and diminished image." },
+        { "id": 3, "text": "It forms a highly magnified image." },
+        { "id": 4, "text": "It forms a real, erect, and diminished image." }
+      ],
+      "CorrectAnswer": "It forms a virtual, erect, and diminished image.",
+      "Explanation": "A convex mirror always forms a virtual, erect (upright), and diminished (smaller) image. This gives the driver a wider field of view, allowing them to see more traffic behind them.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Optics"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "Which metal is liquid at room temperature?",
+      "Options": [
+        { "id": 1, "text": "Sodium" },
+        { "id": 2, "text": "Gallium" },
+        { "id": 3, "text": "Bromine" },
+        { "id": 4, "text": "Mercury" }
+      ],
+      "CorrectAnswer": "Mercury",
+      "Explanation": "Mercury (Hg) is the only metal that is liquid at standard room temperature. (Bromine is a liquid, but it is a non-metal. Gallium melts at just above room temperature, around 30°C).",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Metals and Non-metals"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "The hormone 'Insulin', which regulates blood sugar, is secreted by which gland?",
+      "Options": [
+        { "id": 1, "text": "Pituitary" },
+        { "id": 2, "text": "Thyroid" },
+        { "id": 3, "text": "Pancreas" },
+        { "id": 4, "text": "Adrenal" }
+      ],
+      "CorrectAnswer": "Pancreas",
+      "Explanation": "Insulin is secreted by the 'Islets of Langerhans' in the Pancreas. It helps lower blood glucose levels. Deficiency of insulin causes Diabetes Mellitus.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Human Endocrine System"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "The speed of sound is maximum in:",
+      "Options": [
+        { "id": 1, "text": "Solids" },
+        { "id": 2, "text": "Liquids" },
+        { "id": 3, "text": "Gases" },
+        { "id": 4, "text": "Vacuum" }
+      ],
+      "CorrectAnswer": "Solids",
+      "Explanation": "Sound travels fastest in solids (like steel) because the particles are packed closely together, allowing vibrations to pass quickly. It travels slower in liquids and slowest in gases. It cannot travel in a vacuum.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Sound"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "'Acid Rain' is primarily caused by the emission of which two gases into the atmosphere?",
+      "Options": [
+        { "id": 1, "text": "Carbon Dioxide and Methane" },
+        { "id": 2, "text": "Sulfur Dioxide and Nitrogen Oxides" },
+        { "id": 3, "text": "Oxygen and Nitrogen" },
+        { "id": 4, "text": "Carbon Monoxide and Hydrogen" }
+      ],
+      "CorrectAnswer": "Sulfur Dioxide and Nitrogen Oxides",
+      "Explanation": "Sulfur Dioxide (SO2) and Nitrogen Oxides (NOx), released from burning fossil fuels, react with water and oxygen in the atmosphere to form Sulfuric Acid and Nitric Acid, which fall as acid rain.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Environmental Chemistry"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "The organelle known as the 'suicide bag' of the cell is the:",
+      "Options": [
+        { "id": 1, "text": "Mitochondrion" },
+        { "id": 2, "text": "Ribosome" },
+        { "id": 3, "text": "Nucleus" },
+        { "id": 4, "text": "Lysosome" }
+      ],
+      "CorrectAnswer": "Lysosome",
+      "Explanation": "Lysosomes contain powerful digestive enzymes. If the cell is damaged or old, the lysosome may burst and its enzymes digest the entire cell, hence the name 'suicide bag'.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Cell Biology"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "Which phenomenon of light is responsible for the 'twinkling' of stars?",
+      "Options": [
+        { "id": 1, "text": "Atmospheric refraction" },
+        { "id": 2, "text": "Dispersion" },
+        { "id": 3, "text": "Total internal reflection" },
+        { "id": 4, "text": "Scattering" }
+      ],
+      "CorrectAnswer": "Atmospheric refraction",
+      "Explanation": "Starlight enters the Earth's atmosphere and passes through layers of air with different densities and temperatures. This causes the light to be refracted (bent) continuously and randomly, making the star appear to twinkle.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Optics"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "Stainless Steel is an alloy primarily composed of:",
+      "Options": [
+        { "id": 1, "text": "Iron, Carbon, and Copper" },
+        { "id": 2, "text": "Iron, Chromium, and Nickel" },
+        { "id": 3, "text": "Copper and Zinc" },
+        { "id": 4, "text": "Iron and Tin" }
+      ],
+      "CorrectAnswer": "Iron, Chromium, and Nickel",
+      "Explanation": "Stainless Steel is an alloy of Iron. It is made 'stainless' (resistant to rust) by the addition of Chromium (which forms a protective layer) and often Nickel (for added toughness).",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Alloys"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "The disease 'Goitre' is caused by the deficiency of which mineral?",
+      "Options": [
+        { "id": 1, "text": "Iron" },
+        { "id": 2, "text": "Calcium" },
+        { "id": 3, "text": "Iodine" },
+        { "id": 4, "text": "Sodium" }
+      ],
+      "CorrectAnswer": "Iodine",
+      "Explanation": "Iodine is essential for the Thyroid gland to produce thyroxine hormone. A deficiency of iodine causes the thyroid gland to enlarge in an attempt to capture more iodine, resulting in a swelling in the neck known as Goitre.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Diseases and Nutrition"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "What is the SI unit of Force?",
+      "Options": [
+        { "id": 1, "text": "Joule" },
+        { "id": 2, "text": "Watt" },
+        { "id": 3, "text": "Newton" },
+        { "id": 4, "text": "Pascal" }
+      ],
+      "CorrectAnswer": "Newton",
+      "Explanation": "The SI unit of Force is the Newton (N), named after Isaac Newton. One Newton is the force needed to accelerate one kilogram of mass at the rate of one meter per second squared (kg·m/s²).",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Units and Measurement"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "Atoms of the same element having the same atomic number but different mass numbers are called:",
+      "Options": [
+        { "id": 1, "text": "Isotopes" },
+        { "id": 2, "text": "Isobars" },
+        { "id": 3, "text": "Isomers" },
+        { "id": 4, "text": "Isotones" }
+      ],
+      "CorrectAnswer": "Isotopes",
+      "Explanation": "Isotopes have the same number of protons (same atomic number, Z) but different numbers of neutrons (different mass number, A). E.g., Carbon-12 and Carbon-14. Isobars have the same mass number.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Atomic Structure"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "What is the longest bone in the human body?",
+      "Options": [
+        { "id": 1, "text": "Humerus (upper arm)" },
+        { "id": 2, "text": "Femur (thigh bone)" },
+        { "id": 3, "text": "Tibia (shin bone)" },
+        { "id": 4, "text": "Stapes (in the ear)" }
+      ],
+      "CorrectAnswer": "Femur (thigh bone)",
+      "Explanation": "The Femur, or thigh bone, is the longest, heaviest, and strongest bone in the human body. The Stapes (in the middle ear) is the smallest bone.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Human Anatomy"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "The process of a solid directly changing into a gas, without passing through the liquid state, is called:",
+      "Options": [
+        { "id": 1, "text": "Evaporation" },
+        { "id": 2, "text": "Condensation" },
+        { "id": 3, "text": "Sublimation" },
+        { "id": 4, "text": "Deposition" }
+      ],
+      "CorrectAnswer": "Sublimation",
+      "Explanation": "Sublimation is the phase transition from solid to gas (e.g., dry ice, camphor). The reverse process (gas to solid) is called deposition.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "States of Matter"
+    },
+    {
+      "category": "Science (Physics)",
+      "Question": "The 'Blue' color of the sky is due to which phenomenon of light?",
+      "Options": [
+        { "id": 1, "text": "Scattering" },
+        { "id": 2, "text": "Dispersion" },
+        { "id": 3, "text": "Reflection" },
+        { "id": 4, "text": "Refraction" }
+      ],
+      "CorrectAnswer": "Scattering",
+      "Explanation": "The blue color of the sky is due to the 'Rayleigh scattering' of sunlight. Air molecules scatter short-wavelength light (blue and violet) more effectively than long-wavelength light (red and orange).",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Optics"
+    },
+    {
+      "category": "Science (Biology)",
+      "Question": "Which of the following diseases is caused by a virus?\n1. Tuberculosis (TB)\n2. Influenza (Flu)\n3. Polio\n4. Cholera",
+      "Options": [
+        { "id": 1, "text": "1 and 4 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1, 2 and 3" },
+        { "id": 4, "text": "2, 3 and 4" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "(2) Influenza and (3) Polio are caused by viruses. (1) Tuberculosis and (4) Cholera are caused by bacteria.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Diseases"
+    },
+    {
+      "category": "Science (Chemistry)",
+      "Question": "Which gas is released during the process of photosynthesis?",
+      "Options": [
+        { "id": 1, "text": "Carbon Dioxide" },
+        { "id": 2, "text": "Oxygen" },
+        { "id": 3, "text": "Nitrogen" },
+        { "id": 4, "text": "Methane" }
+      ],
+      "CorrectAnswer": "Oxygen",
+      "Explanation": "In photosynthesis, plants use Carbon Dioxide (CO2), water, and sunlight to create glucose (food) and Oxygen (O2). The oxygen is released as a byproduct.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Botany / Chemistry"
+    },
+    {
+        "category": "Science (Biology)",
+        "Question": "Which blood group is known as the 'Universal Recipient'?",
+        "Options": [
+          { "id": 1, "text": "A" },
+          { "id": 2, "text": "B" },
+          { "id": 3, "text": "AB" },
+          { "id": 4, "text": "O" }
+        ],
+        "CorrectAnswer": "AB",
+        "Explanation": "A person with AB blood group (specifically AB+) has both A and B antigens on their RBCs and no anti-A or anti-B antibodies in their plasma. Therefore, they can receive blood from any group. Group O- is the 'Universal Donor'.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Human Circulatory System"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "Ohm's Law gives the relationship between which three quantities?",
+        "Options": [
+          { "id": 1, "text": "Voltage, Current, and Resistance" },
+          { "id": 2, "text": "Force, Mass, and Acceleration" },
+          { "id": 3, "text": "Work, Power, and Time" },
+          { "id": 4, "text": "Speed, Distance, and Time" }
+        ],
+        "CorrectAnswer": "Voltage, Current, and Resistance",
+        "Explanation": "Ohm's Law states that the voltage (V) across a conductor is directly proportional to the current (I) flowing through it, with the constant of proportionality being the resistance (R). Formula: V = IR.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Electricity"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "What is the main component of 'Natural Gas' and 'Biogas'?",
+        "Options": [
+          { "id": 1, "text": "Ethane" },
+          { "id": 2, "text": "Propane" },
+          { "id": 3, "text": "Butane" },
+          { "id": 4, "text": "Methane" }
+        ],
+        "CorrectAnswer": "Methane",
+        "Explanation": "Methane (CH4) is the primary component of natural gas (and biogas). Propane and Butane are the main components of LPG (Liquefied Petroleum Gas).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Organic Chemistry"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Who is credited with the discovery of Penicillin, the first antibiotic?",
+        "Options": [
+          { "id": 1, "text": "Louis Pasteur" },
+          { "id": 2, "text": "Alexander Fleming" },
+          { "id": 3, "text": "Robert Koch" },
+          { "id": 4, "text": "Edward Jenner" }
+        ],
+        "CorrectAnswer": "Alexander Fleming",
+        "Explanation": "Alexander Fleming discovered penicillin in 1928, which was isolated from the *Penicillium* fungus. Edward Jenner is known for the smallpox vaccine, and Louis Pasteur for pasteurization.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Discoveries"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "We see lightning before we hear thunder because:",
+        "Options": [
+          { "id": 1, "text": "Light travels faster than sound" },
+          { "id": 2, "text": "Sound travels faster than light" },
+          { "id": 3, "text": "Thunder is produced after lightning" },
+          { "id": 4, "text": "Our eyes are faster than our ears" }
+        ],
+        "CorrectAnswer": "Light travels faster than sound",
+        "Explanation": "Both are produced simultaneously. However, light travels at approximately 300,000,000 m/s, while sound travels at only ~343 m/s in air. This difference in speed causes us to see the flash before hearing the sound.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Wave Properties"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Which acid is known as the 'King of Chemicals' due to its wide range of industrial applications?",
+        "Options": [
+          { "id": 1, "text": "Hydrochloric Acid (HCl)" },
+          { "id": 2, "text": "Nitric Acid (HNO3)" },
+          { "id": 3, "text": "Sulfuric Acid (H2SO4)" },
+          { "id": 4, "text": "Acetic Acid (CH3COOH)" }
+        ],
+        "CorrectAnswer": "Sulfuric Acid (H2SO4)",
+        "Explanation": "Sulfuric Acid (H2SO4) is a major industrial chemical used in large quantities for fertilizer production, ore processing, chemical synthesis, and wastewater processing.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Common Chemical Compounds"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "The scientific study of insects is known as:",
+        "Options": [
+          { "id": 1, "text": "Ornithology" },
+          { "id": 2, "text": "Entomology" },
+          { "id": 3, "text": "Botany" },
+          { "id": 4, "text": "Ichthyology" }
+        ],
+        "CorrectAnswer": "Entomology",
+        "Explanation": "Entomology is the study of insects. Ornithology is the study of birds. Botany is the study of plants. Ichthyology is the study of fish.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Branches of Biology"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "What is the SI unit of Frequency?",
+        "Options": [
+          { "id": 1, "text": "Hertz (Hz)" },
+          { "id": 2, "text": "Decibel (dB)" },
+          { "id": 3, "text": "Newton (N)" },
+          { "id": 4, "text": "Pascal (Pa)" }
+        ],
+        "CorrectAnswer": "Hertz (Hz)",
+        "Explanation": "Frequency (the number of occurrences of a repeating event per unit of time, or cycles per second) is measured in Hertz (Hz). Decibel (dB) is a unit for sound intensity.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Units and Measurement"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "'Dry Ice' is the solid form of which gas?",
+        "Options": [
+          { "id": 1, "text": "Oxygen" },
+          { "id": 2, "text": "Nitrogen" },
+          { "id": 3, "text": "Carbon Dioxide" },
+          { "id": 4, "text": "Hydrogen" }
+        ],
+        "CorrectAnswer": "Carbon Dioxide",
+        "Explanation": "Dry ice is solid Carbon Dioxide (CO2). It is called 'dry' because it sublimes (turns directly from a solid to a gas) at -78.5°C.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "States of Matter"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Which part of the human brain is responsible for maintaining balance, posture, and coordination?",
+        "Options": [
+          { "id": 1, "text": "Cerebrum" },
+          { "id": 2, "text": "Cerebellum" },
+          { "id": 3, "text": "Medulla Oblongata" },
+          { "id": 4, "text": "Hypothalamus" }
+        ],
+        "CorrectAnswer": "Cerebellum",
+        "Explanation": "The Cerebellum (or 'little brain'), located at the back of the skull, is crucial for motor control, coordination, and maintaining equilibrium (balance). The Cerebrum handles thought and action. The Medulla handles involuntary actions.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Human Nervous System"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "What is the approximate pH value of human blood?",
+        "Options": [
+          { "id": 1, "text": "6.5 (Slightly acidic)" },
+          { "id": 2, "text": "7.0 (Neutral)" },
+          { "id": 3, "text": "7.4 (Slightly alkaline)" },
+          { "id": 4, "text": "8.5 (Alkaline)" }
+        ],
+        "CorrectAnswer": "7.4 (Slightly alkaline)",
+        "Explanation": "Human blood is tightly regulated and must be kept in a narrow range of 7.35 to 7.45, making it slightly alkaline (or basic).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Acids, Bases, and Salts"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Tuberculosis (TB) is a disease caused by a:",
+        "Options": [
+          { "id": 1, "text": "Virus" },
+          { "id": 2, "text": "Bacterium" },
+          { "id": 3, "text": "Fungus" },
+          { "id": 4, "text": "Protozoan" }
+        ],
+        "CorrectAnswer": "Bacterium",
+        "Explanation": "Tuberculosis is caused by the bacterium *Mycobacterium tuberculosis*. It most commonly affects the lungs.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Diseases"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "What is the unit used to measure the power of a lens?",
+        "Options": [
+          { "id": 1, "text": "Watt" },
+          { "id": 2, "text": "Dioptre" },
+          { "id": 3, "text": "Lumen" },
+          { "id": 4, "text": "Candela" }
+        ],
+        "CorrectAnswer": "Dioptre",
+        "Explanation": "The power (P) of a lens is measured in Dioptres (D). It is the reciprocal of the focal length in meters (P = 1/f).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Optics"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Which is the most abundant metal in the Earth's crust?",
+        "Options": [
+          { "id": 1, "text": "Iron" },
+          { "id": 2, "text": "Aluminum" },
+          { "id": 3, "text": "Silicon" },
+          { "id": 4, "text": "Oxygen" }
+        ],
+        "CorrectAnswer": "Aluminum",
+        "Explanation": "The most abundant *element* is Oxygen (O), followed by Silicon (Si). The most abundant *metal* is Aluminum (Al), followed by Iron (Fe).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Metals and Non-metals"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Which plant hormone is responsible for the ripening of fruits?",
+        "Options": [
+          { "id": 1, "text": "Auxin" },
+          { "id": 2, "text": "Gibberellin" },
+          { "id": 3, "text": "Cytokinin" },
+          { "id": 4, "text": "Ethylene" }
+        ],
+        "CorrectAnswer": "Ethylene",
+        "Explanation": "Ethylene is a gaseous plant hormone that promotes fruit ripening, leaf fall (abscission), and senescence.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Botany (Plant Hormones)"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "A device that converts mechanical energy into electrical energy is called a(n):",
+        "Options": [
+          { "id": 1, "text": "Electric Motor" },
+          { "id": 2, "text": "Generator" },
+          { "id": 3, "text": "Transformer" },
+          { "id": 4, "text": "Battery" }
+        ],
+        "CorrectAnswer": "Generator",
+        "Explanation": "A Generator (or Dynamo) converts mechanical energy (e.g., from a turbine) into electrical energy, based on the principle of electromagnetic induction. An Electric Motor does the opposite (electrical to mechanical).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Electricity and Magnetism"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "What is the chemical formula for 'Ozone'?",
+        "Options": [
+          { "id": 1, "text": "O2" },
+          { "id": 2, "text": "O3" },
+          { "id": 3, "text": "H2O" },
+          { "id": 4, "text": "CO2" }
+        ],
+        "CorrectAnswer": "O3",
+        "Explanation": "Ozone is an allotrope of oxygen. Its molecule consists of three oxygen atoms (O3). Regular oxygen gas is O2.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Common Chemical Compounds"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Who is known as the 'Father of Genetics'?",
+        "Options": [
+          { "id": 1, "text": "Charles Darwin" },
+          { "id": 2, "text": "Gregor Mendel" },
+          { "id": 3, "text": "Louis Pasteur" },
+          { "id": 4, "text": "Robert Hooke" }
+        ],
+        "CorrectAnswer": "Gregor Mendel",
+        "Explanation": "Gregor Mendel, an Austrian monk, is known as the 'Father of Genetics' for his experiments with pea plants, which established the laws of inheritance.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Genetics"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "What is the SI unit of electric resistance?",
+        "Options": [
+          { "id": 1, "text": "Ampere" },
+          { "id": 2, "text": "Volt" },
+          { "id": 3, "text": "Ohm" },
+          { "id": 4, "text": "Watt" }
+        ],
+        "CorrectAnswer": "Ohm",
+        "Explanation": "The SI unit of electrical resistance is the Ohm (Ω), named after Georg Simon Ohm. (Ampere = Current, Volt = Potential Difference, Watt = Power).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Units and Measurement"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "LPG (Liquefied Petroleum Gas) is a mixture of primarily which two gases?",
+        "Options": [
+          { "id": 1, "text": "Methane and Ethane" },
+          { "id": 2, "text": "Propane and Butane" },
+          { "id": 3, "text": "Hydrogen and Methane" },
+          { "id": 4, "text": "Oxygen and Nitrogen" }
+        ],
+        "CorrectAnswer": "Propane and Butane",
+        "Explanation": "LPG used for cooking is a mixture of flammable hydrocarbon gases, primarily Propane (C3H8) and Butane (C4H10). Methane is the main component of Natural Gas.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Organic Chemistry"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Which part of the human eye controls the amount of light entering it?",
+        "Options": [
+          { "id": 1, "text": "Retina" },
+          { "id": 2, "text": "Cornea" },
+          { "id": 3, "text": "Lens" },
+          { "id": 4, "text": "Iris" }
+        ],
+        "CorrectAnswer": "Iris",
+        "Explanation": "The Iris is the colored part of the eye. It controls the size of the pupil, which is the opening that allows light to enter. In bright light, the iris closes the pupil; in dim light, it opens it.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Human Anatomy (Eye)"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "Newton's Third Law of Motion states that:",
+        "Options": [
+          { "id": 1, "text": "An object in motion stays in motion." },
+          { "id": 2, "text": "Force equals mass times acceleration (F=ma)." },
+          { "id": 3, "text": "For every action, there is an equal and opposite reaction." },
+          { "id": 4, "text": "Energy cannot be created or destroyed." }
+        ],
+        "CorrectAnswer": "For every action, there is an equal and opposite reaction.",
+        "Explanation": "The Third Law describes action-reaction pairs. (1) is the First Law. (2) is the Second Law. (4) is the Law of Conservation of Energy.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Laws of Motion"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Which of the following is responsible for the depletion of the Ozone layer?",
+        "Options": [
+          { "id": 1, "text": "Chlorofluorocarbons (CFCs)" },
+          { "id": 2, "text": "Carbon Dioxide (CO2)" },
+          { "id": 3, "text": "Methane (CH4)" },
+          { "id": 4, "text": "Carbon Monoxide (CO)" }
+        ],
+        "CorrectAnswer": "Chlorofluorocarbons (CFCs)",
+        "Explanation": "CFCs, once used in refrigerants and aerosols, rise to the stratosphere where UV radiation breaks them down, releasing chlorine atoms. A single chlorine atom can destroy thousands of ozone molecules.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Environmental Chemistry"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Which of the following is NOT part of the Five Kingdom classification by Whittaker?",
+        "Options": [
+          { "id": 1, "text": "Monera" },
+          { "id": 2, "text": "Protista" },
+          { "id": 3, "text": "Fungi" },
+          { "id": 4, "text": "Virus" }
+        ],
+        "CorrectAnswer": "Virus",
+        "Explanation": "R.H. Whittaker's (1969) Five Kingdom classification includes: Monera, Protista, Fungi, Plantae, and Animalia. Viruses are not included as they are acellular (not cells) and are not considered truly 'living'.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Taxonomy"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "A 'transformer' is a device used to:",
+        "Options": [
+          { "id": 1, "text": "Convert AC to DC" },
+          { "id": 2, "text": "Convert DC to AC" },
+          { "id": 3, "text": "Step-up or step-down AC voltage" },
+          { "id": 4, "text": "Store electrical charge" }
+        ],
+        "CorrectAnswer": "Step-up or step-down AC voltage",
+        "Explanation": "A transformer works on the principle of mutual induction to change the voltage level of an *Alternating Current (AC)*. A 'rectifier' converts AC to DC. An 'inverter' converts DC to AC.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Electricity and Magnetism"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "The functional group of alcohols is:",
+        "Options": [
+          { "id": 1, "text": "-OH (Hydroxyl)" },
+          { "id": 2, "text": "-COOH (Carboxyl)" },
+          { "id": 3, "text": "-CHO (Aldehyde)" },
+          { "id": 4, "text": "-NH2 (Amine)" }
+        ],
+        "CorrectAnswer": "-OH (Hydroxyl)",
+        "Explanation": "The -OH group (Hydroxyl) is the functional group for alcohols (e.g., Ethanol, C2H5OH). -COOH is for carboxylic acids.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Organic Chemistry"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "The molecule that carries genetic information in all cellular life is:",
+        "Options": [
+          { "id": 1, "text": "RNA (Ribonucleic Acid)" },
+          { "id": 2, "text": "DNA (Deoxyribonucleic Acid)" },
+          { "id": 3, "text": "ATP (Adenosine Triphosphate)" },
+          { "id": 4, "text": "Protein" }
+        ],
+        "CorrectAnswer": "DNA (Deoxyribonucleic Acid)",
+        "Explanation": "DNA is the self-replicating molecule that is the main constituent of chromosomes and carries the genetic instructions for the development, functioning, and reproduction of all known organisms.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Genetics"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "Which color of light has the *longest* wavelength?",
+        "Options": [
+          { "id": 1, "text": "Violet" },
+          { "id": 2, "text": "Green" },
+          { "id": 3, "text": "Yellow" },
+          { "id": 4, "text": "Red" }
+        ],
+        "CorrectAnswer": "Red",
+        "Explanation": "In the visible spectrum (VIBGYOR), Red light has the longest wavelength (and lowest frequency), while Violet light has the shortest wavelength (and highest frequency).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Optics"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "What is the process of coating iron with a layer of zinc to prevent rusting called?",
+        "Options": [
+          { "id": 1, "text": "Galvanization" },
+          { "id": 2, "text": "Anodizing" },
+          { "id": 3, "text": "Electroplating" },
+          { "id": 4, "text": "Vulcanization" }
+        ],
+        "CorrectAnswer": "Galvanization",
+        "Explanation": "Galvanization is the specific process of applying a protective zinc coating to iron or steel to prevent rusting. Zinc acts as a sacrificial anode.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Redox Reactions / Metals"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Rabies (Hydrophobia) is a disease caused by a:",
+        "Options": [
+          { "id": 1, "text": "Virus" },
+          { "id": 2, "text": "Bacterium" },
+          { "id": 3, "text": "Fungus" },
+          { "id": 4, "text": "Protozoan" }
+        ],
+        "CorrectAnswer": "Virus",
+        "Explanation": "Rabies is a deadly viral disease that attacks the central nervous system. It is usually transmitted to humans through the bite or scratch of an infected animal, such as a dog.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Diseases"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "The 'escape velocity' from the Earth's surface is approximately:",
+        "Options": [
+          { "id": 1, "text": "9.8 m/s" },
+          { "id": 2, "text": "343 m/s" },
+          { "id": 3, "text": "11.2 km/s" },
+          { "id": 4, "text": "300,000 km/s" }
+        ],
+        "CorrectAnswer": "11.2 km/s",
+        "Explanation": "Escape velocity is the minimum speed needed for an object to 'escape' from the Earth's gravitational pull. This speed is approximately 11.2 kilometers per *second* (or 40,320 km/h).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Gravitation"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Atoms of different elements with the same mass number but different atomic numbers are called:",
+        "Options": [
+          { "id": 1, "text": "Isotopes" },
+          { "id": 2, "text": "Isobars" },
+          { "id": 3, "text": "Isomers" },
+          { "id": 4, "text": "Isotones" }
+        ],
+        "CorrectAnswer": "Isobars",
+        "Explanation": "Isobars have the same mass number (A) but different atomic numbers (Z). E.g., Argon-40 and Calcium-40. Isotopes have the same Z but different A.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Atomic Structure"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Which of the following is responsible for the red color of human blood?",
+        "Options": [
+          { "id": 1, "text": "Myoglobin" },
+          { "id": 2, "text": "Hemocyanin" },
+          { "id": 3, "text": "Hemoglobin" },
+          { "id": 4, "text": "Bilirubin" }
+        ],
+        "CorrectAnswer": "Hemoglobin",
+        "Explanation": "Hemoglobin is an iron-containing protein found in Red Blood Cells (RBCs). The iron in the 'heme' group binds to oxygen and gives blood its characteristic red color.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Human Circulatory System"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "The persistence of sound in an auditorium even after the source has stopped is called:",
+        "Options": [
+          { "id": 1, "text": "Echo" },
+          { "id": 2, "text": "Resonance" },
+          { "id": 3, "text": "Reverberation" },
+          { "id": 4, "text": "Refraction" }
+        ],
+        "CorrectAnswer": "Reverberation",
+        "Explanation": "Reverberation is the persistence of sound due to multiple reflections from surfaces (walls, ceiling). An 'Echo' is a single, distinct, and delayed reflection of sound.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Sound"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "The 'Haber-Bosch' process is used for the industrial synthesis of:",
+        "Options": [
+          { "id": 1, "text": "Sulfuric Acid" },
+          { "id": 2, "text": "Ammonia" },
+          { "id": 3, "text": "Steel" },
+          { "id": 4, "text": "Plastic" }
+        ],
+        "CorrectAnswer": "Ammonia",
+        "Explanation": "The Haber-Bosch process is the main industrial procedure for producing Ammonia (NH3) by reacting Nitrogen (N2) and Hydrogen (H2) under high temperature and pressure.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Industrial Chemistry"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Which part of the digestive system absorbs the most nutrients from food?",
+        "Options": [
+          { "id": 1, "text": "Stomach" },
+          { "id": 2, "text": "Large Intestine" },
+          { "id": 3, "text": "Small Intestine" },
+          { "id": 4, "text": "Esophagus" }
+        ],
+        "CorrectAnswer": "Small Intestine",
+        "Explanation": "The Small Intestine is where the vast majority of digestion and absorption of nutrients (carbohydrates, fats, proteins) occurs, thanks to its long length and folded surface (villi). The Large Intestine primarily absorbs water.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Human Digestive System"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "The change in the direction of a wave passing from one medium to another (e.g., light from air to water) is called:",
+        "Options": [
+          { "id": 1, "text": "Reflection" },
+          { "id": 2, "text": "Refraction" },
+          { "id": 3, "text": "Diffraction" },
+          { "id": 4, "text": "Dispersion" }
+        ],
+        "CorrectAnswer": "Refraction",
+        "Explanation": "Refraction is the bending of a wave when it enters a medium where its speed is different. Reflection is the bouncing back of the wave.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Optics"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Which of the following elements has the highest 'Electronegativity'?",
+        "Options": [
+          { "id": 1, "text": "Oxygen" },
+          { "id": 2, "text": "Chlorine" },
+          { "id": 3, "text": "Fluorine" },
+          { "id": 4, "text": "Sodium" }
+        ],
+        "CorrectAnswer": "Fluorine",
+        "Explanation": "Electronegativity is the tendency of an atom to attract a shared pair of electrons. Fluorine (F) is the most electronegative element in the periodic table.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Periodic Table"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "The 'Universal Gravitational Constant' (G) was experimentally determined by:",
+        "Options": [
+          { "id": 1, "text": "Isaac Newton" },
+          { "id": 2, "text": "Galileo Galilei" },
+          { "id": 3, "text": "Henry Cavendish" },
+          { "id": 4, "text": "Johannes Kepler" }
+        ],
+        "CorrectAnswer": "Henry Cavendish",
+        "Explanation": "While Newton formulated the law of gravitation, he did not know the value of 'G'. The value was first determined experimentally by Henry Cavendish in 1798 using a torsion balance experiment.",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Gravitation"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "A mirage in the desert is an optical illusion caused by:",
+        "Options": [
+          { "id": 1, "text": "Dispersion of light" },
+          { "id": 2, "text": "Scattering of light" },
+          { "id": 3, "text": "Total Internal Reflection and Refraction" },
+          { "id": 4, "text": "Interference of light" }
+        ],
+        "CorrectAnswer": "Total Internal Reflection and Refraction",
+        "Explanation": "A mirage is caused by the refraction (bending) of light in air of different densities. Hot air near the ground is less dense, causing light from the sky to bend upwards. At a certain angle, it undergoes Total Internal Reflection, making it look like a reflection on water.",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Optics"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "In the periodic table, the vertical columns are called ______ and the horizontal rows are called ______.",
+        "Options": [
+          { "id": 1, "text": "Groups; Periods" },
+          { "id": 2, "text": "Periods; Groups" },
+          { "id": 3, "text": "Rows; Columns" },
+          { "id": 4, "text": "Blocks; Series" }
+        ],
+        "CorrectAnswer": "Groups; Periods",
+        "Explanation": "The vertical columns are called Groups (18 groups), and elements within a group share similar chemical properties. The horizontal rows are called Periods (7 periods).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Periodic Table"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Which of the following is an example of a 'vestigial organ' in humans?",
+        "Options": [
+          { "id": 1, "text": "Liver" },
+          { "id": 2, "text": "Lungs" },
+          { "id": 3, "text": "Appendix" },
+          { "id": 4, "text": "Heart" }
+        ],
+        "CorrectAnswer": "Appendix",
+        "Explanation": "A vestigial organ is a remnant of a structure that had a function in an evolutionary ancestor but is no longer functional. The vermiform appendix in humans is a classic example (along with wisdom teeth and the tailbone).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Evolution"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "What type of energy conversion happens in a 'solar cell'?",
+        "Options": [
+          { "id": 1, "text": "Light Energy to Electrical Energy" },
+          { "id": 2, "text": "Electrical Energy to Light Energy" },
+          { "id": 3, "text": "Heat Energy to Mechanical Energy" },
+          { "id": 4, "text": "Light Energy to Heat Energy" }
+        ],
+        "CorrectAnswer": "Light Energy to Electrical Energy",
+        "Explanation": "A solar cell (photovoltaic cell) directly converts solar energy (light energy) into electrical energy using the photovoltaic effect.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Work, Power, and Energy"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "The process of 'Vulcanization' is used to improve the properties of:",
+        "Options": [
+          { "id": 1, "text": "Iron" },
+          { "id": 2, "text": "Glass" },
+          { "id": 3, "text": "Rubber" },
+          { "id": 4, "text": "Plastic" }
+        ],
+        "CorrectAnswer": "Rubber",
+        "Explanation": "Vulcanization is a chemical process for converting natural rubber into a more durable material by heating it with sulfur. This makes the rubber harder, stronger, and more elastic.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Polymers"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "What is the smallest bone in the human body?",
+        "Options": [
+          { "id": 1, "text": "Femur (thigh bone)" },
+          { "id": 2, "text": "Phalanges (finger bone)" },
+          { "id": 3, "text": "Stapes (in the middle ear)" },
+          { "id": 4, "text": "Coccyx (tailbone)" }
+        ],
+        "CorrectAnswer": "Stapes (in the middle ear)",
+        "Explanation": "The Stapes is one of the three ossicles (small bones) in the middle ear, and it is the smallest and lightest bone in the human body. The Femur is the largest.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Human Anatomy"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "An 'Anemometer' is an instrument used to measure:",
+        "Options": [
+          { "id": 1, "text": "Atmospheric pressure" },
+          { "id": 2, "text": "Wind speed" },
+          { "id": 3, "text": "Humidity" },
+          { "id": 4, "text": "Rainfall" }
+        ],
+        "CorrectAnswer": "Wind speed",
+        "Explanation": "An Anemometer is the primary instrument used to measure wind speed. (Barometer = pressure; Hygrometer = humidity; Rain gauge = rainfall).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Units and Measurement"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Which of the following is a 'saturated' hydrocarbon?",
+        "Options": [
+          { "id": 1, "text": "Ethene" },
+          { "id": 2, "text": "Ethyne" },
+          { "id": 3, "text": "Ethane" },
+          { "id": 4, "text": "Benzene" }
+        ],
+        "CorrectAnswer": "Ethane",
+        "Explanation": "Saturated hydrocarbons (Alkanes) contain only carbon-carbon *single bonds*. Ethane (C2H6) is an alkane. Ethene (C2H4) has a double bond (alkene), and Ethyne (C2H2) has a triple bond (alkyne).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Organic Chemistry"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "The functional unit of the nervous system is the:",
+        "Options": [
+          { "id": 1, "text": "Nephron" },
+          { "id": 2, "text": "Neuron" },
+          { "id": 3, "text": "Alveolus" },
+          { "id": 4, "text": "Proton" }
+        ],
+        "CorrectAnswer": "Neuron",
+        "Explanation": "The Neuron (or nerve cell) is the basic structural and functional unit of the nervous system, responsible for transmitting nerve impulses. The Nephron is the unit of the kidney.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Human Nervous System"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "The disease 'Rickets' (softening of bones) in children is caused by the deficiency of which vitamin?",
+        "Options": [
+          { "id": 1, "text": "Vitamin A" },
+          { "id": 2, "text": "Vitamin C" },
+          { "id": 3, "text": "Vitamin K" },
+          { "id": 4, "text": "Vitamin D" }
+        ],
+        "CorrectAnswer": "Vitamin D",
+        "Explanation": "Vitamin D is essential for the body to absorb calcium. A deficiency prevents proper bone formation, leading to 'Rickets' in children and 'Osteomalacia' in adults.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Vitamins and Nutrition"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "The 'redness' of the sky at sunrise and sunset is due to which phenomenon of light?",
+        "Options": [
+          { "id": 1, "text": "Scattering" },
+          { "id": 2, "text": "Dispersion" },
+          { "id": 3, "text": "Total Internal Reflection" },
+          { "id": 4, "text": "Interference" }
+        ],
+        "CorrectAnswer": "Scattering",
+        "Explanation": "At sunrise/sunset, sunlight travels a longer path through the atmosphere. Most of the short-wavelength blue light is scattered away, allowing the longer-wavelength red light to reach our eyes.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Optics"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Which of the following is the 'lightest' metal?",
+        "Options": [
+          { "id": 1, "text": "Hydrogen" },
+          { "id": 2, "text": "Helium" },
+          { "id": 3, "text": "Lithium" },
+          { "id": 4, "text": "Aluminum" }
+        ],
+        "CorrectAnswer": "Lithium",
+        "Explanation": "Lithium (Li) is the lightest metal and the least dense solid element. Hydrogen and Helium are gases and are lighter, but they are not metals.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Periodic Table"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "In the human respiratory system, the exchange of gases (Oxygen and CO2) takes place in the:",
+        "Options": [
+          { "id": 1, "text": "Trachea" },
+          { "id": 2, "text": "Bronchi" },
+          { "id": 3, "text": "Larynx" },
+          { "id": 4, "text": "Alveoli" }
+        ],
+        "CorrectAnswer": "Alveoli",
+        "Explanation": "The Alveoli are tiny, sac-like structures at the end of the bronchioles in the lungs. They are the primary site for the exchange of oxygen and carbon dioxide between the lungs and the bloodstream.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Human Respiratory System"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "What is the SI unit of Power?",
+        "Options": [
+          { "id": 1, "text": "Joule" },
+          { "id": 2, "text": "Newton" },
+          { "id": 3, "text": "Watt" },
+          { "id": 4, "text": "Pascal" }
+        ],
+        "CorrectAnswer": "Watt",
+        "Explanation": "The SI unit of Power (the rate of doing work) is the Watt (W), which is defined as one Joule per second (J/s).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Units and Measurement"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "The conversion of milk into curd (yogurt) is an example of:",
+        "Options": [
+          { "id": 1, "text": "Fermentation" },
+          { "id": 2, "text": "Pasteurization" },
+          { "id": 3, "text": "Sublimation" },
+          { "id": 4, "text": "Evaporation" }
+        ],
+        "CorrectAnswer": "Fermentation",
+        "Explanation": "Bacteria (like *Lactobacillus*) convert the lactose (milk sugar) into lactic acid. This process is called fermentation, which sours and thickens the milk to form curd.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Biochemistry"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Which of the following is a plant hormone that promotes cell division?",
+        "Options": [
+          { "id": 1, "text": "Auxin" },
+          { "id": 2, "text": "Gibberellin" },
+          { "id": 3, "text": "Cytokinin" },
+          { "id": 4, "text": "Abscisic Acid" }
+        ],
+        "CorrectAnswer": "Cytokinin",
+        "Explanation": "Cytokinins are a class of plant hormones that are primarily involved in promoting cell division (cytokinesis) in plant roots and shoots.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Botany (Plant Hormones)"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "The 'Hygrometer' is an instrument used to measure:",
+        "Options": [
+          { "id": 1, "text": "Atmospheric pressure" },
+          { "id": 2, "text": "Wind speed" },
+          { "id": 3, "text": "Relative Humidity" },
+          { "id": 4, "text": "Density of liquids" }
+        ],
+        "CorrectAnswer": "Relative Humidity",
+        "Explanation": "A Hygrometer is used to measure the amount of water vapor in the air, or the humidity. (Barometer = pressure; Anemometer = wind speed).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Units and Measurement"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "The 'atomic number' (Z) of an element is equal to the number of ______ in its nucleus.",
+        "Options": [
+          { "id": 1, "text": "Protons" },
+          { "id": 2, "text": "Neutrons" },
+          { "id": 3, "text": "Protons and Neutrons" },
+          { "id": 4, "text": "Electrons" }
+        ],
+        "CorrectAnswer": "Protons",
+        "Explanation": "The atomic number (Z) is the defining property of an element. It is equal to the number of protons in the nucleus. The mass number (A) is the sum of protons and neutrons.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Atomic Structure"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Night blindness (Nyctalopia) is caused by the deficiency of which vitamin?",
+        "Options": [
+          { "id": 1, "text": "Vitamin A" },
+          { "id": 2, "text": "Vitamin C" },
+          { "id": 3, "text": "Vitamin D" },
+          { "id": 4, "text": "Vitamin K" }
+        ],
+        "CorrectAnswer": "Vitamin A",
+        "Explanation": "Vitamin A (Retinol) is crucial for forming rhodopsin, a pigment in the eye's retina that is responsible for vision in low light. Deficiency leads to night blindness.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Vitamins and Nutrition"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "A 'step-up' transformer is a device that:",
+        "Options": [
+          { "id": 1, "text": "Increases AC voltage and decreases current" },
+          { "id": 2, "text": "Decreases AC voltage and increases current" },
+          { "id": 3, "text": "Increases both AC voltage and current" },
+          { "id": 4, "text": "Converts AC to DC" }
+        ],
+        "CorrectAnswer": "Increases AC voltage and decreases current",
+        "Explanation": "A step-up transformer has more turns in the secondary coil than the primary. It increases the voltage but (to conserve energy/power) must decrease the current proportionally.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Electricity and Magnetism"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Which of the following is the 'hardest' known natural substance?",
+        "Options": [
+          { "id": 1, "text": "Graphite" },
+          { "id": 2, "text": "Iron" },
+          { "id": 3, "text": "Diamond" },
+          { "id": 4, "text": "Platinum" }
+        ],
+        "CorrectAnswer": "Diamond",
+        "Explanation": "Diamond is an allotrope of carbon, and it is the hardest known natural material due to its strong covalent bonds in a tetrahedral lattice. Graphite is also an allotrope of carbon, but it is very soft.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Carbon and its Compounds"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "The disease 'Jaundice' primarily affects which organ?",
+        "Options": [
+          { "id": 1, "text": "Kidney" },
+          { "id": 2, "text": "Lungs" },
+          { "id": 3, "text": "Liver" },
+          { "id": 4, "text": "Stomach" }
+        ],
+        "CorrectAnswer": "Liver",
+        "Explanation": "Jaundice is a condition where the skin and eyes turn yellow. It is caused by the buildup of 'bilirubin' (a waste product) in the blood, which occurs when the liver is damaged and cannot process it properly.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Diseases"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "The 'Doppler Effect' explains the change in a wave's ______ relative to an observer moving relative to the wave source.",
+        "Options": [
+          { "id": 1, "text": "Frequency (and pitch/color)" },
+          { "id": 2, "text": "Speed" },
+          { "id": 3, "text": "Amplitude" },
+          { "id": 4, "text": "Mass" }
+        ],
+        "CorrectAnswer": "Frequency (and pitch/color)",
+        "Explanation": "The Doppler Effect is the change in frequency of a wave (like sound or light) as the source and observer move relative to each other. This is why a siren's pitch sounds higher as it approaches and lower as it moves away.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Wave Properties"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "The 'Ozone layer' in the upper atmosphere protects us from:",
+        "Options": [
+          { "id": 1, "text": "Infrared (IR) radiation" },
+          { "id": 2, "text": "Ultraviolet (UV) radiation" },
+          { "id": 3, "text": "Gamma rays" },
+          { "id": 4, "text": "Microwaves" }
+        ],
+        "CorrectAnswer": "Ultraviolet (UV) radiation",
+        "Explanation": "The ozone (O3) layer in the stratosphere absorbs most of the Sun's harmful ultraviolet (UV) radiation, particularly the UV-B and UV-C wavelengths, protecting life on Earth.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Environmental Chemistry"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Which part of the plant is primarily responsible for transpiration?",
+        "Options": [
+          { "id": 1, "text": "Root" },
+          { "id": 2, "text": "Stem" },
+          { "id": 3, "text": "Leaves (Stomata)" },
+          { "id": 4, "text": "Flower" }
+        ],
+        "CorrectAnswer": "Leaves (Stomata)",
+        "Explanation": "Transpiration is the process where plants absorb water through the roots and then give off water vapor through pores in their leaves. These pores are called 'stomata'.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Botany"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "A concave lens always forms an image that is:",
+        "Options": [
+          { "id": 1, "text": "Virtual, erect, and diminished" },
+          { "id": 2, "text": "Real, inverted, and magnified" },
+          { "id": 3, "text": "Virtual, erect, and magnified" },
+          { "id": 4, "text": "Real, erect, and diminished" }
+        ],
+        "CorrectAnswer": "Virtual, erect, and diminished",
+        "Explanation": "A concave (diverging) lens, regardless of the object's position, always produces an image that is virtual (cannot be projected), erect (upright), and diminished (smaller than the object).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Optics"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "What is the main constituent of 'Vinegar'?",
+        "Options": [
+          { "id": 1, "text": "Lactic Acid" },
+          { "id": 2, "text": "Citric Acid" },
+          { "id": 3, "text": "Formic Acid" },
+          { "id": 4, "text": "Acetic Acid" }
+        ],
+        "CorrectAnswer": "Acetic Acid",
+        "Explanation": "Vinegar is a dilute aqueous solution of acetic acid (CH3COOH).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Common Chemical Compounds"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "What is the 'universal solvent' due to its ability to dissolve more substances than any other liquid?",
+        "Options": [
+          { "id": 1, "text": "Alcohol" },
+          { "id": 2, "text": "Water" },
+          { "id": 3, "text": "Kerosene" },
+          { "id": 4, "text": "Benzene" }
+        ],
+        "CorrectAnswer": "Water",
+        "Explanation": "Water (H2O) is called the 'universal solvent' because its polarity allows it to dissolve many different types of molecules (polar and ionic substances).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Chemistry / Biology"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "The 'Richter scale' is used to measure:",
+        "Options": [
+          { "id": 1, "text": "The intensity of sound" },
+          { "id": 2, "text": "The magnitude of an earthquake" },
+          { "id": 3, "text": "The speed of wind" },
+          { "id": 4, "text": "The depth of the ocean" }
+        ],
+        "CorrectAnswer": "The magnitude of an earthquake",
+        "Explanation": "The Richter scale is a logarithmic scale used to measure the magnitude (energy released) of an earthquake. (Sound intensity is measured in decibels).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Units and Measurement"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Which of the following elements is a 'metalloid' (or semi-metal)?",
+        "Options": [
+          { "id": 1, "text": "Carbon (C)" },
+          { "id": 2, "text": "Silicon (Si)" },
+          { "id": 3, "text": "Sulfur (S)" },
+          { "id": 4, "text": "Lead (Pb)" }
+        ],
+        "CorrectAnswer": "Silicon (Si)",
+        "Explanation": "Metalloids (like Silicon, Germanium, Arsenic) have properties intermediate between metals and non-metals. They are semiconductors. Carbon and Sulfur are non-metals. Lead is a metal.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Periodic Table"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "In the human circulatory system, which vessels carry oxygenated blood (usually)?",
+        "Options": [
+          { "id": 1, "text": "Arteries" },
+          { "id": 2, "text": "Veins" },
+          { "id": 3, "text": "Capillaries" },
+          { "id": 4, "text": "Lymphatic vessels" }
+        ],
+        "CorrectAnswer": "Arteries",
+        "Explanation": "Arteries (A = Away) carry blood *away* from the heart, which is typically oxygenated (except for the Pulmonary Artery). Veins carry deoxygenated blood *towards* the heart (except for the Pulmonary Vein).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Human Circulatory System"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "The principle of 'Archimedes' states that the buoyant force on an object submerged in a fluid is equal to:",
+        "Options": [
+          { "id": 1, "text": "The weight of the object" },
+          { "id": 2, "text": "The weight of the fluid displaced by the object" },
+          { "id": 3, "text": "The mass of the object" },
+          { "id": 4, "text": "The volume of the object" }
+        ],
+        "CorrectAnswer": "The weight of the fluid displaced by the object",
+        "Explanation": "Archimedes' principle is the fundamental law of buoyancy. An object floats if the buoyant force (equal to the weight of the fluid it displaces) is greater than or equal to its own weight.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Fluid Mechanics"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "The 'greenhouse effect' is the warming of the Earth's surface primarily due to the trapping of:",
+        "Options": [
+          { "id": 1, "text": "Ultraviolet (UV) radiation" },
+          { "id": 2, "text": "Infrared (IR) radiation" },
+          { "id": 3, "text": "Visible light" },
+          { "id": 4, "text": "X-rays" }
+        ],
+        "CorrectAnswer": "Infrared (IR) radiation",
+        "Explanation": "The Earth's surface absorbs sunlight (visible light) and re-radiates it as heat (Infrared radiation). Greenhouse gases (like CO2, Methane) in the atmosphere trap this outgoing IR radiation, warming the planet.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Environmental Chemistry"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Which of the following is the 'exception' to the general rule that arteries carry oxygenated blood?",
+        "Options": [
+          { "id": 1, "text": "Aorta" },
+          { "id": 2, "text": "Pulmonary Artery" },
+          { "id": 3, "text": "Carotid Artery" },
+          { "id": 4, "text": "Pulmonary Vein" }
+        ],
+        "CorrectAnswer": "Pulmonary Artery",
+        "Explanation": "The Pulmonary Artery is the *only* artery that carries *deoxygenated* blood. It carries it from the right ventricle of the heart to the lungs. The Pulmonary Vein is the *only* vein that carries *oxygenated* blood (from the lungs to the left atrium).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Human Circulatory System"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "A 'Fathometer' is an instrument used to measure:",
+        "Options": [
+          { "id": 1, "text": "Earthquake magnitude" },
+          { "id": 2, "text": "Sound intensity" },
+          { "id": 3, "text": "Ocean depth" },
+          { "id": 4, "text": "Blood pressure" }
+        ],
+        "CorrectAnswer": "Ocean depth",
+        "Explanation": "A Fathometer (or echo sounder) measures the depth of water by transmitting sound pulses (SONAR) and measuring the time taken for the echo to return from the seabed. (1 Fathom = 6 feet).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Units and Measurement"
+      },
+      {
+        "category":"Science (Chemistry)",
+        "Question": "Which of the following is known as 'Marsh Gas'?",
+        "Options": [
+          { "id": 1, "text": "Methane (CH4)" },
+          { "id": 2, "text": "Ethane (C2H6)" },
+          { "id": 3, "text": "Hydrogen Sulfide (H2S)" },
+          { "id": 4, "text": "Carbon Dioxide (CO2)" }
+        ],
+        "CorrectAnswer": "Methane (CH4)",
+        "Explanation": "Methane (CH4) is called 'marsh gas' because it is produced by the anaerobic decomposition of organic matter in marshes and wetlands.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Organic Chemistry"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "What is the study of Fungi called?",
+        "Options": [
+          { "id": 1, "text": "Phycology" },
+          { "id": 2, "text": "Mycology" },
+          { "id": 3, "text": "Virology" },
+          { "id": 4, "text": "Bacteriology" }
+        ],
+        "CorrectAnswer": "Mycology",
+        "Explanation": "Mycology is the branch of biology concerned with the study of fungi. Phycology (or algology) is the study of algae.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Branches of Biology"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "The 'Rectifier' is an electrical device that converts:",
+        "Options": [
+          { "id": 1, "text": "Alternating Current (AC) to Direct Current (DC)" },
+          { "id": 2, "text": "Direct Current (DC) to Alternating Current (AC)" },
+          { "id": 3, "text": "High voltage to low voltage" },
+          { "id": 4, "text": "Mechanical energy to electrical energy" }
+        ],
+        "CorrectAnswer": "Alternating Current (AC) to Direct Current (DC)",
+        "Explanation": "A rectifier converts AC, which periodically reverses direction, into DC, which flows in only one direction. An 'inverter' does the opposite.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Electricity"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Which of the following is NOT an allotrope of Carbon?",
+        "Options": [
+          { "id": 1, "text": "Diamond" },
+          { "id": 2, "text": "Graphite" },
+          { "id": 3, "text": "Fullerene" },
+          { "id": 4, "text": "Quartz" }
+        ],
+        "CorrectAnswer": "Quartz",
+        "Explanation": "Diamond, Graphite, and Fullerenes (like C60) are all allotropes (different structural forms) of the element Carbon. Quartz is a crystalline form of Silicon Dioxide (SiO2).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Carbon and its Compounds"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "The 'Xylem' tissue in plants is responsible for:",
+        "Options": [
+          { "id": 1, "text": "Transport of food (sugars) from leaves" },
+          { "id": 2, "text": "Transport of water and minerals from roots" },
+          { "id": 3, "text": "Storage of food" },
+          { "id": 4, "text": "Photosynthesis" }
+        ],
+        "CorrectAnswer": "Transport of water and minerals from roots",
+        "Explanation": "Xylem is the vascular tissue that transports water and dissolved minerals from the roots upwards to the rest of the plant. 'Phloem' transports food (sugars).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Botany"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "What is the SI unit of luminous intensity?",
+        "Options": [
+          { "id": 1, "text": "Lumen" },
+          { "id": 2, "text": "Lux" },
+          { "id": 3, "text": "Candela" },
+          { "id": 4, "text": "Watt" }
+        ],
+        "CorrectAnswer": "Candela",
+        "Explanation": "Candela (cd) is one of the seven SI base units. It measures the luminous intensity (power emitted by a light source in a particular direction). Lumen measures luminous flux (total light). Lux measures illuminance (light on a surface).",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Units and Measurement"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Which of the following is used as a 'moderator' in a nuclear reactor?",
+        "Options": [
+          { "id": 1, "text": "Graphite" },
+          { "id": 2, "text": "Heavy Water (D2O)" },
+          { "id": 3, "text": "Both 1 and 2" },
+          { "id": 4, "text": "Cadmium" }
+        ],
+        "CorrectAnswer": "Both 1 and 2",
+        "Explanation": "A moderator is used to slow down the fast neutrons produced during fission, making them more likely to cause further fission. Both Graphite and Heavy Water are excellent moderators. Cadmium is used in control rods to *absorb* neutrons.",
+        "Difficulty": "Medium",
+        "Job": "UPSC, MPSC",
+        "correctOption": 3,
+        "topic": "Nuclear Chemistry"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "The 'vaccine' for smallpox was discovered by:",
+        "Options": [
+          { "id": 1, "text": "Louis Pasteur" },
+          { "id": 2, "text": "Alexander Fleming" },
+          { "id": 3, "text": "Robert Koch" },
+          { "id": 4, "text": "Edward Jenner" }
+        ],
+        "CorrectAnswer": "Edward Jenner",
+        "Explanation": "Edward Jenner is considered the 'father of immunology'. In 1796, he demonstrated that inoculation with cowpox (a mild disease) could protect against the deadly smallpox, creating the world's first vaccine.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Discoveries"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "Density of water is maximum at what temperature?",
+        "Options": [
+          { "id": 1, "text": "0 °C" },
+          { "id": 2, "text": "4 °C" },
+          { "id": 3, "text": "100 °C" },
+          { "id": 4, "text": "-4 °C" }
+        ],
+        "CorrectAnswer": "4 °C",
+        "Explanation": "Water exhibits an anomalous expansion. It contracts (becomes denser) as it cools, but only until 4°C. From 4°C down to 0°C (freezing point), it expands (becomes less dense). Therefore, water is at its maximum density at 4°C.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Properties of Matter"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Which of the following is the chemical formula for 'Plaster of Paris'?",
+        "Options": [
+          { "id": 1, "text": "CaSO4 . 2H2O" },
+          { "id": 2, "text": "CaSO4 . 1/2H2O" },
+          { "id": 3, "text": "CaCO3" },
+          { "id": 4, "text": "CaO" }
+        ],
+        "CorrectAnswer": "CaSO4 . 1/2H2O",
+        "Explanation": "Plaster of Paris (POP) is Calcium Sulphate Hemihydrate (CaSO4 . 1/2H2O). It is made by heating Gypsum (Calcium Sulphate Dihydrate, CaSO4 . 2H2O).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Common Chemical Compounds"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "The 'Universal Law of Gravitation' was formulated by:",
+        "Options": [
+          { "id": 1, "text": "Isaac Newton" },
+          { "id": 2, "text": "Albert Einstein" },
+          { "id": 3, "text": "Galileo Galilei" },
+          { "id": 4, "text": "Henry Cavendish" }
+        ],
+        "CorrectAnswer": "Isaac Newton",
+        "Explanation": "Sir Isaac Newton formulated the Law of Universal Gravitation, which states that every particle attracts every other particle with a force proportional to the product of their masses and inversely proportional to the square of the distance.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Gravitation"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "A 'Sphygmomanometer' is an instrument used to measure:",
+        "Options": [
+          { "id": 1, "text": "Blood pressure" },
+          { "id": 2, "text": "Heart rate" },
+          { "id": 3, "text": "Blood sugar" },
+          { "id": 4, "text": "Lung capacity" }
+        ],
+        "CorrectAnswer": "Blood pressure",
+        "Explanation": "A sphygmomanometer (or blood pressure monitor) is the device used to measure arterial blood pressure (systolic and diastolic).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Units and Measurement"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "The 'Isotopes' of an element have the same number of ______ but a different number of ______.",
+        "Options": [
+          { "id": 1, "text": "Protons; Neutrons" },
+          { "id": 2, "text": "Neutrons; Protons" },
+          { "id": 3, "text": "Protons; Electrons" },
+          { "id": 4, "text": "Electrons; Neutrons" }
+        ],
+        "CorrectAnswer": "Protons; Neutrons",
+        "Explanation": "Isotopes are variants of a particular element. They have the same number of protons (which defines the element, i.e., same atomic number) but differ in the number of neutrons, resulting in different mass numbers.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Atomic Structure"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "Which of the following is NOT a fat-soluble vitamin?",
+        "Options": [
+          { "id": 1, "text": "Vitamin A" },
+          { "id": 2, "text": "Vitamin C" },
+          { "id": 3, "text": "Vitamin D" },
+          { "id": 4, "text": "Vitamin E" }
+        ],
+        "CorrectAnswer": "Vitamin C",
+        "Explanation": "The fat-soluble vitamins are A, D, E, and K ('KEDA'). The water-soluble vitamins are Vitamin C and the B-complex vitamins. Water-soluble vitamins are not stored in the body and must be regularly consumed.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Vitamins and Nutrition"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "The 'focal length' of a plane mirror is:",
+        "Options": [
+          { "id": 1, "text": "Zero" },
+          { "id": 2, "text": "Infinity" },
+          { "id": 3, "text": "Equal to its radius of curvature" },
+          { "id": 4, "text": "Negative" }
+        ],
+        "CorrectAnswer": "Infinity",
+        "Explanation": "A plane mirror is considered a spherical mirror with an infinite radius of curvature. Since focal length is half the radius of curvature (f = R/2), the focal length of a plane mirror is also infinity.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Optics"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "What is the 'pH' of a solution a measure of?",
+        "Options": [
+          { "id": 1, "text": "Its temperature" },
+          { "id": 2, "text": "Its concentration of Hydrogen ions (H+)" },
+          { "id": 3, "text": "Its density" },
+          { "id": 4, "text": "Its electrical conductivity" }
+        ],
+        "CorrectAnswer": "Its concentration of Hydrogen ions (H+)",
+        "Explanation": "pH stands for 'potential of Hydrogen'. It is a logarithmic scale used to specify the acidity or basicity of an aqueous solution, based on the concentration of hydrogen ions (H+).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Acids, Bases, and Salts"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "The theory of 'Natural Selection' as the mechanism for evolution was proposed by:",
+        "Options": [
+          { "id": 1, "text": "Gregor Mendel" },
+          { "id": 2, "text": "Charles Darwin" },
+          { "id": 3, "text": "Jean-Baptiste Lamarck" },
+          { "id": 4, "text": "Louis Pasteur" }
+        ],
+        "CorrectAnswer": "Charles Darwin",
+        "Explanation": "Charles Darwin, in his 1859 book 'On the Origin of Species', proposed that evolution occurs through 'natural selection', where organisms better adapted to their environment tend to survive and produce more offspring.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Evolution"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "What is the SI unit of electric charge?",
+        "Options": [
+          { "id": 1, "text": "Ampere" },
+          { "id": 2, "text": "Volt" },
+          { "id": 3, "text": "Ohm" },
+          { "id": 4, "text": "Coulomb" }
+        ],
+        "CorrectAnswer": "Coulomb",
+        "Explanation": "The SI unit of electric charge is the Coulomb (C). One Coulomb is the charge transported by a constant current of one Ampere in one second.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Units and Measurement"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "What is the chemical symbol for Gold?",
+        "Options": [
+          { "id": 1, "text": "Go" },
+          { "id": 2, "text": "Ag" },
+          { "id": 3, "text": "Au" },
+          { "id": 4, "text": "Gd" }
+        ],
+        "CorrectAnswer": "Au",
+        "Explanation": "The chemical symbol for Gold is 'Au', which comes from its Latin name, 'Aurum'. 'Ag' is the symbol for Silver (Argentum).",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Periodic Table"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "The 'Phloem' tissue in plants is responsible for:",
+        "Options": [
+          { "id": 1, "text": "Transport of water and minerals" },
+          { "id": 2, "text": "Transport of food (sugars)" },
+          { "id": 3, "text": "Providing mechanical support" },
+          { "id": 4, "text": "Photosynthesis" }
+        ],
+        "CorrectAnswer": "Transport of food (sugars)",
+        "Explanation": "Phloem is the vascular tissue responsible for transporting the soluble organic compounds (sugars, produced during photosynthesis) from the leaves to other parts of the plant. 'Xylem' transports water.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Botany"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "The 'inertia' of an object is a measure of its:",
+        "Options": [
+          { "id": 1, "text": "Weight" },
+          { "id": 2, "text": "Mass" },
+          { "id": 3, "text": "Speed" },
+          { "id": 4, "text": "Volume" }
+        ],
+        "CorrectAnswer": "Mass",
+        "Explanation": "Inertia is the resistance of an object to any change in its state of motion. The quantitative measure of an object's inertia is its mass. The more mass an object has, the more it resists acceleration (the more inertia it has).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 2,
+        "topic": "Laws of Motion"
+      },
+      {
+        "category": "Science (Chemistry)",
+        "Question": "Which of the following is known as 'Blue Vitriol'?",
+        "Options": [
+          { "id": 1, "text": "Copper Sulphate (CuSO4)" },
+          { "id": 2, "text": "Ferrous Sulphate (FeSO4)" },
+          { "id": 3, "text": "Zinc Sulphate (ZnSO4)" },
+          { "id": 4, "text": "Magnesium Sulphate (MgSO4)" }
+        ],
+        "CorrectAnswer": "Copper Sulphate (CuSO4)",
+        "Explanation": "Hydrated Copper Sulphate (CuSO4 . 5H2O) is a bright blue crystal, commonly known as 'Blue Vitriol'. (Ferrous Sulphate = Green Vitriol; Zinc Sulphate = White Vitriol).",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Common Chemical Compounds"
+      },
+      {
+        "category": "Science (Biology)",
+        "Question": "The 'double helix' model of DNA structure was proposed by:",
+        "Options": [
+          { "id": 1, "text": "Gregor Mendel" },
+          { "id": 2, "text": "Charles Darwin" },
+          { "id": 3, "text": "Watson and Crick" },
+          { "id": 4, "text": "Har Gobind Khorana" }
+        ],
+        "CorrectAnswer": "Watson and Crick",
+        "Explanation": "In 1953, James Watson and Francis Crick, based on the X-ray diffraction images from Rosalind Franklin and Maurice Wilkins, proposed the 'double helix' structure for the DNA molecule.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Discoveries"
+      },
+      {
+        "category": "Science (Physics)",
+        "Question": "A 'Barometer' is an instrument used to measure:",
+        "Options": [
+          { "id": 1, "text": "Atmospheric pressure" },
+          { "id": 2, "text": "Wind speed" },
+          { "id": 3, "text": "Humidity" },
+          { "id": 4, "text": "Temperature" }
+        ],
+        "CorrectAnswer": "Atmospheric pressure",
+        "Explanation": "A Barometer is a scientific instrument used to measure atmospheric pressure (air pressure). Changes in pressure can be used to forecast short-term weather changes.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Units and Measurement"
+      }
+  ]

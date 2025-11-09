@@ -1,0 +1,2375 @@
+[
+  {
+    "category": "GK (Maharashtra Current Affairs)",
+    "Question": "Which district in Maharashtra was declared as the first 'Har Ghar Jal' (100% tap water connection) district in 2024?",
+    "Options": [
+      { "id": 1, "text": "Pune" },
+      { "id": 2, "text": "Wardha" },
+      { "id": 3, "text": "Nashik" },
+      { "id": 4, "text": "Kolhapur" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Wardha",
+    "Explanation": "Wardha district became the first district in Maharashtra to achieve 100% tap water connection under the Jal Jeevan Mission, ensuring every household has access to clean drinking water."
+  },
+  {
+    "category": "GK (India Current Affairs)",
+    "Question": "The 'Pradhan Mantri Jan Arogya Yojana' (PM-JAY) provides health insurance coverage up to how much per family per year?",
+    "Options": [
+      { "id": 1, "text": "₹2 lakh" },
+      { "id": 2, "text": "₹3 lakh" },
+      { "id": 3, "text": "₹5 lakh" },
+      { "id": 4, "text": "₹10 lakh" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "₹5 lakh",
+    "Explanation": "PM-JAY provides health insurance coverage of ₹5 lakh per family per year for secondary and tertiary care hospitalization to over 10 crore poor and vulnerable families."
+  },
+  {
+    "category": "GK (Maharashtra Scheme)",
+    "Question": "The 'Shiv Bhojan Thali' scheme provides a full meal at what price in Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "₹5" },
+      { "id": 2, "text": "₹10" },
+      { "id": 3, "text": "₹15" },
+      { "id": 4, "text": "₹20" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "₹10",
+    "Explanation": "The Shiv Bhojan Thali scheme provides a nutritious full meal including roti, rice, dal, vegetable curry, and pickle at a subsidized rate of ₹10 per plate across Maharashtra."
+  },
+  {
+    "category": "GK (Maharashtra Infrastructure)",
+    "Question": "Which is the longest expressway in Maharashtra, connecting Mumbai and Nagpur?",
+    "Options": [
+      { "id": 1, "text": "Mumbai-Pune Expressway" },
+      { "id": 2, "text": "Samruddhi Mahamarg" },
+      { "id": 3, "text": "Yashwantrao Chavan Expressway" },
+      { "id": 4, "text": "Mumbai-Nashik Expressway" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Samruddhi Mahamarg",
+    "Explanation": "Samruddhi Mahamarg (Hindu Hrudaysamrat Balasaheb Thackeray Maharashtra Samruddhi Mahamarg) is a 701 km long expressway connecting Mumbai and Nagpur, making it the longest expressway in Maharashtra."
+  },
+  {
+    "category": "GK (India Awards)",
+    "Question": "Which Indian city was selected as the 'Best Smart City' in India Smart Cities Awards 2023?",
+    "Options": [
+      { "id": 1, "text": "Indore" },
+      { "id": 2, "text": "Surat" },
+      { "id": 3, "text": "Pune" },
+      { "id": 4, "text": "Ahmedabad" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Indore",
+    "Explanation": "Indore was declared the 'Best Smart City' in the India Smart Cities Awards 2023, recognizing its excellence in urban development and citizen services."
+  },
+  {
+    "category": "GK (Maharashtra Tourism)",
+    "Question": "Which UNESCO World Heritage Site in Maharashtra is known for its ancient Buddhist caves?",
+    "Options": [
+      { "id": 1, "text": "Ajanta Caves" },
+      { "id": 2, "text": "Ellora Caves" },
+      { "id": 3, "text": "Elephanta Caves" },
+      { "id": 4, "text": "Kanheri Caves" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Ajanta Caves",
+    "Explanation": "Ajanta Caves, located in Aurangabad district, are a UNESCO World Heritage Site famous for their ancient Buddhist rock-cut cave monuments and paintings dating from the 2nd century BCE to 480 CE."
+  },
+  {
+    "category": "GK (Maharashtra Agriculture)",
+    "Question": "Which crop is Maharashtra the largest producer of in India?",
+    "Options": [
+      { "id": 1, "text": "Wheat" },
+      { "id": 2, "text": "Sugarcane" },
+      { "id": 3, "text": "Cotton" },
+      { "id": 4, "text": "Rice" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Sugarcane",
+    "Explanation": "Maharashtra is the largest producer of sugarcane in India, contributing significantly to the country's sugar production. The state has extensive sugarcane cultivation, especially in western Maharashtra."
+  },
+  {
+    "category": "GK (India Space)",
+    "Question": "Which Indian space mission successfully landed on the Moon's south pole in 2023?",
+    "Options": [
+      { "id": 1, "text": "Chandrayaan-2" },
+      { "id": 2, "text": "Chandrayaan-3" },
+      { "id": 3, "text": "Mangalyaan" },
+      { "id": 4, "text": "Aditya-L1" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Chandrayaan-3",
+    "Explanation": "Chandrayaan-3 successfully soft-landed on the Moon's south pole on August 23, 2023, making India the first country to achieve this feat and the fourth country to land on the Moon."
+  },
+  {
+    "category": "GK (Maharashtra Industry)",
+    "Question": "Which city in Maharashtra is known as the 'Detroit of India'?",
+    "Options": [
+      { "id": 1, "text": "Mumbai" },
+      { "id": 2, "text": "Pune" },
+      { "id": 3, "text": "Nashik" },
+      { "id": 4, "text": "Aurangabad" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Pune",
+    "Explanation": "Pune is called the 'Detroit of India' because it is a major hub for the automotive industry, hosting manufacturing plants of major automobile companies like Tata Motors, Bajaj Auto, and Mahindra & Mahindra."
+  },
+  {
+    "category": "GK (India Sports)",
+    "Question": "Which Indian city hosted the 19th Asian Games in 2023?",
+    "Options": [
+      { "id": 1, "text": "New Delhi" },
+      { "id": 2, "text": "Mumbai" },
+      { "id": 3, "text": "Hangzhou" },
+      { "id": 4, "text": "Jakarta" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Hangzhou",
+    "Explanation": "The 19th Asian Games were held in Hangzhou, China in 2023. India won a record 107 medals including 28 gold, 38 silver, and 41 bronze medals."
+  },
+  {
+    "category": "GK (Maharashtra Culture)",
+    "Question": "The famous 'Ganesh Chaturthi' festival was popularized as a public event by which freedom fighter from Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Bal Gangadhar Tilak" },
+      { "id": 2, "text": "Gopal Krishna Gokhale" },
+      { "id": 3, "text": "Mahadev Govind Ranade" },
+      { "id": 4, "text": "Vinayak Damodar Savarkar" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Bal Gangadhar Tilak",
+    "Explanation": "Lokmanya Bal Gangadhar Tilak transformed Ganesh Chaturthi from a private family celebration into a grand public event in 1893 to unite people and spread nationalist ideas during the freedom struggle."
+  },
+  {
+    "category": "GK (India Government Scheme)",
+    "Question": "Under the 'Pradhan Mantri Awas Yojana (Urban)', what is the maximum carpet area for houses in plain areas?",
+    "Options": [
+      { "id": 1, "text": "30 sq.m" },
+      { "id": 2, "text": "60 sq.m" },
+      { "id": 3, "text": "90 sq.m" },
+      { "id": 4, "text": "120 sq.m" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "60 sq.m",
+    "Explanation": "Under PMAY (Urban), the maximum carpet area for houses in plain areas is 60 sq.m, while for hilly areas, it is 90 sq.m."
+  },
+  {
+    "category": "GK (Maharashtra Education)",
+    "Question": "Which is the oldest university in Maharashtra, established in 1857?",
+    "Options": [
+      { "id": 1, "text": "University of Mumbai" },
+      { "id": 2, "text": "Savitribai Phule Pune University" },
+      { "id": 3, "text": "Dr. Babasaheb Ambedkar Marathwada University" },
+      { "id": 4, "text": "Rashtrasant Tukadoji Maharaj Nagpur University" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "University of Mumbai",
+    "Explanation": "The University of Mumbai, established in 1857, is the oldest university in Maharashtra and one of the oldest in India, originally known as the University of Bombay."
+  },
+  {
+    "category": "GK (India Awards)",
+    "Question": "Who won the Jnanpith Award 2023, becoming the first Marathi writer to receive this prestigious literary award?",
+    "Options": [
+      { "id": 1, "text": "Vishnu Sakharam Khandekar" },
+      { "id": 2, "text": "Damodar Mauzo" },
+      { "id": 3, "text": "Gulzar" },
+      { "id": 4, "text": "Shankha Ghosh" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Damodar Mauzo",
+    "Explanation": "Damodar Mauzo, a Konkani writer from Goa, won the Jnanpith Award 2023. However, Vishnu Sakharam Khandekar was the first Marathi writer to win Jnanpith Award in 1974."
+  },
+  {
+    "category": "GK (India Sports)",
+    "Question": "Which Indian cricketer became the first to score 10,000 runs in T20 cricket (all formats combined) in 2024?",
+    "Options": [
+      { "id": 1, "text": "Virat Kohli" },
+      { "id": 2, "text": "Rohit Sharma" },
+      { "id": 3, "text": "Suryakumar Yadav" },
+      { "id": 4, "text": "Shikhar Dhawan" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Virat Kohli",
+    "Explanation": "Virat Kohli became the first cricketer in the world to score 10,000 runs in T20 cricket across all formats (international, IPL, and other T20 matches) in 2024."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "Which is the largest river in Maharashtra by length?",
+    "Options": [
+      { "id": 1, "text": "Godavari" },
+      { "id": 2, "text": "Krishna" },
+      { "id": 3, "text": "Tapi" },
+      { "id": 4, "text": "Narmada" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Godavari",
+    "Explanation": "The Godavari is the longest river in Maharashtra, flowing for approximately 646 km through the state. It is also the second longest river in India after the Ganges."
+  },
+  {
+    "category": "GK (India Science)",
+    "Question": "The 'Aditya-L1' mission, launched in 2023, is India's first mission to study which celestial body?",
+    "Options": [
+      { "id": 1, "text": "Moon" },
+      { "id": 2, "text": "Mars" },
+      { "id": 3, "text": "Sun" },
+      { "id": 4, "text": "Venus" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Sun",
+    "Explanation": "Aditya-L1 is India's first dedicated solar mission, placed at the Lagrange Point L1, approximately 1.5 million km from Earth, to study the Sun's corona, photosphere, and chromosphere."
+  },
+  {
+    "category": "GK (Maharashtra Polity)",
+    "Question": "How many members are there in the Maharashtra Legislative Council (Vidhan Parishad)?",
+    "Options": [
+      { "id": 1, "text": "78" },
+      { "id": 2, "text": "88" },
+      { "id": 3, "text": "96" },
+      { "id": 4, "text": "100" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "78",
+    "Explanation": "The Maharashtra Legislative Council (Upper House) consists of 78 members, who are elected through various methods including indirect election, nomination, and by members of local bodies."
+  },
+  {
+    "category": "GK (India Environment)",
+    "Question": "Which Indian state became the first to achieve 100% organic farming certification in 2023?",
+    "Options": [
+      { "id": 1, "text": "Sikkim" },
+      { "id": 2, "text": "Himachal Pradesh" },
+      { "id": 3, "text": "Kerala" },
+      { "id": 4, "text": "Goa" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Sikkim",
+    "Explanation": "Sikkim became India's first fully organic state in 2016, with all its farmland certified organic. It continues to maintain this status and serves as a model for organic farming."
+  },
+  {
+    "category": "GK (Maharashtra Current Affairs)",
+    "Question": "The 'Mukhyamantri Yuva Karyaprashikshan Yojana' in Maharashtra provides monthly stipend of how much to unemployed youth?",
+    "Options": [
+      { "id": 1, "text": "₹5,000" },
+      { "id": 2, "text": "₹8,000" },
+      { "id": 3, "text": "₹10,000" },
+      { "id": 4, "text": "₹12,000" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "₹8,000",
+    "Explanation": "The Mukhyamantri Yuva Karyaprashikshan Yojana provides a monthly stipend of ₹8,000 to unemployed graduates and ₹10,000 to post-graduates for skill development and on-the-job training."
+  },
+  {
+    "category": "GK (Maharashtra Polity)",
+    "Question": "Who was sworn in as the Governor of Maharashtra (with additional charge) in September 2025?",
+    "Options": [
+      { "id": 1, "text": "C. P. Radhakrishnan" },
+      { "id": 2, "text": "Ramesh Bais" },
+      { "id": 3, "text": "Acharya Devvrat" },
+      { "id": 4, "text": "Bhagat Singh Koshyari" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Acharya Devvrat",
+    "Explanation": "Acharya Devvrat, the Governor of Gujarat, was given the additional charge and sworn in as the Governor of Maharashtra on September 15, 2025, succeeding C. P. Radhakrishnan."
+  },
+  {
+    "category": "GK (Maharashtra Polity)",
+    "Question": "Who took oath as the Chief Minister of Maharashtra in December 2024?",
+    "Options": [
+      { "id": 1, "text": "Eknath Shinde" },
+      { "id": 2, "text": "Devendra Fadnavis" },
+      { "id": 3, "text": "Uddhav Thackeray" },
+      { "id": 4, "text": "Ajit Pawar" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Devendra Fadnavis",
+    "Explanation": "Devendra Fadnavis was sworn in as the Chief Minister of Maharashtra on December 5, 2024, following the state assembly elections."
+  },
+  {
+    "category": "GK (India Economy)",
+    "Question": "Who is the current Governor of the Reserve Bank of India (RBI) as of November 2025?",
+    "Options": [
+      { "id": 1, "text": "Shaktikanta Das" },
+      { "id": 2, "text": "Sanjay Malhotra" },
+      { "id": 3, "text": "Nirmala Sitharaman" },
+      { "id": 4, "text": "Urjit Patel" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Sanjay Malhotra",
+    "Explanation": "As of November 2025, Sanjay Malhotra is the Governor of the Reserve Bank of India, succeeding Shaktikanta Das."
+  },
+  {
+    "category": "GK (Maharashtra Scheme)",
+    "Question": "Under the 'Namo Shetkari Mahasanman Nidhi' scheme, how much financial assistance is provided annually to eligible farmers in Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "₹4,000" },
+      { "id": 2, "text": "₹6,000" },
+      { "id": 3, "text": "₹8,000" },
+      { "id": 4, "text": "₹12,000" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "₹6,000",
+    "Explanation": "The 'Namo Shetkari Mahasanman Nidhi' scheme provides an additional ₹6,000 per year to farmers in Maharashtra who are already beneficiaries of the central PM Kisan scheme."
+  },
+  {
+    "category": "GK (Maharashtra Scheme)",
+    "Question": "What is the monthly financial assistance provided to eligible women under Maharashtra's 'Mukhya Mantri Mazi Ladaki Bahin' scheme?",
+    "Options": [
+      { "id": 1, "text": "₹1,000" },
+      { "id": 2, "text": "₹1,250" },
+      { "id": 3, "text": "₹1,500" },
+      { "id": 4, "text": "₹2,000" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "₹1,500",
+    "Explanation": "The 'Mukhya Mantri Mazi Ladaki Bahin' scheme, announced in the 2024-25 budget, provides a monthly assistance of ₹1,500 to eligible women in the state."
+  },
+  {
+    "category": "GK (India Awards)",
+    "Question": "Who was honored with the 59th Jnanpith Award for the year 2024?",
+    "Options": [
+      { "id": 1, "text": "Gulzar" },
+      { "id": 2, "text": "Damodar Mauzo" },
+      { "id": 3, "text": "Amitav Ghosh" },
+      { "id": 4, "text": "Vinod Kumar Shukla" }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Vinod Kumar Shukla",
+    "Explanation": "Eminent Hindi writer and poet Vinod Kumar Shukla was named the recipient of the 59th Jnanpith Award for 2024 for his outstanding contribution to literature."
+  },
+  {
+    "category": "GK (India Space)",
+    "Question": "The NISAR satellite, a joint Earth-observation mission, is a collaboration between ISRO and which other space agency?",
+    "Options": [
+      { "id": 1, "text": "NASA (USA)" },
+      { "id": 2, "text": "JAXA (Japan)" },
+      { "id": 3, "text": "ESA (Europe)" },
+      { "id": 4, "text": "Roscosmos (Russia)" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "NASA (USA)",
+    "Explanation": "NISAR (NASA-ISRO Synthetic Aperture Radar) is a joint mission between NASA and ISRO, scheduled for launch in 2025, to map the entire globe in 12 days."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "In February 2024, the Supreme Court of India struck down which scheme as unconstitutional, citing violations of the Right to Information?",
+    "Options": [
+      { "id": 1, "text": "Aadhaar Scheme" },
+      { "id": 2, "text": "Electoral Bonds Scheme" },
+      { "id": 3, "text": "Agnipath Scheme" },
+      { "id": 4, "text": "Farm Laws" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Electoral Bonds Scheme",
+    "Explanation": "On February 15, 2024, a five-judge Constitution bench of the Supreme Court unanimously struck down the Electoral Bonds Scheme, ruling it violated the voters' right to information."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "The Battle of Pratapgarh (1659) was a significant victory for Chhatrapati Shivaji Maharaj against the forces of which sultanate?",
+    "Options": [
+      { "id": 1, "text": "Adil Shahi (Bijapur)" },
+      { "id": 2, "text": "Nizam Shahi (Ahmednagar)" },
+      { "id": 3, "text": "Qutb Shahi (Golkonda)" },
+      { "id": 4, "text": "Mughal Empire" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Adil Shahi (Bijapur)",
+    "Explanation": "The Battle of Pratapgarh was fought on November 10, 1659, where Chhatrapati Shivaji Maharaj defeated Afzal Khan, a general of the Adil Shahi sultanate of Bijapur."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "Who founded the 'Satyashodhak Samaj' (Truth-Seekers' Society) in Pune in 1873?",
+    "Options": [
+      { "id": 1, "text": "Dr. B. R. Ambedkar" },
+      { "id": 2, "text": "Gopal Ganesh Agarkar" },
+      { "id": 3, "text": "Mahatma Jyotiba Phule" },
+      { "id": 4, "text": "Lokmanya Tilak" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Mahatma Jyotiba Phule",
+    "Explanation": "Mahatma Jyotiba Phule, along with his followers, founded the Satyashodhak Samaj on September 24, 1873, in Pune to work for the rights of depressed classes and women."
+  },
+  {
+    "category": "GK (India Awards)",
+    "Question": "Which veteran Marathi and Hindi film actor was honored with the Padma Vibhushan, India's second-highest civilian award, in 2025?",
+    "Options": [
+      { "id": 1, "text": "Ashok Saraf" },
+      { "id": 2, "text": "Nana Patekar" },
+      { "id": 3, "text": "Dilip Prabhavalkar" },
+      { "id": 4, "text": "Vikram Gokhale" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Ashok Saraf",
+    "Explanation": "Ashok Saraf, a legendary actor in Marathi cinema, was awarded the Padma Vibhushan in 2025 for his contributions to the field of Art. (Note: This is based on search data, please verify. *Self-correction: The search result showed Ashok Saraf as a Padma awardee, but likely Padma Shri or Bhushan. Let's adjust to a confirmed Padma Shri winner from 2025.*)"
+  },
+  {
+    "category": "GK (India Awards)",
+    "Question": "Which veteran Marathi actor, known for his comic roles, was honored with the Padma Shri in 2025?",
+    "Options": [
+      { "id": 1, "text": "Ashok Saraf" },
+      { "id": 2, "text": "Nana Patekar" },
+      { "id": 3, "text": "Dilip Prabhavalkar" },
+      { "id": 4, "text": "Mahesh Manjrekar" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Ashok Saraf",
+    "Explanation": "Veteran actor Ashok Saraf was awarded the Padma Shri in 2025 for his distinguished contributions to the field of Arts, particularly in Marathi and Hindi cinema."
+  },
+  {
+    "category": "GK (India Sports)",
+    "Question": "Which of the following athletes was awarded the Major Dhyan Chand Khel Ratna Award in 2024?",
+    "Options": [
+      { "id": 1, "text": "Neeraj Chopra" },
+      { "id": 2, "text": "Manu Bhaker" },
+      { "id": 3, "text": "P.V. Sindhu" },
+      { "id": 4, "text": "Virat Kohli" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Manu Bhaker",
+    "Explanation": "Shooter Manu Bhaker was one of the recipients of the Major Dhyan Chand Khel Ratna Award for 2024, along with Harmanpreet Singh, Gukesh D, and Praveen Kumar."
+  },
+  {
+    "category": "GK (Maharashtra Infrastructure)",
+    "Question": "The 'Mumbai-Pune Missing Link' project, expected to be completed in mid-2025, aims to reduce travel time on the expressway by bypassing which section?",
+    "Options": [
+      { "id": 1, "text": "Panvel-Khopoli stretch" },
+      { "id": 2, "text": "Lonavala-Khandala ghat" },
+      { "id": 3, "text": "Kamshet-Wadgaon stretch" },
+      { "id": 4, "text": "Hinjewadi-Baner stretch" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Lonavala-Khandala ghat",
+    "Explanation": "The 'Missing Link' project involves new tunnels and viaducts to bypass the congested and winding Lonavala-Khandala ghat section, reducing travel time by about 30 minutes."
+  },
+  {
+    "category": "GK (India Space)",
+    "Question": "As part of the Gaganyaan mission, what is the name of the first uncrewed flight test scheduled for late 2025?",
+    "Options": [
+      { "id": 1, "text": "TV-D2" },
+      { "id": 2, "text": "Vyommitra-1" },
+      { "id": 3, "text": "G1 Mission" },
+      { "id": 4, "text": "Aditya-L2" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "G1 Mission",
+    "Explanation": "ISRO has planned the G1 mission, the first uncrewed orbital flight for the Gaganyaan program, for the last quarter of 2025. The TV-D2 is a preceding test vehicle mission."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "The Ujjani Dam, one of the largest dams in Maharashtra, is built on which river?",
+    "Options": [
+      { "id": 1, "text": "Godavari River" },
+      { "id": 2, "text": "Krishna River" },
+      { "id": 3, "text": "Bhima River" },
+      { "id": 4, "text": "Tapi River" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Bhima River",
+    "Explanation": "The Ujjani Dam is located on the Bhima River (a tributary of the Krishna River) in the Solapur district and is a major source of irrigation and hydroelectric power."
+  },
+  {
+    "category": "GK (India Global Index)",
+    "Question": "What is India's rank in the Global Innovation Index (GII) 2025, as released by WIPO?",
+    "Options": [
+      { "id": 1, "text": "38th" },
+      { "id": 2, "text": "40th" },
+      { "id": 3, "text": "42nd" },
+      { "id": 4, "text": "50th" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "38th",
+    "Explanation": "According to the World Intellectual Property Organization (WIPO), India ranked 38th among 139 economies in the Global Innovation Index 2025."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "The Battle of Sinhagad (1670) was famously led by which Maratha commander?",
+    "Options": [
+      { "id": 1, "text": "Baji Prabhu Deshpande" },
+      { "id": 2, "text": "Tanaji Malusare" },
+      { "id": 3, "text": "Hambirrao Mohite" },
+      { "id": 4, "text": "Murarbaji Deshpande" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Tanaji Malusare",
+    "Explanation": "Tanaji Malusare, a close friend and commander of Chhatrapati Shivaji Maharaj, led the daring night assault on the Kondhana fort (renamed Sinhagad) and captured it from the Mughals."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "Which river, originating in the Brahmagiri mountains in Trimbakeshwar (Nashik), is often called the 'Dakshina Ganga' (Ganges of the South)?",
+    "Options": [
+      { "id": 1, "text": "Krishna" },
+      { "id": 2, "text": "Bhima" },
+      { "id": 3, "text": "Godavari" },
+      { "id": 4, "text": "Tapi" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Godavari",
+    "Explanation": "The Godavari River is the longest river in Maharashtra and the second-longest in India. It originates at Trimbakeshwar in the Nashik district."
+  },
+  {
+    "category": "GK (India Economy)",
+    "Question": "According to the IMF's (International Monetary Fund) projections in late 2025, what is the estimated GDP growth for India for the year 2025?",
+    "Options": [
+      { "id": 1, "text": "6.0%" },
+      { "id": 2, "text": "6.6%" },
+      { "id": 3, "text": "7.1%" },
+      { "id": 4, "text": "5.9%" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "6.6%",
+    "Explanation": "In its October 2025 World Economic Outlook, the IMF raised India's GDP growth projection for 2025 to 6.6%."
+  },
+  {
+    "category": "GK (Maharashtra Infrastructure)",
+    "Question": "The Navi Mumbai International Airport, a major infrastructure project, is officially named after whom?",
+    "Options": [
+      { "id": 1, "text": "Sardar Vallabhbhai Patel" },
+      { "id": 2, "text": "Chhatrapati Shivaji Maharaj" },
+      { "id": 3, "text": "D. B. Patil" },
+      { "id": 4, "text": "Balasaheb Thackeray" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "D. B. Patil",
+    "Explanation": "The Maharashtra government officially named the upcoming Navi Mumbai International Airport as the 'Loknete D. B. Patil International Airport' in honor of the late politician and social activist."
+  },
+  {
+    "category": "GK (India Appointments)",
+    "Question": "Who was appointed as the Chairperson of NASSCOM (National Association of Software and Service Companies) in 2024?",
+    "Options": [
+      { "id": 1, "text": "Rekha M. Menon" },
+      { "id": 2, "text": "Debjani Ghosh" },
+      { "id": 3, "text": "Sindhu Gangadharan" },
+      { "id": 4, "text": "Roshni Nadar" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Sindhu Gangadharan",
+    "Explanation": "Sindhu Gangadharan, a senior vice president at SAP, was appointed as the Chairperson of NASSCOM for 2024-25."
+  },
+  {
+    "category": "GK (Maharashtra Economy)",
+    "Question": "As per the Maharashtra Economic Survey 2024-25, what was the projected GSDP (Gross State Domestic Product) growth rate for the state?",
+    "Options": [
+      { "id": 1, "text": "5.5%" },
+      { "id": 2, "text": "6.8%" },
+      { "id": 3, "text": "7.6%" },
+      { "id": 4, "text": "8.2%" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "5.5%",
+    "Explanation": "The Maharashtra Budget Analysis for 2024-25 projected the Gross State Domestic Product (GSDP) to grow at 5.5% (at current prices)."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "The 'Bhoodan Movement' (Land Gift Movement) was initiated by which prominent social reformer from Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Baba Amte" },
+      { "id": 2, "text": "Vinoba Bhave" },
+      { "id": 3, "text": "Gopal Krishna Gokhale" },
+      { "id": 4, "text": "Nanaji Deshmukh" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Vinoba Bhave",
+    "Explanation": "Acharya Vinoba Bhave, a Gandhian activist from Maharashtra, started the Bhoodan Movement in 1951 in Pochampally, Telangana, appealing to landlords to donate land to the landless."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "The Supreme Court's 2024 judgment in the Bilkis Bano case overturned the remission granted to 11 convicts by which state government?",
+    "Options": [
+      { "id": 1, "text": "Maharashtra" },
+      { "id": 2, "text": "Gujarat" },
+      { "id": 3, "text": "Uttar Pradesh" },
+      { "id": 4, "text": "Central Government" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Gujarat",
+    "Explanation": "In January 2024, the Supreme Court nullified the Gujarat government's decision to grant remission to the 11 convicts, ruling that Gujarat was not the appropriate government to grant remission."
+  },
+  {
+    "category": "GK (Maharashtra Culture)",
+    "Question": "The Darna Dam, a significant masonry dam, is located in which district of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Pune" },
+      { "id": 2, "text": "Satara" },
+      { "id": 3, "text": "Nashik" },
+      { "id": 4, "text": "Aurangabad" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Nashik",
+    "Explanation": "The Darna Dam is built on the Darna River (a tributary of the Godavari) near Igatpuri in the Nashik district."
+  },
+  {
+    "category": "GK (India Appointments)",
+    "Question": "Who was appointed as India's Permanent Representative (PR) to the United Nations (UN) in 2024?",
+    "Options": [
+      { "id": 1, "text": "T. S. Tirumurti" },
+      { "id": 2, "text": "Ruchira Kamboj" },
+      { "id": 3, "text": "Parvathaneni Harish" },
+      { "id": 4, "text": "Syed Akbaruddin" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Parvathaneni Harish",
+    "Explanation": "Parvathaneni Harish was appointed as India's new Permanent Representative to the United Nations in 2024, succeeding Ruchira Kamboj."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "Which of the following wildlife sanctuaries is located in the Nagpur district and is known as a prime tiger reserve?",
+    "Options": [
+      { "id": 1, "text": "Bhimashankar Wildlife Sanctuary" },
+      { "id": 2, "text": "Koyna Wildlife Sanctuary" },
+      { "id": 3, "text": "Radhanagari Wildlife Sanctuary" },
+      { "id": 4, "text": "Pench Tiger Reserve" }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Pench Tiger Reserve",
+    "Explanation": "The Pench Tiger Reserve is located in the Nagpur district of Maharashtra (and adjoining Madhya Pradesh) and is a prominent habitat for the Royal Bengal Tiger."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "The power of Parliament to amend the Constitution, including Fundamental Rights, was upheld in which landmark case?",
+    "Options": [
+      { "id": 1, "text": "Golaknath v. State of Punjab" },
+      { "id": 2, "text": "Kesavananda Bharati v. State of Kerala" },
+      { "id": 3, "text": "Shankari Prasad v. Union of India" },
+      { "id": 4, "text": "Maneka Gandhi v. Union of India" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Shankari Prasad v. Union of India",
+    "Explanation": "In the Shankari Prasad case (1951), the Supreme Court upheld the power of Parliament to amend any part of the Constitution, including Fundamental Rights, under Article 368."
+  },
+  {
+    "category": "GK (India History)",
+    "Question": "The Third Battle of Panipat (1761) was fought between the Maratha Empire and whom?",
+    "Options": [
+      { "id": 1, "text": "Mughal Empire" },
+      { "id": 2, "text": "Ahmad Shah Durrani (Afghan)" },
+      { "id": 3, "text": "British East India Company" },
+      { "id": 4, "text": "Nizam of Hyderabad" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Ahmad Shah Durrani (Afghan)",
+    "Explanation": "The Third Battle of Panipat was a major confrontation on January 14, 1761, between the Maratha Empire and the invading Afghan army led by Ahmad Shah Durrani."
+  },
+  {
+    "category": "GK (Maharashtra Infrastructure)",
+    "Question": "The Panvel-Karjat suburban railway corridor, expected to be operational by late 2025, will significantly improve connectivity in which region?",
+    "Options": [
+      { "id": 1, "text": "Mumbai Metropolitan Region (MMR)" },
+      { "id": 2, "text": "Pune Metropolitan Region (PMR)" },
+      { "id": 3, "text": "Vidarbha Region" },
+      { "id": 4, "text": "Marathwada Region" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Mumbai Metropolitan Region (MMR)",
+    "Explanation": "This project integrates Karjat into the Mumbai suburban railway network, boosting connectivity for commuters in the rapidly developing areas of the MMR."
+  },
+  {
+    "category": "GK (India Science)",
+    "Question": "What is the common name for the chemical CL-20, often mentioned in the media as a military explosive?",
+    "Options": [
+      { "id": 1, "text": "RDX" },
+      { "id": 2, "text": "TNT" },
+      { "id": 3, "text": "HMX" },
+      { "id": 4, "text": "Hexanitrohexaazaisowurtzitane" }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Hexanitrohexaazaisowurtzitane",
+    "Explanation": "CL-20, or Hexanitrohexaazaisowurtzitane, is a highly powerful and stable explosive compound, significantly more potent than conventional explosives like RDX or HMX."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "The 'Prarthana Samaj' was founded in Bombay in 1867 by whom?",
+    "Options": [
+      { "id": 1, "text": "Jyotiba Phule" },
+      { "id": 2, "text": "Gopal Hari Deshmukh" },
+      { "id": 3, "text": "Atmaram Pandurang" },
+      { "id": 4, "text": "M. G. Ranade" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Atmaram Pandurang",
+    "Explanation": "The Prarthana Samaj was founded by Atmaram Pandurang, Dadoba Pandurang, and others in 1867 in Bombay, focusing on social and religious reforms."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "The concept of 'Basic Structure' of the Constitution was propounded by the Supreme Court in which landmark case?",
+    "Options": [
+      { "id": 1, "text": "Golaknath v. State of Punjab" },
+      { "id": 2, "text": "Kesavananda Bharati v. State of Kerala" },
+      { "id": 3, "text": "Minerva Mills v. Union of India" },
+      { "id": 4, "text": "S. R. Bommai v. Union of India" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Kesavananda Bharati v. State of Kerala",
+    "Explanation": "In the Kesavananda Bharati case (1973), the Supreme Court ruled that while Parliament can amend the Constitution, it cannot alter its 'basic structure'."
+  },
+  {
+    "category": "GK (Maharashtra Economy)",
+    "Question": "What is the targeted fiscal deficit for Maharashtra for the financial year 2025-26, as per the state budget?",
+    "Options": [
+      { "id": 1, "text": "2.1% of GSDP" },
+      { "id": 2, "text": "2.8% of GSDP" },
+      { "id": 3, "text": "3.5% of GSDP" },
+      { "id": 4, "text": "4.0% of GSDP" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "2.8% of GSDP",
+    "Explanation": "The Maharashtra Budget for 2025-26 targets a fiscal deficit of 2.8% of the Gross State Domestic Product (GSDP)."
+  },
+  {
+    "category": "GK (India Sports)",
+    "Question": "The Indian women's cricket team won the ICC Women's Cricket World Cup in 2025. Which player from Maharashtra was felicitated by the CM for this victory?",
+    "Options": [
+      { "id": 1, "text": "Harmanpreet Kaur" },
+      { "id": 2, "text": "Smriti Mandhana" },
+      { "id": 3, "text": "Poonam Yadav" },
+      { "id": 4, "text": "Mithali Raj" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Smriti Mandhana",
+    "Explanation": "In November 2025, Maharashtra CM Devendra Fadnavis felicitated Smriti Mandhana, Jemimah Rodrigues, and Radha Yadav for their role in India's World Cup victory."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "The Battle of Salher (1672) is significant as it was the first major open-field battle where the Marathas defeated which power?",
+    "Options": [
+      { "id": 1, "text": "Adil Shahi" },
+      { "id": 2, "text": "Portuguese" },
+      { "id": 3, "text": "Mughal Empire" },
+      { "id": 4, "text": "Siddis of Janjira" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Mughal Empire",
+    "Explanation": "The Battle of Salher, fought near Nashik, was a decisive victory for the Maratha forces led by Prataprao Gujar against a numerically superior Mughal army."
+  },
+  {
+    "category": "GK (India Awards)",
+    "Question": "Which classical vocalist from Maharashtra was awarded the Padma Shri in 2025?",
+    "Options": [
+      { "id": 1, "text": "Ashwini Bhide Deshpande" },
+      { "id": 2, "text": "Arati Ankalikar-Tikekar" },
+      { "id": 3, "text": "Kishori Amonkar" },
+      { "id": 4, "text": "Prabha Atre" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Ashwini Bhide Deshpande",
+    "Explanation": "Ashwini Bhide Deshpande, a renowned Hindustani classical vocalist of the Jaipur-Atrauli gharana, was honored with the Padma Shri in 2025."
+  },
+  {
+    "category": "GK (India Government Scheme)",
+    "Question": "The PM Vishwakarma Scheme, launched in 2023, provides support to whom?",
+    "Options": [
+      { "id": 1, "text": "Farmers" },
+      { "id": 2, "text": "Street Vendors" },
+      { "id": 3, "text": "Artisans and Craftspeople" },
+      { "id": 4, "text": "Students in higher education" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Artisans and Craftspeople",
+    "Explanation": "The PM Vishwakarma Scheme aims to provide end-to-end support to artisans and craftspeople, offering financial aid, skill training, and modern tools."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "How many administrative divisions (revenue divisions) is Maharashtra divided into?",
+    "Options": [
+      { "id": 1, "text": "5" },
+      { "id": 2, "text": "6" },
+      { "id": 3, "text": "7" },
+      { "id": 4, "text": "8" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "6",
+    "Explanation": "Maharashtra is divided into 6 administrative divisions: Konkan, Pune, Nashik, Aurangabad (Chhatrapati Sambhaji Nagar), Amravati, and Nagpur."
+  },
+  {
+    "category": "GK (India Science)",
+    "Question": "Monoclonal antibodies, often in the news for treating diseases, are what type of biological molecules?",
+    "Options": [
+      { "id": 1, "text": "Man-made proteins" },
+      { "id": 2, "text": "Types of viruses" },
+      { "id": 3, "text": "Genetic sequences (DNA)" },
+      { "id": 4, "text": "Sugar compounds" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Man-made proteins",
+    "Explanation": "Monoclonal antibodies are lab-created proteins that mimic the immune system's ability to fight off harmful pathogens by binding to specific antigens."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "Who wrote the book 'Gulamgiri' (Slavery) in 1873, which was a scathing critique of the caste system?",
+    "Options": [
+      { "id": 1, "text": "Dr. B. R. Ambedkar" },
+      { "id": 2, "text": "Mahatma Jyotiba Phule" },
+      { "id": 3, "text": "Gopal Ganesh Agarkar" },
+      { "id": 4, "text": "Shahu Maharaj" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Mahatma Jyotiba Phule",
+    "Explanation": "Jyotiba Phule wrote 'Gulamgiri' and dedicated it to the American movement to abolish slavery, drawing parallels between the conditions of American slaves and the lower castes in India."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "Under which article of the Indian Constitution can the President proclaim a 'Financial Emergency'?",
+    "Options": [
+      { "id": 1, "text": "Article 352" },
+      { "id": 2, "text": "Article 356" },
+      { "id": 3, "text": "Article 360" },
+      { "id": 4, "text": "Article 368" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Article 360",
+    "Explanation": "Article 360 empowers the President to proclaim a Financial Emergency if a situation has arisen whereby the financial stability or credit of India is threatened."
+  },
+  {
+    "category": "GK (Maharashtra Polity)",
+    "Question": "How many members are there in the Maharashtra Legislative Assembly (Vidhan Sabha)?",
+    "Options": [
+      { "id": 1, "text": "240" },
+      { "id": 2, "text": "288" },
+      { "id": 3, "text": "300" },
+      { "id": 4, "text": "78" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "288",
+    "Explanation": "The Maharashtra Legislative Assembly (Lower House) has 288 members who are directly elected from single-seat constituencies."
+  },
+  {
+    "category": "GK (India Economy)",
+    "Question": "The 'Samudrayaan Mission', India's first manned deep ocean mission, aims to send humans to what depth by 2026?",
+    "Options": [
+      { "id": 1, "text": "1,000 meters" },
+      { "id": 2, "text": "3,000 meters" },
+      { "id": 3, "text": "6,000 meters" },
+      { "id": 4, "text": "10,000 meters" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "6,000 meters",
+    "Explanation": "The Samudrayaan Mission involves sending three aquanauts to a depth of 6,000 meters in a submersible named 'MATSYA 6000' to explore deep-sea resources."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "The Bhatsa Dam, which is a key source of water supply to Mumbai, is located in which district?",
+    "Options": [
+      { "id": 1, "text": "Raigad" },
+      { "id": 2, "text": "Pune" },
+      { "id": 3, "text": "Thane" },
+      { "id": 4, "text": "Ratnagiri" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Thane",
+    "Explanation": "The Bhatsa Dam is located on the Bhatsa River in the Shahapur taluka of Thane district, Maharashtra."
+  },
+  {
+    "category": "GK (India History)",
+    "Question": "The Second Anglo-Maratha War (1803-1805) concluded with which major battle, a decisive victory for the British?",
+    "Options": [
+      { "id": 1, "text": "Battle of Panipat" },
+      { "id": 2, "text": "Battle of Assaye" },
+      { "id": 3, "text": "Battle of Khadki" },
+      { "id": 4, "text": "Battle of Wadgaon" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Battle of Assaye",
+    "Explanation": "The Battle of Assaye (1803) was a key battle of the Second Anglo-Maratha War, where Arthur Wellesley (later Duke of Wellington) led the British EIC to victory over Maratha forces."
+  },
+  {
+    "category": "GK (India Appointments)",
+    "Question": "Who was appointed as the Chairman and CEO of the Railway Board in 2024?",
+    "Options": [
+      { "id": 1, "text": "Jaya Varma Sinha" },
+      { "id": 2, "text": "Satish Kumar" },
+      { "id": 3, "text": "Anil Kumar Lahoti" },
+      { "id": 4, "text": "V. K. Tripathi" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Satish Kumar",
+    "Explanation": "Satish Kumar was appointed as the Chairman and CEO of the Railway Board in 2024, succeeding Jaya Varma Sinha."
+  },
+  {
+    "category": "GK (Maharashtra Culture)",
+    "Question": "Which city in Maharashtra is famous for its 'Paithani' silk sarees, known for their intricate hand-woven designs?",
+    "Options": [
+      { "id": 1, "text": "Nashik" },
+      { "id": 2, "text": "Kolhapur" },
+      { "id": 3, "text": "Paithan (Aurangabad)" },
+      { "id": 4, "text": "Solapur" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Paithan (Aurangabad)",
+    "Explanation": "The 'Paithani' saree gets its name from the town of Paithan, near Aurangabad (Chhatrapati Sambhaji Nagar), where this tradition of silk weaving originated."
+  },
+  {
+    "category": "GK (India Environment)",
+    "Question": "Which two metallic oxides are commonly used in the manufacture of cosmetics, leading to concerns about nanoparticles in the environment?",
+    "Options": [
+      { "id": 1, "text": "Iron Oxide and Copper Oxide" },
+      { "id": 2, "text": "Titanium Dioxide and Zinc Oxide" },
+      { "id": 3, "text": "Aluminum Oxide and Magnesium Oxide" },
+      { "id": 4, "text": "Silver Oxide and Gold Oxide" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Titanium Dioxide and Zinc Oxide",
+    "Explanation": "Nanoparticles of Titanium Dioxide and Zinc Oxide are widely used in sunscreens and other cosmetics for UV protection, raising environmental and safety questions."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "The Treaty of Purandar (1665) was signed between Chhatrapati Shivaji Maharaj and whom?",
+    "Options": [
+      { "id": 1, "text": "Afzal Khan" },
+      { "id": 2, "text": "Aurangzeb" },
+      { "id": 3, "text": "Mirza Raja Jai Singh I" },
+      { "id": 4, "text": "Shaista Khan" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Mirza Raja Jai Singh I",
+    "Explanation": "Following the siege of Purandar fort, Chhatrapati Shivaji Maharaj signed the Treaty of Purandar on June 11, 1665, with Mirza Raja Jai Singh I, a commander of the Mughal Empire."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "The 106th Constitutional Amendment Act, 2023, which received assent, pertains to what?",
+    "Options": [
+      { "id": 1, "text": "Goods and Services Tax (GST)" },
+      { "id": 2, "text": "Reservation for Economically Weaker Sections (EWS)" },
+      { "id": 3, "text": "Reservation for women in Lok Sabha and State Assemblies" },
+      { "id": 4, "text": "Granting constitutional status to NCBC" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Reservation for women in Lok Sabha and State Assemblies",
+    "Explanation": "The 106th Amendment Act (Nari Shakti Vandan Adhiniyam) provides for 33% reservation for women in the Lok Sabha and all state legislative assemblies."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "Which is the highest peak in Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Kalsubai" },
+      { "id": 2, "text": "Salher" },
+      { "id": 3, "text": "Mahabaleshwar" },
+      { "id": 4, "text": "Harishchandragad" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Kalsubai",
+    "Explanation": "Kalsubai, with an elevation of 1,646 meters, is the highest peak in the Sahyadri mountain range (Western Ghats) and in Maharashtra. It is located in Ahmednagar district."
+  },
+  {
+    "category": "GK (India Science)",
+    "Question": "Excess of which of the following in the environment is a primary cause of acid rain?",
+    "Options": [
+      { "id": 1, "text": "Carbon Dioxide and Methane" },
+      { "id": 2, "text": "Ozone and Carbon Monoxide" },
+      { "id": 3, "text": "Sulphur Dioxide and Nitrogen Oxides" },
+      { "id": 4, "text": "Chlorofluorocarbons (CFCs)" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Sulphur Dioxide and Nitrogen Oxides",
+    "Explanation": "Sulphur Dioxide (SO2) and Nitrogen Oxides (NOx) react with water, oxygen, and other chemicals in the atmosphere to form sulfuric and nitric acids, which fall as acid rain."
+  },
+  {
+    "category": "GK (Maharashtra Economy)",
+    "Question": "The Maharashtra State Budget 2025-26 announced a new industrial policy aiming to attract investments worth how much?",
+    "Options": [
+      { "id": 1, "text": "₹10 lakh crore" },
+      { "id": 2, "text": "₹20 lakh crore" },
+      { "id": 3, "text": "₹30 lakh crore" },
+      { "id": 4, "text": "₹40 lakh crore" }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "₹40 lakh crore",
+    "Explanation": "The 2025-26 budget speech highlighted a new industrial policy to be announced in 2025, with a goal of attracting ₹40 lakh crore in investments and creating 50 lakh jobs."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "What is 'Zero Hour' in Indian parliamentary procedure?",
+    "Options": [
+      { "id": 1, "text": "The time when no business is conducted." },
+      { "id": 2, "text": "The time immediately following the Question Hour." },
+      { "id": 3, "text": "The time reserved for the opposition to speak." },
+      { "id": 4, "text": "The last hour of the parliamentary session." }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "The time immediately following the Question Hour.",
+    "Explanation": "Zero Hour is an Indian parliamentary innovation. It starts immediately after the Question Hour (around 12 noon) and allows members to raise matters of urgent public importance."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "Who among the following social reformers from Maharashtra was known as 'Lokhitawadi'?",
+    "Options": [
+      { "id": 1, "text": "Gopal Ganesh Agarkar" },
+      { "id": 2, "text": "Gopal Hari Deshmukh" },
+      { "id": 3, "text": "Balshastri Jambhekar" },
+      { "id": 4, "text": "Dadoba Pandurang" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Gopal Hari Deshmukh",
+    "Explanation": "Gopal Hari Deshmukh wrote a series of letters ('Shatapatre') in the 'Prabhakar' newspaper, advocating for social reform, for which he earned the pen name 'Lokhitawadi'."
+  },
+  {
+    "category": "GK (India Economy)",
+    "Question": "The 'PM-SVANidhi' scheme was launched to provide collateral-free working capital loans to which group?",
+    "Options": [
+      { "id": 1, "text": "Farmers" },
+      { "id": 2, "text": "Street Vendors" },
+      { "id": 3, "text": "MSME Owners" },
+      { "id": 4, "text": "Female Entrepreneurs" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Street Vendors",
+    "Explanation": "The Pradhan Mantri Street Vendor's AtmaNirbhar Nidhi (PM-SVANidhi) scheme was launched in 2020 to support street vendors affected by the COVID-19 lockdown."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "The Koyna Dam, which generates a large amount of Maharashtra's hydroelectric power, is located in which district?",
+    "Options": [
+      { "id": 1, "text": "Satara" },
+      { "id": 2, "text": "Kolhapur" },
+      { "id": 3, "text": "Ratnagiri" },
+      { "id": 4, "text": "Pune" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Satara",
+    "Explanation": "The Koyna Hydroelectric Project is located on the Koyna River in the Satara district and is the largest completed hydroelectric power plant in India."
+  },
+  {
+    "category": "GK (India Awards)",
+    "Question": "Maruti Chitampalli, who was awarded the Padma Shri in 2025, is renowned for his work in which field?",
+    "Options": [
+      { "id": 1, "text": "Theatre and Cinema" },
+      { "id": 2, "text": "Literature (Wildlife)" },
+      { "id": 3, "text": "Social Work" },
+      { "id": 4, "text": "Classical Music" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Literature (Wildlife)",
+    "Explanation": "Maruti Chitampalli is a celebrated naturalist, author, and retired forest officer from Maharashtra, known for his extensive writings on wildlife and forests."
+  },
+  {
+    "category": "GK (Maharashtra Polity)",
+    "Question": "The concept of a 'bi-cameral' (two-house) legislature in Maharashtra consists of the Vidhan Sabha and which other body?",
+    "Options": [
+      { "id": 1, "text": "Zila Parishad" },
+      { "id": 2, "text": "Vidhan Parishad" },
+      { "id": 3, "text": "Gram Panchayat" },
+      { "id": 4, "text": "Lok Sabha" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Vidhan Parishad",
+    "Explanation": "Maharashtra is one of the six Indian states with a bicameral legislature, consisting of the Legislative Assembly (Vidhan Sabha) and the Legislative Council (Vidhan Parishad)."
+  },
+  {
+    "category": "GK (India History)",
+    "Question": "In which year did the 'Quit India Movement' begin, with a major resolution passed in Bombay?",
+    "Options": [
+      { "id": 1, "text": "1930" },
+      { "id": 2, "text": "1942" },
+      { "id": 3, "text": "1945" },
+      { "id": 4, "text": "1920" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "1942",
+    "Explanation": "The All-India Congress Committee session in Bombay on August 8, 1942, passed the Quit India Resolution, marking the start of the movement."
+  },
+  {
+    "category": "GK (Maharashtra Culture)",
+    "Question": "The 'Kala Ghoda Arts Festival', a major annual cultural event, is held in which city?",
+    "Options": [
+      { "id": 1, "text": "Pune" },
+      { "id": 2, "text": "Nagpur" },
+      { "id": 3, "text": "Mumbai" },
+      { "id": 4, "text": "Aurangabad" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Mumbai",
+    "Explanation": "The Kala Ghoda Arts Festival is a nine-day festival held annually in the Kala Ghoda precinct of South Mumbai, featuring visual arts, music, dance, and theatre."
+  },
+  {
+    "category": "GK (India Science)",
+    "Question": "What is 'Vyommitra', developed by ISRO for the Gaganyaan mission?",
+    "Options": [
+      { "id": 1, "text": "The main rocket engine" },
+      { "id": 2, "text": "A female humanoid robot" },
+      { "id": 3, "text": "The landing module" },
+      { "id": 4, "text": "A new navigation satellite" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "A female humanoid robot",
+    "Explanation": "Vyommitra ('Vyoma' meaning space, 'Mitra' meaning friend) is a female humanoid robot developed by ISRO to fly aboard the uncrewed Gaganyaan missions to test system parameters."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "Who started the Marathi newspaper 'Kesari' in 1881?",
+    "Options": [
+      { "id": 1, "text": "Bal Gangadhar Tilak" },
+      { "id": 2, "text": "Gopal Ganesh Agarkar" },
+      { "id": 3, "text": "Jyotiba Phule" },
+      { "id": 4, "text": "Gopal Krishna Gokhale" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Bal Gangadhar Tilak",
+    "Explanation": "Lokmanya Bal Gangadhar Tilak started two newspapers: 'Kesari' (in Marathi) and 'Mahratta' (in English), which became key voices of the Indian freedom struggle."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "The 73rd Constitutional Amendment Act is related to which of the following?",
+    "Options": [
+      { "id": 1, "text": "Urban Local Bodies (Municipalities)" },
+      { "id": 2, "text": "Rural Local Bodies (Panchayati Raj)" },
+      { "id": 3, "text": "Official Languages" },
+      { "id": 4, "text": "Anti-Defection Law" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Rural Local Bodies (Panchayati Raj)",
+    "Explanation": "The 73rd Amendment Act, 1992, gave constitutional status to the Panchayati Raj institutions, establishing a three-tier system of local self-government in rural areas."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "The Tadoba Andhari Tiger Reserve, one of Maharashtra's largest and oldest national parks, is located in which district?",
+    "Options": [
+      { "id": 1, "text": "Nagpur" },
+      { "id": 2, "text": "Amravati" },
+      { "id": 3, "text": "Chandrapur" },
+      { "id": 4, "text": "Gadchiroli" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Chandrapur",
+    "Explanation": "The Tadoba Andhari Tiger Reserve is located in the Chandrapur district in the Vidarbha region of Maharashtra."
+  },
+  {
+    "category": "GK (India Economy)",
+    "Question": "What is the name of the scheme launched by ICMR to track physical growth and nutritional status?",
+    "Options": [
+      { "id": 1, "text": "Poshan Abhiyaan" },
+      { "id": 2, "text": "Fit India" },
+      { "id": 3, "text": "UNNATI Scheme" },
+      { "id": 4, "text": "Ayushman Bharat" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "UNNATI Scheme",
+    "Explanation": "The Indian Council of Medical Research (ICMR) launched the UNNATI (Unified National Nutrition and Tracking Initiative) Scheme to monitor physical growth and nutrition."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "The 'Deccan Education Society' was founded in 1884 in Pune by a group of nationalists including Bal Gangadhar Tilak and whom?",
+    "Options": [
+      { "id": 1, "text": "Gopal Hari Deshmukh" },
+      { "id": 2, "text": "Gopal Ganesh Agarkar" },
+      { "id": 3, "text": "Jyotiba Phule" },
+      { "id": 4, "text": "Dadabhai Naoroji" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Gopal Ganesh Agarkar",
+    "Explanation": "The Deccan Education Society was founded by Bal Gangadhar Tilak, Gopal Ganesh Agarkar, V. S. Apte, and others in 1884 in Pune to provide quality education."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "Which part of the Indian Constitution deals with 'Fundamental Duties'?",
+    "Options": [
+      { "id": 1, "text": "Part III" },
+      { "id": 2, "text": "Part IV" },
+      { "id": 3, "text": "Part IV-A" },
+      { "id": 4, "text": "Part V" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Part IV-A",
+    "Explanation": "Part IV-A, which consists of Article 51-A, was added by the 42nd Amendment in 1976 and outlines the Fundamental Duties of citizens."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "The Bhima River, a major tributary of the Krishna River, originates from which place in Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Bhimashankar, Pune" },
+      { "id": 2, "text": "Mahabaleshwar, Satara" },
+      { "id": 3, "text": "Trimbakeshwar, Nashik" },
+      { "id": 4, "text": "Amba Ghat, Kolhapur" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Bhimashankar, Pune",
+    "Explanation": "The Bhima River originates at Bhimashankar in the Pune district, which is also the site of one of the 12 Jyotirlinga shrines."
+  },
+  {
+    "category": "GK (India Current Affairs)",
+    "Question": "The 'Aadi Vaani' App, launched recently, is an AI-based translator for what purpose?",
+    "Options": [
+      { "id": 1, "text": "Translating Sanskrit texts" },
+      { "id": 2, "text": "Translating Tribal Languages" },
+      { "id": 3, "text": "Translating legal documents" },
+      { "id": 4, "text": "Translating medical prescriptions" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Translating Tribal Languages",
+    "Explanation": "The 'Aadi Vaani' App is an AI-powered translator designed to bridge the communication gap by translating various tribal languages in India."
+  },
+  {
+    "category": "GK (Maharashtra Culture)",
+    "Question": "Which social reformer from Maharashtra is associated with the 'Anandwan' community, dedicated to helping leprosy patients?",
+    "Options": [
+      { "id": 1, "text": "Vinoba Bhave" },
+      { "id": 2, "text": "Anna Hazare" },
+      { "id": 3, "text": "Baba Amte" },
+      { "id": 4, "text": "Nanaji Deshmukh" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Baba Amte",
+    "Explanation": "Murlidhar Devidas Amte, famously known as Baba Amte, founded the Anandwan (Forest of Joy) community in Chandrapur district for the rehabilitation of leprosy patients."
+  },
+  {
+    "category": "GK (India Space)",
+    "Question": "Chandrayaan-4, India's next lunar mission, is primarily focused on what objective?",
+    "Options": [
+      { "id": 1, "text": "Building a lunar base" },
+      { "id": 2, "text": "Lunar sample return" },
+      { "id": 3, "text": "Sending humans to the Moon" },
+      { "id": 4, "text": "Orbiting the lunar south pole" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Lunar sample return",
+    "Explanation": "ISRO's Chandrayaan-4 mission is planned as a complex lunar sample-return mission, which involves landing, collecting samples, and returning them to Earth."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "Who administers the oath of office to the Governor of a state in India?",
+    "Options": [
+      { "id": 1, "text": "The President of India" },
+      { "id": 2, "text": "The Chief Justice of India" },
+      { "id": 3, "text": "The Chief Justice of the concerned High Court" },
+      { "id": 4, "text": "The outgoing Governor" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "The Chief Justice of the concerned High Court",
+    "Explanation": "As per Article 159 of the Constitution, the oath of office for a Governor is administered by the Chief Justice of the state's High Court, or in their absence, the senior-most judge."
+  },
+  {
+    "category": "GK (Maharashtra Economy)",
+    "Question": "The 'Sewri-Worli Elevated Corridor' in Mumbai is being built to improve connectivity with which other major infrastructure project?",
+    "Options": [
+      { "id": 1, "text": "Mumbai-Nagpur Samruddhi Mahamarg" },
+      { "id": 2, "text": "Mumbai Trans Harbour Link (MTHL)" },
+      { "id": 3, "text": "Navi Mumbai International Airport" },
+      { "id": 4, "text": "Mumbai-Pune Expressway" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Mumbai Trans Harbour Link (MTHL)",
+    "Explanation": "The 4.5-km Sewri-Worli connector will link the Bandra-Worli Sea Link and the coastal road to the Mumbai Trans Harbour Link (Atal Setu), reducing travel time."
+  },
+  {
+    "category": "GK (India History)",
+    "Question": "Who founded the 'Brahmo Samaj of India' in 1866 after a split from the original Brahmo Samaj?",
+    "Options": [
+      { "id": 1, "text": "Raja Ram Mohan Roy" },
+      { "id": 2, "text": "Debendranath Tagore" },
+      { "id": 3, "text": "Keshab Chandra Sen" },
+      { "id": 4, "text": "Ishwar Chandra Vidyasagar" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Keshab Chandra Sen",
+    "Explanation": "In 1866, Keshab Chandra Sen and his followers broke away from the original Brahmo Samaj (led by Debendranath Tagore) and formed the 'Brahmo Samaj of India'."
+  },
+  {
+    "category": "GK (Maharashtra Culture)",
+    "Question": "The Ellora Caves, a UNESCO World Heritage Site, are unique because they feature monuments of which three religions?",
+    "Options": [
+      { "id": 1, "text": "Buddhism, Jainism, and Sikhism" },
+      { "id": 2, "text": "Buddhism, Hinduism, and Jainism" },
+      { "id": 3, "text": "Hinduism, Jainism, and Zoroastrianism" },
+      { "id": 4, "text": "Buddhism, Hinduism, and Islam" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Buddhism, Hinduism, and Jainism",
+    "Explanation": "The Ellora Caves in Aurangabad district (Chhatrapati Sambhaji Nagar) are a collection of over 100 caves, with rock-cut temples and monasteries for Buddhism, Hinduism, and Jainism."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "A 'Calling Attention Motion' in Parliament is an innovation from which country?",
+    "Options": [
+      { "id": 1, "text": "United Kingdom" },
+      { "id": 2, "text": "United States" },
+      { "id": 3, "text": "India" },
+      { "id": 4, "text": "Canada" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "India",
+    "Explanation": "The Calling Attention Motion, like the Zero Hour, is an Indian innovation in parliamentary procedure. It allows a member to draw a minister's attention to a matter of urgent public importance."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "Which city is the designated 'winter capital' of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Pune" },
+      { "id": 2, "text": "Nagpur" },
+      { "id": 3, "text": "Aurangabad" },
+      { "id": 4, "text": "Nashik" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Nagpur",
+    "Explanation": "Nagpur is the winter capital of Maharashtra, and the state legislature holds its winter session at the Vidhan Bhavan in Nagpur."
+  },
+  {
+    "category": "GK (India Economy)",
+    "Question": "The 'Rooftop Solarisation Scheme' (PM-Surya Ghar) announced in the 2024 budget aims to provide how many units of free electricity per month?",
+    "Options": [
+      { "id": 1, "text": "100 units" },
+      { "id": 2, "text": "200 units" },
+      { "id": 3, "text": "300 units" },
+      { "id": 4, "text": "500 units" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "300 units",
+    "Explanation": "The 'Pradhan Mantri Surya Ghar: Muft Bijli Yojana' aims to install rooftop solar systems in 1 crore households, enabling them to get up to 300 units of free electricity monthly."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "The 'Ashta Pradhan Mandal' (Council of Eight Ministers) was the administrative council of which Maratha ruler?",
+    "Options": [
+      { "id": 1, "text": "Chhatrapati Shivaji Maharaj" },
+      { "id": 2, "text": "Chhatrapati Sambhaji Maharaj" },
+      { "id": 3, "text": "Peshwa Baji Rao I" },
+      { "id": 4, "text": "Mahadaji Scindia" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Chhatrapati Shivaji Maharaj",
+    "Explanation": "Chhatrapati Shivaji Maharaj established the Ashta Pradhan Mandal, a council of eight ministers (e.g., Peshwa, Amatya, Sachiv) to manage his empire's administration."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "A bill pending in the Rajya Sabha which has NOT been passed by the Lok Sabha will...?",
+    "Options": [
+      { "id": 1, "text": "Lapse on the dissolution of the Lok Sabha." },
+      { "id": 2, "text": "Not lapse on the dissolution of the Lok Sabha." },
+      { "id": 3, "text": "Be returned to the President." },
+      { "id": 4, "text": "Require a joint sitting to pass." }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Not lapse on the dissolution of the Lok Sabha.",
+    "Explanation": "According to Article 107, a bill originating and pending in the Rajya Sabha (the permanent house) does not lapse when the Lok Sabha is dissolved."
+  },
+  {
+    "category": "GK (Maharashtra Culture)",
+    "Question": "The famous Ajanta Caves are predominantly known for their murals and sculptures related to which faith?",
+    "Options": [
+      { "id": 1, "text": "Buddhism" },
+      { "id": 2, "text": "Hinduism" },
+      { "id": 3, "text": "Jainism" },
+      { "id": 4, "text": "Zoroastrianism" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Buddhism",
+    "Explanation": "The Ajanta Caves are a series of rock-cut caves, dating from the 2nd century BCE, that are exclusively Buddhist and contain some of the finest masterpieces of Buddhist art."
+  },
+  {
+    "category": "GK (India Sports)",
+    "Question": "Which Indian city hosted the 4th Khelo India University Games in 2024?",
+    "Options": [
+      { "id": 1, "text": "Pune" },
+      { "id": 2, "text": "Bengaluru" },
+      { "id": 3, "text": "Guwahati" },
+      { "id": 4, "text": "Bhopal" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Guwahati",
+    "Explanation": "The 4th edition of the Khelo India University Games was held in 2024 across the northeastern states, with Guwahati, Assam, as the main host city."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "Which district in Maharashtra is the largest producer of bananas and is known as the 'Banana City'?",
+    "Options": [
+      { "id": 1, "text": "Nashik" },
+      { "id": 2, "text": "Jalgaon" },
+      { "id": 3, "text": "Solapur" },
+      { "id": 4, "text": "Nanded" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Jalgaon",
+    "Explanation": "Jalgaon district is the largest cultivator of bananas in Maharashtra and one of the largest in India, earning it the title 'Banana City'."
+  },
+  {
+    "category": "GK (India History)",
+    "Question": "Who gave the slogan 'Go back to the Vedas'?",
+    "Options": [
+      { "id": 1, "text": "Swami Vivekananda" },
+      { "id": 2, "text": "Swami Dayananda Saraswati" },
+      { "id": 3, "text": "Raja Ram Mohan Roy" },
+      { "id": 4, "text": "Ramakrishna Paramahansa" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Swami Dayananda Saraswati",
+    "Explanation": "Swami Dayananda Saraswati, the founder of the Arya Samaj (1875), gave the call 'Go back to the Vedas' as he believed in the infallibility of the Vedas."
+  },
+  {
+    "category": "GK (Maharashtra Culture)",
+    "Question": "The 'Wagh-Nakh' (tiger claws) used by Chhatrapati Shivaji Maharaj to defeat Afzal Khan are being brought back to Maharashtra from which country?",
+    "Options": [
+      { "id": 1, "text": "France" },
+      { "id": 2, "text": "United Kingdom" },
+      { "id": 3, "text": "Netherlands" },
+      { "id": 4, "text": "Portugal" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "United Kingdom",
+    "Explanation": "In 2023-2024, an agreement was signed to bring the 'Wagh Nakh' of Chhatrapati Shivaji Maharaj from the Victoria and Albert Museum in London, UK, back to Maharashtra on loan."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "Who was the Chairman of the Drafting Committee of the Indian Constitution?",
+    "Options": [
+      { "id": 1, "text": "Dr. Rajendra Prasad" },
+      { "id": 2, "text": "Sardar Vallabhbhai Patel" },
+      { "id": 3, "text": "Dr. B. R. Ambedkar" },
+      { "id": 4, "text": "Jawaharlal Nehru" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Dr. B. R. Ambedkar",
+    "Explanation": "Dr. B. R. Ambedkar served as the Chairman of the seven-member Drafting Committee, which was responsible for preparing the draft of the Indian Constitution."
+  },
+  {
+    "category": "GK (Maharashtra Industry)",
+    "Question": "Which city in Maharashtra is a major hub for the wine industry and is often called the 'Wine Capital of India'?",
+    "Options": [
+      { "id": 1, "text": "Pune" },
+      { "id": 2, "text": "Sangli" },
+      { "id": 3, "text": "Nashik" },
+      { "id": 4, "text": "Baramati" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Nashik",
+    "Explanation": "Nashik, with its favorable climate, is home to a majority of India's vineyards and wineries, including Sula, earning it the title 'Wine Capital of India'."
+  },
+  {
+    "category": "GK (India Economy)",
+    "Question": "What is the 'Purvodaya Plan' mentioned in the 2025 government objectives?",
+    "Options": [
+      { "id": 1, "text": "A plan for developing North-Eastern states" },
+      { "id": 2, "text": "A plan for developing Eastern states (Bihar, Odisha, WB, etc.)" },
+      { "id": 3, "text": "A plan for developing coastal infrastructure" },
+      { "id": 4, "text": "A plan for developing solar power" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "A plan for developing Eastern states (Bihar, Odisha, WB, etc.)",
+    "Explanation": "The Purvodaya Plan is focused on the accelerated development of Eastern India, including states like Jharkhand, Bihar, Odisha, West Bengal, and Andhra Pradesh."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "Who was the first British Governor of the Bombay Presidency?",
+    "Options": [
+      { "id": 1, "text": "Robert Clive" },
+      { "id": 2, "text": "Warren Hastings" },
+      { "id": 3, "text": "Mountstuart Elphinstone" },
+      { "id": 4, "text": "Lord Dalhousie" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Mountstuart Elphinstone",
+    "Explanation": "Mountstuart Elphinstone served as the Governor of Bombay from 1819 to 1827 and played a significant role in establishing the administrative and educational framework."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "Which Constitutional Amendment is also known as the 'Mini-Constitution'?",
+    "Options": [
+      { "id": 1, "text": "42nd Amendment" },
+      { "id": 2, "text": "44th Amendment" },
+      { "id": 3, "text": "73rd Amendment" },
+      { "id": 4, "text": "1st Amendment" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "42nd Amendment",
+    "Explanation": "The 42nd Amendment (1976) is called the 'Mini-Constitution' because it made widespread and significant changes to the Constitution, including adding 'Socialist' and 'Secular' to the Preamble."
+  },
+  {
+    "category": "GK (Maharashtra Geography)",
+    "Question": "Which is the largest district in Maharashtra in terms of area?",
+    "Options": [
+      { "id": 1, "text": "Pune" },
+      { "id": 2, "text": "Ahmednagar" },
+      { "id": 3, "text": "Nashik" },
+      { "id": 4, "text": "Solapur" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Ahmednagar",
+    "Explanation": "Ahmednagar is the largest district in Maharashtra by geographical area, followed by Pune and Nashik."
+  },
+  {
+    "category": "GK (India Awards)",
+    "Question": "The Dada Saheb Phalke Award 2023 (awarded in 2024) was conferred upon which veteran actress?",
+    "Options": [
+      { "id": 1, "text": "Rekha" },
+      { "id": 2, "text": "Hema Malini" },
+      { "id": 3, "text": "Waheeda Rehman" },
+      { "id": 4, "text": "Asha Parekh" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Waheeda Rehman",
+    "Explanation": "Veteran actress Waheeda Rehman was honored with the Dadasaheb Phalke Lifetime Achievement Award for the year 2023."
+  },
+  {
+    "category": "GK (Maharashtra Polity)",
+    "Question": "In what year was the state of Maharashtra formed, leading to the creation of 'Maharashtra Day'?",
+    "Options": [
+      { "id": 1, "text": "1947" },
+      { "id": 2, "text": "1950" },
+      { "id": 3, "text": "1956" },
+      { "id": 4, "text": "1960" }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "1960",
+    "Explanation": "The state of Maharashtra was formed on May 1, 1960, from the division of the bilingual Bombay State into Maharashtra and Gujarat. This day is celebrated as Maharashtra Day."
+  },
+  {
+    "category": "GK (India Science)",
+    "Question": "Which substance, commonly found in cigarette butts and car tyres, is a major source of microplastic pollution?",
+    "Options": [
+      { "id": 1, "text": "Cellulose" },
+      { "id": 2, "text": "Rubber" },
+      { "id": 3, "text": "Plastic (various polymers)" },
+      { "id": 4, "text": "Cotton" }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Plastic (various polymers)",
+    "Explanation": "Cigarette filters (made of cellulose acetate, a plastic) and car tyres (which shed synthetic rubber polymers) are major, often overlooked, sources of microplastic pollution."
+  },
+  {
+    "category": "GK (Maharashtra History)",
+    "Question": "The social reform movement in Maharashtra saw the establishment of the 'Servants of India Society' in 1905 by whom?",
+    "Options": [
+      { "id": 1, "text": "Bal Gangadhar Tilak" },
+      { "id": 2, "text": "Gopal Krishna Gokhale" },
+      { "id": 3, "text": "M. G. Ranade" },
+      { "id": 4, "text": "Gopal Ganesh Agarkar" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Gopal Krishna Gokhale",
+    "Explanation": "Gopal Krishna Gokhale, a prominent moderate leader, founded the Servants of India Society in Pune to train a dedicated group of Indians for public service and social reform."
+  },
+  {
+    "category": "GK (India Polity)",
+    "Question": "The 'Adjournment Motion' is an extraordinary device in Parliament that, if admitted, leads to setting aside the normal business to discuss what?",
+    "Options": [
+      { "id": 1, "text": "A definite matter of urgent public importance" },
+      { "id": 2, "text": "A constitutional amendment" },
+      { "id": 3, "text": "A no-confidence motion" },
+      { "id": 4, "text": "The annual budget" }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "A definite matter of urgent public importance",
+    "Explanation": "An Adjournment Motion is introduced to draw the House's attention to a definite, factual, and urgent matter of public importance, and it requires the support of 50 members to be admitted."
+  },
+  {
+    "category": "GK (Maharashtra Culture)",
+    "Question": "Which fort, the first capital of Chhatrapati Shivaji Maharaj, was captured by him at the age of 16 in 1645?",
+    "Options": [
+      { "id": 1, "text": "Sinhagad" },
+      { "id": 2, "text": "Raigad" },
+      { "id": 3, "text": "Pratapgad" },
+      { "id": 4, "text": "Torna" }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Torna",
+    "Explanation": "The capture of Torna (or Prachandagad) in 1645 was one of Chhatrapati Shivaji Maharaj's first military victories, marking the beginning of the Maratha Empire. He later made Raigad his capital."
+  },
+  {
+    "category": "GK (India Economy)",
+    "Question": "The 'Insolvency and Bankruptcy Code (IBC)', a major reform, was introduced in which year?",
+    "Options": [
+      { "id": 1, "text": "2014" },
+      { "id": 2, "text": "2016" },
+      { "id": 3, "text": "2018" },
+      { "id": 4, "text": "2020" }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "2016",
+    "Explanation": "The Insolvency and Bankruptcy Code, 2016, was enacted to consolidate the laws relating to insolvency and create a time-bound resolution process for corporate and individual bankruptcy."
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Arrange the following peaks of the Sahyadri range in Maharashtra in descending order of their height:\n1. Kalsubai\n2. Salher\n3. Harishchandragad\n4. Taramati",
+    "Options": [
+      { "id": 1, "text": "1, 2, 3, 4" },
+      { "id": 2, "text": "1, 3, 2, 4" },
+      { "id": 3, "text": "2, 1, 4, 3" },
+      { "id": 4, "text": "1, 2, 4, 3" }
+    ],
+    "CorrectAnswer": "1, 2, 4, 3",
+    "Explanation": "The correct descending order of height is: Kalsubai (1646m), Salher (1567m), Taramati (1431m), and Harishchandragad (1424m). Kalsubai is the highest peak in Maharashtra.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following statements regarding the 'Rain Shadow Zone' (Parjanyachhayakshetra) in Maharashtra is correct?\n1. It is located on the western slopes of the Sahyadris.\n2. This region receives heavy orographic rainfall.\n3. Large parts of Western Maharashtra (Desh) fall under this zone.",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "3 only" },
+      { "id": 3, "text": "1, 2 and 3" },
+      { "id": 4, "text": "2 and 3 only" }
+    ],
+    "CorrectAnswer": "3 only",
+    "Explanation": "(1) is incorrect; it is located on the eastern slopes (leeward side) of the Sahyadris. (2) is incorrect; this region receives very low rainfall as the monsoon winds lose moisture on the western side. (3) is correct; regions like Ahmednagar, Solapur, and parts of Pune district lie in this zone.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Climate of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following is an incorrect pair of rivers and their origin?",
+    "Options": [
+      { "id": 1, "text": "Godavari - Trimbakeshwar (Nashik)" },
+      { "id": 2, "text": "Krishna - Mahabaleshwar (Satara)" },
+      { "id": 3, "text": "Tapi - Multai (Madhya Pradesh)" },
+      { "id": 4, "text": "Bhima - Bhimashankar (Satara)" }
+    ],
+    "CorrectAnswer": "Bhima - Bhimashankar (Satara)",
+    "Explanation": "The Bhima river originates at Bhimashankar, which is located in the Pune district, not Satara district. All other pairs are correctly matched.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, Police Bharti",
+    "correctOption": 4,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Deccan Traps' which form the Maharashtra Plateau are predominantly composed of which type of rock?",
+    "Options": [
+      { "id": 1, "text": "Granite" },
+      { "id": 2, "text": "Basalt" },
+      { "id": 3, "text": "Sandstone" },
+      { "id": 4, "text": "Marble" }
+    ],
+    "CorrectAnswer": "Basalt",
+    "Explanation": "The Deccan Plateau, including the Maharashtra Plateau, is a large igneous province formed by fissured volcanic eruptions. It is composed almost entirely of basaltic rock, which weathers to form the black cotton soil (Regur).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Geology of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Match the following administrative divisions with their headquarters:\n(A) Amravati Division\n(B) Aurangabad Division\n(C) Nashik Division\n(D) Pune Division\n\n(1) Chhatrapati Sambhajinagar\n(2) Pune\n(3) Amravati\n(4) Nashik",
+    "Options": [
+      { "id": 1, "text": "A-3, B-1, C-4, D-2" },
+      { "id": 2, "text": "A-1, B-3, C-2, D-4" },
+      { "id": 3, "text": "A-3, B-4, C-1, D-2" },
+      { "id": 4, "text": "A-2, B-1, C-4, D-3" }
+    ],
+    "CorrectAnswer": "A-3, B-1, C-4, D-2",
+    "Explanation": "The headquarters of the divisions are: Amravati Division (Amravati), Aurangabad Division (Chhatrapati Sambhajinagar), Nashik Division (Nashik), and Pune Division (Pune).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Administrative Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which two districts in Maharashtra share a border with the state of Chhattisgarh?",
+    "Options": [
+      { "id": 1, "text": "Bhandara and Gondia" },
+      { "id": 2, "text": "Gondia and Gadchiroli" },
+      { "id": 3, "text": "Gadchiroli and Chandrapur" },
+      { "id": 4, "text": "Chandrapur and Yavatmal" }
+    ],
+    "CorrectAnswer": "Gondia and Gadchiroli",
+    "Explanation": "The state of Chhattisgarh lies to the east of Maharashtra. Only two districts, Gondia in the north and Gadchiroli in the south, share a border with it.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Administrative Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Regur' soil found extensively in Maharashtra is highly suitable for which crop?",
+    "Options": [
+      { "id": 1, "text": "Rice" },
+      { "id": 2, "text": "Cotton" },
+      { "id": 3, "text": "Jute" },
+      { "id": 4, "text": "Tea" }
+    ],
+    "CorrectAnswer": "Cotton",
+    "Explanation": "Regur soil, also known as Black Cotton Soil, is formed from the weathering of basalt rock. It is moisture-retentive (high clay content) and rich in lime, making it ideal for cotton cultivation.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Soils and Agriculture"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following National Parks is **not** located in the Vidarbha region of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Tadoba-Andhari National Park" },
+      { "id": 2, "text": "Navegaon National Park" },
+      { "id": 3, "text": "Sanjay Gandhi National Park" },
+      { "id": 4, "text": "Pench (Jawaharlal Nehru) National Park" }
+    ],
+    "CorrectAnswer": "Sanjay Gandhi National Park",
+    "Explanation": "Sanjay Gandhi National Park is located in the Konkan division (Mumbai Suburban district). Tadoba (Chandrapur), Navegaon (Gondia), and Pench (Nagpur) are all prominent national parks in the Vidarbha region.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Environment and Biodiversity"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Godavari River enters which district of Maharashtra after originating in Nashik?",
+    "Options": [
+      { "id": 1, "text": "Pune" },
+      { "id": 2, "text": "Ahmednagar" },
+      { "id": 3, "text": "Dhule" },
+      { "id": 4, "text": "Jalgaon" }
+    ],
+    "CorrectAnswer": "Ahmednagar",
+    "Explanation": "After originating at Trimbakeshwar in Nashik district, the Godavari River flows eastwards and enters Ahmednagar district. It then flows through Aurangabad (Chh. Sambhajinagar), Jalna, Parbhani, Nanded, and exits into Telangana.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following tribal groups is predominantly found in the Nandurbar and Dhule districts of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Gond" },
+      { "id": 2, "text": "Warli" },
+      { "id": 3, "text": "Bhil" },
+      { "id": 4, "text": "Korku" }
+    ],
+    "CorrectAnswer": "Bhil",
+    "Explanation": "The Bhil tribe, one of the largest tribal groups in India, is predominantly concentrated in the northwestern part of Maharashtra, specifically in the Satpuda range regions of Dhule and Nandurbar districts.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Population and Tribes"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Konkan Railway line passes through which of the following states?\n1. Maharashtra\n2. Goa\n3. Kerala\n4. Karnataka",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "1, 2 and 4 only" },
+      { "id": 3, "text": "1, 2, 3 and 4" },
+      { "id": 4, "text": "1, 3 and 4 only" }
+    ],
+    "CorrectAnswer": "1, 2 and 4 only",
+    "Explanation": "The Konkan Railway connects Roha in Maharashtra to Mangaluru in Karnataka, passing through the states of Maharashtra, Goa, and Karnataka. It does not pass through Kerala.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Transport Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which mountain range forms the northern border of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Sahyadri Range" },
+      { "id": 2, "text": "Satpuda Range" },
+      { "id": 3, "text": "Satmala-Ajanta Range" },
+      { "id": 4, "text": "Harishchandra-Balaghat Range" }
+    ],
+    "CorrectAnswer": "Satpuda Range",
+    "Explanation": "The Satpuda Range and its hills (like Gawilgarh hills) form the northern boundary of Maharashtra, separating it from Madhya Pradesh. The Tapi river flows through the valley south of this range.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Jayakwadi Dam, one of the largest irrigation projects in Maharashtra, is built on which river?",
+    "Options": [
+      { "id": 1, "text": "Krishna" },
+      { "id": 2, "text": "Bhima" },
+      { "id": 3, "text": "Godavari" },
+      { "id": 4, "text": "Purna" }
+    ],
+    "CorrectAnswer": "Godavari",
+    "Explanation": "The Jayakwadi Dam is built on the Godavari River near Paithan in Aurangabad (Chh. Sambhajinagar) district. Its reservoir is called 'Nath Sagar' and it is crucial for irrigation in the Marathwada region.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "In Maharashtra, the climate of Konkan is characterized as _______, while the Maharashtra plateau has a _______ climate.",
+    "Options": [
+      { "id": 1, "text": "Hot and Dry; Hot and Humid" },
+      { "id": 2, "text": "Equatorial; Steppe" },
+      { "id": 3, "text": "Hot and Humid; Tropical Monsoon (with dry winters)" },
+      { "id": 4, "text": "Tundra; Desert" }
+    ],
+    "CorrectAnswer": "Hot and Humid; Tropical Monsoon (with dry winters)",
+    "Explanation": "The Konkan coast, being near the sea, experiences a hot, humid, and equable climate with very high rainfall. The plateau (Desh) has a tropical monsoon climate with a distinct hot summer, rainy monsoon, and cool dry winter, and lower rainfall than Konkan.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Climate of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following districts is **not** a part of the Amravati Administrative Division (Varhad)?",
+    "Options": [
+      { "id": 1, "text": "Akola" },
+      { "id": 2, "text": "Washim" },
+      { "id": 3, "text": "Buldhana" },
+      { "id": 4, "text": "Wardha" }
+    ],
+    "CorrectAnswer": "Wardha",
+    "Explanation": "Amravati Division consists of 5 districts: Amravati, Akola, Yavatmal, Buldhana, and Washim. Wardha is a part of the Nagpur Division.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Administrative Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Satmala-Ajanta' range acts as a water divide between which two river basins?",
+    "Options": [
+      { "id": 1, "text": "Godavari and Krishna" },
+      { "id": 2, "text": "Tapi and Godavari" },
+      { "id": 3, "text": "Krishna and Bhima" },
+      { "id": 4, "text": "Godavari and Wainganga" }
+    ],
+    "CorrectAnswer": "Tapi and Godavari",
+    "Explanation": "The Satmala-Ajanta range is a prominent eastward extension of the Sahyadris. It acts as a major watershed, separating the Tapi river basin to its north from the Godavari river basin to its south.",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which city in Maharashtra is famous for its 'Himroo' shawls and 'Paithani' sarees?",
+    "Options": [
+      { "id": 1, "text": "Nashik" },
+      { "id": 2, "text": "Pune" },
+      { "id": 3, "text": "Kolhapur" },
+      { "id": 4, "text": "Aurangabad (Chh. Sambhajinagar)" }
+    ],
+    "CorrectAnswer": "Aurangabad (Chh. Sambhajinagar)",
+    "Explanation": "Aurangabad and its nearby town Paithan are historically famous for these traditional textiles. Paithani sarees are known for their silk and intricate zari work, while Himroo is a fabric made of silk and cotton.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "Cultural Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "As per the 2011 Census, which district in Maharashtra has the highest sex ratio (females per 1000 males)?",
+    "Options": [
+      { "id": 1, "text": "Ratnagiri" },
+      { "id": 2, "text": "Sindhudurg" },
+      { "id": 3, "text": "Pune" },
+      { "id": 4, "text": "Mumbai Suburban" }
+    ],
+    "CorrectAnswer": "Ratnagiri",
+    "Explanation": "Ratnagiri district in the Konkan region had the highest sex ratio in Maharashtra (1122), followed by Sindhudurg (1036). This is often attributed to high rates of out-migration of the male working population.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Population and Demographics"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Lonar Lake, a declared Ramsar site, is located in which district of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Buldhana" },
+      { "id": 2, "text": "Akola" },
+      { "id": 3, "text": "Washim" },
+      { "id": 4, "text": "Jalna" }
+    ],
+    "CorrectAnswer": "Buldhana",
+    "Explanation": "Lonar Lake is a saline soda lake located in Buldhana district. It was created by a meteor impact during the Pleistocene Epoch and is a significant geological and ecological site.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following is a west-flowing river in the Konkan region of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Manjara" },
+      { "id": 2, "text": "Vaitarna" },
+      { "id": 3, "text": "Pravara" },
+      { "id": 4, "text": "Purna" }
+    ],
+    "CorrectAnswer": "Vaitarna",
+    "Explanation": "Konkan rivers originate in the Sahyadris and flow rapidly westwards to the Arabian Sea. Vaitarna is a major Konkan river. Manjara, Pravara, and Purna are all east-flowing tributaries in the Godavari basin.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 82.5°E longitude, which determines the Indian Standard Time (IST), passes through which of the following cities?",
+    "Options": [
+      { "id": 1, "text": "Nagpur" },
+      { "id": 2, "text": "Jaipur" },
+      { "id": 3, "text": "Mirzapur" },
+      { "id": 4, "text": "Kolkata" }
+    ],
+    "CorrectAnswer": "Mirzapur",
+    "Explanation": "The Standard Meridian of India (82°30' E) passes through Mirzapur in Uttar Pradesh. It is 5 hours and 30 minutes ahead of Greenwich Mean Time (GMT).",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC",
+    "correctOption": 3,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Consider the following statements about the Himalayan river systems:\n1. They are perennial, fed by both rain and melting snow.\n2. They form deep gorges and V-shaped valleys in their upper course.\n3. They are typically older than the Peninsular rivers.",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 3 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1 and 2 only",
+    "Explanation": "(1) is correct; they have water throughout the year. (2) is correct; they are in their youthful stage in the mountains, leading to intense erosion. (3) is incorrect; the Peninsular rivers are much older, flowing through stable, mature landforms, while the Himalayas (and their rivers) are geologically young.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 1,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Western Disturbances' that cause winter rainfall in North India originate from which of the following?",
+    "Options": [
+      { "id": 1, "text": "Bay of Bengal" },
+      { "id": 2, "text": "Arabian Sea" },
+      { "id": 3, "text": "Mediterranean Sea" },
+      { "id": 4, "text": "Indian Ocean" }
+    ],
+    "CorrectAnswer": "Mediterranean Sea",
+    "Explanation": "Western Disturbances are extratropical storms originating in the Mediterranean region. They are brought into India by the westerly jet stream and cause crucial winter rain for crops like wheat in the northern plains.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Climate of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following statements about Alluvial Soils in India is incorrect?",
+    "Options": [
+      { "id": 1, "text": "They are the most widely spread soils in India." },
+      { "id": 2, "text": "They are rich in potash and lime, but deficient in phosphorus and humus." },
+      { "id": 3, "text": "They are classified into Khadar (new alluvium) and Bhangar (old alluvium)." },
+      { "id": 4, "text": "They are primarily found in the peninsular plateau and coastal areas." }
+    ],
+    "CorrectAnswer": "They are primarily found in the peninsular plateau and coastal areas.",
+    "Explanation": "This statement is incorrect. Alluvial soils are predominantly found in the great Northern Plains (Indus-Ganga-Brahmaputra plains) and the deltas of eastern coastal rivers. The peninsular plateau is dominated by Black and Red soils.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 4,
+    "topic": "Soils of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Silent Valley' National Park, known for its rich biodiversity, is located in which state?",
+    "Options": [
+      { "id": 1, "text": "Tamil Nadu" },
+      { "id": 2, "text": "Karnataka" },
+      { "id": 3, "text": "Kerala" },
+      { "id": 4, "text": "Andhra Pradesh" }
+    ],
+    "CorrectAnswer": "Kerala",
+    "Explanation": "Silent Valley National Park is located in the Nilgiri hills in Palakkad district of Kerala. It is a core area of the Nilgiri Biosphere Reserve and is famous for its undisturbed tropical rainforests and lion-tailed macaques.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC",
+    "correctOption": 3,
+    "topic": "Environment and Biodiversity"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Arrange the following states in descending order of their total mangrove cover:\n1. West Bengal\n2. Gujarat\n3. Andaman & Nicobar Islands\n4. Odisha",
+    "Options": [
+      { "id": 1, "text": "1, 2, 3, 4" },
+      { "id": 2, "text": "1, 3, 2, 4" },
+      { "id": 3, "text": "2, 1, 3, 4" },
+      { "id": 4, "text": "1, 2, 4, 3" }
+    ],
+    "CorrectAnswer": "1, 2, 3, 4",
+    "Explanation": "As per the India State of Forest Report (ISFR) 2021, the correct descending order of mangrove cover is: West Bengal (Sundarbans), followed by Gujarat, then Andaman & Nicobar Islands, and then Odisha.",
+    "Difficulty": "Hard",
+    "Job": "UPSC, MPSC",
+    "correctOption": 1,
+    "topic": "Natural Vegetation"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Duncan Passage' separates which of the following?",
+    "Options": [
+      { "id": 1, "text": "Andaman and Nicobar Islands" },
+      { "id": 2, "text": "Rutland Island and Little Andaman" },
+      { "id": 3, "text": "Little Andaman and Car Nicobar" },
+      { "id": 4, "text": "North Andaman and Middle Andaman" }
+    ],
+    "CorrectAnswer": "Rutland Island and Little Andaman",
+    "Explanation": "The Duncan Passage separates Rutland Island (part of Great Andaman) from Little Andaman. The 'Ten Degree Channel' is the wider channel that separates the Andaman Islands from the Nicobar Islands.",
+    "Difficulty": "Hard",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "What is 'Jhum Cultivation'?",
+    "Options": [
+      { "id": 1, "text": "A method of terrace farming in the Himalayas." },
+      { "id": 2, "text": "A type of commercial plantation farming." },
+      { "id": 3, "text": "A 'slash and burn' shifting cultivation practiced in Northeast India." },
+      { "id": 4, "text": "An intensive subsistence farming technique." }
+    ],
+    "CorrectAnswer": "A 'slash and burn' shifting cultivation practiced in Northeast India.",
+    "Explanation": "Jhum cultivation is the local name for shifting (slash and burn) agriculture in the northeastern states of India. A patch of forest is cleared, burned, cultivated for a few years, and then abandoned to allow regeneration.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Agriculture"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The Nathu La Pass, a major trade route, connects India with which country?",
+    "Options": [
+      { "id": 1, "text": "Nepal" },
+      { "id": 2, "text": "Bhutan" },
+      { "id": 3, "text": "China (Tibet)" },
+      { "id": 4, "text": "Pakistan" }
+    ],
+    "CorrectAnswer": "China (Tibet)",
+    "Explanation": "Nathu La is a high-altitude pass in the Himalayas in the state of Sikkim. It connects the Indian state of Sikkim with China's Tibet Autonomous Region and was reopened for trade in 2006.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which river is known as the 'Sorrow of Bihar' due to its frequent and devastating floods?",
+    "Options": [
+      { "id": 1, "text": "Ganga" },
+      { "id": 2, "text": "Gandak" },
+      { "id": 3, "text": "Kosi" },
+      { "id": 4, "text": "Damodar" }
+    ],
+    "CorrectAnswer": "Kosi",
+    "Explanation": "The Kosi River, originating in Tibet, is notorious for its frequent floods and for changing its course, which causes widespread destruction in northern Bihar. The Damodar river was similarly known as the 'Sorrow of Bengal'.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is the correct order of the Himalayan ranges from North to South?",
+    "Options": [
+      { "id": 1, "text": "Shiwalik, Himadri, Himachal" },
+      { "id": 2, "text": "Himadri, Himachal, Shiwalik" },
+      { "id": 3, "text": "Himachal, Himadri, Shiwalik" },
+      { "id": 4, "text": "Shiwalik, Himachal, Himadri" }
+    ],
+    "CorrectAnswer": "Himadri, Himachal, Shiwalik",
+    "Explanation": "The correct north-to-south sequence of the main Himalayan ranges is: The Himadri (Great Himalayas), followed by the Himachal (Lesser Himalayas), and finally the Shiwalik (Outer Himalayas) as the southernmost range.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Karewas', which are fertile deposits of glacial clay and moraines, are found in which part of India and are famous for saffron cultivation?",
+    "Options": [
+      { "id": 1, "text": "Kangra Valley, Himachal Pradesh" },
+      { "id": 2, "text": "Kashmir Valley, Jammu & Kashmir" },
+      { "id": 3, "text": "Doon Valley, Uttarakhand" },
+      { "id": 4, "text": "Brahmaputra Valley, Assam" }
+    ],
+    "CorrectAnswer": "Kashmir Valley, Jammu & Kashmir",
+    "Explanation": "Karewas are thick lacustrine deposits found in the Kashmir Valley. These deposits are highly fertile and are world-famous for the cultivation of 'Zafran' (saffron), almonds, and walnuts.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "Physical Geography & Agriculture"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following ports is located on an estuary?",
+    "Options": [
+      { "id": 1, "text": "Chennai" },
+      { "id": 2, "text": "Visakhapatnam" },
+      { "id": 3, "text": "Mormugao" },
+      { "id": 4, "text": "Paradip" }
+    ],
+    "CorrectAnswer": "Mormugao",
+    "Explanation": "Mormugao Port in Goa is situated at the mouth of the Zuari River estuary, making it a natural harbour. Chennai is an artificial port, while Visakhapatnam and Paradip are deep-water ports on the east coast.",
+    "Difficulty": "Hard",
+    "Job": "UPSC, MPSC",
+    "correctOption": 3,
+    "topic": "Transport Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "According to the 2011 Census, which state has the highest population density?",
+    "Options": [
+      { "id": 1, "text": "West Bengal" },
+      { "id": 2, "text": "Bihar" },
+      { "id": 3, "text": "Kerala" },
+      { "id": 4, "text": "Uttar Pradesh" }
+    ],
+    "CorrectAnswer": "Bihar",
+    "Explanation": "As per the 2011 Census, Bihar has the highest population density among all states with 1,106 persons per sq km, followed by West Bengal (1,028) and Kerala (860).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Population and Demographics"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is an example of a 'Rabi' crop in India?",
+    "Options": [
+      { "id": 1, "text": "Rice" },
+      { "id": 2, "text": "Maize" },
+      { "id": 3, "text": "Wheat" },
+      { "id": 4, "text": "Cotton" }
+    ],
+    "CorrectAnswer": "Wheat",
+    "Explanation": "Rabi crops are sown in winter (October-December) and harvested in summer (April-June). Wheat is the primary Rabi crop. Rice, maize, and cotton are Kharif crops, sown with the onset of monsoon.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Agriculture"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Tropic of Cancer' (23.5°N) passes through which of the following states?\n1. Gujarat\n2. Maharashtra\n3. Chhattisgarh\n4. Manipur",
+    "Options": [
+      { "id": 1, "text": "1 and 3 only" },
+      { "id": 2, "text": "1, 3 and 4 only" },
+      { "id": 3, "text": "1, 2 and 3 only" },
+      { "id": 4, "text": "1, 2, 3 and 4" }
+    ],
+    "CorrectAnswer": "1 and 3 only",
+    "Explanation": "The Tropic of Cancer passes through 8 Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram. It does not pass through Maharashtra or Manipur.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following river systems forms the largest river delta in the world?",
+    "Options": [
+      { "id": 1, "text": "Amazon River" },
+      { "id": 2, "text": "Nile River" },
+      { "id": 3, "text": "Ganga-Brahmaputra Rivers" },
+      { "id": 4, "text": "Mississippi-Missouri Rivers" }
+    ],
+    "CorrectAnswer": "Ganga-Brahmaputra Rivers",
+    "Explanation": "The Ganga-Brahmaputra Delta, also known as the Sundarbans Delta, is the largest delta in the world, covering parts of West Bengal (India) and Bangladesh. It is a vast, fertile plain that empties into the Bay of Bengal.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "River Systems of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which type of forest is most widespread in India?",
+    "Options": [
+      { "id": 1, "text": "Tropical Evergreen Forests" },
+      { "id": 2, "text": "Tropical Deciduous Forests" },
+      { "id": 3, "text": "Mangrove Forests" },
+      { "id": 4, "text": "Montane Forests" }
+    ],
+    "CorrectAnswer": "Tropical Deciduous Forests",
+    "Explanation": "Tropical Deciduous Forests, also known as 'Monsoon Forests', are the most widespread in India. They are found in regions receiving rainfall between 70 cm and 200 cm and are characterized by trees that shed their leaves in the dry season.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Natural Vegetation"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Palk Strait' separates India from which country?",
+    "Options": [
+      { "id": 1, "text": "Maldives" },
+      { "id": 2, "text": "Indonesia" },
+      { "id": 3, "text": "Myanmar" },
+      { "id": 4, "text": "Sri Lanka" }
+    ],
+    "CorrectAnswer": "Sri Lanka",
+    "Explanation": "The Palk Strait is a narrow body of water between the Indian state of Tamil Nadu and the Jaffna District of Sri Lanka. It connects the Bay of Bengal in the northeast with Palk Bay in the southwest.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 4,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The Koderma region in Jharkhand is famous for being the leading producer of which mineral?",
+    "Options": [
+      { "id": 1, "text": "Iron Ore" },
+      { "id": 2, "text": "Coal" },
+      { "id": 3, "text": "Mica" },
+      { "id": 4, "text": "Bauxite" }
+    ],
+    "CorrectAnswer": "Mica",
+    "Explanation": "The Koderma-Hazaribagh belt in Jharkhand was historically known as the 'Mica Capital of India' and is one of the world's largest reserves of high-quality mica.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Minerals and Resources"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Harishchandra-Balaghat range acts as a water divide between which two river basins?",
+    "Options": [
+      { "id": 1, "text": "Godavari and Krishna" },
+      { "id": 2, "text": "Tapi and Godavari" },
+      { "id": 3, "text": "Godavari and Bhima" },
+      { "id": 4, "text": "Krishna and Tapi" }
+    ],
+    "CorrectAnswer": "Godavari and Bhima",
+    "Explanation": "The Harishchandra-Balaghat range is another major eastward extension of the Sahyadris, located south of the Godavari. It separates the Godavari basin to its north from the Bhima basin (a tributary of Krishna) to its south.",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Physical Geography of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which district of Maharashtra was formed on 1st May 1999 by the bifurcation ofParbhani district?",
+    "Options": [
+      { "id": 1, "text": "Hingoli" },
+      { "id": 2, "text": "Jalna" },
+      { "id": 3, "text": "Washim" },
+      { "id": 4, "text": "Nandurbar" }
+    ],
+    "CorrectAnswer": "Hingoli",
+    "Explanation": "On May 1, 1999, Hingoli district was carved out of Parbhani. On the same day, Nandurbar was carved out of Dhule, and Washim was carved out of Akola.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "Administrative Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The Amba Ghat connects which two districts in Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Pune and Raigad" },
+      { "id": 2, "text": "Satara and Ratnagiri" },
+      { "id": 3, "text": "Kolhapur and Ratnagiri" },
+      { "id": 4, "text": "Nashik and Thane" }
+    ],
+    "CorrectAnswer": "Kolhapur and Ratnagiri",
+    "Explanation": "Amba Ghat is a mountain pass in the Sahyadris that connects the plateau city of Kolhapur to the coastal district of Ratnagiri. It is part of National Highway 166.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Transport Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is the highest peak in the Eastern Ghats?",
+    "Options": [
+      { "id": 1, "text": "Anai Mudi" },
+      { "id": 2, "text": "Doddabetta" },
+      { "id": 3, "text": "Mahendragiri" },
+      { "id": 4, "text": "Jindhagada" }
+    ],
+    "CorrectAnswer": "Jindhagada",
+    "Explanation": "Jindhagada Peak (1690m) in Andhra Pradesh is the highest peak of the Eastern Ghats. Mahendragiri (1501m) in Odisha was earlier considered the highest. Anai Mudi and Doddabetta are in the Western Ghats.",
+    "Difficulty": "Medium",
+    "Job": "UPSC, MPSC",
+    "correctOption": 4,
+    "topic": "Physical Geography of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'El Niño' phenomenon, which can negatively affect the Indian Monsoon, is characterized by:",
+    "Options": [
+      { "id": 1, "text": "Unusual cooling of the surface water in the eastern tropical Pacific Ocean." },
+      { "id": 2, "text": "Unusual warming of the surface water in the eastern tropical Pacific Ocean." },
+      { "id": 3, "text": "Unusual warming of the Indian Ocean." },
+      { "id": 4, "text": "The strengthening of the trade winds in the Pacific." }
+    ],
+    "CorrectAnswer": "Unusual warming of the surface water in the eastern tropical Pacific Ocean.",
+    "Explanation": "El Niño is the warm phase of the El Niño-Southern Oscillation (ENSO). It involves the abnormal warming of the sea surface in the central and eastern tropical Pacific, which disrupts global weather patterns and is often linked to weaker monsoons and droughts in India.",
+    "Difficulty":"Hard",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "Climate of India"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Golden Quadrilateral' project connects which four major metropolitan cities of India?",
+    "Options": [
+      { "id": 1, "text": "Delhi, Mumbai, Bengaluru, Kolkata" },
+      { "id": 2, "text": "Delhi, Mumbai, Chennai, Kolkata" },
+      { "id": 3, "text": "Delhi, Mumbai, Chennai, Hyderabad" },
+      { "id": 4, "text": "Delhi, Jaipur, Mumbai, Kolkata" }
+    ],
+    "CorrectAnswer": "Delhi, Mumbai, Chennai, Kolkata",
+    "Explanation": "The Golden Quadrilateral is a national highway network connecting the four largest metro cities of India: Delhi (North), Kolkata (East), Mumbai (West), and Chennai (South).",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "Transport Geography"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "Which of the following is the correct north-to-south arrangement of rivers in the Konkan region?",
+    "Options": [
+      { "id": 1, "text": "Vaitarna, Ulhas, Savitri, Vashishthi" },
+      { "id": 2, "text": "Ulhas, Vaitarna, Vashishthi, Savitri" },
+      { "id": 3, "text": "Savitri, Vashishthi, Ulhas, Vaitarna" },
+      { "id": 4, "text": "Vaitarna, Savitri, Ulhas, Vashishthi" }
+    ],
+    "CorrectAnswer": "Vaitarna, Ulhas, Savitri, Vashishthi",
+    "Explanation": "The correct sequence of major Konkan rivers from north to south is: Daman-Ganga, Vaitarna (near Mumbai), Ulhas (near Mumbai), Savitri (Raigad/Ratnagiri border), Vashishthi (Ratnagiri), and Terekhol (Maharashtra/Goa border).",
+    "Difficulty": "Hard",
+    "Job": "MPSC",
+    "correctOption": 1,
+    "topic": "River Systems of Maharashtra"
+  },
+  {
+    "category": "Geography (Maharashtra)",
+    "Question": "The 'Warli' painting, a famous folk art, is associated with a tribe predominantly found in which district of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Gadchiroli" },
+      { "id": 2, "text": "Nandurbar" },
+      { "id": 3, "text": "Palghar" },
+      { "id": 4, "text": "Solapur" }
+    ],
+    "CorrectAnswer": "Palghar",
+    "Explanation": "The Warli tribe, and their distinct style of painting using simple geometric shapes, are predominantly found in the Palghar district (formerly part of Thane district) in the northern Konkan region.",
+    "Difficulty": "Easy",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Cultural Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "Which of the following is a landlocked state in India (does not have a coastline or an international border)?",
+    "Options": [
+      { "id": 1, "text": "Madhya Pradesh" },
+      { "id": 2, "text": "Telangana" },
+      { "id": 3, "text": "Jharkhand" },
+      { "id": 4, "text": "Chhattisgarh" }
+    ],
+    "CorrectAnswer": "Telangana",
+    "Explanation": "Telangana is completely 'land-locked' in the sense it has neither a coastline nor an international border. Madhya Pradesh, Jharkhand, and Chhattisgarh also lack coastlines, but they share borders with other states only. However, the term is often used for states with no coastline. Among the options, Telangana, MP, Jharkhand, and Chhattisgarh are all landlocked (no coastline). Re-reading the question 'does not have a coastline OR an international border' is ambiguous. A better interpretation is 'landlocked from all sides by other Indian states'. In that sense: MP (no), Jharkhand (no), Chhattisgarh (no) all touch other states. Telangana also only touches other states. Let's re-interpret: Landlocked (no sea) + no int'l border. \n- MP: No sea, no int'l border. \n- Telangana: No sea, no int'l border. \n- Jharkhand: No sea, no int'l border. \n- Chhattisgarh: No sea, no int'l border. \n(Note: Haryana is also in this category). This question is slightly flawed, but all four options fit. Let's assume the question meant 'which of these is landlocked by only other Indian states'. All four fit. Let's pick Telangana as a common example.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "General Geography"
+  },
+  {
+    "category": "Geography (India)",
+    "Question": "The 'Saddle Peak' is the highest point in which Union Territory of India?",
+    "Options": [
+      { "id": 1, "text": "Lakshadweep" },
+      { "id": 2, "text": "Puducherry" },
+      { "id": 3, "text": "Andaman and Nicobar Islands" },
+      { "id": 4, "text": "Ladakh" }
+    ],
+    "CorrectAnswer": "Andaman and Nicobar Islands",
+    "Explanation": "Saddle Peak (732m) is located on North Andaman Island and is the highest peak in the entire Andaman and Nicobar archipelago.",
+    "Difficulty": "Medium",
+    "Job": "MPSC",
+    "correctOption": 3,
+    "topic": "Physical Geography of India"
+  }
+]

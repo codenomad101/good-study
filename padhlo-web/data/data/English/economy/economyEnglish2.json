@@ -1,0 +1,1553 @@
+[
+    {
+      "category": "Indian Economy",
+      "Question": "What does the 'Cash Reserve Ratio (CRR)' mean?",
+      "Options": [
+        { "id": 1, "text": "The share of deposits banks must lend to the government." },
+        { "id": 2, "text": "The share of deposits banks must keep with the RBI as cash." },
+        { "id": 3, "text": "The share of deposits banks must keep with themselves in liquid assets." },
+        { "id": 4, "text": "The interest rate RBI charges banks." }
+      ],
+      "CorrectAnswer": "The share of deposits banks must keep with the RBI as cash.",
+      "Explanation": "CRR is a monetary policy tool where commercial banks must keep a certain percentage of their Net Demand and Time Liabilities (NDTL) with the RBI in the form of cash, on which the RBI pays no interest.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Banking & Monetary Policy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "Which of the following is an example of a 'Direct Tax' in India?",
+      "Options": [
+        { "id": 1, "text": "Goods and Services Tax (GST)" },
+        { "id": 2, "text": "Customs Duty" },
+        { "id": 3, "text": "Personal Income Tax" },
+        { "id": 4, "text": "Excise Duty" }
+      ],
+      "CorrectAnswer": "Personal Income Tax",
+      "Explanation": "A direct tax is a tax whose liability cannot be shifted to someone else. The person who pays the tax bears the burden. Personal Income Tax and Corporate Tax are examples. GST, Customs, etc., are indirect taxes.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Fiscal Policy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "'Rabi' crops in India are typically harvested in which season?",
+      "Options": [
+        { "id": 1, "text": "Spring (March-June)" },
+        { "id": 2, "text": "Monsoon (August-October)" },
+        { "id": 3, "text": "Winter (December-February)" },
+        { "id": 4, "text": "Autumn (September-November)" }
+      ],
+      "CorrectAnswer": "Spring (March-June)",
+      "Explanation": "Rabi crops (like wheat, gram, barley) are sown in the winter season (Oct-Dec) and are harvested in the spring season (March-June).",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Agriculture"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Monopolies and Restrictive Trade Practices (MRTP) Act, 1969' was repealed and replaced by which act?",
+      "Options": [
+        { "id": 1, "text": "The Competition Act, 2002" },
+        { "id": 2, "text": "The FEMA Act, 1999" },
+        { "id": 3, "text": "The FRBM Act, 2003" },
+        { "id": 4, "text": "The Companies Act, 2013" }
+      ],
+      "CorrectAnswer": "The Competition Act, 2002",
+      "Explanation": "The MRTP Act was designed to control monopolies. The 1991 reforms required a new law, so the Competition Act, 2002, was passed to promote and sustain competition, replacing the MRTP Act.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Economic Reforms"
+    },
+    {
+      "category": "Maharashtra Economy",
+      "Question": "The city of Nagpur in Maharashtra is famously known as the:",
+      "Options": [
+        { "id": 1, "text": "Wine Capital" },
+        { "id": 2, "text": "Orange City" },
+        { "id": 3, "text": "Sugar Belt" },
+        { "id": 4, "text": "Textile Hub" }
+      ],
+      "CorrectAnswer": "Orange City",
+      "Explanation": "Nagpur is a major trade center for oranges cultivated in the Vidarbha region and is renowned nationally and internationally as the 'Orange City'.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Maharashtra Economy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Lorenz Curve' is a graphical representation used to show:",
+      "Options": [
+        { "id": 1, "text": "The relationship between inflation and unemployment." },
+        { "id": 2, "text": "The distribution of income or wealth inequality." },
+        { "id": 3, "text": "The tax revenue collected at different tax rates." },
+        { "id": 4, "text": "The growth rate of the GDP over time." }
+      ],
+      "CorrectAnswer": "The distribution of income or wealth inequality.",
+      "Explanation": "The Lorenz Curve plots the cumulative percentage of income against the cumulative percentage of the population. The gap between this curve and the 'line of perfect equality' (45-degree line) shows the extent of inequality.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Poverty & Unemployment"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "'Special Drawing Rights (SDRs)' are an international reserve asset created by which institution?",
+      "Options": [
+        { "id": 1, "text": "The World Bank" },
+        { "id": 2, "text": "The International Monetary Fund (IMF)" },
+        { "id": 3, "text": "The World Trade Organization (WTO)" },
+        { "id": 4, "text": "The Asian Development Bank (ADB)" }
+      ],
+      "CorrectAnswer": "The International Monetary Fund (IMF)",
+      "Explanation": "SDRs were created by the IMF in 1969 to supplement member countries' official reserves. Its value is based on a basket of five major currencies. SDRs form a part of India's Forex reserves.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "External Sector"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The famous slogan 'Garibi Hatao' (Remove Poverty) was a central theme of which Five-Year Plan?",
+      "Options": [
+        { "id": 1, "text": "Third Five-Year Plan" },
+        { "id": 2, "text": "Fourth Five-Year Plan" },
+        { "id": 3, "text": "Fifth Five-Year Plan" },
+        { "id": 4, "text": "Sixth Five-Year Plan" }
+      ],
+      "CorrectAnswer": "Fifth Five-Year Plan",
+      "Explanation": "The 'Garibi Hatao' slogan was given by Indira Gandhi during the 1971 election campaign and was subsequently incorporated as the main objective of the Fifth Five-Year Plan (1974-79).",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Economic Planning"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'National Company Law Tribunal (NCLT)' was established as the primary authority for:",
+      "Options": [
+        { "id": 1, "text": "Stock market regulation." },
+        { "id": 2, "text": "Corporate insolvency and company disputes." },
+        { "id": 3, "text": "Banking regulation." },
+        { "id": 4, "text": "International trade disputes." }
+      ],
+      "CorrectAnswer": "Corporate insolvency and company disputes.",
+      "Explanation": "NCLT is a quasi-judicial body that adjudicates issues related to Indian companies. It is the key authority for insolvency proceedings under the Insolvency and Bankruptcy Code (IBC), 2016.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Industry"
+    },
+    {
+      "category": "Maharashtra Economy",
+      "Question": "The 'Dandekar Committee' (1984) was appointed by the Government of Maharashtra to study what issue?",
+      "Options": [
+        { "id": 1, "text": "Regional economic imbalance in the state." },
+        { "id": 2, "text": "Drought mitigation in Marathwada." },
+        { "id": 3, "text": "Industrial pollution in Mumbai." },
+        { "id": 4, "text": "The viability of the cooperative movement." }
+      ],
+      "CorrectAnswer": "Regional economic imbalance in the state.",
+      "Explanation": "The Dandekar Committee was set up to study the backlog and regional imbalances in development between Maharashtra's regions (Konkan, Western MH, Marathwada, Vidarbha).",
+      "Difficulty": "Hard",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Maharashtra Economy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "What is a 'Surcharge' in the Indian tax system?",
+      "Options": [
+        { "id": 1, "text": "A tax collected for a specific purpose (e.g., education)." },
+        { "id": 2, "text": "An additional charge or tax levied on an existing tax." },
+        { "id": 3, "text": "A discount for timely tax payment." },
+        { "id": 4, "text": "A tax shared equally between Centre and States." }
+      ],
+      "CorrectAnswer": "An additional charge or tax levied on an existing tax.",
+      "Explanation": "A surcharge is a 'tax on tax' levied as a percentage of the income tax payable. Unlike a Cess, the revenue from a surcharge goes to the Consolidated Fund of India and is not earmarked for a specific purpose.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Fiscal Policy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The headquarters of the 'National Dairy Development Board (NDDB)', the architect of Operation Flood, is located in:",
+      "Options": [
+        { "id": 1, "text": "New Delhi" },
+        { "id": 2, "text": "Mumbai, Maharashtra" },
+        { "id": 3, "text": "Anand, Gujarat" },
+        { "id": 4, "text": "Karnal, Haryana" }
+      ],
+      "CorrectAnswer": "Anand, Gujarat",
+      "Explanation": "NDDB, the institution that spearheaded the White Revolution and manages the 'Amul' brand, was founded in 1965 in Anand, Gujarat.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Agriculture"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Lakdawala Committee' (1993) was constituted to provide recommendations on:",
+      "Options": [
+        { "id": 1, "text": "Banking reforms" },
+        { "id": 2, "text": "Tax reforms" },
+        { "id": 3, "text": "Poverty estimation" },
+        { "id": 4, "text": "Industrial licensing" }
+      ],
+      "CorrectAnswer": "Poverty estimation",
+      "Explanation": "The Lakdawala Committee was a task force set up to review the methodology for estimating the poverty line in India. It recommended using state-specific poverty lines.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Poverty & Unemployment"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "What is the key difference between 'Balance of Trade (BOT)' and 'Balance of Payments (BOP)'?",
+      "Options": [
+        { "id": 1, "text": "BOT includes only goods; BOP includes goods, services, and capital." },
+        { "id": 2, "text": "BOT includes services; BOP includes only goods." },
+        { "id": 3, "text": "BOT is for one month; BOP is for five years." },
+        { "id": 4, "text": "There is no difference; they are the same." }
+      ],
+      "CorrectAnswer": "BOT includes only goods; BOP includes goods, services, and capital.",
+      "Explanation": "Balance of Trade (BOT) is a narrow concept that only records the import and export of visible goods. Balance of Payments (BOP) is a comprehensive record of all economic transactions, including goods, services (invisibles), and capital flows.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "External Sector"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Usha Thorat Committee' was constituted by the RBI to provide recommendations for:",
+      "Options": [
+        { "id": 1, "text": "Digital payments" },
+        { "id": 2, "text": "Monetary policy framework" },
+        { "id": 3, "text": "Licensing of Small Finance Banks" },
+        { "id": 4, "text": "Management of Forex reserves" }
+      ],
+      "CorrectAnswer": "Licensing of Small Finance Banks",
+      "Explanation": "The Usha Thorat Committee (2014) provided the framework and recommendations for licensing 'Small Finance Banks' in India, aimed at improving financial inclusion.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Banking & Monetary Policy"
+    },
+    {
+      "category": "Maharashtra Economy",
+      "Question": "Which two are the 'Major Ports' of Maharashtra, managed by the Union Government?",
+      "Options": [
+        { "id": 1, "text": "Mumbai Port and JNPT (Nhava Sheva)" },
+        { "id": 2, "text": "Dighi Port and Jaigad Port" },
+        { "id": 3, "text": "Rewas Port and Ratnagiri Port" },
+        { "id": 4, "text": "Mumbai Port and Vadhawan Port" }
+      ],
+      "CorrectAnswer": "Mumbai Port and JNPT (Nhava Sheva)",
+      "Explanation": "India has 13 Major Ports managed by the central government. Maharashtra has two: the old Mumbai Port and the Jawaharlal Nehru Port Trust (JNPT). Vadhawan is a newly approved major port.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Maharashtra Economy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Golden Fibre Revolution' in India is related to the production of:",
+      "Options": [
+        { "id": 1, "text": "Cotton" },
+        { "id": 2, "text": "Jute" },
+        { "id": 3, "text": "Silk" },
+        { "id": 4, "text": "Wheat" }
+      ],
+      "CorrectAnswer": "Jute",
+      "Explanation": "Jute is known as the 'Golden Fibre' due to its colour and economic value. The 'Golden Fibre Revolution' refers to the efforts to increase jute production in India.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Agriculture"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "What is 'Structural Unemployment'?",
+      "Options": [
+        { "id": 1, "text": "Unemployment that occurs when people are moving between jobs." },
+        { "id": 2, "text": "Unemployment that occurs due to seasonal changes (e.g., farming)." },
+        { "id": 3, "text": "Unemployment caused by a recession or downturn in the economy." },
+        { "id": 4, "text": "Unemployment due to a mismatch between available jobs and worker skills." }
+      ],
+      "CorrectAnswer": "Unemployment due to a mismatch between available jobs and worker skills.",
+      "Explanation": "Structural unemployment is a long-term form of unemployment caused by fundamental shifts in the economy, such as technological advancements (e.g., automation) that make certain skills obsolete.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 4,
+      "topic": "Poverty & Unemployment"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "What is the 'National Infrastructure Pipeline (NIP)'?",
+      "Options": [
+        { "id": 1, "text": "A new water grid connecting all major rivers." },
+        { "id": 2, "text": "A government-owned oil and gas pipeline." },
+        { "id": 3, "text": "A framework for investing in social and physical infrastructure projects." },
+        { "id": 4, "text": "A digital platform for all stock market investments." }
+      ],
+      "CorrectAnswer": "A framework for investing in social and physical infrastructure projects.",
+      "Explanation": "The NIP is a government initiative to provide a roadmap for investing over ₹100 lakh crore in infrastructure projects (like energy, roads, rail) over a specific period.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Industry"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "If the RBI wants to 'absorb liquidity' from the market, it will:",
+      "Options": [
+        { "id": 1, "text": "Sell government securities (OMO Sale)." },
+        { "id": 2, "text": "Buy government securities (OMO Purchase)." },
+        { "id": 3, "text": "Reduce the CRR." },
+        { "id": 4, "text": "Reduce the Repo Rate." }
+      ],
+      "CorrectAnswer": "Sell government securities (OMO Sale).",
+      "Explanation": "To absorb (soak up) excess money from the system, the RBI sells government securities. Banks buy these securities and give their money to the RBI, thus reducing the liquidity in the market.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Banking & Monetary Policy"
+    },
+    {
+      "category": "Maharashtra Economy",
+      "Question": "The 'Jalyukt Shivar Abhiyan' was a flagship scheme of the Maharashtra government aimed at:",
+      "Options": [
+        { "id": 1, "text": "Urban sanitation." },
+        { "id": 2, "text": "Inter-linking of rivers." },
+        { "id": 3, "text": "Making the state drought-proof through water conservation." },
+        { "id": 4, "text": "Promoting coastal tourism." }
+      ],
+      "CorrectAnswer": "Making the state drought-proof through water conservation.",
+      "Explanation": "Launched in 2014-15, the Jalyukt Shivar Abhiyan was a water conservation scheme focused on deepening and widening streams, building check dams, and harvesting rainwater to make villages water-sufficient.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Maharashtra Economy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'National Investment and Infrastructure Fund (NIIF)' is a:",
+      "Options": [
+        { "id": 1, "text": "A government-backed sovereign wealth fund." },
+        { "id": 2, "text": "A new pension scheme for government employees." },
+        { "id": 3, "text": "A regulator for the insurance sector." },
+        { "id": 4, "text": "A scheme for MSME loans." }
+      ],
+      "CorrectAnswer": "A government-backed sovereign wealth fund.",
+      "Explanation": "NIIF is India's first sovereign wealth fund, established to attract and channel investments (both domestic and international) into commercially viable infrastructure projects.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Fiscal Policy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Kelkar Committee' (2002) was primarily formed to provide recommendations on:",
+      "Options": [
+        { "id": 1, "text": "Monetary policy" },
+        { "id": 2, "text": "Tax structure reforms (Direct and Indirect)" },
+        { "id": 3, "text": "Agricultural distress" },
+        { "id": 4, "text": "Disinvestment of PSUs" }
+      ],
+      "CorrectAnswer": "Tax structure reforms (Direct and Indirect)",
+      "Explanation": "The Task Force on Direct and Indirect Taxes, chaired by Dr. Vijay Kelkar, was set up in 2002 to recommend comprehensive tax reforms. It was a precursor to the GST.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Fiscal Policy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'National Statistical Office (NSO)' was formed by merging the NSSO and which other organization?",
+      "Options": [
+        { "id": 1, "text": "NITI Aayog" },
+        { "id": 2, "text": "Central Statistics Office (CSO)" },
+        { "id": 3, "text": "Planning Commission" },
+        { "id": 4, "text": "Comptroller and Auditor General (CAG)" }
+      ],
+      "CorrectAnswer": "Central Statistics Office (CSO)",
+      "Explanation": "In 2019, the Government of India merged the National Sample Survey Office (NSSO) and the Central Statistics Office (CSO) to form the National Statistical Office (NSO), under the Ministry of Statistics and Programme Implementation.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "National Income"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "What is meant by 'Frictional Unemployment'?",
+      "Options": [
+        { "id": 1, "text": "Unemployment due to a mismatch of skills." },
+        { "id": 2, "text": "Unemployment during a recession." },
+        { "id": 3, "text": "Temporary unemployment when a person is moving between jobs." },
+        { "id": 4, "text": "Unemployment where a person's marginal productivity is zero." }
+      ],
+      "CorrectAnswer": "Temporary unemployment when a person is moving between jobs.",
+      "Explanation": "Frictional unemployment is the short-term unemployment that occurs as people transition between jobs, or as graduates enter the workforce. It is a natural part of a dynamic economy.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Poverty & Unemployment"
+    },
+    {
+      "category": "Maharashtra Economy",
+      "Question": "The 'Employment Guarantee Scheme (EGS)' was first introduced in India in which state?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Kerala" },
+        { "id": 3, "text": "West Bengal" },
+        { "id": 4, "text": "Maharashtra" }
+      ],
+      "CorrectAnswer": "Maharashtra",
+      "Explanation": "Maharashtra was the pioneer of the Employment Guarantee Scheme (EGS), which was launched in 1972-73 to provide gainful employment to the rural workforce. This scheme became the model for the national MGNREGA.",
+      "Difficulty": "Hard",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Maharashtra Economy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "What is the 'Vivad se Vishwas' scheme related to?",
+      "Options": [
+        { "id": 1, "text": "Settlement of disputed direct tax cases." },
+        { "id": 2, "text": "A new crop insurance scheme." },
+        { "id": 3, "text": "A pension scheme for street vendors." },
+        { "id": 4, "text": "Resolving corporate bankruptcy." }
+      ],
+      "CorrectAnswer": "Settlement of disputed direct tax cases.",
+      "Explanation": "The 'Vivad se Vishwas' (From Dispute to Trust) scheme was launched by the government to provide a one-time window for taxpayers to settle their outstanding direct tax disputes by paying a reduced amount, thereby reducing litigation.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Fiscal Policy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Urjit Patel Committee' (2014) provided a new framework for:",
+      "Options": [
+        { "id": 1, "text": "The Insolvency and Bankruptcy Code." },
+        { "id": 2, "text": "The Goods and Services Tax (GST)." },
+        { "id": 3, "text": "The Monetary Policy Framework (Inflation Targeting)." },
+        { "id": 4, "text": "The disinvestment of Air India." }
+      ],
+      "CorrectAnswer": "The Monetary Policy Framework (Inflation Targeting).",
+      "Explanation": "This committee, headed by then-Deputy Governor Dr. Urjit Patel, recommended that the RBI should adopt flexible 'inflation targeting' (CPI at 4% +/- 2%) as its primary objective, which led to the creation of the Monetary Policy Committee (MPC).",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Banking & Monetary Policy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Golden Quadrilateral' is a national highway network connecting which four major cities?",
+      "Options": [
+        { "id": 1, "text": "Srinagar, Kanyakumari, Porbandar, Silchar" },
+        { "id": 2, "text": "Delhi, Mumbai, Chennai, Kolkata" },
+        { "id": 3, "text": "Delhi, Jaipur, Ahmedabad, Mumbai" },
+        { "id": 4, "text": "Mumbai, Bengaluru, Hyderabad, Pune" }
+      ],
+      "CorrectAnswer": "Delhi, Mumbai, Chennai, Kolkata",
+      "Explanation": "The Golden Quadrilateral is a massive highway project that connects the four largest metropolitan cities of India: Delhi (North), Kolkata (East), Chennai (South), and Mumbai (West).",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Industry"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'e-Shram' portal is a national database for:",
+      "Options": [
+        { "id": 1, "text": "Farmers" },
+        { "id": 2, "text": "Unorganized workers" },
+        { "id": 3, "text": "MSME entrepreneurs" },
+        { "id": 4, "text": "Students seeking scholarships" }
+      ],
+      "CorrectAnswer": "Unorganized workers",
+      "Explanation": "The e-Shram portal was launched by the Ministry of Labour & Employment to create a national database of unorganized workers (e.g., gig workers, street vendors, construction workers) to link them with social security schemes.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Poverty & Unemployment"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Brown Revolution' is associated with:",
+      "Options": [
+        { "id": 1, "text": "Leather and Cocoa production" },
+        { "id": 2, "text": "Fertilizer production" },
+        { "id": 3, "text": "Potato production" },
+        { "id": 4, "text": "Milk production" }
+      ],
+      "CorrectAnswer": "Leather and Cocoa production",
+      "Explanation": "The Brown Revolution refers to the efforts to promote the production and processing of non-conventional energy sources, as well as leather and cocoa production.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Agriculture"
+    },
+    {
+      "category": "Maharashtra Economy",
+      "Question": "The 'Bombay Plan' of 1944, a major economic proposal, was authored by:",
+      "Options": [
+        { "id": 1, "text": "A group of prominent Indian industrialists" },
+        { "id": 2, "text": "The British colonial government" },
+        { "id": 3, "text": "Dr. B.R. Ambedkar" },
+        { "id": 4, "text": "The All-India Muslim League" }
+      ],
+      "CorrectAnswer": "A group of prominent Indian industrialists",
+      "Explanation": "The 'Bombay Plan' was a set of proposals for the post-independence economic development of India, authored by a group of leading industrialists and technocrats like J.R.D. Tata and G.D. Birla.",
+      "Difficulty": "Hard",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Maharashtra Economy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "What is the 'Current Account' in the Balance of Payments?",
+      "Options": [
+        { "id": 1, "text": "A record of all government spending." },
+        { "id": 2, "text": "A record of investments (FDI, FPI)." },
+        { "id": 3, "text": "A record of transactions in goods, services, and transfers." },
+        { "id": 4, "text": "A record of a country's total foreign debt." }
+      ],
+      "CorrectAnswer": "A record of transactions in goods, services, and transfers.",
+      "Explanation": "The Current Account records all transactions related to the trade of goods (Balance of Trade), services (invisibles like IT), income (profits, interest), and transfer payments (remittances).",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "External Sector"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Angel Tax' is a term used in the context of:",
+      "Options": [
+        { "id": 1, "text": "Taxes on religious institutions." },
+        { "id": 2, "text": "Tax on investments received by startups." },
+        { "id": 3, "text": "A tax on windfall profits of oil companies." },
+        { "id": 4, "text": "A tax on agricultural income." }
+      ],
+      "CorrectAnswer": "Tax on investments received by startups.",
+      "Explanation": "'Angel Tax' refers to the income tax levied on unlisted startups when they receive equity investment (from an 'angel investor') at a valuation higher than their 'fair market value'.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Fiscal Policy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Nachiket Mor Committee' (2013) is most famously associated with:",
+      "Options": [
+        { "id": 1, "text": "Comprehensive financial inclusion and Payments Banks." },
+        { "id": 2, "text": "Corporate tax reforms." },
+        { "id": 3, "text": "Agricultural loan waivers." },
+        { "id": 4, "text": "The Insolvency and Bankruptcy Code." }
+      ],
+      "CorrectAnswer": "Comprehensive financial inclusion and Payments Banks.",
+      "Explanation": "The 'Committee on Comprehensive Financial Services for Small Businesses and Low-Income Households', chaired by Nachiket Mor, provided the blueprint for 'Payments Banks' and 'Small Finance Banks'.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Banking & Monetary Policy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'National Food for Work Programme' was launched in 2004 and was later subsumed into which scheme?",
+      "Options": [
+        { "id": 1, "text": "Public Distribution System (PDS)" },
+        { "id": 2, "text": "Antyodaya Anna Yojana (AAY)" },
+        { "id": 3, "text": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)" },
+        { "id": 4, "text": "Pradhan Mantri Gram Sadak Yojana (PMGSY)" }
+      ],
+      "CorrectAnswer": "Mahatma Gandhi National Rural Employment Guarantee Act (MGNREGA)",
+      "Explanation": "The National Food for Work Programme (NFWP) was launched in 2004 to provide wage employment and food security. In 2005, it was fully subsumed into the NREGA (now MGNREGA).",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Poverty & Unemployment"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The term 'M0' and 'M3' in economics are measures of:",
+      "Options": [
+        { "id": 1, "text": "Taxation levels" },
+        { "id": 2, "text": "Poverty levels" },
+        { "id": 3, "text": "Money Supply" },
+        { "id": 4, "text": "Fiscal Deficit" }
+      ],
+      "CorrectAnswer": "Money Supply",
+      "Explanation": "M0, M1, M2, M3, and M4 are different measures of the total money supply in an economy. M0 is 'Reserve Money' (most liquid), and M3 is 'Broad Money' (the most common measure used in India).",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Banking & Monetary Policy"
+    },
+    {
+      "category": "Maharashtra Economy",
+      "Question": "The 'Jayakwadi Dam', one of Asia's largest earthen dams, is built on which river in the Marathwada region?",
+      "Options": [
+        { "id": 1, "text": "Godavari" },
+        { "id": 2, "text": "Krishna" },
+        { "id": 3, "text": "Bhima" },
+        { "id": 4, "text": "Tapi" }
+      ],
+      "CorrectAnswer": "Godavari",
+      "Explanation": "The Jayakwadi Dam is a major multipurpose project located on the Godavari River in Paithan, Chh. Sambhaji Nagar (Aurangabad) district. Its reservoir is called 'Nathsagar'.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 1,
+      "topic": "Maharashtra Economy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "What is 'Public Debt'?",
+      "Options": [
+        { "id": 1, "text": "Money owed by private companies to the public." },
+        { "id": 2, "text": "The total amount borrowed by the government." },
+        { "id": 3, "text": "The total value of all Public Sector Undertakings (PSUs)." },
+        { "id": 4, "text": "The total amount of non-performing assets (NPAs)." }
+      ],
+      "CorrectAnswer": "The total amount borrowed by the government.",
+      "Explanation": "Public Debt (or National Debt) is the total amount, including total liabilities, borrowed by the Union Government to meet its development and other expenditures.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Fiscal Policy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'National Skill Development Corporation (NSDC)' was set up as a:",
+      "Options": [
+        { "id": 1, "text": "Public-Private Partnership (PPP) company" },
+        { "id": 2, "text": "Fully government-owned corporation" },
+        { "id": 3, "text": "Fully private company" },
+        { "id": 4, "text": "Constitutional body" }
+      ],
+      "CorrectAnswer": "Public-Private Partnership (PPP) company",
+      "Explanation": "NSDC was set up by the Ministry of Finance as a not-for-profit Public-Private Partnership (PPP) company to promote skill development by catalyzing the creation of large, quality, for-profit vocational institutions.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Industry"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The term 'Jobless Growth' refers to a situation where:",
+      "Options": [
+        { "id": 1, "text": "The economy is in recession and jobs are lost." },
+        { "id": 2, "text": "The economy is growing (GDP rising), but employment is stagnant or falling." },
+        { "id": 3, "text": "Only the agricultural sector is creating jobs." },
+        { "id": 4, "text": "Wages are rising faster than GDP growth." }
+      ],
+      "CorrectAnswer": "The economy is growing (GDP rising), but employment is stagnant or falling.",
+      "Explanation": "Jobless growth is an economic phenomenon where a macroeconomic recovery or growth period does not produce a corresponding increase in employment opportunities.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Poverty & Unemployment"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Pradhan Mantri Gram Sadak Yojana (PMGSY)' was launched with the objective of:",
+      "Options": [
+        { "id": 1, "text": "Providing all-weather road connectivity to unconnected rural habitations." },
+        { "id": 2, "text": "Building highways connecting all state capitals." },
+        { "id": 3, "text": "Providing free bus service in rural areas." },
+        { "id": 4, "text": "Building houses for the rural poor." }
+      ],
+      "CorrectAnswer": "Providing all-weather road connectivity to unconnected rural habitations.",
+      "Explanation": "Launched in 2000, PMGSY is a massive program to provide good, all-weather road access to eligible unconnected villages in rural areas, improving transport, agriculture, and quality of life.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Agriculture"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "What is the 'Capital Account' in the Balance of Payments?",
+      "Options": [
+        { "id": 1, "text": "A record of all tax revenues." },
+        { "id": 2, "text": "A record of trade in goods and services." },
+        { "id": 3, "text": "A record of all international transactions in assets." },
+        { "id": 4, "text": "A record of government expenditure." }
+      ],
+      "CorrectAnswer": "A record of all international transactions in assets.",
+      "Explanation": "The Capital Account records all international capital transfers, which include Foreign Direct Investment (FDI), Foreign Portfolio Investment (FPI), external borrowings, and changes in forex reserves.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "External Sector"
+    },
+    {
+      "category": "Maharashtra Economy",
+      "Question": "Which district in the Vidarbha region of Maharashtra is a major hub for coal mining?",
+      "Options": [
+        { "id": 1, "text": "Amravati" },
+        { "id": 2, "text": "Akola" },
+        { "id": 3, "text": "Chandrapur" },
+        { "id": 4, "text": "Buldhana" }
+      ],
+      "CorrectAnswer": "Chandrapur",
+      "Explanation": "Chandrapur district is part of the Wardha Valley Coalfield and has a large number of coal mines (operated by Western Coalfields Ltd.) and associated thermal power plants, making it a key industrial center.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Maharashtra Economy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Financial Stability Report (FSR)' of India is a bi-annual publication by:",
+      "Options": [
+        { "id": 1, "text": "NITI Aayog" },
+        { "id": 2, "text": "Ministry of Finance" },
+        { "id": 3, "text": "Reserve Bank of India (RBI)" },
+        { "id": 4, "text": "World Bank" }
+      ],
+      "CorrectAnswer": "Reserve Bank of India (RBI)",
+      "Explanation": "The FSR is published twice a year by the RBI. It assesses the risks to the stability of the Indian financial system and is prepared by the Financial Stability and Development Council (FSDC) Sub-Committee.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Banking & Monetary Policy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "What is 'Primary Deficit'?",
+      "Options": [
+        { "id": 1, "text": "Fiscal Deficit minus Interest Payments" },
+        { "id": 2, "text": "Revenue Expenditure minus Revenue Receipts" },
+        { "id": 3, "text": "Total Expenditure minus Total Receipts" },
+        { "id": 4, "text": "Fiscal Deficit plus Interest Payments" }
+      ],
+      "CorrectAnswer": "Fiscal Deficit minus Interest Payments",
+      "Explanation": "Primary Deficit is the Fiscal Deficit of the current year minus the interest payments on previous borrowings. It shows the government's borrowing needs *excluding* the interest burden from past debts.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Fiscal Policy"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Per capita income' of a country is obtained by dividing its National Income by its:",
+      "Options": [
+        { "id": 1, "text": "Total working population" },
+        { "id": 2, "text": "Total population" },
+        { "id": 3, "text": "Area of the country" },
+        { "id": 4, "text": "Total number of households" }
+      ],
+      "CorrectAnswer": "Total population",
+      "Explanation": "Per capita income (PCI) or average income measures the average income earned per person in a given area (a city, region, country) in a specified year. It is calculated by dividing the total national income by the total population.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "National Income"
+    },
+    {
+      "category": "Indian Economy",
+      "Question": "The 'Silver Fibre Revolution' is associated with:",
+      "Options": [
+        { "id": 1, "text": "Eggs" },
+        { "id": 2, "text": "Silk" },
+        { "id": 3, "text": "Jute" },
+        { "id": 4, "text": "Cotton" }
+      ],
+      "CorrectAnswer": "Cotton",
+      "Explanation": "The 'Silver Fibre Revolution' refers to the significant growth in cotton production. 'Silver Revolution' is for Eggs, and 'Golden Fibre Revolution' is for Jute.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 4,
+      "topic": "Agriculture"
+    },{
+        "category": "Indian Economy",
+        "Question": "The 'Wholesale Price Index (WPI)' in India is published by which organization?",
+        "Options": [
+          { "id": 1, "text": "Reserve Bank of India (RBI)" },
+          { "id": 2, "text": "National Statistical Office (NSO)" },
+          { "id": 3, "text": "Office of the Economic Adviser, DPIIT" },
+          { "id": 4, "text": "NITI Aayog" }
+        ],
+        "CorrectAnswer": "Office of the Economic Adviser, DPIIT",
+        "Explanation": "The WPI is published monthly by the Office of the Economic Adviser, under the Department for Promotion of Industry and Internal Trade (DPIIT), Ministry of Commerce and Industry.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Inflation"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What is 'Fiscal Consolidation'?",
+        "Options": [
+          { "id": 1, "text": "The process of merging all government bank accounts." },
+          { "id": 2, "text": "The government's policy of reducing its fiscal deficit and public debt." },
+          { "id": 3, "text": "The process of increasing government spending to boost the economy." },
+          { "id": 4, "text": "The merging of public sector banks." }
+        ],
+        "CorrectAnswer": "The government's policy of reducing its fiscal deficit and public debt.",
+        "Explanation": "Fiscal consolidation is a set of policies aimed at improving the government's budget balance by reducing expenditures or increasing revenues, with the goal of bringing down the fiscal deficit.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Fiscal Policy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What is 'Zaid'?",
+        "Options": [
+          { "id": 1, "text": "A major food crop." },
+          { "id": 2, "text": "A short agricultural season between Rabi and Kharif." },
+          { "id": 3, "text": "A type of irrigation." },
+          { "id": 4, "text": "A new high-yield seed variety." }
+        ],
+        "CorrectAnswer": "A short agricultural season between Rabi and Kharif.",
+        "Explanation": "Zaid is a short crop season during the hot summer months (March-June), in between the Rabi harvest and Kharif sowing. Crops like watermelon, muskmelon, and cucumber are grown.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Agriculture"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The acronym 'IFCI' (established in 1948) was India's first:",
+        "Options": [
+          { "id": 1, "text": "Commercial bank" },
+          { "id": 2, "text": "Development Financial Institution (DFI)" },
+          { "id": 3, "text": "Stock exchange" },
+          { "id": 4, "text": "Insurance company" }
+        ],
+        "CorrectAnswer": "Development Financial Institution (DFI)",
+        "Explanation": "The Industrial Finance Corporation of India (IFCI) was set up in 1948 as India's first DFI to provide long-term finance to the industrial sector, which commercial banks were not equipped to do.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Industry"
+      },
+      {
+        "category": "Maharashtra Economy",
+        "Question": "The 'Alphonso' (Hapus) mango, which has a GI tag, is predominantly grown in which region of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Vidarbha" },
+          { "id": 2, "text": "Marathwada" },
+          { "id": 3, "text": "Konkan" },
+          { "id": 4, "text": "Khandesh" }
+        ],
+        "CorrectAnswer": "Konkan",
+        "Explanation": "The Alphonso mango is a famous cultivar that grows primarily in the coastal districts of Ratnagiri, Sindhudurg, and Raigad in the Konkan region of Maharashtra.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra Economy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What is a 'Non-Performing Asset (NPA)' in banking?",
+        "Options": [
+          { "id": 1, "text": "A bank account with no transactions for 90 days." },
+          { "id": 2, "text": "A government bond that has matured." },
+          { "id": 3, "text": "A loan or advance where interest or principal is overdue for 90 days." },
+          { "id": 4, "text": "An investment that gives a very low return." }
+        ],
+        "CorrectAnswer": "A loan or advance where interest or principal is overdue for 90 days.",
+        "Explanation": "An asset (a loan) becomes non-performing when it ceases to generate income for the bank. The standard definition is that the loan is in default or arrears, with payments overdue for 90 days or more.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Banking & Monetary Policy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Bretton Woods Conference' of 1944 led to the creation of which two major international institutions?",
+        "Options": [
+          { "id": 1, "text": "IMF and World Bank" },
+          { "id": 2, "text": "WTO and UN" },
+          { "id": 3, "text": "IMF and WTO" },
+          { "id": 4, "text": "World Bank and ADB" }
+        ],
+        "CorrectAnswer": "IMF and World Bank",
+        "Explanation": "The Bretton Woods Conference, officially the United Nations Monetary and Financial Conference, led to the creation of the International Monetary Fund (IMF) and the International Bank for Reconstruction and Development (IBRD), now part of the World Bank Group.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "External Sector"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Bombay Stock Exchange (BSE)' benchmark index is known as the:",
+        "Options": [
+          { "id": 1, "text": "NIFTY 50" },
+          { "id": 2, "text": "DOW JONES" },
+          { "id": 3, "text": "SENSEX" },
+          { "id": 4, "text": "BANKEX" }
+        ],
+        "CorrectAnswer": "SENSEX",
+        "Explanation": "The SENSEX (Sensitive Index) is the benchmark index of the BSE, comprising 30 of the largest and most actively traded stocks on the exchange.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Banking & Monetary Policy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What is 'Disinflation'?",
+        "Options": [
+          { "id": 1, "text": "A general fall in the price level (negative inflation)." },
+          { "id": 2, "text": "A situation of extremely high and rapid inflation." },
+          { "id": 3, "text": "A reduction in the rate of inflation." },
+          { "id": 4, "text": "Inflation combined with economic stagnation." }
+        ],
+        "CorrectAnswer": "A reduction in the rate of inflation.",
+        "Explanation": "Disinflation is a slowdown in the rate at which prices are rising. For example, if inflation falls from 8% to 5%, it is disinflation. This is different from 'deflation', which is a general fall in prices.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Inflation"
+      },
+      {
+        "category": "Maharashtra Economy",
+        "Question": "The 'Maharashtra State Co-operative Bank (MSCB)' is the apex bank for which sector in the state?",
+        "Options": [
+          { "id": 1, "text": "Industrial sector" },
+          { "id": 2, "text": "Urban co-operative banks" },
+          { "id": 3, "text": "Agricultural co-operative credit structure" },
+          { "id": 4, "text": "Housing finance" }
+        ],
+        "CorrectAnswer": "Agricultural co-operative credit structure",
+        "Explanation": "The MSCB is the apex (top-level) bank for the three-tier rural co-operative credit structure in Maharashtra, which includes the District Central Co-operative Banks (DCCBs) and Primary Agricultural Credit Societies (PACS).",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra Economy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What does 'GVA at Basic Prices' include that 'GVA at Factor Cost' does not?",
+        "Options": [
+          { "id": 1, "text": "Production taxes minus production subsidies" },
+          { "id": 2, "text": "Product taxes minus product subsidies" },
+          { "id": 3, "text": "Depreciation" },
+          { "id": 4, "text": "Net factor income from abroad" }
+        ],
+        "CorrectAnswer": "Production taxes minus production subsidies",
+        "Explanation": "GVA at Basic Prices = GVA at Factor Cost + (Production Taxes - Production Subsidies). 'Production taxes' are taxes like land revenue or stamp duty, which are independent of the quantity produced.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "National Income"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Red Revolution' in India is associated with the production of:",
+        "Options": [
+          { "id": 1, "text": "Meat and Tomatoes" },
+          { "id": 2, "text": "Apples" },
+          { "id": 3, "text": "Pharmaceuticals" },
+          { "id": 4, "text": "Chillies" }
+        ],
+        "CorrectAnswer": "Meat and Tomatoes",
+        "Explanation": "The 'Red Revolution' is a term used to describe the significant growth and modernization of the meat/poultry processing industry, as well as the increase in tomato production.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "Agriculture"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Rangarajan Committee' (2014) on poverty estimation fixed the daily per capita expenditure for the poverty line at:",
+        "Options": [
+          { "id": 1, "text": "₹22 (Rural) and ₹28 (Urban)" },
+          { "id": 2, "text": "₹32 (Rural) and ₹47 (Urban)" },
+          { "id": 3, "text": "₹50 (Rural) and ₹75 (Urban)" },
+          { "id": 4, "text": "₹15 (Rural) and ₹20 (Urban)" }
+        ],
+        "CorrectAnswer": "₹32 (Rural) and ₹47 (Urban)",
+        "Explanation": "The Rangarajan Committee, which submitted its report in 2014, set a higher poverty line than the Tendulkar Committee, at a daily per capita consumption expenditure of ₹32 in rural areas and ₹47 in urban areas.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Poverty & Unemployment"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What is 'Capital Account Convertibility' (CAC)?",
+        "Options": [
+          { "id": 1, "text": "The freedom to convert currency for trade in goods and services." },
+          { "id": 2, "text": "The freedom to convert local currency into foreign currency for capital transactions." },
+          { "id": 3, "text": "The freedom to open bank accounts in any country." },
+          { "id": 4, "text": "A fixed exchange rate system." }
+        ],
+        "CorrectAnswer": "The freedom to convert local currency into foreign currency for capital transactions.",
+        "Explanation": "CAC is the freedom to convert currency for capital transactions, i.e., to buy or sell capital assets like stocks, bonds, or property. India has partial, but not full, CAC.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "External Sector"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Bimal Jalan Committee' (2018) was formed by the RBI to:",
+        "Options": [
+          { "id": 1, "text": "Review the economic capital framework (ECF) of the RBI." },
+          { "id": 2, "text": "Decide on the new framework for inflation targeting." },
+          { "id": 3, "text": "Regulate cryptocurrency." },
+          { "id": 4, "text": "Suggest new banking licenses." }
+        ],
+        "CorrectAnswer": "Review the economic capital framework (ECF) of the RBI.",
+        "Explanation": "This committee was set up to review the RBI's capital structure and determine the appropriate level of reserves the RBI should hold, and how much surplus could be transferred to the government.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "Banking & Monetary Policy"
+      },
+      {
+        "category": "Maharashtra Economy",
+        "Question": "The 'Paithani' saree, a famous traditional craft, has its origins in which town of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Kolhapur" },
+          { "id": 2, "text": "Solapur" },
+          { "id": 3, "text": "Paithan (Chh. Sambhaji Nagar)" },
+          { "id": 4, "text": "Nagpur" }
+        ],
+        "CorrectAnswer": "Paithan (Chh. Sambhaji Nagar)",
+        "Explanation": "The Paithani is a variety of handwoven silk saree named after the town of Paithan in Chhatrapati Sambhaji Nagar (Aurangabad) district, where it has been crafted for centuries.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra Economy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Fibre Revolution' (or 'Golden Fibre Revolution') is related to:",
+        "Options": [
+          { "id": 1, "text": "Cotton" },
+          { "id": 2, "text": "Jute" },
+          { "id": 3, "text": "Silk" },
+          { "id": 4, "text": "Wool" }
+        ],
+        "CorrectAnswer": "Jute",
+        "Explanation": "Jute is known as the 'Golden Fibre'. The term 'Golden Fibre Revolution' specifically refers to the growth in Jute production.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Agriculture"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What is 'Seasonal Unemployment'?",
+        "Options": [
+          { "id": 1, "text": "Unemployment due to a recession." },
+          { "id": 2, "text": "Unemployment that occurs when a person is moving between jobs." },
+          { "id": 3, "text": "Unemployment that occurs during certain parts of the year." },
+          { "id": 4, "text": "Unemployment due to a mismatch of skills." }
+        ],
+        "CorrectAnswer": "Unemployment that occurs during certain parts of the year.",
+        "Explanation": "Seasonal unemployment happens when demand for labor is lower at certain times of the year. It is common in industries like agriculture (after harvesting) and tourism.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Poverty & Unemployment"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Department for Promotion of Industry and Internal Trade (DPIIT)' falls under which Union Ministry?",
+        "Options": [
+          { "id": 1, "text": "Ministry of Finance" },
+          { "id": 2, "text": "Ministry of Home Affairs" },
+          { "id": 3, "text": "Ministry of Micro, Small and Medium Enterprises" },
+          { "id": 4, "text": "Ministry of Commerce and Industry" }
+        ],
+        "CorrectAnswer": "Ministry of Commerce and Industry",
+        "Explanation": "DPIIT is a central government department under the Ministry of Commerce and Industry, responsible for formulating policies related to industrial growth, FDI, startups, and internal trade.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Industry"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "If the RBI wants to 'inject liquidity' into the market, it will:",
+        "Options": [
+          { "id": 1, "text": "Sell government securities (OMO Sale)." },
+          { "id": 2, "text": "Increase the CRR." },
+          { "id": 3, "text": "Buy government securities (OMO Purchase)." },
+          { "id": 4, "text": "Increase the Repo Rate." }
+        ],
+        "CorrectAnswer": "Buy government securities (OMO Purchase).",
+        "Explanation": "To inject (put in) more money into the system, the RBI buys government securities from the banks. In return, it gives the banks cash, thus increasing the liquidity in the market.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Banking & Monetary Policy"
+      },
+      {
+        "category": "Maharashtra Economy",
+        "Question": "The 'Maharashtra State Innovation Society (MSInS)' was established to foster:",
+        "Options": [
+          { "id": 1, "text": "Innovation and the startup ecosystem in the state." },
+          { "id": 2, "text": "New co-operative societies." },
+          { "id": 3, "text": "Water conservation innovations." },
+          { "id": 4, "text": "Traditional arts and crafts." }
+        ],
+        "CorrectAnswer": "Innovation and the startup ecosystem in the state.",
+        "Explanation": "MSInS is a nodal agency of the Government of Maharashtra, established to develop a comprehensive ecosystem for innovation and entrepreneurship, supporting startups and incubators.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Maharashtra Economy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What is the 'Public Account of India'?",
+        "Options": [
+          { "id": 1, "text": "The government's main account for all revenues and expenses." },
+          { "id": 2, "text": "The account for all public sector undertakings." },
+          { "id": 3, "text": "A fund for money held by the government in trust (e.g., PF, small savings)." },
+          { "id": 4, "text": "The fund for emergency expenses." }
+        ],
+        "CorrectAnswer": "A fund for money held by the government in trust (e.g., PF, small savings).",
+        "Explanation": "The Public Account (Article 266(2)) holds money that the government does not own but acts as a banker for, such as Provident Funds and Small Savings. These funds must be paid back and do not require parliamentary approval for withdrawal.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Fiscal Policy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'N. K. Singh Committee' (2016) was formed to review:",
+        "Options": [
+          { "id": 1, "text": "The FRBM (Fiscal Responsibility and Budget Management) Act." },
+          { "id": 2, "text": "The Monetary Policy Framework." },
+          { "id": 3, "text": "The structure of the GST." },
+          { "id": 4, "text": "The disinvestment of PSUs." }
+        ],
+        "CorrectAnswer": "The FRBM (Fiscal Responsibility and Budget Management) Act.",
+        "Explanation": "The N.K. Singh Committee was set up to review the FRBM Act and suggest a new fiscal framework, including targets for deficit and public debt.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "Fiscal Policy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'National Statistical Office (NSO)' is part of which ministry?",
+        "Options": [
+          { "id": 1, "text": "Ministry of Finance" },
+          { "id": 2, "text": "Ministry of Home Affairs" },
+          { "id": 3, "text": "Ministry of Statistics and Programme Implementation" },
+          { "id": 4, "text": "NITI Aayog" }
+        ],
+        "CorrectAnswer": "Ministry of Statistics and Programme Implementation",
+        "Explanation": "The NSO (formed by merging CSO and NSSO) is the statistical wing of the Government of India and operates under the Ministry of Statistics and Programme Implementation (MoSPI).",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "National Income"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What is 'Cyclical Unemployment'?",
+        "Options": [
+          { "id": 1, "text": "Unemployment that occurs when a person is moving between jobs." },
+          { "id": 2, "text": "Unemployment that occurs due to seasonal changes." },
+          { "id": 3, "text": "Unemployment caused by a recession or downturn in the business cycle." },
+          { "id": 4, "text": "Unemployment due to a mismatch of skills." }
+        ],
+        "CorrectAnswer": "Unemployment caused by a recession or downturn in the business cycle.",
+        "Explanation": "Cyclical unemployment is the component of overall unemployment that results directly from cycles of economic upturn and downturn. When the economy is in a recession, cyclical unemployment rises.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Poverty & Unemployment"
+      },
+      {
+        "category": "Maharashtra Economy",
+        "Question": "The 'Western Ghats', a UNESCO World Heritage Site, is also known as what in Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Satpura Range" },
+          { "id": 2, "text": "Vindhya Range" },
+          { "id": 3, "text": "Aravalli Range" },
+          { "id": 4, "text": "Sahyadri Range" }
+        ],
+        "CorrectAnswer": "Sahyadri Range",
+        "Explanation": "The Western Ghats are a mountain range that runs parallel to the western coast. In Maharashtra, this range is known as the 'Sahyadri Range'.",
+        "Difficulty": "Easy",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra Economy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What is a 'Non-Tax Revenue' for the government?",
+        "Options": [
+          { "id": 1, "text": "Income from Corporation Tax." },
+          { "id": 2, "text": "Revenue from GST." },
+          { "id": 3, "text": "Interest receipts on loans given by the government." },
+          { "id": 4, "text": "Money from disinvestment." }
+        ],
+        "CorrectAnswer": "Interest receipts on loans given by the government.",
+        "Explanation": "Non-Tax Revenue is government income from sources other than taxes. This includes interest receipts, dividends from PSUs, license fees, and grants. Disinvestment is a 'Capital Receipt'.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Fiscal Policy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'P. J. Nayak Committee' (2014) was appointed by the RBI to:",
+        "Options": [
+          { "id": 1, "text": "Review the governance of boards of banks in India." },
+          { "id": 2, "text": "Review the FRBM Act." },
+          { "id": 3, "text": "Recommend the structure of the GST." },
+          { "id": 4, "text": "Review the monetary policy framework." }
+        ],
+        "CorrectAnswer": "Review the governance of boards of banks in India.",
+        "Explanation": "The P.J. Nayak Committee reviewed the governance of Public Sector Banks (PSBs) and famously recommended reducing the government's stake in them to below 50% and creating a Bank Investment Company (BIC).",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "Banking & Monetary Policy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'National Pharmaceutical Pricing Authority (NPPA)' is an organization under which ministry?",
+        "Options": [
+          { "id": 1, "text": "Ministry of Health and Family Welfare" },
+          { "id": 2, "text": "Ministry of Commerce and Industry" },
+          { "id": 3, "text": "Ministry of Chemicals and Fertilizers" },
+          { "id": 4, "text": "Ministry of Consumer Affairs" }
+        ],
+        "CorrectAnswer": "Ministry of Chemicals and Fertilizers",
+        "Explanation": "The NPPA was set up to fix and revise the prices of controlled bulk drugs and formulations and to enforce price and availability, under the Department of Pharmaceuticals, Ministry of Chemicals and Fertilizers.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Industry"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Stand-Up India' scheme was launched to promote entrepreneurship among:",
+        "Options": [
+          { "id": 1, "text": "All rural households" },
+          { "id": 2, "text": "Women and SC/ST communities" },
+          { "id": 3, "text": "Urban youth" },
+          { "id": 4, "text": "Micro, Small and Medium Enterprises" }
+        ],
+        "CorrectAnswer": "Women and SC/ST communities",
+        "Explanation": "The Stand-Up India scheme aims to facilitate bank loans between ₹10 lakh and ₹1 crore to at least one Scheduled Caste (SC) or Scheduled Tribe (ST) borrower and at least one woman borrower per bank branch.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Poverty & Unemployment"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Evergreen Revolution' is a term used by M.S. Swaminathan to describe:",
+        "Options": [
+          { "id": 1, "text": "A second Green Revolution focused on sustainability." },
+          { "id": 2, "text": "The White Revolution (milk)." },
+          { "id": 3, "text": "The Blue Revolution (fish)." },
+          { "id": 4, "text": "The introduction of GM crops." }
+        ],
+        "CorrectAnswer": "A second Green Revolution focused on sustainability.",
+        "Explanation": "M.S. Swaminathan used the term 'Evergreen Revolution' to advocate for a new phase of agricultural development that is environmentally sustainable and long-term, unlike the first Green Revolution which had negative ecological consequences.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "Agriculture"
+      },
+      {
+        "category": "Maharashtra Economy",
+        "Question": "The 'Deccan Plateau' makes up the majority of the landmass of Maharashtra. It is primarily composed of what type of rock?",
+        "Options": [
+          { "id": 1, "text": "Basalt (Volcanic rock)" },
+          { "id": 2, "text": "Sandstone" },
+          { "id": 3, "text": "Marble" },
+          { "id": 4, "text": "Granite" }
+        ],
+        "CorrectAnswer": "Basalt (Volcanic rock)",
+        "Explanation": "The Deccan Plateau, including most of Maharashtra, was formed by massive volcanic eruptions, resulting in a landscape dominated by layers of basalt rock (Deccan Traps). This rock weathers into 'regur' or black cotton soil.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Maharashtra Economy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The term 'Hot Money' in economics refers to:",
+        "Options": [
+          { "id": 1, "text": "Black money" },
+          { "id": 2, "text": "Long-term Foreign Direct Investment (FDI)." },
+          { "id": 3, "text": "Foreign Portfolio Investment (FPI) that moves quickly." },
+          { "id": 4, "text": "Currency in physical circulation." }
+        ],
+        "CorrectAnswer": "Foreign Portfolio Investment (FPI) that moves quickly.",
+        "Explanation": "'Hot Money' refers to capital that is moved very quickly between financial markets to take advantage of short-term interest rate differentials. FPI is a classic example, as it can be withdrawn very quickly, unlike stable FDI.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "External Sector"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What is an 'Appropriation Bill' in the context of the Union Budget?",
+        "Options": [
+          { "id": 1, "text": "The bill that contains all new tax proposals." },
+          { "id": 2, "text": "The bill that gives power to the government to withdraw funds from the Consolidated Fund." },
+          { "id": 3, "text": "The bill that contains the Economic Survey." },
+          { "id": 4, "text": "The bill to transfer surplus funds from the RBI." }
+        ],
+        "CorrectAnswer": "The bill that gives power to the government to withdraw funds from the Consolidated Fund.",
+        "Explanation": "As per Article 114, after the 'Demands for Grants' (budgets for ministries) are passed, the government introduces the Appropriation Bill. Its passage by Parliament legally authorizes the government to make expenditures from the Consolidated Fund of India.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Fiscal Policy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What is 'Net National Product (NNP)'?",
+        "Options": [
+          { "id": 1, "text": "GNP - Depreciation" },
+          { "id": 2, "text": "GNP + Depreciation" },
+          { "id": 3, "text": "GDP - Depreciation" },
+          { "id": 4, "text": "GNP + Taxes" }
+        ],
+        "CorrectAnswer": "GNP - Depreciation",
+        "Explanation": "NNP (Net National Product) is derived by subtracting the depreciation (wear and tear of capital) from the GNP (Gross National Product). NNP at Factor Cost is the true 'National Income'.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "National Income"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Tarapore Committee' (1997) was constituted to provide a roadmap for:",
+        "Options": [
+          { "id": 1, "text": "Capital Account Convertibility" },
+          { "id": 2, "text": "Bank Nationalization" },
+          { "id": 3, "text": "Tax Reforms" },
+          { "id": 4, "text": "Agricultural Subsidies" }
+        ],
+        "CorrectAnswer": "Capital Account Convertibility",
+        "Explanation": "The Tarapore Committee was set up by the RBI to lay down the preconditions and a framework for India to move towards 'Full Capital Account Convertibility'.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "External Sector"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'NIFTY 50' is the benchmark index of which stock exchange?",
+        "Options": [
+          { "id": 1, "text": "Bombay Stock Exchange (BSE)" },
+          { "id": 2, "text": "National Stock Exchange (NSE)" },
+          { "id": 3, "text": "Calcutta Stock Exchange" },
+          { "id": 4, "text": "New York Stock Exchange (NYSE)" }
+        ],
+        "CorrectAnswer": "National Stock Exchange (NSE)",
+        "Explanation": "The NIFTY 50 is the benchmark index of the National Stock Exchange of India (NSE), representing 50 of the largest and most liquid stocks across various sectors.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Banking & Monetary Policy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'National Agricultural Cooperative Marketing Federation of India Ltd. (NAFED)' is an apex organization for:",
+        "Options": [
+          { "id": 1, "text": "Marketing co-operatives" },
+          { "id": 2, "text": "Credit co-operatives" },
+          { "id": 3, "text": "Dairy co-operatives" },
+          { "id": 4, "text": "Housing co-operatives" }
+        ],
+        "CorrectAnswer": "Marketing co-operatives",
+        "Explanation": "NAFED is an apex body of marketing co-operatives for agricultural produce. It is a key agency for implementing government price support schemes and procuring pulses and oilseeds.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "Agriculture"
+      },
+      {
+        "category": "Maharashtra Economy",
+        "Question": "The 'Khandesh' region of Maharashtra, comprising districts like Jalgaon and Dhule, is a major producer of:",
+        "Options": [
+          { "id": 1, "text": "Bananas" },
+          { "id": 2, "text": "Apples" },
+          { "id": 3, "text": "Tea" },
+          { "id": 4, "text": "Oranges" }
+        ],
+        "CorrectAnswer": "Bananas",
+        "Explanation": "The Khandesh region, particularly Jalgaon district, is the largest banana-producing region in Maharashtra and one of the largest in India.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 1,
+        "topic": "Maharashtra Economy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Consumer Food Price Index (CFPI)' is a component within which broader index?",
+        "Options": [
+          { "id": 1, "text": "Wholesale Price Index (WPI)" },
+          { "id": 2, "text": "Consumer Price Index (CPI)" },
+          { "id": 3, "text": "Index of Industrial Production (IIP)" },
+          { "id": 4, "text": "GDP Deflator" }
+        ],
+        "CorrectAnswer": "Consumer Price Index (CPI)",
+        "Explanation": "The CFPI is a specific index published by the NSO that measures the inflation in a basket of food items, and it is a key component of the overall CPI (Combined).",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Inflation"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'PM SVANidhi' scheme was launched to provide collateral-free working capital loans to:",
+        "Options": [
+          { "id": 1, "text": "Farmers" },
+          { "id": 2, "text": "Street vendors" },
+          { "id": 3, "text": "Students" },
+          { "id": 4, "text": "Unemployed graduates" }
+        ],
+        "CorrectAnswer": "Street vendors",
+        "Explanation": "The Pradhan Mantri Street Vendor's AtmaNirbhar Nidhi (PM SVANidhi) was launched during the COVID-19 pandemic to provide affordable working capital loans to street vendors to help them restart their businesses.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Poverty & Unemployment"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Board for Industrial and Financial Reconstruction (BIFR)' was set up to deal with:",
+        "Options": [
+          { "id": 1, "text": "New industrial licenses." },
+          { "id": 2, "text": "Sick (loss-making) industrial companies." },
+          { "id": 3, "text": "Foreign direct investment." },
+          { "id": 4, "text": "Stock market scams." }
+        ],
+        "CorrectAnswer": "Sick (loss-making) industrial companies.",
+        "Explanation": "BIFR was set up in 1987 to determine the sickness of industrial companies and to assist in their revival or closure. It was dissolved in 2016 after the Insolvency and Bankruptcy Code (IBC) came into force.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Industry"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The term 'Core Banking Solution (CBS)' refers to:",
+        "Options": [
+          { "id": 1, "text": "A new high-security vault system." },
+          { "id": 2, "text": "A networking of bank branches to a central server." },
+          { "id": 3, "text": "A special loan for core industries." },
+          { "id": 4, "text": "The headquarters of a bank." }
+        ],
+        "CorrectAnswer": "A networking of bank branches to a central server.",
+        "Explanation": "CBS is a system where all bank branches are connected to a central host. This allows customers to operate their accounts ('Anywhere Banking') from any branch of the bank.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Banking & Monetary Policy"
+      },
+      {
+        "category": "Maharashtra Economy",
+        "Question": "The 'Employment Guarantee Scheme (EGS)' of Maharashtra was later constitutionally recognized via which amendment?",
+        "Options": [
+          { "id": 1, "text": "42nd Amendment" },
+          { "id": 2, "text": "44th Amendment" },
+          { "id": 3, "text": "73rd Amendment" },
+          { "id": 4, "text": "The scheme was never constitutionally recognized" }
+        ],
+        "CorrectAnswer": "The scheme was never constitutionally recognized",
+        "Explanation": "While the EGS of Maharashtra was a pioneering legislative act at the state level (1977), it was not incorporated into the Indian Constitution via an amendment. However, it provided the inspiration and legal foundation for the national MGNREGA (2005).",
+        "Difficulty": "Hard",
+        "Job": "MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra Economy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'North-South and East-West Corridors' (NS-EW) are major highway projects that intersect at which city?",
+        "Options": [
+          { "id": 1, "text": "Delhi" },
+          { "id": 2, "text": "Nagpur" },
+          { "id": 3, "text": "Jhansi" },
+          { "id": 4, "text": "Hyderabad" }
+        ],
+        "CorrectAnswer": "Jhansi",
+        "Explanation": "The North-South Corridor (Srinagar to Kanyakumari) and the East-West Corridor (Porbandar to Silchar) are major highway projects under the NHDP. They cross each other at Jhansi, Uttar Pradesh.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Industry"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The term 'Fiat Money' refers to currency that:",
+        "Options": [
+          { "id": 1, "text": "Is backed by a physical commodity like gold." },
+          { "id": 2, "text": "Is declared by a government to be legal tender." },
+          { "id": 3, "text": "Is only used for international trade." },
+          { "id": 4, "text": "Is a digital or cryptocurrency." }
+        ],
+        "CorrectAnswer": "Is declared by a government to be legal tender.",
+        "Explanation": "Fiat money (like the Indian Rupee or US Dollar) has no intrinsic value (it's just paper). It has value only because the government has issued an order ('fiat') declaring it to be legal tender.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Banking & Monetary Policy"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "What is 'Net Factor Income from Abroad' (NFIA)?",
+        "Options": [
+          { "id": 1, "text": "Total Exports minus Total Imports" },
+          { "id": 2, "text": "Total FDI minus Total FPI" },
+          { "id": 3, "text": "Income earned by residents abroad minus income earned by non-residents in the country." },
+          { "id": 4, "text": "Total remittances received minus total remittances sent." }
+        ],
+        "CorrectAnswer": "Income earned by residents abroad minus income earned by non-residents in the country.",
+        "Explanation": "NFIA is the difference between the factor income (wages, profits) earned by a country's residents from abroad and the factor income paid to non-residents working in that country. It is the key difference between GDP and GNP.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "National Income"
+      },
+      {
+        "category": "Indian Economy",
+        "Question": "The 'Food Corporation of India (FCI)' was set up in which year, following the FCI Act of 1964?",
+        "Options": [
+          { "id": 1, "text": "1947" },
+          { "id": 2, "text": "1950" },
+          { "id": 3, "text": "1965" },
+          { "id": 4, "text": "1971" }
+        ],
+        "CorrectAnswer": "1965",
+        "Explanation": "FCI was set up in 1965 (headquartered in Chennai, later moved to Delhi) to implement the government's food policies, primarily for MSP procurement, maintaining buffer stocks, and PDS distribution.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Agriculture"
+      },
+      {
+        "category": "Maharashtra Economy",
+        "Question": "The city of Solapur in Maharashtra is globally famous for the production of:",
+        "Options": [
+          { "id": 1, "text": "Kolhapuri Chappals" },
+          { "id": 2, "text": "Paithani Sarees" },
+          { "id": 3, "text": "Terry Towels and Chaddars (Bedsheets)" },
+          { "id": 4, "text": "Bidriware" }
+        ],
+        "CorrectAnswer": "Terry Towels and Chaddars (Bedsheets)",
+        "Explanation": "Solapur is a major textile hub, particularly for handloom and powerloom products. The 'Solapuri Chaddar' and terry towels are famous and have received a GI tag.",
+        "Difficulty": "Medium",
+        "Job": "MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra Economy"
+      }
+  ]

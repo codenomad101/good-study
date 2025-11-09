@@ -1,0 +1,1266 @@
+[
+    {
+      "category": "Maharashtra Polity",
+      "Question": "Who is the administrative head of a Municipal Corporation (Mahanagar Palika) in Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Mayor" },
+        { "id": 2, "text": "Municipal Commissioner" },
+        { "id": 3, "text": "District Collector" },
+        { "id": 4, "text": "Chief Minister" }
+      ],
+      "CorrectAnswer": "Municipal Commissioner",
+      "Explanation": "While the Mayor is the political head, the Municipal Commissioner, usually an IAS officer appointed by the state government, is the chief executive officer and administrative head of the Municipal Corporation.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-B, Grade-C",
+      "correctOption": 2,
+      "topic": "Urban Local Bodies"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The Guardian Minister (Palak Mantri) of a district in Maharashtra is appointed by the:",
+      "Options": [
+        { "id": 1, "text": "Governor" },
+        { "id": 2, "text": "President" },
+        { "id": 3, "text": "Chief Minister" },
+        { "id": 4, "text": "Divisional Commissioner" }
+      ],
+      "CorrectAnswer": "Chief Minister",
+      "Explanation": "The Chief Minister appoints a cabinet minister as the Guardian Minister for one or more districts to oversee development works and administrative matters.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, State Services",
+      "correctOption": 3,
+      "topic": "State Administration"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The 'Gram Sevak' in a Gram Panchayat acts as the:",
+      "Options": [
+        { "id": 1, "text": "Elected head" },
+        { "id": 2, "text": "Secretary of the Gram Panchayat" },
+        { "id": 3, "text": "Judicial officer" },
+        { "id": 4, "text": "Revenue officer" }
+      ],
+      "CorrectAnswer": "Secretary of the Gram Panchayat",
+      "Explanation": "The Gram Sevak is a government employee who serves as the secretary of the Gram Panchayat and is responsible for its administrative and clerical work.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Talathi, Gram Sevak",
+      "correctOption": 2,
+      "topic": "Panchayati Raj"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "Who chairs the meetings of the District Planning Committee (DPC) in Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "District Collector" },
+        { "id": 2, "text": "CEO of Zilla Parishad" },
+        { "id": 3, "text": "President of Zilla Parishad" },
+        { "id": 4, "text": "Guardian Minister of the district" }
+      ],
+      "CorrectAnswer": "Guardian Minister of the district",
+      "Explanation": "The Guardian Minister (Palak Mantri) of the concerned district is the ex-officio chairperson of the District Planning Committee, which is responsible for preparing a draft development plan for the district.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, Grade-B",
+      "correctOption": 4,
+      "topic": "State Administration"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The 'Nagpur Pact' of 1953 is primarily associated with:",
+      "Options": [
+        { "id": 1, "text": "Formation of Municipal Corporations" },
+        { "id": 2, "text": "Creation of the state of Maharashtra with certain assurances to the Vidarbha region" },
+        { "id": 3, "text": "Inter-state water sharing with Karnataka" },
+        { "id": 4, "text": "Establishment of the Bombay High Court bench at Nagpur" }
+      ],
+      "CorrectAnswer": "Creation of the state of Maharashtra with certain assurances to the Vidarbha region",
+      "Explanation": "The Nagpur Pact was an agreement between leaders of Western Maharashtra and the Vidarbha region, which laid down conditions and assurances for the Vidarbha region to be integrated into the proposed state of Maharashtra.",
+      "Difficulty": "Hard",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "State Formation"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "What is the maximum number of ministers, including the Chief Minister, in the Maharashtra Council of Ministers?",
+      "Options": [
+        { "id": 1, "text": "15% of the total strength of Vidhan Sabha" },
+        { "id": 2, "text": "10% of the total strength of Vidhan Sabha" },
+        { "id": 3, "text": "A fixed number of 50" },
+        { "id": 4, "text": "15% of the total strength of Vidhan Parishad" }
+      ],
+      "CorrectAnswer": "15% of the total strength of Vidhan Sabha",
+      "Explanation": "The 91st Constitutional Amendment Act, 2003, stipulates that the total number of ministers, including the Chief Minister, in the Council of Ministers in a state shall not exceed 15% of the total strength of the Legislative Assembly. For Maharashtra (288 seats), this is 43.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, State Services",
+      "correctOption": 1,
+      "topic": "State Executive"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The Maharashtra Right to Public Services Act was enacted in which year?",
+      "Options": [
+        { "id": 1, "text": "2011" },
+        { "id": 2, "text": "2013" },
+        { "id": 3, "text": "2015" },
+        { "id": 4, "text": "2017" }
+      ],
+      "CorrectAnswer": "2015",
+      "Explanation": "The Maharashtra Right to Public Services Act, 2015, was enacted to provide for the delivery of public services to the people of the state within stipulated time limits.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade-B",
+      "correctOption": 3,
+      "topic": "Governance"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The 'Talathi' is a revenue administration officer at which level?",
+      "Options": [
+        { "id": 1, "text": "District level" },
+        { "id": 2, "text": "Taluka level" },
+        { "id": 3, "text": "Saza or group of villages level" },
+        { "id": 4, "text": "Divisional level" }
+      ],
+      "CorrectAnswer": "Saza or group of villages level",
+      "Explanation": "The Talathi is a key revenue official at the village or a group of villages (Saza) level, responsible for maintaining land records and collecting revenue.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Talathi",
+      "correctOption": 3,
+      "topic": "State Administration"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "In Maharashtra, the ordinance-making power of the Governor is detailed in which Article of the Constitution?",
+      "Options": [
+        { "id": 1, "text": "Article 123" },
+        { "id": 2, "text": "Article 164" },
+        { "id": 3, "text": "Article 200" },
+        { "id": 4, "text": "Article 213" }
+      ],
+      "CorrectAnswer": "Article 213",
+      "Explanation": "Article 213 of the Constitution empowers the Governor to promulgate ordinances during the recess of the state legislature. Article 123 grants similar powers to the President.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "State Executive"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The State Finance Commission in Maharashtra is constituted to review the financial position of the:",
+      "Options": [
+        { "id": 1, "text": "State government departments" },
+        { "id": 2, "text": "Public Sector Undertakings" },
+        { "id": 3, "text": "Panchayats and Municipalities" },
+        { "id": 4, "text": "State universities" }
+      ],
+      "CorrectAnswer": "Panchayats and Municipalities",
+      "Explanation": "Under Article 243-I and 243-Y, the Governor constitutes a State Finance Commission every five years to review the financial position of the Panchayats and Municipalities and make recommendations.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade-B",
+      "correctOption": 3,
+      "topic": "State Commissions"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'Zero Hour' in the Indian Parliament refers to:",
+      "Options": [
+        { "id": 1, "text": "The first hour of the sitting" },
+        { "id": 2, "text": "The time immediately following the Question Hour" },
+        { "id": 3, "text": "The last hour of the sitting" },
+        { "id": 4, "text": "The lunch break for members" }
+      ],
+      "CorrectAnswer": "The time immediately following the Question Hour",
+      "Explanation": "Zero Hour is an Indian parliamentary innovation. It is the time gap between the Question Hour and the beginning of the regular business of the House, where members can raise matters of urgent public importance without prior notice.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 74th Constitutional Amendment Act is related to:",
+      "Options": [
+        { "id": 1, "text": "Panchayati Raj" },
+        { "id": 2, "text": "Urban Local Bodies (Municipalities)" },
+        { "id": 3, "text": "Co-operative Societies" },
+        { "id": 4, "text": "Goods and Services Tax (GST)" }
+      ],
+      "CorrectAnswer": "Urban Local Bodies (Municipalities)",
+      "Explanation": "The 74th Amendment Act of 1992 gave constitutional status to the Urban Local Bodies. It added Part IX-A to the Constitution and the Twelfth Schedule.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Urban Local Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "How many Fundamental Duties are mentioned in Part IV-A of the Indian Constitution?",
+      "Options": [
+        { "id": 1, "text": "9" },
+        { "id": 2, "text": "10" },
+        { "id": 3, "text": "11" },
+        { "id": 4, "text": "12" }
+      ],
+      "CorrectAnswer": "11",
+      "Explanation": "Initially, there were 10 Fundamental Duties added by the 42nd Amendment. The 11th duty, related to providing opportunities for education to children, was added by the 86th Amendment Act, 2002.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C, Bank-PO",
+      "correctOption": 3,
+      "topic": "Fundamental Duties"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which committee is often described as the 'twin sister' of the Estimates Committee?",
+      "Options": [
+        { "id": 1, "text": "Committee on Public Undertakings" },
+        { "id": 2, "text": "Public Accounts Committee (PAC)" },
+        { "id": 3, "text": "Business Advisory Committee" },
+        { "id": 4, "text": "Committee on Petitions" }
+      ],
+      "CorrectAnswer": "Public Accounts Committee (PAC)",
+      "Explanation": "The Public Accounts Committee (PAC) and the Estimates Committee are closely related and their work is complementary. While the Estimates Committee examines what the expenditure should be, the PAC examines whether the expenditure has been done correctly, often based on the CAG report.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Parliamentary Committees"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Article 17 of the Indian Constitution deals with:",
+      "Options": [
+        { "id": 1, "text": "Abolition of Titles" },
+        { "id": 2, "text": "Equality before Law" },
+        { "id": 3, "text": "Abolition of Untouchability" },
+        { "id": 4, "text": "Prohibition of child labour" }
+      ],
+      "CorrectAnswer": "Abolition of Untouchability",
+      "Explanation": "Article 17 of the Constitution abolishes 'Untouchability' and forbids its practice in any form. The enforcement of any disability arising out of 'Untouchability' shall be an offence punishable in accordance with law.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The Inter-State Council was established on the recommendation of which commission?",
+      "Options": [
+        { "id": 1, "text": "Punchhi Commission" },
+        { "id": 2, "text": "Sarkaria Commission" },
+        { "id": 3, "text": "Rajamannar Committee" },
+        { "id": 4, "text": "Administrative Reforms Commission" }
+      ],
+      "CorrectAnswer": "Sarkaria Commission",
+      "Explanation": "The Sarkaria Commission on Centre-State Relations (1983-88) made a strong recommendation for the establishment of a permanent Inter-State Council under Article 263 of the Constitution, which was subsequently formed in 1990.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Centre-State Relations"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The President of India can be removed from office by a process of impeachment which can be initiated in:",
+      "Options": [
+        { "id": 1, "text": "The Lok Sabha only" },
+        { "id": 2, "text": "The Rajya Sabha only" },
+        { "id": 3, "text": "Either House of the Parliament" },
+        { "id": 4, "text": "The Supreme Court" }
+      ],
+      "CorrectAnswer": "Either House of the Parliament",
+      "Explanation": "The impeachment charges against the President can be initiated by either the Lok Sabha or the Rajya Sabha. The charges must be signed by at least one-fourth of the members of the House that framed the charges.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Bank-PO",
+      "correctOption": 3,
+      "topic": "The President"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The National Commission for Scheduled Castes (NCSC) is a constitutional body established under which article?",
+      "Options": [
+        { "id": 1, "text": "Article 338" },
+        { "id": 2, "text": "Article 338A" },
+        { "id": 3, "text": "Article 340" },
+        { "id": 4, "text": "Article 324" }
+      ],
+      "CorrectAnswer": "Article 338",
+      "Explanation": "Article 338 deals with the National Commission for Scheduled Castes. Article 338A deals with the National Commission for Scheduled Tribes, which was separated by the 89th Amendment Act, 2003.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The concept of Public Interest Litigation (PIL) originated in which country?",
+      "Options": [
+        { "id": 1, "text": "United Kingdom" },
+        { "id": 2, "text": "India" },
+        { "id": 3, "text": "Australia" },
+        { "id": 4, "text": "United States of America" }
+      ],
+      "CorrectAnswer": "United States of America",
+      "Explanation": "The concept of Public Interest Litigation (PIL) originated and developed in the USA in the 1960s. In India, it was introduced in the early 1980s by Justice P. N. Bhagwati and Justice V. R. Krishna Iyer.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Judiciary Exams",
+      "correctOption": 4,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following is not a feature of the Indian parliamentary system?",
+      "Options": [
+        { "id": 1, "text": "Presence of nominal and real executives" },
+        { "id": 2, "text": "Collective responsibility of the executive to the legislature" },
+        { "id": 3, "text": "Strict separation of powers" },
+        { "id": 4, "text": "Leadership of the Prime Minister" }
+      ],
+      "CorrectAnswer": "Strict separation of powers",
+      "Explanation": "Strict separation of powers is a feature of the Presidential system (like in the USA). The Indian parliamentary system is based on cooperation and coordination between the legislative and executive organs, not strict separation.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Basic Structure"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The advisory jurisdiction of the Supreme Court is provided under which Article?",
+      "Options": [
+        { "id": 1, "text": "Article 129" },
+        { "id": 2, "text": "Article 136" },
+        { "id": 3, "text": "Article 141" },
+        { "id": 4, "text": "Article 143" }
+      ],
+      "CorrectAnswer": "Article 143",
+      "Explanation": "Article 143 authorizes the President to seek the opinion of the Supreme Court on any question of law or fact of public importance. This is known as the advisory jurisdiction of the Supreme Court.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC, Judiciary Exams",
+      "correctOption": 4,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The members of the Rajya Sabha are elected by:",
+      "Options": [
+        { "id": 1, "text": "The people directly" },
+        { "id": 2, "text": "The elected members of the State Legislative Assemblies" },
+        { "id": 3, "text": "The members of the Lok Sabha" },
+        { "id": 4, "text": "The members of both houses of state legislatures" }
+      ],
+      "CorrectAnswer": "The elected members of the State Legislative Assemblies",
+      "Explanation": "The representatives of each state in the Rajya Sabha are elected by the elected members of the Legislative Assembly of the State in accordance with the system of proportional representation by means of the single transferable vote.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'Contingency Fund of India' is placed at the disposal of:",
+      "Options": [
+        { "id": 1, "text": "The Prime Minister" },
+        { "id": 2, "text": "The President" },
+        { "id": 3, "text": "The Finance Minister" },
+        { "id": 4, "text": "The Parliament" }
+      ],
+      "CorrectAnswer": "The President",
+      "Explanation": "The Contingency Fund of India, established under Article 267, is held by the Finance Secretary on behalf of the President. The President can make advances out of it to meet unforeseen expenditure pending its authorisation by the Parliament.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, Bank-PO",
+      "correctOption": 2,
+      "topic": "Financial Administration"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The power to issue the writ of 'Habeas Corpus' is vested in:",
+      "Options": [
+        { "id": 1, "text": "The Supreme Court only" },
+        { "id": 2, "text": "The High Courts only" },
+        { "id": 3, "text": "Both the Supreme Court and the High Courts" },
+        { "id": 4, "text": "District Courts" }
+      ],
+      "CorrectAnswer": "Both the Supreme Court and the High Courts",
+      "Explanation": "The Supreme Court (under Article 32) and the High Courts (under Article 226) can issue the writ of Habeas Corpus, which is an order to produce the body of a person who has been detained, before the court.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which Constitutional Amendment Act introduced the Goods and Services Tax (GST)?",
+      "Options": [
+        { "id": 1, "text": "99th Amendment Act" },
+        { "id": 2, "text": "100th Amendment Act" },
+        { "id": 3, "text": "101st Amendment Act" },
+        { "id": 4, "text": "103rd Amendment Act" }
+      ],
+      "CorrectAnswer": "101st Amendment Act",
+      "Explanation": "The 101st Constitutional Amendment Act, 2016, paved the way for the introduction of a nationwide Goods and Services Tax (GST) in India.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Bank-PO, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Constitutional Amendments"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The idea of 'Liberty, Equality and Fraternity' in the Preamble has been taken from the constitution of which country?",
+      "Options": [
+        { "id": 1, "text": "Russia (USSR)" },
+        { "id": 2, "text": "USA" },
+        { "id": 3, "text": "Germany" },
+        { "id": 4, "text": "France" }
+      ],
+      "CorrectAnswer": "France",
+      "Explanation": "The ideals of Liberty, Equality, and Fraternity in our Preamble are inspired by the French Revolution (1789–1799).",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "Sources of Constitution"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which part of the Constitution is described as the 'Magna Carta' of India?",
+      "Options": [
+        { "id": 1, "text": "Part I: The Union and its Territory" },
+        { "id": 2, "text": "Part II: Citizenship" },
+        { "id": 3, "text": "Part III: Fundamental Rights" },
+        { "id": 4, "text": "Part IV: Directive Principles of State Policy" }
+      ],
+      "CorrectAnswer": "Part III: Fundamental Rights",
+      "Explanation": "Part III of the Constitution, which contains the Fundamental Rights, is rightly described as the 'Magna Carta' of India as it provides a very comprehensive and justiciable set of rights to the citizens.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Bank-PO",
+      "correctOption": 3,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The Lokpal and Lokayukta Act was passed in which year?",
+      "Options": [
+        { "id": 1, "text": "2011" },
+        { "id": 2, "text": "2012" },
+        { "id": 3, "text": "2013" },
+        { "id": 4, "text": "2014" }
+      ],
+      "CorrectAnswer": "2013",
+      "Explanation": "The Lokpal and Lokayuktas Act, which provides for the establishment of a Lokpal for the Union and Lokayukta for States to inquire into allegations of corruption against certain public functionaries, was enacted in 2013.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Statutory Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The quorum required for a meeting of either House of Parliament is:",
+      "Options": [
+        { "id": 1, "text": "One-fourth of the total members" },
+        { "id": 2, "text": "One-fifth of the total members" },
+        { "id": 3, "text": "One-tenth of the total members" },
+        { "id": 4, "text": "One-third of the total members" }
+      ],
+      "CorrectAnswer": "One-tenth of the total members",
+      "Explanation": "Article 100(3) of the Constitution specifies that the quorum to constitute a meeting of either House of Parliament is one-tenth of the total number of members of the House.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which Article deals with the grants-in-aid by the Union government to the states?",
+      "Options": [
+        { "id": 1, "text": "Article 270" },
+        { "id": 2, "text": "Article 275" },
+        { "id": 3, "text": "Article 280" },
+        { "id": 4, "text": "Article 282" }
+      ],
+      "CorrectAnswer": "Article 275",
+      "Explanation": "Article 275 provides for statutory grants, which are given to the states which are in need of financial assistance and not to every state. These are charged on the Consolidated Fund of India every year.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Centre-State Relations"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who has the power to prorogue the Lok Sabha?",
+      "Options": [
+        { "id": 1, "text": "The Speaker" },
+        { "id": 2, "text": "The Prime Minister" },
+        { "id": 3, "text": "The President" },
+        { "id": 4, "text": "The Minister of Parliamentary Affairs" }
+      ],
+      "CorrectAnswer": "The President",
+      "Explanation": "The President has the power to summon and prorogue both Houses of Parliament. Prorogation terminates a session of the House, unlike adjournment which only terminates a sitting.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which one of the following DPSP is based on Gandhian Principles?",
+      "Options": [
+        { "id": 1, "text": "To secure for all citizens a uniform civil code" },
+        { "id": 2, "text": "To organize village panchayats" },
+        { "id": 3, "text": "To secure equal justice and free legal aid" },
+        { "id": 4, "text": "To protect and improve the environment" }
+      ],
+      "CorrectAnswer": "To organize village panchayats",
+      "Explanation": "Article 40, which states that 'The State shall take steps to organize village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government,' reflects Mahatma Gandhi's dream of Gram Swaraj.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "DPSP"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "A 'no-confidence motion' against the Union Government can be initiated in which House?",
+      "Options": [
+        { "id": 1, "text": "Lok Sabha only" },
+        { "id": 2, "text": "Rajya Sabha only" },
+        { "id": 3, "text": "Either Lok Sabha or Rajya Sabha" },
+        { "id": 4, "text": "In a joint session of Parliament" }
+      ],
+      "CorrectAnswer": "Lok Sabha only",
+      "Explanation": "Since the Council of Ministers is collectively responsible only to the Lok Sabha (Article 75(3)), a motion of no-confidence can only be introduced and passed in the Lok Sabha.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "What does Article 21A of the Constitution of India deal with?",
+      "Options": [
+        { "id": 1, "text": "Protection of life and personal liberty" },
+        { "id": 2, "text": "Protection against arrest and detention" },
+        { "id": 3, "text": "Right to Education" },
+        { "id": 4, "text": "Freedom of conscience and religion" }
+      ],
+      "CorrectAnswer": "Right to Education",
+      "Explanation": "Article 21A was added by the 86th Amendment Act, 2002. It declares that the State shall provide free and compulsory education to all children of the age of six to fourteen years in such a manner as the State may determine.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 97th Constitutional Amendment Act, 2011, gave constitutional status and protection to:",
+      "Options": [
+        { "id": 1, "text": "Municipalities" },
+        { "id": 2, "text": "Panchayats" },
+        { "id": 3, "text": "Co-operative societies" },
+        { "id": 4, "text": "Private companies" }
+      ],
+      "CorrectAnswer": "Co-operative societies",
+      "Explanation": "The 97th Amendment made the right to form co-operative societies a fundamental right (Article 19), included a new Directive Principle on the promotion of co-operative societies (Article 43B), and added a new Part IX-B on 'The Co-operative Societies'.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Bank-PO",
+      "correctOption": 3,
+      "topic": "Constitutional Amendments"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who appoints the Chief Election Commissioner (CEC) of India?",
+      "Options": [
+        { "id": 1, "text": "The President" },
+        { "id": 2, "text": "The Prime Minister" },
+        { "id": 3, "text": "A committee comprising the PM, Leader of Opposition, and CJI" },
+        { "id": 4, "text": "The Parliament" }
+      ],
+      "CorrectAnswer": "A committee comprising the PM, Leader of Opposition, and CJI",
+      "Explanation": "Following a Supreme Court judgment in March 2023, the appointment of the Chief Election Commissioner and other Election Commissioners is made by the President on the advice of a committee consisting of the Prime Minister, the Leader of the Opposition in the Lok Sabha, and the Chief Justice of India.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The Zonal Councils in India were established by:",
+      "Options": [
+        { "id": 1, "text": "The Constitution of India (Article 263)" },
+        { "id": 2, "text": "The States Reorganisation Act, 1956" },
+        { "id": 3, "text": "A resolution of the Parliament" },
+        { "id": 4, "text": "A Presidential Order" }
+      ],
+      "CorrectAnswer": "The States Reorganisation Act, 1956",
+      "Explanation": "The Zonal Councils are statutory (not constitutional) bodies. They were established by an Act of the Parliament, that is, the States Reorganisation Act of 1956. The act divided the country into five zones and provided a zonal council for each zone.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Statutory Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The retirement age for a High Court judge is:",
+      "Options": [
+        { "id": 1, "text": "60 years" },
+        { "id": 2, "text": "62 years" },
+        { "id": 3, "text": "65 years" },
+        { "id": 4, "text": "58 years" }
+      ],
+      "CorrectAnswer": "62 years",
+      "Explanation": "Judges of the High Courts hold office until they attain the age of 62 years. The retirement age was increased from 60 to 62 years by the 15th Constitutional Amendment Act of 1963.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Bank-PO",
+      "correctOption": 2,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'doctrine of basic structure' was propounded by the Supreme Court in which landmark case?",
+      "Options": [
+        { "id": 1, "text": "Golaknath case (1967)" },
+        { "id": 2, "text": "Kesavananda Bharati case (1973)" },
+        { "id": 3, "text": "Minerva Mills case (1980)" },
+        { "id": 4, "text": "Shankari Prasad case (1951)" }
+      ],
+      "CorrectAnswer": "Kesavananda Bharati case (1973)",
+      "Explanation": "In the Kesavananda Bharati case, the Supreme Court ruled that the constituent power of Parliament under Article 368 does not enable it to alter the ‘basic structure’ of the Constitution.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Basic Structure"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which Article of the Constitution deals with the adjudication of disputes relating to waters of inter-state rivers?",
+      "Options": [
+        { "id": 1, "text": "Article 261" },
+        { "id": 2, "text": "Article 262" },
+        { "id": 3, "text": "Article 263" },
+        { "id": 4, "text": "Article 264" }
+      ],
+      "CorrectAnswer": "Article 262",
+      "Explanation": "Article 262 empowers Parliament to provide for the adjudication of any dispute or complaint with respect to the use, distribution, or control of the waters of any inter-state river or river valley.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Centre-State Relations"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which writ is known as a 'bulwark of personal freedom'?",
+      "Options": [
+        { "id": 1, "text": "Mandamus" },
+        { "id": 2, "text": "Habeas Corpus" },
+        { "id": 3, "text": "Certiorari" },
+        { "id": 4, "text": "Quo Warranto" }
+      ],
+      "CorrectAnswer": "Habeas Corpus",
+      "Explanation": "The writ of Habeas Corpus ('to have the body of') is an order issued by the court to a person who has detained another person, to produce the body of the latter before it. It is a powerful check against unlawful detention and is hence called the bulwark of individual liberty.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Judiciary Exams",
+      "correctOption": 2,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "Who was the architect of the three-tier Panchayati Raj system in Maharashtra based on the committee he chaired?",
+      "Options": [
+        { "id": 1, "text": "Balwantrai Mehta" },
+        { "id": 2, "text": "P. B. Patil" },
+        { "id": 3, "text": "L. N. Bongirwar" },
+        { "id": 4, "text": "Vasantrao Naik" }
+      ],
+      "CorrectAnswer": "Vasantrao Naik",
+      "Explanation": "The Vasantrao Naik Committee (1960) was appointed by the Maharashtra government to suggest a framework for Panchayati Raj. Its recommendations for a strong Zilla Parishad at the district level formed the basis of the Maharashtra Zilla Parishads and Panchayat Samitis Act, 1961.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 4,
+      "topic": "Panchayati Raj"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The Maharashtra State Human Rights Commission (MSHRC) is headquartered in:",
+      "Options": [
+        { "id": 1, "text": "Pune" },
+        { "id": 2, "text": "Nagpur" },
+        { "id": 3, "text": "Aurangabad (Chhatrapati Sambhajinagar)" },
+        { "id": 4, "text": "Mumbai" }
+      ],
+      "CorrectAnswer": "Mumbai",
+      "Explanation": "The Maharashtra State Human Rights Commission (MSHRC) is a statutory body with its headquarters located in Mumbai, the capital of the state.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 4,
+      "topic": "State Commissions"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "Which of the following is the highest law officer in the state of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Solicitor General" },
+        { "id": 2, "text": "Advocate General" },
+        { "id": 3, "text": "Chief Secretary" },
+        { "id": 4, "text": "Law Minister" }
+      ],
+      "CorrectAnswer": "Advocate General",
+      "Explanation": "The Advocate General, appointed by the Governor under Article 165, is the highest law officer in the state and advises the state government on legal matters.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Bank-PO",
+      "correctOption": 2,
+      "topic": "State Executive"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "In Maharashtra, the President of a Class 'A' Municipal Council is elected by:",
+      "Options": [
+        { "id": 1, "text": "The elected councillors from amongst themselves" },
+        { "id": 2, "text": "Directly by the people of the city" },
+        { "id": 3, "text": "Nominated by the state government" },
+        { "id": 4, "text": "Nominated by the District Collector" }
+      ],
+      "CorrectAnswer": "Directly by the people of the city",
+      "Explanation": "As per amendments to the Maharashtra Municipal Council, Nagar Panchayats and Industrial Townships Act, the President (Nagaradhyaksha) of Municipal Councils is elected directly by the voters in the city.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, Grade-B",
+      "correctOption": 2,
+      "topic": "Urban Local Bodies"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The Bombay High Court has circuit benches at Nagpur, Aurangabad, and which other city?",
+      "Options": [
+        { "id": 1, "text": "Pune" },
+        { "id": 2, "text": "Nashik" },
+        { "id": 3, "text": "Panaji (Goa)" },
+        { "id": 4, "text": "Kolhapur" }
+      ],
+      "CorrectAnswer": "Panaji (Goa)",
+      "Explanation": "The principal seat of the Bombay High Court is in Mumbai. It has benches at Nagpur and Aurangabad (Chhatrapati Sambhajinagar) in Maharashtra, and a bench at Panaji which has jurisdiction over the state of Goa.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Judiciary Exams",
+      "correctOption": 3,
+      "topic": "State Judiciary"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "What does the 'Ward Sabha' represent in the urban local governance of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "A committee of all councillors" },
+        { "id": 2, "text": "A meeting of all adult members residing in a ward" },
+        { "id": 3, "text": "A committee appointed by the Mayor" },
+        { "id": 4, "text": "The office of the local corporator" }
+      ],
+      "CorrectAnswer": "A meeting of all adult members residing in a ward",
+      "Explanation": "Similar to the Gram Sabha in rural areas, the Ward Sabha is a body consisting of all persons registered in the electoral rolls within a specific ward of a municipality. It promotes citizen participation in local governance.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade-B",
+      "correctOption": 2,
+      "topic": "Urban Local Bodies"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The L.N. Bongirwar Committee in Maharashtra was constituted to study:",
+      "Options": [
+        { "id": 1, "text": "The service conditions of government employees" },
+        { "id": 2, "text": "The evaluation of Panchayati Raj institutions" },
+        { "id": 3, "text": "The finances of Municipal Corporations" },
+        { "id": 4, "text": "The creation of new districts" }
+      ],
+      "CorrectAnswer": "The evaluation of Panchayati Raj institutions",
+      "Explanation": "The L.N. Bongirwar Committee was appointed in 1970 to evaluate the functioning of Panchayati Raj institutions in Maharashtra and suggest measures for improvement. It recommended the creation of the post of 'Gram Sevak'.",
+      "Difficulty": "Hard",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "Panchayati Raj"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "Who is the highest-ranking civil servant in the Maharashtra state administration?",
+      "Options": [
+        { "id": 1, "text": "Home Secretary" },
+        { "id": 2, "text": "Finance Secretary" },
+        { "id": 3, "text": "Chief Secretary" },
+        { "id": 4, "text": "Principal Secretary to the CM" }
+      ],
+      "CorrectAnswer": "Chief Secretary",
+      "Explanation": "The Chief Secretary is the head of the state's civil services and the administrative head of the state secretariat. He acts as the principal advisor to the Chief Minister.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, State Services",
+      "correctOption": 3,
+      "topic": "State Administration"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The term of the Zilla Parishad in Maharashtra is:",
+      "Options": [
+        { "id": 1, "text": "3 years" },
+        { "id": 2, "text": "4 years" },
+        { "id": 3, "text": "5 years" },
+        { "id": 4, "text": "6 years" }
+      ],
+      "CorrectAnswer": "5 years",
+      "Explanation": "The term of office for a Zilla Parishad, the apex body of the Panchayati Raj system at the district level, is five years from the date of its first meeting.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 3,
+      "topic": "Panchayati Raj"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "Which of these districts is part of the Konkan administrative division?",
+      "Options": [
+        { "id": 1, "text": "Pune" },
+        { "id": 2, "text": "Nashik" },
+        { "id": 3, "text": "Ratnagiri" },
+        { "id": 4, "text": "Kolhapur" }
+      ],
+      "CorrectAnswer": "Ratnagiri",
+      "Explanation": "The Konkan division comprises the coastal districts of Maharashtra, including Mumbai City, Mumbai Suburban, Thane, Palghar, Raigad, Ratnagiri, and Sindhudurg.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 3,
+      "topic": "State Administration"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "A Money Bill in the Maharashtra legislature can only be introduced in the:",
+      "Options": [
+        { "id": 1, "text": "Legislative Council (Vidhan Parishad)" },
+        { "id": 2, "text": "Legislative Assembly (Vidhan Sabha)" },
+        { "id": 3, "text": "Either House" },
+        { "id": 4, "text": "A joint session" }
+      ],
+      "CorrectAnswer": "Legislative Assembly (Vidhan Sabha)",
+      "Explanation": "Similar to the Lok Sabha at the national level, a Money Bill can only originate in the Legislative Assembly (lower house) in a bicameral state legislature like Maharashtra's.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "State Legislature"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "How many members are nominated by the Governor to the Maharashtra Legislative Council?",
+      "Options": [
+        { "id": 1, "text": "10" },
+        { "id": 2, "text": "12" },
+        { "id": 3, "text": "1/3rd of the total members" },
+        { "id": 4, "text": "1/6th of the total members" }
+      ],
+      "CorrectAnswer": "12",
+      "Explanation": "Article 171 specifies that for a state Legislative Council, the Governor nominates about 1/6th of the total members from persons having special knowledge or practical experience in literature, science, art, co-operative movement and social service. In Maharashtra, with a total strength of 78, this number is 12.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "State Legislature"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The Maharashtra Institute of Development Administration (YASHADA) is located in which city?",
+      "Options": [
+        { "id": 1, "text": "Mumbai" },
+        { "id": 2, "text": "Nagpur" },
+        { "id": 3, "text": "Pune" },
+        { "id": 4, "text": "Nashik" }
+      ],
+      "CorrectAnswer": "Pune",
+      "Explanation": "The Yashwantrao Chavan Academy of Development Administration (YASHADA) in Pune is the administrative training institute of the Government of Maharashtra.",
+      "Difficulty": "Easy",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "Governance"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "Who decides on the disqualification of a member of the Maharashtra Legislative Assembly on grounds of defection?",
+      "Options": [
+        { "id": 1, "text": "The Governor" },
+        { "id": 2, "text": "The Speaker of the Assembly" },
+        { "id": 3, "text": "The Election Commission" },
+        { "id": 4, "text": "The Bombay High Court" }
+      ],
+      "CorrectAnswer": "The Speaker of the Assembly",
+      "Explanation": "Under the Tenth Schedule (Anti-Defection Law), the question of disqualification of a member of the house is decided by the presiding officer of that house - the Speaker in the case of the Legislative Assembly.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "State Legislature"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The 'Police Patil' system in Maharashtra functions at the:",
+      "Options": [
+        { "id": 1, "text": "District level" },
+        { "id": 2, "text": "Taluka level" },
+        { "id": 3, "text": "Village level" },
+        { "id": 4, "text": "Metropolitan level" }
+      ],
+      "CorrectAnswer": "Village level",
+      "Explanation": "The Police Patil is a village-level functionary who assists the police administration in maintaining law and order, reporting crimes, and other related duties within the village.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Police Bharti",
+      "correctOption": 3,
+      "topic": "State Administration"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "Which of the following bodies is responsible for the delimitation of constituencies for local body elections in Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Election Commission of India" },
+        { "id": 2, "text": "State Legislature" },
+        { "id": 3, "text": "State Election Commission" },
+        { "id": 4, "text": "Delimitation Commission of India" }
+      ],
+      "CorrectAnswer": "State Election Commission",
+      "Explanation": "The State Election Commission, under Article 243K and 243ZA, is responsible for the superintendence, direction, and control of the preparation of electoral rolls and the conduct of elections to Panchayats and Municipalities, which includes delimitation of wards.",
+      "Difficulty": "Hard",
+      "Job": "MPSC",
+      "correctOption": 3,
+      "topic": "State Commissions"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The annual financial statement or 'budget' of the state government is presented before the legislature under which article?",
+      "Options": [
+        { "id": 1, "text": "Article 112" },
+        { "id": 2, "text": "Article 202" },
+        { "id": 3, "text": "Article 266" },
+        { "id": 4, "text": "Article 198" }
+      ],
+      "CorrectAnswer": "Article 202",
+      "Explanation": "Article 202 of the Constitution requires the Governor to cause the Annual Financial Statement (the state 'Budget') to be laid before the House or Houses of the state legislature. Article 112 is the corresponding provision for the Union Budget.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade-B",
+      "correctOption": 2,
+      "topic": "State Legislature"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The Zilla Parishad generates funds primarily through:",
+      "Options": [
+        { "id": 1, "text": "Taxes and fees levied by it and grants from the state government" },
+        { "id": 2, "text": "Direct grants from the central government" },
+        { "id": 3, "text": "International aid" },
+        { "id": 4, "text": "Loans from commercial banks" }
+      ],
+      "CorrectAnswer": "Taxes and fees levied by it and grants from the state government",
+      "Explanation": "The main sources of income for a Zilla Parishad are grants-in-aid from the state government, and taxes levied by it, such as water tax, pilgrim tax, and market fees.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 1,
+      "topic": "Panchayati Raj"
+    },
+    {
+      "category": "Maharashtra Polity",
+      "Question": "The Samyukta Maharashtra Samiti was formed for the cause of:",
+      "Options": [
+        { "id": 1, "text": "Creating a separate state of Vidarbha" },
+        { "id": 2, "text": "Creating a united, Marathi-speaking state of Maharashtra with Mumbai as its capital" },
+        { "id": 3, "text": "Merging Goa with Maharashtra" },
+        { "id": 4, "text": "Agrarian reforms in the state" }
+      ],
+      "CorrectAnswer": "Creating a united, Marathi-speaking state of Maharashtra with Mumbai as its capital",
+      "Explanation": "The Samyukta Maharashtra Samiti was an organization that spearheaded the Samyukta Maharashtra Movement, demanding the creation of a separate Marathi-speaking state out of the bilingual Bombay State, with Mumbai as its capital.",
+      "Difficulty": "Medium",
+      "Job": "MPSC",
+      "correctOption": 2,
+      "topic": "State Formation"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The Central Vigilance Commission (CVC) was established on the recommendation of which committee?",
+      "Options": [
+        { "id": 1, "text": "Sarkaria Committee" },
+        { "id": 2, "text": "Santhanam Committee" },
+        { "id": 3, "text": "Balwantrai Mehta Committee" },
+        { "id": 4, "text": "Ashok Mehta Committee" }
+      ],
+      "CorrectAnswer": "Santhanam Committee",
+      "Explanation": "The Central Vigilance Commission was set up by the Government of India in 1964 on the recommendations of the Committee on Prevention of Corruption, headed by Shri K. Santhanam. It was given statutory status in 2003.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC, Bank-PO",
+      "correctOption": 2,
+      "topic": "Statutory Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Article 324 of the Constitution deals with the:",
+      "Options": [
+        { "id": 1, "text": "Union Public Service Commission" },
+        { "id": 2, "text": "Finance Commission" },
+        { "id": 3, "text": "Election Commission of India" },
+        { "id": 4, "text": "Attorney General of India" }
+      ],
+      "CorrectAnswer": "Election Commission of India",
+      "Explanation": "Article 324 vests the 'superintendence, direction and control of elections' to Parliament, state legislatures, the office of president of India and the office of vice-president of India in the Election Commission.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The provision for creating All-India Services is found in which article?",
+      "Options": [
+        { "id": 1, "text": "Article 300" },
+        { "id": 2, "text": "Article 311" },
+        { "id": 3, "text": "Article 312" },
+        { "id": 4, "text": "Article 315" }
+      ],
+      "CorrectAnswer": "Article 312",
+      "Explanation": "Article 312 empowers the Parliament to create one or more All-India services common to the Union and the States, if the Rajya Sabha passes a resolution to that effect by a majority of not less than two-thirds of the members present and voting.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Civil Services"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "In the Indian Constitution, the method of election of the President has been taken from which country?",
+      "Options": [
+        { "id": 1, "text": "USA" },
+        { "id": 2, "text": "UK" },
+        { "id": 3, "text": "Ireland" },
+        { "id": 4, "text": "Australia" }
+      ],
+      "CorrectAnswer": "Ireland",
+      "Explanation": "The method of election of the President (proportional representation by means of single transferable vote) and the nomination of members to Rajya Sabha were borrowed from the Constitution of Ireland.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Sources of Constitution"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which part of the Constitution deals with Citizenship?",
+      "Options": [
+        { "id": 1, "text": "Part I" },
+        { "id": 2, "text": "Part II" },
+        { "id": 3, "text": "Part III" },
+        { "id": 4, "text": "Part IV" }
+      ],
+      "CorrectAnswer": "Part II",
+      "Explanation": "Part II of the Indian Constitution, from Articles 5 to 11, deals with the provisions related to citizenship in India.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 2,
+      "topic": "Citizenship"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who acts as the President of India when both the offices of the President and Vice-President are vacant?",
+      "Options": [
+        { "id": 1, "text": "The Prime Minister" },
+        { "id": 2, "text": "The Speaker of the Lok Sabha" },
+        { "id": 3, "text": "The Chief Justice of India" },
+        { "id": 4, "text": "The seniormost Governor" }
+      ],
+      "CorrectAnswer": "The Chief Justice of India",
+      "Explanation": "As per the President (Discharge of Functions) Act, 1969, if the offices of both the President and the Vice-President fall vacant, the Chief Justice of India (or in his absence, the senior-most Judge of the Supreme Court) acts as the President.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Bank-PO",
+      "correctOption": 3,
+      "topic": "The President"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The Ninth Schedule was added to the Constitution by which amendment?",
+      "Options": [
+        { "id": 1, "text": "First Amendment" },
+        { "id": 2, "text": "Seventh Amendment" },
+        { "id": 3, "text": "Twenty-fourth Amendment" },
+        { "id": 4, "text": "Forty-second Amendment" }
+      ],
+      "CorrectAnswer": "First Amendment",
+      "Explanation": "The Ninth Schedule was added by the First Constitutional Amendment Act of 1951 to protect land reform and other laws included in it from judicial review. However, the Supreme Court later ruled that laws included after April 24, 1973, are open to judicial scrutiny.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Constitutional Amendments"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The National Human Rights Commission (NHRC) is a:",
+      "Options": [
+        { "id": 1, "text": "Constitutional body" },
+        { "id": 2, "text": "Statutory body" },
+        { "id": 3, "text": "Executive body" },
+        { "id": 4, "text": "Non-governmental organization" }
+      ],
+      "CorrectAnswer": "Statutory body",
+      "Explanation": "The NHRC is a statutory body, established on 12 October 1993 under the provisions of the Protection of Human Rights Act, 1993. It is not a constitutional body as it is not mentioned in the Constitution.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Statutory Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "What is meant by 'bicameral legislature'?",
+      "Options": [
+        { "id": 1, "text": "A legislature with a single house" },
+        { "id": 2, "text": "A legislature with two houses" },
+        { "id": 3, "text": "A legislature with three houses" },
+        { "id": 4, "text": "A legislature where members are elected for two years" }
+      ],
+      "CorrectAnswer": "A legislature with two houses",
+      "Explanation": "A bicameral legislature is one that consists of two separate chambers or houses, typically a lower house and an upper house. The Indian Parliament (Lok Sabha and Rajya Sabha) is an example.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-C",
+      "correctOption": 2,
+      "topic": "Basic Concepts"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The power of Parliament to legislate on subjects in the State List during a National Emergency is given under which article?",
+      "Options": [
+        { "id": 1, "text": "Article 249" },
+        { "id": 2, "text": "Article 250" },
+        { "id": 3, "text": "Article 252" },
+        { "id": 4, "text": "Article 253" }
+      ],
+      "CorrectAnswer": "Article 250",
+      "Explanation": "Article 250 states that while a Proclamation of Emergency is in operation, Parliament shall have the power to make laws for the whole or any part of the territory of India with respect to any of the matters enumerated in the State List.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Emergency Provisions"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following is NOT a constitutional body?",
+      "Options": [
+        { "id": 1, "text": "NITI Aayog" },
+        { "id": 2, "text": "Finance Commission" },
+        { "id": 3, "text": "UPSC" },
+        { "id": 4, "text": "Election Commission" }
+      ],
+      "CorrectAnswer": "NITI Aayog",
+      "Explanation": "NITI Aayog was established by a resolution of the Union Cabinet. It is an executive body, not a constitutional body (established by the Constitution) or a statutory body (established by an Act of Parliament).",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL, Bank-PO",
+      "correctOption": 1,
+      "topic": "Non-Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The term of office for the Comptroller and Auditor General (CAG) of India is:",
+      "Options": [
+        { "id": 1, "text": "5 years or up to 65 years of age, whichever is earlier" },
+        { "id": 2, "text": "6 years or up to 62 years of age, whichever is earlier" },
+        { "id": 3, "text": "6 years or up to 65 years of age, whichever is earlier" },
+        { "id": 4, "text": "During the pleasure of the President" }
+      ],
+      "CorrectAnswer": "6 years or up to 65 years of age, whichever is earlier",
+      "Explanation": "The Comptroller and Auditor General (CAG) holds office for a term of six years or until they attain the age of 65 years, whichever is earlier.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC, Bank-PO",
+      "correctOption": 3,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Article 371-J of the constitution provides special status to which region?",
+      "Options": [
+        { "id": 1, "text": "Vidarbha" },
+        { "id": 2, "text": "Saurashtra" },
+        { "id": 3, "text": "Hyderabad-Karnataka" },
+        { "id": 4, "text": "Nagaland" }
+      ],
+      "CorrectAnswer": "Hyderabad-Karnataka",
+      "Explanation": "Article 371-J, added by the 98th Amendment Act of 2012, grants special status to six backward districts of the Hyderabad-Karnataka region to establish an institutional mechanism for equitable allocation of funds and opportunities.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC, State PSCs",
+      "correctOption": 3,
+      "topic": "Special Provisions"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The system of judicial review exists in:",
+      "Options": [
+        { "id": 1, "text": "India only" },
+        { "id": 2, "text": "USA only" },
+        { "id": 3, "text": "India and USA" },
+        { "id": 4, "text": "UK only" }
+      ],
+      "CorrectAnswer": "India and USA",
+      "Explanation": "Both India and the USA have a system of judicial review, where the judiciary can examine the constitutionality of legislative enactments and executive orders. However, the scope of judicial review in India is narrower than in the USA.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The salaries and allowances of the Judges of the Supreme Court are charged upon the:",
+      "Options": [
+        { "id": 1, "text": "Consolidated Fund of India" },
+        { "id": 2, "text": "Contingency Fund of India" },
+        { "id": 3, "text": "Public Accounts of India" },
+        { "id": 4, "text": "Reserve Bank of India" }
+      ],
+      "CorrectAnswer": "Consolidated Fund of India",
+      "Explanation": "Expenditure 'charged' upon the Consolidated Fund of India is non-votable by the Parliament. This includes salaries and allowances of the President, Speaker, Judges of the Supreme Court, etc., to ensure their independence.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Bank-PO",
+      "correctOption": 1,
+      "topic": "Financial Administration"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who is the chairman of the National Development Council (NDC)?",
+      "Options": [
+        { "id": 1, "text": "The President" },
+        { "id": 2, "text": "The Vice-President" },
+        { "id": 3, "text": "The Prime Minister" },
+        { "id": 4, "text": "The Home Minister" }
+      ],
+      "CorrectAnswer": "The Prime Minister",
+      "Explanation": "The Prime Minister of India is the ex-officio chairman of the National Development Council, which is the apex body for decision making and deliberation on development matters in India, presiding over the Five-Year Plans.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Non-Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The Twelfth Schedule of the Constitution deals with:",
+      "Options": [
+        { "id": 1, "text": "The powers and responsibilities of Panchayats" },
+        { "id": 2, "text": "The powers and responsibilities of Municipalities" },
+        { "id": 3, "text": "The allocation of seats in the Rajya Sabha" },
+        { "id": 4, "text": "The list of official languages" }
+      ],
+      "CorrectAnswer": "The powers and responsibilities of Municipalities",
+      "Explanation": "The Twelfth Schedule was added by the 74th Amendment Act of 1992 and contains 18 functional items that are to be placed under the purview of Municipalities.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade-B",
+      "correctOption": 2,
+      "topic": "Schedules of Constitution"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The phrase 'equality before law' used in Article 14 has been borrowed from:",
+      "Options": [
+        { "id": 1, "text": "USA" },
+        { "id": 2, "text": "Britain" },
+        { "id": 3, "text": "Ireland" },
+        { "id": 4, "text": "Japan" }
+      ],
+      "CorrectAnswer": "Britain",
+      "Explanation": "The concept of 'equality before law' is of British origin, associated with A.V. Dicey's 'Rule of Law'. The concept of 'equal protection of laws' in the same article has been taken from the American Constitution.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Sources of Constitution"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "An ordinary bill passed by the Parliament is sent to the President for his assent. What can the President do?",
+      "Options": [
+        { "id": 1, "text": "He can only give his assent" },
+        { "id": 2, "text": "He can only reject the bill" },
+        { "id": 3, "text": "He can give assent, withhold assent, or return the bill for reconsideration" },
+        { "id": 4, "text": "He must return the bill for reconsideration" }
+      ],
+      "CorrectAnswer": "He can give assent, withhold assent, or return the bill for reconsideration",
+      "Explanation": "Under Article 111, for an ordinary bill, the President has three options: give assent (bill becomes act), withhold assent (bill ends), or return the bill for reconsideration (suspensive veto). However, if the bill is passed again by Parliament with or without amendments, the President must give his assent.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "The President"
+    }
+  ]

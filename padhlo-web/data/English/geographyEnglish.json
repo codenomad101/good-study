@@ -1,0 +1,873 @@
+[
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "What is the approximate total length of India's coastline, including the mainland and the island territories?",
+      "Options": [
+        { "id": 1, "text": "5,517 km" },
+        { "id": 2, "text": "6,100 km" },
+        { "id": 3, "text": "7,517 km" },
+        { "id": 4, "text": "8,200 km" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "7,517 km",
+      "Explanation": "The total length of India's coastline, including the mainland and the Andaman & Nicobar and Lakshadweep islands, is approximately 7,517 kilometers."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The highest peak in Maharashtra, located in the Western Ghats (Sahyadri Range), is:",
+      "Options": [
+        { "id": 1, "text": "Salher" },
+        { "id": 2, "text": "Mahabaleshwar" },
+        { "id": 3, "text": "Kalsubai" },
+        { "id": 4, "text": "Dhupgarh" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Kalsubai",
+      "Explanation": "Kalsubai, with an elevation of 1,646 meters (5,400 ft), is the highest point in the state of Maharashtra, located in the Ahmednagar district."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which of the following is the oldest mountain range in India, primarily traversing the state of Rajasthan?",
+      "Options": [
+        { "id": 1, "text": "Himalayas" },
+        { "id": 2, "text": "Aravalli Range" },
+        { "id": 3, "text": "Satpura Range" },
+        { "id": 4, "text": "Vindhya Range" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Aravalli Range",
+      "Explanation": "The Aravalli Range is one of the world's oldest fold mountain systems, located in the Northwestern part of India."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which geographical term best describes the Konkan coastline of Maharashtra, characterized by many coves, bays, and estuaries?",
+      "Options": [
+        { "id": 1, "text": "Fiord" },
+        { "id": 2, "text": "Ria" },
+        { "id": 3, "text": "Dantur (Indented)" },
+        { "id": 4, "text": "Straight" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Dantur (Indented)",
+      "Explanation": "The Konkan coastline is described as 'Dantur' (indented or serrated) because it is irregular and punctuated by numerous creeks (khadis) and bays."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The Western Ghats mountain range is locally known as the 'Sahyadris' in which states?",
+      "Options": [
+        { "id": 1, "text": "Tamil Nadu and Kerala" },
+        { "id": 2, "text": "Maharashtra and Karnataka" },
+        { "id": 3, "text": "Gujarat and Madhya Pradesh" },
+        { "id": 4, "text": "Andhra Pradesh and Odisha" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Maharashtra and Karnataka",
+      "Explanation": "The Northern section of the Western Ghats, running parallel to the Konkan Coast, is famously known as the Sahyadri range, especially in Maharashtra."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The Tropic of Cancer (23° 30' N) does NOT pass through which of the following Indian states?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Chhattisgarh" },
+        { "id": 3, "text": "Bihar" },
+        { "id": 4, "text": "Mizoram" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Bihar",
+      "Explanation": "The Tropic of Cancer passes through 8 states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram, but not Bihar."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which major river, known as the 'Dakshin Ganga' (Ganga of the South), originates at Trimbakeshwar in the Nashik district of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Krishna" },
+        { "id": 2, "text": "Tapi" },
+        { "id": 3, "text": "Godavari" },
+        { "id": 4, "text": "Bhima" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Godavari",
+      "Explanation": "The Godavari is the longest peninsular river and originates in the Western Ghats at Trimbakeshwar, near Nashik, Maharashtra."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Tadoba Andhari National Park**, one of India's major tiger reserves, is located in which district of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Amravati" },
+        { "id": 2, "text": "Nagpur" },
+        { "id": 3, "text": "Chandrapur" },
+        { "id": 4, "text": "Gondia" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Chandrapur",
+      "Explanation": "Tadoba Andhari Tiger Reserve is located in the Chandrapur district in the eastern part of Maharashtra (Vidarbha region)."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The Indian subcontinent tapers southward, dividing the Indian Ocean into the Bay of Bengal and which other body of water?",
+      "Options": [
+        { "id": 1, "text": "Persian Gulf" },
+        { "id": 2, "text": "Red Sea" },
+        { "id": 3, "text": "Arabian Sea" },
+        { "id": 4, "text": "Laccadive Sea" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Arabian Sea",
+      "Explanation": "The peninsula of India is bounded by the Bay of Bengal to the east, the Arabian Sea to the west, and the Indian Ocean to the south."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which region of Maharashtra, known for its arid climate, lies to the east of the Sahyadri mountains due to a rain shadow effect?",
+      "Options": [
+        { "id": 1, "text": "Konkan" },
+        { "id": 2, "text": "Vidarbha" },
+        { "id": 3, "text": "Desh (Deccan Plateau interior)" },
+        { "id": 4, "text": "Khandesh" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Desh (Deccan Plateau interior)",
+      "Explanation": "The central Deccan Plateau (Desh), which includes cities like Pune and Ahmednagar, lies in the rain shadow region of the Western Ghats, resulting in a hot semi-arid climate."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which of the following passes connects Manali and Leh by road and cuts across the Pir Panjal range?",
+      "Options": [
+        { "id": 1, "text": "Nathula Pass" },
+        { "id": 2, "text": "Zoji La Pass" },
+        { "id": 3, "text": "Rohtang Pass" },
+        { "id": 4, "text": "Mana Pass" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Rohtang Pass",
+      "Explanation": "The Rohtang Pass, now bypassed by the Atal Tunnel, is the historically famous pass that connects the Kullu Valley with the Lahaul and Spiti Valleys, leading towards Leh."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The city of **Nagpur** in Maharashtra is often referred to as the:",
+      "Options": [
+        { "id": 1, "text": "Queen of Deccan" },
+        { "id": 2, "text": "City of Wrestlers" },
+        { "id": 3, "text": "Orange City" },
+        { "id": 4, "text": "City of Seven Islands" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Orange City",
+      "Explanation": "Nagpur is famously known as the Orange City due to its status as a major trade center for oranges grown in the region."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which state of India is the largest producer of **Bauxite**, the primary ore of Aluminum?",
+      "Options": [
+        { "id": 1, "text": "Jharkhand" },
+        { "id": 2, "text": "Odisha" },
+        { "id": 3, "text": "Gujarat" },
+        { "id": 4, "text": "Maharashtra" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Odisha",
+      "Explanation": "Odisha accounts for more than 50% of India's bauxite resources and is consistently the largest bauxite-producing state."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Ujani Dam**, one of the largest in Maharashtra by capacity, is built on which river?",
+      "Options": [
+        { "id": 1, "text": "Koyna River" },
+        { "id": 2, "text": "Bhima River" },
+        { "id": 3, "text": "Godavari River" },
+        { "id": 4, "text": "Krishna River" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Bhima River",
+      "Explanation": "The Ujani Dam is located on the Bhima River near Ujani village in the Solapur district of Maharashtra."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which two states are connected by the **Palghat Gap** (Palakkad Gap), a major break in the Western Ghats?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra and Goa" },
+        { "id": 2, "text": "Goa and Karnataka" },
+        { "id": 3, "text": "Kerala and Tamil Nadu" },
+        { "id": 4, "text": "Karnataka and Kerala" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Kerala and Tamil Nadu",
+      "Explanation": "The Palghat Gap is a low mountain pass that connects Palakkad in Kerala with Coimbatore in Tamil Nadu."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which administrative region of Maharashtra was historically part of the princely state of Hyderabad until 1956?",
+      "Options": [
+        { "id": 1, "text": "Vidarbha" },
+        { "id": 2, "text": "Khandesh" },
+        { "id": 3, "text": "Konkan" },
+        { "id": 4, "text": "Marathwada" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Marathwada",
+      "Explanation": "The Marathwada region, including districts like Aurangabad and Nanded, was historically part of the Nizam's Dominions (Hyderabad State) until it was integrated into Bombay State in 1956."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The Indian islands of **Lakshadweep** are primarily classified as which type of island based on their formation?",
+      "Options": [
+        { "id": 1, "text": "Volcanic islands" },
+        { "id": 2, "text": "Continental islands" },
+        { "id": 3, "text": "Coral islands (Atolls)" },
+        { "id": 4, "text": "Tectonic islands" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Coral islands (Atolls)",
+      "Explanation": "The Lakshadweep islands in the Arabian Sea are coral atolls, built up over time by the accumulation of corals."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "What is the collective local name for the hills that form the natural northern boundary of Maharashtra, including the Gavilgad and Akrani hills?",
+      "Options": [
+        { "id": 1, "text": "Aravalli Range" },
+        { "id": 2, "text": "Satpura Range" },
+        { "id": 3, "text": "Harishchandra Range" },
+        { "id": 4, "text": "Shambhu Mahadev Range" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Satpura Range",
+      "Explanation": "The Satpura Range and its associated hill ranges like Gavilgad and Akrani form the natural northern boundary of Maharashtra, separating it from the Narmada-Tapi plains."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which type of soil is most widely spread across the Deccan Plateau of India, including a large part of Maharashtra, and is known for its ability to retain moisture?",
+      "Options": [
+        { "id": 1, "text": "Alluvial Soil" },
+        { "id": 2, "text": "Red and Yellow Soil" },
+        { "id": 3, "text": "Laterite Soil" },
+        { "id": 4, "text": "Black Soil (Regur)" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Black Soil (Regur)",
+      "Explanation": "Black soil, or Regur, is typical of the Deccan Trap region, rich in clay, and is highly moisture-retentive, making it ideal for cotton cultivation."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which one of the following is the state with which Maharashtra shares the shortest border?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Goa" },
+        { "id": 3, "text": "Telangana" },
+        { "id": 4, "text": "Chhattisgarh" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Goa",
+      "Explanation": "Maharashtra shares its shortest land border with the state of Goa in the south-west."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Sivasamudram Falls**, one of the oldest hydroelectric power stations in Asia, is located on which river?",
+      "Options": [
+        { "id": 1, "text": "Krishna River" },
+        { "id": 2, "text": "Godavari River" },
+        { "id": 3, "text": "Kaveri River" },
+        { "id": 4, "text": "Sharavathi River" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Kaveri River",
+      "Explanation": "The Sivasamudram Falls and the associated power station are located on the Kaveri River in Karnataka."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "In Maharashtra, the month of **May** is usually the warmest, while the coldest month is typically:",
+      "Options": [
+        { "id": 1, "text": "October" },
+        { "id": 2, "text": "February" },
+        { "id": 3, "text": "January" },
+        { "id": 4, "text": "December" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "January",
+      "Explanation": "May marks the end of the summer season and is the warmest, while January is generally the coldest month of the year across Maharashtra."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The total surface area of India accounts for approximately what percentage of the world's total surface area?",
+      "Options": [
+        { "id": 1, "text": "1.8%" },
+        { "id": 2, "text": "2.4%" },
+        { "id": 3, "text": "3.2%" },
+        { "id": 4, "text": "4.5%" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "2.4%",
+      "Explanation": "India's total geographical area is about 3.28 million square kilometers, which constitutes approximately 2.4% of the total land area of the world."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which major river flows westward and forms an estuary before draining into the Arabian Sea on the border of Maharashtra and Gujarat?",
+      "Options": [
+        { "id": 1, "text": "Narmada" },
+        { "id": 2, "text": "Godavari" },
+        { "id": 3, "text": "Tapi (Tapti)" },
+        { "id": 4, "text": "Krishna" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Tapi (Tapti)",
+      "Explanation": "The Tapi/Tapti river flows through the states of Madhya Pradesh, Maharashtra, and Gujarat before emptying into the Gulf of Khambhat (Arabian Sea)."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Meghalaya Plateau** is separated from the main block of the Peninsular Plateau by which fault or gap?",
+      "Options": [
+        { "id": 1, "text": "Palghat Gap" },
+        { "id": 2, "text": "Great Boundary Fault" },
+        { "id": 3, "text": "Malda Gap (Garo-Rajmahal Gap)" },
+        { "id": 4, "text": "Narmada-Son Fault" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Malda Gap (Garo-Rajmahal Gap)",
+      "Explanation": "The Malda Gap, a down-faulted block, separates the Meghalaya Plateau from the Chota Nagpur Plateau in the Indian Peninsula."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The regional name for the central plateau area of Maharashtra, lying to the east of the Sahyadris, is:",
+      "Options": [
+        { "id": 1, "text": "Konkan" },
+        { "id": 2, "text": "Vidarbha" },
+        { "id": 3, "text": "Khandesh" },
+        { "id": 4, "text": "Desh" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Desh",
+      "Explanation": "The 'Desh' region, meaning 'country' or 'interior', refers to the western part of the Deccan Plateau in Maharashtra, encompassing Pune, Satara, etc."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which of the following cities in India is located on the banks of the Brahmaputra River?",
+      "Options": [
+        { "id": 1, "text": "Patna" },
+        { "id": 2, "text": "Guwahati" },
+        { "id": 3, "text": "Varanasi" },
+        { "id": 4, "text": "Kolkata" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Guwahati",
+      "Explanation": "Guwahati, a major city in Assam, is situated on the south bank of the Brahmaputra River."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The Harishchandra-Balaghat Hill Range in Maharashtra acts as a major watershed between the basins of which two rivers?",
+      "Options": [
+        { "id": 1, "text": "Godavari and Krishna" },
+        { "id": 2, "text": "Tapi and Godavari" },
+        { "id": 3, "text": "Bhima and Krishna" },
+        { "id": 4, "text": "Godavari and Bhima (tributary of Krishna)" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Godavari and Bhima (tributary of Krishna)",
+      "Explanation": "The Harishchandra-Balaghat Range separates the Godavari basin in the north from the Bhima river basin (a major tributary of Krishna) in the south."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which type of forest is the most widespread in India, shedding their leaves for about six to eight weeks in dry summer?",
+      "Options": [
+        { "id": 1, "text": "Tropical Evergreen Forests" },
+        { "id": 2, "text": "Tropical Deciduous Forests (Monsoon Forests)" },
+        { "id": 3, "text": "Montane Forests" },
+        { "id": 4, "text": "Mangrove Forests" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Tropical Deciduous Forests (Monsoon Forests)",
+      "Explanation": "Tropical Deciduous Forests, also called Monsoon Forests, cover the largest area in India and are characterized by trees that shed their leaves in the dry season."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which district of Maharashtra has the largest area under **Rabi** crops, according to recent agricultural data?",
+      "Options": [
+        { "id": 1, "text": "Akola" },
+        { "id": 2, "text": "Sindhudurg" },
+        { "id": 3, "text": "Kolhapur" },
+        { "id": 4, "text": "Jalgaon" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Kolhapur",
+      "Explanation": "Kolhapur district in Western Maharashtra is known for a large area dedicated to Rabi (winter) crops, particularly sugarcane and jowar."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Standard Meridian of India**, 82°30′ E, passes through which of the following cities?",
+      "Options": [
+        { "id": 1, "text": "Bhopal" },
+        { "id": 2, "text": "Kolkata" },
+        { "id": 3, "text": "Allahabad (Prayagraj)" },
+        { "id": 4, "text": "Mumbai" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Allahabad (Prayagraj)",
+      "Explanation": "India's Standard Meridian passes through the city of Mirzapur, near Allahabad (now Prayagraj), providing the standard time for the entire country."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The phenomenon in India's demographic history when the population growth rate experienced a sharp decline, shifting from positive to negative, occurred around the year:",
+      "Options": [
+        { "id": 1, "text": "1901" },
+        { "id": 2, "text": "1921" },
+        { "id": 3, "text": "1941" },
+        { "id": 4, "text": "1951" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "1921",
+      "Explanation": "The year 1921 is known as the 'Year of Great Divide' in India's demographic history because it marked the first time the country's population growth rate showed a decline instead of a steady increase."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Khandesh** region of Maharashtra is geographically located in the valley of which two main rivers?",
+      "Options": [
+        { "id": 1, "text": "Godavari and Krishna" },
+        { "id": 2, "text": "Tapi and Purna" },
+        { "id": 3, "text": "Bhima and Godavari" },
+        { "id": 4, "text": "Wardha and Wainganga" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Tapi and Purna",
+      "Explanation": "Khandesh is the northern region of Maharashtra, lying mainly in the valley of the Tapi River and its major tributary, the Purna River."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which of the following crops needs the maximum amount of water per hectare for cultivation in India?",
+      "Options": [
+        { "id": 1, "text": "Wheat" },
+        { "id": 2, "text": "Maize" },
+        { "id": 3, "text": "Barley" },
+        { "id": 4, "text": "Sugarcane" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Sugarcane",
+      "Explanation": "Sugarcane is a water-intensive crop, requiring a substantial amount of water throughout its long growing period, far more than most cereal crops."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The total geographical area of Maharashtra State is approximately:",
+      "Options": [
+        { "id": 1, "text": "2,07,713 sq. km" },
+        { "id": 2, "text": "3,07,713 sq. km" },
+        { "id": 3, "text": "3,57,713 sq. km" },
+        { "id": 4, "text": "4,07,713 sq. km" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "3,07,713 sq. km",
+      "Explanation": "Maharashtra is the third-largest state in India by area, covering $307,713$ square kilometers."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which of the following is the southernmost tip of the Indian mainland, located at 8° 4' North latitude?",
+      "Options": [
+        { "id": 1, "text": "Indira Point" },
+        { "id": 2, "text": "Kanyakumari" },
+        { "id": 3, "text": "Rameswaram" },
+        { "id": 4, "text": "Point Calimere" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kanyakumari",
+      "Explanation": "Kanyakumari in Tamil Nadu is the southernmost point of the Indian mainland. Indira Point is the southernmost point of the entire Indian territory (in the Andaman & Nicobar Islands)."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which of the following districts of Maharashtra is considered the 'Tiger Capital' of India due to its concentration of tiger reserves?",
+      "Options": [
+        { "id": 1, "text": "Gadchiroli" },
+        { "id": 2, "text": "Nagpur" },
+        { "id": 3, "text": "Yavatmal" },
+        { "id": 4, "text": "Satara" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Nagpur",
+      "Explanation": "Nagpur, and the surrounding Vidarbha region, is known as the 'Tiger Capital' because of its proximity to numerous tiger reserves like Pench, Tadoba, and Melghat."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The highest mountain peak in undisputed Indian territory is:",
+      "Options": [
+        { "id": 1, "text": "Mount Everest" },
+        { "id": 2, "text": "Nanda Devi" },
+        { "id": 3, "text": "Kanchenjunga" },
+        { "id": 4, "text": "K2 (Godwin Austen)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Kanchenjunga",
+      "Explanation": "Kanchenjunga is the highest peak fully or partially located within India that is not subject to a territorial dispute. K2 is higher but is located in Pakistan-occupied Kashmir."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Pattiseema Project** is a lift irrigation scheme associated with the integration of which two major South Indian rivers?",
+      "Options": [
+        { "id": 1, "text": "Krishna and Godavari" },
+        { "id": 2, "text": "Kaveri and Krishna" },
+        { "id": 3, "text": "Narmada and Godavari" },
+        { "id": 4, "text": "Mahanadi and Godavari" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Krishna and Godavari",
+      "Explanation": "The Pattiseema Lift Irrigation Project links the Godavari River to the Krishna River, transferring water to the Krishna delta for irrigation."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The Konkan Coastal Plain in Maharashtra has a width that ranges from 30 km to 60 km, reaching a maximum width in the basin of which river?",
+      "Options": [
+        { "id": 1, "text": "Vashishthi" },
+        { "id": 2, "text": "Koyna" },
+        { "id": 3, "text": "Ulhas" },
+        { "id": 4, "text": "Saviri" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Ulhas",
+      "Explanation": "The Konkan Coast is narrow, but its width is maximum, reaching up to 100 km, in the basin of the Ulhas River, near Mumbai."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which of the following is an active volcano located in the Indian territory, in the Andaman Sea?",
+      "Options": [
+        { "id": 1, "text": "Narcondam Island" },
+        { "id": 2, "text": "Barren Island" },
+        { "id": 3, "text": "Mayabunder Island" },
+        { "id": 4, "text": "Little Andaman" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Barren Island",
+      "Explanation": "Barren Island is the only confirmed active volcano in the Indian territory. Narcondam Island is an extinct volcano."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The historical fort of **Ajinkyatara** is located in which district of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Raigad" },
+        { "id": 2, "text": "Pune" },
+        { "id": 3, "text": "Satara" },
+        { "id": 4, "text": "Kolhapur" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Satara",
+      "Explanation": "Ajinkyatara Fort is a major historical landmark located on a mountain in the Satara district of Maharashtra."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Yarlung Zangbo River** is known by which name when it enters India in Arunachal Pradesh?",
+      "Options": [
+        { "id": 1, "text": "Ganga" },
+        { "id": 2, "text": "Indus" },
+        { "id": 3, "text": "Brahmaputra" },
+        { "id": 4, "text": "Mahanadi" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Brahmaputra",
+      "Explanation": "The Yarlung Zangbo flows eastward through Tibet and is known as the Brahmaputra once it enters India through the state of Arunachal Pradesh."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which of the following is NOT one of the six constituent states that shares a land border with Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Telangana" },
+        { "id": 2, "text": "Andhra Pradesh" },
+        { "id": 3, "text": "Karnataka" },
+        { "id": 4, "text": "Gujarat" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Andhra Pradesh",
+      "Explanation": "Maharashtra shares borders with Gujarat, Madhya Pradesh, Chhattisgarh, Telangana, Karnataka, and Goa. It does not directly border Andhra Pradesh."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The type of rainfall predominantly experienced in Maharashtra is:",
+      "Options": [
+        { "id": 1, "text": "Convectional" },
+        { "id": 2, "text": "Cyclonic" },
+        { "id": 3, "text": "Orographic" },
+        { "id": 4, "text": "Frontal" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Orographic",
+      "Explanation": "The Western Ghats (Sahyadri) act as a barrier to the South-West Monsoon winds, forcing them to rise and cool, causing heavy orographic rainfall on the windward side (Konkan)."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which soil is known for its 'self-ploughing' characteristic due to the development of cracks when dry, and is highly suitable for growing cotton?",
+      "Options": [
+        { "id": 1, "text": "Alluvial Soil" },
+        { "id": 2, "text": "Red Soil" },
+        { "id": 3, "text": "Black Soil (Regur)" },
+        { "id": 4, "text": "Laterite Soil" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Black Soil (Regur)",
+      "Explanation": "Black soil shrinks and develops wide cracks when dry, effectively ploughing itself, which is a key characteristic of its formation from basaltic lava."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Melghat Wildlife Sanctuary**, a major tiger project, is located in which district of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Gadchiroli" },
+        { "id": 2, "text": "Amravati" },
+        { "id": 3, "text": "Chandrapur" },
+        { "id": 4, "text": "Nanded" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Amravati",
+      "Explanation": "Melghat Tiger Reserve is situated in the Satpura-Maikal range, encompassing parts of the Amravati district in the Vidarbha region."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which of the following is a west-flowing river of Peninsular India that does NOT form a delta, but rather an estuary, before falling into the Arabian Sea?",
+      "Options": [
+        { "id": 1, "text": "Godavari" },
+        { "id": 2, "text": "Mahanadi" },
+        { "id": 3, "text": "Narmada" },
+        { "id": 4, "text": "Kaveri" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Narmada",
+      "Explanation": "The Narmada and Tapi are the two major west-flowing rivers that flow through rift valleys and empty into the Arabian Sea by forming estuaries, unlike the major east-flowing rivers."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which geographical feature marks the northernmost extent of India's mainland latitude (excluding the islands)?",
+      "Options": [
+        { "id": 1, "text": "Indira Point" },
+        { "id": 2, "text": "Siachen Glacier" },
+        { "id": 3, "text": "Indira Col" },
+        { "id": 4, "text": "Kanyakumari" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Indira Col",
+      "Explanation": "Indira Col (at 37°6' N) is the northernmost point of India's territory, located in the Siachen Muztagh in the Karakoram Range."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Chota Nagpur Plateau** covers parts of which four Indian states?",
+      "Options": [
+        { "id": 1, "text": "Bihar, Odisha, West Bengal, Assam" },
+        { "id": 2, "text": "Jharkhand, Chhattisgarh, West Bengal, Odisha" },
+        { "id": 3, "text": "Madhya Pradesh, Chhattisgarh, Bihar, Jharkhand" },
+        { "id": 4, "text": "Jharkhand, Bihar, West Bengal, Andhra Pradesh" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Jharkhand, Chhattisgarh, West Bengal, Odisha",
+      "Explanation": "The Chota Nagpur Plateau predominantly covers most of Jharkhand, parts of Odisha, West Bengal, and Chhattisgarh, and is known for its mineral wealth."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "What is the primary method of transportation used in the **Konkan** region of Maharashtra, especially for connecting interior areas?",
+      "Options": [
+        { "id": 1, "text": "Railways (Konkan Railway)" },
+        { "id": 2, "text": "Inland Waterways" },
+        { "id": 3, "text": "Roadways" },
+        { "id": 4, "text": "Airways" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Roadways",
+      "Explanation": "Despite the existence of the Konkan Railway, the most common and dense network for connecting villages and interior areas of the rugged Konkan region is by road."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Jog Falls**, one of the highest plunge waterfalls in India, is located in which state?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Kerala" },
+        { "id": 3, "text": "Karnataka" },
+        { "id": 4, "text": "Tamil Nadu" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Karnataka",
+      "Explanation": "The Jog Falls are created by the Sharavathi River and are located in the Shivamogga district of Karnataka."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The highest hill in the Satpura Mountain Range within the borders of Maharashtra is:",
+      "Options": [
+        { "id": 1, "text": "Vairat Hill (Amravati)" },
+        { "id": 2, "text": "Astambha Hill (Nandurbar)" },
+        { "id": 3, "text": "Salher Peak" },
+        { "id": 4, "text": "Kalsubai Peak" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Astambha Hill (Nandurbar)",
+      "Explanation": "Astambha Hill, at 1,325m in the Nandurbar district, is the highest peak of the Satpura Range within Maharashtra's territory."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Sorrow of Bihar** is a frequent description given to which major river known for its catastrophic seasonal floods?",
+      "Options": [
+        { "id": 1, "text": "Ganga" },
+        { "id": 2, "text": "Yamuna" },
+        { "id": 3, "text": "Kosi" },
+        { "id": 4, "text": "Damodar" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Kosi",
+      "Explanation": "The Kosi River is famous for changing its course frequently and causing devastating annual floods in the northern plains of Bihar."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which of the following cities in Maharashtra is geographically known as the **'Queen of the Deccan'** (Dakhan ki Rani)?",
+      "Options": [
+        { "id": 1, "text": "Mumbai" },
+        { "id": 2, "text": "Nagpur" },
+        { "id": 3, "text": "Pune" },
+        { "id": 4, "text": "Kolhapur" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Pune",
+      "Explanation": "Pune is famously referred to as the 'Queen of the Deccan' due to its strategic location, climate, and importance on the Deccan Plateau."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The most common and dominant type of Indian agriculture, aimed primarily at family consumption, is:",
+      "Options": [
+        { "id": 1, "text": "Commercial agriculture" },
+        { "id": 2, "text": "Plantation agriculture" },
+        { "id": 3, "text": "Subsistence agriculture" },
+        { "id": 4, "text": "Extensive agriculture" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Subsistence agriculture",
+      "Explanation": "Subsistence agriculture, where farming is done mainly to meet the needs of the farmer's family, is the predominant type across India."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "How many districts does Maharashtra State currently have?",
+      "Options": [
+        { "id": 1, "text": "28" },
+        { "id": 2, "text": "32" },
+        { "id": 3, "text": "36" },
+        { "id": 4, "text": "40" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "36",
+      "Explanation": "Maharashtra is administratively divided into 36 districts and 6 revenue divisions."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "In India, the railway network is relatively less dense in which of the following regions due to challenging terrain?",
+      "Options": [
+        { "id": 1, "text": "North Indian Plains" },
+        { "id": 2, "text": "Coastal Regions" },
+        { "id": 3, "text": "Himalayan Region and North East" },
+        { "id": 4, "text": "Deccan Plateau" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Himalayan Region and North East",
+      "Explanation": "The rugged topography, steep slopes, and thick forests in the Himalayan and North-Eastern states make railway construction difficult and less dense."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Thar Desert**, the Great Indian Desert, is primarily located in which Indian state?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Punjab" },
+        { "id": 3, "text": "Rajasthan" },
+        { "id": 4, "text": "Haryana" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Rajasthan",
+      "Explanation": "A major portion of the Thar Desert, over $85, lies within the state of Rajasthan."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which creek, located in the Raigad district of Maharashtra, is a key center for ferry and transport services in the Konkan region?",
+      "Options": [
+        { "id": 1, "text": "Dahanu Creek" },
+        { "id": 2, "text": "Dharamtar Creek" },
+        { "id": 3, "text": "Manori Creek" },
+        { "id": 4, "text": "Vaitarna Creek" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Dharamtar Creek",
+      "Explanation": "Dharamtar Creek near Pen is a prominent creek in Raigad, used for water transport, connecting to Mumbai."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Mesosphere** layer of the atmosphere extends to a height of:",
+      "Options": [
+        { "id": 1, "text": "18 km" },
+        { "id": 2, "text": "50 km" },
+        { "id": 3, "text": "80 km" },
+        { "id": 4, "text": "400 km" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "80 km",
+      "Explanation": "The mesosphere is the third layer of the atmosphere, extending from the stratopause at about 50 km up to the mesopause at approximately 80-85 km."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Elephanta Caves**, a UNESCO World Heritage Site in Maharashtra, are located in which part of the state?",
+      "Options": [
+        { "id": 1, "text": "Pune district" },
+        { "id": 2, "text": "On an island near Mumbai" },
+        { "id": 3, "text": "Aurangabad district" },
+        { "id": 4, "text": "Raigad district mainland" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "On an island near Mumbai",
+      "Explanation": "The Elephanta Caves are located on Elephanta Island (Gharapuri Island) in the Mumbai Harbour, off the coast of Mumbai."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The metallic minerals that occur as alluvial deposits in flood plains or valleys are known as:",
+      "Options": [
+        { "id": 1, "text": "Vein deposits" },
+        { "id": 2, "text": "Residual deposits" },
+        { "id": 3, "text": "Placer deposits" },
+        { "id": 4, "text": "Bulk deposits" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Placer deposits",
+      "Explanation": "Placer deposits are concentrations of heavy, resistant minerals found in river beds or valleys, formed by the erosion and deposition of stream flow."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "Which of the following cities in Maharashtra is known as the **'City of Wrestlers'** (Khasbag) due to its strong tradition in wrestling?",
+      "Options": [
+        { "id": 1, "text": "Pune" },
+        { "id": 2, "text": "Nashik" },
+        { "id": 3, "text": "Satara" },
+        { "id": 4, "text": "Kolhapur" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Kolhapur",
+      "Explanation": "Kolhapur has a deep cultural history with wrestling and is home to the Khasbag Maidan, making it famously known as the City of Wrestlers."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The two rivers whose waters are integrated by the **Pattiseema Project** are:",
+      "Options": [
+        { "id": 1, "text": "Ganga and Yamuna" },
+        { "id": 2, "text": "Krishna and Godavari" },
+        { "id": 3, "text": "Tungabhadra and Krishna" },
+        { "id": 4, "text": "Pennar and Kaveri" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Krishna and Godavari",
+      "Explanation": "The Pattiseema Project in Andhra Pradesh connects the Godavari River with the Krishna River."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The **Troposphere** is the closest layer to the Earth's surface where which of the following phenomena occur?",
+      "Options": [
+        { "id": 1, "text": "Aurora Borealis" },
+        { "id": 2, "text": "Weather phenomena" },
+        { "id": 3, "text": "Radio wave reflection" },
+        { "id": 4, "text": "Ozone layer protection" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Weather phenomena",
+      "Explanation": "The troposphere is the lowermost layer of the atmosphere, and almost all weather phenomena, such as clouds, rain, and storms, occur here."
+    },
+    {
+      "category": "Geography of India and Maharashtra",
+      "Question": "The longest north-south extent of India, from Indira Col in Kashmir to Kanyakumari, is approximately:",
+      "Options": [
+        { "id": 1, "text": "2,933 km" },
+        { "id": 2, "text": "3,214 km" },
+        { "id": 3, "text": "3,400 km" },
+        { "id": 4, "text": "2,789 km" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "3,214 km",
+      "Explanation": "The North-South extent of India measures about 3,214 km, while the East-West width is 2,933 km."
+    }
+  ]

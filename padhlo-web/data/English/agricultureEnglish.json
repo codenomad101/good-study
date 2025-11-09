@@ -1,0 +1,2227 @@
+[
+  {
+    "category": "Agriculture",
+    "Question": "For which crop has Dhanuka Agritech launched the herbicide DINKAR?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Wheat"
+      },
+      {
+        "id": 2,
+        "text": "Maize"
+      },
+      {
+        "id": 3,
+        "text": "Paddy"
+      },
+      {
+        "id": 4,
+        "text": "Sugarcane"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Paddy",
+    "Explanation": "Dhanuka Agritech Limited has launched a specialized herbicide named DINKAR, designed specifically for use in transplanted paddy cultivation. This product aims to enhance weed management and overall productivity in paddy fields. The launch event was notable for the presence of Japanese dignitaries from Hokko Chemical Industry Co., Ltd., highlighting international collaboration in agricultural technology. By targeting paddy, one of India's most widely cultivated and water-intensive crops, DINKAR is expected to significantly aid farmers in improving yield and reducing labor-intensive manual weeding. This innovation reflects ongoing advancements in agri-tech tailored to the specific needs of Indian agriculture."
+  },
+  {
+    "category": "Agriculture",
+    "Question": "Which system ensures accurate data collection for crop production and follows data protection laws for farmers' information?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Agri Stack system"
+      },
+      {
+        "id": 2,
+        "text": "Digital Crop Survey System"
+      },
+      {
+        "id": 3,
+        "text": "Krishi Sakhis Program"
+      },
+      {
+        "id": 4,
+        "text": "CSC Initiative"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Digital Crop Survey System",
+    "Explanation": "The Digital Crop Survey System (DCSS) is an initiative by the Government of India aimed at accurate data collection for crop production using digital technology. It leverages geotagged photographs, mobile apps, and satellite data to record what crops are being grown on which plot of land. This helps ensure transparency and accuracy in agricultural data. A key feature of DCSS is its emphasis on data protection and privacy of farmers' information, aligning with India's data protection norms and guidelines, particularly under the Digital Public Infrastructure (DPI) principles. It ensures that data collected is consensual, secure, and used responsibly."
+  },
+  {
+    "Question": "Which system introduced by NIFTEM-K helps reduce post-harvest losses in perishable food transportation using solar power and IoT technology?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "PRADHAN system"
+      },
+      {
+        "id": 2,
+        "text": "PARIVARTAN system"
+      },
+      {
+        "id": 3,
+        "text": "SURAKSHA system"
+      },
+      {
+        "id": 4,
+        "text": "SARTHI system"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "SARTHI system",
+    "Explanation": "The SARTHI system (Solar Assisted Reefer Transportation with Hybrid Controls and Intelligence) was introduced by NIFTEM-K to address the challenge of post-harvest losses in transporting perishable foods. By integrating IoT and real-time monitoring, SARTHI ensures optimal storage conditions for fruits and vegetables using sensors for temperature, humidity, and gas levels. Its solar-powered air-handling unit regulates temperatures when stationary, reducing spoilage and energy use. The system allows transporters to track and adjust conditions through a mobile app, improving shelf life and reducing both wastage and carbon footprints.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "How many new wheat varieties has the Indian Institute of Wheat and Barley Research started distributing?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "10"
+      },
+      {
+        "id": 2,
+        "text": "15"
+      },
+      {
+        "id": 3,
+        "text": "12"
+      },
+      {
+        "id": 4,
+        "text": "13"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "13",
+    "Explanation": "The Indian Institute of Wheat and Barley Research (WBR) in Karnal has begun distributing seeds of 13 new wheat varieties, which have been approved by the Central Government. This initiative aims to improve wheat production in the country. Along with the wheat varieties, a special barley variety (DWRV137), which is peel-free and suitable for animal feed, is also included. The institute's goal is to produce 115 million metric tonnes of wheat this year, exceeding the previous record of 113.29 million metric tonnes.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which rice variety is being promoted by the government as a viable alternative to Pusa-44 to address the issue of farm fires in Punjab and Haryana?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Pusa-44 Plus"
+      },
+      {
+        "id": 2,
+        "text": "Pusa-2090"
+      },
+      {
+        "id": 3,
+        "text": "Pusa-1500"
+      },
+      {
+        "id": 4,
+        "text": "Pusa-2100"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Pusa-2090",
+    "Explanation": "Pusa-2090 is a new rice variety identified as a suitable replacement for Pusa-44 due to its similar yield potential and earlier harvest timing. This variety can be harvested in early to mid-October, eliminating the need for stubble burning, a major contributor to air pollution. By promoting Pusa-2090, the government aims to reduce environmental degradation and conserve groundwater, addressing concerns associated with Pusa-44, which has been linked to increased stubble burning and groundwater depletion in Punjab.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "What is the primary purpose of the Krishi Nivesh Portal?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Agricultural investments and support farmers"
+      },
+      {
+        "id": 2,
+        "text": "Increasing crop yield"
+      },
+      {
+        "id": 3,
+        "text": "Providing weather updates to farmers"
+      },
+      {
+        "id": 4,
+        "text": "Facilitating international trade of agricultural products"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Agricultural investments and support farmers",
+    "Explanation": "The Krishi Nivesh Portal, along with the AgriSURE Fund, is part of a new initiative aimed at improving agricultural infrastructure and supporting farmers. While the AgriSURE Fund focuses on strengthening infrastructure and promoting investment in agriculture, the Krishi Nivesh Portal is designed to streamline these investments and provide direct support to farmers. Together, they contribute to the overall goal of enhancing agricultural efficiency and ensuring that farmers have better access to necessary resources.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which state government plans to emulate the Nilgiris cooperative farming model to benefit its farmers?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Sikkim"
+      },
+      {
+        "id": 2,
+        "text": "Kerala"
+      },
+      {
+        "id": 3,
+        "text": "Assam"
+      },
+      {
+        "id": 4,
+        "text": "Mizoram"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Mizoram",
+    "Explanation": "The Mizoram government is exploring the successful cooperative farming model implemented by the Nilgiris Cooperative Sales Society in Tamil Nadu. A team from Mizoram has been sent to study this model, with the aim of replicating its success in Mizoram's agricultural sector. The Nilgiris model is known for providing fair prices to farmers and eliminating the role of middlemen, thereby ensuring better market stability and farmer welfare. This initiative demonstrates Mizoram's commitment to improving the economic conditions of its farmers by adopting proven agricultural practices from other regions.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "From which Indian state were thirty-eight farmers invited to participate in the flag hoisting ceremony at Delhi's Red Fort?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Uttar Pradesh"
+      },
+      {
+        "id": 2,
+        "text": "Maharashtra"
+      },
+      {
+        "id": 3,
+        "text": "Punjab"
+      },
+      {
+        "id": 4,
+        "text": "Gujarat"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Uttar Pradesh",
+    "Explanation": "Thirty-eight farmers from Uttar Pradesh's Mirzapur, known for their expertise in producing value-added coarse grain products, were invited to join the Independence Day flag hoisting ceremony at Delhi's Red Fort. This initiative reflects recognition of their contributions and the government's support for coarse grain-based food items, aiming to promote local products and celebrate national pride through their participation in the event.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "What is the primary objective of the 'AgriSURE' fund that the government plans to launch?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Enhance rural infrastructure"
+      },
+      {
+        "id": 2,
+        "text": "Promote healthcare initiatives"
+      },
+      {
+        "id": 3,
+        "text": "Boost Agri Start-Ups"
+      },
+      {
+        "id": 4,
+        "text": "Support educational reforms"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Boost Agri Start-Ups",
+    "Explanation": "The 'AgriSURE' fund aims to boost Agri Start-Ups and rural enterprises by providing financial support through a Category-II Alternative Investment Fund (AIF) of Rs 750 crore. This initiative involves contributions from the Department of Agriculture & Farmers Welfare, NABARD, and financial institutions, with NABVENTURES managing the fund. The fund is designed to foster innovation, entrepreneurship, and sustainable development within the agriculture sector, promoting economic growth and employment opportunities in rural areas.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which Indian state's program, led by its government, was awarded the Gulbenkian Prize for Humanity 2024?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Maharashtra"
+      },
+      {
+        "id": 2,
+        "text": "Karnataka"
+      },
+      {
+        "id": 3,
+        "text": "Andhra Pradesh"
+      },
+      {
+        "id": 4,
+        "text": "Telangana"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Andhra Pradesh",
+    "Explanation": "The Andhra Pradesh Community Managed Natural Farming (APCNF) program, spearheaded by the Government of Andhra Pradesh, received the prestigious Gulbenkian Prize for Humanity 2024. This recognition highlights the state's efforts in promoting sustainable agriculture, enhancing food security, and fostering climate resilience among smallholder farmers. The program's innovative approach supports transitioning from conventional to natural farming practices, contributing significantly to ecosystem protection and rural empowerment in Andhra Pradesh.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "In collaboration with MSDE, which country is working on a pilot project to improve agriculture skills in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Australia"
+      },
+      {
+        "id": 2,
+        "text": "New Zealand"
+      },
+      {
+        "id": 3,
+        "text": "United States"
+      },
+      {
+        "id": 4,
+        "text": "Indonesia"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Australia",
+    "Explanation": "The Ministry of Skill Development and Entrepreneurship (MSDE) collaborated with the Australian Government to launch the Australia-India Critical Agriculture Skills Pilot Project. This initiative aims to enhance agricultural skills through pilot projects in various Indian states, focusing on 5 critical job roles identified through extensive consultations. The project intends to scale this model to other sectors beyond agriculture, fostering bilateral cooperation in skill development between India and Australia.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "With which country did Jammu & Kashmir recently elevate its agricultural partnership into a full-fledged strategic agreement?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "New Zealand"
+      },
+      {
+        "id": 2,
+        "text": "Australia"
+      },
+      {
+        "id": 3,
+        "text": "Finland"
+      },
+      {
+        "id": 4,
+        "text": "Denmark"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "New Zealand",
+    "Explanation": "Jammu & Kashmir expanded its Memorandum of Cooperation (MoC) with New Zealand into a comprehensive strategic agreement on June 12. This partnership aims to enhance the sheep and goat sectors through New Zealand's expertise in breeding technology, sustainable farm management, and advanced disease control measures. The collaboration includes extensive training programs, genetic innovations, and workshops conducted by New Zealand experts in Jammu & Kashmir, focusing on optimizing value chains and implementing cutting-edge agricultural practices to boost sector efficiency and profitability.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "In which country did a court recently revoke biosafety permits for commercial propagation of genetically modified golden rice and Bt eggplant?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "India"
+      },
+      {
+        "id": 2,
+        "text": "Brazil"
+      },
+      {
+        "id": 3,
+        "text": "Indonesia"
+      },
+      {
+        "id": 4,
+        "text": "Philippines"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Philippines",
+    "Explanation": "A court in the Philippines recently revoked biosafety permits for commercial propagation of genetically modified golden rice and Bt eggplant. Golden Rice, a genetically engineered variety of rice, contains beta carotene, addressing Vitamin A deficiency. The decision has implications for the adoption of genetically modified crops globally and debates surrounding their safety and regulation.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which organization collaborated with India's Ministry of Agriculture & Farmers Welfare to launch the \"Millets: Seeds of Change\" exhibition?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Google"
+      },
+      {
+        "id": 2,
+        "text": "Microsoft"
+      },
+      {
+        "id": 3,
+        "text": "Apple"
+      },
+      {
+        "id": 4,
+        "text": "Facebook"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Google",
+    "Explanation": "Google Arts & Culture partnered with India's Ministry of Agriculture & Farmers Welfare to launch the \"Millets: Seeds of Change\" exhibition, highlighting the historical and nutritional significance of millets. This collaboration aims to showcase the evolution of millets from ancient staples to modern superfoods, emphasizing their importance in addressing global food security challenges and promoting cultural preservation through digital platforms.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "According to the report, which organization highlighted the need for a $260 billion investment to halve agrifood emissions by 2030?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "International Monetary Fund"
+      },
+      {
+        "id": 2,
+        "text": "United Nations"
+      },
+      {
+        "id": 3,
+        "text": "Asian Development Bank"
+      },
+      {
+        "id": 4,
+        "text": "World Bank"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "World Bank",
+    "Explanation": "The World Bank report emphasizes the requirement of an annual $260 billion investment to halve agrifood emissions by 2030 and achieve Net Zero by 2050. This investment is crucial for addressing environmental challenges in the agri-food sector and working towards sustainability goals.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which organization is set to begin production of Nano Urea Plus?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Bayer"
+      },
+      {
+        "id": 2,
+        "text": "Monsanto"
+      },
+      {
+        "id": 3,
+        "text": "Syngenta"
+      },
+      {
+        "id": 4,
+        "text": "IFFCO"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "IFFCO",
+    "Explanation": "IFFCO, the Indian Farmers Fertiliser Cooperative Limited, is preparing to commence production of Nano Urea Plus, a new version of nano urea designed to meet crop nitrogen requirements during critical growth phases. This innovative fertilizer, with 16 per cent nitrogen content, serves as a chlorophyll charger and yield booster, promoting climate-smart farming practices. IFFCO had previously launched the world's first 'Nano Liquid Urea' fertilizer in June 2021, highlighting its commitment to advancing agricultural technologies and sustainability.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "What is the focus of the CDP-SURAKSHA initiative launched by the Indian government?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Livestock farming"
+      },
+      {
+        "id": 2,
+        "text": "Horticulture"
+      },
+      {
+        "id": 3,
+        "text": "Poultry farming"
+      },
+      {
+        "id": 4,
+        "text": "Fisheries"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Horticulture",
+    "Explanation": "The CDP-SURAKSHA initiative by the Indian government is aimed at revolutionizing horticulture subsidies, and streamlining their distribution through digital integration and secure payment mechanisms. This initiative is a significant step towards supporting horticulture farmers and promoting growth in the horticulture sector.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "By what year does India aim to end urea imports according to Mansukh Mandaviya's plan?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "2022"
+      },
+      {
+        "id": 2,
+        "text": "2025"
+      },
+      {
+        "id": 3,
+        "text": "2030"
+      },
+      {
+        "id": 4,
+        "text": "2040"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "2025",
+    "Explanation": "India plans to cease urea imports by 2025 as part of a strategy to boost domestic production and promote alternative fertilizers. This initiative aims to reduce the nation's reliance on imported urea, currently fulfilling about 30% of its annual demand.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Where was the Krishi Integrated Command and Control Centre (ICCC) launched by the Union Agriculture Minister?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "New Delhi"
+      },
+      {
+        "id": 2,
+        "text": "Mumbai"
+      },
+      {
+        "id": 3,
+        "text": "Kolkata"
+      },
+      {
+        "id": 4,
+        "text": "Chennai"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "New Delhi",
+    "Explanation": "The Krishi Integrated Command and Control Centre (ICCC) was launched at Krishi Bhavan in New Delhi by the Union Agriculture Minister, signifying a significant advancement in agricultural technology and decision-making processes.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Where is the Pusa Krishi Vigyan Mela being hosted for the first time?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Ranchi"
+      },
+      {
+        "id": 2,
+        "text": "Dhanbad"
+      },
+      {
+        "id": 3,
+        "text": "Jamshedpur"
+      },
+      {
+        "id": 4,
+        "text": "Simdega"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Simdega",
+    "Explanation": "The Pusa Krishi Vigyan Mela, a national-level agricultural science fair, is being hosted for the first time in Simdega, Jharkhand. This event aims to promote modern agricultural techniques and entrepreneurship among farmers, with participation from over 40 agricultural scientists.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which Indian state government has announced the distribution of free seed kits to boost millet production?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Punjab"
+      },
+      {
+        "id": 2,
+        "text": "Rajasthan"
+      },
+      {
+        "id": 3,
+        "text": "Uttar Pradesh"
+      },
+      {
+        "id": 4,
+        "text": "Maharashtra"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Rajasthan",
+    "Explanation": "The Rajasthan government is providing free seeds of millets and coarse grains to farmers, including maize, pearl millet, mustard, moong, sorghum, and moth seeds, aiming to boost millet production in the state.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which company partnered with Shivalik Small Finance Bank to extend financial assistance to farmers and MSMEs?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Shivakami Agro Industries"
+      },
+      {
+        "id": 2,
+        "text": "Arya.ag"
+      },
+      {
+        "id": 3,
+        "text": "National Bank of Agriculture"
+      },
+      {
+        "id": 4,
+        "text": "Microfinance Development Authority"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Arya.ag",
+    "Explanation": "Arya.ag collaborated with Shivalik Small Finance Bank to provide over ₹200 crore in warehouse receipt financing, focusing on empowering farmers, agro-processors, and micro-enterprises traditionally underserved by formal banking channels.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Where was the \"National Speed Breeding Crop Facility\" inaugurated by Union Minister Dr. Jitendra Singh?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Hyderabad"
+      },
+      {
+        "id": 2,
+        "text": "Bangalore"
+      },
+      {
+        "id": 3,
+        "text": "Pune"
+      },
+      {
+        "id": 4,
+        "text": "Mohali"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Mohali",
+    "Explanation": "The \"National Speed Breeding Crop Facility\" was inaugurated at NABI (National Agri-Food Biotechnology Institute), Mohali, by Union Minister Dr. Jitendra Singh. This initiative aims to accelerate crop improvement programs and develop advanced varieties resilient to climate change, aligning with agricultural innovation and PM Modi's vision.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "What is the approved Minimum Support Price (MSP) for Raw Jute for the 2024-25 season?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Rs.4,575/-"
+      },
+      {
+        "id": 2,
+        "text": "Rs.4,800/-"
+      },
+      {
+        "id": 3,
+        "text": "Rs.5,105/-"
+      },
+      {
+        "id": 4,
+        "text": "Rs.5,335/-"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Rs.5,335/-",
+    "Explanation": "The Cabinet has approved the Minimum Support Price (MSP) for Raw Jute (TDN-3 equivalent to earlier TD-5 grade) at Rs.5,335/- per quintal for the upcoming 2024-25 season. This MSP ensures a return of 64.8 per cent over the all-India weighted average cost of production, as recommended by the Commission for Agricultural Costs and Prices (CACP).",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Where was the Agriculture Integrated Command and Control Center inaugurated?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Mumbai"
+      },
+      {
+        "id": 2,
+        "text": "New Delhi"
+      },
+      {
+        "id": 3,
+        "text": "Kolkata"
+      },
+      {
+        "id": 4,
+        "text": "Bangalore"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "New Delhi",
+    "Explanation": "The inauguration of the Agriculture Integrated Command and Control Center took place in New Delhi, signifying the government's endeavour to equip farmers with real-time data and overcome agricultural challenges, as highlighted.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Where is the National Horticultural Fair 2024 being held?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Madurai"
+      },
+      {
+        "id": 2,
+        "text": "Bengaluru"
+      },
+      {
+        "id": 3,
+        "text": "Pune"
+      },
+      {
+        "id": 4,
+        "text": "Kolkata"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Bengaluru",
+    "Explanation": "The National Horticultural Fair 2024 is hosted by the Indian Institute of Horticultural Research (IIHR) in Bengaluru. As Bengaluru is renowned as the Garden City, this event underscores the city's significance as a hub for advancements in horticulture. The fair showcases innovative technologies aimed at sustainable development in the field of horticulture, highlighting Bengaluru's role as a centre for cutting-edge practices in this sector.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "In which Indian state was the National Conference on Promotion of Seaweed Cultivation recently held?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Kerala"
+      },
+      {
+        "id": 2,
+        "text": "Maharashtra"
+      },
+      {
+        "id": 3,
+        "text": "Tamil Nadu"
+      },
+      {
+        "id": 4,
+        "text": "Gujarat"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Gujarat",
+    "Explanation": "The National Conference on Promotion of Seaweed Cultivation took place in Koteshwar (Kori Creek), Kutch, Gujarat. The conference focused on implementing seaweed cultivation pan-India to diversify marine production and enhance the income of fish farmers, recognizing seaweeds as the 'Medical Food of the 21st Century.'",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which state hosted the Fourth National Chilika Birds Festival?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Odisha"
+      },
+      {
+        "id": 2,
+        "text": "Bihar"
+      },
+      {
+        "id": 3,
+        "text": "Kerala"
+      },
+      {
+        "id": 4,
+        "text": "Maharashtra"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Odisha",
+    "Explanation": "The Fourth National Chilika Birds Festival took place in Odisha, inaugurated by CM Naveen Patnaik. Celebrated against the scenic backdrop of Chilika Lake, the event featured a captivating 'Photo Exhibition' highlighting the diverse avian life of Chilika, making it a grand celebration for birders and enthusiasts across India.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Where was the 3-day Kisan Mela, promoting medicinal and aromatic plants (MAPs) cultivation, inaugurated by Dr. Himanshu Pathak?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Gujarat"
+      },
+      {
+        "id": 2,
+        "text": "Rajasthan"
+      },
+      {
+        "id": 3,
+        "text": "Maharashtra"
+      },
+      {
+        "id": 4,
+        "text": "Madhya Pradesh"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Gujarat",
+    "Explanation": "Dr Himanshu Pathak inaugurated the 3-day Kisan Mela in Anand, Gujarat, organized by ICAR-DMAPR, focusing on promoting medicinal and aromatic plants (MAPs) cultivation. The event witnessed the participation of more than 2000 farmers, including a significant number of women farmers, and the signing of two MoUs with M/s Vasu Research Centre and Healthcare, Vadodara.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "What does the recently signed MoU between the National Farmers' Welfare Programme Implementation Society, IndiaAI, and Wadhwani Foundation focus on advancing?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Organic Farming"
+      },
+      {
+        "id": 2,
+        "text": "Sustainable Agriculture"
+      },
+      {
+        "id": 3,
+        "text": "AI-driven digital agriculture"
+      },
+      {
+        "id": 4,
+        "text": "Traditional Farming Practices"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "AI-driven digital agriculture",
+    "Explanation": "The MoU aims to propel India to the forefront of AI-driven digital agriculture, emphasizing the collaboration between the National Farmers' Welfare Programme Implementation Society, IndiaAI (Digital India Corporation), and the Wadhwani Foundation in formulating and executing a robust AI strategy.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which country is set to become the world's largest producer of lentils during the 2023-24 crop years?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Australia"
+      },
+      {
+        "id": 2,
+        "text": "Russia"
+      },
+      {
+        "id": 3,
+        "text": "Canada"
+      },
+      {
+        "id": 4,
+        "text": "India"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "India",
+    "Explanation": "India is on track to become the leading global producer of lentils in the 2023-24 crop years due to expanded cultivation. Known as 'Dal' after processing, lentils are a valuable human food source. Major lentil cultivation states in India include Madhya Pradesh, Uttar Pradesh, Bihar, Chhattisgarh, Haryana, Punjab, Maharashtra, and Rajasthan, showcasing the country's significant contribution to global lentil production.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which region, known for producing the world's costliest spice, saffron, is facing a severe crisis due to the encroachment of cement factories?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Himachal Pradesh"
+      },
+      {
+        "id": 2,
+        "text": "Punjab"
+      },
+      {
+        "id": 3,
+        "text": "Uttarakhand"
+      },
+      {
+        "id": 4,
+        "text": "Kashmir"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Kashmir",
+    "Explanation": "The saffron fields of Kashmir, renowned for producing the world's costliest spice, are in crisis due to the encroachment of cement factories, leading to a significant decline in cultivation in the last 20 years.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Who inaugurated the Tur Dal Procurement Portal, allowing farmers to register and sell their produce at MSP or market rates to NAFED and NCCF?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Droupadi Murmu"
+      },
+      {
+        "id": 2,
+        "text": "Rajnath Singh"
+      },
+      {
+        "id": 3,
+        "text": "Nirmala Sitharaman"
+      },
+      {
+        "id": 4,
+        "text": "Amit Shah"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Amit Shah",
+    "Explanation": "The Tur Dal Procurement Portal was inaugurated by Union Cooperation Minister Amit Shah, facilitating farmers to sell their produce at MSP or market rates to NAFED and NCCF, marking a significant move towards agricultural reform.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Where was the 'Electronic Soil' developed to accelerate plant growth in hydroponic spaces?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Sweden"
+      },
+      {
+        "id": 2,
+        "text": "Norway"
+      },
+      {
+        "id": 3,
+        "text": "Denmark"
+      },
+      {
+        "id": 4,
+        "text": "Finland"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Sweden",
+    "Explanation": "The 'Electronic Soil' (eSoil) designed to boost plant growth in hydroponic systems was developed in Sweden, employing a distinctive blend of cellulose and a conductive polymer known as PEDOT (Poly(3,4-ethylenedioxythiophene)).",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which Indian state secured the first spot in agri-marketing reforms, according to the recent reform index released by Niti Aayog?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Maharashtra"
+      },
+      {
+        "id": 2,
+        "text": "Andhra Pradesh"
+      },
+      {
+        "id": 3,
+        "text": "Gujarat"
+      },
+      {
+        "id": 4,
+        "text": "Haryana"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Andhra Pradesh",
+    "Explanation": "Andhra Pradesh attained the top position with a score of 94 in the agri-marketing reforms index released by Niti Aayog, showcasing its significant progress in implementing provisions proposed under the model APMC Act.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which ministry unveiled the 'Paat-Mitro' mobile application for jute farmers, providing information on Minimum Support Prices (MSP) and agronomy?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "The Jute Corporation of India"
+      },
+      {
+        "id": 2,
+        "text": "The Ministry of Agriculture"
+      },
+      {
+        "id": 3,
+        "text": "The Textiles Ministry"
+      },
+      {
+        "id": 4,
+        "text": "The Indian Farmers Association"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "The Textiles Ministry",
+    "Explanation": "The Textiles Ministry, in its commitment to supporting jute farmers, launched the 'Paat-Mitro' app to provide them with crucial information about Minimum Support Prices (MSP), agronomic practices, and other resources to enhance their productivity and benefits.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "What is the primary focus of the 'NAMO Drone Didi' initiative?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Economic empowerment through skill development"
+      },
+      {
+        "id": 2,
+        "text": "Healthcare support for rural communities"
+      },
+      {
+        "id": 3,
+        "text": "Empowering Women's Self-Help Groups"
+      },
+      {
+        "id": 4,
+        "text": "Providing educational scholarships for women"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Empowering Women's Self-Help Groups",
+    "Explanation": "The 'NAMO Drone Didi' initiative aims to empower 15,000 women Self Help Groups (SHGs) by providing agricultural drones, thus placing rural women at the forefront of the agricultural revolution.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which Indian state's Lakadong turmeric recently secured the Geographical Indication (GI) tag for its exceptional quality?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Assam"
+      },
+      {
+        "id": 2,
+        "text": "Karnataka"
+      },
+      {
+        "id": 3,
+        "text": "Meghalaya"
+      },
+      {
+        "id": 4,
+        "text": "Kerala"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Meghalaya",
+    "Explanation": "Meghalaya's Lakadong turmeric, known for its exceptional quality, has recently been granted the Geographical Indication (GI) tag, as announced by Agriculture Minister Ampareen Lyngdoh.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "India has provided a $250 million Line of Credit to which country for the modernization of its agricultural sector?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Nigeria"
+      },
+      {
+        "id": 2,
+        "text": "South Africa"
+      },
+      {
+        "id": 3,
+        "text": "Ethiopia"
+      },
+      {
+        "id": 4,
+        "text": "Kenya"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Kenya",
+    "Explanation": "India has extended a $250 million Line of Credit to Kenya for the modernization of its agricultural sector, as announced during the visit of Kenyan President William Samoei Ruto. This move reflects the commitment to enhance bilateral ties between the two countries, encompassing areas such as defense, counter-terrorism, and technology.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which region in Jammu and Kashmir has recently been awarded the Geographical Indication (GI) tag for its saffron?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Gulmarg"
+      },
+      {
+        "id": 2,
+        "text": "Kishtwar"
+      },
+      {
+        "id": 3,
+        "text": "Pahalgam"
+      },
+      {
+        "id": 4,
+        "text": "Sonmarg"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Kishtwar",
+    "Explanation": "Saffron from the Kishtwar region in Jammu and Kashmir has been granted the Geographical Indication (GI) tag, affirming the unique identity and quality of this prized spice produced in Kishtwar.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Where is the ASEAN-India Millet Festival 2023 currently being held?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Jakarta, Indonesia"
+      },
+      {
+        "id": 2,
+        "text": "Kuala Lumpur, Malaysia"
+      },
+      {
+        "id": 3,
+        "text": "Bangkok, Thailand"
+      },
+      {
+        "id": 4,
+        "text": "Manila, Philippines"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Jakarta, Indonesia",
+    "Explanation": "The ASEAN-India Millet Festival 2023 is taking place in Jakarta, Indonesia, from November 22 to 26, to promote awareness about millets and foster sustainable agriculture.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which institute has developed the high-yielding black pepper variety?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "IISR-Kozhikode"
+      },
+      {
+        "id": 2,
+        "text": "IIT Delhi"
+      },
+      {
+        "id": 3,
+        "text": "ICAR-Bengaluru"
+      },
+      {
+        "id": 4,
+        "text": "NIT Trichy"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "IISR-Kozhikode",
+    "Explanation": "The Indian Institute of Spices Research (IISR) in Kozhikode has achieved a significant milestone by developing the high-yielding black pepper variety named 'IISR Chandra.' The institute's innovative approach to crossing distinct pepper varieties resulted in a potential game-changer for the agricultural sector.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "What percentage of the total global rice exports does India constitute?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "20%"
+      },
+      {
+        "id": 2,
+        "text": "30%"
+      },
+      {
+        "id": 3,
+        "text": "35%"
+      },
+      {
+        "id": 4,
+        "text": "40%"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "40%",
+    "Explanation": "India constitutes almost 40% of the total global rice exports, making it a major player in the global rice market.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "In the ongoing free trade agreement talks between the UK and India, the key unresolved issue revolves around the level of protection for which type of products from the agricultural sector?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Organic Produce"
+      },
+      {
+        "id": 2,
+        "text": "Genetically Modified Crops"
+      },
+      {
+        "id": 3,
+        "text": "Sustainable Farming Practices"
+      },
+      {
+        "id": 4,
+        "text": "Geographical Indication Items"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Geographical Indication Items",
+    "Explanation": "The key hurdle in the UK-India free trade agreement talks is the UK's demand for increased protection of Geographical Indication (GI) items, such as Scotch whisky and cheeses.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "Which organization recently launched the \"Hello Naariyal\" Friends of Coconut Trees (FoCT) call centre facility?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Coconut Development Board (CDB)"
+      },
+      {
+        "id": 2,
+        "text": "Agriculture Promotion Board (APB)"
+      },
+      {
+        "id": 3,
+        "text": "Horticulture Enhancement Council (HEC)"
+      },
+      {
+        "id": 4,
+        "text": "Plantation Resource Authority (PRA)"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Coconut Development Board (CDB)",
+    "Explanation": "The \"Hello Naariyal\" Friends of Coconut Trees (FoCT) call centre facility was launched by the Coconut Development Board (CDB) to support coconut farmers and improve cultivation practices.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "What is the primary objective of the PM Kisan Bhai scheme?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "To break the monopoly of traders in determining crop prices"
+      },
+      {
+        "id": 2,
+        "text": "To provide financial assistance to small and marginal farmers"
+      },
+      {
+        "id": 3,
+        "text": "To improve the storage infrastructure for agricultural produce"
+      },
+      {
+        "id": 4,
+        "text": "To promote the use of technology in agriculture"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "To break the monopoly of traders in determining crop prices",
+    "Explanation": "The PM Kisan Bhai scheme is designed to empower farmers by providing them with the autonomy to decide when to sell their crops. This will give them more control over their produce and help them to negotiate better prices.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "What percentage decrease is expected in India's cotton production for the 2023-2024 season due to issues like pink bollworm and monsoon challenges?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "5%"
+      },
+      {
+        "id": 2,
+        "text": "7%"
+      },
+      {
+        "id": 3,
+        "text": "8%"
+      },
+      {
+        "id": 4,
+        "text": "6%"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "6%",
+    "Explanation": "India's cotton production for 2023-2024 is anticipated to decline by 6%, attributed to factors like pink bollworm infestation and inadequate monsoon rains, as estimated by the Committee on Cotton Production and Consumption.",
+    "category": "Agriculture"
+  },
+  {
+    "Question": "What is the approximate percentage of onions produced in the kharif and rabi seasons in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "30% and 70%"
+      },
+      {
+        "id": 2,
+        "text": "20% and 80%"
+      },
+      {
+        "id": 3,
+        "text": "40% and 60%"
+      },
+      {
+        "id": 4,
+        "text": "50% and 50%"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "30% and 70%",
+    "Explanation": "The percentage of onions produced in the kharif and rabi seasons in India is approximately 30% and 70%, respectively. The Kharif season is typically shorter and less favourable for onion cultivation due to higher temperatures and humidity. However, it still contributes a significant portion of the annual onion production. The rabi season is the most productive season for onion growing in India, with cooler temperatures and longer daylight hours.",
+    "category": "Agriculture"
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which state is the largest producer of rice in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Punjab"
+      },
+      {
+        "id": 2,
+        "text": "West Bengal"
+      },
+      {
+        "id": 3,
+        "text": "Uttar Pradesh"
+      },
+      {
+        "id": 4,
+        "text": "Andhra Pradesh"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "West Bengal",
+    "Explanation": "West Bengal is the largest producer of rice in India, accounting for approximately 15-16% of the country's total rice production. The state's favorable climatic conditions, adequate rainfall, and fertile soil make it ideal for rice cultivation."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "What is the Minimum Support Price (MSP) primarily designed to protect?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Exporters from losses"
+      },
+      {
+        "id": 2,
+        "text": "Farmers from price fluctuations"
+      },
+      {
+        "id": 3,
+        "text": "Traders from market risks"
+      },
+      {
+        "id": 4,
+        "text": "Consumers from high prices"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Farmers from price fluctuations",
+    "Explanation": "The Minimum Support Price (MSP) is a form of market intervention by the Government of India to insure agricultural producers against any sharp fall in farm prices. It guarantees farmers a minimum price for their produce, protecting them from distress sales."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which crop is known as 'Golden Fiber' in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Cotton"
+      },
+      {
+        "id": 2,
+        "text": "Silk"
+      },
+      {
+        "id": 3,
+        "text": "Jute"
+      },
+      {
+        "id": 4,
+        "text": "Hemp"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Jute",
+    "Explanation": "Jute is known as the 'Golden Fiber' due to its golden and silky shine. India is one of the largest producers of jute in the world, with West Bengal being the primary jute-producing state. Jute is used for making bags, mats, ropes, and various other products."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which organization is responsible for agricultural research and education in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "NABARD"
+      },
+      {
+        "id": 2,
+        "text": "ICAR"
+      },
+      {
+        "id": 3,
+        "text": "FCI"
+      },
+      {
+        "id": 4,
+        "text": "NAFED"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "ICAR",
+    "Explanation": "The Indian Council of Agricultural Research (ICAR) is an autonomous organization under the Department of Agricultural Research and Education, Ministry of Agriculture and Farmers Welfare. It is responsible for coordinating agricultural education and research in India."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "What percentage of India's population depends on agriculture for their livelihood?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Around 30%"
+      },
+      {
+        "id": 2,
+        "text": "Around 45%"
+      },
+      {
+        "id": 3,
+        "text": "Around 55%"
+      },
+      {
+        "id": 4,
+        "text": "Around 70%"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Around 55%",
+    "Explanation": "Approximately 55-58% of India's population depends directly or indirectly on agriculture for their livelihood. Despite contributing around 18-20% to the GDP, agriculture remains the primary source of income for more than half of India's population."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which state is known as the 'Spice Garden of India'?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Tamil Nadu"
+      },
+      {
+        "id": 2,
+        "text": "Karnataka"
+      },
+      {
+        "id": 3,
+        "text": "Kerala"
+      },
+      {
+        "id": 4,
+        "text": "Andhra Pradesh"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Kerala",
+    "Explanation": "Kerala is known as the 'Spice Garden of India' due to its extensive cultivation of various spices like pepper, cardamom, cloves, cinnamon, and nutmeg. The state's tropical climate and adequate rainfall provide ideal conditions for spice cultivation."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "What is the primary objective of the Pradhan Mantri Fasal Bima Yojana (PMFBY)?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Providing free seeds to farmers"
+      },
+      {
+        "id": 2,
+        "text": "Crop insurance for farmers"
+      },
+      {
+        "id": 3,
+        "text": "Subsidized fertilizers"
+      },
+      {
+        "id": 4,
+        "text": "Farm loan waivers"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Crop insurance for farmers",
+    "Explanation": "The Pradhan Mantri Fasal Bima Yojana (PMFBY) is a crop insurance scheme launched in 2016 to provide comprehensive insurance coverage and financial support to farmers in case of crop failure due to natural calamities, pests, or diseases."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which Indian state is the largest producer of sugarcane?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Maharashtra"
+      },
+      {
+        "id": 2,
+        "text": "Uttar Pradesh"
+      },
+      {
+        "id": 3,
+        "text": "Karnataka"
+      },
+      {
+        "id": 4,
+        "text": "Tamil Nadu"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Uttar Pradesh",
+    "Explanation": "Uttar Pradesh is the largest producer of sugarcane in India, accounting for nearly 40% of the country's total sugarcane production. The state's subtropical climate and fertile soil make it ideal for sugarcane cultivation."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "What does the term 'Green Revolution' in India primarily refer to?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Increase in forest cover"
+      },
+      {
+        "id": 2,
+        "text": "Growth in organic farming"
+      },
+      {
+        "id": 3,
+        "text": "Increase in agricultural production"
+      },
+      {
+        "id": 4,
+        "text": "Environmental conservation"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Increase in agricultural production",
+    "Explanation": "The Green Revolution refers to the significant increase in agricultural production in India during the 1960s and 1970s, primarily due to the adoption of high-yielding variety seeds, chemical fertilizers, irrigation, and modern farming techniques. It transformed India from a food-deficient country to a self-sufficient nation."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which crop is primarily grown during the Rabi season?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Rice"
+      },
+      {
+        "id": 2,
+        "text": "Cotton"
+      },
+      {
+        "id": 3,
+        "text": "Wheat"
+      },
+      {
+        "id": 4,
+        "text": "Jute"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Wheat",
+    "Explanation": "Wheat is the primary crop grown during the Rabi season (winter season, October to March). Other Rabi crops include barley, mustard, peas, and gram. These crops are sown in winter and harvested in spring."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which state is the largest producer of coffee in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Tamil Nadu"
+      },
+      {
+        "id": 2,
+        "text": "Kerala"
+      },
+      {
+        "id": 3,
+        "text": "Karnataka"
+      },
+      {
+        "id": 4,
+        "text": "Andhra Pradesh"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Karnataka",
+    "Explanation": "Karnataka is the largest producer of coffee in India, accounting for approximately 70% of the country's total coffee production. The major coffee-growing regions in Karnataka include Chikmagalur, Coorg (Kodagu), and Hassan."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "What is the full form of NABARD?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "National Bank for Agriculture and Regional Development"
+      },
+      {
+        "id": 2,
+        "text": "National Board for Agriculture and Rural Development"
+      },
+      {
+        "id": 3,
+        "text": "National Bank for Agriculture and Rural Development"
+      },
+      {
+        "id": 4,
+        "text": "National Bureau for Agriculture and Rural Development"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "National Bank for Agriculture and Rural Development",
+    "Explanation": "NABARD stands for National Bank for Agriculture and Rural Development. It was established in 1982 to provide credit and other facilities for the promotion and development of agriculture, small-scale industries, cottage and village industries, handicrafts, and other rural crafts."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which type of soil is most suitable for cotton cultivation?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Alluvial soil"
+      },
+      {
+        "id": 2,
+        "text": "Red soil"
+      },
+      {
+        "id": 3,
+        "text": "Black soil"
+      },
+      {
+        "id": 4,
+        "text": "Laterite soil"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Black soil",
+    "Explanation": "Black soil, also known as Regur soil or Black Cotton soil, is most suitable for cotton cultivation. This soil has high moisture retention capacity, is rich in calcium, potassium, and magnesium, and is found extensively in the Deccan plateau region."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which Indian state is known as the 'Rice Bowl of India'?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Punjab"
+      },
+      {
+        "id": 2,
+        "text": "West Bengal"
+      },
+      {
+        "id": 3,
+        "text": "Andhra Pradesh"
+      },
+      {
+        "id": 4,
+        "text": "Uttar Pradesh"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Andhra Pradesh",
+    "Explanation": "Andhra Pradesh is known as the 'Rice Bowl of India' due to its significant rice production. The Krishna-Godavari delta region in the state is particularly fertile and produces large quantities of rice, making it one of the major rice-producing states in India."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "What is the primary purpose of the PM-KISAN scheme?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Providing free electricity to farmers"
+      },
+      {
+        "id": 2,
+        "text": "Direct income support to farmers"
+      },
+      {
+        "id": 3,
+        "text": "Subsidized agricultural equipment"
+      },
+      {
+        "id": 4,
+        "text": "Free irrigation facilities"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Direct income support to farmers",
+    "Explanation": "The Pradhan Mantri Kisan Samman Nidhi (PM-KISAN) scheme provides direct income support of ₹6,000 per year to all landholding farmers' families across the country, paid in three equal installments of ₹2,000 each. The scheme was launched in December 2018."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which state is the largest producer of tea in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Kerala"
+      },
+      {
+        "id": 2,
+        "text": "West Bengal"
+      },
+      {
+        "id": 3,
+        "text": "Assam"
+      },
+      {
+        "id": 4,
+        "text": "Tamil Nadu"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Assam",
+    "Explanation": "Assam is the largest producer of tea in India, accounting for more than 50% of the country's total tea production. The state's tropical climate, adequate rainfall, and fertile soil create ideal conditions for tea cultivation."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "What is the Kharif season in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Summer season (March-June)"
+      },
+      {
+        "id": 2,
+        "text": "Monsoon season (June-October)"
+      },
+      {
+        "id": 3,
+        "text": "Winter season (October-March)"
+      },
+      {
+        "id": 4,
+        "text": "Spring season (February-May)"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Monsoon season (June-October)",
+    "Explanation": "The Kharif season is the monsoon cropping season in India, typically from June to October. Major Kharif crops include rice, maize, cotton, sugarcane, bajra, and pulses. These crops are sown at the beginning of the monsoon season and harvested at the end."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which organization maintains buffer stock of food grains in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "NAFED"
+      },
+      {
+        "id": 2,
+        "text": "FCI"
+      },
+      {
+        "id": 3,
+        "text": "NABARD"
+      },
+      {
+        "id": 4,
+        "text": "ICAR"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "FCI",
+    "Explanation": "The Food Corporation of India (FCI) is responsible for maintaining buffer stock of food grains in India. It procures, stores, and distributes food grains under the Public Distribution System (PDS) and other welfare schemes to ensure food security in the country."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which state is the largest producer of wheat in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Punjab"
+      },
+      {
+        "id": 2,
+        "text": "Haryana"
+      },
+      {
+        "id": 3,
+        "text": "Uttar Pradesh"
+      },
+      {
+        "id": 4,
+        "text": "Madhya Pradesh"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Uttar Pradesh",
+    "Explanation": "Uttar Pradesh is the largest producer of wheat in India, contributing approximately 30-35% of the country's total wheat production. The state's fertile Indo-Gangetic plains and favorable climatic conditions make it ideal for wheat cultivation."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "What is the main objective of the National Food Security Act, 2013?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Export promotion"
+      },
+      {
+        "id": 2,
+        "text": "Providing subsidized food grains to eligible households"
+      },
+      {
+        "id": 3,
+        "text": "Increasing agricultural production"
+      },
+      {
+        "id": 4,
+        "text": "Promoting organic farming"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Providing subsidized food grains to eligible households",
+    "Explanation": "The National Food Security Act (NFSA), 2013 aims to provide subsidized food grains to approximately two-thirds of India's population. It legally entitles eligible households to receive 5 kg of food grains per person per month at subsidized prices through the Public Distribution System."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which crop is known as 'White Gold' in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Rice"
+      },
+      {
+        "id": 2,
+        "text": "Cotton"
+      },
+      {
+        "id": 3,
+        "text": "Sugarcane"
+      },
+      {
+        "id": 4,
+        "text": "Wheat"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Cotton",
+    "Explanation": "Cotton is known as 'White Gold' in India due to its importance in the textile industry and the economy. India is one of the largest producers and consumers of cotton in the world, with Gujarat, Maharashtra, and Telangana being major cotton-producing states."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which state is known for the largest area under organic farming in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Sikkim"
+      },
+      {
+        "id": 2,
+        "text": "Madhya Pradesh"
+      },
+      {
+        "id": 3,
+        "text": "Rajasthan"
+      },
+      {
+        "id": 4,
+        "text": "Uttarakhand"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Madhya Pradesh",
+    "Explanation": "Madhya Pradesh has the largest area under organic farming in India, followed by Rajasthan and Maharashtra. However, Sikkim became the first fully organic state in India in 2016, where all agricultural land is certified organic."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "What is the primary crop grown during the Zaid season?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Wheat"
+      },
+      {
+        "id": 2,
+        "text": "Rice"
+      },
+      {
+        "id": 3,
+        "text": "Watermelon"
+      },
+      {
+        "id": 4,
+        "text": "Cotton"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Watermelon",
+    "Explanation": "The Zaid season is a short summer cropping season between Rabi and Kharif seasons (March-June). Crops grown during this season include watermelon, muskmelon, cucumber, vegetables, and fodder crops. These crops require warm and dry weather for growth."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which state is the largest producer of pulses in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Rajasthan"
+      },
+      {
+        "id": 2,
+        "text": "Madhya Pradesh"
+      },
+      {
+        "id": 3,
+        "text": "Maharashtra"
+      },
+      {
+        "id": 4,
+        "text": "Uttar Pradesh"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Madhya Pradesh",
+    "Explanation": "Madhya Pradesh is the largest producer of pulses in India, accounting for approximately 25-30% of the country's total pulse production. The state produces various types of pulses including gram, tur, moong, and urad."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "What is the objective of the Soil Health Card Scheme?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Providing soil testing facilities to farmers"
+      },
+      {
+        "id": 2,
+        "text": "Distributing free fertilizers"
+      },
+      {
+        "id": 3,
+        "text": "Soil conservation measures"
+      },
+      {
+        "id": 4,
+        "text": "Promoting organic farming"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Providing soil testing facilities to farmers",
+    "Explanation": "The Soil Health Card Scheme, launched in 2015, aims to provide farmers with information about the nutrient status of their soil along with recommendations on appropriate dosage of nutrients for improving soil health and fertility. This helps farmers make informed decisions about fertilizer use."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which state is known as the 'Fruit Bowl of India'?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Jammu and Kashmir"
+      },
+      {
+        "id": 2,
+        "text": "Himachal Pradesh"
+      },
+      {
+        "id": 3,
+        "text": "Uttarakhand"
+      },
+      {
+        "id": 4,
+        "text": "Punjab"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Himachal Pradesh",
+    "Explanation": "Himachal Pradesh is known as the 'Fruit Bowl of India' due to its extensive production of various fruits, particularly apples. The state's temperate climate and hilly terrain are ideal for growing apples, pears, plums, peaches, and other temperate fruits."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "What is the contribution of agriculture to India's GDP (approximately)?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "10-12%"
+      },
+      {
+        "id": 2,
+        "text": "18-20%"
+      },
+      {
+        "id": 3,
+        "text": "25-28%"
+      },
+      {
+        "id": 4,
+        "text": "35-40%"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "18-20%",
+    "Explanation": "Agriculture contributes approximately 18-20% to India's GDP (Gross Domestic Product). While this percentage has been declining over the years due to growth in other sectors, agriculture remains vital as it provides livelihood to more than half of India's population."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which irrigation method is most water-efficient?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Flood irrigation"
+      },
+      {
+        "id": 2,
+        "text": "Furrow irrigation"
+      },
+      {
+        "id": 3,
+        "text": "Sprinkler irrigation"
+      },
+      {
+        "id": 4,
+        "text": "Drip irrigation"
+      }
+    ],
+    "Answer": "Option 4",
+    "CorrectAnswer": "Drip irrigation",
+    "Explanation": "Drip irrigation is the most water-efficient irrigation method, with water use efficiency of 90-95%. It delivers water directly to the root zone of plants in small quantities, minimizing water loss through evaporation and runoff. This method is particularly beneficial in water-scarce regions."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "Which state is the largest producer of coconut in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Tamil Nadu"
+      },
+      {
+        "id": 2,
+        "text": "Kerala"
+      },
+      {
+        "id": 3,
+        "text": "Karnataka"
+      },
+      {
+        "id": 4,
+        "text": "Andhra Pradesh"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Kerala",
+    "Explanation": "Kerala is traditionally known as the land of coconuts and is one of the largest producers of coconut in India. However, in recent years, Tamil Nadu and Karnataka have also emerged as major coconut-producing states. The coastal climate and sandy soil are ideal for coconut cultivation."
+  },
+  {
+    "Category": "Indian Agriculture",
+    "Question": "What is the primary objective of the e-NAM (National Agriculture Market) platform?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Providing weather information"
+      },
+      {
+        "id": 2,
+        "text": "Creating a unified national market for agricultural commodities"
+      },
+      {
+        "id": 3,
+        "text": "Distributing subsidies to farmers"
+      },
+      {
+        "id": 4,
+        "text": "Crop insurance registration"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Creating a unified national market for agricultural commodities",
+    "Explanation": "The e-NAM (electronic National Agriculture Market) is an online trading platform launched in 2016 to create a unified national market for agricultural commodities. It aims to provide farmers with better price discovery, reduce intermediaries, and promote transparency in agricultural marketing by connecting APMC mandis across the country."
+  },
+  {
+    "Category": "Maharashtra",
+    "Question": "What is the capital of Maharashtra?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Pune"
+      },
+      {
+        "id": 2,
+        "text": "Nagpur"
+      },
+      {
+        "id": 3,
+        "text": "Mumbai"
+      },
+      {
+        "id": 4,
+        "text": "Nashik"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Mumbai",
+    "Explanation": "Mumbai is the capital of Maharashtra and is also the financial capital of India. The city is home to the Bombay Stock Exchange, Reserve Bank of India, and numerous corporate headquarters. Nagpur serves as the winter capital of the state."
+  },
+  {
+    "Category": "Maharashtra",
+    "Question": "Which is the largest district in Maharashtra by area?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Pune"
+      },
+      {
+        "id": 2,
+        "text": "Ahmednagar"
+      },
+      {
+        "id": 3,
+        "text": "Solapur"
+      },
+      {
+        "id": 4,
+        "text": "Nagpur"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Ahmednagar",
+    "Explanation": "Ahmednagar is the largest district in Maharashtra by area, covering approximately 17,048 square kilometers. The district is known for its historical significance, agricultural production, and industrial development."
+  },
+  {
+    "Category": "Maharashtra",
+    "Question": "Which crop is Maharashtra the largest producer of in India?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Rice"
+      },
+      {
+        "id": 2,
+        "text": "Cotton"
+      },
+      {
+        "id": 3,
+        "text": "Wheat"
+      },
+      {
+        "id": 4,
+        "text": "Maize"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Cotton",
+    "Explanation": "Maharashtra is the largest producer of cotton in India, accounting for approximately 25-30% of the country's total cotton production. The state's Vidarbha and Marathwada regions are particularly known for extensive cotton cultivation."
+  },
+  {
+    "Category": "Maharashtra",
+    "Question": "Which river is known as the lifeline of Maharashtra?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Narmada"
+      },
+      {
+        "id": 2,
+        "text": "Godavari"
+      },
+      {
+        "id": 3,
+        "text": "Krishna"
+      },
+      {
+        "id": 4,
+        "text": "Tapi"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Godavari",
+    "Explanation": "The Godavari River is often referred to as the lifeline of Maharashtra. It is the second-longest river in India and flows through the state, providing water for irrigation, drinking, and industrial purposes. The river supports agriculture in several districts of Maharashtra."
+  },
+  {
+    "Category": "Maharashtra",
+    "Question": "Which city in Maharashtra is known as the 'Oxford of the East'?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Mumbai"
+      },
+      {
+        "id": 2,
+        "text": "Nagpur"
+      },
+      {
+        "id": 3,
+        "text": "Pune"
+      },
+      {
+        "id": 4,
+        "text": "Aurangabad"
+      }
+    ],
+    "Answer": "Option 3",
+    "CorrectAnswer": "Pune",
+    "Explanation": "Pune is known as the 'Oxford of the East' due to its numerous educational institutions and universities. The city is a major educational hub in India, attracting students from across the country and abroad."
+  },
+  {
+    "Category": "Maharashtra",
+    "Question": "What is the state animal of Maharashtra?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Tiger"
+      },
+      {
+        "id": 2,
+        "text": "Giant Squirrel"
+      },
+      {
+        "id": 3,
+        "text": "Elephant"
+      },
+      {
+        "id": 4,
+        "text": "Leopard"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Giant Squirrel",
+    "Explanation": "The Indian Giant Squirrel (Ratufa indica) is the state animal of Maharashtra. This large squirrel species is found in the forests of Maharashtra and other parts of India. It is known for its distinctive coloration and impressive size."
+  },
+  {
+    "Category": "Maharashtra",
+    "Question": "Which district in Maharashtra is known as the 'Sugar Bowl of India'?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Kolhapur"
+      },
+      {
+        "id": 2,
+        "text": "Sangli"
+      },
+      {
+        "id": 3,
+        "text": "Pune"
+      },
+      {
+        "id": 4,
+        "text": "Satara"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Kolhapur",
+    "Explanation": "Kolhapur district is known as the 'Sugar Bowl of India' due to its extensive sugarcane cultivation and numerous sugar factories. The district's favorable climate and soil conditions make it ideal for sugarcane production."
+  },
+  {
+    "Category": "Maharashtra",
+    "Question": "Which fort in Maharashtra was the capital of Chhatrapati Shivaji Maharaj?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Sinhagad Fort"
+      },
+      {
+        "id": 2,
+        "text": "Raigad Fort"
+      },
+      {
+        "id": 3,
+        "text": "Pratapgad Fort"
+      },
+      {
+        "id": 4,
+        "text": "Torna Fort"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Raigad Fort",
+    "Explanation": "Raigad Fort was the capital of Chhatrapati Shivaji Maharaj's Maratha Empire. He was crowned as the Chhatrapati (emperor) at this fort in 1674. The fort is located in the Raigad district and is an important historical monument."
+  },
+  {
+    "Category": "Maharashtra",
+    "Question": "What is the state bird of Maharashtra?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Peacock"
+      },
+      {
+        "id": 2,
+        "text": "Yellow-footed Green Pigeon"
+      },
+      {
+        "id": 3,
+        "text": "Great Indian Bustard"
+      },
+      {
+        "id": 4,
+        "text": "Bulbul"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Yellow-footed Green Pigeon",
+    "Explanation": "The Yellow-footed Green Pigeon (Hariyal) is the state bird of Maharashtra. This colorful bird is commonly found in forests and groves across the state and is known for its distinctive yellow legs and green plumage."
+  },
+  {
+    "Category": "Maharashtra",
+    "Question": "Which city in Maharashtra is known as the 'Orange City'?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Nashik"
+      },
+      {
+        "id": 2,
+        "text": "Nagpur"
+      },
+      {
+        "id": 3,
+        "text": "Aurangabad"
+      },
+      {
+        "id": 4,
+        "text": "Amravati"
+      }
+    ],
+    "Answer": "Option 2",
+    "CorrectAnswer": "Nagpur",
+    "Explanation": "Nagpur is known as the 'Orange City' due to its extensive orange cultivation in the surrounding region. The city is famous for Nagpur oranges, which are known for their quality and taste. Nagpur also serves as the winter capital of Maharashtra."
+  },
+  {
+    "Category": "Maharashtra",
+    "Question": "Which is the highest peak in Maharashtra?",
+    "Options": [
+      {
+        "id": 1,
+        "text": "Kalsubai"
+      },
+      {
+        "id": 2,
+        "text": "Salher"
+      },
+      {
+        "id": 3,
+        "text": "Harishchandragad"
+      },
+      {
+        "id": 4,
+        "text": "Mahabaleshwar"
+      }
+    ],
+    "Answer": "Option 1",
+    "CorrectAnswer": "Kalsubai",
+    "Explanation": "Kalsubai is the highest peak in Maharashtra, with an elevation of 1,646 meters (5,400 feet) above sea level. It is located in the Ahmednagar district in the Western Ghats and is a popular trekking destination."
+  }
+]
