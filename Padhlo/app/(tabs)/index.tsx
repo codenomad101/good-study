@@ -98,7 +98,9 @@ class ErrorBoundary extends React.Component<
   }
 
   componentDidCatch(error: Error, errorInfo: React.ErrorInfo) {
-    console.error('HomeContent Error:', error, errorInfo);
+    if (__DEV__) {
+      console.error('HomeContent Error:', error, errorInfo);
+    }
   }
 
   render() {

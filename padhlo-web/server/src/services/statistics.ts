@@ -100,6 +100,15 @@ export class StatisticsService {
         })
         .where(eq(userStatistics.userId, userId));
 
+      // Also update users table's totalStudyTimeMinutes
+      await db
+        .update(users)
+        .set({
+          totalStudyTimeMinutes: sql`${users.totalStudyTimeMinutes} + ${sessionData.timeSpentMinutes}`,
+          updatedAt: new Date(),
+        })
+        .where(eq(users.userId, userId));
+
       console.log('StatisticsService: Basic statistics updated, now updating accuracy and ranking');
 
       // Update accuracy and ranking points
@@ -137,6 +146,15 @@ export class StatisticsService {
           updatedAt: new Date(),
         })
         .where(eq(userStatistics.userId, userId));
+
+      // Also update users table's totalStudyTimeMinutes
+      await db
+        .update(users)
+        .set({
+          totalStudyTimeMinutes: sql`${users.totalStudyTimeMinutes} + ${sessionData.timeSpentMinutes}`,
+          updatedAt: new Date(),
+        })
+        .where(eq(users.userId, userId));
 
       // Update accuracy and ranking points
       await this.updateAccuracyAndRanking(userId);

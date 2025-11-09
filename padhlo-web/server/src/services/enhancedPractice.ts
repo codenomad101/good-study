@@ -99,6 +99,10 @@ export class EnhancedPracticeService {
           sql`${practiceSessions.createdAt} >= ${monthStart}`
         ));
 
+      // Calculate time spent in minutes
+      const timeSpentMinutes = Math.floor((sessionData.timeSpentSeconds || 0) / 60);
+      const newTotalStudyTime = (user.totalStudyTimeMinutes || 0) + timeSpentMinutes;
+
       // Update user profile
       await db
         .update(users)
@@ -109,6 +113,7 @@ export class EnhancedPracticeService {
           monthlyPracticeScore: monthlyScores[0]?.total || 0,
           weeklyPracticeCount: weeklySessions[0]?.count || 0,
           monthlyPracticeCount: monthlySessions[0]?.count || 0,
+          totalStudyTimeMinutes: newTotalStudyTime,
           lastPracticeDate: currentDate,
           lastActivityDate: currentDate.toISOString().split('T')[0],
           updatedAt: currentDate

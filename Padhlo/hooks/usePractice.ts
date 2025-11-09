@@ -52,11 +52,13 @@ export const useCompletePracticeSession = () => {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: (sessionId: string) => apiService.completePracticeSession(sessionId),
+    mutationFn: ({ sessionId, timeSpentSeconds }: { sessionId: string; timeSpentSeconds?: number }) => 
+      apiService.completePracticeSession(sessionId, timeSpentSeconds),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ['practiceHistory'] });
       queryClient.invalidateQueries({ queryKey: ['practiceStats'] });
       queryClient.invalidateQueries({ queryKey: ['userStatistics'] });
+      queryClient.invalidateQueries({ queryKey: ['progress', 'stats'] }); // Invalidate user stats query
       queryClient.invalidateQueries({ queryKey: ['leaderboard'] });
       queryClient.invalidateQueries({ queryKey: ['userRank'] });
     },

@@ -647,7 +647,7 @@ export class PracticeService {
   }
 
   // Complete practice session
-  async completePracticeSession(sessionId: string, userId: string) {
+  async completePracticeSession(sessionId: string, userId: string, finalTimeSpentSeconds?: number) {
     try {
       const session = await this.getPracticeSession(sessionId, userId);
       
@@ -655,23 +655,33 @@ export class PracticeService {
         throw new Error('Practice session not found');
       }
 
+      // Use provided timeSpentSeconds if available, otherwise use session's accumulated time
+      const finalTimeSpent = finalTimeSpentSeconds !== undefined 
+        ? finalTimeSpentSeconds 
+        : (session.timeSpentSeconds || 0);
+
       await db
         .update(practiceSessions)
         .set({
           status: 'completed',
           completedAt: new Date(),
+          timeSpentSeconds: finalTimeSpent, // Update with final time
           updatedAt: new Date()
         })
         .where(eq(practiceSessions.sessionId, sessionId));
 
       // Update user statistics
       const statisticsService = new StatisticsService();
+      const timeSpentMinutes = Math.floor(finalTimeSpent / 60);
       console.log('Updating practice statistics for user:', userId, {
         questionsAttempted: session.questionsAttempted || 0,
         correctAnswers: session.correctAnswers || 0,
         incorrectAnswers: session.incorrectAnswers || 0,
         skippedQuestions: session.skippedQuestions || 0,
-        timeSpentMinutes: Math.floor((session.timeSpentSeconds || 0) / 60),
+        timeSpentSeconds: finalTimeSpent,
+        timeSpentMinutes: timeSpentMinutes,
+        finalTimeSpentSecondsProvided: finalTimeSpentSeconds !== undefined,
+        sessionTimeSpentSeconds: session.timeSpentSeconds || 0,
       });
       
       // Update overall statistics
@@ -680,7 +690,7 @@ export class PracticeService {
         correctAnswers: session.correctAnswers || 0,
         incorrectAnswers: session.incorrectAnswers || 0,
         skippedQuestions: session.skippedQuestions || 0,
-        timeSpentMinutes: Math.floor((session.timeSpentSeconds || 0) / 60),
+        timeSpentMinutes: timeSpentMinutes,
       });
       
       // Update subject-specific statistics
@@ -698,7 +708,7 @@ export class PracticeService {
           correctAnswers: session.correctAnswers || 0,
           incorrectAnswers: session.incorrectAnswers || 0,
           skippedQuestions: session.skippedQuestions || 0,
-          timeSpentMinutes: Math.floor((session.timeSpentSeconds || 0) / 60),
+          timeSpentMinutes: timeSpentMinutes,
         });
         console.log('Subject-specific statistics updated successfully');
       } else {

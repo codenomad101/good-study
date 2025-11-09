@@ -11,14 +11,37 @@ import Toast from 'react-native-toast-message';
 
 import { useColorScheme } from '@/hooks/use-color-scheme';
 
-// Suppress specific error logs that are handled with toast notifications
-if (__DEV__) {
-  LogBox.ignoreLogs([
-    'Registration error:',
-    'Error processing response from',
-    'Error calling',
-  ]);
-}
+// Suppress console errors - show toasts instead
+LogBox.ignoreLogs([
+  'Registration error:',
+  'Error processing response from',
+  'Error calling',
+  'Login error:',
+  'Logout error:',
+  'Token verification error:',
+  'Profile update error:',
+  '[API]',
+  'Error fetching',
+  'Error creating',
+  'Error updating',
+  'Error deleting',
+  'Error loading',
+  'Error saving',
+  'Failed to',
+  'Network request failed',
+  'Failed to fetch',
+  'Non-success status code',
+  'Error response',
+  'Bad Request Details',
+  'JSON parse error',
+  'Fetch error',
+  'handleResponse error',
+  'GET',
+  'POST',
+  'PUT',
+  'PATCH',
+  'DELETE',
+]);
 
 export const unstable_settings = {
   anchor: '(tabs)',
@@ -36,6 +59,7 @@ export default function RootLayout() {
               <Stack>
                 <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
                 <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
+                <Stack.Screen name="payment" options={{ presentation: 'modal', title: 'Payment', headerShown: false }} />
               </Stack>
               <StatusBar style="auto" />
             </ThemeProvider>

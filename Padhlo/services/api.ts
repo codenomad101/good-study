@@ -18,7 +18,9 @@ class ApiService {
     try {
       return await AsyncStorage.getItem('authToken');
     } catch (error) {
-      console.error('Error getting auth token:', error);
+      if (__DEV__) {
+        console.error('Error getting auth token:', error);
+      }
       return null;
     }
   }
@@ -31,9 +33,13 @@ class ApiService {
 
     if (token) {
       headers.Authorization = `Bearer ${token}`;
-      console.log('[API] Auth token found, adding to headers');
+      if (__DEV__) {
+        console.log('[API] Auth token found, adding to headers');
+      }
     } else {
-      console.warn('[API] No auth token found! Request may fail with 403');
+      if (__DEV__) {
+        console.warn('[API] No auth token found! Request may fail with 403');
+      }
     }
 
     return headers;
@@ -45,13 +51,15 @@ class ApiService {
     let endpoint = url ? url.replace(this.baseURL, '') || url : 'unknown';
     
     try {
-      console.log('[API] handleResponse called:', {
-        status: response.status,
-        statusText: response.statusText,
-        ok: response.ok,
-        url: url,
-        endpoint: endpoint
-      });
+      if (__DEV__) {
+        console.log('[API] handleResponse called:', {
+          status: response.status,
+          statusText: response.statusText,
+          ok: response.ok,
+          url: url,
+          endpoint: endpoint
+        });
+      }
       
       // Check if response has content before trying to parse JSON
       const contentType = response.headers.get('content-type');
@@ -69,23 +77,27 @@ class ApiService {
         // Read the response text - this consumes the stream
         // Wrap in Promise.resolve to ensure proper async handling
         responseText = await Promise.resolve(response.text());
-        console.log('[API] Response text length:', responseText.length);
-        if (responseText.length > 0) {
-          console.log('[API] Response text (first 300 chars):', responseText.substring(0, 300));
-        } else {
-          console.log('[API] Response body is empty');
+        if (__DEV__) {
+          console.log('[API] Response text length:', responseText.length);
+          if (responseText.length > 0) {
+            console.log('[API] Response text (first 300 chars):', responseText.substring(0, 300));
+          } else {
+            console.log('[API] Response body is empty');
+          }
         }
       } catch (readError: any) {
-        console.error('[API] Error reading response body:', {
-          endpoint: endpoint,
-          url: url,
-          error: readError,
-          errorName: readError?.name,
-          errorMessage: readError?.message,
-          status: response.status,
-          statusText: response.statusText,
-          isSuccess: isSuccess
-        });
+        if (__DEV__) {
+          console.error('[API] Error reading response body:', {
+            endpoint: endpoint,
+            url: url,
+            error: readError,
+            errorName: readError?.name,
+            errorMessage: readError?.message,
+            status: response.status,
+            statusText: response.statusText,
+            isSuccess: isSuccess
+          });
+        }
         // If it's a successful response with no body (like 204 No Content), that's okay
         if (isSuccess && (response.status === 204 || contentLength === '0')) {
           return { success: true } as ApiResponse<T>;
@@ -108,8 +120,10 @@ class ApiService {
           try {
             data = JSON.parse(responseText);
           } catch (parseError: any) {
-            console.error('[API] JSON parse error:', parseError);
-            console.error('[API] Full response text:', responseText);
+            if (__DEV__) {
+              console.error('[API] JSON parse error:', parseError);
+              console.error('[API] Full response text:', responseText);
+            }
             throw new Error(`Invalid JSON response: ${parseError?.message || 'Parse error'}`);
           }
         } else {
@@ -132,53 +146,57 @@ class ApiService {
       
       // Check for error status codes
       if (!isSuccess) {
-        console.error('[API] Non-success status code:', response.status);
-        // Log detailed error information for debugging
-        const errorInfo = {
-          url: response.url,
-          status: response.status,
-          statusText: response.statusText,
-          data: data,
-          message: data?.message,
-          error: data?.error,
-          errors: data?.errors,
-          success: data?.success
-        };
-        console.error(`[API] Error response (${response.status}):`, errorInfo);
-        
-        // For 400 errors, provide more context
-        if (response.status === 400) {
-          console.error('[API] Bad Request Details:', {
-            requestUrl: response.url,
-            errorMessage: data?.message,
-            validationErrors: data?.validationErrors,
-            errorData: data,
-            hint: 'Check if the request body matches server expectations'
-          });
+        if (__DEV__) {
+          console.error('[API] Non-success status code:', response.status);
+          // Log detailed error information for debugging
+          const errorInfo = {
+            url: response.url,
+            status: response.status,
+            statusText: response.statusText,
+            data: data,
+            message: data?.message,
+            error: data?.error,
+            errors: data?.errors,
+            success: data?.success
+          };
+          console.error(`[API] Error response (${response.status}):`, errorInfo);
           
-          // If there are validation errors, include them in the error message
-          if (data?.validationErrors && Array.isArray(data.validationErrors)) {
-            const validationMsg = data.validationErrors
-              .map((err: any) => `${err.path?.join('.') || 'field'}: ${err.message}`)
-              .join(', ');
-            throw new Error(`${data?.message || 'Validation failed'}: ${validationMsg}`);
+          // For 400 errors, provide more context
+          if (response.status === 400) {
+            console.error('[API] Bad Request Details:', {
+              requestUrl: response.url,
+              errorMessage: data?.message,
+              validationErrors: data?.validationErrors,
+              errorData: data,
+              hint: 'Check if the request body matches server expectations'
+            });
           }
+        }
+          
+        // If there are validation errors, include them in the error message
+        if (data?.validationErrors && Array.isArray(data.validationErrors)) {
+          const validationMsg = data.validationErrors
+            .map((err: any) => `${err.path?.join('.') || 'field'}: ${err.message}`)
+            .join(', ');
+          throw new Error(`${data?.message || 'Validation failed'}: ${validationMsg}`);
         }
         
         throw new Error(data?.message || data?.error || `HTTP error! status: ${response.status}`);
       }
 
-      console.log('[API] Response parsed successfully:', {
-        success: data?.success,
-        hasData: !!data?.data,
-        isDataArray: Array.isArray(data?.data),
-        dataType: typeof data?.data,
-        message: data?.message,
-        status: response.status,
-        hasGroupId: !!(data as any)?.groupId,
-        hasPostId: !!(data as any)?.postId,
-        isArray: Array.isArray(data)
-      });
+      if (__DEV__) {
+        console.log('[API] Response parsed successfully:', {
+          success: data?.success,
+          hasData: !!data?.data,
+          isDataArray: Array.isArray(data?.data),
+          dataType: typeof data?.data,
+          message: data?.message,
+          status: response.status,
+          hasGroupId: !!(data as any)?.groupId,
+          hasPostId: !!(data as any)?.postId,
+          isArray: Array.isArray(data)
+        });
+      }
       
       // Handle different response structures:
       // 1. Backend returns { success: true, data: ... } - use as is
@@ -209,12 +227,14 @@ class ApiService {
         result = data as ApiResponse<T>;
       }
       
-      console.log('[API] Returning result:', {
-        hasSuccess: 'success' in result,
-        hasData: 'data' in result,
-        dataType: typeof result.data,
-        isDataArray: Array.isArray(result.data)
-      });
+      if (__DEV__) {
+        console.log('[API] Returning result:', {
+          hasSuccess: 'success' in result,
+          hasData: 'data' in result,
+          dataType: typeof result.data,
+          isDataArray: Array.isArray(result.data)
+        });
+      }
       
       // Ensure we return a plain object, not wrapped in any Response-related objects
       // This deep clone prevents any references to the response object that might cause issues
@@ -223,14 +243,16 @@ class ApiService {
       return cleanResult;
     } catch (error: any) {
       const endpointFromError = error?.endpoint || endpoint || 'unknown';
-      console.error('[API] handleResponse error:', {
-        endpoint: endpointFromError,
-        url: url,
-        errorName: error?.name,
-        errorMessage: error?.message,
-        errorStack: error?.stack,
-        originalError: error?.originalError
-      });
+      if (__DEV__) {
+        console.error('[API] handleResponse error:', {
+          endpoint: endpointFromError,
+          url: url,
+          errorName: error?.name,
+          errorMessage: error?.message,
+          errorStack: error?.stack,
+          originalError: error?.originalError
+        });
+      }
       
       // Improve error messages for network failures
       let errorMessage = error?.message || 'Unknown error occurred';
@@ -254,12 +276,14 @@ class ApiService {
     const timeoutId = setTimeout(() => controller.abort(), timeout);
     
     // Log request details for debugging
-    console.log('[API] Fetch request:', {
-      url,
-      method: options.method,
-      hasBody: !!options.body,
-      bodySize: options.body ? JSON.stringify(options.body).length : 0
-    });
+    if (__DEV__) {
+      console.log('[API] Fetch request:', {
+        url,
+        method: options.method,
+        hasBody: !!options.body,
+        bodySize: options.body ? JSON.stringify(options.body).length : 0
+      });
+    }
     
     try {
       const response = await fetch(url, {
@@ -267,25 +291,29 @@ class ApiService {
         signal: controller.signal,
       });
       clearTimeout(timeoutId);
-      console.log('[API] Fetch response:', {
-        url,
-        status: response.status,
-        statusText: response.statusText,
-        ok: response.ok,
-        headers: Object.fromEntries(response.headers.entries())
-      });
+      if (__DEV__) {
+        console.log('[API] Fetch response:', {
+          url,
+          status: response.status,
+          statusText: response.statusText,
+          ok: response.ok,
+          headers: Object.fromEntries(response.headers.entries())
+        });
+      }
       
       // Clone the response so we can inspect it without consuming it
       // (handleResponse will consume it)
       return response;
     } catch (error: any) {
       clearTimeout(timeoutId);
-      console.error('[API] Fetch error:', {
-        url,
-        errorName: error.name,
-        errorMessage: error.message,
-        networkError: error.message?.includes('Network request failed') || error.message?.includes('Failed to fetch')
-      });
+      if (__DEV__) {
+        console.error('[API] Fetch error:', {
+          url,
+          errorName: error.name,
+          errorMessage: error.message,
+          networkError: error.message?.includes('Network request failed') || error.message?.includes('Failed to fetch')
+        });
+      }
       if (error.name === 'AbortError') {
         throw new Error(`Request timeout after ${timeout}ms. Please check your network connection.`);
       }
@@ -306,7 +334,9 @@ class ApiService {
 
       return this.handleResponse<T>(response);
     } catch (error: any) {
-      console.error(`GET ${endpoint} failed:`, error);
+      if (__DEV__) {
+        console.error(`GET ${endpoint} failed:`, error);
+      }
       if (error.message === 'Request timeout') {
         throw new Error('Request timed out. Please check your network connection.');
       }
@@ -323,13 +353,15 @@ class ApiService {
       const fullUrl = `${this.baseURL}${endpoint}`;
       
       // Debug logging
-      console.log('[API] POST Request Details:', {
-        baseURL: this.baseURL,
-        endpoint: endpoint,
-        fullUrl: fullUrl,
-        hasData: !!data,
-        hasAuth: !!headers['Authorization']
-      });
+      if (__DEV__) {
+        console.log('[API] POST Request Details:', {
+          baseURL: this.baseURL,
+          endpoint: endpoint,
+          fullUrl: fullUrl,
+          hasData: !!data,
+          hasAuth: !!headers['Authorization']
+        });
+      }
       
       let response: Response;
       try {
@@ -339,12 +371,14 @@ class ApiService {
           body: data ? JSON.stringify(data) : undefined,
         });
       } catch (fetchError: any) {
-        console.error('[API] Fetch failed before response:', {
-          endpoint,
-          error: fetchError,
-          errorMessage: fetchError?.message,
-          errorName: fetchError?.name
-        });
+        if (__DEV__) {
+          console.error('[API] Fetch failed before response:', {
+            endpoint,
+            error: fetchError,
+            errorMessage: fetchError?.message,
+            errorName: fetchError?.name
+          });
+        }
         throw fetchError;
       }
 
@@ -352,21 +386,25 @@ class ApiService {
       // Wrap in try-catch to handle any response reading errors
       try {
         const result = await this.handleResponse<T>(response);
-        console.log('[API] POST completed successfully for:', endpoint);
+        if (__DEV__) {
+          console.log('[API] POST completed successfully for:', endpoint);
+        }
         // Explicitly mark response as consumed to prevent any cleanup issues
         return result;
       } catch (handleError: any) {
-        console.error('[API] Error in handleResponse for POST:', {
-          endpoint,
-          error: handleError,
-          errorMessage: handleError?.message,
-          errorName: handleError?.name,
-          responseStatus: response.status,
-          responseOk: response.ok
-        });
-        // If we got a successful HTTP status but error in parsing, log it differently
-        if (response.ok || (response.status >= 200 && response.status < 300)) {
-          console.warn('[API] Warning: Got successful HTTP status but error in response handling for:', endpoint);
+        if (__DEV__) {
+          console.error('[API] Error in handleResponse for POST:', {
+            endpoint,
+            error: handleError,
+            errorMessage: handleError?.message,
+            errorName: handleError?.name,
+            responseStatus: response.status,
+            responseOk: response.ok
+          });
+          // If we got a successful HTTP status but error in parsing, log it differently
+          if (response.ok || (response.status >= 200 && response.status < 300)) {
+            console.warn('[API] Warning: Got successful HTTP status but error in response handling for:', endpoint);
+          }
         }
         // Include endpoint in error message for better debugging
         if (handleError.message && !handleError.message.includes(endpoint)) {
@@ -376,14 +414,16 @@ class ApiService {
       }
     } catch (error: any) {
       const url = `${this.baseURL}${endpoint}`;
-      console.error(`[API] POST ${endpoint} failed:`, {
-        errorName: error?.name,
-        errorMessage: error?.message,
-        fullUrl: url,
-        baseURL: this.baseURL,
-        endpoint: endpoint,
-        stack: error?.stack
-      });
+      if (__DEV__) {
+        console.error(`[API] POST ${endpoint} failed:`, {
+          errorName: error?.name,
+          errorMessage: error?.message,
+          fullUrl: url,
+          baseURL: this.baseURL,
+          endpoint: endpoint,
+          stack: error?.stack
+        });
+      }
       
       // Create a more informative error message that includes the endpoint
       let errorMessage = error?.message || 'Unknown error occurred';
@@ -415,7 +455,9 @@ class ApiService {
 
       return this.handleResponse<T>(response);
     } catch (error: any) {
-      console.error(`PUT ${endpoint} failed:`, error);
+      if (__DEV__) {
+        console.error(`PUT ${endpoint} failed:`, error);
+      }
       if (error.message && error.message.includes('Network request failed')) {
         throw new Error('Cannot connect to server. Please ensure the server is running and accessible.');
       }
@@ -434,7 +476,9 @@ class ApiService {
 
       return this.handleResponse<T>(response);
     } catch (error: any) {
-      console.error(`PATCH ${endpoint} failed:`, error);
+      if (__DEV__) {
+        console.error(`PATCH ${endpoint} failed:`, error);
+      }
       if (error.message && error.message.includes('Network request failed')) {
         throw new Error('Cannot connect to server. Please ensure the server is running and accessible.');
       }
@@ -452,7 +496,9 @@ class ApiService {
 
       return this.handleResponse<T>(response);
     } catch (error: any) {
-      console.error(`DELETE ${endpoint} failed:`, error);
+      if (__DEV__) {
+        console.error(`DELETE ${endpoint} failed:`, error);
+      }
       if (error.message && error.message.includes('Network request failed')) {
         throw new Error('Cannot connect to server. Please ensure the server is running and accessible.');
       }
@@ -510,7 +556,9 @@ class ApiService {
         queryParams.append('upcoming', params.upcoming);
       }
       const url = `${this.baseURL}/available-exams${queryParams.toString() ? `?${queryParams.toString()}` : ''}`;
-      console.log('[API] Fetching available exams from:', url);
+      if (__DEV__) {
+        console.log('[API] Fetching available exams from:', url);
+      }
       
       // This is a public endpoint, so we don't need auth headers
       const headers: Record<string, string> = {
@@ -522,16 +570,22 @@ class ApiService {
         headers,
       });
       
-      console.log('[API] Available exams response status:', response.status);
+      if (__DEV__) {
+        console.log('[API] Available exams response status:', response.status);
+      }
       const result = await this.handleResponse<any[]>(response);
-      console.log('[API] Available exams result:', {
-        success: result.success,
-        dataLength: Array.isArray(result.data) ? result.data.length : 'not array',
-        data: result.data
-      });
+      if (__DEV__) {
+        console.log('[API] Available exams result:', {
+          success: result.success,
+          dataLength: Array.isArray(result.data) ? result.data.length : 'not array',
+          data: result.data
+        });
+      }
       return result;
     } catch (error: any) {
-      console.error('[API] Error fetching available exams:', error);
+      if (__DEV__) {
+        console.error('[API] Error fetching available exams:', error);
+      }
       // Return empty array on error so UI doesn't break
       return {
         success: false,
@@ -556,7 +610,9 @@ class ApiService {
       });
       return await this.handleResponse<any>(response);
     } catch (error: any) {
-      console.error('[API] Error creating available exam:', error);
+      if (__DEV__) {
+        console.error('[API] Error creating available exam:', error);
+      }
       throw error;
     }
   }
@@ -577,7 +633,9 @@ class ApiService {
       });
       return await this.handleResponse<any>(response);
     } catch (error: any) {
-      console.error('[API] Error updating available exam:', error);
+      if (__DEV__) {
+        console.error('[API] Error updating available exam:', error);
+      }
       throw error;
     }
   }
@@ -590,7 +648,9 @@ class ApiService {
       });
       return await this.handleResponse<void>(response);
     } catch (error: any) {
-      console.error('[API] Error deleting available exam:', error);
+      if (__DEV__) {
+        console.error('[API] Error deleting available exam:', error);
+      }
       throw error;
     }
   }
@@ -827,8 +887,10 @@ class ApiService {
     });
   }
 
-  async completePracticeSession(sessionId: string) {
-    return this.patch(`/practice/sessions/${sessionId}/complete`);
+  async completePracticeSession(sessionId: string, timeSpentSeconds?: number) {
+    return this.patch(`/practice/sessions/${sessionId}/complete`, {
+      ...(timeSpentSeconds !== undefined && { timeSpentSeconds })
+    });
   }
 
   async getPracticeHistory() {
@@ -1170,7 +1232,9 @@ class ApiService {
         data: data as { url: string; type: string; filename: string; size: number }
       } as ApiResponse<{ url: string; type: string; filename: string; size: number }>;
     } catch (error: any) {
-      console.error('[API] Error uploading attachment:', error);
+      if (__DEV__) {
+        console.error('[API] Error uploading attachment:', error);
+      }
       throw error;
     }
   }
@@ -1282,6 +1346,34 @@ class ApiService {
 
   async handleTrialExpiry(autoPayToPro: boolean) {
     return this.post('/subscription/handle-trial-expiry', { autoPayToPro });
+  }
+
+  // Admin API methods
+  async getAdminDashboardStats() {
+    return this.get('/admin/dashboard/stats');
+  }
+
+  async getAdminCategories() {
+    return this.get('/admin/categories');
+  }
+
+  async getAdminQuestions(params?: { categoryId?: string; page?: number; limit?: number; search?: string; status?: string }) {
+    const queryParams = new URLSearchParams();
+    if (params?.categoryId) queryParams.append('categoryId', params.categoryId);
+    if (params?.page) queryParams.append('page', params.page.toString());
+    if (params?.limit) queryParams.append('limit', params.limit.toString());
+    if (params?.search) queryParams.append('search', params.search);
+    if (params?.status) queryParams.append('status', params.status);
+    const queryString = queryParams.toString();
+    return this.get(`/admin/questions${queryString ? `?${queryString}` : ''}`);
+  }
+
+  async getAdminUsers() {
+    return this.get('/admin/users');
+  }
+
+  async getAdminImportLogs() {
+    return this.get('/admin/import-logs');
   }
 }
 

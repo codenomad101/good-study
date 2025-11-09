@@ -22,8 +22,6 @@ import {
 import {
   useSubscriptionStatus,
   useStartTrial,
-  useSubscribeToLite,
-  useSubscribeToPro,
   useRenewSubscription,
 } from '@/hooks/useApi';
 import { showToast } from '@/utils/toast';
@@ -52,8 +50,6 @@ const Pricing: React.FC = () => {
   const router = useRouter();
   const { data: statusData, isLoading: loadingStatus, refetch } = useSubscriptionStatus();
   const startTrialMutation = useStartTrial();
-  const subscribeToLiteMutation = useSubscribeToLite();
-  const subscribeToProMutation = useSubscribeToPro();
   const renewSubscriptionMutation = useRenewSubscription();
   const [subscriptionStatus, setSubscriptionStatus] = useState<SubscriptionStatus | null>(null);
   const [showSuccessModal, setShowSuccessModal] = useState(false);
@@ -88,32 +84,27 @@ const Pricing: React.FC = () => {
     try {
       await startTrialMutation.mutateAsync();
       showToast.success('Trial started successfully! You have 3 days of full access.', 'Trial Activated');
-      setSuccessMessage('Your 3-day trial has started. You now have access to all Pro features including Community, Leaderboard, and AI Insights. After 3 days, you can choose to auto-pay to Pro (₹59/month) or switch to the free plan.');
+      setSuccessMessage('Your 3-day trial has started. You now have access to all Pro features including Community, Leaderboard, and AI Insights. After 3 days, you can choose to auto-pay to Pro (₹79/month) or switch to the free plan.');
       setShowSuccessModal(true);
       await refetch();
     } catch (error: any) {
-      console.error('[Pricing] Error starting trial:', error);
+      if (__DEV__) {
+        console.error('[Pricing] Error starting trial:', error);
+      }
       showToast.error(error?.message || 'Failed to start trial. Please try again.');
     }
   };
 
   const handleSubscribe = async (planType: 'lite' | 'pro') => {
-    try {
-      if (planType === 'pro') {
-        await subscribeToProMutation.mutateAsync();
-        showToast.success('Pro subscription activated successfully! (₹59/month)', 'Subscription Activated');
-        setSuccessMessage('Your Pro subscription is active for 30 days at ₹59/month. You have access to all features including Community, Leaderboard, and AI Insights! Pro plan will auto-renew every 30 days.');
-      } else {
-        await subscribeToLiteMutation.mutateAsync();
-        showToast.success('Lite plan activated successfully! (Free)', 'Subscription Activated');
-        setSuccessMessage('Your Lite plan is active for 30 days (Free). Note: Lite plan does not include Community, Leaderboard, or AI Insights.');
-      }
-      setShowSuccessModal(true);
-      await refetch();
-    } catch (error: any) {
-      console.error('[Pricing] Error subscribing:', error);
-      showToast.error(error?.message || `Failed to subscribe to ${planType} plan. Please try again.`);
-    }
+    // Navigate to payment screen
+    const amount = planType === 'pro' ? '79' : '59';
+    router.push({
+      pathname: '/payment',
+      params: {
+        planType,
+        amount,
+      },
+    });
   };
 
   const handleRenew = async () => {
@@ -122,7 +113,9 @@ const Pricing: React.FC = () => {
       showToast.success('Subscription renewed successfully for 30 more days!', 'Renewal Successful');
       await refetch();
     } catch (error: any) {
-      console.error('[Pricing] Error renewing subscription:', error);
+      if (__DEV__) {
+        console.error('[Pricing] Error renewing subscription:', error);
+      }
       showToast.error(error?.message || 'Failed to renew subscription. Please try again.');
     }
   };
@@ -165,7 +158,7 @@ const Pricing: React.FC = () => {
         'Progress tracking',
         'Study materials',
         'Notes & bookmarks',
-        'Auto-pay to Pro (₹59/month) or switch to Free after 3 days'
+        'Auto-pay to Pro (₹79/month) or switch to Free after 3 days'
       ],
       type: 'trial',
       color: '#52c41a',
@@ -174,7 +167,7 @@ const Pricing: React.FC = () => {
     {
       name: 'Lite',
       icon: <Star size={32} color="#1890ff" />,
-      price: 'Free',
+      price: '₹59',
       duration: '30 days',
       description: 'Essential features for focused learning',
       features: [
@@ -199,7 +192,7 @@ const Pricing: React.FC = () => {
     {
       name: 'Pro',
       icon: <Crown size={32} color="#ff7846" />,
-      price: '₹59',
+      price: '₹79',
       duration: '30 days',
       description: 'Complete learning experience with all features',
       features: [
@@ -267,7 +260,7 @@ const Pricing: React.FC = () => {
                   <ActivityIndicator color="#FFFFFF" />
                 ) : (
                   <Text style={styles.renewButtonText}>
-                    {subscriptionStatus.type === 'pro' ? 'Renew Pro (₹59)' : 'Renew Lite (Free)'}
+                    {subscriptionStatus.type === 'pro' ? 'Renew Pro (₹79)' : 'Renew Lite (₹59)'}
                   </Text>
                 )}
               </TouchableOpacity>
@@ -280,9 +273,7 @@ const Pricing: React.FC = () => {
           {plans.map((plan) => {
             const isCurrent = isCurrentPlan(plan.type);
             const isLoading = 
-              (plan.type === 'trial' && startTrialMutation.isPending) ||
-              (plan.type === 'lite' && subscribeToLiteMutation.isPending) ||
-              (plan.type === 'pro' && subscribeToProMutation.isPending);
+              (plan.type === 'trial' && startTrialMutation.isPending);
 
             return (
               <View key={plan.type} style={[styles.planCard, isCurrent && styles.planCardActive]}>
@@ -342,7 +333,7 @@ const Pricing: React.FC = () => {
                   ) : (
                     <>
                       <Text style={styles.subscribeButtonText}>
-                        {plan.type === 'trial' ? 'Start Trial' : plan.type === 'pro' ? 'Subscribe' : 'Activate Free'}
+                        {plan.type === 'trial' ? 'Start Trial' : plan.type === 'pro' ? 'Subscribe' : 'Subscribe'}
                       </Text>
                       <ArrowRight size={16} color="#FFFFFF" />
                     </>
@@ -360,8 +351,8 @@ const Pricing: React.FC = () => {
           <View style={styles.faqItem}>
             <Text style={styles.faqQuestion}>What's the difference between Lite and Pro?</Text>
             <Text style={styles.faqAnswer}>
-              Lite plan is free and includes all core learning features but excludes Community, Leaderboard, and AI Insights.
-              Pro plan is ₹59/month and includes everything with access to social features and AI-powered insights.
+              Lite plan is ₹59/month and includes all core learning features but excludes Community, Leaderboard, and AI Insights.
+              Pro plan is ₹79/month and includes everything with access to social features and AI-powered insights.
             </Text>
           </View>
 
@@ -376,8 +367,8 @@ const Pricing: React.FC = () => {
           <View style={styles.faqItem}>
             <Text style={styles.faqQuestion}>Do plans auto-renew?</Text>
             <Text style={styles.faqAnswer}>
-              Pro plan renews automatically every 30 days at ₹59/month. Lite plan is free and doesn't require renewal.
-              You can cancel Pro subscription anytime from your profile settings.
+              Pro plan renews automatically every 30 days at ₹79/month. Lite plan renews automatically every 30 days at ₹59/month.
+              You can cancel any subscription anytime from your profile settings.
             </Text>
           </View>
 

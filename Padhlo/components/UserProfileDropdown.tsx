@@ -24,6 +24,7 @@ import {
   ChevronDown,
   ChevronUp,
   Camera,
+  Shield,
 } from 'lucide-react-native';
 import { useAuth } from '../contexts/AuthContext';
 import { useLanguage } from '../contexts/LanguageContext';
@@ -314,6 +315,21 @@ const UserProfileDropdown: React.FC<UserProfileDropdownProps> = ({ visible, onCl
               <Text style={styles.actionText}>Plans & Pricing</Text>
               <ChevronDown size={20} color="#9CA3AF" style={{ transform: [{ rotate: '-90deg' }] }} />
             </TouchableOpacity>
+
+            {/* Admin Panel - Only show for admins */}
+            {user?.role === 'admin' && (
+              <TouchableOpacity 
+                style={styles.actionItem}
+                onPress={() => {
+                  onClose();
+                  router.push('/(tabs)/admin');
+                }}
+              >
+                <Shield size={20} color="#8B5CF6" />
+                <Text style={[styles.actionText, { color: '#8B5CF6' }]}>Admin Panel</Text>
+                <ChevronDown size={20} color="#9CA3AF" style={{ transform: [{ rotate: '-90deg' }] }} />
+              </TouchableOpacity>
+            )}
           </View>
 
           {/* Settings Section (Optional - Expanded Settings) */}

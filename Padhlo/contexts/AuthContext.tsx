@@ -11,6 +11,7 @@ interface User {
   profilePictureUrl?: string;
   dateOfBirth?: string;
   gender?: 'male' | 'female' | 'other';
+  role?: 'admin' | 'student' | 'moderator';
   subscriptionType: 'free' | 'premium' | 'premium_plus';
   totalPoints: number;
   level: number;
@@ -85,7 +86,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         await verifyToken();
       }
     } catch (error) {
-      console.error('Error loading stored auth:', error);
+      if (__DEV__) {
+        console.error('Error loading stored auth:', error);
+      }
     } finally {
       setIsLoading(false);
     }
@@ -111,7 +114,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         throw new Error(result.message || 'Login failed');
       }
     } catch (error: any) {
-      console.error('Login error:', error);
+      if (__DEV__) {
+        console.error('Login error:', error);
+      }
       throw new Error(error.message || 'Login failed');
     } finally {
       setIsLoading(false);
@@ -164,7 +169,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
           await apiService.logout();
         } catch (error) {
           // Continue with logout even if API call fails
-          console.error('Logout API error:', error);
+          if (__DEV__) {
+            console.error('Logout API error:', error);
+          }
         }
       }
       
@@ -173,7 +180,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       setUser(null);
       setToken(null);
     } catch (error) {
-      console.error('Logout error:', error);
+      if (__DEV__) {
+        console.error('Logout error:', error);
+      }
     }
   };
 
@@ -190,7 +199,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         throw new Error('Token verification failed');
       }
     } catch (error: any) {
-      console.error('Token verification error:', error);
+      if (__DEV__) {
+        console.error('Token verification error:', error);
+      }
       // Token is invalid, clear auth data
       await logout();
     }
@@ -216,7 +227,9 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
         throw new Error(result.message || 'Profile update failed');
       }
     } catch (error: any) {
-      console.error('Profile update error:', error);
+      if (__DEV__) {
+        console.error('Profile update error:', error);
+      }
       throw new Error(error.message || 'Profile update failed');
     }
   };

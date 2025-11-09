@@ -34,6 +34,7 @@ import { apiService } from '../services/api';
 import AppHeader from './AppHeader';
 import { useTranslation } from '../hooks/useTranslation';
 import { useRouter } from 'expo-router';
+import { useQueryClient } from '@tanstack/react-query';
 
 const { width } = Dimensions.get('window');
 
@@ -106,6 +107,7 @@ interface UserPracticeStats {
 const EnhancedPracticeContent: React.FC = () => {
   const { user } = useAuth();
   const { t } = useTranslation();
+  const queryClient = useQueryClient();
   
   // Try to load categories from API, fallback to hardcoded
   const { data: categoriesResponse, isLoading: categoriesLoading } = useCategories();
@@ -271,37 +273,64 @@ const EnhancedPracticeContent: React.FC = () => {
         case 'agriculture':
           questionsData = require('../data/English/agricultureEnglish.json');
           break;
+        case 'polity':
+          // Polity questions should come from database via API
+          // Fallback: use GK questions if local file not available
+          try {
+            questionsData = require('../data/English/GKEnglish.json');
+          } catch {
+            questionsData = [];
+          }
+          break;
+        case 'science':
+          // Science questions should come from database via API
+          // Fallback: use GK questions if local file not available
+          try {
+            questionsData = require('../data/English/GKEnglish.json');
+          } catch {
+            questionsData = [];
+          }
+          break;
         case 'marathi':
           questionsData = require('../data/Marathi/grammerMarathi.json');
           break;
         default:
-          throw new Error('Invalid category');
+          // For unknown categories, try to use API only (no local fallback)
+          questionsData = [];
+          console.warn(`[EnhancedPractice] Category '${category}' not found in local files. Will use API only.`);
       }
 
       if (!Array.isArray(questionsData)) {
         throw new Error('Invalid questions format');
       }
 
-      // Shuffle and select 20 random questions
-      const shuffled = questionsData.sort(() => Math.random() - 0.5);
-      const selectedQuestions = shuffled.slice(0, 20);
+      // Only use local JSON if we have data and it's not polity/science (which should come from DB)
+      // For polity and science, we'll rely entirely on the API
+      if (questionsData.length === 0 && (category === 'polity' || category === 'science')) {
+        // Don't set questions from local JSON for polity/science - wait for API
+        console.log(`[EnhancedPractice] Category '${category}' will use database questions only`);
+      } else if (questionsData.length > 0) {
+        // Shuffle and select 20 random questions
+        const shuffled = questionsData.sort(() => Math.random() - 0.5);
+        const selectedQuestions = shuffled.slice(0, 20);
 
-      // Transform to our format
-      const formattedQuestions: PracticeQuestion[] = selectedQuestions.map((q: any, index: number) => ({
-        questionId: `q_${index + 1}`,
-        questionText: q.Question || q.question || '',
-        options: q.Options ? q.Options.map((opt: any, optIndex: number) => ({
-          id: optIndex + 1,
-          text: typeof opt === 'string' ? opt : opt.text || opt.id || ''
-        })) : [],
-        correctAnswer: q.CorrectAnswer || q.correctAnswer || '',
-        explanation: q.Explanation || q.explanation || 'No explanation available',
-        category: q.Category || q.category || category,
-        marks: q.Marks || q.marks || 1,
-        questionType: q.QuestionType || q.questionType || 'multiple_choice'
-      }));
+        // Transform to our format
+        const formattedQuestions: PracticeQuestion[] = selectedQuestions.map((q: any, index: number) => ({
+          questionId: `q_${index + 1}`,
+          questionText: q.Question || q.question || '',
+          options: q.Options ? q.Options.map((opt: any, optIndex: number) => ({
+            id: optIndex + 1,
+            text: typeof opt === 'string' ? opt : opt.text || opt.id || ''
+          })) : [],
+          correctAnswer: q.CorrectAnswer || q.correctAnswer || '',
+          explanation: q.Explanation || q.explanation || 'No explanation available',
+          category: q.Category || q.category || category,
+          marks: q.Marks || q.marks || 1,
+          questionType: q.QuestionType || q.questionType || 'multiple_choice'
+        }));
 
-      setQuestions(formattedQuestions);
+        setQuestions(formattedQuestions);
+      }
       setSelectedCategory(category);
       setCurrentQuestionIndex(0);
       setUserAnswers({});
@@ -496,7 +525,10 @@ const EnhancedPracticeContent: React.FC = () => {
       // If we have a sessionId, complete it using the API
       if (sessionId) {
         try {
-          await completeSessionMutation.mutateAsync(sessionId);
+          await completeSessionMutation.mutateAsync({
+            sessionId,
+            timeSpentSeconds: totalTimeSpent // Send the calculated total time
+          });
           
           setSessionResults({
             sessionId: sessionId,
@@ -517,6 +549,8 @@ const EnhancedPracticeContent: React.FC = () => {
           });
           
           setSessionCompleted(true);
+          // Invalidate and refetch user stats to show updated minutes
+          queryClient.invalidateQueries({ queryKey: ['progress', 'stats'] });
           await refetchUserStats();
           
           Alert.alert(

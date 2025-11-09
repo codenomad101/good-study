@@ -164,8 +164,13 @@ export const completePracticeSession = async (req: Request, res: Response) => {
   try {
     const userId = (req as any).user.userId;
     const { sessionId } = req.params;
+    const { timeSpentSeconds } = req.body; // Accept timeSpentSeconds from request body
     
-    const result = await backendPracticeService.completePracticeSession(sessionId, userId);
+    const result = await backendPracticeService.completePracticeSession(
+      sessionId, 
+      userId, 
+      timeSpentSeconds !== undefined ? Number(timeSpentSeconds) : undefined
+    );
     
     // Create notification for practice result
     if (result && result.score !== undefined) {
