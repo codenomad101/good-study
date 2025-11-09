@@ -53,9 +53,10 @@ interface ExamSession {
 
 interface DynamicExamContentProps {
   sessionId?: string | null;
+  onViewChange?: (view: 'config' | 'exam' | 'results') => void;
 }
 
-const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: initialSessionId }) => {
+const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: initialSessionId, onViewChange }) => {
   const { user } = useAuth();
   const router = useRouter();
   const [currentView, setCurrentView] = useState<'config' | 'exam' | 'results'>('config');
@@ -106,6 +107,23 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
   ];
   
   const categories = apiCategories.length > 0 ? apiCategories : fallbackCategories;
+
+  // Cleanup timer on unmount
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) {
+        clearInterval(timerRef.current);
+        timerRef.current = null;
+      }
+    };
+  }, []);
+
+  // Notify parent when view changes
+  useEffect(() => {
+    if (onViewChange) {
+      onViewChange(currentView);
+    }
+  }, [currentView, onViewChange]);
 
   // Auto-load questions if sessionId is provided
   useEffect(() => {
@@ -253,6 +271,8 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
 
   // Timer functions
   const startTimer = (durationMinutes: number) => {
+    // Clear any existing timer first
+    stopTimer();
     setTimeRemaining(durationMinutes * 60);
     timerRef.current = setInterval(() => {
       setTimeRemaining((prev) => {

@@ -38,6 +38,7 @@ export default function ExamContent() {
   const [showExamCreator, setShowExamCreator] = useState(false);
   const [selectedExamSessionId, setSelectedExamSessionId] = useState<string | null>(null);
   const [refreshing, setRefreshing] = useState(false);
+  const [examView, setExamView] = useState<'config' | 'exam' | 'results'>('config');
 
   const { data: examHistoryResponse, isLoading: historyLoading, refetch } = useExamHistory();
   const { data: categoriesResponse, isLoading: categoriesLoading, error: categoriesError, refetch: refetchCategories } = useCategories();
@@ -493,21 +494,30 @@ export default function ExamContent() {
   }
 
   if (showExamCreator) {
+    // Hide header only when exam is in progress (not during config or results)
+    const hideHeader = examView === 'exam';
+    
     return (
       <View style={styles.container}>
-        <AppHeader showLogo={true} extraTopSpacing={true} />
-        <View style={styles.examHeader}>
-          <TouchableOpacity
-            style={styles.backButton}
-            onPress={() => {
-              setShowExamCreator(false);
-              setSelectedExamSessionId(null);
-            }}
-          >
-            <Text style={styles.backButtonText}>← Back to Exams</Text>
-          </TouchableOpacity>
-        </View>
-        <DynamicExamContent sessionId={selectedExamSessionId} />
+        {!hideHeader && <AppHeader showLogo={true} extraTopSpacing={true} />}
+        {!hideHeader && (
+          <View style={styles.examHeader}>
+            <TouchableOpacity
+              style={styles.backButton}
+              onPress={() => {
+                setShowExamCreator(false);
+                setSelectedExamSessionId(null);
+                setExamView('config');
+              }}
+            >
+              <Text style={styles.backButtonText}>← Back to Exams</Text>
+            </TouchableOpacity>
+          </View>
+        )}
+        <DynamicExamContent 
+          sessionId={selectedExamSessionId} 
+          onViewChange={setExamView}
+        />
       </View>
     );
   }

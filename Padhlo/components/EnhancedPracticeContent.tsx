@@ -153,7 +153,11 @@ const EnhancedPracticeContent: React.FC = () => {
   const [showStats, setShowStats] = useState(false);
   const [sessionId, setSessionId] = useState<string | null>(null);
   
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  // New state variables for accurate time tracking
+  const [sessionStartTime, setSessionStartTime] = useState<number>(0);
+  const [questionTimes, setQuestionTimes] = useState<Record<string, number>>({});
+  
+  const timerRef = useRef<ReturnType<typeof setInterval> | null>(null);
   
   // API hooks
   const createSessionMutation = useCreatePracticeSession();
@@ -161,6 +165,16 @@ const EnhancedPracticeContent: React.FC = () => {
   const completeSessionMutation = useCompletePracticeSession();
   const { data: remainingSessions, refetch: refetchRemainingSessions } = useRemainingSessions();
   const router = useRouter();
+
+  // Cleanup timer on unmount
+  useEffect(() => {
+    return () => {
+      if (timerRef.current) {
+        clearInterval(timerRef.current);
+        timerRef.current = null;
+      }
+    };
+  }, []);
 
   useEffect(() => {
     if (statsError) {
@@ -219,28 +233,61 @@ const EnhancedPracticeContent: React.FC = () => {
       };
       
       console.log('[EnhancedPractice] Mapped stats:', mappedStats);
+      console.log('[EnhancedPractice] Raw stats data:', statsData);
       setUserStats(mappedStats);
     } else {
       console.log('[EnhancedPractice] No stats response available');
+      console.log('[EnhancedPractice] statsResponse:', statsResponse);
+      console.log('[EnhancedPractice] statsError:', statsError);
       setUserStats(null);
     }
   }, [statsResponse, statsError]);
 
-  const startSession = () => {
+  const startSession = (initialTime?: number) => {
+    const startTimestamp = Date.now();
+    setSessionStartTime(startTimestamp);
     setSessionStarted(true);
     setSessionCompleted(false);
     setSessionResults(null);
     
-    // Start timer
-    timerRef.current = setInterval(() => {
-      setTimeRemaining((prev) => {
-        if (prev <= 1) {
-          completeSession();
-          return 0;
-        }
-        return prev - 1;
-      });
-    }, 1000);
+    // Clear any existing timer first
+    if (timerRef.current) {
+      clearInterval(timerRef.current);
+      timerRef.current = null;
+    }
+    
+    // Use provided initial time or current state, default to 15 minutes if both are 0
+    const startTime = initialTime !== undefined ? initialTime : (timeRemaining > 0 ? timeRemaining : 15 * 60);
+    
+    // Set the time immediately and ensure it's set before starting timer
+    setTimeRemaining(startTime);
+    
+    // Start timer after a brief delay to ensure state is updated
+    setTimeout(() => {
+      // Double-check time is set
+      setTimeRemaining(startTime);
+      console.log('[EnhancedPractice] Timer starting with time:', startTime);
+      
+      // Start timer - use functional update to always get the latest state
+      timerRef.current = setInterval(() => {
+        setTimeRemaining((prev) => {
+          const newTime = Math.max(0, prev - 1);
+          if (newTime <= 0) {
+            if (timerRef.current) {
+              clearInterval(timerRef.current);
+              timerRef.current = null;
+            }
+            completeSession();
+            return 0;
+          }
+          // Log every 10 seconds for debugging
+          if (newTime % 10 === 0) {
+            console.log('[EnhancedPractice] Timer tick:', newTime);
+          }
+          return newTime;
+        });
+      }, 1000);
+    }, 50);
   };
 
   const loadQuestions = async (category: string) => {
@@ -334,7 +381,9 @@ const EnhancedPracticeContent: React.FC = () => {
       setSelectedCategory(category);
       setCurrentQuestionIndex(0);
       setUserAnswers({});
-      setTimeRemaining(15 * 60);
+      setQuestionTimes({});
+      const initialTime = 15 * 60; // 15 minutes in seconds
+      setTimeRemaining(initialTime);
       setQuestionStartTime(Date.now());
       
       
@@ -351,8 +400,20 @@ const EnhancedPracticeContent: React.FC = () => {
             
             // Find the category object to get both slug and categoryId
             const categoryObj = categories.find(cat => cat.id === categoryToUse || cat.slug === categoryToUse);
-            // Prefer slug over UUID, as that's what the web frontend uses
-            const categoryForServer = categoryObj?.slug || categoryObj?.categoryId || categoryToUse.trim();
+            
+            // Map invalid categories to valid enum values
+            // "science" is not in the enum, so map it to "gk" (which is used as fallback)
+            let categoryForServer = categoryObj?.slug || categoryObj?.categoryId || categoryToUse.trim();
+            
+            // Map invalid categories to valid ones
+            const categoryMapping: Record<string, string> = {
+              'science': 'gk', // Science maps to General Knowledge
+            };
+            
+            if (categoryMapping[categoryForServer]) {
+              console.log(`[EnhancedPractice] Mapping category "${categoryForServer}" to "${categoryMapping[categoryForServer]}" for server compatibility`);
+              categoryForServer = categoryMapping[categoryForServer];
+            }
             
             // Check remaining practice sessions for free plan
             if (remainingSessions && remainingSessions.practice !== -1 && remainingSessions.practice <= 0) {
@@ -410,8 +471,20 @@ const EnhancedPracticeContent: React.FC = () => {
           }
         } catch (error: any) {
           console.error('[EnhancedPractice] Error creating session:', error);
+          
+          // Check if it's a category validation error (400 Bad Request)
+          if (error?.status === 400 || error?.response?.status === 400) {
+            const errorMessage = error?.message || error?.response?.data?.message || '';
+            if (errorMessage.includes('practice_category') || errorMessage.includes('enum')) {
+              console.warn('[EnhancedPractice] Category validation error - continuing with local session:', errorMessage);
+              // Continue with local session - don't block the user
+            } else {
+              // Other 400 errors - continue with local session
+              console.warn('[EnhancedPractice] Bad request error - continuing with local session:', errorMessage);
+            }
+          }
           // Check if it's a session limit error
-          if (error?.response?.status === 403 && error?.response?.data?.requiresUpgrade) {
+          else if (error?.response?.status === 403 && error?.response?.data?.requiresUpgrade) {
             Alert.alert(
               'Daily Practice Limit Reached',
               error.response.data.message || 'You have reached your daily limit of 3 practice sessions. Upgrade to Pro for unlimited sessions.',
@@ -434,7 +507,13 @@ const EnhancedPracticeContent: React.FC = () => {
       }
       
       // Automatically start the session after loading questions
-      startSession();
+      // Ensure timeRemaining is set before starting session
+      setTimeRemaining(initialTime);
+      // Pass initial time to ensure timer starts with correct value
+      // Use a small delay to ensure state is updated
+      setTimeout(() => {
+        startSession(initialTime);
+      }, 100);
       
     } catch (error) {
       Alert.alert('Error', 'Failed to load questions. Please try again.');
@@ -446,12 +525,38 @@ const EnhancedPracticeContent: React.FC = () => {
   const completeSession = async () => {
     if (timerRef.current) {
       clearInterval(timerRef.current);
+      timerRef.current = null;
     }
 
-    const totalTimeSpent = (15 * 60) - timeRemaining;
+    // Calculate actual time spent in seconds
+    const sessionEndTime = Date.now();
+    const actualTimeSpentSeconds = sessionStartTime > 0 ? Math.floor((sessionEndTime - sessionStartTime) / 1000) : 0;
+    
+    // Also calculate time spent based on timer for fallback
+    // If timer was initialized with 15 minutes (900 seconds), calculate time spent
+    const initialTime = 15 * 60; // 15 minutes in seconds
+    const timerBasedTimeSpent = Math.max(0, initialTime - timeRemaining);
+    
+    // Use actual time spent if available and valid, otherwise use timer calculation
+    // If actual time is 0 or invalid, use timer-based calculation
+    const totalTimeSpent = (sessionStartTime > 0 && actualTimeSpentSeconds > 0) 
+      ? actualTimeSpentSeconds 
+      : timerBasedTimeSpent;
+    
+    console.log('[EnhancedPractice] Time calculation:', {
+      sessionStartTime,
+      sessionEndTime,
+      actualTimeSpentSeconds,
+      timeRemaining,
+      timerBasedTimeSpent,
+      totalTimeSpent,
+      totalTimeSpentMinutes: Math.floor(totalTimeSpent / 60)
+    });
+
     const questionsData = questions.map((q, index) => {
       const userAnswer = userAnswers[q.questionId] || '';
       const isCorrect = userAnswer === q.correctAnswer;
+      const questionTime = questionTimes[q.questionId] || Math.floor(totalTimeSpent / questions.length);
       
       return {
         questionId: q.questionId,
@@ -460,7 +565,7 @@ const EnhancedPracticeContent: React.FC = () => {
         correctAnswer: q.correctAnswer,
         userAnswer,
         isCorrect,
-        timeSpentSeconds: 45, // Average time per question
+        timeSpentSeconds: Math.floor(questionTime / 1000), // Convert from ms to seconds
         explanation: q.explanation,
         category: q.category
       };
@@ -496,7 +601,7 @@ const EnhancedPracticeContent: React.FC = () => {
           status: 'completed',
           totalQuestions: questions.length,
           timeLimitMinutes: 15,
-          startedAt: new Date(),
+          startedAt: new Date(sessionStartTime),
           completedAt: new Date(),
           timeSpentSeconds: totalTimeSpent,
           questionsAttempted: correctAnswers + incorrectAnswers,
@@ -512,7 +617,7 @@ const EnhancedPracticeContent: React.FC = () => {
         
         Alert.alert(
           'Session Completed!',
-          `You scored ${correctAnswers}/${questions.length} (${percentage.toFixed(1)}%)`,
+          `You scored ${correctAnswers}/${questions.length} (${percentage.toFixed(1)}%)\nTime spent: ${Math.floor(totalTimeSpent / 60)}:${(totalTimeSpent % 60).toString().padStart(2, '0')}`,
           [
             { text: 'View Results', onPress: () => setShowExplanations(true) },
             { text: 'OK' }
@@ -520,7 +625,6 @@ const EnhancedPracticeContent: React.FC = () => {
         );
         return;
       }
-
 
       // If we have a sessionId, complete it using the API
       if (sessionId) {
@@ -536,7 +640,7 @@ const EnhancedPracticeContent: React.FC = () => {
             status: 'completed',
             totalQuestions: questions.length,
             timeLimitMinutes: 15,
-            startedAt: new Date(),
+            startedAt: new Date(sessionStartTime),
             completedAt: new Date(),
             timeSpentSeconds: totalTimeSpent,
             questionsAttempted: correctAnswers + incorrectAnswers,
@@ -552,10 +656,11 @@ const EnhancedPracticeContent: React.FC = () => {
           // Invalidate and refetch user stats to show updated minutes
           queryClient.invalidateQueries({ queryKey: ['progress', 'stats'] });
           await refetchUserStats();
+          await refetchRemainingSessions();
           
           Alert.alert(
             'Session Completed!',
-            `You scored ${correctAnswers}/${questions.length} (${percentage.toFixed(1)}%)`,
+            `You scored ${correctAnswers}/${questions.length} (${percentage.toFixed(1)}%)\nTime spent: ${Math.floor(totalTimeSpent / 60)}:${(totalTimeSpent % 60).toString().padStart(2, '0')}`,
             [
               { text: 'View Results', onPress: () => setShowExplanations(true) },
               { text: 'OK' }
@@ -563,6 +668,7 @@ const EnhancedPracticeContent: React.FC = () => {
           );
           return;
         } catch (error: any) {
+          console.error('[EnhancedPractice] Error completing session:', error);
           Alert.alert('Error', error.message || 'Failed to save session results');
           return;
         }
@@ -576,7 +682,7 @@ const EnhancedPracticeContent: React.FC = () => {
         status: 'completed',
         totalQuestions: questions.length,
         timeLimitMinutes: 15,
-        startedAt: new Date(),
+        startedAt: new Date(sessionStartTime),
         completedAt: new Date(),
         timeSpentSeconds: totalTimeSpent,
         questionsAttempted: correctAnswers + incorrectAnswers,
@@ -592,18 +698,27 @@ const EnhancedPracticeContent: React.FC = () => {
       
       Alert.alert(
         'Session Completed!',
-        `You scored ${correctAnswers}/${questions.length} (${percentage.toFixed(1)}%)`,
+        `You scored ${correctAnswers}/${questions.length} (${percentage.toFixed(1)}%)\nTime spent: ${Math.floor(totalTimeSpent / 60)}:${(totalTimeSpent % 60).toString().padStart(2, '0')}`,
         [
           { text: 'View Results', onPress: () => setShowExplanations(true) },
           { text: 'OK' }
         ]
       );
     } catch (error) {
+      console.error('[EnhancedPractice] Error in completeSession:', error);
       Alert.alert('Error', 'Failed to save session results');
     }
   };
 
   const selectAnswer = async (questionId: string, answer: string) => {
+    const timeSpent = Date.now() - questionStartTime;
+    
+    // Store individual question time
+    setQuestionTimes(prev => ({
+      ...prev,
+      [questionId]: timeSpent
+    }));
+    
     setUserAnswers(prev => ({
       ...prev,
       [questionId]: answer
@@ -612,20 +727,29 @@ const EnhancedPracticeContent: React.FC = () => {
     // Save answer to backend if we have a sessionId
     if (sessionId && user?.userId) {
       try {
-        const timeSpent = Date.now() - questionStartTime;
         const currentQuestion = questions.find(q => q.questionId === questionId);
+        
+        if (!currentQuestion) {
+          console.warn('[EnhancedPracticeContent] Question not found:', questionId);
+          return;
+        }
         
         // Try to find the option ID from the answer text
         let userAnswerValue = answer;
-        if (currentQuestion && currentQuestion.options) {
+        if (currentQuestion.options) {
           const selectedOption = currentQuestion.options.find(opt => opt.text === answer);
-          if (selectedOption) {
-            // Send option ID as string if available, otherwise send the text
-            userAnswerValue = selectedOption.id?.toString() || answer;
+          if (selectedOption && selectedOption.id !== undefined) {
+            // Send option ID as number (1, 2, 3, 4) which is what server expects
+            userAnswerValue = selectedOption.id.toString();
           }
         }
         
-     
+        // Only save to server if we have a valid questionId (not local q_ format)
+        // Local questionIds (q_1, q_2) won't match server session questionIds
+        if (questionId.startsWith('q_')) {
+          console.warn('[EnhancedPracticeContent] Skipping server save for local questionId:', questionId);
+          return; // Don't try to save local questionIds to server
+        }
         
         await updateAnswerMutation.mutateAsync({
           sessionId,
@@ -636,7 +760,9 @@ const EnhancedPracticeContent: React.FC = () => {
       } catch (error: any) {
         console.error('[EnhancedPracticeContent] Failed to save answer to backend:', {
           error: error?.message,
-          
+          questionId,
+          sessionId,
+          hasQuestion: !!questions.find(q => q.questionId === questionId)
         });
         // Don't block the UI if saving fails - user can still continue
       }
@@ -664,9 +790,12 @@ const EnhancedPracticeContent: React.FC = () => {
     setShowExplanations(false);
     setCurrentQuestionIndex(0);
     setUserAnswers({});
+    setQuestionTimes({});
     setTimeRemaining(15 * 60);
+    setSessionStartTime(0);
     if (timerRef.current) {
       clearInterval(timerRef.current);
+      timerRef.current = null;
     }
   };
 
@@ -832,7 +961,7 @@ const EnhancedPracticeContent: React.FC = () => {
                 styles.timerText,
                 { color: timeRemaining < 300 ? '#EF4444' : '#3B82F6' }
               ]}>
-                {formatTime(timeRemaining)}
+                {formatTime(Math.max(0, timeRemaining))}
               </Text>
             </View>
             
@@ -937,7 +1066,7 @@ const EnhancedPracticeContent: React.FC = () => {
             <Trophy size={48} color={scoreColor} />
             <Text style={styles.resultsTitle}>{t('practice.sessionCompleted')}</Text>
             <Text style={styles.resultsSubtitle}>
-              {selectedCategory?.charAt(0).toUpperCase() + selectedCategory?.slice(1)} {t('practice.title')}
+              {selectedCategory ? selectedCategory.charAt(0).toUpperCase() + selectedCategory.slice(1) : ''} {t('practice.title')}
             </Text>
           </View>
 
@@ -1089,19 +1218,19 @@ const EnhancedPracticeContent: React.FC = () => {
             <View style={styles.statsSection}>
               <Text style={styles.statsSectionTitle}>Overall Performance</Text>
               
-              <View style={styles.statsGrid}>
-                <View style={styles.statItem}>
-                  <Text style={styles.statValue}>{userStats.totalPracticeSessions}</Text>
-                  <Text style={styles.statLabel}>Total Sessions</Text>
+              <View style={styles.statsGridDetailed}>
+                <View style={styles.statItemDetailed}>
+                  <Text style={styles.statValueDetailed}>{userStats.totalPracticeSessions}</Text>
+                  <Text style={styles.statLabelDetailed}>Total Sessions</Text>
                 </View>
                 
-                <View style={styles.statItem}>
-                  <Text style={styles.statValue}>{userStats.totalPracticeScore}</Text>
-                  <Text style={styles.statLabel}>Total Score</Text>
+                <View style={styles.statItemDetailed}>
+                  <Text style={styles.statValueDetailed}>{userStats.totalPracticeScore}</Text>
+                  <Text style={styles.statLabelDetailed}>Total Score</Text>
                 </View>
                 
-                <View style={styles.statItem}>
-                  <Text style={styles.statValue}>
+                <View style={styles.statItemDetailed}>
+                  <Text style={styles.statValueDetailed}>
                     {(() => {
                       let accuracy = 0;
                       if (userStats.overallAccuracy !== undefined && userStats.overallAccuracy !== null) {
@@ -1114,12 +1243,12 @@ const EnhancedPracticeContent: React.FC = () => {
                       return isNaN(accuracy) ? '0' : accuracy.toFixed(1);
                     })()}%
                   </Text>
-                  <Text style={styles.statLabel}>Average Accuracy</Text>
+                  <Text style={styles.statLabelDetailed}>Average Accuracy</Text>
                 </View>
                 
-                <View style={styles.statItem}>
-                  <Text style={styles.statValue}>{userStats.currentStreak}</Text>
-                  <Text style={styles.statLabel}>Current Streak</Text>
+                <View style={styles.statItemDetailed}>
+                  <Text style={styles.statValueDetailed}>{userStats.currentStreak}</Text>
+                  <Text style={styles.statLabelDetailed}>Current Streak</Text>
                 </View>
               </View>
             </View>
@@ -1127,15 +1256,15 @@ const EnhancedPracticeContent: React.FC = () => {
             <View style={styles.statsSection}>
               <Text style={styles.statsSectionTitle}>Weekly Performance</Text>
               
-              <View style={styles.statsGrid}>
-                <View style={styles.statItem}>
-                  <Text style={styles.statValue}>{userStats.weeklyPracticeCount}</Text>
-                  <Text style={styles.statLabel}>Sessions This Week</Text>
+              <View style={styles.statsGridDetailed}>
+                <View style={styles.statItemDetailed}>
+                  <Text style={styles.statValueDetailed}>{userStats.weeklyPracticeCount}</Text>
+                  <Text style={styles.statLabelDetailed}>Sessions This Week</Text>
                 </View>
                 
-                <View style={styles.statItem}>
-                  <Text style={styles.statValue}>{userStats.weeklyPracticeScore}</Text>
-                  <Text style={styles.statLabel}>Weekly Score</Text>
+                <View style={styles.statItemDetailed}>
+                  <Text style={styles.statValueDetailed}>{userStats.weeklyPracticeScore}</Text>
+                  <Text style={styles.statLabelDetailed}>Weekly Score</Text>
                 </View>
               </View>
             </View>
@@ -1143,15 +1272,15 @@ const EnhancedPracticeContent: React.FC = () => {
             <View style={styles.statsSection}>
               <Text style={styles.statsSectionTitle}>Monthly Performance</Text>
               
-              <View style={styles.statsGrid}>
-                <View style={styles.statItem}>
-                  <Text style={styles.statValue}>{userStats.monthlyPracticeCount}</Text>
-                  <Text style={styles.statLabel}>Sessions This Month</Text>
+              <View style={styles.statsGridDetailed}>
+                <View style={styles.statItemDetailed}>
+                  <Text style={styles.statValueDetailed}>{userStats.monthlyPracticeCount}</Text>
+                  <Text style={styles.statLabelDetailed}>Sessions This Month</Text>
                 </View>
                 
-                <View style={styles.statItem}>
-                  <Text style={styles.statValue}>{userStats.monthlyPracticeScore}</Text>
-                  <Text style={styles.statLabel}>Monthly Score</Text>
+                <View style={styles.statItemDetailed}>
+                  <Text style={styles.statValueDetailed}>{userStats.monthlyPracticeScore}</Text>
+                  <Text style={styles.statLabelDetailed}>Monthly Score</Text>
                 </View>
               </View>
             </View>
@@ -1218,6 +1347,7 @@ const EnhancedPracticeContent: React.FC = () => {
     </>
   );
 };
+
 
 const styles = StyleSheet.create({
   container: {
@@ -1780,12 +1910,12 @@ const styles = StyleSheet.create({
     color: '#1F2937',
     marginBottom: 16,
   },
-  statsGrid: {
+  statsGridDetailed: {
     flexDirection: 'row',
     flexWrap: 'wrap',
     justifyContent: 'space-between',
   },
-  statItem: {
+  statItemDetailed: {
     width: (width - 60) / 2,
     backgroundColor: '#FFFFFF',
     borderRadius: 12,
@@ -1798,13 +1928,13 @@ const styles = StyleSheet.create({
     shadowRadius: 2,
     elevation: 1,
   },
-  statValue: {
+  statValueDetailed: {
     fontSize: 24,
     fontWeight: 'bold',
     color: '#3B82F6',
     marginBottom: 4,
   },
-  statLabel: {
+  statLabelDetailed: {
     fontSize: 14,
     color: '#6B7280',
     textAlign: 'center',
