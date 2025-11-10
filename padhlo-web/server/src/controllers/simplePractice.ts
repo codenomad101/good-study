@@ -172,18 +172,59 @@ export const completePracticeSession = async (req: Request, res: Response) => {
       timeSpentSeconds !== undefined ? Number(timeSpentSeconds) : undefined
     );
     
-    // Create notification for practice result
-    if (result && result.score !== undefined) {
-      const percentage = result.totalQuestions > 0 
-        ? ((result.score / result.totalQuestions) * 100).toFixed(1)
-        : '0';
-      await createNotificationHelper(
-        userId,
-        'practice_result',
-        'Practice Test Results',
-        `Your practice test is complete! You scored ${result.score}/${result.totalQuestions} (${percentage}%)`,
-        `/practice-test/${result.categoryId || 'history'}`
-      );
+    // Create notification for practice result (similar to exam notifications)
+    console.log('[Practice] Session completion result:', {
+      hasResult: !!result,
+      status: result?.status,
+      correctAnswers: result?.correctAnswers,
+      totalQuestions: result?.totalQuestions,
+      percentage: result?.percentage,
+      category: result?.category
+    });
+    
+    if (result) {
+      // Use correctAnswers and totalQuestions from the session
+      const correctAnswers = result.correctAnswers || 0;
+      const totalQuestions = result.totalQuestions || 0;
+      
+      // Calculate percentage from session data (similar to exam pattern)
+      let percentage = 0;
+      if (result.percentage !== undefined && result.percentage !== null) {
+        percentage = typeof result.percentage === 'string' 
+          ? parseFloat(result.percentage) 
+          : Number(result.percentage);
+      } else if (totalQuestions > 0) {
+        percentage = (correctAnswers / totalQuestions) * 100;
+      }
+      
+      // Format category name for display
+      const categoryName = result.category 
+        ? result.category.charAt(0).toUpperCase() + result.category.slice(1).replace('-', ' ')
+        : 'Practice';
+      
+      // Create notification similar to exam notification format
+      // Always create notification if we have a result (status should be 'completed' after service call)
+      try {
+        await createNotificationHelper(
+          userId,
+          'practice_result',
+          'Practice Test Results',
+          `Your ${categoryName} practice test is complete! You scored ${correctAnswers}/${totalQuestions} (${percentage.toFixed(1)}%)`,
+          `/practice`
+        );
+        console.log('[Practice] Notification created successfully:', {
+          userId,
+          categoryName,
+          correctAnswers,
+          totalQuestions,
+          percentage: percentage.toFixed(1)
+        });
+      } catch (notificationError) {
+        console.error('[Practice] Error creating notification:', notificationError);
+        // Don't fail the request if notification fails
+      }
+    } else {
+      console.warn('[Practice] No result returned from completePracticeSession, skipping notification');
     }
     
     res.json({

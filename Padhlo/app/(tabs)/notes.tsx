@@ -11,6 +11,7 @@ import {
   ActivityIndicator,
   Dimensions,
   Image,
+  RefreshControl,
 } from 'react-native';
 import { SafeAreaView } from 'react-native-safe-area-context';
 import AppHeader from '@/components/AppHeader';
@@ -86,6 +87,7 @@ export default function NotesScreen() {
     attachments: [] as Attachment[],
   });
   const [expandedDates, setExpandedDates] = useState<Set<string>>(new Set());
+  const [refreshing, setRefreshing] = useState(false);
 
   const { data: notesResponse, isLoading, refetch } = useNotes({
     archived: 'false',
@@ -93,6 +95,12 @@ export default function NotesScreen() {
   const createNoteMutation = useCreateNote();
   const updateNoteMutation = useUpdateNote();
   const deleteNoteMutation = useDeleteNote();
+  
+  const onRefresh = async () => {
+    setRefreshing(true);
+    await refetch();
+    setRefreshing(false);
+  };
 
   // Parse notes from response - handle different response structures
   const notes: Note[] = useMemo(() => {
@@ -558,6 +566,9 @@ export default function NotesScreen() {
         style={styles.content}
         showsVerticalScrollIndicator={false}
         contentContainerStyle={styles.scrollContent}
+        refreshControl={
+          <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+        }
       >
         {/* Pinned Notes Section */}
         {pinnedNotes.length > 0 && (

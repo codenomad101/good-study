@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { View, Text, StyleSheet, ScrollView, TouchableOpacity, ActivityIndicator, Alert, Image } from 'react-native';
+import { View, Text, StyleSheet, ScrollView, TouchableOpacity, ActivityIndicator, Alert, Image, RefreshControl } from 'react-native';
 import { BookOpen, Trophy, Target, Clock, TrendingUp, Award, CheckCircle, Bell, Calendar, Users, FileText, Play, Crown, Rocket, Star } from 'lucide-react-native';
 import { useExams, useUserStats, useSubjectWiseProgress, useSubscriptionStatus, useReminders, useAvailableExams } from '../hooks/useApi';
 import { useUserRank } from '../hooks/useStatistics';
@@ -15,13 +15,29 @@ const HomeContent: React.FC = () => {
   const router = useRouter();
     
   // Fetch data using React Query hooks - must be called unconditionally
-  const { data: examsData, isLoading: examsLoading, error: examsError } = useExams();
-  const { data: statsResponse, isLoading: statsLoading, error: statsError } = useUserStats();
-  const { data: subjectProgressResponse, isLoading: progressLoading, error: progressError } = useSubjectWiseProgress();
-  const { data: subscriptionData } = useSubscriptionStatus();
-  const { data: remindersResponse, isLoading: remindersLoading, error: remindersError } = useReminders({ upcoming: 'true' });
-  const { data: availableExamsResponse, isLoading: availableExamsLoading, error: availableExamsError } = useAvailableExams({ upcoming: 'true' });
-  const { data: userRankResponse, isLoading: rankLoading } = useUserRank('alltime');
+  const { data: examsData, isLoading: examsLoading, error: examsError, refetch: refetchExams } = useExams();
+  const { data: statsResponse, isLoading: statsLoading, error: statsError, refetch: refetchStats } = useUserStats();
+  const { data: subjectProgressResponse, isLoading: progressLoading, error: progressError, refetch: refetchSubjectProgress } = useSubjectWiseProgress();
+  const { data: subscriptionData, refetch: refetchSubscription } = useSubscriptionStatus();
+  const { data: remindersResponse, isLoading: remindersLoading, error: remindersError, refetch: refetchReminders } = useReminders({ upcoming: 'true' });
+  const { data: availableExamsResponse, isLoading: availableExamsLoading, error: availableExamsError, refetch: refetchAvailableExams } = useAvailableExams({ upcoming: 'true' });
+  const { data: userRankResponse, isLoading: rankLoading, refetch: refetchUserRank } = useUserRank('alltime');
+  
+  const [refreshing, setRefreshing] = useState(false);
+  
+  const onRefresh = async () => {
+    setRefreshing(true);
+    await Promise.all([
+      refetchExams(),
+      refetchStats(),
+      refetchSubjectProgress(),
+      refetchSubscription(),
+      refetchReminders(),
+      refetchAvailableExams(),
+      refetchUserRank()
+    ]);
+    setRefreshing(false);
+  };
 
 
 
@@ -194,7 +210,13 @@ const stats = {
         </View>
       </View>
 
-      <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
+      <ScrollView 
+        style={styles.content} 
+        showsVerticalScrollIndicator={false}
+        refreshControl={
+          <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+        }
+      >
 
       {/* Streak Card - Compact with Stats */}
       <View style={styles.streakCard}>

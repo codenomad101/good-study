@@ -8,7 +8,8 @@ import {
   ActivityIndicator, 
   Alert,
   Modal,
-  Dimensions
+  Dimensions,
+  RefreshControl
 } from 'react-native';
 import { 
   Play, 
@@ -27,7 +28,7 @@ import {
   BarChart3
 } from 'lucide-react-native';
 import { useAuth } from '../contexts/AuthContext';
-import { usePracticeCategories, useCreatePracticeSession, useUpdatePracticeAnswer, useCompletePracticeSession } from '../hooks/usePractice';
+import { usePracticeCategories, useCreatePracticeSession, useUpdatePracticeAnswer, useCompletePracticeSession, usePracticeHistory } from '../hooks/usePractice';
 import { useCategories } from '../hooks/useCategories';
 import { useUserStats, useRemainingSessions } from '../hooks/useApi';
 import { apiService } from '../services/api';
@@ -110,8 +111,10 @@ const EnhancedPracticeContent: React.FC = () => {
   const queryClient = useQueryClient();
   
   // Try to load categories from API, fallback to hardcoded
-  const { data: categoriesResponse, isLoading: categoriesLoading } = useCategories();
+  const { data: categoriesResponse, isLoading: categoriesLoading, refetch: refetchCategories } = useCategories();
   const { data: statsResponse, refetch: refetchUserStats, error: statsError } = useUserStats();
+  const { data: practiceHistoryResponse, isLoading: historyLoading, refetch: refetchHistory } = usePracticeHistory();
+  const [refreshing, setRefreshing] = useState(false);
   const apiCategories = categoriesResponse?.data || (Array.isArray(categoriesResponse) ? categoriesResponse : []);
   
   const fallbackCategories: PracticeCategory[] = [
@@ -830,8 +833,10 @@ const EnhancedPracticeContent: React.FC = () => {
           setSessionCompleted(true);
           // Invalidate and refetch user stats to show updated minutes
           queryClient.invalidateQueries({ queryKey: ['progress', 'stats'] });
+          queryClient.invalidateQueries({ queryKey: ['practiceHistory'] });
           await refetchUserStats();
           await refetchRemainingSessions();
+          await refetchHistory();
           
           Alert.alert(
             'Session Completed!',
@@ -986,11 +991,27 @@ const EnhancedPracticeContent: React.FC = () => {
     return '#EF4444'; // Red
   };
 
+  const onRefresh = async () => {
+    setRefreshing(true);
+    await Promise.all([
+      refetchUserStats(),
+      refetchHistory(),
+      refetchCategories()
+    ]);
+    setRefreshing(false);
+  };
+
   const renderCategorySelection = () => (
     <View style={styles.container}>
       <AppHeader showLogo={true} extraTopSpacing={true} />
       
-      <ScrollView style={styles.content} showsVerticalScrollIndicator={false}>
+      <ScrollView 
+        style={styles.content} 
+        showsVerticalScrollIndicator={false}
+        refreshControl={
+          <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+        }
+      >
         {/* Your Progress - Styled like streak card */}
         <View style={styles.progressCard}>
           <View style={styles.progressHeader}>
@@ -1112,6 +1133,138 @@ const EnhancedPracticeContent: React.FC = () => {
             <Text style={styles.loadingText}>{t('practice.loadingQuestions')}</Text>
           </View>
         )}
+
+        {/* Practice History */}
+        <View style={styles.historySection}>
+          <Text style={styles.sectionTitle}>Recent Practice Sessions</Text>
+          {historyLoading ? (
+            <ActivityIndicator size="large" color="#3B82F6" style={styles.loader} />
+          ) : (() => {
+            // Parse practice history - similar to exam history parsing
+            let practiceHistory: any[] = [];
+            if (practiceHistoryResponse) {
+              // The API service getPracticeHistory() returns: { success: true, data: [...] }
+              if (Array.isArray(practiceHistoryResponse.data)) {
+                practiceHistory = practiceHistoryResponse.data;
+              } else if (Array.isArray(practiceHistoryResponse)) {
+                // Fallback: if response itself is an array
+                practiceHistory = practiceHistoryResponse;
+              } else if (practiceHistoryResponse.data && Array.isArray(practiceHistoryResponse.data)) {
+                practiceHistory = practiceHistoryResponse.data;
+              }
+            }
+            
+            // Debug logging
+            console.log('[EnhancedPractice] Practice History Debug:', {
+              practiceHistoryResponse,
+              practiceHistoryResponseData: practiceHistoryResponse?.data,
+              practiceHistoryResponseDataType: typeof practiceHistoryResponse?.data,
+              isDataArray: Array.isArray(practiceHistoryResponse?.data),
+              practiceHistoryLength: practiceHistory.length,
+              practiceHistory,
+              historyLoading,
+            });
+
+            return practiceHistory.length === 0 ? (
+              <View style={styles.emptyState}>
+                <BookOpen size={48} color="#9CA3AF" />
+                <Text style={styles.emptyText}>No practice sessions yet</Text>
+                <Text style={styles.emptySubtext}>Start practicing to see your history!</Text>
+              </View>
+            ) : (
+              <View style={styles.historyList}>
+                {practiceHistory
+                  .filter((session: any) => session && session.sessionId)
+                  .slice(0, 10) // Show only last 10 sessions
+                  .map((session: any) => {
+                    // Calculate percentage
+                    let percentage = 0;
+                    if (session.percentage !== undefined && session.percentage !== null) {
+                      percentage = typeof session.percentage === 'string' 
+                        ? parseFloat(session.percentage) 
+                        : (session.percentage || 0);
+                    } else if (session.correctAnswers !== undefined && session.totalQuestions !== undefined && session.totalQuestions > 0) {
+                      percentage = ((session.correctAnswers || 0) / (session.totalQuestions || 1)) * 100;
+                    }
+                    
+                    // Format category name
+                    const categoryName = session.category 
+                      ? session.category.charAt(0).toUpperCase() + session.category.slice(1).replace('-', ' ')
+                      : 'Practice';
+                    
+                    // Format date
+                    const formatDate = (date: string | Date) => {
+                      if (!date) return 'N/A';
+                      const d = new Date(date);
+                      const now = new Date();
+                      const diffMs = now.getTime() - d.getTime();
+                      const diffMins = Math.floor(diffMs / 60000);
+                      const diffHours = Math.floor(diffMs / 3600000);
+                      const diffDays = Math.floor(diffMs / 86400000);
+                      
+                      if (diffMins < 1) return 'Just now';
+                      if (diffMins < 60) return `${diffMins}m ago`;
+                      if (diffHours < 24) return `${diffHours}h ago`;
+                      if (diffDays < 7) return `${diffDays}d ago`;
+                      return d.toLocaleDateString('en-US', { month: 'short', day: 'numeric' });
+                    };
+                    
+                    return (
+                      <TouchableOpacity
+                        key={session.sessionId}
+                        style={styles.historyItem}
+                        onPress={() => {
+                          // Optionally show session details
+                          Alert.alert(
+                            'Practice Session',
+                            `Category: ${categoryName}\nScore: ${session.correctAnswers || 0}/${session.totalQuestions || 0}\nAccuracy: ${percentage.toFixed(1)}%\nTime: ${Math.floor((session.timeSpentSeconds || 0) / 60)}:${((session.timeSpentSeconds || 0) % 60).toString().padStart(2, '0')}`,
+                            [{ text: 'OK' }]
+                          );
+                        }}
+                      >
+                        <View style={styles.historyItemLeft}>
+                          <View style={[styles.statusBadge, { backgroundColor: session.status === 'completed' ? '#10B98120' : '#F59E0B20' }]}>
+                            {session.status === 'completed' ? (
+                              <CheckCircle size={20} color="#10B981" />
+                            ) : (
+                              <Clock size={20} color="#F59E0B" />
+                            )}
+                          </View>
+                          <View style={styles.historyItemInfo}>
+                            <Text style={styles.historyItemTitle}>{categoryName}</Text>
+                            <View style={styles.historyItemMeta}>
+                              <Text style={styles.historyItemMetaText}>
+                                {session.totalQuestions || 0} questions
+                              </Text>
+                              <Text style={styles.historyItemMetaText}> • </Text>
+                              <Text style={styles.historyItemMetaText}>
+                                {Math.floor((session.timeSpentSeconds || 0) / 60)}:${((session.timeSpentSeconds || 0) % 60).toString().padStart(2, '0')}
+                              </Text>
+                            </View>
+                          </View>
+                        </View>
+                        <View style={styles.historyItemRight}>
+                          {session.status === 'completed' && (
+                            <View style={styles.historyScoreContainer}>
+                              <Text style={styles.historyScoreText}>
+                                {session.correctAnswers || 0}/{session.totalQuestions || 0}
+                              </Text>
+                              <Text style={[styles.historyPercentageText, { color: percentage >= 80 ? '#10B981' : percentage >= 60 ? '#F59E0B' : '#EF4444' }]}>
+                                {percentage.toFixed(1)}%
+                              </Text>
+                            </View>
+                          )}
+                          <Text style={styles.historyDateText}>
+                            {formatDate(session.completedAt || session.createdAt)}
+                          </Text>
+                        </View>
+                      </TouchableOpacity>
+                    );
+                  })}
+              </View>
+            );
+          })()}
+        </View>
       </ScrollView>
     </View>
   );
@@ -2131,6 +2284,93 @@ const styles = StyleSheet.create({
   categoryStatDetails: {
     fontSize: 14,
     color: '#6B7280',
+  },
+  historySection: {
+    marginTop: 24,
+    marginBottom: 32,
+  },
+  loader: {
+    marginVertical: 40,
+  },
+  emptyState: {
+    alignItems: 'center',
+    paddingVertical: 60,
+  },
+  emptyText: {
+    fontSize: 18,
+    fontWeight: '600',
+    color: '#6B7280',
+    marginTop: 16,
+    marginBottom: 4,
+  },
+  emptySubtext: {
+    fontSize: 14,
+    color: '#9CA3AF',
+  },
+  historyList: {
+    marginTop: 12,
+  },
+  historyItem: {
+    backgroundColor: '#FFFFFF',
+    borderRadius: 12,
+    padding: 16,
+    flexDirection: 'row',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+    borderWidth: 1,
+    borderColor: '#E5E7EB',
+    marginBottom: 12,
+  },
+  historyItemLeft: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    flex: 1,
+  },
+  statusBadge: {
+    width: 40,
+    height: 40,
+    borderRadius: 20,
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: 12,
+  },
+  historyItemInfo: {
+    flex: 1,
+  },
+  historyItemTitle: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#111827',
+    marginBottom: 4,
+  },
+  historyItemMeta: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  historyItemMetaText: {
+    fontSize: 12,
+    color: '#6B7280',
+  },
+  historyItemRight: {
+    alignItems: 'flex-end',
+  },
+  historyScoreContainer: {
+    alignItems: 'flex-end',
+    marginBottom: 4,
+  },
+  historyScoreText: {
+    fontSize: 16,
+    fontWeight: '600',
+    color: '#111827',
+  },
+  historyPercentageText: {
+    fontSize: 14,
+    fontWeight: '500',
+    marginTop: 2,
+  },
+  historyDateText: {
+    fontSize: 12,
+    color: '#9CA3AF',
   },
 });
 

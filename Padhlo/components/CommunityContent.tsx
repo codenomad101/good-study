@@ -377,90 +377,89 @@ const CommunityContent: React.FC = () => {
     <View style={styles.container}>
       <AppHeader showLogo={true} extraTopSpacing={true} />
       
-      {/* Hero Section */}
-      <View style={styles.heroSection}>
-        <Text style={styles.heroTitle}>Community Hub</Text>
-        <Text style={styles.heroSubtitle}>Connect, Learn, and Grow Together</Text>
-        <TouchableOpacity
-          style={styles.createGroupButton}
-          onPress={() => setIsModalVisible(true)}
-        >
-          <Plus size={20} color="#FFFFFF" />
-          <Text style={styles.createGroupButtonText}>{t('community.createNewGroup')}</Text>
-        </TouchableOpacity>
-      </View>
-
-      {/* Top Communities */}
-      {renderTopCommunities()}
-
-      {/* Tabs */}
-      <View style={styles.tabsContainer}>
-        <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+      <ScrollView
+        style={styles.scrollView}
+        refreshControl={
+          <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
+        }
+        showsVerticalScrollIndicator={false}
+      >
+        {/* Hero Section */}
+        <View style={styles.heroSection}>
+          <Text style={styles.heroTitle}>Community Hub</Text>
+          <Text style={styles.heroSubtitle}>Connect, Learn, and Grow Together</Text>
           <TouchableOpacity
-            style={[styles.tab, activeTab === 'all' && styles.tabActive]}
-            onPress={() => setActiveTab('all')}
+            style={styles.createGroupButton}
+            onPress={() => setIsModalVisible(true)}
           >
-            <Text style={[styles.tabText, activeTab === 'all' && styles.tabTextActive]}>
-              All Groups
-            </Text>
+            <Plus size={20} color="#FFFFFF" />
+            <Text style={styles.createGroupButtonText}>{t('community.createNewGroup')}</Text>
           </TouchableOpacity>
-          <TouchableOpacity
-            style={[styles.tab, activeTab === 'most-posts' && styles.tabActive]}
-            onPress={() => setActiveTab('most-posts')}
-          >
-            <Text style={[styles.tabText, activeTab === 'most-posts' && styles.tabTextActive]}>
-              Most Posts
-            </Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={[styles.tab, activeTab === 'most-comments' && styles.tabActive]}
-            onPress={() => setActiveTab('most-comments')}
-          >
-            <Text style={[styles.tabText, activeTab === 'most-comments' && styles.tabTextActive]}>
-              Most Comments
-            </Text>
-          </TouchableOpacity>
-          <TouchableOpacity
-            style={[styles.tab, activeTab === 'exam-based' && styles.tabActive]}
-            onPress={() => setActiveTab('exam-based')}
-          >
-            <Text style={[styles.tabText, activeTab === 'exam-based' && styles.tabTextActive]}>
-              Exam Based
-            </Text>
-          </TouchableOpacity>
-        </ScrollView>
-      </View>
-
-      {/* Groups List */}
-      {isLoadingGroups && groups.length === 0 ? (
-        <View style={styles.loadingContainer}>
-          <ActivityIndicator size="large" color="#2563EB" />
-          <Text style={styles.loadingText}>Loading communities...</Text>
         </View>
-      ) : filteredGroups.length === 0 ? (
-        <View style={styles.emptyState}>
-          <Users size={48} color="#9CA3AF" />
-          <Text style={styles.emptyStateText}>No communities found</Text>
-          <Text style={styles.emptyStateSubtext}>Create your first group to get started!</Text>
+
+        {/* Top Communities */}
+        {renderTopCommunities()}
+
+        {/* Tabs */}
+        <View style={styles.tabsContainer}>
+          <ScrollView horizontal showsHorizontalScrollIndicator={false}>
+            <TouchableOpacity
+              style={[styles.tab, activeTab === 'all' && styles.tabActive]}
+              onPress={() => setActiveTab('all')}
+            >
+              <Text style={[styles.tabText, activeTab === 'all' && styles.tabTextActive]}>
+                All Groups
+              </Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[styles.tab, activeTab === 'most-posts' && styles.tabActive]}
+              onPress={() => setActiveTab('most-posts')}
+            >
+              <Text style={[styles.tabText, activeTab === 'most-posts' && styles.tabTextActive]}>
+                Most Posts
+              </Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[styles.tab, activeTab === 'most-comments' && styles.tabActive]}
+              onPress={() => setActiveTab('most-comments')}
+            >
+              <Text style={[styles.tabText, activeTab === 'most-comments' && styles.tabTextActive]}>
+                Most Comments
+              </Text>
+            </TouchableOpacity>
+            <TouchableOpacity
+              style={[styles.tab, activeTab === 'exam-based' && styles.tabActive]}
+              onPress={() => setActiveTab('exam-based')}
+            >
+              <Text style={[styles.tabText, activeTab === 'exam-based' && styles.tabTextActive]}>
+                Exam Based
+              </Text>
+            </TouchableOpacity>
+          </ScrollView>
         </View>
-      ) : (
-        <FlatList
-          data={filteredGroups}
-          renderItem={renderGroupCard}
-          keyExtractor={(item) => item.groupId}
-          contentContainerStyle={styles.listContainer}
-          refreshControl={
-            <RefreshControl refreshing={refreshing} onRefresh={onRefresh} />
-          }
-          ListFooterComponent={
-            isLoadingGroups ? (
-              <View style={{ padding: 20 }}>
-                <ActivityIndicator size="small" color="#2563EB" />
+
+        {/* Groups List */}
+        {isLoadingGroups && groups.length === 0 ? (
+          <View style={styles.loadingContainer}>
+            <ActivityIndicator size="large" color="#2563EB" />
+            <Text style={styles.loadingText}>Loading communities...</Text>
+          </View>
+        ) : filteredGroups.length === 0 ? (
+          <View style={styles.emptyState}>
+            <Users size={48} color="#9CA3AF" />
+            <Text style={styles.emptyStateText}>No communities found</Text>
+            <Text style={styles.emptyStateSubtext}>Create your first group to get started!</Text>
+          </View>
+        ) : (
+          <View style={styles.listContainer}>
+            {filteredGroups.map((group) => (
+              <View key={group.groupId}>
+                {renderGroupCard({ item: group })}
               </View>
-            ) : null
-          }
-        />
-      )}
+            ))}
+          </View>
+        )}
+      </ScrollView>
 
       {/* Create Group Modal */}
       <Modal
@@ -569,6 +568,9 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#F9FAFB',
+  },
+  scrollView: {
+    flex: 1,
   },
   heroSection: {
     backgroundColor: '#F97316',
