@@ -1,0 +1,3301 @@
+[
+    {
+      "category": "Indian Polity",
+      "Question": "Who decides whether a Bill is a Money Bill or not?",
+      "Options": [
+        { "id": 1, "text": "The President" },
+        { "id": 2, "text": "The Chairman of the Rajya Sabha" },
+        { "id": 3, "text": "The Speaker of the Lok Sabha" },
+        { "id": 4, "text": "The Finance Minister" }
+      ],
+      "CorrectAnswer": "The Speaker of the Lok Sabha",
+      "Explanation": "According to Article 110(3) of the Indian Constitution, if any question arises whether a Bill is a Money Bill or not, the decision of the Speaker of the House of the People (Lok Sabha) shall be final.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which Article of the Constitution deals with 'Right to Constitutional Remedies'?",
+      "Options": [
+        { "id": 1, "text": "Article 19" },
+        { "id": 2, "text": "Article 21" },
+        { "id": 3, "text": "Article 32" },
+        { "id": 4, "text": "Article 226" }
+      ],
+      "CorrectAnswer": "Article 32",
+      "Explanation": "Article 32 provides the right to citizens to move to the Supreme Court for the enforcement of Fundamental Rights. Dr. B.R. Ambedkar called this article the 'heart and soul' of the Constitution.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 73rd Constitutional Amendment Act, 1992, is related to which of the following?",
+      "Options": [
+        { "id": 1, "text": "Municipalities" },
+        { "id": 2, "text": "Panchayati Raj" },
+        { "id": 3, "text": "Official Languages" },
+        { "id": 4, "text": "Anti-Defection Law" }
+      ],
+      "CorrectAnswer": "Panchayati Raj",
+      "Explanation": "The 73rd Amendment Act, 1992 added Part IX to the Constitution, titled 'The Panchayats', and also added the Eleventh Schedule, which contains 29 functional items for Panchayats.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC, UPSC",
+      "correctOption": 2,
+      "topic": "Panchayati Raj"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The power of the President of India to issue an ordinance is a:",
+      "Options": [
+        { "id": 1, "text": "Legislative power" },
+        { "id": 2, "text": "Executive power" },
+        { "id": 3, "text": "Judicial power" },
+        { "id": 4, "text": "Quasi-judicial power" }
+      ],
+      "CorrectAnswer": "Legislative power",
+      "Explanation": "Under Article 123, the President can promulgate ordinances when the Parliament is not in session. This power is co-extensive with the legislative power of the Parliament, hence it is a legislative power.",
+      "Difficulty": "Medium",
+      "Job": "UPSC, MPSC, SSC-CGL",
+      "correctOption": 1,
+      "topic": "President"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following Fundamental Rights cannot be suspended even during a National Emergency?",
+      "Options": [
+        { "id": 1, "text": "Article 19 and Article 20" },
+        { "id": 2, "text": "Article 20 and Article 21" },
+        { "id": 3, "text": "Article 21 and Article 22" },
+        { "id": 4, "text": "Article 19 and Article 22" }
+      ],
+      "CorrectAnswer": "Article 20 and Article 21",
+      "Explanation": "As per Article 359, the President can suspend the right to move any court for the enforcement of Fundamental Rights, except for Article 20 (protection in respect of conviction for offences) and Article 21 (protection of life and personal liberty).",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Emergency Provisions"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The Directive Principles of State Policy (DPSP) are borrowed from the Constitution of which country?",
+      "Options": [
+        { "id": 1, "text": "USA" },
+        { "id": 2, "text": "Ireland" },
+        { "id": 3, "text": "Canada" },
+        { "id": 4, "text": "Australia" }
+      ],
+      "CorrectAnswer": "Ireland",
+      "Explanation": "The concept of Directive Principles of State Policy (DPSP), contained in Part IV of the Constitution, was borrowed from the Irish Constitution of 1937.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 2,
+      "topic": "Sources of Constitution"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "A 'Joint Sitting' of the Parliament is presided over by whom?",
+      "Options": [
+        { "id": 1, "text": "The President of India" },
+        { "id": 2, "text": "The Chairman of the Rajya Sabha" },
+        { "id": 3, "text": "The Speaker of the Lok Sabha" },
+        { "id": 4, "text": "The senior-most member of Parliament" }
+      ],
+      "CorrectAnswer": "The Speaker of the Lok Sabha",
+      "Explanation": "As per Article 108, a joint sitting of both Houses is summoned by the President to resolve a deadlock. However, as per Article 118(4), the sitting is presided over by the Speaker of the Lok Sabha.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'Anti-Defection Law' is contained in which Schedule of the Indian Constitution?",
+      "Options": [
+        { "id": 1, "text": "Eighth Schedule" },
+        { "id": 2, "text": "Ninth Schedule" },
+        { "id": 3, "text": "Tenth Schedule" },
+        { "id": 4, "text": "Twelfth Schedule" }
+      ],
+      "CorrectAnswer": "Tenth Schedule",
+      "Explanation": "The Tenth Schedule, which lays down the provisions for disqualification on grounds of defection, was added to the Constitution by the 52nd Amendment Act, 1985.",
+      "Difficulty": "Medium",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Schedules"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The Union Council of Ministers is collectively responsible to:",
+      "Options": [
+        { "id": 1, "text": "The President" },
+        { "id": 2, "text": "The Prime Minister" },
+        { "id": 3, "text": "The Rajya Sabha" },
+        { "id": 4, "text": "The Lok Sabha" }
+      ],
+      "CorrectAnswer": "The Lok Sabha",
+      "Explanation": "Article 75(3) of the Constitution states that the Council of Ministers shall be collectively responsible to the House of the People (Lok Sabha). This is the bedrock of the parliamentary system of government.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who administers the oath of office to the Governor of a state?",
+      "Options": [
+        { "id": 1, "text": "The President of India" },
+        { "id": 2, "text": "The Chief Justice of India" },
+        { "id": 3, "text": "The Chief Justice of the concerned High Court" },
+        { "id": 4, "text": "The outgoing Governor" }
+      ],
+      "CorrectAnswer": "The Chief Justice of the concerned High Court",
+      "Explanation": "According to Article 159, the oath of office to the Governor is administered by the Chief Justice of the concerned High Court or, in his absence, the senior-most judge of that court.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC",
+      "correctOption": 3,
+      "topic": "State Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The idea of 'Concurrent List' in the Indian Constitution is borrowed from:",
+      "Options": [
+        { "id": 1, "text": "Australia" },
+        { "id": 2, "text": "Canada" },
+        { "id": 3, "text": "Germany" },
+        { "id": 4, "text": "USA" }
+      ],
+      "CorrectAnswer": "Australia",
+      "Explanation": "The concept of the 'Concurrent List' (on which both Union and States can legislate), freedom of trade, and commerce were borrowed from the Australian Constitution.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 1,
+      "topic": "Sources of Constitution"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following are features of the Parliamentary form of government in India?\n1. Presence of nominal and real executives\n2. Collective responsibility of the executive to the legislature\n3. Separation of powers between legislature and executive\n4. Leadership of the Prime Minister",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "2, 3 and 4" },
+        { "id": 3, "text": "1, 2 and 4" },
+        { "id": 4, "text": "1, 3 and 4" }
+      ],
+      "CorrectAnswer": "1, 2 and 4",
+      "Explanation": "The Parliamentary system features include: (1) Nominal (President) and Real (Prime Minister) executives, (2) Collective responsibility (Article 75), and (4) Leadership of the PM. 'Separation of powers' (3) is a feature of the Presidential system (like in the USA), not the parliamentary system, which is based on the fusion of powers.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Parliamentary System"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The power of 'Judicial Review' in the Indian Constitution is based on:",
+      "Options": [
+        { "id": 1, "text": "Rule of Law" },
+        { "id": 2, "text": "Due Process of Law" },
+        { "id": 3, "text": "Procedure Established by Law" },
+        { "id": 4, "text": "Precedents and Conventions" }
+      ],
+      "CorrectAnswer": "Procedure Established by Law",
+      "Explanation": "The phrase 'procedure established by law' (from Article 21) was borrowed from the Japanese Constitution. It means a law is valid if it has been enacted through the correct procedure. However, the Supreme Court, in the Maneka Gandhi case, expanded its scope to include 'due process of law' (an American concept), making judicial review more robust.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 3,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Fundamental Duties were added to the Constitution by the recommendations of which committee?",
+      "Options": [
+        { "id": 1, "text": "Sarkaria Committee" },
+        { "id": 2, "text": "Swaran Singh Committee" },
+        { "id": 3, "text": "Ashok Mehta Committee" },
+        { "id": 4, "text": "Balwant Rai Mehta Committee" }
+      ],
+      "CorrectAnswer": "Swaran Singh Committee",
+      "Explanation": "The Fundamental Duties were added by the 42nd Amendment Act, 1976, based on the recommendations of the Swaran Singh Committee. They are contained in Article 51-A.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 2,
+      "topic": "Fundamental Duties"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Article 360 of the Indian Constitution deals with:",
+      "Options": [
+        { "id": 1, "text": "National Emergency" },
+        { "id": 2, "text": "President's Rule in States" },
+        { "id": 3, "text": "Financial Emergency" },
+        { "id": 4, "text": "Amendment of the Constitution" }
+      ],
+      "CorrectAnswer": "Financial Emergency",
+      "Explanation": "Article 360 empowers the President to proclaim a Financial Emergency if he is satisfied that a situation has arisen whereby the financial stability or credit of India or any part of its territory is threatened. This has never been imposed in India.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Emergency Provisions"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who appoints the Chairman of the Union Public Service Commission (UPSC)?",
+      "Options": [
+        { "id": 1, "text": "The President" },
+        { "id": 2, "text": "The Prime Minister" },
+        { "id": 3, "text": "The Chief Justice of India" },
+        { "id": 4, "text": "The Lok Sabha Speaker" }
+      ],
+      "CorrectAnswer": "The President",
+      "Explanation": "Under Article 316 of the Constitution, the Chairman and other members of the Union Public Service Commission (UPSC) are appointed by the President of India.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 1,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'Preamble' of the Indian Constitution was amended by which Constitutional Amendment Act?",
+      "Options": [
+        { "id": 1, "text": "44th Amendment Act" },
+        { "id": 2, "text": "42nd Amendment Act" },
+        { "id": 3, "text": "24th Amendment Act" },
+        { "id": 4, "text": "It has never been amended" }
+      ],
+      "CorrectAnswer": "42nd Amendment Act",
+      "Explanation": "The Preamble was amended only once by the 42nd Constitutional Amendment Act, 1976, which added three new words: 'Socialist', 'Secular', and 'Integrity'.",
+      "Difficulty": "Medium",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 2,
+      "topic": "Preamble"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which writ is issued by a court to inquire into the legality of a person's claim to a public office?",
+      "Options": [
+        { "id": 1, "text": "Habeas Corpus" },
+        { "id": 2, "text": "Mandamus" },
+        { "id": 3, "text": "Quo-Warranto" },
+        { "id": 4, "text": "Certiorari" }
+      ],
+      "CorrectAnswer": "Quo-Warranto",
+      "Explanation": "The writ of 'Quo-Warranto' (meaning 'by what authority or warrant') is issued by the court to inquire into the legality of a person's claim to a public office. It prevents the illegal usurpation of public office.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Article 1 of the Indian Constitution describes India as a:",
+      "Options": [
+        { "id": 1, "text": "Federal State" },
+        { "id": 2, "text": "Quasi-Federal State" },
+        { "id": 3, "text": "Unitary State" },
+        { "id": 4, "text": "Union of States" }
+      ],
+      "CorrectAnswer": "Union of States",
+      "Explanation": "Article 1(1) states, 'India, that is Bharat, shall be a Union of States.' This indicates that the Indian federation is not the result of an agreement among the states, and states have no right to secede from the federation.",
+      "Difficulty": "Medium",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 4,
+      "topic": "The Union & its Territory"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "What is the minimum age required to become a member of the Rajya Sabha?",
+      "Options": [
+        { "id": 1, "text": "21 years" },
+        { "id": 2, "text": "25 years" },
+        { "id": 3, "text": "30 years" },
+        { "id": 4, "text": "35 years" }
+      ],
+      "CorrectAnswer": "30 years",
+      "Explanation": "According to Article 84(b), the minimum age for a person to be a member of the Rajya Sabha (Council of States) is 30 years. For the Lok Sabha, it is 25 years.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following statements regarding the Directive Principles of State Policy (DPSP):\n1. They are justiciable in nature.\n2. They are fundamental for the governance of the country.\n3. They aim to establish a social and economic democracy.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "Statement (1) is incorrect; DPSPs are non-justiciable (Article 37). Statement (2) is correct (Article 37). Statement (3) is correct as they promote the ideal of social and economic welfare, unlike Fundamental Rights which establish political democracy.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "DPSP"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who is the ex-officio Chairman of the Rajya Sabha?",
+      "Options": [
+        { "id": 1, "text": "The President" },
+        { "id": 2, "text": "The Vice-President" },
+        { "id": 3, "text": "The Prime Minister" },
+        { "id": 4, "text": "The Leader of the Opposition" }
+      ],
+      "CorrectAnswer": "The Vice-President",
+      "Explanation": "As per Article 64 of the Constitution, the Vice-President of India shall be the ex-officio Chairman of the Council of States (Rajya Sabha).",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 2,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which part of the Constitution deals with 'Fundamental Rights'?",
+      "Options": [
+        { "id": 1, "text": "Part II" },
+        { "id": 2, "text": "Part III" },
+        { "id": 3, "text": "Part IV" },
+        { "id": 4, "text": "Part IV-A" }
+      ],
+      "CorrectAnswer": "Part III",
+      "Explanation": "Part III of the Indian Constitution, from Article 12 to Article 35, deals with Fundamental Rights. Part II deals with Citizenship, Part IV with DPSP, and Part IV-A with Fundamental Duties.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 2,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'Right to Property' was removed from the list of Fundamental Rights by which amendment?",
+      "Options": [
+        { "id": 1, "text": "42nd Amendment" },
+        { "id": 2, "text": "44th Amendment" },
+        { "id": 3, "text": "61st Amendment" },
+        { "id": 4, "text": "86th Amendment" }
+      ],
+      "CorrectAnswer": "44th Amendment",
+      "Explanation": "The 44th Amendment Act, 1978, removed the Right to Property (formerly Article 31) from the list of Fundamental Rights and made it a legal right under Article 300-A in Part XII of the Constitution.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "What is the quorum required for a sitting of the Lok Sabha?",
+      "Options": [
+        { "id": 1, "text": "One-tenth of the total membership" },
+        { "id": 2, "text": "One-sixth of the total membership" },
+        { "id": 3, "text": "One-third of the total membership" },
+        { "id": 4, "text": "A minimum of 100 members" }
+      ],
+      "CorrectAnswer": "One-tenth of the total membership",
+      "Explanation": "Article 100(3) states that the quorum to constitute a meeting of either House of Parliament shall be one-tenth of the total number of members of the House. For Lok Sabha (strength 543), this is 55 members.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 1,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The three-tier system of Panchayati Raj was first recommended by which committee?",
+      "Options": [
+        { "id": 1, "text": "Ashok Mehta Committee" },
+        { "id": 2, "text": "G.V.K. Rao Committee" },
+        { "id": 3, "text": "L. M. Singhvi Committee" },
+        { "id": 4, "text": "Balwant Rai Mehta Committee" }
+      ],
+      "CorrectAnswer": "Balwant Rai Mehta Committee",
+      "Explanation": "The Balwant Rai Mehta Committee, appointed in 1957, was the first to recommend the establishment of a three-tier Panchayati Raj system: Gram Panchayat at the village level, Panchayat Samiti at the block level, and Zila Parishad at the district level.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC",
+      "correctOption": 4,
+      "topic": "Panchayati Raj"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 61st Constitutional Amendment Act, 1988, is famous for:",
+      "Options": [
+        { "id": 1, "text": "Adding the 10th Schedule" },
+        { "id": 2, "text": "Introducing Panchayati Raj" },
+        { "id": 3, "text": "Lowering the voting age from 21 to 18" },
+        { "id": 4, "text": "Adding Fundamental Duties" }
+      ],
+      "CorrectAnswer": "Lowering the voting age from 21 to 18",
+      "Explanation": "The 61st Amendment Act, 1988 (which came into force in 1989), amended Article 326 of the Constitution to reduce the voting age for elections to the Lok Sabha and State Legislative Assemblies from 21 years to 18 years.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Amendments"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who is the guardian of the Fundamental Rights of the citizens of India?",
+      "Options": [
+        { "id": 1, "text": "Parliament" },
+        { "id": 2, "text": "President" },
+        { "id": 3, "text": "Supreme Court" },
+        { "id": 4, "text": "Prime Minister" }
+      ],
+      "CorrectAnswer": "Supreme Court",
+      "Explanation": "The Supreme Court (under Article 32) and High Courts (under Article 226) are the guardians of Fundamental Rights. They can issue writs for the enforcement of these rights, making them the guarantors and protectors.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which Article empowers the President to impose President's Rule in a state?",
+      "Options": [
+        { "id": 1, "text": "Article 352" },
+        { "id": 2, "text": "Article 356" },
+        { "id": 3, "text": "Article 360" },
+        { "id": 4, "text": "Article 368" }
+      ],
+      "CorrectAnswer": "Article 356",
+      "Explanation": "Article 356 allows the President to impose President's Rule (State Emergency) if he is satisfied that the government of a state cannot be carried on in accordance with the provisions of the Constitution.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 2,
+      "topic": "Emergency Provisions"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The impeachment of the President of India can be initiated in:",
+      "Options": [
+        { "id": 1, "text": "The Lok Sabha only" },
+        { "id": 2, "text": "The Rajya Sabha only" },
+        { "id": 3, "text": "Either House of the Parliament" },
+        { "id": 4, "text": "A joint sitting of both Houses" }
+      ],
+      "CorrectAnswer": "Either House of the Parliament",
+      "Explanation": "As per Article 61, the impeachment charges against the President can be initiated by either the Lok Sabha or the Rajya Sabha. The charges must be signed by one-fourth of the members of the House that framed the charges, and a 14-day notice must be given to the President.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "President"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following bodies is not mentioned in the Constitution?",
+      "Options": [
+        { "id": 1, "text": "NITI Aayog" },
+        { "id": 2, "text": "Election Commission" },
+        { "id": 3, "text": "Finance Commission" },
+        { "id": 4, "text": "UPSC" }
+      ],
+      "CorrectAnswer": "NITI Aayog",
+      "Explanation": "The Election Commission (Article 324), Finance Commission (Article 280), and UPSC (Article 315) are all constitutional bodies. NITI Aayog is an extra-constitutional or non-statutory body, established by an executive resolution of the government.",
+      "Difficulty": "Medium",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 1,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following statements:\n1. The Rajya Sabha is a permanent body and is not subject to dissolution.\n2. One-third of the members of the Rajya Sabha retire every two years.\n3. A Money Bill can only be introduced in the Lok Sabha.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. Article 83(1) states the Rajya Sabha is a permanent body. Article 83(1) also provides for one-third of its members to retire every two years. Article 109(1) explicitly states that a Money Bill shall not be introduced in the Rajya Sabha.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 4,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who is the final interpreter of the Indian Constitution?",
+      "Options": [
+        { "id": 1, "text": "The Parliament" },
+        { "id": 2, "text": "The President" },
+        { "id": 3, "text": "The Supreme Court" },
+        { "id": 4, "text": "The Attorney General of India" }
+      ],
+      "CorrectAnswer": "The Supreme Court",
+      "Explanation": "The Supreme Court of India is the final interpreter and custodian of the Constitution. Its power of judicial review allows it to strike down any law that it finds to be in violation of the Constitution.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The concept of 'Welfare State' is an objective of the:",
+      "Options": [
+        { "id": 1, "text": "Preamble" },
+        { "id": 2, "text": "Fundamental Rights" },
+        { "id": 3, "text": "Directive Principles of State Policy" },
+        { "id": 4, "text": "Fundamental Duties" }
+      ],
+      "CorrectAnswer": "Directive Principles of State Policy",
+      "Explanation": "The Directive Principles of State Policy (DPSP) in Part IV of the Constitution are the guidelines for the state to establish a 'welfare state' by promoting social and economic democracy.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "DPSP"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who appoints the Comptroller and Auditor General (CAG) of India?",
+      "Options": [
+        { "id": 1, "text": "The President" },
+        { "id": 2, "text": "The Prime Minister" },
+        { "id": 3, "text": "The Lok Sabha Speaker" },
+        { "id": 4, "text": "The Finance Minister" }
+      ],
+      "CorrectAnswer": "The President",
+      "Explanation": "Under Article 148(1) of the Constitution, the Comptroller and Auditor General (CAG) of India is appointed by the President by warrant under his hand and seal.",
+      "Difficulty": "Medium",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 1,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which Article of the Constitution provides for the 'Abolition of Untouchability'?",
+      "Options": [
+        { "id": 1, "text": "Article 15" },
+        { "id": 2, "text": "Article 16" },
+        { "id": 3, "text": "Article 17" },
+        { "id": 4, "text": "Article 18" }
+      ],
+      "CorrectAnswer": "Article 17",
+      "Explanation": "Article 17 of the Indian Constitution abolishes 'Untouchability' and forbids its practice in any form. The enforcement of any disability arising out of 'Untouchability' is an offence punishable in accordance with the law.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "What is 'Zero Hour' in the parliamentary procedure?",
+      "Options": [
+        { "id": 1, "text": "The time when Money Bill is introduced" },
+        { "id": 2, "text": "The time immediately following the Question Hour" },
+        { "id": 3, "text": "The first hour of the session" },
+        { "id": 4, "text": "The time when the budget is presented" }
+      ],
+      "CorrectAnswer": "The time immediately following the Question Hour",
+      "Explanation": "Zero Hour is an Indian parliamentary innovation. It is not mentioned in the Rules of Procedure. It is the time immediately following the Question Hour (which is the first hour, 11 am to 12 pm) and before the regular business of the House, where members can raise matters of urgent public importance.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'Objectives Resolution', which formed the basis of the Preamble, was moved by:",
+      "Options": [
+        { "id": 1, "text": "Dr. B.R. Ambedkar" },
+        { "id": 2, "text": "Jawaharlal Nehru" },
+        { "id": 3, "text": "Dr. Rajendra Prasad" },
+        { "id": 4, "text": "Sardar Vallabhbhai Patel" }
+      ],
+      "CorrectAnswer": "Jawaharlal Nehru",
+      "Explanation": "The Objectives Resolution was moved by Jawaharlal Nehru on December 13, 1946, in the Constituent Assembly. It laid down the fundamental principles and philosophy that should guide the framing of the Constitution.",
+      "Difficulty": "Medium",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 2,
+      "topic": "Constituent Assembly"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Article 368 of the Indian Constitution deals with:",
+      "Options": [
+        { "id": 1, "text": "Emergency Provisions" },
+        { "id": 2, "text": "The power of Parliament to amend the Constitution" },
+        { "id": 3, "text": "The functions of the Election Commission" },
+        { "id": 4, "text": "The Right to Constitutional Remedies" }
+      ],
+      "CorrectAnswer": "The power of Parliament to amend the Constitution",
+      "Explanation": "Article 368 in Part XX of the Constitution deals with the powers of the Parliament to amend the Constitution and the procedure for it.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Amendments"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following statements is/are correct regarding the Attorney General of India?\n1. He is appointed by the President.\n2. He must have the same qualifications as a judge of the Supreme Court.\n3. He has the right to speak in either House of Parliament.",
+      "Options": [
+        { "id": 1, "text": "1 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. As per Article 76: (1) The President appoints the Attorney General (AG). (2) The AG must be qualified to be appointed as a Supreme Court judge. (3) The AG has the right to speak in and take part in the proceedings of both Houses of Parliament, but without a right to vote.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 86th Constitutional Amendment Act, 2002, inserted which of the following?",
+      "Options": [
+        { "id": 1, "text": "Article 21-A (Right to Education)" },
+        { "id": 2, "text": "Article 51-A (k) (Fundamental Duty)" },
+        { "id": 3, "text": "Amended Article 45 (DPSP)" },
+        { "id": 4, "text": "All of the above" }
+      ],
+      "CorrectAnswer": "All of the above",
+      "Explanation": "The 86th Amendment Act, 2002, was a major act for education. It added Article 21-A (making free education a Fundamental Right for children 6-14 years), added the 11th Fundamental Duty in Article 51-A(k), and modified the DPSP in Article 45.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "Amendments"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The maximum strength of the Lok Sabha, as envisaged by the Constitution, is:",
+      "Options": [
+        { "id": 1, "text": "543" },
+        { "id": 2, "text": "545" },
+        { "id": 3, "text": "550" },
+        { "id": 4, "text": "552" }
+      ],
+      "CorrectAnswer": "550",
+      "Explanation": "The maximum strength of the Lok Sabha is fixed at 550. This includes 530 members from the states and 20 members from the Union Territories. The provision for two Anglo-Indian members was removed by the 104th Amendment Act, 2019.",
+      "Difficulty": "Medium",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which part of the Constitution deals with 'Citizenship'?",
+      "Options": [
+        { "id": 1, "text": "Part I" },
+        { "id": 2, "text": "Part II" },
+        { "id": 3, "text": "Part III" },
+        { "id": 4, "text": "Part V" }
+      ],
+      "CorrectAnswer": "Part II",
+      "Explanation": "Part II of the Indian Constitution, from Article 5 to Article 11, deals with the provisions of Citizenship.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 2,
+      "topic": "Citizenship"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The election of the President of India is conducted by:",
+      "Options": [
+        { "id": 1, "text": "The Lok Sabha Secretariat" },
+        { "id": 2, "text": "The Prime Minister's Office" },
+        { "id": 3, "text": "The Election Commission of India" },
+        { "id": 4, "text": "The Supreme Court of India" }
+      ],
+      "CorrectAnswer": "The Election Commission of India",
+      "Explanation": "Under Article 324, the superintendence, direction, and control of the conduct of elections to the office of the President (as well as Vice-President, Parliament, and State Legislatures) are vested in the Election Commission of India.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "What is the term of office for the Chief Election Commissioner (CEC)?",
+      "Options": [
+        { "id": 1, "text": "5 years or 65 years of age, whichever is earlier" },
+        { "id": 2, "text": "6 years or 65 years of age, whichever is earlier" },
+        { "id": 3, "text": "5 years or 62 years of age, whichever is earlier" },
+        { "id": 4, "text": "6 years or 62 years of age, whichever is earlier" }
+      ],
+      "CorrectAnswer": "6 years or 65 years of age, whichever is earlier",
+      "Explanation": "The Chief Election Commissioner (CEC) and other Election Commissioners hold office for a term of six years or until they attain the age of 65 years, whichever is earlier.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC",
+      "correctOption": 2,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "A Money Bill passed by the Lok Sabha can be delayed by the Rajya Sabha for a maximum period of:",
+      "Options": [
+        { "id": 1, "text": "14 days" },
+        { "id": 2, "text": "1 month" },
+        { "id": 3, "text": "3 months" },
+        { "id": 4, "text": "6 months" }
+      ],
+      "CorrectAnswer": "14 days",
+      "Explanation": "The Rajya Sabha has limited powers regarding a Money Bill. It cannot reject or amend it. It must return the bill to the Lok Sabha within 14 days, with or without recommendations. If it fails to do so, the bill is deemed to have been passed by both Houses.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 1,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'Right to Freedom of Speech and Expression' is guaranteed under which Article?",
+      "Options": [
+        { "id": 1, "text": "Article 19(1)(a)" },
+        { "id": 2, "text": "Article 20" },
+        { "id": 3, "text": "Article 21" },
+        { "id": 4, "text": "Article 22" }
+      ],
+      "CorrectAnswer": "Article 19(1)(a)",
+      "Explanation": "Article 19(1)(a) of the Constitution guarantees to all citizens the 'Right to Freedom of Speech and Expression'. This right is subject to reasonable restrictions mentioned in Article 19(2).",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 1,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who appoints the Chief Minister of a state?",
+      "Options": [
+        { "id": 1, "text": "The President" },
+        { "id": 2, "text": "The Governor" },
+        { "id": 3, "text": "The Chief Justice of the High Court" },
+        { "id": 4, "text": "The Speaker of the State Assembly" }
+      ],
+      "CorrectAnswer": "The Governor",
+      "Explanation": "According to Article 164(1), the Chief Minister shall be appointed by the Governor, and the other Ministers shall be appointed by the Governor on the advice of the Chief Minister.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC",
+      "correctOption": 2,
+      "topic": "State Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following is not a Fundamental Duty under Article 51-A?",
+      "Options": [
+        { "id": 1, "text": "To safeguard public property" },
+        { "id": 2, "text": "To protect the sovereignty, unity, and integrity of India" },
+        { "id": 3, "text": "To vote in public elections" },
+        { "id": 4, "text": "To develop the scientific temper" }
+      ],
+      "CorrectAnswer": "To vote in public elections",
+      "Explanation": "To safeguard public property, protect sovereignty, and develop scientific temper are all Fundamental Duties listed in Article 51-A. 'To vote in public elections' is a legal right, not a Fundamental Duty.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Fundamental Duties"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Article 40 of the Constitution of India advises the State to work for:",
+      "Options": [
+        { "id": 1, "text": "Uniform Civil Code" },
+        { "id": 2, "text": "Organization of Village Panchayats" },
+        { "id": 3, "text": "Living wages for workers" },
+        { "id": 4, "text": "Separation of judiciary from executive" }
+      ],
+      "CorrectAnswer": "Organization of Village Panchayats",
+      "Explanation": "Article 40, a Gandhian principle under DPSP, directs the State to 'take steps to organize village panchayats and endow them with such powers and authority as may be necessary to enable them to function as units of self-government'.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC",
+      "correctOption": 2,
+      "topic": "DPSP"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which Constitutional Amendment is known as the 'Mini-Constitution'?",
+      "Options": [
+        { "id": 1, "text": "7th Amendment" },
+        { "id": 2, "text": "24th Amendment" },
+        { "id": 3, "text": "42nd Amendment" },
+        { "id": 4, "text": "44th Amendment" }
+      ],
+      "CorrectAnswer": "42nd Amendment",
+      "Explanation": "The 42nd Amendment Act, 1976, is known as the 'Mini-Constitution' because it made widespread and significant changes to the Constitution, including adding the Preamble, Fundamental Duties, and modifying many other provisions.",
+      "Difficulty": "Medium",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Amendments"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Consider the following statements about the President's Veto Power:\n1. The President has an Absolute Veto over all bills.\n2. The President has a Suspensive Veto over Money Bills.\n3. The President can use a Pocket Veto.",
+      "Options": [
+        { "id": 1, "text": "3 only" },
+        { "id": 2, "text": "1 and 3 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "3 only",
+      "Explanation": "(1) is incorrect; the President has an absolute veto (withholding assent) over private member bills and state bills. (2) is incorrect; the President cannot return a Money Bill for reconsideration (no suspensive veto), he can only give assent or withhold assent. (3) is correct; the President can use a pocket veto (taking no action) as the Constitution does not prescribe a time limit for giving assent.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "President"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who was the Chairman of the Drafting Committee of the Constituent Assembly?",
+      "Options": [
+        { "id": 1, "text": "Dr. Rajendra Prasad" },
+        { "id": 2, "text": "Jawaharlal Nehru" },
+        { "id": 3, "text": "Dr. B.R. Ambedkar" },
+        { "id": 4, "text": "Sardar Vallabhbhai Patel" }
+      ],
+      "CorrectAnswer": "Dr. B.R. Ambedkar",
+      "Explanation": "The Drafting Committee, tasked with preparing the draft of the new Constitution, was set up on August 29, 1947. Dr. B.R. Ambedkar was appointed as its Chairman.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Constituent Assembly"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which High Court has jurisdiction over the Union Territory of Andaman and Nicobar Islands?",
+      "Options": [
+        { "id": 1, "text": "Madras High Court" },
+        { "id": 2, "text": "Calcutta High Court" },
+        { "id": 3, "text": "Orissa High Court" },
+        { "id": 4, "text": "Kerala High Court" }
+      ],
+      "CorrectAnswer": "Calcutta High Court",
+      "Explanation": "The territorial jurisdiction of the Calcutta High Court (Kolkata) extends to the state of West Bengal and the Union Territory of the Andaman and Nicobar Islands. It has a circuit bench at Port Blair.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Article 14 of the Constitution guarantees 'Equality before Law'. This concept is borrowed from:",
+      "Options": [
+        { "id": 1, "text": "American Constitution" },
+        { "id": 2, "text": "British Constitution" },
+        { "id": 3, "text": "French Constitution" },
+        { "id": 4, "text": "Irish Constitution" }
+      ],
+      "CorrectAnswer": "British Constitution",
+      "Explanation": "Article 14 contains two concepts: 'Equality before Law' is a British concept (Rule of Law), and 'Equal Protection of Laws' is an American concept. The question specifically asks about 'Equality before Law'.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "What is the maximum gap allowed between two sessions of the Parliament?",
+      "Options": [
+        { "id": 1, "text": "3 months" },
+        { "id": 2, "text": "6 months" },
+        { "id": 3, "text": "9 months" },
+        { "id": 4, "text": "1 year" }
+      ],
+      "CorrectAnswer": "6 months",
+      "Explanation": "According to Article 85(1), the President shall summon each House to meet at such time and place as he thinks fit, but 'six months shall not intervene between its last sitting in one session and the date appointed for its first sitting in the next session'.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 2,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 101st Constitutional Amendment Act is related to:",
+      "Options": [
+        { "id": 1, "text": "Goods and Services Tax (GST)" },
+        { "id": 2, "text": "National Commission for Backward Classes (NCBC)" },
+        { "id": 3, "text": "EWS Reservation" },
+        { "id": 4, "text": "Anti-Defection Law" }
+      ],
+      "CorrectAnswer": "Goods and Services Tax (GST)",
+      "Explanation": "The 101st Amendment Act, 2016, introduced the Goods and Services Tax (GST) in India, which is a comprehensive indirect tax on the manufacture, sale, and consumption of goods and services.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 1,
+      "topic": "Amendments"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who presides over the meetings of the NITI Aayog?",
+      "Options": [
+        { "id": 1, "text": "The President" },
+        { "id": 2, "text": "The Prime Minister" },
+        { "id": 3, "text": "The Finance Minister" },
+        { "id": 4, "text": "The Vice-Chairperson of NITI Aayog" }
+      ],
+      "CorrectAnswer": "The Prime Minister",
+      "Explanation": "The Prime Minister of India is the ex-officio Chairperson of the NITI Aayog (National Institution for Transforming India), which replaced the Planning Commission.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Non-Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Article 21-A (Right to Education) was added to the Constitution by which amendment?",
+      "Options": [
+        { "id": 1, "text": "61st Amendment" },
+        { "id": 2, "text": "42nd Amendment" },
+        { "id": 3, "text": "86th Amendment" },
+        { "id": 4, "text": "92nd Amendment" }
+      ],
+      "CorrectAnswer": "86th Amendment",
+      "Explanation": "The 86th Amendment Act, 2002, inserted Article 21-A into the Constitution, making the right to free and compulsory education a Fundamental Right for children between the ages of 6 and 14.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "A proclamation of National Emergency (Article 352) must be approved by both Houses of Parliament within:",
+      "Options": [
+        { "id": 1, "text": "14 days" },
+        { "id": 2, "text": "1 month" },
+        { "id": 3, "text": "2 months" },
+        { "id": 4, "text": "6 months" }
+      ],
+      "CorrectAnswer": "1 month",
+      "Explanation": "A proclamation of National Emergency must be approved by both Houses of Parliament within one month from the date of its issue. Originally, this period was two months, but it was reduced by the 44th Amendment Act, 1978.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Emergency Provisions"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which Article of the Constitution deals with the 'Uniform Civil Code'?",
+      "Options": [
+        { "id": 1, "text": "Article 40" },
+        { "id": 2, "text": "Article 44" },
+        { "id": 3, "text": "Article 48" },
+        { "id": 4, "text": "Article 50" }
+      ],
+      "CorrectAnswer": "Article 44",
+      "Explanation": "Article 44, a DPSP, states that 'The State shall endeavor to secure for the citizens a uniform civil code throughout the territory of India.'",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "DPSP"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who can be a member of the Electoral College for the election of the President of India?\n1. Elected members of the Lok Sabha\n2. Elected members of the Rajya Sabha\n3. Elected members of the State Legislative Assemblies (Vidhan Sabha)\n4. Elected members of the State Legislative Councils (Vidhan Parishad)",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "1, 2, 3 and 4" },
+        { "id": 4, "text": "1, 2 and 4" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "As per Article 54, the electoral college consists of: (1) Elected members of both Houses of Parliament (Lok Sabha and Rajya Sabha), and (2) Elected members of the Legislative Assemblies of the states. Members of Legislative Councils (4) and nominated members are not part of the electoral college.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC, SSC-CGL",
+      "correctOption": 1,
+      "topic": "President"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The judges of the Supreme Court of India retire at the age of:",
+      "Options": [
+        { "id": 1, "text": "60 years" },
+        { "id": 2, "text": "62 years" },
+        { "id": 3, "text": "65 years" },
+        { "id": 4, "text": "70 years" }
+      ],
+      "CorrectAnswer": "65 years",
+      "Explanation": "According to Article 124(2), a judge of the Supreme Court holds office until they attain the age of 65 years. For High Court judges, the retirement age is 62 years.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'Panchayati Raj' system was first adopted by which state?",
+      "Options": [
+        { "id": 1, "text": "Andhra Pradesh" },
+        { "id": 2, "text": "Rajasthan" },
+        { "id": 3, "text": "Bihar" },
+        { "id": 4, "text": "Gujarat" }
+      ],
+      "CorrectAnswer": "Rajasthan",
+      "Explanation": "The Panchayati Raj system was first inaugurated on October 2, 1959, in Nagaur district of Rajasthan by Prime Minister Jawaharlal Nehru. Andhra Pradesh became the second state to adopt it.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC",
+      "correctOption": 2,
+      "topic": "Panchayati Raj"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The Eighth Schedule of the Constitution deals with:",
+      "Options": [
+        { "id": 1, "text": "Allocation of seats in Rajya Sabha" },
+        { "id": 2, "text": "Official Languages" },
+        { "id": 3, "text": "Provisions as to disqualification on defection" },
+        { "id": 4, "text": "Forms of Oaths or Affirmations" }
+      ],
+      "CorrectAnswer": "Official Languages",
+      "Explanation": "The Eighth Schedule of the Constitution lists the 22 languages recognized as official languages of India. The Fourth Schedule deals with Rajya Sabha seats, the Tenth with defection, and the Third with oaths.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 2,
+      "topic": "Schedules"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who is the 'Supreme Commander' of the Indian Armed Forces?",
+      "Options": [
+        { "id": 1, "text": "The Prime Minister" },
+        { "id": 2, "text": "The Defence Minister" },
+        { "id": 3, "text": "The President" },
+        { "id": 4, "text": "The Chief of Defence Staff" }
+      ],
+      "CorrectAnswer": "The President",
+      "Explanation": "As per Article 53(2), the supreme command of the Defence Forces of the Union shall be vested in the President, and the exercise thereof shall be regulated by law.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "President"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which Article of the Constitution gives the Parliament the power to create a new state?",
+      "Options": [
+        { "id": 1, "text": "Article 1" },
+        { "id": 2, "text": "Article 2" },
+        { "id": 3, "text": "Article 3" },
+        { "id": 4, "text": "Article 4" }
+      ],
+      "CorrectAnswer": "Article 3",
+      "Explanation": "Article 3 empowers the Parliament to form a new state by separating territory from any state, uniting two or more states, or increasing/diminishing the area of any state, or altering its boundaries or name.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC",
+      "correctOption": 3,
+      "topic": "The Union & its Territory"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 103rd Constitutional Amendment Act, 2019, provides for:",
+      "Options": [
+        { "id": 1, "text": "Constitutional status to NCBC" },
+        { "id": 2, "text": "Reservation for Economically Weaker Sections (EWS)" },
+        { "id": 3, "text": "Extension of SC/ST reservation" },
+        { "id": 4, "text": "Introduction of GST" }
+      ],
+      "CorrectAnswer": "Reservation for Economically Weaker Sections (EWS)",
+      "Explanation": "The 103rd Amendment Act, 2019, provides for a maximum of 10% reservation for Economically Weaker Sections (EWS) in appointments to posts under the State and in admissions to educational institutions.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Amendments"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "A bill is deemed to have 'lapsed' if:\n1. A bill originating in the Lok Sabha is passed by it and is pending in the Rajya Sabha, and the Lok Sabha dissolves.\n2. A bill pending in the Rajya Sabha but not passed by the Lok Sabha, and the Lok Sabha dissolves.",
+      "Options": [
+        { "id": 1, "text": "1 only" },
+        { "id": 2, "text": "2 only" },
+        { "id": 3, "text": "Both 1 and 2" },
+        { "id": 4, "text": "Neither 1 nor 2" }
+      ],
+      "CorrectAnswer": "1 only",
+      "Explanation": "(1) is correct; a bill that originates and is passed by the Lok Sabha but is pending in the Rajya Sabha lapses upon Lok Sabha's dissolution. (2) is incorrect; a bill originating and pending in the Rajya Sabha (and not yet passed by the Lok Sabha) does NOT lapse on the dissolution of the Lok Sabha.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who appoints the Advocate General of a state?",
+      "Options": [
+        { "id": 1, "text": "The Governor of the state" },
+        { "id": 2, "text": "The President of India" },
+        { "id": 3, "text": "The Chief Justice of the High Court" },
+        { "id": 4, "text": "The Attorney General of India" }
+      ],
+      "CorrectAnswer": "The Governor of the state",
+      "Explanation": "Article 165 states that the Governor of each state shall appoint a person who is qualified to be appointed a Judge of a High Court to be the Advocate General for the state.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC",
+      "correctOption": 1,
+      "topic": "State Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 74th Constitutional Amendment Act is related to:",
+      "Options": [
+        { "id": 1, "text": "Panchayats" },
+        { "id": 2, "text": "Municipalities" },
+        { "id": 3, "text": "Co-operative Societies" },
+        { "id": 4, "text": "Official Languages" }
+      ],
+      "CorrectAnswer": "Municipalities",
+      "Explanation": "The 74th Amendment Act, 1992, gave constitutional status to the Municipalities (Urban Local Bodies). It added Part IX-A to the Constitution and the Twelfth Schedule.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Municipalities"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following Parliamentary Committees is often called the 'watchdog' of the public purse?",
+      "Options": [
+        { "id": 1, "text": "Estimates Committee" },
+        { "id": 2, "text": "Public Accounts Committee" },
+        { "id": 3, "text": "Committee on Public Undertakings" },
+        { "id": 4, "text": "Committee on Petitions" }
+      ],
+      "CorrectAnswer": "Public Accounts Committee",
+      "Explanation": "The Public Accounts Committee (PAC) examines the annual audit reports of the CAG. It scrutinizes public expenditure for legality, economy, and prudence, thereby acting as a 'watchdog' of the public purse.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Parliamentary Committees"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The power of the Supreme Court to issue writs is contained in:",
+      "Options": [
+        { "id": 1, "text": "Article 32" },
+        { "id": 2, "text": "Article 131" },
+        { "id": 3, "text": "Article 143" },
+        { "id": 4, "text": "Article 226" }
+      ],
+      "CorrectAnswer": "Article 32",
+      "Explanation": "Article 32 (Right to Constitutional Remedies) empowers the Supreme Court to issue writs for the enforcement of Fundamental Rights. Article 226 grants a similar, but wider, power to the High Courts.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 1,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'Basic Structure' doctrine was propounded by the Supreme Court in which case?",
+      "Options": [
+        { "id": 1, "text": "Golaknath case" },
+        { "id": 2, "text": "Kesavananda Bharati case" },
+        { "id": 3, "text": "Minerva Mills case" },
+        { "id": 4, "text": "S.R. Bommai case" }
+      ],
+      "CorrectAnswer": "Kesavananda Bharati case",
+      "Explanation": "In the landmark Kesavananda Bharati case (1973), the Supreme Court held that the Parliament can amend any part of the Constitution (including Fundamental Rights) but cannot alter its 'basic structure' or 'basic features'.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following languages was added to the Eighth Schedule by the 71st Amendment Act, 1992?",
+      "Options": [
+        { "id": 1, "text": "Sindhi" },
+        { "id": 2, "text": "Konkani" },
+        { "id": 3, "text": "Bodo" },
+        { "id": 4, "text": "Santhali" }
+      ],
+      "CorrectAnswer": "Konkani",
+      "Explanation": "The 71st Amendment Act, 1992, added three languages to the Eighth Schedule: Konkani, Manipuri (Meitei), and Nepali.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Schedules"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who can remove the Vice-President from his office?",
+      "Options": [
+        { "id": 1, "text": "The President" },
+        { "id": 2, "text": "The Prime Minister" },
+        { "id": 3, "text": "The Parliament" },
+        { "id": 4, "text": "A resolution passed by the Rajya Sabha with an effective majority and agreed to by the Lok Sabha" }
+      ],
+      "CorrectAnswer": "A resolution passed by the Rajya Sabha with an effective majority and agreed to by the Lok Sabha",
+      "Explanation": "Article 67(b) states that the Vice-President can be removed by a resolution of the Rajya Sabha passed by an effective majority (majority of all the then members) and agreed to by a simple majority in the Lok Sabha. Such a resolution can only be moved after giving 14 days' notice.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Vice-President"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Article 50 of the Constitution, a DPSP, directs the state to:",
+      "Options": [
+        { "id": 1, "text": "Separate the judiciary from the executive" },
+        { "id": 2, "text": "Provide free legal aid to the poor" },
+        { "id": 3, "text": "Protect monuments of national importance" },
+        { "id": 4, "text": "Prohibit the slaughter of cows" }
+      ],
+      "CorrectAnswer": "Separate the judiciary from the executive",
+      "Explanation": "Article 50, a Liberal-Intellectual Principle, directs the State 'to take steps to separate the judiciary from the executive in the public services of the State.'",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC",
+      "correctOption": 1,
+      "topic": "DPSP"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following is/are true about the Finance Commission?\n1. It is a constitutional body set up under Article 280.\n2. It recommends the distribution of taxes between the Union and the States.\n3. The recommendations of the Finance Commission are binding on the Government.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "1 and 3 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) and (2) are correct. The Finance Commission is a constitutional body (Article 280) that recommends the distribution of net tax proceeds. (3) is incorrect; the recommendations of the Finance Commission are only advisory in nature and not binding on the government.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 1,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'Estimates Committee' of the Parliament consists of:",
+      "Options": [
+        { "id": 1, "text": "30 members from Lok Sabha only" },
+        { "id": 2, "text": "22 members (15 from Lok Sabha, 7 from Rajya Sabha)" },
+        { "id": 3, "text": "30 members from Rajya Sabha only" },
+        { "id": 4, "text": "22 members (7 from Lok Sabha, 15 from Rajya Sabha)" }
+      ],
+      "CorrectAnswer": "30 members from Lok Sabha only",
+      "Explanation": "The Estimates Committee is the largest parliamentary committee. It consists of 30 members, all of whom are elected from the Lok Sabha only. No member is from the Rajya Sabha.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 1,
+      "topic": "Parliamentary Committees"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Article 21 (Protection of Life and Personal Liberty) also includes:",
+      "Options": [
+        { "id": 1, "text": "Right to Health" },
+        { "id": 2, "text": "Right to Privacy" },
+        { "id": 3, "text": "Right to a clean environment" },
+        { "id": 4, "text": "All of the above" }
+      ],
+      "CorrectAnswer": "All of the above",
+      "Explanation": "The Supreme Court has interpreted Article 21 in a very wide sense. It includes not just animal existence but the right to live with human dignity. This encompasses the Right to Health, Right to Privacy (in K.S. Puttaswamy case), Right to a clean environment, and many other implicit rights.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The President can nominate how many members to the Rajya Sabha?",
+      "Options": [
+        { "id": 1, "text": "2" },
+        { "id": 2, "text": "10" },
+        { "id": 3, "text": "12" },
+        { "id": 4, "text": "14" }
+      ],
+      "CorrectAnswer": "12",
+      "Explanation": "Under Article 80, the President can nominate 12 members to the Rajya Sabha who have special knowledge or practical experience in fields like literature, science, art, and social service.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which part of the Constitution deals with 'Emergency Provisions'?",
+      "Options": [
+        { "id": 1, "text": "Part XV" },
+        { "id": 2, "text": "Part XVI" },
+        { "id": 3, "text": "Part XVIII" },
+        { "id": 4, "text": "Part XX" }
+      ],
+      "CorrectAnswer": "Part XVIII",
+      "Explanation": "Part XVIII of the Constitution, from Article 352 to Article 360, contains the Emergency Provisions (National Emergency, President's Rule, and Financial Emergency).",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Emergency Provisions"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The Preamble to the Indian Constitution is based on:",
+      "Options": [
+        { "id": 1, "text": "The Government of India Act, 1935" },
+        { "id": 2, "text": "The 'Objectives Resolution' of 1946" },
+        { "id": 3, "text": "The Mountbatten Plan" },
+        { "id": 4, "text": "The Nehru Report, 1928" }
+      ],
+      "CorrectAnswer": "The 'Objectives Resolution' of 1946",
+      "Explanation": "The Preamble is largely based on the 'Objectives Resolution' moved by Jawaharlal Nehru in the Constituent Assembly on December 13, 1946, which was adopted on January 22, 1947.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Preamble"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who is the first law officer of the Government of India?",
+      "Options": [
+        { "id": 1, "text": "The Chief Justice of India" },
+        { "id": 2, "text": "The Law Minister" },
+        { "id": 3, "text": "The Attorney General of India" },
+        { "id": 4, "text": "The Solicitor General of India" }
+      ],
+      "CorrectAnswer": "The Attorney General of India",
+      "Explanation": "The Attorney General of India (Article 76) is the highest or first law officer of the country and acts as the chief legal advisor to the Union Government.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 3,
+      "topic": "Constitutional Bodies"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The minimum age to be appointed as the Governor of a state is:",
+      "Options": [
+        { "id": 1, "text": "25 years" },
+        { "id": 2, "text": "30 years" },
+        { "id": 3, "text": "35 years" },
+        { "id": 4, "text": "40 years" }
+      ],
+      "CorrectAnswer": "35 years",
+      "Explanation": "Article 157 lists the qualifications for the Governor. A person must be a citizen of India and must have completed the age of 35 years. The same age limit applies to the President.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC",
+      "correctOption": 3,
+      "topic": "State Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following statements about a 'No-Confidence Motion' is incorrect?",
+      "Options": [
+        { "id": 1, "text": "It can only be moved in the Lok Sabha." },
+        { "id": 2, "text": "It needs the support of at least 50 members to be admitted." },
+        { "id": 3, "text": "It does not need to state the reasons for its adoption." },
+        { "id": 4, "text": "It can be moved against an individual minister." }
+      ],
+      "CorrectAnswer": "It can be moved against an individual minister.",
+      "Explanation": "A No-Confidence Motion is moved against the entire Council of Ministers, not an individual minister. A 'Censure Motion' can be moved against an individual minister or a group of ministers.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Parliament"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The idea of 'Single Citizenship' in India was borrowed from:",
+      "Options": [
+        { "id": 1, "text": "USA" },
+        { "id": 2, "text": "UK (Britain)" },
+        { "id": 3, "text": "Canada" },
+        { "id": 4, "text": "Australia" }
+      ],
+      "CorrectAnswer": "UK (Britain)",
+      "Explanation": "Unlike the USA, which has dual citizenship (national and state), India adopted the system of single citizenship from the British Constitution. In India, a person is only a citizen of India, not of any particular state.",
+      "Difficulty": "Easy",
+      "Job": "SSC-CGL, MPSC",
+      "correctOption": 2,
+      "topic": "Citizenship"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who has the power to prorogue the Lok Sabha?",
+      "Options": [
+        { "id": 1, "text": "The Speaker" },
+        { "id": 2, "text": "The Prime Minister" },
+        { "id": 3, "text": "The President" },
+        { "id": 4, "text": "The Minister of Parliamentary Affairs" }
+      ],
+      "CorrectAnswer": "The President",
+      "Explanation": "The President has the power to summon, prorogue (terminate a session), and dissolve the Lok Sabha (Article 85). The Speaker only has the power to 'adjourn' a sitting.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "President"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 97th Constitutional Amendment Act, 2011, is related to:",
+      "Options": [
+        { "id": 1, "text": "Panchayats" },
+        { "id": 2, "text": "Municipalities" },
+        { "id": 3, "text": "Co-operative Societies" },
+        { "id": 4, "text": "Anti-Defection" }
+      ],
+      "CorrectAnswer": "Co-operative Societies",
+      "Explanation": "The 97th Amendment Act, 2011, gave constitutional status and protection to co-operative societies. It added 'or co-operative societies' to Article 19(1)(c), added a new DPSP (Article 43-B), and added a new Part IX-B to the Constitution.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Amendments"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following are 'Gandhian Principles' within the DPSP?\n1. To organize village panchayats (Article 40)\n2. To promote cottage industries (Article 43)\n3. To prohibit the consumption of intoxicating drinks (Article 47)\n4. To secure a uniform civil code (Article 44)",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 4" },
+        { "id": 2, "text": "1, 2 and 3" },
+        { "id": 3, "text": "2, 3 and 4" },
+        { "id": 4, "text": "1, 3 and 4" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "Articles 40 (panchayats), 43 (cottage industries), and 47 (prohibition) are based on Gandhian ideology. Article 44 (Uniform Civil Code) is a Liberal-Intellectual principle.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 2,
+      "topic": "DPSP"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who was the first Chief Justice of India?",
+      "Options": [
+        { "id": 1, "text": "Patanjali Sastri" },
+        { "id": 2, "text": "H.J. Kania" },
+        { "id": 3, "text": "M. Hidayatullah" },
+        { "id": 4, "text": "B.K. Mukherjea" }
+      ],
+      "CorrectAnswer": "H.J. Kania",
+      "Explanation": "Sir Harilal Jekisundas Kania was the first Chief Justice of India, serving from 26 January 1950 until his death in November 1951.",
+      "Difficulty": "Easy",
+      "Job": "SSC, MPSC",
+      "correctOption": 2,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "A proclamation of President's Rule (Article 356) must be approved by Parliament within:",
+      "Options": [
+        { "id": 1, "text": "1 month" },
+        { "id": 2, "text": "2 months" },
+        { "id": 3, "text": "3 months" },
+        { "id": 4, "text": "6 months" }
+      ],
+      "CorrectAnswer": "2 months",
+      "Explanation": "A proclamation imposing President's Rule must be approved by both Houses of Parliament within two months from the date of its issue. This approval requires only a simple majority.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Emergency Provisions"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The power of the President to consult the Supreme Court is provided under:",
+      "Options": [
+        { "id": 1, "text": "Article 123" },
+        { "id": 2, "text": "Article 136" },
+        { "id": 3, "text": "Article 143" },
+        { "id": 4, "text": "Article 32" }
+      ],
+      "CorrectAnswer": "Article 143",
+      "Explanation": "Article 143 (Advisory Jurisdiction) authorizes the President to seek the opinion of the Supreme Court on any question of law or fact of public importance. The Supreme Court's opinion is not binding on the President.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following is NOT one of the three 'pillars' of the Panchayati Raj system?",
+      "Options": [
+        { "id": 1, "text": "Gram Panchayat" },
+        { "id": 2, "text": "Nagar Nigam" },
+        { "id": 3, "text": "Panchayat Samiti" },
+        { "id": 4, "text": "Zila Parishad" }
+      ],
+      "CorrectAnswer": "Nagar Nigam",
+      "Explanation": "The three tiers of Panchayati Raj (rural local self-government) are Gram Panchayat (village), Panchayat Samiti (block), and Zila Parishad (district). 'Nagar Nigam' (Municipal Corporation) is part of the urban local self-government system (Municipalities).",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC",
+      "correctOption": 2,
+      "topic": "Panchayati Raj"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 100th Constitutional Amendment Act, 2015, deals with:",
+      "Options": [
+        { "id": 1, "text": "Introduction of GST" },
+        { "id": 2, "text": "Land Boundary Agreement between India and Bangladesh" },
+        { "id": 3, "text": "Constitutional status to NCBC" },
+        { "id": 4, "text": "Co-operative Societies" }
+      ],
+      "CorrectAnswer": "Land Boundary Agreement between India and Bangladesh",
+      "Explanation": "The 100th Amendment Act, 2015, ratified the Land Boundary Agreement (LBA) between India and Bangladesh, which involved the exchange of enclaves between the two countries.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Amendments"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following statements is/are correct about the Governor of a state?\n1. He is appointed by the President.\n2. He holds office during the pleasure of the President.\n3. He can be removed by the State Legislature.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) is correct (Article 155). (2) is correct (Article 156), meaning the President can remove him at any time. (3) is incorrect; the Constitution does not provide any procedure for the removal of a Governor by the State Legislature or by impeachment.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC",
+      "correctOption": 1,
+      "topic": "State Executive"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 102nd Constitutional Amendment Act, 2018, granted constitutional status to:",
+      "Options": [
+        { "id": 1, "text": "National Commission for Women" },
+        { "id": 2, "text": "National Commission for Backward Classes (NCBC)" },
+        { "id": 3, "text": "National Human Rights Commission" },
+        { "id": 4, "text": "Goods and Services Tax Council" }
+      ],
+      "CorrectAnswer": "National Commission for Backward Classes (NCBC)",
+      "Explanation": "The 102nd Amendment Act, 2018, granted constitutional status to the National Commission for Backward Classes (NCBC) by inserting Article 338-B into the Constitution.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Amendments"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'Right to Privacy' is now a Fundamental Right under:",
+      "Options": [
+        { "id": 1, "text": "Article 19 (Freedom of Speech)" },
+        { "id": 2, "text": "Article 20 (Protection from conviction)" },
+        { "id": 3, "text": "Article 21 (Protection of Life and Personal Liberty)" },
+        { "id": 4, "text": "Article 22 (Protection against arrest)" }
+      ],
+      "CorrectAnswer": "Article 21 (Protection of Life and Personal Liberty)",
+      "Explanation": "In the landmark K.S. Puttaswamy vs. Union of India case (2017), a nine-judge bench of the Supreme Court unanimously declared that the 'Right to Privacy' is an intrinsic part of the Right to Life and Personal Liberty under Article 21.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Fundamental Rights"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Who can initiate the process for the removal of a Supreme Court judge?",
+      "Options": [
+        { "id": 1, "text": "The President, on the advice of the CJI" },
+        { "id": 2, "text": "The Lok Sabha only, with a special majority" },
+        { "id": 3, "text": "The Rajya Sabha only, with a special majority" },
+        { "id": 4, "text": "Either House of the Parliament" }
+      ],
+      "CorrectAnswer": "Either House of the Parliament",
+      "Explanation": "As per Article 124(4) and the Judges (Inquiry) Act, 1968, the removal process (impeachment) of a Supreme Court judge can be initiated in either House. It requires a motion signed by 100 members (in Lok Sabha) or 50 members (in Rajya Sabha) to be given to the Speaker/Chairman.",
+      "Difficulty": "Hard",
+      "Job": "UPSC, MPSC",
+      "correctOption": 4,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The system of 'dyarchy' was introduced in the provinces by the:",
+      "Options": [
+        { "id": 1, "text": "Morley-Minto Reforms, 1909" },
+        { "id": 2, "text": "Montagu-Chelmsford Reforms, 1919" },
+        { "id": 3, "text": "Government of India Act, 1935" },
+        { "id": 4, "text": "Indian Independence Act, 1947" }
+      ],
+      "CorrectAnswer": "Montagu-Chelmsford Reforms, 1919",
+      "Explanation": "The Government of India Act, 1919 (Montagu-Chelmsford Reforms) introduced 'dyarchy' (dual government) in the provinces by dividing provincial subjects into 'transferred' and 'reserved' lists.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Historical Background"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "Which of the following bodies/persons does the President of India consult while appointing judges of the High Courts?",
+      "Options": [
+        { "id": 1, "text": "The Chief Justice of India only" },
+        { "id": 2, "text": "The Chief Justice of India and the Governor of the state" },
+        { "id": 3, "text": "The Chief Justice of India, the Governor, and the Chief Justice of the concerned High Court" },
+        { "id": 4, "text": "The Prime Minister and the Law Minister" }
+      ],
+      "CorrectAnswer": "The Chief Justice of India, the Governor, and the Chief Justice of the concerned High Court",
+      "Explanation": "According to Article 217, the President appoints a High Court judge after consulting the Chief Justice of India, the Governor of the state, and, in the case of the appointment of a judge other than the Chief Justice, the Chief Justice of that High Court.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Judiciary"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 12th Schedule of the Constitution, listing the functions of Municipalities, was added by:",
+      "Options": [
+        { "id": 1, "text": "73rd Amendment Act" },
+        { "id": 2, "text": "74th Amendment Act" },
+        { "id": 3, "text": "42nd Amendment Act" },
+        { "id": 4, "text": "44th Amendment Act" }
+      ],
+      "CorrectAnswer": "74th Amendment Act",
+      "Explanation": "The 74th Amendment Act, 1992, added Part IX-A and the 12th Schedule to the Constitution. The 12th Schedule contains 18 functional items for Municipalities.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 2,
+      "topic": "Municipalities"
+    },
+    {
+      "category": "Indian Polity",
+      "Question": "The 'Preamble' to the Constitution states that the Constitution derives its authority from:",
+      "Options": [
+        { "id": 1, "text": "The Parliament" },
+        { "id": 2, "text": "The President" },
+        { "id": 3, "text": "The People of India" },
+        { "id": 4, "text": "The Constituent Assembly" }
+      ],
+      "CorrectAnswer": "The People of India",
+      "Explanation": "The Preamble begins with the words, 'WE, THE PEOPLE OF INDIA... do hereby ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION.' This clearly indicates that the ultimate sovereignty and source of the Constitution's authority is the people.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Preamble"
+    },
+    
+        {
+          "category": "Indian Polity",
+          "Question": "In India, rural incomes are generally lower than urban incomes. Which of the following reasons account for this?\n1. A large number of farmers are illiterate and know little about scientific agriculture.\n2. Prices of primary products (agricultural goods) are lower than those of manufactured products.\n3. Investment in agriculture has been low when compared to investment in industry.",
+          "Options": [
+            { "id": 1, "text": "1 and 2 only" },
+            { "id": 2, "text": "2 and 3 only" },
+            { "id": 3, "text": "1 and 3 only" },
+            { "id": 4, "text": "1, 2 and 3" }
+          ],
+          "CorrectAnswer": "1, 2 and 3",
+          "Explanation": "All three factors contribute to the rural-urban income disparity. (1) Lack of knowledge about modern techniques (scientific agriculture) hinders productivity. (2) The terms of trade are often against agriculture, where raw material (primary) prices are low while finished (manufactured) goods are expensive. (3) Historically, public and private investment in industrial sectors has outpaced investment in agricultural infrastructure, research, and development.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 4,
+          "topic": "Indian Economy & Policy"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following describes the 'Basic Structure' doctrine of the Indian Constitution?\n1. It was first propounded in the Kesavananda Bharati case (1973).\n2. It limits the power of the Parliament to amend the Constitution under Article 368.\n3. The Supreme Court has given an exhaustive and final list of what constitutes the 'basic structure'.",
+          "Options": [
+            { "id": 1, "text": "1 and 2 only" },
+            { "id": 2, "text": "2 and 3 only" },
+            { "id": 3, "text": "1 and 3 only" },
+            { "id": 4, "text": "1, 2 and 3" }
+          ],
+          "CorrectAnswer": "1 and 2 only",
+          "Explanation": "(1) and (2) are correct. The doctrine originated in the Kesavananda Bharati case, establishing that Parliament's amending power is not absolute and it cannot alter the 'basic structure'. (3) is incorrect; the Supreme Court has *deliberately* not given an exhaustive list, allowing the doctrine to evolve on a case-by-case basis.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Model Code of Conduct' (MCC) for elections in India is:",
+          "Options": [
+            { "id": 1, "text": "A law passed by the Parliament under Article 324." },
+            { "id": 2, "text": "A part of the Representation of the People Act, 1951." },
+            { "id": 3, "text": "A set of guidelines agreed upon by political parties and enforced by the Election Commission." },
+            { "id": 4, "text": "A constitutional provision under the 10th Schedule." }
+          ],
+          "CorrectAnswer": "A set of guidelines agreed upon by political parties and enforced by the Election Commission.",
+          "Explanation": "The MCC is not a 'law' or 'statute'. It is a consensus-based set of norms that political parties have agreed to abide by. The Election Commission enforces it under its general powers (Article 324) to ensure free and fair elections. It has no statutory backing.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC, SSC-CGL",
+          "correctOption": 3,
+          "topic": "Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Consider the following regarding the 'Collegium System' for judicial appointments:\n1. It is a system established by the Constitution under Article 124.\n2. It was established by the Supreme Court through the 'Three Judges Cases'.\n3. It consists of the Chief Justice of India and the four senior-most judges of the SC for SC appointments.",
+          "Options": [
+            { "id": 1, "text": "1 and 3 only" },
+            { "id": 2, "text": "2 and 3 only" },
+            { "id": 3, "text": "1 and 2 only" },
+            { "id": 4, "text": "1, 2 and 3" }
+          ],
+          "CorrectAnswer": "2 and 3 only",
+          "Explanation": "(1) is incorrect; the Constitution (Art 124) only mentions 'consultation' with the CJI. (2) is correct; the Collegium system is a judicial innovation, established through the Second (1993) and Third (1998) Judges Cases. (3) is correct; this is the composition for SC appointments.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 2,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following fundamental rights are available *only* to citizens and not to foreigners (aliens)?",
+          "Options": [
+            { "id": 1, "text": "Article 14 (Equality before law) and Article 21 (Protection of life)" },
+            { "id": 2, "text": "Article 19 (Six freedoms) and Article 29 (Protection of minorities' interests)" },
+            { "id": 3, "text": "Article 20 (Protection from conviction) and Article 25 (Freedom of religion)" },
+            { "id": 4, "text": "Article 23 (Prohibition of trafficking) and Article 24 (Prohibition of child labour)" }
+          ],
+          "CorrectAnswer": "Article 19 (Six freedoms) and Article 29 (Protection of minorities' interests)",
+          "Explanation": "The rights guaranteed under Articles 15, 16, 19, 29, and 30 are available only to citizens. All other fundamental rights (like 14, 20, 21, 23, 24, 25) are available to all persons (citizens and foreigners) on Indian soil, except enemy aliens.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Fundamental Rights"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Under Article 358, when a National Emergency is proclaimed on the grounds of 'war' or 'external aggression':",
+          "Options": [
+            { "id": 1, "text": "All Fundamental Rights under Part III are automatically suspended." },
+            { "id": 2, "text": "Only Article 19 is automatically suspended." },
+            { "id": 3, "text": "The President must issue a separate order to suspend Article 19." },
+            { "id": 4, "text": "Articles 19, 20, and 21 are automatically suspended." }
+          ],
+          "CorrectAnswer": "Only Article 19 is automatically suspended.",
+          "Explanation": "Article 358 deals *only* with Article 19. It states that when an emergency is declared on grounds of war or external aggression, Article 19 is *automatically* suspended. This does not happen in case of 'armed rebellion'. Other FRs are dealt with by Article 359.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 2,
+          "topic": "Emergency Provisions"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "What is the key difference between the pardoning power of the President (Article 72) and the Governor (Article 161)?",
+          "Options": [
+            { "id": 1, "text": "The Governor has no pardoning power at all." },
+            { "id": 2, "text": "The President can pardon a death sentence, while the Governor cannot." },
+            { "id": 3, "text": "The Governor can pardon sentences by court-martial, while the President cannot." },
+            { "id": 4, "text": "The President's power is discretionary, while the Governor's is not." }
+          ],
+          "CorrectAnswer": "The President can pardon a death sentence, while the Governor cannot.",
+          "Explanation": "There are two key differences: (1) The President can pardon sentences by a court-martial (military court), which the Governor cannot. (2) The President can grant a full pardon to a death sentence, while the Governor's power in a death sentence case is limited (e.g., to suspend, remit, or commute).",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "President & Governor"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "A bill originating in the Lok Sabha and passed by it is pending in the Rajya Sabha. If the Lok Sabha is dissolved, what happens to the bill?",
+          "Options": [
+            { "id": 1, "text": "The bill lapses." },
+            { "id": 2, "text": "The bill does not lapse." },
+            { "id": 3, "text": "The bill is sent back to the newly constituted Lok Sabha." },
+            { "id": 4, "text": "The President calls a joint sitting to pass the bill." }
+          ],
+          "CorrectAnswer": "The bill lapses.",
+          "Explanation": "This is a key scenario for the 'lapsing of bills'. Any bill that originates in the Lok Sabha and is pending *anywhere* (including in the Rajya Sabha or returned by the President) will lapse when the Lok Sabha is dissolved.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "A bill is pending in the Rajya Sabha but has *not* been passed by the Lok Sabha. If the Lok Sabha is dissolved, what happens to the bill?",
+          "Options": [
+            { "id": 1, "text": "The bill lapses." },
+            { "id": 2, "text": "The bill does not lapse." },
+            { "id": 3, "text": "The bill is sent to the President for assent." },
+            { "id": 4, "text": "The bill is considered passed by both Houses." }
+          ],
+          "CorrectAnswer": "The bill does not lapse.",
+          "Explanation": "A bill that originates in the Rajya Sabha and has not yet been sent to or passed by the Lok Sabha *does not lapse* on the dissolution of the Lok Sabha. This is because the Rajya Sabha is a permanent house.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 2,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following are 'extra-constitutional' or 'non-statutory' bodies (i.e., not mentioned in the Constitution and not created by an Act of Parliament)?\n1. NITI Aayog\n2. National Development Council (NDC)\n3. Central Vigilance Commission (CVC)\n4. Lokpal",
+          "Options": [
+            { "id": 1, "text": "1 and 2 only" },
+            { "id": 2, "text": "1, 2 and 3 only" },
+            { "id": 3, "text": "3 and 4 only" },
+            { "id": 4, "text": "1 only" }
+          ],
+          "CorrectAnswer": "1 and 2 only",
+          "Explanation": "NITI Aayog and the NDC were created by a simple executive resolution (an order of the Cabinet). They are extra-constitutional and non-statutory. The CVC and Lokpal are 'statutory' bodies, as they were created by Acts of Parliament (CVC Act 2003, Lokpal Act 2013).",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 1,
+          "topic": "Non-Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Preamble' was described as the 'Political Horoscope of the Indian Constitution' by whom?",
+          "Options": [
+            { "id": 1, "text": "N.A. Palkhivala" },
+            { "id": 2, "text": "Dr. B.R. Ambedkar" },
+            { "id": 3, "text": "K.M. Munshi" },
+            { "id": 4, "text": "Thakur Das Bhargava" }
+          ],
+          "CorrectAnswer": "K.M. Munshi",
+          "Explanation": "K.M. Munshi, a prominent member of the Drafting Committee, described the Preamble as the 'political horoscope' of the Constitution. N.A. Palkhivala called it the 'identity card' of the Constitution.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 3,
+          "topic": "Preamble"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The government's 'Make in India' initiative, aimed at boosting the manufacturing sector, seeks to fulfill which DPSP?",
+          "Options": [
+            { "id": 1, "text": "Article 40 (Organization of village panchayats)" },
+            { "id": 2, "text": "Article 44 (Uniform civil code)" },
+            { "id": 3, "text": "Article 43 (Living wage, etc., for workers and promotion of cottage industries)" },
+            { "id": 4, "text": "Article 50 (Separation of judiciary from executive)" }
+          ],
+          "CorrectAnswer": "Article 43 (Living wage, etc., for workers and promotion of cottage industries)",
+          "Explanation": "This is an analytical question. The 'Make in India' initiative aims to create jobs and boost industrial activity. This aligns with the DPSP in Article 43, which directs the state to secure work, a living wage, and 'promote cottage industries... and other industries' to create employment.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "DPSP"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The high incidence of farmer suicides in India is linked to agrarian distress. Which of the following constitutional provisions directs the state to improve the conditions of agriculture?\n1. Article 48 (Organisation of agriculture and animal husbandry on modern lines)\n2. Article 39(a) (Right to an adequate means of livelihood)\n3. Article 43 (To secure a living wage and decent standard of life)",
+          "Options": [
+            { "id": 1, "text": "1 only" },
+            { "id": 2, "text": "1 and 2 only" },
+            { "id": 3, "text": "2 and 3 only" },
+            { "id": 4, "text": "1, 2 and 3" }
+          ],
+          "CorrectAnswer": "1, 2 and 3",
+          "Explanation": "All three DPSPs are relevant. (1) Article 48 directly calls for modernizing agriculture. (2) Article 39(a) directs the state to ensure citizens have an adequate means of livelihood (which is threatened by agrarian distress). (3) Article 43's goal of a 'living wage' and 'decent standard of life' is the ultimate aim of all poverty-alleviation efforts, including those for farmers.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 4,
+          "topic": "DPSP"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which writ can be issued against a private individual as well as a public authority?",
+          "Options": [
+            { "id": 1, "text": "Mandamus" },
+            { "id": 2, "text": "Habeas Corpus" },
+            { "id": 3, "text": "Certiorari" },
+            { "id": 4, "text": "Prohibition" }
+          ],
+          "CorrectAnswer": "Habeas Corpus",
+          "Explanation": "Most writs (like Mandamus, Certiorari, Prohibition, Quo-Warranto) can only be issued against public authorities or judicial bodies. However, the writ of Habeas Corpus (to produce a detained person) can be issued against a public authority (like the police) *and* a private individual who has unlawfully detained someone.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Article 13's 'power of Judicial Review' means the Supreme Court can declare a law void if it violates:",
+          "Options": [
+            { "id": 1, "text": "Fundamental Rights (Part III) only." },
+            { "id": 2, "text": "Directive Principles (Part IV) only." },
+            { "id": 3, "text": "Fundamental Duties (Part IV-A) only." },
+            { "id": 4, "text": "Any provision of the Constitution." }
+          ],
+          "CorrectAnswer": "Any provision of the Constitution.",
+          "Explanation": "While Article 13(2) specifically focuses on laws contravening Fundamental Rights, the general power of Judicial Review (also derived from Art 32, 226, 131-136) allows the judiciary to strike down *any* law (by Parliament or state) or executive action that violates *any* provision of the Constitution, as the Constitution is the supreme law.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 4,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following is NOT a 'compulsory' (obligatory) provision of the 73rd Amendment Act (Panchayati Raj)?",
+          "Options": [
+            { "id": 1, "text": "Direct elections to all seats in panchayats at all three levels." },
+            { "id": 2, "text": "Reservation of 1/3rd of seats for women." },
+            { "id": 3, "text": "Establishment of a State Finance Commission every 5 years." },
+            { "id": 4, "text": "Providing reservation of seats for Backward Classes (OBCs)." }
+          ],
+          "CorrectAnswer": "Providing reservation of seats for Backward Classes (OBCs).",
+          "Explanation": "The 73rd Amendment mandates reservation for SCs and STs (in proportion to their population) and for women (1/3rd). It leaves the decision to provide reservation for Backward Classes (OBCs) to the *discretion* of the state legislatures. Therefore, it is a 'voluntary' provision, not compulsory.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 4,
+          "topic": "Panchayati Raj"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "What is 'Guillotine' in parliamentary procedure?",
+          "Options": [
+            { "id": 1, "text": "The final speech by the Prime Minister before voting." },
+            { "id": 2, "text": "The Speaker's power to expel a member for misbehavior." },
+            { "id": 3, "text": "When the Speaker puts all un-discussed demands for grants to vote at the end of the allotted time." },
+            { "id": 4, "text": "The motion to end a member's speech." }
+          ],
+          "CorrectAnswer": "When the Speaker puts all un-discussed demands for grants to vote at the end of the allotted time.",
+          "Explanation": "This is a legislative device used during the budget. Time is allotted for discussing 'Demands for Grants'. On the last day, the Speaker 'applies the guillotine' by putting all remaining (un-discussed) demands to vote, regardless of whether they were debated or not, to conclude the process.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Article 312 of the Constitution gives special power to the Rajya Sabha to:",
+          "Options": [
+            { "id": 1, "text": "Amend the Constitution with a simple majority." },
+            { "id": 2, "text": "Recommend the creation of one or more new 'All-India Services'." },
+            { "id": 3, "text": "Remove the Vice-President." },
+            { "id": 4, "text": "Authorize the Parliament to legislate on a State List subject." }
+          ],
+          "CorrectAnswer": "Recommend the creation of one or more new 'All-India Services'.",
+          "Explanation": "Article 312 is a special power of the Rajya Sabha. If it passes a resolution (by 2/3rd majority) declaring it necessary in the national interest, Parliament can create a new All-India Service (like IAS, IPS). Article 249 gives it the power to legislate on a state subject.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 104th Constitutional Amendment Act, 2019, did which of the following?\n1. Extended the reservation for SCs and STs in the Lok Sabha for 10 years.\n2. Discontinued the reservation for the Anglo-Indian community in the Lok Sabha.\n3. Introduced 10% EWS reservation.",
+          "Options": [
+            { "id": 1, "text": "1 only" },
+            { "id": 2, "text": "1 and 2 only" },
+            { "id": 3, "text": "1 and 3 only" },
+            { "id": 4, "text": "1, 2 and 3" }
+          ],
+          "CorrectAnswer": "1 and 2 only",
+          "Explanation": "(1) is correct; it extended the SC/ST reservation until 2030. (2) is correct; it did *not* extend the provision for nominating two Anglo-Indian members, effectively discontinuing it. (3) is incorrect; EWS reservation was the 103rd Amendment.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Amendments"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "What is the 'Lame-duck session' of the Parliament?",
+          "Options": [
+            { "id": 1, "text": "The first session after a new Lok Sabha is elected." },
+            { "id": 2, "text": "The last session of the existing Lok Sabha, after a new Lok Sabha has already been elected." },
+            { "id": 3, "text": "A session that is adjourned sine die." },
+            { "id": 4, "text": "A session where only the budget is discussed." }
+          ],
+          "CorrectAnswer": "The last session of the existing Lok Sabha, after a new Lok Sabha has already been elected.",
+          "Explanation": "This refers to the session held *after* the general elections but *before* the new Lok Sabha is constituted. The 'lame-ducks' are the members of the old Lok Sabha who were not re-elected but are attending this final session.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Persistent inflation erodes the purchasing power of the poor. The directive to the state to 'minimise inequalities in income' and 'eliminate inequalities in status, facilities and opportunities' is found in:",
+          "Options": [
+            { "id": 1, "text": "Article 38 (added by 44th Amendment)" },
+            { "id": 2, "text": "Article 39(c) (prevent concentration of wealth)" },
+            { "id": 3, "text": "Article 43 (living wage)" },
+            { "id": 4, "text": "Article 47 (raise level of nutrition)" }
+          ],
+          "CorrectAnswer": "Article 38 (added by 44th Amendment)",
+          "Explanation": "While several articles relate to economic justice, Article 38(2), which was added by the 44th Amendment, explicitly directs the state to 'strive to minimise the inequalities in income' and 'endeavour to eliminate inequalities in status, facilities and opportunities'.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "DPSP"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Consider the following statements regarding 'All-India Services' (e.g., IAS, IPS):\n1. They are recruited by the Centre (UPSC) but are paid by and serve under the State cadres.\n2. They serve the dual purpose of serving the State and the Union.\n3. The ultimate control (including disciplinary action of removal) lies with the Central Government.",
+          "Options": [
+            { "id": 1, "text": "1 and 2 only" },
+            { "id": 2, "text": "2 and 3 only" },
+            { "id": 3, "text": "1 and 3 only" },
+            { "id": 4, "text": "1, 2 and 3" }
+          ],
+          "CorrectAnswer": "1, 2 and 3",
+          "Explanation": "All three statements are correct. (1) & (2) They are recruited by the Centre but assigned to state cadres, serving as a key link. (3) While the state government has immediate control (like suspension), the 'ultimate control' and the power to remove them from service rests *only* with the Central Government. This makes them a key feature of India's quasi-federal structure.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 4,
+          "topic": "Centre-State Relations"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The government's 'Ayushman Bharat' (PM-JAY) scheme, which aims to provide health insurance to the poor, is an implementation of which DPSP?",
+          "Options": [
+            { "id": 1, "text": "Article 47 (Duty to raise the level of nutrition and standard of living and to improve public health)" },
+            { "id": 2, "text": "Article 41 (Right to work, to education and to public assistance in certain cases)" },
+            { "id": 3, "text": "Article 43A (Participation of workers)" },
+            { "id": 4, "text": "Article 39A (Equal justice and free legal aid)" }
+          ],
+          "CorrectAnswer": "Article 47 (Duty to raise the level of nutrition and standard of living and to improve public health)",
+          "Explanation": "Article 47 specifically directs the State to regard 'the raising of the level of nutrition and the standard of living of its people and the improvement of public health as among its primary duties'. Ayushman Bharat is a direct state action towards improving 'public health'.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 1,
+          "topic": "DPSP"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "What does the 'Advisory Jurisdiction' of the Supreme Court (Article 143) imply?",
+          "Options": [
+            { "id": 1, "text": "The President must seek the SC's advice on all constitutional amendments." },
+            { "id": 2, "text": "The advice given by the Supreme Court is binding on the President." },
+            { "id": 3, "text": "The Supreme Court must give its advice on any matter referred to it by the President." },
+            { "id": 4, "text": "The President can seek the SC's opinion on a question of law or fact, but the opinion is not binding." }
+          ],
+          "CorrectAnswer": "The President can seek the SC's opinion on a question of law or fact, but the opinion is not binding.",
+          "Explanation": "Article 143 has two parts. The SC *may* refuse to give an opinion on a question of law (143(1)), but it *must* give its opinion on pre-constitutional treaty disputes (143(2)). In *neither* case is the advice binding on the President.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 4,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Article 20(3) provides 'Protection against self-incrimination'. This means:",
+          "Options": [
+            { "id": 1, "text": "A person cannot be forced to give blood samples or fingerprints." },
+            { "id": 2, "text": "A person cannot be forced to be a 'witness against himself' (i.e., give oral or documentary testimony)." },
+            { "id": 3, "text": "A person cannot be tried for the same crime twice." },
+            { "id": 4, "text": "A person cannot be given a penalty greater than what the law prescribed at the time of the offence." }
+          ],
+          "CorrectAnswer": "A person cannot be forced to be a 'witness against himself' (i.e., give oral or documentary testimony).",
+          "Explanation": "This is the 'nemo tenetur seipsum accusare' principle. It protects an accused person from being compelled to give oral testimony or produce documents that would incriminate them. It does *not* extend to physical evidence like blood samples, fingerprints, or voice samples. 'Double jeopardy' is Art 20(2) and 'ex-post-facto law' is Art 20(1).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 2,
+          "topic": "Fundamental Rights"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The '99th Constitutional Amendment Act, 2014', which established the National Judicial Appointments Commission (NJAC), was struck down by the Supreme Court because:",
+          "Options": [
+            { "id": 1, "text": "It violated the separation of powers, which is part of the 'basic structure'." },
+            { "id": 2, "text": "It was not ratified by half of the states." },
+            { "id": 3, "text": "It gave too much power to the Prime Minister." },
+            { "id": 4, "text": "It was passed without a special majority." }
+          ],
+          "CorrectAnswer": "It violated the separation of powers, which is part of the 'basic structure'.",
+          "Explanation": "In the 'Fourth Judges Case' (2015), the Supreme Court struck down the 99th Amendment and the NJAC Act, holding that the inclusion of the Union Law Minister and 'eminent persons' in judicial appointments undermined the 'independence of the judiciary', which is a part of the 'basic structure' (derived from separation of powers).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following bodies in India is 'without a head' or 'headless', functioning as a collegial body?",
+          "Options": [
+            { "id": 1, "text": "The Election Commission of India" },
+            { "id": 2, "text": "The Union Public Service Commission (UPSC)" },
+            { "id": 3, "text": "The Finance Commission" },
+            { "id": 4, "text": "The NITI Aayog" }
+          ],
+          "CorrectAnswer": "The Election Commission of India",
+          "Explanation": "While there is a 'Chief Election Commissioner' (CEC), the Supreme Court (in T.N. Seshan case) clarified that the CEC and other Election Commissioners have equal powers. Decisions are taken by majority. The CEC is *not* a 'boss' but 'first among equals', making the ECI a collegial (multi-member) body.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following is NOT a 'Privilege Motion'?",
+          "Options": [
+            { "id": 1, "text": "A motion moved by a member who feels a minister has committed a breach of privilege by withholding facts." },
+            { "id": 2, "text": "A motion to discuss a matter of urgent public importance by interrupting the House business." },
+            { "id": 3, "text": "A motion against a member who has given wrong or distorted facts to the House." },
+            { "id": 4, "text": "A motion against a newspaper for publishing a distorted report of the House's proceedings." }
+          ],
+          "CorrectAnswer": "A motion to discuss a matter of urgent public importance by interrupting the House business.",
+          "Explanation": "This is the definition of an 'Adjournment Motion'. A 'Privilege Motion' (under Article 105) is specifically concerned with a 'breach of parliamentary privilege' by a member, a minister, or an outside authority (like a newspaper).",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The government's 'National Food Security Act, 2013' (NFSA), which provides subsidized food grains, is a statutory implementation of which constitutional provision?",
+          "Options": [
+            { "id": 1, "text": "Article 21 (Right to Life, interpreted as Right to Food)" },
+            { "id": 2, "text": "Article 47 (Duty to raise the level of nutrition)" },
+            { "id": 3, "text": "Both A and B" },
+            { "id": 4, "text": "Article 39(a) (Right to adequate livelihood)" }
+          ],
+          "CorrectAnswer": "Both A and B",
+          "Explanation": "This policy is rooted in both. The Supreme Court (in PUCL case) has interpreted the 'Right to Life' under Article 21 to include the 'Right to Food', making it a justiciable right. The policy also directly implements the DPSP in Article 47 (raise level of nutrition).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "DPSP & FRs"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The PESA Act, 1996 (Extension to Scheduled Areas) gives which body significant powers, such as mandatory consultation before land acquisition?",
+          "Options": [
+            { "id": 1, "text": "The State Legislature" },
+            { "id": 2, "text": "The Governor" },
+            { "id": 3, "text": "The Gram Sabha (Village Assembly)" },
+            { "id": 4, "text": "The Zila Parishad" }
+          ],
+          "CorrectAnswer": "The Gram Sabha (Village Assembly)",
+          "Explanation": "The PESA Act is a radical piece of legislation that empowers the 'Gram Sabha' (the assembly of all adult members) in Scheduled Areas. It makes the Gram Sabha the competent authority for (among other things) mandatory consultation before land acquisition, managing minor forest produce, and protecting tribal customs.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Panchayati Raj"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "In the 'Indra Sawhney case' (1992), the Supreme Court upheld OBC reservations but laid down which of the following conditions?\n1. The total reservation should not exceed 50% (the '50% ceiling').\n2. The 'creamy layer' among the OBCs must be excluded from reservation benefits.\n3. Reservation in 'promotions' is not allowed.",
+          "Options": [
+            { "id": 1, "text": "1 and 2 only" },
+            { "id": 2, "text": "2 and 3 only" },
+            { "id": 3, "text": "1 and 3 only" },
+            { "id": 4, "text": "1, 2 and 3" }
+          ],
+          "CorrectAnswer": "1, 2 and 3",
+          "Explanation": "The landmark Mandal Commission case (Indra Sawhney) upheld the 27% OBC quota but laid down several conditions: (1) it capped total reservations at 50%, (2) it introduced the concept of the 'creamy layer' to exclude the affluent among OBCs, and (3) it ruled that reservation should apply only to initial appointments, not promotions (though this was later modified by Parliament).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 4,
+          "topic": "Fundamental Rights"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Under Article 256 (Administrative Relations), the executive power of every state must be exercised to ensure:",
+          "Options": [
+            { "id": 1, "text": "Compliance with laws made by the Parliament." },
+            { "id": 2, "text": "Compliance with the directions of the NITI Aayog." },
+            { "id": 3, "text": "The state's GDP grows faster than the national average." },
+            { "id": 4, "text": "The Governor's discretionary powers are respected." }
+          ],
+          "CorrectAnswer": "Compliance with laws made by the Parliament.",
+          "Explanation": "Article 256 is a powerful tool for the Centre. It mandates that state governments must exercise their executive power in a way that *ensures compliance* with laws made by the Parliament. The Centre can give directions to the state to this effect.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "Centre-State Relations"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "What is the 'Subordinate Judiciary' in the Indian judicial system?",
+          "Options": [
+            { "id": 1, "text": "The High Courts, as they are subordinate to the Supreme Court." },
+            { "id": 2, "text": "The system of 'Lok Adalats'." },
+            { "id": 3, "text": "The judicial structure below the High Court (e.g., District Judge, Munsiff, Magistrate)." },
+            { "id": 4, "text": "The system of quasi-judicial tribunals." }
+          ],
+          "CorrectAnswer": "The judicial structure below the High Court (e.g., District Judge, Munsiff, Magistrate).",
+          "Explanation": "The 'Subordinate Judiciary' refers to the entire hierarchy of courts at the district level and below (District Courts, Sub-courts, Munsiff's courts, etc.), which function under the administrative control of the High Court of that state (Articles 233-237).",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 3,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Article 16(4) of the Constitution, which provides for reservation in public employment, is an exception to which Fundamental Right?",
+          "Options": [
+            { "id": 1, "text": "Article 14 (Equality before Law)" },
+            { "id": 2, "text": "Article 16(2) (No discrimination in public employment)" },
+            { "id": 3, "text": "Article 19 (Freedom of Profession)" },
+            { "id": 4, "text": "Article 21 (Right to Life)" }
+          ],
+          "CorrectAnswer": "Article 16(2) (No discrimination in public employment)",
+          "Explanation": "Article 16(1) and 16(2) guarantee 'equality of opportunity' for all citizens in public employment, prohibiting discrimination. Article 16(4) is an 'enabling provision' or exception, allowing the state to make special provisions (reservations) for backward classes, which might otherwise be seen as violating 16(2).",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC",
+          "correctOption": 2,
+          "topic": "Fundamental Rights"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Who appoints the District Judges in a state (Article 233)?",
+          "Options": [
+            { "id": 1, "text": "The Chief Justice of the High Court." },
+            { "id": 2, "text": "The Governor of the state, in consultation with the High Court." },
+            { "id": 3, "text": "The President of India, in consultation with the CJI." },
+            { "id": 4, "text": "The State Public Service Commission." }
+          ],
+          "CorrectAnswer": "The Governor of the state, in consultation with the High Court.",
+          "Explanation": "Article 233 states that the appointment, posting, and promotion of District Judges in any state shall be made by the Governor of the state, in consultation with the High Court exercising jurisdiction in relation to that state.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC",
+          "correctOption": 2,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'National Commission for Scheduled Tribes' (NCST) was created as a separate body from the NCSC by which amendment?",
+          "Options": [
+            { "id": 1, "text": "65th Amendment" },
+            { "id": 2, "text": "89th Amendment" },
+            { "id": 3, "text": "91st Amendment" },
+            { "id": 4, "text": "102nd Amendment" }
+          ],
+          "CorrectAnswer": "89th Amendment",
+          "Explanation": "Originally, there was one combined National Commission for SCs and STs (Art 338). The 89th Amendment Act, 2003, bifurcated this body, creating the National Commission for Scheduled Castes (under Art 338) and the new National Commission for Scheduled Tribes (under Art 338-A).",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The high cost of healthcare often pushes Indian families into poverty. The DPSP that directs the state to provide 'public assistance' in case of 'sickness and disablement' is:",
+          "Options": [
+            { "id": 1, "text": "Article 41" },
+            { "id": 2, "text": "Article 42" },
+            { "id": 3, "text": "Article 47" },
+            { "id": 4, "text": "Article 39(e)" }
+          ],
+          "CorrectAnswer": "Article 41",
+          "Explanation": "Article 41 (a 'Socialist' principle) directs the state to make effective provision for securing the 'right to work, to education and to *public assistance* in cases of unemployment, old age, *sickness and disablement*'. Publicly funded healthcare is a form of 'public assistance' in sickness.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "DPSP"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "What is the 'Motion of Thanks' in the Indian Parliament?",
+          "Options": [
+            { "id": 1, "text": "A motion to thank the Finance Minister after the budget speech." },
+            { "id": 2, "text": "A motion moved by the opposition to censure the government." },
+            { "id": 3, "text": "A motion to discuss and vote on the President's 'Special Address' at the start of the first session after an election." },
+            { "id": 4, "text": "The final vote to pass a bill." }
+          ],
+          "CorrectAnswer": "A motion to discuss and vote on the President's 'Special Address' at the start of the first session after an election.",
+          "Explanation": "The President makes a 'Special Address' (Article 87) at the beginning of the first session after each general election and the first session of every year. This address is discussed in both Houses on a 'Motion of Thanks'. The motion *must* be passed, otherwise, it amounts to the defeat of the government.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 3,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "If a Governor 'reserves a bill for the consideration of the President' (Article 200), what happens next?",
+          "Options": [
+            { "id": 1, "text": "The Governor's role is over, and the President has the power to assent, withhold, or return the bill." },
+            { "id": 2, "text": "The bill automatically becomes a law." },
+            { "id": 3, "text": "The bill automatically lapses." },
+            { "id": 4, "text": "The President must give assent within 6 months." }
+          ],
+          "CorrectAnswer": "The Governor's role is over, and the President has the power to assent, withhold, or return the bill.",
+          "Explanation": "Once the Governor reserves the bill (Article 200), his role ends. The bill is now in the hands of the President (Article 201), who has the same three options (assent, withhold, return). Critically, if the President returns the bill and the state legislature passes it again, the President is *not* obliged to give his assent (unlike with a Parliamentary bill).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "State Legislature"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following bodies are headed by the Prime Minister of India?\n1. NITI Aayog\n2. National Development Council (NDC)\n3. Inter-State Council\n4. National Integration Council",
+          "Options": [
+            { "id": 1, "text": "1 and 2 only" },
+            { "id": 2, "text": "1, 2 and 3 only" },
+            { "id": 3, "text": "1, 3 and 4 only" },
+            { "id": 4, "text": "1, 2, 3 and 4" }
+          ],
+          "CorrectAnswer": "1, 2, 3 and 4",
+          "Explanation": "The Prime Minister is the ex-officio Chairman of all four of these important councils/bodies, which coordinate policy and relations between the Centre and the States.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 4,
+          "topic": "Prime Minister"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'doctrine of severability' or 'separability' used by the judiciary means:",
+          "Options": [
+            { "id": 1, "text": "The judiciary is separate from the executive." },
+            { "id": 2, "text": "If a part of a law is found to be unconstitutional, only that part is declared void, and the rest of the law can 'survive' if it is separable." },
+            { "id": 3, "text": "Fundamental Rights can be separated from DPSPs." },
+            { "id": 4, "text": "A law that is unconstitutional is void from the very beginning." }
+          ],
+          "CorrectAnswer": "If a part of a law is found to be unconstitutional, only that part is declared void, and the rest of the law can 'survive' if it is separable.",
+          "Explanation": "This doctrine, linked to Article 13, allows the court to 'sever' (cut off) the invalid portion of a law and uphold the rest, provided the rest can stand on its own and still reflect the legislature's intent. The last option describes the 'doctrine of eclipse'.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 2,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Article 16(3) allows Parliament to make a law prescribing 'residence' as a condition for certain state employments. This is an exception to which Fundamental Right?",
+          "Options": [
+            { "id": 1, "text": "Article 16(2) (Prohibition of discrimination on grounds of... place of birth, or *residence*)" },
+            { "id": 2, "text": "Article 15 (Prohibition of discrimination on grounds of... *place of birth*)" },
+            { "id": 3, "text": "Article 19(1)(e) (Right to reside and settle in any part of India)" },
+            { "id": 4, "text": "Article 14 (Equality before law)" }
+          ],
+          "CorrectAnswer": "Article 16(2) (Prohibition of discrimination on grounds of... place of birth, or *residence*)",
+          "Explanation": "Article 16(2) normally *forbids* discrimination based on 'residence'. However, Article 16(3) carves out an exception, empowering *only the Parliament* (not state legislatures) to require 'residence' within a state as a qualification for certain jobs in that state.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "Fundamental Rights"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following taxes are 'levied' by the Union but 'collected and appropriated' (kept) by the States?",
+          "Options": [
+            { "id": 1, "text": "Taxes on income other than agricultural income (Income Tax)." },
+            { "id": 2, "text": "Corporation Tax." },
+            { "id": 3, "text": "Stamp duties on bills of exchange, etc. (mentioned in the Union List)." },
+            { "id": 4, "text": "Taxes on the sale of goods (now part of GST)." }
+          ],
+          "CorrectAnswer": "Stamp duties on bills of exchange, etc. (mentioned in the Union List).",
+          "Explanation": "Article 268 describes a unique category. Taxes like stamp duties on bills of exchange, cheques, etc., are 'levied' by the Union (i.e., Parliament sets the rate) but are 'collected and appropriated' (kept) by the States within which they are levied.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Centre-State Relations"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Grants-in-Aid' given by the Centre to the States (Article 275) are of what nature?\n1. 'Statutory Grants' given on the recommendation of the Finance Commission.\n2. 'Discretionary Grants' given by the Centre for any public purpose (Article 282).",
+          "Options": [
+            { "id": 1, "text": "1 only" },
+            { "id": 2, "text": "2 only" },
+            { "id": 3, "text": "Both 1 and 2" },
+            { "id": 4, "text": "Neither 1 nor 2" }
+          ],
+          "CorrectAnswer": "Both 1 and 2",
+          "Explanation": "The Constitution provides for both. 'Statutory Grants' (Art 275) are given to states *in need of assistance* (not all states) based on the Finance Commission's (a constitutional body) recommendations. 'Discretionary Grants' (Art 282) are non-obligatory and can be given by the Centre (or a State) for any 'public purpose', even outside their legislative lists. These are used to fund central schemes.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Centre-State Relations"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "What is the primary role of the 'Pro-tem Speaker' of the Lok Sabha?",
+          "Options": [
+            { "id": 1, "text": "To preside over the Lok Sabha for the full 5-year term." },
+            { "id": 2, "text": "To conduct the day-to-day business of the House." },
+            { "id": 3, "text": "To preside over the first sitting of the newly-elected Lok Sabha and administer the oath to new members." },
+            { "id": 4, "text": "To lead the opposition party in the House." }
+          ],
+          "CorrectAnswer": "To preside over the first sitting of the newly-elected Lok Sabha and administer the oath to new members.",
+          "Explanation": "The Pro-tem Speaker is a temporary speaker (usually the senior-most member) appointed by the President. Their main job is to preside over the House, administer the oath to the newly elected MPs, and enable the House to elect the new permanent Speaker.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 3,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 69th Constitutional Amendment Act, 1991, is significant because it:",
+          "Options": [
+            { "id": 1, "text": "Created the state of Goa." },
+            { "id": 2, "text": "Granted special status to the National Capital Territory of Delhi (NCT) with a Legislative Assembly." },
+            { "id": 3, "text": "Lowered the voting age to 18." },
+            { "id": 4, "text": "Added Konkani, Manipuri and Nepali languages to the 8th Schedule." }
+          ],
+          "CorrectAnswer": "Granted special status to the National Capital Territory of Delhi (NCT) with a Legislative Assembly.",
+          "Explanation": "The 69th Amendment inserted Article 239AA, which granted a special status to the Union Territory of Delhi, designating it as the National Capital Territory of Delhi and providing for a Legislative Assembly and a Council of Ministers.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Amendments"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "In the NCT of Delhi, the Legislative Assembly can make laws on all subjects in the State List *except*:",
+          "Options": [
+            { "id": 1, "text": "Public Order, Police, and Land." },
+            { "id": 2, "text": "Health, Sanitation, and Water." },
+            { "id": 3, "text": "Transport and Education." },
+            { "id": 4, "text": "Trade and Commerce." }
+          ],
+          "CorrectAnswer": "Public Order, Police, and Land.",
+          "Explanation": "Article 239AA grants the Delhi Assembly power over most State List and Concurrent List subjects, but explicitly *excludes* three subjects: Public Order, Police, and Land. These three subjects remain under the exclusive control of the Union Government (through the Lt. Governor).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "Union Territories"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Right to form Co-operative Societies' was made a Fundamental Right by the 97th Amendment Act, 2011, by adding it to:",
+          "Options": [
+            { "id": 1, "text": "Article 19(1)(c) (Freedom of association)" },
+            { "id": 2, "text": "Article 21 (Right to life)" },
+            { "id": 3, "text": "Article 14 (Right to equality)" },
+            { "id": 4, "text": "Article 30 (Right of minorities)" }
+          ],
+          "CorrectAnswer": "Article 19(1)(c) (Freedom of association)",
+          "Explanation": "The 97th Amendment made three changes: (1) It made the right to form co-operative societies a Fundamental Right by inserting it into Article 19(1)(c). (2) It added a new DPSP, Article 43B. (3) It added Part IX-B to the Constitution.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 1,
+          "topic": "Amendments"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "In the S.R. Bommai case (1994), the Supreme Court laid down which significant principle regarding President's Rule (Article 356)?",
+          "Options": [
+            { "id": 1, "text": "The proclamation of President's Rule is *not* subject to judicial review." },
+            { "id": 2, "text": "The Governor's report is final and cannot be questioned." },
+            { "id": 3, "text": "The proclamation is subject to judicial review, and the court can restore the state assembly if the proclamation is found to be mala fide." },
+            { "id": 4, "text": "The President can dissolve the state assembly *immediately* upon proclamation." }
+          ],
+          "CorrectAnswer": "The proclamation is subject to judicial review, and the court can restore the state assembly if the proclamation is found to be mala fide.",
+          "Explanation": "This case was a landmark judgement that severely curtailed the misuse of Article 356. It held that the President's proclamation is *justiciable* (subject to judicial review) on grounds of mala fide (bad intent). It also ruled that the state assembly should only be *suspended* (not dissolved) until Parliament approves the proclamation, and the court has the power to restore a dissolved assembly if the proclamation is found unconstitutional.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "India's 'Look East' (now 'Act East') policy is a manifestation of which DPSP?",
+          "Options": [
+            { "id": 1, "text": "Article 51 (Promotion of international peace and security)" },
+            { "id": 2, "text": "Article 48A (Protection of environment)" },
+            { "id": 3, "text": "Article 44 (Uniform Civil Code)" },
+            { "id": 4, "text": "Article 50 (Separation of judiciary)" }
+          ],
+          "CorrectAnswer": "Article 51 (Promotion of international peace and security)",
+          "Explanation": "Article 51, the DPSP on foreign policy, directs the state to 'promote international peace and security' and 'maintain just and honourable relations between nations'. A proactive foreign policy like 'Act East' is a direct implementation of this directive.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 1,
+          "topic": "DPSP"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "What is the key difference between a 'Cantonment Board' and a 'Municipality'?",
+          "Options": [
+            { "id": 1, "text": "A Cantonment Board is for rural areas; a Municipality is for urban areas." },
+            { "id": 2, "text": "A Cantonment Board is a statutory body under the 74th Amendment." },
+            { "id": 3, "text": "A Cantonment Board is for a civilian population in a military area and is administered by the *Union Defence Ministry*." },
+            { "id": 4, "text": "There is no difference; they are the same." }
+          ],
+          "CorrectAnswer": "A Cantonment Board is for a civilian population in a military area and is administered by the *Union Defence Ministry*.",
+          "Explanation": "Municipalities are forms of urban local government set up by *state* governments (under the 74th Amend). A Cantonment Board is a unique body, created by a *Central* Act (Cantonments Act, 2006), to administer a civilian population living within a military station. It works under the administrative control of the Union Defence Ministry.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Municipalities"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'National Disaster Management Authority' (NDMA) is headed by:",
+          "Options": [
+            { "id": 1, "text": "The President" },
+            { "id": 2, "text": "The Prime Minister" },
+            { "id": 3, "text": "The Home Minister" },
+            { "id": 4, "text": "The Minister of Environment" }
+          ],
+          "CorrectAnswer": "The Prime Minister",
+          "Explanation": "The NDMA is the apex 'statutory body' for disaster management in India, established by the Disaster Management Act, 2005. It is headed by the Prime Minister as its ex-officio Chairperson.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC",
+          "correctOption": 2,
+          "topic": "Non-Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following is NOT a 'classical language' of India as per the criteria set by the Government?",
+          "Options": [
+            { "id": 1, "text": "Tamil" },
+            { "id": 2, "text": "Sanskrit" },
+            { "id": 3, "text": "Odia" },
+            { "id": 4, "text": "Marathi" }
+          ],
+          "CorrectAnswer": "Marathi",
+          "Explanation": "As of now, six languages have been granted 'classical' status: Tamil (2004), Sanskrit (2005), Kannada (2008), Telugu (2008), Malayalam (2013), and Odia (2014). Marathi has been proposed but not yet granted this status.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 4,
+          "topic": "Miscellaneous"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 52nd Amendment Act, 1985 (Anti-Defection Law) does not apply if:",
+          "Options": [
+            { "id": 1, "text": "A member voluntarily gives up party membership." },
+            { "id": 2, "text": "A member votes against the party whip." },
+            { "id": 3, "text": "A nominated member joins a party after 6 months." },
+            { "id": 4, "text": "Not less than two-thirds (2/3) of the members of a party 'merge' with another party." }
+          ],
+          "CorrectAnswer": "Not less than two-thirds (2/3) of the members of a party 'merge' with another party.",
+          "Explanation": "The first three are *grounds for disqualification*. The last option (merger) is the *only* exception. If 2/3rd of a party's legislators agree to merge with another party, neither the merging members nor the remaining members face disqualification.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 4,
+          "topic": "Schedules"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Office of the Whip', crucial for party discipline in Parliament, is:",
+          "Options": [
+            { "id": 1, "text": "Mentioned in the Constitution under Article 105." },
+            { "id": 2, "text": "Mentioned in the Rules of Procedure of the House." },
+            { "id": 3, "text": "A statutory post under the Representation of the People Act." },
+            { "id": 4, "text": "Based on parliamentary conventions and not mentioned in the Constitution or Rules." }
+          ],
+          "CorrectAnswer": "Based on parliamentary conventions and not mentioned in the Constitution or Rules.",
+          "Explanation": "The post of 'Whip' (for both ruling and opposition parties) is a 'political party' post. It has no constitutional or statutory basis, nor is it mentioned in the Rules of Procedure. It is purely based on conventions of the parliamentary system.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 4,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following Fundamental Rights has been interpreted by the Supreme Court to include the 'Right to Die with Dignity' (via passive euthanasia)?",
+          "Options": [
+            { "id": 1, "text": "Article 14 (Equality)" },
+            { "id": 2, "text": "Article 19 (Freedom of Speech)" },
+            { "id": 3, "text": "Article 21 (Right to Life and Personal Liberty)" },
+            { "id": 4, "text": "Article 25 (Freedom of Religion)" }
+          ],
+          "CorrectAnswer": "Article 21 (Right to Life and Personal Liberty)",
+          "Explanation": "In the 'Common Cause' case (2018), the Supreme Court held that the Right to Life under Article 21 includes the 'Right to Die with Dignity' (but not the 'Right to Die'). It legalized passive euthanasia (withdrawing life support) through 'living wills'.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Fundamental Rights"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'State Finance Commission' (Article 243-I) is appointed by the Governor to review the financial position of:",
+          "Options": [
+            { "id": 1, "text": "The Panchayats only." },
+            { "id": 2, "text": "The Municipalities only." },
+            { "id": 3, "text": "Both the Panchayats and the Municipalities." },
+            { "id": 4, "text": "The State Government itself." }
+          ],
+          "CorrectAnswer": "Both the Panchayats and the Municipalities.",
+          "Explanation": "The State Finance Commission (SFC) is a constitutional body (like the Union FC). It is set up under Art 243-I (73rd Amend) to review the finances of Panchayats. The 74th Amendment (Art 243-Y) also mandated that the *same* SFC will review the finances of Municipalities.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 3,
+          "topic": "Panchayati Raj"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Who decides on questions of disqualification of a Member of Parliament (MP) under the 10th Schedule (Defection)?",
+          "Options": [
+            { "id": 1, "text": "The President of India" },
+            { "id": 2, "text": "The Election Commission" },
+            { "id": 3, "text": "The Chairman (of Rajya Sabha) or the Speaker (of Lok Sabha)" },
+            { "id": 4, "text": "The Supreme Court" }
+          ],
+          "CorrectAnswer": "The Chairman (of Rajya Sabha) or the Speaker (of Lok Sabha)",
+          "Explanation": "The 10th Schedule (Anti-Defection Law) explicitly states that the final decision on disqualification on grounds of defection rests with the Presiding Officer (Chairman in RS, Speaker in LS) of the House. (Note: The Supreme Court, in the 'Kihoto Hollohan' case, held that this decision is subject to judicial review).",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 3,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Who decides on questions of disqualification of an MP (on grounds *other* than defection, e.g., 'office of profit')?",
+          "Options": [
+            { "id": 1, "text": "The President, after obtaining the opinion of the Election Commission." },
+            { "id": 2, "text": "The Speaker/Chairman of the House." },
+            { "id": 3, "text": "The Supreme Court directly." },
+            { "id": 4, "text": "The Prime Minister." }
+          ],
+          "CorrectAnswer": "The President, after obtaining the opinion of the Election Commission.",
+          "Explanation": "This is a key distinction. Disqualification for defection (10th Schedule) is decided by the Speaker/Chairman. Disqualification for other reasons (Article 102 - e.g., unsound mind, 'office of profit') is decided by the *President* (Article 103), who *must* act according to the opinion of the Election Commission.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "India's large 'gig economy' (e.g., delivery app workers) often lacks social security. Which DPSP directs the state to secure 'just and humane conditions of work' and 'maternity relief'?",
+          "Options": [
+            { "id": 1, "text": "Article 42" },
+            { "id": 2, "text": "Article 41" },
+            { "id": 3, "text": "Article 43A" },
+            { "id": 4, "text": "Article 47" }
+          ],
+          "CorrectAnswer": "Article 42",
+          "Explanation": "Article 42 specifically directs the State to 'make provision for securing just and humane conditions of work and for maternity relief'. The government's 'Code on Social Security' (2020) is an attempt to (partially) implement this DPSP for all workers, including gig workers.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "DPSP"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Article 370, which gave 'temporary' special status to Jammu & Kashmir, was abrogated in 2019 by:",
+          "Options": [
+            { "id": 1, "text": "A Constitutional Amendment under Article 368." },
+            { "id": 2, "text": "A Presidential Order, using the powers within Article 370 itself." },
+            { "id": 3, "text": "An Act of Parliament (J&K Reorganisation Act)." },
+            { "id": 4, "text": "A judgement of the Supreme Court." }
+          ],
+          "CorrectAnswer": "A Presidential Order, using the powers within Article 370 itself.",
+          "Explanation": "This is a complex but important point. Article 370 was *not* removed by an 'amendment' (Art 368). Instead, the President issued an order (C.O. 272) using the power given to him by Article 370(1) to make provisions of the Indian Constitution applicable to J&K. This order modified Article 367 to redefine 'Constituent Assembly' (which was needed to recommend abrogation under Art 370(3)) as the 'Legislative Assembly'. With the state under President's Rule (so Parliament acted as the Legislative Assembly), the 'recommendation' was given, allowing the President to issue a *second* order (C.O. 273) making Article 370 inoperative.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 2,
+          "topic": "Special Provisions"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The J&K Reorganisation Act, 2019, which bifurcated the state, was passed under which Article of the Constitution?",
+          "Options": [
+            { "id": 1, "text": "Article 3 (Formation of new States)" },
+            { "id": 2, "text": "Article 368 (Amendment)" },
+            { "id": 3, "text": "Article 370 (Special status)" },
+            { "id": 4, "text": "Article 356 (President's Rule)" }
+          ],
+          "CorrectAnswer": "Article 3 (Formation of new States)",
+          "Explanation": "The bifurcation of the *state* of J&K into two *Union Territories* (J&K and Ladakh) was done by a regular Act of Parliament passed under Article 3 (which allows Parliament to alter boundaries, names, or form new states/UTs). This was passed by a simple majority.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 1,
+          "topic": "The Union & its Territory"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Commencement Clause' of the Constitution (Article 394) stated that while most of the Constitution would commence on Jan 26, 1950, some articles would come into force immediately on Nov 26, 1949. These related to:\n1. Citizenship (Art 5-9)\n2. Elections (Art 324)\n3. Temporary Parliament provisions",
+          "Options": [
+            { "id": 1, "text": "1 only" },
+            { "id": 2, "text": "1 and 2 only" },
+            { "id": 3, "text": "1, 2 and 3" },
+            { "id": 4, "text": "2 and 3 only" }
+          ],
+          "CorrectAnswer": "1, 2 and 3",
+          "Explanation": "To ensure a smooth transition, essential provisions related to Citizenship, Elections, the provisional Parliament, and other temporary articles (including Art 394 itself) were given immediate effect on the day the Constitution was adopted (Nov 26, 1949).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Constituent Assembly"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Article 29 protects the interests of 'minorities' by guaranteeing:\n1. The right to conserve their 'distinct language, script or culture'.\n2. No denial of admission into state-aided educational institutions on grounds of religion, race, or caste.",
+          "Options": [
+            { "id": 1, "text": "1 only" },
+            { "id": 2, "text": "2 only" },
+            { "id": 3, "text": "Both 1 and 2" },
+            { "id": 4, "text": "Neither 1 nor 2" }
+          ],
+          "CorrectAnswer": "Both 1 and 2",
+          "Explanation": "Article 29 has two parts. 29(1) guarantees *any section of citizens* (including minorities) the right to conserve their distinct language, script, or culture. 29(2) provides a broader right to *all citizens* (minority or majority) not to be denied admission to state or state-aided schools on grounds *only* of religion, race, caste, or language.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Fundamental Rights"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'doctrine of implied powers' (a concept that the Union has powers beyond those explicitly listed, to implement its explicit powers) is more a feature of the ________ Constitution, while India's Constitution is highly ________.",
+          "Options": [
+            { "id": 1, "text": "US; detailed" },
+            { "id": 2, "text": "Indian; flexible" },
+            { "id": 3, "text": "British; rigid" },
+            { "id": 4, "text": "Canadian; unitary" }
+          ],
+          "CorrectAnswer": "US; detailed",
+          "Explanation": "The US Constitution is very short and leaves much to implication (hence, the 'doctrine of implied powers'). The makers of the Indian Constitution, fearing ambiguity, created the world's longest constitution with three exhaustive legislative lists (Union, State, Concurrent) and residuary powers to *explicitly* define all powers, minimizing the need for 'implied powers'.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "Sources of Constitution"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Sedition' law (Section 124A of the IPC) is seen by critics as a violation of which Fundamental Right?",
+          "Options": [
+            { "id": 1, "text": "Article 19(1)(a) (Freedom of Speech and Expression)" },
+            { "id": 2, "text": "Article 14 (Equality before Law)" },
+            { "id": 3, "text": "Article 21 (Right to Life)" },
+            { "id": 4, "text": "Article 25 (Freedom of Religion)" }
+          ],
+          "CorrectAnswer": "Article 19(1)(a) (Freedom of Speech and Expression)",
+          "Explanation": "Sedition (inciting 'disaffection' against the government) is a colonial-era law. Critics argue it is used to stifle dissent and criticism of the government, which is the core of the 'Freedom of Speech and Expression' guaranteed by Article 19(1)(a). The Supreme Court (in 'Kedar Nath Singh' case) upheld it but ruled it should only apply to speech that incites violence.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 1,
+          "topic": "Fundamental Rights"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Cabinet Secretariat' of the Union Government is under the direct charge of:",
+          "Options": [
+            { "id": 1, "text": "The President" },
+            { "id": 2, "text": "The Prime Minister" },
+            { "id": 3, "text": "The Home Minister" },
+            { "id": 4, "text": "The Cabinet Secretary" }
+          ],
+          "CorrectAnswer": "The Prime Minister",
+          "Explanation": "The Cabinet Secretariat is the staff agency for the Union Cabinet. It functions directly under the Prime Minister. Its administrative head is the Cabinet Secretary, who is also the ex-officio chairman of the Civil Services Board and the senior-most civil servant.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Union Executive"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "What is the 'Consolidated Fund of the State' (Article 266)?",
+          "Options": [
+            { "id": 1, "text": "A fund held by the Governor for emergencies." },
+            { "id": 2, "text": "The fund to which all revenues and loans of the State Government are credited." },
+            { "id": 3, "text": "A fund controlled by the Union Finance Ministry." },
+            { "id": 4, "text": "The combined fund of all Panchayats in the state." }
+          ],
+          "CorrectAnswer": "The fund to which all revenues and loans of the State Government are credited.",
+          "Explanation": "Parallel to the Consolidated Fund of India, each state has its own 'Consolidated Fund of the State' (also under Article 266). All revenues (taxes, etc.) and loans raised by the *state government* are credited to this fund. No money can be withdrawn from it without the approval of the *State Legislature*.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC",
+          "correctOption": 2,
+          "topic": "State Legislature"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following is NOT a feature of the 'Parliamentary System' (Westminster model) of government in India?",
+          "Options": [
+            { "id": 1, "text": "Fusion of legislative and executive powers." },
+            { "id": 2, "text": "Collective responsibility of the executive to the legislature." },
+            { "id": 3, "text": "A fixed tenure for the executive, which cannot be removed by the legislature." },
+            { "id": 4, "text": "Presence of a nominal (Head of State) and a real (Head of Government) executive." }
+          ],
+          "CorrectAnswer": "A fixed tenure for the executive, which cannot be removed by the legislature.",
+          "Explanation": "This is the defining feature of a 'Presidential System' (like the USA). In India's 'Parliamentary System', the executive (Council of Ministers) does *not* have a fixed tenure. It remains in office only so long as it enjoys the confidence (majority) of the Lok Sabha and can be removed by a 'No-Confidence Motion'.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 3,
+          "topic": "Parliamentary System"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Consider the challenges in Indian agriculture:\n1. High fragmentation of land (small landholdings).\n2. Dependence on monsoon rains (lack of irrigation).\n3. Poor access to formal credit and markets.\nWhich DPSP directs the state to 'organise agriculture and animal husbandry on modern and scientific lines'?",
+          "Options": [
+            { "id": 1, "text": "Article 47" },
+            { "id": 2, "text": "Article 48" },
+            { "id": 3, "text": "Article 48A" },
+            { "id": 4, "text": "Article 43" }
+          ],
+          "CorrectAnswer": "Article 48",
+          "Explanation": "Article 48 (a 'Liberal-Intellectual' DPSP) directly addresses the need to overcome these challenges by directing the state to 'organise agriculture and animal husbandry on modern and scientific lines'. This implies using technology, improving irrigation, and overcoming traditional inefficiencies.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 2,
+          "topic": "DPSP"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Law Commission of India', which advises the government on legal reforms, is a:",
+          "Options": [
+            { "id": 1, "text": "Constitutional body under Article 280." },
+            { "id": 2, "text": "Statutory body under the Law Commission Act." },
+            { "id": 3, "text": "Non-statutory, 'Executive Body' created by an order of the government for a fixed term." },
+            { "id": 4, "text": "A permanent body of the Supreme Court." }
+          ],
+          "CorrectAnswer": "Non-statutory, 'Executive Body' created by an order of the government for a fixed term.",
+          "Explanation": "The Law Commission of India is neither constitutional nor statutory (it has no Act of Parliament backing it). It is an 'executive body' established by an order of the Government of India, and it is reconstituted every few years with a specific mandate (terms of reference).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Non-Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Department of States', which was headed by Sardar Patel and played a key role in the integration of princely states, was part of which ministry?",
+          "Options": [
+            { "id": 1, "text": "Ministry of Home Affairs" },
+            { "id": 2, "text": "Ministry of Defence" },
+            { "id": 3, "text": "Prime Minister's Office" },
+            { "id": 4, "text": "Ministry of External Affairs" }
+          ],
+          "CorrectAnswer": "Ministry of Home Affairs",
+          "Explanation": "The 'Department of States' (created in June 1947) was set up under the Ministry of Home Affairs to deal with the crucial task of integrating the 500+ princely states. Sardar Patel was the Home Minister, and V.P. Menon was the Secretary of the department.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 1,
+          "topic": "Historical Background"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Linguistic Provinces Commission' (1948), the first commission to study the reorganisation of states on a linguistic basis, was headed by:",
+          "Options": [
+            { "id": 1, "text": "Fazl Ali" },
+            { "id": 2, "text": "K.M. Panikkar" },
+            { "id": 3, "text": "S.K. Dhar" },
+            { "id": 4, "text": "Jawaharlal Nehru, Vallabhbhai Patel, Pattabhi Sitaramayya (JVP Committee)" }
+          ],
+          "CorrectAnswer": "S.K. Dhar",
+          "Explanation": "The 'Dhar Commission' (1948), headed by S.K. Dhar, was the first. It recommended reorganisation based on *administrative convenience* rather than language. This was unpopular, leading to the appointment of the 'JVP Committee' (4), which also rejected language. Finally, the 'Fazl Ali Commission' (1) (1953) accepted language as *one* of the bases for reorganisation.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 3,
+          "topic": "The Union & its Territory"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following bodies conducts the elections for 'Panchayats and Municipalities'?",
+          "Options": [
+            { "id": 1, "text": "The Election Commission of India (ECI)" },
+            { "id": 2, "text": "The State Election Commission (SEC)" },
+            { "id": 3, "text": "The District Collector" },
+            { "id": 4, "text": "The NITI Aayog" }
+          ],
+          "CorrectAnswer": "The State Election Commission (SEC)",
+          "Explanation": "The 73rd and 74th Amendments created the 'State Election Commission' (SEC) under Article 243K. The SEC (not the ECI) is responsible for the superintendence, direction, and control of all elections to the local bodies (Panchayats and Municipalities).",
+          "Difficulty": "Easy",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Panchayati Raj"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'State Election Commissioner' (SEC) is appointed by the Governor, but can be removed *only* in the manner of:",
+          "Options": [
+            { "id": 1, "text": "A Judge of a High Court." },
+            { "id": 2, "text": "The Governor, on his own discretion." },
+            { "id": 3, "text": "The State Legislature, by a simple majority." },
+            { "id": 4, "text": "The President, on the advice of the ECI." }
+          ],
+          "CorrectAnswer": "A Judge of a High Court.",
+          "Explanation": "To ensure the independence of the SEC, Article 243K(2) provides security of tenure. The SEC 'shall not be removed from his office except in like manner and on the like grounds as a Judge of a High Court'. (i.e., impeachment-like process by Parliament).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "Panchayati Raj"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "What is the 'Contempt of Court' power of the Supreme Court (Article 129)?\n1. It can punish for 'Civil Contempt' (disobeying a court order).\n2. It can punish for 'Criminal Contempt' (scandalizing the court or interfering with justice).\n3. This power is also held by the High Courts (Article 215).",
+          "Options": [
+            { "id": 1, "text": "1 and 2 only" },
+            { "id": 2, "text": "2 and 3 only" },
+            { "id": 3, "text": "1 and 3 only" },
+            { "id": 4, "text": "1, 2 and 3" }
+          ],
+          "CorrectAnswer": "1, 2 and 3",
+          "Explanation": "Both the Supreme Court (Art 129) and the High Courts (Art 215) are 'Courts of Record', which gives them the inherent power to punish for their own contempt. This contempt can be 'civil' (wilful disobedience) or 'criminal' (scandalizing the court, obstructing justice).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 4,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The high levels of air pollution in cities like Delhi are a violation of which Fundamental Right, as interpreted by the Supreme Court?",
+          "Options": [
+            { "id": 1, "text": "Article 19(1)(d) (Right to move freely)" },
+            { "id": 2, "text": "Article 21 (Right to Life, including Right to a clean environment)" },
+            { "id": 3, "text": "Article 14 (Equality)" },
+            { "id": 4, "text": "Article 25 (Freedom of Religion)" }
+          ],
+          "CorrectAnswer": "Article 21 (Right to Life, including Right to a clean environment)",
+          "Explanation": "Through judicial activism, the Supreme Court has widely interpreted 'Right to Life' under Article 21 to mean 'Right to a life of dignity', which includes the 'Right to a clean and healthy environment'. Severe pollution is a direct violation of this judicially recognized right.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Fundamental Rights"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Delimitation Commission', which draws the boundaries of parliamentary and assembly constituencies, is appointed by:",
+          "Options": [
+            { "id": 1, "text": "The Election Commission" },
+            { "id": 2, "text": "The President of India" },
+            { "id": 3, "text": "The Parliament (by an Act)" },
+            { "id": 4, "text": "The Chief Justice of India" }
+          ],
+          "CorrectAnswer": "The President of India",
+          "Explanation": "The Delimitation Commission is a high-power body appointed by the President. It is set up *after* Parliament passes a 'Delimitation Act'. Its orders (drawing boundaries) have the force of law and *cannot* be challenged in any court.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Article 33 of the Constitution empowers the Parliament to restrict the Fundamental Rights of which group of people?",
+          "Options": [
+            { "id": 1, "text": "All citizens of India." },
+            { "id": 2, "text": "Members of the Armed Forces, Para-military forces, and Police." },
+            { "id": 3, "text": "Only persons convicted of a crime." },
+            { "id": 4, "text": "Only minorities under Article 29 and 30." }
+          ],
+          "CorrectAnswer": "Members of the Armed Forces, Para-military forces, and Police.",
+          "Explanation": "Article 33 is an exception to Fundamental Rights. It empowers the *Parliament* (not state legislatures) to pass laws restricting the FRs (like freedom of speech, association) of members of the armed forces, para-military forces, police, and intelligence agencies, to ensure the proper discharge of their duties and maintenance of discipline.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 2,
+          "topic": "Fundamental Rights"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Doctrine of Eclipse' in constitutional law means:",
+          "Options": [
+            { "id": 1, "text": "A law that is unconstitutional is 'eclipsed' (made dormant) but not dead, and can become valid again if the constitutional provision (like an FR) is amended." },
+            { "id": 2, "text": "The judiciary is eclipsed by the legislature." },
+            { "id": 3, "text": "DPSPs are eclipsed by Fundamental Rights." },
+            { "id": 4, "text": "The President's rule eclipses the state government." }
+          ],
+          "CorrectAnswer": "A law that is unconstitutional is 'eclipsed' (made dormant) but not dead, and can become valid again if the constitutional provision (like an FR) is amended.",
+          "Explanation": "This applies to 'pre-constitutional laws' (laws made before 1950). If such a law violates a Fundamental Right (e.g., Art 13), it becomes 'dormant' or 'eclipsed' (invalid against citizens). But it is not dead. If the FR itself is amended later to remove the conflict, the law can become active again without being re-enacted.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Finance Commission' (Article 280) makes recommendations on:\n1. The distribution of net proceeds of taxes between the Union and States.\n2. The principles governing 'grants-in-aid' (Statutory Grants) to the states.\n3. The measures needed to augment the Consolidated Fund of a State to supplement Panchayat/Municipality resources.",
+          "Options": [
+            { "id": 1, "text": "1 only" },
+            { "id": 2, "text": "1 and 2 only" },
+            { "id": 3, "text": "1, 2 and 3" },
+            { "id": 4, "text": "1 and 3 only" }
+          ],
+          "CorrectAnswer": "1, 2 and 3",
+          "Explanation": "All three are key functions of the Finance Commission. (1) is 'vertical' (Centre-State) and 'horizontal' (among states) tax-sharing. (2) refers to Statutory Grants under Article 275. (3) is a new function added by the 73rd/74th Amendments, where the *Union* Finance Commission recommends ways to help *State* funds, based on the reports of the *State* Finance Commissions.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'National Green Tribunal' (NGT), a specialized body for environmental cases, is a:",
+          "Options": [
+            { "id": 1, "text": "Constitutional body" },
+            { "id": 2, "text": "Statutory body" },
+            { "id": 3, "text": "Executive body" },
+            { "id": 4, "text": "Judicial body (part of the Supreme Court)" }
+          ],
+          "CorrectAnswer": "Statutory body",
+          "Explanation": "The NGT is a 'statutory body' established by the National Green Tribunal Act, 2010. It was set up (inspired by DPSP Art 48A) for the effective and expeditious disposal of cases relating to environmental protection and conservation.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Non-Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "India's 'Digital India' program aims to improve digital literacy and access. The DPSP that directs the state to provide 'right to education' (in a broader sense) is:",
+          "Options": [
+            { "id": 1, "text": "Article 41 (Right to education, within limits)" },
+            { "id": 2, "text": "Article 45 (Early childhood care and education)" },
+            { "id": 3, "text": "Both A and B" },
+            { "id": 4, "text": "Article 39(f) (Opportunities for children)" }
+          ],
+          "CorrectAnswer": "Both A and B",
+          "Explanation": "While Article 21A guarantees primary education (6-14 years), the DPSP framework is broader. Article 41 directs the state to provide 'right to education' (generally, including higher and digital education) *within the limits of its economic capacity*. Article 45 (as amended) now focuses on 'early childhood care and education' (below 6 years). Digital literacy is a modern component of Article 41.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "DPSP"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Article 351 of the Constitution directs the Union to:",
+          "Options": [
+            { "id": 1, "text": "Promote the spread and development of the Hindi language." },
+            { "id": 2, "text": "Protect all languages in the 8th Schedule." },
+            { "id": 3, "text": "Enforce Hindi as the sole national language." },
+            { "id": 4, "text": "Establish a university for every language." }
+          ],
+          "CorrectAnswer": "Promote the spread and development of the Hindi language.",
+          "Explanation": "Article 351 (a DPSP, but placed in Part XVII on Language) lays down a *directive* for the Union to 'promote the spread of the Hindi language' and to develop it as a medium of expression for the composite culture of India.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC",
+          "correctOption": 1,
+          "topic": "Official Language"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Which of the following is NOT a condition for a political party to be recognized as a 'National Party' by the ECI?",
+          "Options": [
+            { "id": 1, "text": "Wins 2% of seats in Lok Sabha (11 seats) from at least 3 different states." },
+            { "id": 2, "text": "Gets 6% of valid votes in any 4 or more states (in a Lok Sabha or Assembly election) *and* wins 4 Lok Sabha seats." },
+            { "id": 3, "text": "Is recognized as a 'State Party' in at least 4 states." },
+            { "id": 4, "text": "Must have a serving or former Prime Minister as its leader." }
+          ],
+          "CorrectAnswer": "Must have a serving or former Prime Minister as its leader.",
+          "Explanation": "The first three are the (three alternative) conditions set by the Election Commission for a party to gain 'National Party' status. The leadership of the party is not a criterion.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 4,
+          "topic": "Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "A 'Money Bill' must be certified as such by the Speaker. This certification (Article 110(3)):",
+          "Options": [
+            { "id": 1, "text": "Is subject to judicial review by the Supreme Court." },
+            { "id": 2, "text": "Must be approved by the President before certification." },
+            { "id": 3, "text": "Is 'final' and cannot be questioned in any court or in either House." },
+            { "id": 4, "text": "Must be approved by the Rajya Sabha." }
+          ],
+          "CorrectAnswer": "Is 'final' and cannot be questioned in any court or in either House.",
+          "Explanation": "Article 110(3) explicitly states that 'if any question arises whether a Bill is a Money Bill or not, the decision of the Speaker of the House of the People thereon shall be final.' This finality has been generally upheld and is not subject to judicial review (though this was questioned in the 'Aadhaar' case).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Office of Profit' (a ground for disqualification of MPs/MLAs) is:",
+          "Options": [
+            { "id": 1, "text": "Clearly defined in the Constitution under Article 102." },
+            { "id": 2, "text": "Defined in the Representation of the People Act, 1951." },
+            { "id": 3, "text": "Not clearly defined in the Constitution or any law; it is interpreted by the judiciary on a case-by-case basis." },
+            { "id": 4, "text": "An office under a private company." }
+          ],
+          "CorrectAnswer": "Not clearly defined in the Constitution or any law; it is interpreted by the judiciary on a case-by-case basis.",
+          "Explanation": "The term 'Office of Profit' is *not* defined in the Constitution or the RPA. The judiciary (e.g., in 'Jaya Bachchan' case) has laid down tests to determine what constitutes an 'office of profit' (e.g., whether the government appoints, removes, pays remuneration, or has control). Parliament can also exempt certain offices from this (Parliament (Prevention of Disqualification) Act).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "What is the 'electoral roll' (Article 325)?",
+          "Options": [
+            { "id": 1, "text": "The list of candidates contesting an election." },
+            { "id": 2, "text": "The list of 'voters' (citizens aged 18+) for a constituency." },
+            { "id": 3, "text": "The list of polling booths." },
+            { "id": 4, "text": "The list of recognized political parties." }
+          ],
+          "CorrectAnswer": "The list of 'voters' (citizens aged 18+) for a constituency.",
+          "Explanation": "The electoral roll (voter list) is the list of all persons eligible to vote in a particular constituency. Article 325 mandates that there shall be 'one general electoral roll' and no person shall be ineligible for inclusion on grounds *only* of religion, race, caste, or sex.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, SSC",
+          "correctOption": 2,
+          "topic": "Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Cabinet form of government' is the 'foundation of our Constitution', and 'Fundamental Rights and DPSPs are the conscience of the Constitution'. This was held in which case?",
+          "Options": [
+            { "id": 1, "text": "Minerva Mills case (1980)" },
+            { "id": 2, "text": "Kesavananda Bharati case (1973)" },
+            { "id": 3, "text": "Indra Sawhney case (1992)" },
+            { "id": 4, "text": "S.R. Bommai case (1994)" }
+          ],
+          "CorrectAnswer": "Minerva Mills case (1980)",
+          "Explanation": "In the Minerva Mills case, the Supreme Court re-emphasized the 'basic structure' doctrine. It famously stated that the 'Indian Constitution is founded on the bedrock of the balance between Fundamental Rights and Directive Principles' (describing them as 'two wheels of a chariot') and that 'the Cabinet form of government' is a basic feature.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 1,
+          "topic": "Judiciary"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Article 323-A of the Constitution (added by 42nd Amendment) empowers the Parliament to create:",
+          "Options": [
+            { "id": 1, "text": "Administrative Tribunals (e.g., CAT) for service matters." },
+            { "id": 2, "text": "Tribunals for other matters (e.g., tax, land reforms)." },
+            { "id": 3, "text": "The National Green Tribunal." },
+            { "id": 4, "text": "The Finance Commission." }
+          ],
+          "CorrectAnswer": "Administrative Tribunals (e.g., CAT) for service matters.",
+          "Explanation": "The 42nd Amendment added Part XIV-A ('Tribunals'). Article 323-A *only* deals with 'Administrative Tribunals' for public service matters (like the Central Administrative Tribunal - CAT). Article 323-B deals with tribunals for *other* matters (like tax, rent).",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 1,
+          "topic": "Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Council of States' (Rajya Sabha) is seen as representing the 'federal' character of India. This is because:",
+          "Options": [
+            { "id": 1, "text": "Its members are directly elected by the people." },
+            { "id": 2, "text": "Its members are elected by the members of the State Legislative Assemblies." },
+            { "id": 3, "text": "Its members are all nominated by the President." },
+            { "id": 4, "text": "It has more power than the Lok Sabha in money matters." }
+          ],
+          "CorrectAnswer": "Its members are elected by the members of the State Legislative Assemblies.",
+          "Explanation": "The Rajya Sabha represents the *States* of the Indian federation. Its members (representing each state) are elected by the *elected members of the State Legislative Assemblies* (Article 80(4)). This is why it is the 'Council of States' and a key part of India's federal structure.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "India has a high 'child malnutrition' rate (stunting and wasting). Which constitutional provisions mandate the state to address this?\n1. Article 47 (Duty to raise the level of nutrition)\n2. Article 39(f) (Opportunities for healthy development of children)\n3. Article 21 (Right to Life, including Right to Health and Food)",
+          "Options": [
+            { "id": 1, "text": "1 only" },
+            { "id": 2, "text": "1 and 2 only" },
+            { "id": 3, "text": "1, 2 and 3" },
+            { "id": 4, "text": "1 and 3 only" }
+          ],
+          "CorrectAnswer": "1, 2 and 3",
+          "Explanation": "All three apply. (1) Art 47 is the most direct DPSP (raise nutrition). (2) Art 39(f) (also a DPSP) directs the state to ensure 'children are given opportunities... for healthy development'. (3) The Supreme Court has held that the Right to Life (Art 21) includes the Right to Health and Food. Programs like ICDS (Anganwadis) and Mid-Day Meal are based on these provisions.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "DPSP & FRs"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Secretariat' of the Parliament (Lok Sabha/Rajya Sabha) functions under the direct supervision of:",
+          "Options": [
+            { "id": 1, "text": "The Prime Minister" },
+            { "id": 2, "text": "The President" },
+            { "id": 3, "text": "The Presiding Officer (Speaker/Chairman) of the House" },
+            { "id": 4, "text": "The Minister of Parliamentary Affairs" }
+          ],
+          "CorrectAnswer": "The Presiding Officer (Speaker/Chairman) of the House",
+          "Explanation": "Article 98 provides for a separate Secretariat staff for each House of Parliament. This Secretariat is independent of the executive government and functions under the overall control and direction of the Speaker (for Lok Sabha) or the Chairman (for Rajya Sabha).",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Indian National Congress' (INC) adopted a resolution for a 'Constituent Assembly' (to frame a Constitution for free India) for the first time in:",
+          "Options": [
+            { "id": 1, "text": "1929 (Lahore Session)" },
+            { "id": 2, "text": "1935 (Lucknow Session)" },
+            { "id": 3, "text": "1938 (Haripura Session)" },
+            { "id": 4, "text": "1942 (Quit India Resolution)" }
+          ],
+          "CorrectAnswer": "1935 (Lucknow Session)",
+          "Explanation": "While M.N. Roy proposed the idea in 1934, the INC *officially* demanded a Constituent Assembly for the first time at its Lucknow session in 1935. This demand was reiterated at the Haripura session (1938) where Nehru declared it would be elected on adult franchise.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, SSC",
+          "correctOption": 2,
+          "topic": "Constituent Assembly"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Cabinet Mission Plan' (1946), which provided the framework for the Constituent Assembly, recommended:",
+          "Options": [
+            { "id": 1, "text": "A strong Centre and weak provinces." },
+            { "id": 2, "text": "The creation of two separate nations, India and Pakistan." },
+            { "id": 3, "text": "A three-tiered federation with a weak Centre (controlling only defence, foreign affairs, communications) and strong provincial groupings." },
+            { "id": 4, "text": "A directly elected Constituent Assembly based on universal adult franchise." }
+          ],
+          "CorrectAnswer": "A three-tiered federation with a weak Centre (controlling only defence, foreign affairs, communications) and strong provincial groupings.",
+          "Explanation": "The Cabinet Mission *rejected* the demand for Pakistan. It proposed a complex 3-tier system: a (very) weak Union Centre, three 'Groups' of provinces (NW, NE, and the rest), and the individual Provinces. This was its last attempt to keep India united. (The Constituent Assembly it proposed was *indirectly* elected, not directly).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 3,
+          "topic": "Constituent Assembly"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'Instrument of Accession' was the legal document by which:",
+          "Options": [
+            { "id": 1, "text": "The British transferred power to India in 1947." },
+            { "id": 2, "text": "The Princely States agreed to accede to the Dominion of India." },
+            { "id": 3, "text": "The Constitution of India was adopted." },
+            { "id": 4, "text": "Goa was integrated into India." }
+          ],
+          "CorrectAnswer": "The Princely States agreed to accede to the Dominion of India.",
+          "Explanation": "The Indian Independence Act, 1947, gave the princely states the choice to join India, join Pakistan, or remain independent. The 'Instrument of Accession' was the standard legal document they signed to accede to India (or Pakistan), typically surrendering control over Defence, Foreign Affairs, and Communications.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Historical Background"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "Article 14 of the Constitution guarantees 'Equality before Law' and 'Equal Protection of Laws'. What is the difference?",
+          "Options": [
+            { "id": 1, "text": "There is no difference; they are the same." },
+            { "id": 2, "text": "'Equality before Law' is a negative concept (absence of privilege); 'Equal Protection' is a positive concept (equality of treatment)." },
+            { "id": 3, "text": "'Equality before Law' is American; 'Equal Protection' is British." },
+            { "id": 4, "text": "'Equality before Law' applies to citizens; 'Equal Protection' applies to all." }
+          ],
+          "CorrectAnswer": "'Equality before Law' is a negative concept (absence of privilege); 'Equal Protection' is a positive concept (equality of treatment).",
+          "Explanation": "'Equality before Law' (British origin) is negative: no person is above the law. 'Equal Protection of Laws' (American origin) is positive: equals should be treated equally, and 'like should be treated alike'. This positive concept is what *allows* for 'reasonable classification' (e.g., reservations, different tax brackets).",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 2,
+          "topic": "Fundamental Rights"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The 'National Commission for Minorities' (NCM) is a:",
+          "Options": [
+            { "id": 1, "text": "Constitutional body under Article 30." },
+            { "id": 2, "text": "Statutory body established by the National Commission for Minorities Act, 1992." },
+            { "id": 3, "text": "Executive body under the Ministry of Home Affairs." },
+            { "id": 4, "text": "Constitutional body under Article 338." }
+          ],
+          "CorrectAnswer": "Statutory body established by the National Commission for Minorities Act, 1992.",
+          "Explanation": "Unlike the NCSC, NCST, and NCBC, the National Commission for Minorities is *not* a constitutional body. It is a 'statutory body' set up by an Act of Parliament (the NCM Act, 1992).",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Non-Constitutional Bodies"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "A 'starred question' in Parliament is one which:",
+          "Options": [
+            { "id": 1, "text": "Is the most important question of the day." },
+            { "id": 2, "text": "Requires an oral answer, and supplementary questions can follow." },
+            { "id": 3, "text": "Requires a written answer, and no supplementary questions can follow." },
+            { "id": 4, "text": "Is asked by a member of the ruling party." }
+          ],
+          "CorrectAnswer": "Requires an oral answer, and supplementary questions can follow.",
+          "Explanation": "During 'Question Hour', a 'Starred Question' (marked with an asterisk *) must be answered *orally* by the minister in the House. Because the answer is oral, members are allowed to ask follow-up 'supplementary questions'.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "An 'unstarred question' in Parliament is one which:",
+          "Options": [
+            { "id": 1, "text": "Is asked to the Prime Minister." },
+            { "id": 2, "text": "Requires an oral answer, but no supplementary questions." },
+            { "id": 3, "text": "Requires a written answer, and therefore no supplementary questions can be asked." },
+            { "id": 4, "text": "Is considered unimportant by the Speaker." }
+          ],
+          "CorrectAnswer": "Requires a written answer, and therefore no supplementary questions can be asked.",
+          "Explanation": "An 'Unstarred Question' is one for which the member seeks a *written* answer. The minister lays the answer on the table of the House. Since the answer is not given orally, no supplementary questions can be asked.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 3,
+          "topic": "Parliament"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "India's 'Right to Information' (RTI) Act, 2005, is seen as a statutory derivation of which Fundamental Right?",
+          "Options": [
+            { "id": 1, "text": "Article 14 (Equality)" },
+            { "id": 2, "text": "Article 19(1)(a) (Freedom of Speech and Expression)" },
+            { "id": 3, "text": "Article 21 (Right to Life)" },
+            { "id": 4, "text": "Article 32 (Constitutional Remedies)" }
+          ],
+          "CorrectAnswer": "Article 19(1)(a) (Freedom of Speech and Expression)",
+          "Explanation": "The Supreme Court (in 'Raj Narain' case) held that the 'Right to Know' is an intrinsic part of the 'Right to Freedom of Speech and Expression' (Art 19(1)(a)). If a citizen cannot get information, their freedom of speech is incomplete. The RTI Act, 2005, is the law that gives effect to this recognized right.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, SSC-CGL",
+          "correctOption": 2,
+          "topic": "Fundamental Rights"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "A 'Constitutional Amendment Bill' (Article 368) must be passed in each House by:",
+          "Options": [
+            { "id": 1, "text": "A simple majority (present and voting)." },
+            { "id": 2, "text": "A special majority (2/3rd of members present and voting)." },
+            { "id": 3, "text": "A special majority (2/3rd present & voting) *and* a majority of the total membership of the House." },
+            { "id": 4, "text": "An absolute majority of the House (50% of total strength)." }
+          ],
+          "CorrectAnswer": "A special majority (2/3rd present & voting) *and* a majority of the total membership of the House.",
+          "Explanation": "This is the 'Special Majority' required by Article 368. It has two conditions that must both be met: (1) a majority of 2/3rd of the members *present and voting*, AND (2) that number must also be a majority (50% + 1) of the *total membership* (strength) of the House. (For federal provisions, it also needs ratification by 50% of states).",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Amendments"
+        },
+        {
+          "category": "Indian Polity",
+          "Question": "The government's 'MGNREGA' (Mahatma Gandhi National Rural Employment Guarantee Act) is a legal framework for which DPSP?",
+          "Options": [
+            { "id": 1, "text": "Article 41 (Right to work)" },
+            { "id": 2, "text": "Article 43 (Living wage)" },
+            { "id": 3, "text": "Article 40 (Village panchayats)" },
+            { "id": 4, "text": "Both A and B" }
+          ],
+          "CorrectAnswer": "Both A and B",
+          "Explanation": "MGNREGA is a direct implementation of two DPSPs. It gives a legal 'right to work' (for 100 days), fulfilling Article 41 ('Right to work... and to public assistance in cases of unemployment'). It also aims to provide a 'living wage' (Article 43) for this work, improving the standard of life in rural areas.",
+          "Difficulty": "Hard",
+          "Job": "UPSC, MPSC",
+          "correctOption": 4,
+          "topic": "DPSP"
+        }
+      
+
+  ]

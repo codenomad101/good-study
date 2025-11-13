@@ -21,6 +21,7 @@ import {
   BarChart3,
 } from 'lucide-react-native';
 import { useAuth } from '../contexts/AuthContext';
+import { useLanguage } from '../contexts/LanguageContext';
 import {
   useExamHistory,
   useCreateDynamicExam,
@@ -30,11 +31,13 @@ import { useCategories } from '../hooks/useCategories';
 import DynamicExamContent from './DynamicExamContent';
 import AppHeader from './AppHeader';
 import { showToast } from '../utils/toast';
+import { API_BASE_URL } from '../config/api';
 
 const { width } = Dimensions.get('window');
 
 export default function ExamContent() {
   const { user, isAuthenticated } = useAuth();
+  const { language } = useLanguage(); // Get current language (en or mr)
   const [showExamCreator, setShowExamCreator] = useState(false);
   const [selectedExamSessionId, setSelectedExamSessionId] = useState<string | null>(null);
   const [refreshing, setRefreshing] = useState(false);
@@ -271,6 +274,7 @@ export default function ExamContent() {
       questionDistribution: distribution,
       negativeMarking,
       negativeMarksRatio: negativeMarking ? 0.25 : 0,
+      language: language as 'en' | 'mr' // Use current language selection
     };
 
     try {
@@ -346,8 +350,8 @@ export default function ExamContent() {
           errorMessage.includes('Failed to fetch') ||
           errorMessage.includes('Network error')) {
         userTitle = 'Connection Error';
-        // Get the base URL from the API service if available
-        const baseURL = 'http://10.99.89.205:3000'; // Current IP from api.ts
+        // Get the base URL from the API config
+        const baseURL = API_BASE_URL.replace('/api', ''); // Remove /api to get base URL
         const fullURL = `${baseURL}/api${endpoint}`;
         userMessage = 'Cannot connect to server. Please check:\n\n' +
           '1. Server is running on port 3000\n' +

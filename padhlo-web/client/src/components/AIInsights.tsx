@@ -79,7 +79,8 @@ export const AIInsights: React.FC<AIInsightsProps> = ({
         )}
         
         <Text style={{ color: 'rgba(255, 255, 255, 0.8)', fontSize: '11px' }}>
-          💡 Insight powered by AI. Set up API keys for enhanced analysis.
+          💡 Insight powered by {import.meta.env.VITE_HUGGINGFACE_API_KEY ? 'Pythia-160m AI' : 'smart analysis'}. 
+          {!import.meta.env.VITE_HUGGINGFACE_API_KEY && ' Set up API keys for enhanced AI analysis.'}
         </Text>
       </Space>
     </Card>

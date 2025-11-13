@@ -34,6 +34,7 @@ import { useUserStats, useRemainingSessions } from '../hooks/useApi';
 import { apiService } from '../services/api';
 import AppHeader from './AppHeader';
 import { useTranslation } from '../hooks/useTranslation';
+import { useLanguage } from '../contexts/LanguageContext';
 import { useRouter } from 'expo-router';
 import { useQueryClient } from '@tanstack/react-query';
 
@@ -108,6 +109,7 @@ interface UserPracticeStats {
 const EnhancedPracticeContent: React.FC = () => {
   const { user } = useAuth();
   const { t } = useTranslation();
+  const { language } = useLanguage(); // Get current language (en or mr)
   const queryClient = useQueryClient();
   
   // Try to load categories from API, fallback to hardcoded
@@ -297,100 +299,88 @@ const EnhancedPracticeContent: React.FC = () => {
     setIsLoading(true);
     
     try {
-      // Define multiple file paths per category
+      // Determine language folder based on current language selection
+      const langFolder = language === 'mr' ? 'Marathi' : 'English';
+      const langPrefix = language === 'mr' ? 'Marathi' : 'English';
+      
+      // Define multiple file paths per category based on language
       // Add all your JSON files here - they will be loaded and combined
       const categoryFiles: Record<string, string[]> = {
-        'economy': [
+        'economy': language === 'mr' ? [
+          '../data/data/Marathi/economyMarathi.json',
+          // Add more Marathi economy files here as needed
+        ] : [
           '../data/data/English/economy/economyEnglish1.json',
           '../data/data/English/economy/economyEnglish2.json',
           '../data/data/English/economy/economyExtra.json',
           '../data/data/English/economy/economyEnglish.json',
           '../data/data/English/economy/Economy-2025-11-08.json',
           '../data/English/economyEnglish.json',
-          // Add more economy files here as needed
-          // '../data/English/economy/economy4.json',
-          // '../data/English/economy/economy5.json',
         ],
-        'geography': [
-          '../data/English/geography/geographyEnglish.json',
-          '../data/English/geography/geographyExtra.json',
-          '../data/English/geography/geographyEnglish_2025-11-10.json',
+        'geography': language === 'mr' ? [
+          // Add Marathi geography files here when available
+        ] : [
+          '../data/data/English/geography/geographyEnglish.json',
+          '../data/data/English/geography/georaphyExtra.json',
+          '../data/data/English/geography/geographyEnglish_2025-11-10.json',
           '../data/English/geographyEnglish.json',
-          // Add more geography files here as needed
-          // '../data/English/geography/geography4.json',
-          // '../data/English/geography/geography5.json',
         ],
-        'current-affairs': [
+        'current-affairs': language === 'mr' ? [
+          '../data/data/Marathi/currentAffairsMarathi.json',
+          // Add more Marathi current affairs files here
+        ] : [
           '../data/data/English/currentAffairs/currentAffairsEnglish.json',
           '../data/data/English/currentAffairs/currentAffairsEnglish_2025-08-08.json',
-        
-          // Add more current affairs files here
-          // '../data/English/current-affairs/file1.json',
-          // '../data/English/current-affairs/file2.json',
         ],
-        'gk': [
+        'gk': language === 'mr' ? [
+          // Add Marathi GK files here when available
+        ] : [
           '../data/English/GKEnglish.json',
           '../data/data/English/gk/gkEnglish.json',
           '../data/data/English/gk/GKEnglish_2025-11-10.json',
-
-          // Add more GK files here
-          // '../data/English/gk/file1.json',
-          // '../data/English/gk/file2.json',
         ],
-        'history': [
+        'history': language === 'mr' ? [
+          // Add Marathi history files here when available
+        ] : [
           '../data/data/English/history/historyEnglish1.json',
           '../data/data/English/history/historyEnglish2.json',
           '../data/data/English/history/historyEnglish3.json',
           '../data/data/English/history/historyExtra.json',
           '../data/data/English/history/historyEnglish.json',
           '../data/data/English/history/HistoryEnglish_2025-11-10.json',
-
-          // Add more history files here
-          // '../data/English/history/history4.json',
-          // '../data/English/history/history5.json',
         ],
-        'english': [
+        'english': language === 'mr' ? [
+          // English category doesn't have Marathi equivalent, use Marathi grammar instead
+          '../data/data/Marathi/grammerMarathi.json',
+        ] : [
           '../data/data/English/english/englishGrammer.json',
-          // Add more English files here
-          // '../data/English/english/english4.json',
-          // '../data/English/english/english5.json',
         ],
-        'aptitude': [
+        'aptitude': language === 'mr' ? [
+          // Add Marathi aptitude files here when available
+        ] : [
           '../data/data/English/aptitude/AptitudeEnglish.json',
           '../data/data/English/aptitude/aptitude-2025-11-08.json',
-          '../data//English/AptitudeEnglish.json',
-          // Add more aptitude files here
-          // '../data/English/aptitude/AptitudeEnglish_2025-11-10.json',
-          // '../data/English/aptitude/AptitudeEnglish_2025-11-10.json',
+          '../data/English/AptitudeEnglish.json',
         ],
-        'polity': [
-          // Polity questions should come from database via API
-          // Fallback: use GK questions if local file not available
+        'polity': language === 'mr' ? [
+          '../data/data/Marathi/polityMarathi.json',
+          // Add more Marathi polity files here when available
+        ] : [
           '../data/data/English/polity/polityEnglish.json',
           '../data/data/English/polity/Polity-2025-11-10.json',
           '../data/data/English/polity/polityEnglish1.json',
           '../data/data/English/polity/polityEnglish2.json',
           '../data/data/English/polity/polityExtra.json',
-          // Add more polity files here when available
-          // '../data/English/polity/polity1.json',
-          // '../data/English/polity/polity2.json',
         ],
-        'science': [
-          // Science questions should come from database via API
-          // Fallback: use GK questions if local file not available
-          '../data/data/science/scienceEnglish.json',
-          '../data/data/science/Science-2025-11-08.json',
-          // Add more science files here when available
-          // '../data/English/science/science1.json',
-          // '../data/English/science/science2.json',
+        'science': language === 'mr' ? [
+          // Add Marathi science files here when available
+        ] : [
+          '../data/data/English/science/scienceEnglish.json',
+          '../data/data/English/science/Science-2025-11-08.json',
         ],
         'marathi': [
-              '../data/Marathi/grammerMarathi.json',
-              '../data/data/Marathi/marathi/Marathi-2025-11-08.json',
-
-          // Add more Marathi files here
-          // '../data/Marathi/marathi/file1.json',
-          // '../data/Marathi/marathi/file2.json',
+          '../data/Marathi/grammerMarathi.json',
+          '../data/data/Marathi/grammerMarathi.json',
         ],
       };
 
@@ -415,12 +405,12 @@ const EnhancedPracticeContent: React.FC = () => {
               return require('../data/English/economyEnglish.json');
             
             // Geography files
-            case '../data/English/geography/geographyEnglish.json':
-              return require('../data/English/geography/geographyEnglish.json');
-            case '../data/English/geography/geographyExtra.json':
-              return require('../data/English/geography/geographyExtra.json');
-            case '../data/English/geography/geographyEnglish_2025-11-10.json':
-              return require('../data/English/geography/geographyEnglish_2025-11-10.json');
+            case '../data/data/English/geography/geographyEnglish.json':
+              return require('../data/data/English/geography/geographyEnglish.json');
+            case '../data/data/English/geography/georaphyExtra.json':
+              return require('../data/data/English/geography/georaphyExtra.json');
+            case '../data/data/English/geography/geographyEnglish_2025-11-10.json':
+              return require('../data/data/English/geography/geographyEnglish_2025-11-10.json');
             case '../data/English/geographyEnglish.json':
               return require('../data/English/geographyEnglish.json');
             
@@ -485,8 +475,14 @@ const EnhancedPracticeContent: React.FC = () => {
             // Marathi files
             case '../data/Marathi/grammerMarathi.json':
               return require('../data/Marathi/grammerMarathi.json');
-            case '../data/data/Marathi/marathi/Marathi-2025-11-08.json':
-              return require('../data/data/Marathi/marathi/Marathi-2025-11-08.json');
+            case '../data/data/Marathi/grammerMarathi.json':
+              return require('../data/data/Marathi/grammerMarathi.json');
+            case '../data/data/Marathi/economyMarathi.json':
+              return require('../data/data/Marathi/economyMarathi.json');
+            case '../data/data/Marathi/currentAffairsMarathi.json':
+              return require('../data/data/Marathi/currentAffairsMarathi.json');
+            case '../data/data/Marathi/polityMarathi.json':
+              return require('../data/data/Marathi/polityMarathi.json');
             
             default:
               throw new Error(`File path not mapped: ${filePath}`);
@@ -616,7 +612,7 @@ const EnhancedPracticeContent: React.FC = () => {
             const sessionResult = await createSessionMutation.mutateAsync({
               category: categoryForServer, // Send slug or UUID to server
               timeLimitMinutes: 15,
-              language: 'en'
+              language: language as 'en' | 'mr' // Use current language selection
             });
             
             // Refetch remaining sessions after creating practice session

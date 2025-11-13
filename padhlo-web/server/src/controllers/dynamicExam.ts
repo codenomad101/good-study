@@ -19,7 +19,8 @@ const CreateExamSessionSchema = z.object({
     topic: z.string().optional()
   })).min(1, 'At least one category is required'),
   negativeMarking: z.boolean().optional(),
-  negativeMarksRatio: z.number().min(0).max(1).optional()
+  negativeMarksRatio: z.number().min(0).max(1).optional(),
+  language: z.enum(['en', 'mr']).optional().default('en') // Language for questions
 });
 
 const CompleteExamSessionSchema = z.object({

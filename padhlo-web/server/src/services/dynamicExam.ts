@@ -16,9 +16,16 @@ export class DynamicExamService {
     }>;
     negativeMarking?: boolean;
     negativeMarksRatio?: number;
+    language?: 'en' | 'mr'; // Language for questions
   }) {
     try {
       const totalQuestions = examConfig.questionDistribution.reduce((sum, dist) => sum + dist.count, 0);
+      
+      // Store language in questionDistribution metadata for later use
+      const questionDistributionWithLanguage = examConfig.questionDistribution.map(dist => ({
+        ...dist,
+        _language: examConfig.language || 'en' // Store language in distribution metadata
+      }));
       
       const newSession: NewDynamicExamSession = {
         userId,
@@ -28,7 +35,7 @@ export class DynamicExamService {
         totalQuestions,
         negativeMarking: examConfig.negativeMarking || false,
         negativeMarksRatio: examConfig.negativeMarksRatio?.toString() || '0.25',
-        questionDistribution: examConfig.questionDistribution,
+        questionDistribution: questionDistributionWithLanguage as any,
         status: 'not_started'
       };
 
@@ -367,6 +374,7 @@ export class DynamicExamService {
     count: number;
     marksPerQuestion: number;
     topic?: string;
+    _language?: 'en' | 'mr'; // Language stored in distribution metadata
   }>) {
     try {
       console.log('Generating questions for distribution:', questionDistribution);
@@ -424,8 +432,12 @@ export class DynamicExamService {
           // Load questions based on category slug
           console.log(`Loading questions for category: "${categorySlug}"`);
           
+          // Get language from distribution metadata (default to 'en')
+          const language = (dist as any)._language || 'en';
+          console.log(`Using language: ${language} for category: ${categorySlug}`);
+          
           // Try multiple path variations for each category
-          questionsData = this.loadQuestionsForCategory(categorySlug);
+          questionsData = this.loadQuestionsForCategory(categorySlug, language);
           
           if (!Array.isArray(questionsData) || questionsData.length === 0) {
             console.log(`No questions found for category: "${categorySlug}"`);
@@ -611,8 +623,8 @@ export class DynamicExamService {
   }
 
   // Load questions for a category, trying multiple path variations
-  private loadQuestionsForCategory(categorySlug: string): any[] {
-    const pathVariations = this.getPathVariationsForCategory(categorySlug);
+  private loadQuestionsForCategory(categorySlug: string, language: 'en' | 'mr' = 'en'): any[] {
+    const pathVariations = this.getPathVariationsForCategory(categorySlug, language);
     
     for (const path of pathVariations) {
       try {
@@ -634,22 +646,34 @@ export class DynamicExamService {
     return [];
   }
 
-  // Get possible file paths for a category
-  private getPathVariationsForCategory(categorySlug: string): string[] {
+  // Get possible file paths for a category based on language
+  private getPathVariationsForCategory(categorySlug: string, language: 'en' | 'mr' = 'en'): string[] {
     const paths: string[] = [];
     const path = require('path');
     
     // Base path is 2 levels up from server/src/services to reach project root
     const basePath = path.join(__dirname, '../../..');
     
+    // Determine language folder
+    const langFolder = language === 'mr' ? 'Marathi' : 'English';
+    const langPrefix = language === 'mr' ? 'Marathi' : 'English';
+    
     switch (categorySlug.toLowerCase()) {
       case 'economy':
-        paths.push(
-          path.join(basePath, 'data/English/economy/economyEnglish2.json'),
-          path.join(basePath, 'data/English/economy/economyEnglish1.json'),
-          path.join(basePath, 'data/English/economy/economyExtra.json'),
-          path.join(basePath, 'data/English/economyEnglish.json')
-        );
+        if (language === 'mr') {
+          paths.push(
+            path.join(basePath, `data/data/${langFolder}/economyMarathi.json`),
+            path.join(basePath, `data/${langFolder}/economyMarathi.json`)
+          );
+        } else {
+          paths.push(
+            path.join(basePath, 'data/data/English/economy/economyEnglish2.json'),
+            path.join(basePath, 'data/data/English/economy/economyEnglish1.json'),
+            path.join(basePath, 'data/data/English/economy/economyExtra.json'),
+            path.join(basePath, 'data/data/English/economy/economyEnglish.json'),
+            path.join(basePath, 'data/English/economyEnglish.json')
+          );
+        }
         break;
       case 'gk':
         paths.push(
@@ -673,10 +697,18 @@ export class DynamicExamService {
         );
         break;
       case 'english':
-        paths.push(
-          path.join(basePath, 'data/English/english/englishGrammer.json'),
-          path.join(basePath, 'data/English/englishGrammer.json')
-        );
+        if (language === 'mr') {
+          // For English category when language is Marathi, use Marathi grammar
+          paths.push(
+            path.join(basePath, `data/data/${langFolder}/grammerMarathi.json`),
+            path.join(basePath, `data/${langFolder}/grammerMarathi.json`)
+          );
+        } else {
+          paths.push(
+            path.join(basePath, 'data/data/English/english/englishGrammer.json'),
+            path.join(basePath, 'data/English/englishGrammer.json')
+          );
+        }
         break;
       case 'aptitude':
         paths.push(
@@ -691,19 +723,33 @@ export class DynamicExamService {
         );
         break;
       case 'polity':
-        paths.push(
-          path.join(basePath, 'data/English/polity/polityEnglish2.json'),
-          path.join(basePath, 'data/English/polity/polityEnglish1.json'),
-          path.join(basePath, 'data/English/polity/polityExtra.json'),
-          path.join(basePath, 'data/English/polityEnglish.json')
-        );
+        if (language === 'mr') {
+          paths.push(
+            path.join(basePath, `data/data/${langFolder}/polityMarathi.json`),
+            path.join(basePath, `data/${langFolder}/polityMarathi.json`)
+          );
+        } else {
+          paths.push(
+            path.join(basePath, 'data/data/English/polity/polityEnglish2.json'),
+            path.join(basePath, 'data/data/English/polity/polityEnglish1.json'),
+            path.join(basePath, 'data/data/English/polity/polityExtra.json'),
+            path.join(basePath, 'data/data/English/polity/polityEnglish.json')
+          );
+        }
         break;
       case 'current-affairs':
       case 'currentaffairs':
-        paths.push(
-          path.join(basePath, 'data/English/currentAffairs/currentAffairsEnglish.json'),
-          path.join(basePath, 'data/English/currentAffairs/GKEnglish.json')
-        );
+        if (language === 'mr') {
+          paths.push(
+            path.join(basePath, `data/data/${langFolder}/currentAffairsMarathi.json`),
+            path.join(basePath, `data/${langFolder}/currentAffairsMarathi.json`)
+          );
+        } else {
+          paths.push(
+            path.join(basePath, 'data/data/English/currentAffairs/currentAffairsEnglish.json'),
+            path.join(basePath, 'data/data/English/currentAffairs/currentAffairsEnglish_2025-08-08.json')
+          );
+        }
         break;
       case 'science':
         paths.push(

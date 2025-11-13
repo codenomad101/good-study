@@ -1,0 +1,1091 @@
+[
+    {
+      "category": "Indian History (1857+)",
+      "Question": "Who was the Governor-General of India during the Revolt of 1857?",
+      "Options": [
+        { "id": 1, "text": "Lord Canning" },
+        { "id": 2, "text": "Lord Dalhousie" },
+        { "id": 3, "text": "Lord Elgin" },
+        { "id": 4, "text": "Lord Lytton" }
+      ],
+      "CorrectAnswer": "Lord Canning",
+      "Explanation": "Lord Canning was the Governor-General of India from 1856 to 1862. He was in charge during the Revolt of 1857 and became the first Viceroy of India when the British Crown took direct control in 1858.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Revolt of 1857"
+    },
+    {
+      "category": "Indian History (1857+)",
+      "Question": "The Indian National Congress was founded in which year?",
+      "Options": [
+        { "id": 1, "text": "1880" },
+        { "id": 2, "text": "1885" },
+        { "id": 3, "text": "1890" },
+        { "id": 4, "text": "1875" }
+      ],
+      "CorrectAnswer": "1885",
+      "Explanation": "The Indian National Congress (INC) was founded on 28 December 1885 in Bombay (now Mumbai) by A.O. Hume, a retired British civil servant, along with Indian leaders.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Indian National Congress"
+    },
+    {
+      "category": "Indian History (1857+)",
+      "Question": "The Partition of Bengal, announced by Lord Curzon, took place in which year?",
+      "Options": [
+        { "id": 1, "text": "1901" },
+        { "id": 2, "text": "1911" },
+        { "id": 3, "text": "1905" },
+        { "id": 4, "text": "1907" }
+      ],
+      "CorrectAnswer": "1905",
+      "Explanation": "The Partition of Bengal was announced in July 1905 and implemented in October 1905 by Lord Curzon. It was a major catalyst for the Swadeshi Movement.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Nationalist Movement"
+    },
+    {
+      "category": "Indian History (1857+)",
+      "Question": "Who founded the 'Satyashodhak Samaj' (Truth-Seekers' Society) in 1873?",
+      "Options": [
+        { "id": 1, "text": "Dr. B.R. Ambedkar" },
+        { "id": 2, "text": "Raja Ram Mohan Roy" },
+        { "id": 3, "text": "Gopal Krishna Gokhale" },
+        { "id": 4, "text": "Jyotirao Phule" }
+      ],
+      "CorrectAnswer": "Jyotirao Phule",
+      "Explanation": "Jyotirao Phule, a prominent social reformer from Maharashtra, founded the Satyashodhak Samaj in 1873 to fight against caste discrimination and work for the upliftment of lower castes.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 4,
+      "topic": "Social Reform Movement"
+    },
+    {
+      "category": "Indian History (1857+)",
+      "Question": "The Jallianwala Bagh massacre took place in Amritsar on which date?",
+      "Options": [
+        { "id": 1, "text": "April 13, 1919" },
+        { "id": 2, "text": "August 15, 1920" },
+        { "id": 3, "text": "March 10, 1918" },
+        { "id": 4, "text": "January 26, 1921" }
+      ],
+      "CorrectAnswer": "April 13, 1919",
+      "Explanation": "On April 13, 1919 (Baisakhi day), troops commanded by Brigadier-General Reginald Dyer fired on a peaceful crowd of protesters and pilgrims in Jallianwala Bagh, Amritsar.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Gandhian Era"
+    },
+    {
+      "category": "Indian History (1857+)",
+      "Question": "What was the immediate cause for the withdrawal of the Non-Cooperation Movement in 1922?",
+      "Options": [
+        { "id": 1, "text": "The Jallianwala Bagh massacre" },
+        { "id": 2, "text": "The Chauri Chaura incident" },
+        { "id": 3, "text": "The signing of the Gandhi-Irwin Pact" },
+        { "id": 4, "text": "The arrest of Mahatma Gandhi" }
+      ],
+      "CorrectAnswer": "The Chauri Chaura incident",
+      "Explanation": "Mahatma Gandhi withdrew the Non-Cooperation Movement after the Chauri Chaura incident in February 1922, where a violent mob set fire to a police station, killing 22 policemen. This violated his principle of non-violence (Ahimsa).",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Gandhian Era"
+    },
+    {
+      "category": "Indian History (1857+)",
+      "Question": "The 'Poona Pact' (1932) was an agreement between Mahatma Gandhi and whom?",
+      "Options": [
+        { "id": 1, "text": "Lord Irwin" },
+        { "id": 2, "text": "Dr. B.R. Ambedkar" },
+        { "id": 3, "text": "Muhammad Ali Jinnah" },
+        { "id": 4, "text": "Subhas Chandra Bose" }
+      ],
+      "CorrectAnswer": "Dr. B.R. Ambedkar",
+      "Explanation": "The Poona Pact was signed between Mahatma Gandhi and Dr. B.R. Ambedkar on behalf of depressed classes. It provided for reserved seats for the depressed classes in provincial legislatures but within the general electorate.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Constitutional Development"
+    },
+    {
+      "category": "Indian History (1857+)",
+      "Question": "In which session of the Indian National Congress was the resolution for 'Purna Swaraj' (Complete Independence) passed?",
+      "Options": [
+        { "id": 1, "text": "Karachi Session, 1931" },
+        { "id": 2, "text": "Lahore Session, 1929" },
+        { "id": 3, "text": "Calcutta Session, 1928" },
+        { "id": 4, "text": "Nagpur Session, 1920" }
+      ],
+      "CorrectAnswer": "Lahore Session, 1929",
+      "Explanation": "At the Lahore Session in December 1929, presided over by Jawaharlal Nehru, the INC passed the 'Purna Swaraj' resolution, declaring complete independence as its goal and deciding to celebrate January 26th as Independence Day.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 2,
+      "topic": "Nationalist Movement"
+    },
+    {
+      "category": "Indian History (1857+)",
+      "Question": "Who gave the slogan 'Do or Die' (Karenge ya Marenge) during the Quit India Movement?",
+      "Options": [
+        { "id": 1, "text": "Subhas Chandra Bose" },
+        { "id": 2, "text": "Jawaharlal Nehru" },
+        { "id": 3, "text": "Mahatma Gandhi" },
+        { "id": 4, "text": "Sardar Patel" }
+      ],
+      "CorrectAnswer": "Mahatma Gandhi",
+      "Explanation": "Mahatma Gandhi gave the 'Do or Die' call in his speech at the Gowalia Tank Maidan in Bombay on August 8, 1942, marking the beginning of the Quit India Movement.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Gandhian Era"
+    },
+    {
+      "category": "Indian History (1857+)",
+      "Question": "The Government of India Act, 1935, provided for which of the following?",
+      "Options": [
+        { "id": 1, "text": "Diarchy at the Centre" },
+        { "id": 2, "text": "Establishment of a Federal Court" },
+        { "id": 3, "text": "Provincial Autonomy" },
+        { "id": 4, "text": "All of the above" }
+      ],
+      "CorrectAnswer": "All of the above",
+      "Explanation": "The Government of India Act, 1935, was a lengthy and complex piece of legislation. Its key features included provincial autonomy, the abolition of diarchy in the provinces, the introduction of diarchy at the Centre, and the establishment of a Federal Court.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 4,
+      "topic": "Constitutional Development"
+    },{
+        "category": "Indian History (1857+)",
+        "Question": "Who founded the All-India Muslim League in 1906?",
+        "Options": [
+          { "id": 1, "text": "Muhammad Ali Jinnah" },
+          { "id": 2, "text": "Aga Khan III" },
+          { "id": 3, "text": "Sir Syed Ahmed Khan" },
+          { "id": 4, "text": "Maulana Abul Kalam Azad" }
+        ],
+        "CorrectAnswer": "Aga Khan III",
+        "Explanation": "The All-India Muslim League was founded at Dacca (now Dhaka) in 1906. A delegation led by Aga Khan III met Lord Minto, and the party was formed to protect the political rights and interests of Muslims in British India.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Nationalist Movement"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The Morley-Minto Reforms, which introduced separate electorates for Muslims, were passed in which year?",
+        "Options": [
+          { "id": 1, "text": "1905" },
+          { "id": 2, "text": "1909" },
+          { "id": 3, "text": "1919" },
+          { "id": 4, "text": "1911" }
+        ],
+        "CorrectAnswer": "1909",
+        "Explanation": "The Indian Councils Act of 1909, commonly known as the Morley-Minto Reforms, introduced separate electorates for Muslims, a move that sowed the seeds of communal politics in India.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Constitutional Development"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Mahatma Gandhi returned to India from South Africa in which year?",
+        "Options": [
+          { "id": 1, "text": "1910" },
+          { "id": 2, "text": "1912" },
+          { "id": 3, "text": "1915" },
+          { "id": 4, "text": "1917" }
+        ],
+        "CorrectAnswer": "1915",
+        "Explanation": "Mahatma Gandhi returned to India from South Africa on January 9, 1915. This day is now celebrated as 'Pravasi Bharatiya Divas' (Non-Resident Indian Day).",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The 'Lucknow Pact' of 1916 was an agreement between which two political groups?",
+        "Options": [
+          { "id": 1, "text": "Indian National Congress and the British Government" },
+          { "id": 2, "text": "Muslim League and the British Government" },
+          { "id": 3, "text": "Indian National Congress and the Muslim League" },
+          { "id": 4, "text": "Swaraj Party and the Indian National Congress" }
+        ],
+        "CorrectAnswer": "Indian National Congress and the Muslim League",
+        "Explanation": "The Lucknow Pact was an agreement reached between the Indian National Congress (led by Bal Gangadhar Tilak) and the All-India Muslim League (led by Muhammad Ali Jinnah) to work together for Hindu-Muslim unity and demand self-government.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Nationalist Movement"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who was the Viceroy of India when the Rowlatt Act was passed in 1919?",
+        "Options": [
+          { "id": 1, "text": "Lord Curzon" },
+          { "id": 2, "text": "Lord Hardinge" },
+          { "id": 3, "text": "Lord Chelmsford" },
+          { "id": 4, "text": "Lord Reading" }
+        ],
+        "CorrectAnswer": "Lord Chelmsford",
+        "Explanation": "Lord Chelmsford served as the Viceroy of India from 1916 to 1921. The infamous Rowlatt Act, which allowed for preventive detention, was passed during his tenure, leading to widespread protests.",
+        "Difficulty": "Hard",
+        "Job": "MPSC, UPSC",
+        "correctOption": 3,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The Simon Commission was boycotted by Indians because:",
+        "Options": [
+          { "id": 1, "text": "It did not include any Indian members." },
+          { "id": 2, "text": "It recommended the partition of India." },
+          { "id": 3, "text": "It opposed the idea of self-government." },
+          { "id": 4, "text": "It was appointed by the British King." }
+        ],
+        "CorrectAnswer": "It did not include any Indian members.",
+        "Explanation": "The Simon Commission, appointed in 1927 to review constitutional reforms, was vehemently boycotted by all major Indian political parties because it was an 'all-white' commission with no Indian representation.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 1,
+        "topic": "Constitutional Development"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "The Dandi March, or Salt Satyagraha, was initiated by Mahatma Gandhi in which year?",
+        "Options": [
+          { "id": 1, "text": "1928" },
+          { "id": 2, "text": "1930" },
+          { "id": 3, "text": "1931" },
+          { "id": 4, "text": "1932" }
+        ],
+        "CorrectAnswer": "1930",
+        "Explanation": "Mahatma Gandhi started the Dandi March on March 12, 1930, from Sabarmati Ashram to the coastal village of Dandi. This event marked the beginning of the Civil Disobedience Movement.",
+        "Difficulty": "Easy",
+        "Job": "MPSC, UPSC",
+        "correctOption": 2,
+        "topic": "Gandhian Era"
+      },
+      {
+        "category": "Indian History (1857+)",
+        "Question": "Who founded the 'Forward Bloc' in 1939 after resigning from the Congress presidency?",
+        "Options": [
+          { "id": 1, "text": "Jawaharlal Nehru" },
+          { "id": 2, "text": "Sardar Patel" },
+          { "id": 3, "text": "C. Rajagopalachari" },
+          { "id": 4, "text": "Subhas Chandra Bose" }
+        ],
+        "CorrectAnswer": "Subhas Chandra Bose",
+        "Explanation": "After resigning as the President of the Indian National Congress due to ideological differences with Gandhi, Subhas Chandra Bose formed the 'Forward Bloc' in 1939 as a radical faction within the Congress.",
+        "Difficulty": "Medium",
+        "Job": "MPSC, UPSC",
+        "correctOption": 4,
+        "topic": "Nationalist Movement"
+      },
+      
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Doctrine of Lapse' is most famously associated with which Governor-General?",
+          "Options": [
+            { "id": 1, "text": "Lord Canning" },
+            { "id": 2, "text": "Lord Dalhousie" },
+            { "id": 3, "text": "Lord Curzon" },
+            { "id": 4, "text": "Lord Wellesley" }
+          ],
+          "CorrectAnswer": "Lord Dalhousie",
+          "Explanation": "Lord Dalhousie, Governor-General from 1848 to 1856, aggressively implemented the 'Doctrine of Lapse' to annex Indian states like Satara, Jhansi, and Nagpur, which was a major cause of the 1857 Revolt.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Revolt of 1857"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who was the first Indian to be elected to the British House of Commons?",
+          "Options": [
+            { "id": 1, "text": "Dadabhai Naoroji" },
+            { "id": 2, "text": "Gopal Krishna Gokhale" },
+            { "id": 3, "text": "W.C. Bonnerjee" },
+            { "id": 4, "text": "Badruddin Tyabji" }
+          ],
+          "CorrectAnswer": "Dadabhai Naoroji",
+          "Explanation": "Dadabhai Naoroji, known as the 'Grand Old Man of India', was elected to the British Parliament as a Liberal Party member in 1892, becoming the first Indian MP.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 1,
+          "topic": "Indian National Congress"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Annihilation of Caste' was a famous undelivered speech written by whom?",
+          "Options": [
+            { "id": 1, "text": "Mahatma Gandhi" },
+            { "id": 2, "text": "Jyotirao Phule" },
+            { "id": 3, "text": "E.V. Ramasamy (Periyar)" },
+            { "id": 4, "text": "Dr. B.R. Ambedkar" }
+          ],
+          "CorrectAnswer": "Dr. B.R. Ambedkar",
+          "Explanation": "Dr. B.R. Ambedkar wrote 'Annihilation of Caste' in 1936 as a presidential address for a conference of the Jat-Pat Todak Mandal. The speech was so radical in its critique of Hinduism that the conference was cancelled, and he published it himself.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 4,
+          "topic": "Social Reform Movement"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "What was the main purpose of the Cripps Mission in 1942?",
+          "Options": [
+            { "id": 1, "text": "To discuss the partition of India." },
+            { "id": 2, "text": "To secure full Indian cooperation for the British war effort in WWII." },
+            { "id": 3, "text": "To grant immediate complete independence to India." },
+            { "id": 4, "text": "To arrest the leaders of the Indian National Congress." }
+          ],
+          "CorrectAnswer": "To secure full Indian cooperation for the British war effort in WWII.",
+          "Explanation": "The Cripps Mission, led by Sir Stafford Cripps, came to India in 1t 1942 to offer dominion status after the war in exchange for full Indian support in World War II. It was rejected by all major parties.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Road to Independence"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who founded the 'Ghadar Party' in San Francisco in 1913?",
+          "Options": [
+            { "id": 1, "text": "Lala Lajpat Rai" },
+            { "id": 2, "text": "Bhagat Singh" },
+            { "id": 3, "text": "Lala Hardayal" },
+            { "id": 4, "text": "V.D. Savarkar" }
+          ],
+          "CorrectAnswer": "Lala Hardayal",
+          "Explanation": "The Ghadar Party was founded by Indian immigrants, primarily Sikhs, in the United States and Canada. Lala Hardayal was a key intellectual and organizer who helped establish the party in San Francisco to liberate India from British rule.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Revolutionary Nationalism"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Direct Action Day' (16 August 1946) was a call given by which political party, leading to widespread communal riots?",
+          "Options": [
+            { "id": 1, "text": "Indian National Congress" },
+            { "id": 2, "text": "Muslim League" },
+            { "id": 3, "text": "Hindu Mahasabha" },
+            { "id": 4, "text": "Communist Party of India" }
+          ],
+          "CorrectAnswer": "Muslim League",
+          "Explanation": "The Muslim League, led by Muhammad Ali Jinnah, called for 'Direct Action Day' to demand a separate homeland of Pakistan, following the failure of the Cabinet Mission. This day triggered the 'Great Calcutta Killings' and large-scale communal violence.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Partition & Independence"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who was the author of the book 'Poverty and Un-British Rule in India', which put forward the 'drain of wealth' theory?",
+          "Options": [
+            { "id": 1, "text": "R.C. Dutt" },
+            { "id": 2, "text": "Dadabhai Naoroji" },
+            { "id": 3, "text": "Gopal Krishna Gokhale" },
+            { "id": 4, "text": "M.G. Ranade" }
+          ],
+          "CorrectAnswer": "Dadabhai Naoroji",
+          "Explanation": "In his seminal work, Dadabhai Naoroji systematically argued how British colonial policies were draining wealth from India, contributing to its poverty. This 'drain theory' became a foundational argument for the early nationalists.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Economic Impact of British Rule"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The first session of the Indian National Congress in 1885 was held in which city?",
+          "Options": [
+            { "id": 1, "text": "Calcutta" },
+            { "id": 2, "text": "Madras" },
+            { "id": 3, "text": "Poona" },
+            { "id": 4, "text": "Bombay" }
+          ],
+          "CorrectAnswer": "Bombay",
+          "Explanation": "The first session of the INC was originally scheduled for Poona but was moved to Bombay (now Mumbai) due to a cholera outbreak. It was held at Gokuldas Tejpal Sanskrit College.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, UPSC",
+          "correctOption": 4,
+          "topic": "Indian National Congress"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Aligarh Movement' for social and educational reform among Muslims was founded by whom?",
+          "Options": [
+            { "id": 1, "text": "Sir Syed Ahmed Khan" },
+            { "id": 2, "text": "Muhammad Ali Jinnah" },
+            { "id": 3, "text": "Aga Khan" },
+            { "id": 4, "text": "Maulana Azad" }
+          ],
+          "CorrectAnswer": "Sir Syed Ahmed Khan",
+          "Explanation": "Sir Syed Ahmed Khan founded the Aligarh Movement, which led to the establishment of the Muhammadan Anglo-Oriental College in 1875 (later Aligarh Muslim University), to promote modern education and scientific thought among Muslims.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 1,
+          "topic": "Social Reform Movement"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The infamous 'Komagata Maru' incident (1914) involved a ship of Indian immigrants being turned away from which country?",
+          "Options": [
+            { "id": 1, "text": "USA" },
+            { "id": 2, "text": "Great Britain" },
+            { "id": 3, "text": "Canada" },
+            { "id": 4, "text": "South Africa" }
+          ],
+          "CorrectAnswer": "Canada",
+          "Explanation": "The Komagata Maru was a Japanese ship chartered by Gurdit Singh to carry 376 Indian passengers to Canada. They were denied entry at Vancouver due to discriminatory immigration laws and forced to return to India, where many were shot or arrested upon arrival.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Revolutionary Nationalism"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who was the first President of the Indian National Congress?",
+          "Options": [
+            { "id": 1, "text": "A.O. Hume" },
+            { "id": 2, "text": "Dadabhai Naoroji" },
+            { "id": 3, "text": "W.C. Bonnerjee" },
+            { "id": 4, "text": "Badruddin Tyabji" }
+          ],
+          "CorrectAnswer": "W.C. Bonnerjee",
+          "Explanation": "Womesh Chunder Bonnerjee, a barrister from Calcutta, was the president of the first session of the Indian National Congress held in Bombay in December 1885.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Indian National Congress"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The Montagu-Chelmsford Reforms, which introduced 'Diarchy' in the provinces, were enacted in which year?",
+          "Options": [
+            { "id": 1, "text": "1909" },
+            { "id": 2, "text": "1919" },
+            { "id": 3, "text": "1921" },
+            { "id": 4, "text": "1923" }
+          ],
+          "CorrectAnswer": "1919",
+          "Explanation": "The Government of India Act of 1919, based on the Montagu-Chelmsford Report, introduced a system of 'diarchy' (dual governance) in the provinces, dividing subjects into 'reserved' (for the Governor) and 'transferred' (for Indian ministers).",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Constitutional Development"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Mahatma Gandhi's first major public appearance and speech in India was at the opening of which university in 1916?",
+          "Options": [
+            { "id": 1, "text": "Aligarh Muslim University" },
+            { "id": 2, "text": "Banaras Hindu University" },
+            { "id": 3, "text": "Calcutta University" },
+            { "id": 4, "text": "University of Bombay" }
+          ],
+          "CorrectAnswer": "Banaras Hindu University",
+          "Explanation": "In February 1916, Gandhi was invited to speak at the inauguration of the Banaras Hindu University (BHU). His speech, which criticized the elite and the British, was controversial and marked his arrival in Indian politics.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Gandhian Era"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The Bardoli Satyagraha (1928), a successful 'no-tax' campaign, was led by whom?",
+          "Options": [
+            { "id": 1, "text": "Mahatma Gandhi" },
+            { "id": 2, "text": "Sardar Vallabhbhai Patel" },
+            { "id": 3, "text": "Jawaharlal Nehru" },
+            { "id": 4, "text": "Vinoba Bhave" }
+          ],
+          "CorrectAnswer": "Sardar Vallabhbhai Patel",
+          "Explanation": "Vallabhbhai Patel led the farmers of Bardoli, Gujarat, in a successful satyagraha against an unjust tax hike by the British. His effective leadership earned him the title 'Sardar' from the women of Bardoli (and later, Gandhi).",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Gandhian Era"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who was the Viceroy of India when the Partition of Bengal was annulled in 1911?",
+          "Options": [
+            { "id": 1, "text": "Lord Curzon" },
+            { "id": 2, "text": "Lord Minto" },
+            { "id": 3, "text": "Lord Hardinge" },
+            { "id": 4, "text": "Lord Chelmsford" }
+          ],
+          "CorrectAnswer": "Lord Hardinge",
+          "Explanation": "The Partition of Bengal was annulled in 1911 by Lord Hardinge during the Delhi Durbar, where King George V also announced the shifting of the capital from Calcutta to Delhi. This was seen as a victory for the Swadeshi movement.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Nationalist Movement"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Khilafat Movement' was launched to protest against the treatment of the Caliph of which country after WWI?",
+          "Options": [
+            { "id": 1, "text": "Saudi Arabia" },
+            { "id": 2, "text": "Turkey" },
+            { "id": 3, "text": "Persia (Iran)" },
+            { "id": 4, "text": "Egypt" }
+          ],
+          "CorrectAnswer": "Turkey",
+          "Explanation": "The Khilafat Movement (1919-1924) was launched by Indian Muslims (led by the Ali brothers) to protest the dismemberment of the Ottoman Empire and the abolition of the Caliphate (Khalifa) of Turkey by the victorious Allied powers.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Gandhian Era"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who founded the 'Hindustan Socialist Republican Association' (HSRA) in 1928?",
+          "Options": [
+            { "id": 1, "text": "Bhagat Singh and Chandra Shekhar Azad" },
+            { "id": 2, "text": "Subhas Chandra Bose" },
+            { "id": 3, "text": "Ram Prasad Bismil" },
+            { "id": 4, "text": "Lala Hardayal" }
+          ],
+          "CorrectAnswer": "Bhagat Singh and Chandra Shekhar Azad",
+          "Explanation": "The Hindustan Republican Association (HRA) was reorganized as the Hindustan Socialist Republican Association (HSRA) in 1In 1928 at a meeting in Feroz Shah Kotla, Delhi, by revolutionaries including Bhagat Singh and Chandra Shekhar Azad, adopting socialism as their goal.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 1,
+          "topic": "Revolutionary Nationalism"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Nehru Report' (1928) was drafted in response to what challenge from the British?",
+          "Options": [
+            { "id": 1, "text": "The Rowlatt Act" },
+            { "id": 2, "text": "The Simon Commission" },
+            { "id": 3, "text": "The Morley-Minto Reforms" },
+            { "id": 4, "text": "The Cripps Mission" }
+          ],
+          "CorrectAnswer": "The Simon Commission",
+          "Explanation": "When Indians boycotted the all-white Simon Commission, Lord Birkenhead challenged them to produce their own consensus-based constitution. The 'Nehru Report', authored by a committee led by Motilal Nehru, was the response, demanding dominion status.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Constitutional Development"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Gandhi-Irwin Pact' of 1931 led to the suspension of which movement?",
+          "Options": [
+            { "id": 1, "text": "Non-Cooperation Movement" },
+            { "id": 2, "text": "Quit India Movement" },
+            { "id": 3, "text": "Civil Disobedience Movement" },
+            { "id": 4, "text": "Khilafat Movement" }
+          ],
+          "CorrectAnswer": "Civil Disobedience Movement",
+          "Explanation": "The Gandhi-Irwin Pact was signed in March 1931. As part of the agreement, Mahatma Gandhi agreed to suspend the Civil Disobedience Movement and attend the Second Round Table Conference in London.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Gandhian Era"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who was the first woman President of the Indian National Congress?",
+          "Options": [
+            { "id": 1, "text": "Sarojini Naidu" },
+            { "id": 2, "text": "Annie Besant" },
+            { "id": 3, "text": "Kasturba Gandhi" },
+            { "id": 4, "text": "Indira Gandhi" }
+          ],
+          "CorrectAnswer": "Annie Besant",
+          "Explanation": "Annie Besant, a prominent Theosophist and leader of the Home Rule League, was elected as the first woman President of the INC at its Calcutta session in 1917.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Indian National Congress"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Communal Award' (1932), granting separate electorates to depressed classes, was announced by which British Prime Minister?",
+          "Options": [
+            { "id": 1, "text": "Winston Churchill" },
+            { "id": 2, "text": "Clement Attlee" },
+            { "id": 3, "text": "Neville Chamberlain" },
+            { "id": 4, "text": "Ramsay MacDonald" }
+          ],
+          "CorrectAnswer": "Ramsay MacDonald",
+          "Explanation": "In August 1932, British Prime Minister Ramsay MacDonald announced the 'Communal Award', extending separate electorates to depressed classes. This led to Mahatma Gandhi's 'fast unto death' and the subsequent Poona Pact.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 4,
+          "topic": "Constitutional Development"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "What was the main resolution passed at the Haripura Session of the INC (1938), presided over by Subhas Chandra Bose?",
+          "Options": [
+            { "id": 1, "text": "To launch the Quit India Movement." },
+            { "id": 2, "text": "To form a National Planning Committee." },
+            { "id": 3, "text": "To accept the dominion status offered by the British." },
+            { "id": 4, "text": "To support Britain in World War II." }
+          ],
+          "CorrectAnswer": "To form a National Planning Committee.",
+          "Explanation": "A key development at the Haripura session was the passing of a resolution to set up a National Planning Committee, with Jawaharlal Nehru as its chairman, to work on a blueprint for India's economic development after independence.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Nationalist Movement"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Indian National Army' (INA) was first formed by whom in 1942?",
+          "Options": [
+            { "id": 1, "text": "Subhas Chandra Bose" },
+            { "id": 2, "text": "Rash Behari Bose" },
+            { "id": 3, "text": "Captain Mohan Singh" },
+            { "id": 4, "text": "Shah Nawaz Khan" }
+          ],
+          "CorrectAnswer": "Captain Mohan Singh",
+          "Explanation": "The idea of the INA was first conceived by Captain Mohan Singh, an Indian officer in the British army who was captured by the Japanese in Malaya. He formed the first INA with Indian prisoners of war.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Road to Independence"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who was the last Viceroy of British India and the first Governor-General of independent India?",
+          "Options": [
+            { "id": 1, "text": "Lord Wavell" },
+            { "id": 2, "text": "Lord Mountbatten" },
+            { "id": 3, "text": "C. Rajagopalachari" },
+            { "id": 4, "text": "Lord Linlithgow" }
+          ],
+          "CorrectAnswer": "Lord Mountbatten",
+          "Explanation": "Lord Mountbatten served as the last Viceroy, overseeing the transfer of power and partition. He was then appointed as the first Governor-General of the Dominion of India, serving from 1947 to 1948.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Partition & Independence"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Bhoodan Movement', or land-gift movement, was initiated by whom in post-independence India?",
+          "Options": [
+            { "id": 1, "text": "Mahatma Gandhi" },
+            { "id": 2, "text": "Jawaharlal Nehru" },
+            { "id": 3, "text": "Jayaprakash Narayan" },
+            { "id": 4, "text": "Acharya Vinoba Bhave" }
+          ],
+          "CorrectAnswer": "Acharya Vinoba Bhave",
+          "Explanation": "In 1951, Acharya Vinoba Bhave started the Bhoodan Movement in Pochampally, Telangana, persuading wealthy landowners to voluntarily donate a portion of their land to be redistributed to landless peasants.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 4,
+          "topic": "Post-Independence India"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "What was the 'Ilbert Bill' controversy (1883) about?",
+          "Options": [
+            { "id": 1, "text": "Banning child marriage." },
+            { "id": 2, "text": "Allowing Indian judges to try European subjects." },
+            { "id": 3, "text": "Imposing censorship on the vernacular press." },
+            { "id": 4, "text": "Introducing separate electorates." }
+          ],
+          "CorrectAnswer": "Allowing Indian judges to try European subjects.",
+          "Explanation": "The Ilbert Bill, introduced by Lord Ripon's government, sought to remove racial discrimination in the judiciary by allowing Indian judges to preside over cases involving Europeans. It faced intense opposition from the European community and was eventually withdrawn.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Pre-Congress Era"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who founded the 'Servants of India Society' in 1905?",
+          "Options": [
+            { "id": 1, "text": "Gopal Krishna Gokhale" },
+            { "id": 2, "text": "Bal Gangadhar Tilak" },
+            { "id": 3, "text": "Lala Lajpat Rai" },
+            { "id": 4, "text": "M.G. Ranade" }
+          ],
+          "CorrectAnswer": "Gopal Krishna Gokhale",
+          "Explanation": "Gopal Krishna Gokhale, a prominent 'Moderate' leader, founded the Servants of India Society in Pune to train a dedicated cadre of selfless workers for the cause of the nation.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 1,
+          "topic": "Indian National Congress"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Home Rule League' movement (1916) was started by Bal Gangadhar Tilak and whom?",
+          "Options": [
+            { "id": 1, "text": "Sarojini Naidu" },
+            { "id": 2, "text": "Motilal Nehru" },
+            { "id": 3, "text": "Annie Besant" },
+            { "id": 4, "text": "C.R. Das" }
+          ],
+          "CorrectAnswer": "Annie Besant",
+          "Explanation": "The Home Rule League movement was launched on parallel lines by Bal Gangadhar Tilak (in Pune) and Annie Besant (in Madras) in 1916, demanding 'Home Rule' or self-government for India within the British Empire.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Nationalist Movement"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Kakori Conspiracy' (1925) was a train robbery aimed at looting British government funds, organized by which revolutionary group?",
+          "Options": [
+            { "id": 1, "text": "Ghadar Party" },
+            { "id": 2, "text": "Hindustan Republican Association (HRA)" },
+            { "id": 3, "text": "Anushilan Samiti" },
+            { "id": 4, "text": "India House" }
+          ],
+          "CorrectAnswer": "Hindustan Republican Association (HRA)",
+          "Explanation": "The Kakori Conspiracy was a train robbery carried out by members of the HRA, including Ram Prasad Bismil, Ashfaqulla Khan, and Roshan Singh, to fund their revolutionary activities. They were subsequently tried and executed.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Revolutionary Nationalism"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "At which Round Table Conference did Mahatma Gandhi represent the Indian National Congress?",
+          "Options": [
+            { "id": 1, "text": "First Round Table Conference" },
+            { "id": 2, "text": "Second Round Table Conference" },
+            { "id": 3, "text": "Third Round Table Conference" },
+            { "id": 4, "text": "All of them" }
+          ],
+          "CorrectAnswer": "Second Round Table Conference",
+          "Explanation": "Following the Gandhi-Irwin Pact, Mahatma Gandhi attended the Second Round Table Conference in London in 1931 as the sole representative of the Congress. The talks failed, and he returned to India to resume the Civil Disobedience Movement.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Gandhian Era"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who was the first Indian Governor-General of independent India?",
+          "Options": [
+            { "id": 1, "text": "Lord Mountbatten" },
+            { "id": 2, "text": "Dr. Rajendra Prasad" },
+            { "id": 3, "text": "C. Rajagopalachari" },
+            { "id": 4, "text": "Sardar Patel" }
+          ],
+          "CorrectAnswer": "C. Rajagopalachari",
+          "Explanation": "After Lord Mountbatten stepped down in 1948, Chakravarti Rajagopalachari (Rajaji) became the first and only Indian Governor-General of India, holding the office until India became a republic in 1950.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Post-Independence India"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Vernacular Press Act' of 1878, which curbed the freedom of the Indian-language press, was passed by which Viceroy?",
+          "Options": [
+            { "id": 1, "text": "Lord Lytton" },
+            { "id": 2, "text": "Lord Ripon" },
+            { "id": 3, "text": "Lord Curzon" },
+            { "id": 4, "text": "Lord Dufferin" }
+          ],
+          "CorrectAnswer": "Lord Lytton",
+          "Explanation": "Lord Lytton, known for his reactionary policies, passed the 'Vernacular Press Act' in 1878 to suppress criticism in the local language newspapers. It was later repealed by Lord Ripon.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 1,
+          "topic": "Pre-Congress Era"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Surat Split' (1907) in the Indian National Congress occurred over differences between which two groups?",
+          "Options": [
+            { "id": 1, "text": "Congress and Muslim League" },
+            { "id": 2, "text": "Moderates and Extremists" },
+            { "id": 3, "text": "Pro-partition and Anti-partition factions" },
+            { "id": 4, "text": "Gandhians and Revolutionaries" }
+          ],
+          "CorrectAnswer": "Moderates and Extremists",
+          "Explanation": "At the Surat session in 1907, the INC split into two factions: the Moderates (led by Gokhale) and the Extremists (led by Tilak), due to disagreements over the Swadeshi movement and the future course of action.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Indian National Congress"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Mahatma Gandhi's 'Champaran Satyagraha' (1917) was launched to address the grievances of whom?",
+          "Options": [
+            { "id": 1, "text": "Mill workers in Ahmedabad" },
+            { "id": 2, "text": "Peasants in Kheda" },
+            { "id": 3, "text": "Indigo farmers" },
+            { "id": 4, "text": "Victims of the Rowlatt Act" }
+          ],
+          "CorrectAnswer": "Indigo farmers",
+          "Explanation": "The Champaran Satyagraha was Gandhi's first satyagraha in India. He went to Champaran, Bihar, to support the indigo farmers who were being forced by European planters to cultivate indigo under the oppressive 'tinkathia' system.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Gandhian Era"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who founded the 'Ramakrishna Mission' in 1897, based on the teachings of Ramakrishna Paramahamsa?",
+          "Options": [
+            { "id": 1, "text": "Swami Vivekananda" },
+            { "id": 2, "text": "Dayananda Saraswati" },
+            { "id": 3, "text": "Raja Ram Mohan Roy" },
+            { "id": 4, "text": "Aurobindo Ghosh" }
+          ],
+          "CorrectAnswer": "Swami Vivekananda",
+          "Explanation": "Swami Vivekananda, the chief disciple of Sri Ramakrishna Paramahamsa, founded the Ramakrishna Mission to carry out humanitarian relief and social work, based on the principles of Vedanta.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, UPSC",
+          "correctOption": 1,
+          "topic": "Social Reform Movement"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Cabinet Mission' of 1946, which proposed a plan for the transfer of power, consisted of three British cabinet members. Who was NOT one of them?",
+          "Options": [
+            { "id": 1, "text": "Lord Pethick-Lawrence" },
+            { "id": 2, "text": "Sir Stafford Cripps" },
+            { "id": 3, "text": "A.V. Alexander" },
+            { "id": 4, "text": "Lord Wavell" }
+          ],
+          "CorrectAnswer": "Lord Wavell",
+          "Explanation": "The Cabinet Mission comprised Lord Pethick-Lawrence (Secretary of State for India), Sir Stafford Cripps (President of the Board of Trade), and A.V. Alexander (First Lord of the Admiralty). Lord Wavell was the Viceroy at the time but not a member of the mission.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 4,
+          "topic": "Road to Independence"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who was the 'political guru' of Mahatma Gandhi?",
+          "Options": [
+            { "id": 1, "text": "Bal Gangadhar Tilak" },
+            { "id": 2, "text": "Dadabhai Naoroji" },
+            { "id": 3, "text": "Gopal Krishna Gokhale" },
+            { "id": 4, "text": "M.G. Ranade" }
+          ],
+          "CorrectAnswer": "Gopal Krishna Gokhale",
+          "Explanation": "Mahatma Gandhi regarded Gopal Krishna Gokhale as his 'political guru'. On returning to India, Gandhi was advised by Gokhale to travel across India for a year to understand the country and its people before entering politics.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Gandhian Era"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'August Declaration' of 1917, which promised 'responsible government' for India, was made by whom?",
+          "Options": [
+            { "id": 1, "text": "Edwin Montagu" },
+            { "id": 2, "text": "Lord Chelmsford" },
+            { "id": 3, "text": "Lord Morley" },
+            { "id": 4, "text": "King George V" }
+          ],
+          "CorrectAnswer": "Edwin Montagu",
+          "Explanation": "In August 1917, Edwin Montagu, the Secretary of State for India, made a historic declaration in the House of Commons, stating the British government's policy was the 'gradual development of self-governing institutions' in India.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 1,
+          "topic": "Constitutional Development"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Lahore Conspiracy Case' (1929) was the trial of Bhagat Singh and his comrades for which act?",
+          "Options": [
+            { "id": 1, "text": "The Kakori train robbery." },
+            { "id": 2, "text": "Throwing a bomb in the Central Legislative Assembly." },
+            { "id": 3, "text": "The assassination of J.P. Saunders." },
+            { "id": 4, "text": "An attempt to assassinate Lord Hardinge." }
+          ],
+          "CorrectAnswer": "The assassination of J.P. Saunders.",
+          "Explanation": "Bhagat Singh, Rajguru, and Azad assassinated J.P. Saunders, a British police officer, in 1928, mistaking him for James Scott, who had ordered the lathi-charge that killed Lala Lajpat Rai. This act led to the Lahore Conspiracy Case.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Revolutionary Nationalism"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who founded the 'Arya Samaj' in 1875 with the call 'Go back to the Vedas'?",
+          "Options": [
+            { "id": 1, "text": "Raja Ram Mohan Roy" },
+            { "id": 2, "text": "Dayananda Saraswati" },
+            { "id": 3, "text": "Ishwar Chandra Vidyasagar" },
+            { "id": 4, "text": "Keshab Chandra Sen" }
+          ],
+          "CorrectAnswer": "Dayananda Saraswati",
+          "Explanation": "Swami Dayananda Saraswati founded the Arya Samaj as a reform movement to reject idolatry and ritualism, and to re-establish the authority of the Vedas as infallible.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Social Reform Movement"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Individual Satyagraha' (1940) was launched by Gandhi, and he chose whom as the first satyagrahi?",
+          "Options": [
+            { "id": 1, "text": "Sardar Patel" },
+            { "id": 2, "text": "Jawaharlal Nehru" },
+            { "id": 3, "text": "Acharya Vinoba Bhave" },
+            { "id": 4, "text": "C. Rajagopalachari" }
+          ],
+          "CorrectAnswer": "Acharya Vinoba Bhave",
+          "Explanation": "Instead of a mass movement, Gandhi launched the 'Individual Satyagraha' to protest British dragging India into WWII. He chose Acharya Vinoba Bhave as the first satyagrahi to offer an anti-war speech, followed by Jawaharlal Nehru.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Gandhian Era"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who was the first woman to become a graduate of Calcutta University (and the British Empire) in 1882?",
+          "Options": [
+            { "id": 1, "text": "Anandi Gopal Joshi" },
+            { "id": 2, "text": "Pandita Ramabai" },
+            { "id": 3, "text": "Kadambini Ganguly" },
+            { "id": 4, "text": "Sarojini Naidu" }
+          ],
+          "CorrectAnswer": "Kadambini Ganguly",
+          "Explanation": "Kadambini Ganguly and Chandramukhi Basu were the first two female graduates from Calcutta University in 1882. Kadambini Ganguly later became one of the first female physicians in South Asia and also addressed the INC session in 1890.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Social Reform Movement"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The newspaper 'New India' and 'Commonweal' were started by whom to promote the Home Rule movement?",
+          "Options": [
+            { "id": 1, "text": "Bal Gangadhar Tilak" },
+            { "id": 2, "text": "Annie Besant" },
+            { "id": 3, "text": "Gopal Krishna Gokhale" },
+            { "id": 4, "text": "Subhas Chandra Bose" }
+          ],
+          "CorrectAnswer": "Annie Besant",
+          "Explanation": "Annie Besant used her newspapers, 'New India' and 'Commonweal', as the primary vehicles for spreading the ideals of the Home Rule League and demanding self-government for India.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Nationalist Movement"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Mountbatten Plan' of 3rd June 1947 was the plan for what?",
+          "Options": [
+            { "id": 1, "text": "The integration of princely states." },
+            { "id": 2, "text": "The partition of India and transfer of power." },
+            { "id": 3, "text": "The formation of the Constituent Assembly." },
+            { "id": 4, "text": "The trial of INA soldiers." }
+          ],
+          "CorrectAnswer": "The partition of India and transfer of power.",
+          "Explanation": "The 3rd June Plan, or Mountbatten Plan, laid out the clear procedure for the partition of British India into two dominions, India and Pakistan, and the rapid transfer of power to them.",
+          "Difficulty": "Easy",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Partition & Independence"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Swaraj Party' (1923) was formed by C.R. Das and whom, to advocate for 'council entry'?",
+          "Options": [
+            { "id": 1, "text": "Jawaharlal Nehru" },
+            { "id": 2, "text": "Sardar Patel" },
+            { "id": 3, "text": "Motilal Nehru" },
+            { "id": 4, "text": "Rajendra Prasad" }
+          ],
+          "CorrectAnswer": "Motilal Nehru",
+          "Explanation": "After the suspension of the Non-Cooperation Movement, C.R. Das and Motilal Nehru formed the Swaraj Party to contest elections and enter the legislative councils, aiming to 'wreck the system from within'.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Gandhian Era"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who led the 'Vaikom Satyagraha' (1924-25) in Kerala for the right of lower castes to use a temple road?",
+          "Options": [
+            { "id": 1, "text": "E.V. Ramasamy (Periyar)" },
+            { "id": 2, "text": "Sree Narayana Guru" },
+            { "id": 3, "text": "K. Kelappan" },
+            { "id": 4, "text": "C. Rajagopalachari" }
+          ],
+          "CorrectAnswer": "K. Kelappan",
+          "Explanation": "The Vaikom Satyagraha was a landmark movement for temple entry rights. While it saw participation from leaders like Periyar and Gandhi, it was initiated and led by K. Kelappan, along with T.K. Madhavan.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Social Reform Movement"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Operation Polo' in 1948 led to the integration of which princely state into India?",
+          "Options": [
+            { "id": 1, "text": "Kashmir" },
+            { "id": 2, "text": "Junagadh" },
+            { "id": 3, "text": "Hyderabad" },
+            { "id": 4, "text": "Travancore" }
+          ],
+          "CorrectAnswer": "Hyderabad",
+          "Explanation": "Operation Polo was the code name for the police action by the Indian Army against the princely state of Hyderabad, ruled by the Nizam. The operation was successful, and Hyderabad was annexed into the Indian Union.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Post-Independence India"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Tebhaga Movement' (1946) in Bengal was a demand by sharecroppers for what?",
+          "Options": [
+            { "id": 1, "text": "Full ownership of the land." },
+            { "id": 2, "text": "Two-thirds share of the crop instead of half." },
+            { "id": 3, "text": "Abolition of the Zamindari system." },
+            { "id": 4, "text": "Cancellation of all debts." }
+          ],
+          "CorrectAnswer": "Two-thirds share of the crop instead of half.",
+          "Explanation": "The Tebhaga Movement was a sharecroppers' (bargadars) agitation, primarily in Bengal, demanding 'tebhaga' or two-thirds of the produce for themselves, reducing the landowners' (jotedars) share from half to one-third.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 2,
+          "topic": "Peasant Movements"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "Who gave the slogan 'Inquilab Zindabad' (Long Live the Revolution), which became a symbol of the freedom struggle?",
+          "Options": [
+            { "id": 1, "text": "Bhagat Singh" },
+            { "id": 2, "text": "Chandra Shekhar Azad" },
+            { "id": 3, "text": "Subhas Chandra Bose" },
+            { "id": 4, "text": "Hasrat Mohani" }
+          ],
+          "CorrectAnswer": "Hasrat Mohani",
+          "Explanation": "While Bhagat Singh and his comrades popularized the slogan, 'Inquilab Zindabad' was originally coined by the Urdu poet and freedom fighter, Maulana Hasrat Mohani, in 1921.",
+          "Difficulty": "Hard",
+          "Job": "MPSC, UPSC",
+          "correctOption": 4,
+          "topic": "Revolutionary Nationalism"
+        },
+        {
+          "category": "Indian History (1857+)",
+          "Question": "The 'Wavell Plan' and the Simla Conference took place in which year?",
+          "Options": [
+            { "id": 1, "text": "1942" },
+            { "id": 2, "text": "1944" },
+            { "id": 3, "text": "1945" },
+            { "id": 4, "text": "1946" }
+          ],
+          "CorrectAnswer": "1945",
+          "Explanation": "In June 1945, Viceroy Lord Wavell proposed the Wavell Plan, which included an all-Indian Executive Council (except for the Viceroy and C-in-C). The Simla Conference was held to discuss these proposals with Indian leaders, but it failed due to disagreements between the Congress and the Muslim League.",
+          "Difficulty": "Medium",
+          "Job": "MPSC, UPSC",
+          "correctOption": 3,
+          "topic": "Road to Independence"
+        }
+      
+  ]

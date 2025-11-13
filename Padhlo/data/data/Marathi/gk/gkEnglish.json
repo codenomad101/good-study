@@ -1,0 +1,3727 @@
+[
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements about Gopal Ganesh Agarkar:\n1. He was the first editor of the newspaper 'Kesari'.\n2. He later started his own newspaper named 'Sudharak'.\n3. He prioritized political reform over social reform.",
+      "Options": [
+        { "id": 1, "text": "1 only" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) and (2) are correct. (3) is incorrect; Agarkar had a famous ideological split with Tilak, as Agarkar believed social reform was *more* important and should precede political reform.",
+      "Difficulty": "Hard",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 2,
+      "topic": "Social Reformers of Maharashtra"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following statements about Jyotirao Phule are correct?\n1. He founded the 'Satyashodhak Samaj' in 1873.\n2. He wrote the book 'Gulamgiri' (Slavery).\n3. 'Gulamgiri' primarily focused on criticizing British economic policies.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) and (2) are correct. The Satyashodhak Samaj opposed caste discrimination, and 'Gulamgiri' was a powerful critique of the caste system. (3) is incorrect; while Phule was critical of exploitation, 'Gulamgiri' specifically focused on the caste system and linked it to slavery.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 1,
+      "topic": "Social Reformers of Maharashtra"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements about the geography of Maharashtra:\n1. The Godavari River originates at Trimbakeshwar in Nashik.\n2. The Narmada River originates at Mahabaleshwar in Satara.\n3. The Tapi is a major west-flowing river that flows through Maharashtra.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 3 only",
+      "Explanation": "(1) and (3) are correct. (2) is incorrect; the *Krishna* River originates at Mahabaleshwar. The Narmada originates at Amarkantak in Madhya Pradesh.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 3,
+      "topic": "Maharashtra Geography"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following vitamin deficiency pairings are correct?\n1. Vitamin B1 - Beriberi\n2. Vitamin C - Scurvy\n3. Vitamin K - Night Blindness",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) and (2) are correct. Deficiency of Vitamin B1 (Thiamine) causes Beriberi. Deficiency of Vitamin C causes Scurvy. (3) is incorrect; Night Blindness is caused by Vitamin *A* deficiency. Vitamin K is essential for blood clotting.",
+      "Difficulty": "Easy",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 1,
+      "topic": "General Science (Biology)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements about the key Schedules of the Indian Constitution:\n1. The 1st Schedule lists the States and Union Territories.\n2. The 3rd Schedule contains the forms of Oaths or Affirmations.\n3. The 11th Schedule deals with Municipalities.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) and (2) are correct. (3) is incorrect; the 11th Schedule deals with *Panchayats* (added by 73rd Amendment). The 12th Schedule deals with Municipalities (added by 74th Amendment).",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 1,
+      "topic": "Indian Polity"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Regarding Dr. B.R. Ambedkar, which of the following statements are true?\n1. He was born in Mhow, Madhya Pradesh.\n2. He served as India's first Law Minister.\n3. He embraced Buddhism along with many followers in 1956 in Nagpur.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct facts about Dr. Ambedkar's life and career.",
+      "Difficulty": "Easy",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Social Reformers of Maharashtra"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements about common substances:\n1. Baking soda is Sodium Bicarbonate (NaHCO₃).\n2. Washing soda is Sodium Carbonate (Na₂CO₃).\n3. Common salt is Sodium Chloride (NaCl).",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1 and 3 only" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements correctly identify the chemical names and formulas for these common household substances.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 1,
+      "topic": "General Science (Chemistry)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Regarding the administrative divisions of Maharashtra, which statements are correct?\n1. Pune division has the highest number of districts.\n2. Nagpur is designated as the second capital of Maharashtra.\n3. Amravati division comprises the western part of the Vidarbha region.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "2 and 3 only",
+      "Explanation": "(2) and (3) are correct. (1) is incorrect; The *Aurangabad* (Chh. Sambhaji Nagar) division has the highest number of districts (8). Pune division has 5 districts.",
+      "Difficulty": "Hard",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 2,
+      "topic": "Maharashtra Geography"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following Directive Principles of State Policy (DPSP):\n1. Article 44 deals with the Uniform Civil Code for citizens.\n2. Article 48A deals with the protection and improvement of the environment.\n3. Article 51 deals with the promotion of international peace and security.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements correctly identify the subject matter of these important DPSPs. Art 48A was added by the 42nd Amendment.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Indian Polity"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following units are correctly matched with the quantities they measure?\n1. Light Year - Distance\n2. Pascal - Pressure\n3. Hertz - Frequency",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three are correct. A Light Year is the distance light travels in a year (used in astronomy). Pascal (N/m²) is the SI unit of Pressure. Hertz (cycles per second) is the SI unit of Frequency.",
+      "Difficulty": "Easy",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "General Science (Physics)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements about the Prarthana Samaj:\n1. It focused primarily on religious reform, ignoring social issues.\n2. M.G. Ranade was one of its prominent leaders.\n3. It was mainly active in the Bengal region.",
+      "Options": [
+        { "id": 1, "text": "1 only" },
+        { "id": 2, "text": "2 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "2 and 3 only" }
+      ],
+      "CorrectAnswer": "2 only",
+      "Explanation": "(2) is correct; Justice M.G. Ranade was a key figure who joined later and provided intellectual leadership. (1) is incorrect; it strongly advocated social reforms like inter-caste marriage, widow remarriage, and women's education. (3) is incorrect; it was founded and mainly active in *Bombay* (Maharashtra).",
+      "Difficulty": "Hard",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 2,
+      "topic": "Socio-Religious Movements"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following Indian organization headquarters are correctly matched?\n1. DRDO - New Delhi\n2. NABARD - Mumbai\n3. SIDBI - Lucknow",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1 and 3 only" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three are correct. Defence Research and Development Organisation (DRDO) is headquartered in New Delhi. National Bank for Agriculture and Rural Development (NABARD) is in Mumbai. Small Industries Development Bank of India (SIDBI) is in Lucknow.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 1,
+      "topic": "Organizations and Headquarters"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements about the Konkan region:\n1. It includes the districts of Mumbai City and Mumbai Suburban.\n2. Ratnagiri and Sindhudurg districts are part of this region.\n3. It is known for having the highest population density in Maharashtra.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. The Konkan division includes the coastal districts from Palghar to Sindhudurg, including the highly urbanized Mumbai region, which gives it the highest population density among Maharashtra's divisions.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Maharashtra Geography"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following statements are correct?\n1. The study of insects is called Entomology.\n2. The study of birds is called Ornithology.\n3. The study of fungi is called Mycology.",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1 and 3 only" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements correctly identify the branches of biology.",
+      "Difficulty": "Easy",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 1,
+      "topic": "General Science (Biology)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Regarding the 74th Constitutional Amendment Act (Municipalities), which statements are true?\n1. It added a new part, Part IX-A, to the Constitution.\n2. It provides for three types of municipalities: Nagar Panchayat, Municipal Council, and Municipal Corporation.\n3. It mandates the creation of Ward Committees in larger municipalities.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. The 74th Amendment constitutionalized urban local bodies, adding Part IX-A and the 12th Schedule. It provides for the three types based on area transition/size and mandates Ward Committees for municipalities with a population of 3 lakh or more.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Indian Polity"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements about Bal Gangadhar Tilak:\n1. He famously declared, 'Swaraj is my birthright and I shall have it!'.\n2. He organized the Shivaji and Ganesh festivals to mobilize the masses.\n3. He was a prominent leader of the 'Moderate' faction within the Congress.",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1 and 3 only" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) and (2) are correct; these are iconic aspects of Tilak's role in the freedom struggle. (3) is incorrect; Tilak was the foremost leader of the *'Extremist'* faction, advocating a more assertive approach than the Moderates.",
+      "Difficulty": "Easy",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 2,
+      "topic": "Maharashtra History"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Regarding energy transformation, which statements are correct?\n1. A microphone converts sound energy into electrical energy.\n2. A loudspeaker converts electrical energy into sound energy.\n3. A solar cell converts light energy into electrical energy.",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1 and 3 only" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements correctly describe the energy conversions happening in these devices.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 1,
+      "topic": "General Science (Physics)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following statements about Maharashtra's mountain ranges are correct?\n1. The Satpura range forms the northern boundary of Maharashtra.\n2. The Sahyadri range runs parallel to the coastline.\n3. The Mahadeo range is an eastward extension originating near Mahabaleshwar.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are geographically correct regarding the major ranges within or bordering Maharashtra.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Maharashtra Geography"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements about Fundamental Duties (Part IV-A):\n1. They were added by the 42nd Amendment (1976) based on Swaran Singh Committee recommendations.\n2. Originally there were 10 Fundamental Duties; the 11th was added later.\n3. Voting in elections is explicitly listed as a Fundamental Duty.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1 and 2 only",
+      "Explanation": "(1) and (2) are correct. The 11th duty (related to education) was added by the 86th Amendment, 2002. (3) is incorrect; while important, voting is *not* explicitly mentioned in Article 51A.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 1,
+      "topic": "Indian Polity"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following statements are correct about metals?\n1. Most metals are good conductors of heat and electricity.\n2. Most metals are malleable (can be beaten into sheets) and ductile (can be drawn into wires).\n3. Sodium and Potassium are highly reactive metals stored under kerosene.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements describe key physical and chemical properties of metals. Sodium and Potassium react vigorously with air and water, hence stored under kerosene.",
+      "Difficulty": "Easy",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "General Science (Chemistry)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following statements about Maharshi Vitthal Ramji Shinde are correct?\n1. He founded the 'Depressed Classes Mission' in 1906.\n2. He worked extensively for the removal of untouchability.\n3. He was associated with the Prarthana Samaj.",
+      "Options": [
+        { "id": 1, "text": "1 and 3 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 2 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. V.R. Shinde was a prominent reformer associated with the Prarthana Samaj who dedicated his life to the upliftment of the depressed classes, founding the Mission to provide education and social support.",
+      "Difficulty": "Hard",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Social Reformers of Maharashtra"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following UN agencies and their primary focus are correctly matched?\n1. UNICEF - Children's welfare\n2. FAO - Food and Agriculture\n3. IAEA - Atomic Energy",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three matches are correct. UNICEF (United Nations Children's Fund), FAO (Food and Agriculture Organization), and IAEA (International Atomic Energy Agency) have these respective mandates.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Static GK (International)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following about Lonar Lake in Maharashtra:\n1. It is located in Buldhana district.\n2. It was created by a meteorite impact during the Pleistocene Epoch.\n3. The water of the lake is highly saline and alkaline.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. Lonar is a unique hyper-velocity impact crater in basaltic rock, and its water chemistry is distinct, supporting specific micro-organisms.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Maharashtra Geography"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following statements about human blood groups are correct?\n1. The ABO blood group system was discovered by Karl Landsteiner.\n2. A person with blood group AB is considered a 'Universal Recipient'.\n3. A person with blood group O is considered a 'Universal Donor'.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. Landsteiner won the Nobel Prize for discovering the ABO system. AB blood group has both A and B antigens but no antibodies, so they can receive any blood. O blood group has no antigens, so it can be donated to anyone.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "General Science (Biology)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following regarding the Attorney General (AG) of India:\n1. The AG is the highest law officer in the country (Article 76).\n2. The AG is appointed by the President and holds office during the President's pleasure.\n3. The AG has the right to speak in either House of Parliament but does not have the right to vote.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct regarding the position, appointment, tenure, and parliamentary privileges of the Attorney General of India.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Indian Polity"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Regarding the 1857 Revolt in Maharashtra, which statements are correct?\n1. Rango Bapuji Gupte attempted an uprising in Satara.\n2. Bhagoji Naik led the Bhil uprising in the Ahmednagar region.\n3. The revolt was largely unsuccessful in suppressing British rule in the region.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. Rango Bapuji tried to restore the Satara throne. Bhagoji Naik was a key leader of the Bhil resistance. Like elsewhere, the revolt was ultimately suppressed by the British.",
+      "Difficulty": "Hard",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Maharashtra History"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following statements about common chemical processes are correct?\n1. Rusting of iron is an example of oxidation.\n2. Respiration (breathing) is an exothermic process (releases heat).\n3. Curdling of milk is an irreversible chemical change.",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1 and 3 only" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. (1) Iron reacts with oxygen to form iron oxide (rust). (2) Respiration breaks down glucose, releasing energy. (3) The chemical composition changes, and milk cannot be easily turned back from curd.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 1,
+      "topic": "General Science (Chemistry)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements about the Maharashtra Legislature members:\n1. A member of the Vidhan Sabha (MLA) is elected directly by the people.\n2. Members of the Vidhan Parishad (MLC) are elected through various constituencies (graduates, teachers, local bodies) and nominated by the Governor.\n3. The term of an MLA is 5 years, while the term of an MLC is 6 years.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements correctly describe the election/nomination process and terms of office for members of Maharashtra's bicameral legislature.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Maharashtra Polity"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following statements about India's neighbours are correct?\n1. India shares its longest land border with Bangladesh.\n2. The 'Durand Line' separates India and Afghanistan (and also Pakistan and Afghanistan).\n3. Sri Lanka is separated from India by the Palk Strait.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct geographical facts regarding India's borders and neighbours.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Indian Geography"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Regarding Pandita Ramabai, which statements are correct?\n1. She was a renowned scholar of Sanskrit.\n2. She founded the 'Arya Mahila Samaj' for women's upliftment.\n3. She established the 'Sharada Sadan' in Pune, initially for high-caste Hindu widows.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. She was awarded the title 'Pandita' for her Sanskrit scholarship. She founded Arya Mahila Samaj in Pune (1882) and Sharada Sadan (first in Mumbai, then Pune) as a home and school for widows.",
+      "Difficulty": "Hard",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Social Reformers of Maharashtra"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements about plant biology:\n1. Xylem tissue transports water and minerals from roots to leaves.\n2. Phloem tissue transports food (sugars) produced during photosynthesis from leaves to other parts.\n3. Stomata are small pores on the leaf surface involved in gas exchange.",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1 and 3 only" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements correctly describe the functions of xylem, phloem (vascular tissues), and stomata in plants.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 1,
+      "topic": "General Science (Biology)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Regarding Fundamental Rights in the Indian Constitution, which statements are correct?\n1. Article 14 guarantees Equality before Law and Equal Protection of Laws.\n2. Article 17 abolishes Untouchability.\n3. Article 19(1)(a) guarantees Freedom of Speech and Expression.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements correctly identify the subject matter of these crucial Fundamental Rights under Part III of the Constitution.",
+      "Difficulty": "Easy",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Indian Polity"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following pairings of Caves and their locations in Maharashtra:\n1. Ajanta Caves - Aurangabad (Chh. Sambhaji Nagar) district\n2. Ellora Caves - Aurangabad (Chh. Sambhaji Nagar) district\n3. Elephanta Caves - Mumbai Harbour (Raigad district)",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three are correct locations for these UNESCO World Heritage sites. Ajanta (Buddhist), Ellora (Buddhist, Hindu, Jain), and Elephanta (Hindu, primarily Shaivite).",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Maharashtra Geography"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following statements about Newton's Laws of Motion are correct?\n1. The First Law defines Inertia.\n2. The Second Law relates Force, Mass, and Acceleration (F=ma).\n3. The Third Law states that for every action, there is an equal and opposite reaction.",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1 and 3 only" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements correctly summarize Newton's three fundamental laws of classical mechanics.",
+      "Difficulty": "Easy",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 1,
+      "topic": "General Science (Physics)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Regarding the Quit India Movement (1942) in Maharashtra, which statements are correct?\n1. A 'Prati Sarkar' (parallel government) was established in Satara under leaders like Nana Patil.\n2. Underground activities, including sabotage, were carried out by groups like the 'Azad Hind Radio'.\n3. The movement saw widespread participation across the region, including strikes and protests.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three aspects were significant features of the Quit India Movement in Maharashtra. The Satara Prati Sarkar was particularly notable for its longevity. Underground activities were crucial after the arrest of major leaders.",
+      "Difficulty": "Hard",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Maharashtra History"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following festivals and the states they are primarily associated with:\n1. Onam - Kerala\n2. Bihu - Assam\n3. Pongal - Tamil Nadu",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three are major harvest festivals correctly matched with their respective states.",
+      "Difficulty": "Easy",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Static GK (Culture)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements regarding the Comptroller and Auditor General (CAG) of India:\n1. The CAG is appointed by the President (Article 148).\n2. The CAG audits all receipts and expenditures of the Union and State governments.\n3. The CAG submits audit reports to the President (for Union accounts) and Governor (for State accounts).",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements correctly describe the appointment, functions, and reporting procedure of the CAG, who acts as the guardian of the public purse.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Indian Polity"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following statements about Savitribai Phule are correct?\n1. She is considered India's first female teacher.\n2. Along with her husband Jyotirao Phule, she opened the first school for girls in Pune in 1848.\n3. She also worked for the welfare of widows and against caste discrimination.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. Savitribai Phule was a pioneering social reformer, educator, and poet who faced immense opposition for her work in educating girls and marginalized communities.",
+      "Difficulty": "Easy",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Social Reformers of Maharashtra"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements about common diseases:\n1. Goitre is often caused by a deficiency of Iodine.\n2. Anemia is primarily caused by a deficiency of Iron.\n3. Diabetes Mellitus is characterized by high blood sugar levels due to insufficient insulin action.",
+      "Options": [
+        { "id": 1, "text": "1, 2 and 3" },
+        { "id": 2, "text": "1 and 2 only" },
+        { "id": 3, "text": "2 and 3 only" },
+        { "id": 4, "text": "1 and 3 only" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct. Iodine is needed for thyroid hormone production. Iron is needed for hemoglobin synthesis. Insulin regulates blood glucose.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 1,
+      "topic": "General Science (Biology)"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Regarding the Zilla Parishad (ZP) in Maharashtra's Panchayati Raj system, which statements are true?\n1. It is the apex body of the three-tier system at the district level.\n2. The President of the Zilla Parishad is its political head.\n3. The ZP has various subject committees to handle specific areas like health, education, etc.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements correctly describe the structure and functioning of the Zilla Parishad in Maharashtra.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Maharashtra Polity"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Which of the following statements about soils in Maharashtra are correct?\n1. Black Cotton Soil (Regur) covers the largest part of the state, especially the Deccan Plateau.\n2. Laterite soil is found predominantly in the high rainfall areas of Konkan and Sahyadris.\n3. Alluvial soil is mainly found along the lower courses of major rivers like Tapi and Godavari.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements correctly describe the major soil types and their distribution in Maharashtra. Regur is formed from basalt, Laterite from leaching, and Alluvial from river deposits.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "Maharashtra Geography"
+    },
+    {
+      "category": "General Knowledge",
+      "Question": "Consider the following statements about sound:\n1. The loudness of sound is primarily determined by its amplitude.\n2. The pitch of sound is primarily determined by its frequency.\n3. Sound travels faster in solids than in liquids or gases.",
+      "Options": [
+        { "id": 1, "text": "1 and 2 only" },
+        { "id": 2, "text": "2 and 3 only" },
+        { "id": 3, "text": "1 and 3 only" },
+        { "id": 4, "text": "1, 2 and 3" }
+      ],
+      "CorrectAnswer": "1, 2 and 3",
+      "Explanation": "All three statements are correct principles of acoustics. Higher amplitude means louder sound. Higher frequency means higher pitch. Sound travels fastest in solids because the particles are closest together.",
+      "Difficulty": "Medium",
+      "Job": "PSI, STI, MPSC",
+      "correctOption": 4,
+      "topic": "General Science (Physics)"
+    },
+    {
+        "category": "General Knowledge",
+        "Question": "Who wrote the famous book 'Annihilation of Caste'?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "Jyotirao Phule" },
+          { "id": 3, "text": "Dr. B.R. Ambedkar" },
+          { "id": 4, "text": "Gopal Ganesh Agarkar" }
+        ],
+        "CorrectAnswer": "Dr. B.R. Ambedkar",
+        "Explanation": "Dr. B.R. Ambedkar wrote 'Annihilation of Caste' as a speech in 1936, which critically examined the caste system in Hinduism. It was later published as a book.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which planet in our solar system is known as the 'Red Planet'?",
+        "Options": [
+          { "id": 1, "text": "Venus" },
+          { "id": 2, "text": "Mars" },
+          { "id": 3, "text": "Jupiter" },
+          { "id": 4, "text": "Saturn" }
+        ],
+        "CorrectAnswer": "Mars",
+        "Explanation": "Mars appears reddish due to the presence of iron oxide (rust) on its surface, giving it the nickname 'Red Planet'.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Astronomy)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Right to Information (RTI) Act was passed by the Parliament of India in which year?",
+        "Options": [
+          { "id": 1, "text": "2000" },
+          { "id": 2, "text": "2002" },
+          { "id": 3, "text": "2005" },
+          { "id": 4, "text": "2009" }
+        ],
+        "CorrectAnswer": "2005",
+        "Explanation": "The Right to Information Act, which empowers citizens to seek information from public authorities, was enacted by the Parliament in 2005.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Mahabaleshwar, a popular hill station in Maharashtra, is the source of which major river?",
+        "Options": [
+          { "id": 1, "text": "Godavari" },
+          { "id": 2, "text": "Tapi" },
+          { "id": 3, "text": "Narmada" },
+          { "id": 4, "text": "Krishna" }
+        ],
+        "CorrectAnswer": "Krishna",
+        "Explanation": "The Krishna River, one of the major rivers of peninsular India, originates in the Western Ghats near Mahabaleshwar in the Satara district of Maharashtra.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who founded the 'Arya Samaj' in 1875?",
+        "Options": [
+          { "id": 1, "text": "Swami Vivekananda" },
+          { "id": 2, "text": "Raja Ram Mohan Roy" },
+          { "id": 3, "text": "Swami Dayananda Saraswati" },
+          { "id": 4, "text": "Ishwar Chandra Vidyasagar" }
+        ],
+        "CorrectAnswer": "Swami Dayananda Saraswati",
+        "Explanation": "Swami Dayananda Saraswati founded the Arya Samaj, a Hindu reform movement, with the motto 'Go back to the Vedas'.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Socio-Religious Movements"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the chemical symbol for Gold?",
+        "Options": [
+          { "id": 1, "text": "Go" },
+          { "id": 2, "text": "Ag" },
+          { "id": 3, "text": "Au" },
+          { "id": 4, "text": "Gd" }
+        ],
+        "CorrectAnswer": "Au",
+        "Explanation": "The chemical symbol for Gold is Au, derived from its Latin name 'Aurum'. Ag is the symbol for Silver (Argentum).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who appoints the Chief Election Commissioner (CEC) of India?",
+        "Options": [
+          { "id": 1, "text": "The Prime Minister" },
+          { "id": 2, "text": "The Chief Justice of India" },
+          { "id": 3, "text": "The Parliament" },
+          { "id": 4, "text": "The President of India" }
+        ],
+        "CorrectAnswer": "The President of India",
+        "Explanation": "The Chief Election Commissioner and other Election Commissioners are appointed by the President of India (Article 324), although recent legislation involves a selection committee.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The famous Ajanta caves in Maharashtra are primarily known for their:",
+        "Options": [
+          { "id": 1, "text": "Rock-cut sculptures of Hindu deities" },
+          { "id": 2, "text": "Elaborate Jain temples" },
+          { "id": 3, "text": "Ancient Buddhist murals (paintings)" },
+          { "id": 4, "text": "Maratha-era fortifications" }
+        ],
+        "CorrectAnswer": "Ancient Buddhist murals (paintings)",
+        "Explanation": "While Ellora has Hindu, Jain, and Buddhist structures, Ajanta is exclusively Buddhist and renowned worldwide for its exceptionally preserved, beautiful mural paintings depicting Jataka tales.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra History & Culture"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which gas is most abundant in the Earth's atmosphere?",
+        "Options": [
+          { "id": 1, "text": "Oxygen" },
+          { "id": 2, "text": "Nitrogen" },
+          { "id": 3, "text": "Carbon Dioxide" },
+          { "id": 4, "text": "Argon" }
+        ],
+        "CorrectAnswer": "Nitrogen",
+        "Explanation": "Nitrogen makes up approximately 78% of the Earth's atmosphere, followed by Oxygen (about 21%), Argon (about 0.9%), and Carbon Dioxide (about 0.04%).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Environment)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 'Dandi March' or 'Salt Satyagraha' was initiated by Mahatma Gandhi in which year?",
+        "Options": [
+          { "id": 1, "text": "1920" },
+          { "id": 2, "text": "1930" },
+          { "id": 3, "text": "1942" },
+          { "id": 4, "text": "1919" }
+        ],
+        "CorrectAnswer": "1930",
+        "Explanation": "Mahatma Gandhi started the Dandi March on March 12, 1930, from Sabarmati Ashram to Dandi to break the British salt laws, marking the beginning of the Civil Disobedience Movement.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The deficiency of which hormone causes Diabetes Mellitus?",
+        "Options": [
+          { "id": 1, "text": "Thyroxine" },
+          { "id": 2, "text": "Adrenaline" },
+          { "id": 3, "text": "Insulin" },
+          { "id": 4, "text": "Growth Hormone" }
+        ],
+        "CorrectAnswer": "Insulin",
+        "Explanation": "Insulin, produced by the pancreas, regulates blood sugar levels. Insufficient production or ineffective use of insulin leads to high blood sugar, characteristic of Diabetes Mellitus.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which part of the Indian Constitution deals with Fundamental Rights?",
+        "Options": [
+          { "id": 1, "text": "Part I" },
+          { "id": 2, "text": "Part II" },
+          { "id": 3, "text": "Part III" },
+          { "id": 4, "text": "Part IV" }
+        ],
+        "CorrectAnswer": "Part III",
+        "Explanation": "Part III (Articles 12-35) of the Indian Constitution contains the Fundamental Rights, such as the Right to Equality, Freedom, etc. Part IV contains Directive Principles.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Lonar Lake, a national geo-heritage monument in Maharashtra, was formed due to:",
+        "Options": [
+          { "id": 1, "text": "Volcanic activity" },
+          { "id": 2, "text": "Glacial action" },
+          { "id": 3, "text": "A meteorite impact" },
+          { "id": 4, "text": "Tectonic plate movement" }
+        ],
+        "CorrectAnswer": "A meteorite impact",
+        "Explanation": "Located in Buldhana district, Lonar Lake is a unique crater lake formed by a hypervelocity meteorite impact thousands of years ago in the basaltic rock.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who is known as the 'Father of the Indian Constitution'?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "Jawaharlal Nehru" },
+          { "id": 3, "text": "Sardar Patel" },
+          { "id": 4, "text": "Dr. B.R. Ambedkar" }
+        ],
+        "CorrectAnswer": "Dr. B.R. Ambedkar",
+        "Explanation": "Dr. B.R. Ambedkar, as the Chairman of the Drafting Committee of the Constituent Assembly, played a pivotal role in drafting the Constitution of India.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the primary function of Hemoglobin in the blood?",
+        "Options": [
+          { "id": 1, "text": "To transport oxygen" },
+          { "id": 2, "text": "To fight infections" },
+          { "id": 3, "text": "To help in blood clotting" },
+          { "id": 4, "text": "To regulate body temperature" }
+        ],
+        "CorrectAnswer": "To transport oxygen",
+        "Explanation": "Hemoglobin, a protein found in Red Blood Cells, binds with oxygen in the lungs and transports it to tissues throughout the body.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The boundary line between India and China is known as the:",
+        "Options": [
+          { "id": 1, "text": "Radcliffe Line" },
+          { "id": 2, "text": "Durand Line" },
+          { "id": 3, "text": "McMahon Line" },
+          { "id": 4, "text": "Line of Control (LoC)" }
+        ],
+        "CorrectAnswer": "McMahon Line",
+        "Explanation": "The McMahon Line is the demarcation line between the Tibetan region of China and the North-east region of India, proposed by Sir Henry McMahon at the 1914 Simla Convention. Radcliffe Line is with Pakistan/Bangladesh.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "In which city was the first session of the Indian National Congress held in 1885?",
+        "Options": [
+          { "id": 1, "text": "Calcutta" },
+          { "id": 2, "text": "Madras" },
+          { "id": 3, "text": "Delhi" },
+          { "id": 4, "text": "Bombay" }
+        ],
+        "CorrectAnswer": "Bombay",
+        "Explanation": "The first session of the Indian National Congress was held from 28–31 December 1885 in Bombay (now Mumbai) at Gokuldas Tejpal Sanskrit College.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What does LPG stand for in the context of cooking gas?",
+        "Options": [
+          { "id": 1, "text": "Liquefied Petroleum Gas" },
+          { "id": 2, "text": "Light Producing Gas" },
+          { "id": 3, "text": "Low Pressure Gas" },
+          { "id": 4, "text": "Long Pipe Gas" }
+        ],
+        "CorrectAnswer": "Liquefied Petroleum Gas",
+        "Explanation": "LPG used for cooking is primarily a mixture of propane and butane, stored in liquid form under pressure.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who administers the oath of office to the Governor of a state in India?",
+        "Options": [
+          { "id": 1, "text": "The President of India" },
+          { "id": 2, "text": "The Chief Justice of India" },
+          { "id": 3, "text": "The Chief Justice of the concerned High Court" },
+          { "id": 4, "text": "The Chief Minister of the state" }
+        ],
+        "CorrectAnswer": "The Chief Justice of the concerned High Court",
+        "Explanation": "The oath of office to the Governor is administered by the Chief Justice of the High Court of that state, or in their absence, the senior-most judge of that court available.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Koyna Hydroelectric Project, the largest in Maharashtra, is located in which district?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Satara" },
+          { "id": 3, "text": "Ratnagiri" },
+          { "id": 4, "text": "Kolhapur" }
+        ],
+        "CorrectAnswer": "Satara",
+        "Explanation": "The Koyna Dam and its associated hydroelectric power plant are located on the Koyna River (a tributary of the Krishna) in the Satara district of Maharashtra.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What instrument is used to measure atmospheric pressure?",
+        "Options": [
+          { "id": 1, "text": "Thermometer" },
+          { "id": 2, "text": "Anemometer" },
+          { "id": 3, "text": "Barometer" },
+          { "id": 4, "text": "Hygrometer" }
+        ],
+        "CorrectAnswer": "Barometer",
+        "Explanation": "A barometer is used to measure atmospheric pressure. A thermometer measures temperature, an anemometer measures wind speed, and a hygrometer measures humidity.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who was the founder of the 'Servants of India Society'?",
+        "Options": [
+          { "id": 1, "text": "Bal Gangadhar Tilak" },
+          { "id": 2, "text": "Gopal Krishna Gokhale" },
+          { "id": 3, "text": "M.G. Ranade" },
+          { "id": 4, "text": "Gopal Ganesh Agarkar" }
+        ],
+        "CorrectAnswer": "Gopal Krishna Gokhale",
+        "Explanation": "Gopal Krishna Gokhale, a prominent moderate leader and social reformer, founded the Servants of India Society in Pune in 1905 to train Indians for public service.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which part of the plant is primarily responsible for photosynthesis?",
+        "Options": [
+          { "id": 1, "text": "Root" },
+          { "id": 2, "text": "Stem" },
+          { "id": 3, "text": "Flower" },
+          { "id": 4, "text": "Leaf" }
+        ],
+        "CorrectAnswer": "Leaf",
+        "Explanation": "Leaves are the primary sites of photosynthesis in most plants, as they contain chlorophyll and stomata necessary for the process.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who presides over a joint sitting of the two Houses of Parliament?",
+        "Options": [
+          { "id": 1, "text": "The President" },
+          { "id": 2, "text": "The Vice-President (Chairman of Rajya Sabha)" },
+          { "id": 3, "text": "The Speaker of the Lok Sabha" },
+          { "id": 4, "text": "The Prime Minister" }
+        ],
+        "CorrectAnswer": "The Speaker of the Lok Sabha",
+        "Explanation": "Article 118(4) states that the Speaker of the Lok Sabha presides over a joint sitting. In the Speaker's absence, the Deputy Speaker of the Lok Sabha presides.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which of these is a famous folk theatre form of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Yakshagana" },
+          { "id": 2, "text": "Nautanki" },
+          { "id": 3, "text": "Tamasha" },
+          { "id": 4, "text": "Bhavai" }
+        ],
+        "CorrectAnswer": "Tamasha",
+        "Explanation": "Tamasha is a traditional form of Marathi folk theatre, often involving song, dance, and humour. Yakshagana is from Karnataka, Nautanki from UP, and Bhavai from Gujarat.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra History & Culture"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Bronze is an alloy primarily composed of copper and which other metal?",
+        "Options": [
+          { "id": 1, "text": "Zinc" },
+          { "id": 2, "text": "Tin" },
+          { "id": 3, "text": "Nickel" },
+          { "id": 4, "text": "Aluminum" }
+        ],
+        "CorrectAnswer": "Tin",
+        "Explanation": "Bronze is traditionally an alloy of copper and tin (Cu + Sn). Brass is an alloy of copper and zinc (Cu + Zn).",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who was the first woman President of the Indian National Congress?",
+        "Options": [
+          { "id": 1, "text": "Sarojini Naidu" },
+          { "id": 2, "text": "Indira Gandhi" },
+          { "id": 3, "text": "Annie Besant" },
+          { "id": 4, "text": "Sonia Gandhi" }
+        ],
+        "CorrectAnswer": "Annie Besant",
+        "Explanation": "Annie Besant, a prominent Theosophist and leader of the Home Rule League, presided over the Calcutta session of the INC in 1917, becoming its first woman President.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the main function of the kidneys in the human body?",
+        "Options": [
+          { "id": 1, "text": "Digesting food" },
+          { "id": 2, "text": "Pumping blood" },
+          { "id": 3, "text": "Filtering waste products from the blood" },
+          { "id": 4, "text": "Producing hormones for growth" }
+        ],
+        "CorrectAnswer": "Filtering waste products from the blood",
+        "Explanation": "The kidneys are vital organs that filter waste products (like urea) and excess water from the blood, producing urine, and also help regulate blood pressure.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the minimum age required to become a member of the Lok Sabha?",
+        "Options": [
+          { "id": 1, "text": "18 years" },
+          { "id": 2, "text": "21 years" },
+          { "id": 3, "text": "25 years" },
+          { "id": 4, "text": "30 years" }
+        ],
+        "CorrectAnswer": "25 years",
+        "Explanation": "According to Article 84 of the Constitution, a person must be at least 25 years old to be eligible for membership in the Lok Sabha (House of the People).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Kalsubai, the highest peak in Maharashtra, is located in which district?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Nashik" },
+          { "id": 3, "text": "Satara" },
+          { "id": 4, "text": "Ahmednagar" }
+        ],
+        "CorrectAnswer": "Ahmednagar",
+        "Explanation": "Kalsubai peak, part of the Sahyadri range (Western Ghats), is located in the Akole taluka of Ahmednagar district.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The phenomenon of 'persistence of vision' is used in which technology?",
+        "Options": [
+          { "id": 1, "text": "Radar" },
+          { "id": 2, "text": "Sonar" },
+          { "id": 3, "text": "Cinematography (Movies)" },
+          { "id": 4, "text": "X-rays" }
+        ],
+        "CorrectAnswer": "Cinematography (Movies)",
+        "Explanation": "Persistence of vision is the optical illusion where the human eye retains an image for a fraction of a second after the source is removed. This allows a rapid sequence of still images (frames) in a movie to appear as continuous motion.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who founded the 'Bahishkrit Hitakarini Sabha'?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "Jyotirao Phule" },
+          { "id": 3, "text": "V. R. Shinde" },
+          { "id": 4, "text": "Dr. B.R. Ambedkar" }
+        ],
+        "CorrectAnswer": "Dr. B.R. Ambedkar",
+        "Explanation": "Dr. B.R. Ambedkar founded the Bahishkrit Hitakarini Sabha (Outcastes Welfare Association) in 1924 to promote education and socio-economic upliftment among the depressed classes.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which gland in the human body is often called the 'Master Gland'?",
+        "Options": [
+          { "id": 1, "text": "Thyroid Gland" },
+          { "id": 2, "text": "Adrenal Gland" },
+          { "id": 3, "text": "Pituitary Gland" },
+          { "id": 4, "text": "Pancreas" }
+        ],
+        "CorrectAnswer": "Pituitary Gland",
+        "Explanation": "The Pituitary Gland, located at the base of the brain, is called the 'Master Gland' because it produces hormones that regulate many bodily functions and control several other endocrine glands.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The members of the Rajya Sabha are elected for a term of how many years?",
+        "Options": [
+          { "id": 1, "text": "4 years" },
+          { "id": 2, "text": "5 years" },
+          { "id": 3, "text": "6 years" },
+          { "id": 4, "text": "7 years" }
+        ],
+        "CorrectAnswer": "6 years",
+        "Explanation": "The Rajya Sabha is a permanent house, not subject to dissolution. Its members are elected for a term of 6 years, with one-third of the members retiring every two years.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Raigad fort served as the capital of which famous Maratha ruler?",
+        "Options": [
+          { "id": 1, "text": "Sambhaji Maharaj" },
+          { "id": 2, "text": "Peshwa Bajirao I" },
+          { "id": 3, "text": "Chhatrapati Shivaji Maharaj" },
+          { "id": 4, "text": "Rajaram Maharaj" }
+        ],
+        "CorrectAnswer": "Chhatrapati Shivaji Maharaj",
+        "Explanation": "Chhatrapati Shivaji Maharaj made Raigad his capital in 1674 after his coronation. It remained the capital of the Maratha Empire for several years.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the hardest natural substance known on Earth?",
+        "Options": [
+          { "id": 1, "text": "Gold" },
+          { "id": 2, "text": "Iron" },
+          { "id": 3, "text": "Diamond" },
+          { "id": 4, "text": "Graphite" }
+        ],
+        "CorrectAnswer": "Diamond",
+        "Explanation": "Diamond, an allotrope of carbon, has a crystal structure that makes it the hardest known natural material on the Mohs scale of hardness.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Jallianwala Bagh massacre took place in which city in 1919?",
+        "Options": [
+          { "id": 1, "text": "Lahore" },
+          { "id": 2, "text": "Amritsar" },
+          { "id": 3, "text": "Delhi" },
+          { "id": 4, "text": "Calcutta" }
+        ],
+        "CorrectAnswer": "Amritsar",
+        "Explanation": "The Jallianwala Bagh massacre occurred on April 13, 1919, in Amritsar, Punjab, when British troops fired on a large crowd of unarmed Indians.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which Vitamin is primarily synthesized in the skin upon exposure to sunlight?",
+        "Options": [
+          { "id": 1, "text": "Vitamin A" },
+          { "id": 2, "text": "Vitamin C" },
+          { "id": 3, "text": "Vitamin D" },
+          { "id": 4, "text": "Vitamin K" }
+        ],
+        "CorrectAnswer": "Vitamin D",
+        "Explanation": "The human body can synthesize Vitamin D (specifically D3, cholecalciferol) in the skin when exposed to ultraviolet B (UVB) radiation from sunlight.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who is the ex-officio Chairman of the Rajya Sabha?",
+        "Options": [
+          { "id": 1, "text": "The President" },
+          { "id": 2, "text": "The Vice-President" },
+          { "id": 3, "text": "The Prime Minister" },
+          { "id": 4, "text": "The Speaker of Lok Sabha" }
+        ],
+        "CorrectAnswer": "The Vice-President",
+        "Explanation": "The Vice-President of India serves as the ex-officio (by virtue of office) Chairman of the Rajya Sabha (Council of States).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The famous hill station Matheran, known for being Asia's only automobile-free hill station, is located in which district of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Raigad" },
+          { "id": 3, "text": "Thane" },
+          { "id": 4, "text": "Satara" }
+        ],
+        "CorrectAnswer": "Raigad",
+        "Explanation": "Matheran, accessible by a narrow-gauge railway, is located in the Raigad district, close to Mumbai and Pune.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which type of mirror is used as a rear-view mirror in vehicles?",
+        "Options": [
+          { "id": 1, "text": "Concave Mirror" },
+          { "id": 2, "text": "Convex Mirror" },
+          { "id": 3, "text": "Plane Mirror" },
+          { "id": 4, "text": "Parabolic Mirror" }
+        ],
+        "CorrectAnswer": "Convex Mirror",
+        "Explanation": "Convex mirrors are used as rear-view mirrors because they provide a wider field of view and always form virtual, erect, and diminished images.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Gopal Hari Deshmukh, a prominent social reformer from Maharashtra, wrote under which pen name?",
+        "Options": [
+          { "id": 1, "text": "Keshavsut" },
+          { "id": 2, "text": "Lokhitwadi" },
+          { "id": 3, "text": "Balakram" },
+          { "id": 4, "text": "Anandibai" }
+        ],
+        "CorrectAnswer": "Lokhitwadi",
+        "Explanation": "Gopal Hari Deshmukh wrote extensively on social reform issues in the weekly 'Prabhakar' under the pen name 'Lokhitwadi' (One who works for the benefit of the people).",
+        "Difficulty": "Hard",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which blood cells are primarily responsible for fighting infections?",
+        "Options": [
+          { "id": 1, "text": "Red Blood Cells (RBCs)" },
+          { "id": 2, "text": "Platelets" },
+          { "id": 3, "text": "White Blood Cells (WBCs)" },
+          { "id": 4, "text": "Plasma" }
+        ],
+        "CorrectAnswer": "White Blood Cells (WBCs)",
+        "Explanation": "White Blood Cells (Leukocytes) are the main components of the body's immune system, identifying and destroying pathogens like bacteria and viruses.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who has the power to summon and prorogue the sessions of the Parliament?",
+        "Options": [
+          { "id": 1, "text": "The Prime Minister" },
+          { "id": 2, "text": "The Speaker of Lok Sabha" },
+          { "id": 3, "text": "The President" },
+          { "id": 4, "text": "The Chief Justice of India" }
+        ],
+        "CorrectAnswer": "The President",
+        "Explanation": "As per Article 85, the President of India has the power to summon (call) each House of Parliament, prorogue (end) the sessions of both Houses, and dissolve the Lok Sabha.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The famous 'Warli Painting' is a traditional art form belonging to which state?",
+        "Options": [
+          { "id": 1, "text": "Gujarat" },
+          { "id": 2, "text": "Madhya Pradesh" },
+          { "id": 3, "text": "Odisha" },
+          { "id": 4, "text": "Maharashtra" }
+        ],
+        "CorrectAnswer": "Maharashtra",
+        "Explanation": "Warli painting is a style of tribal art created by the Warli tribe from the North Sahyadri Range in Maharashtra, primarily depicting scenes of daily life using simple geometric shapes.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra History & Culture"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Vinegar is a dilute solution of which acid?",
+        "Options": [
+          { "id": 1, "text": "Acetic Acid" },
+          { "id": 2, "text": "Citric Acid" },
+          { "id": 3, "text": "Formic Acid" },
+          { "id": 4, "text": "Lactic Acid" }
+        ],
+        "CorrectAnswer": "Acetic Acid",
+        "Explanation": "Vinegar typically contains about 5-8% acetic acid (CH₃COOH) by volume, which gives it its characteristic sour taste and pungent smell.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who gave the slogan 'Jai Jawan Jai Kisan'?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "Jawaharlal Nehru" },
+          { "id": 3, "text": "Lal Bahadur Shastri" },
+          { "id": 4, "text": "Indira Gandhi" }
+        ],
+        "CorrectAnswer": "Lal Bahadur Shastri",
+        "Explanation": "Lal Bahadur Shastri, India's second Prime Minister, gave this iconic slogan during the Indo-Pak war of 1965 to emphasize the importance of soldiers and farmers.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which gas do plants absorb from the atmosphere during photosynthesis?",
+        "Options": [
+          { "id": 1, "text": "Oxygen" },
+          { "id": 2, "text": "Nitrogen" },
+          { "id": 3, "text": "Carbon Dioxide" },
+          { "id": 4, "text": "Hydrogen" }
+        ],
+        "CorrectAnswer": "Carbon Dioxide",
+        "Explanation": "Plants take in Carbon Dioxide (CO₂) from the air, water (H₂O) from the soil, and use light energy to produce glucose (sugar) and release Oxygen (O₂).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },{
+        "category": "General Knowledge",
+        "Question": "Which Article of the Indian Constitution deals with the 'Right to Constitutional Remedies'?",
+        "Options": [
+          { "id": 1, "text": "Article 14" },
+          { "id": 2, "text": "Article 21" },
+          { "id": 3, "text": "Article 32" },
+          { "id": 4, "text": "Article 51A" }
+        ],
+        "CorrectAnswer": "Article 32",
+        "Explanation": "Article 32 allows citizens to move the Supreme Court directly for the enforcement of Fundamental Rights. Dr. Ambedkar called it the 'heart and soul' of the Constitution.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 'Battle of Plassey' was fought in which year?",
+        "Options": [
+          { "id": 1, "text": "1757" },
+          { "id": 2, "text": "1764" },
+          { "id": 3, "text": "1857" },
+          { "id": 4, "text": "1773" }
+        ],
+        "CorrectAnswer": "1757",
+        "Explanation": "The Battle of Plassey, a decisive victory for the British East India Company over the Nawab of Bengal, was fought on June 23, 1757.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the study of earthquakes called?",
+        "Options": [
+          { "id": 1, "text": "Geology" },
+          { "id": 2, "text": "Seismology" },
+          { "id": 3, "text": "Meteorology" },
+          { "id": 4, "text": "Volcanology" }
+        ],
+        "CorrectAnswer": "Seismology",
+        "Explanation": "Seismology is the scientific study of earthquakes and the propagation of elastic waves (seismic waves) through the Earth.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Earth Science)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Melghat Tiger Reserve is located in which district of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Chandrapur" },
+          { "id": 2, "text": "Nagpur" },
+          { "id": 3, "text": "Gadchiroli" },
+          { "id": 4, "text": "Amravati" }
+        ],
+        "CorrectAnswer": "Amravati",
+        "Explanation": "Melghat Tiger Reserve, one of the first nine tiger reserves notified under Project Tiger in 1973-74, is located in the Amravati district of the Vidarbha region.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who founded the 'Brahmo Samaj' in 1828?",
+        "Options": [
+          { "id": 1, "text": "Keshab Chandra Sen" },
+          { "id": 2, "text": "Debendranath Tagore" },
+          { "id": 3, "text": "Raja Ram Mohan Roy" },
+          { "id": 4, "text": "Ishwar Chandra Vidyasagar" }
+        ],
+        "CorrectAnswer": "Raja Ram Mohan Roy",
+        "Explanation": "Raja Ram Mohan Roy, a key figure in the Bengal Renaissance, founded the Brahmo Sabha (later Brahmo Samaj) to promote monotheism and fight social evils like Sati.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Socio-Religious Movements"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Dry ice is the solid form of which gas?",
+        "Options": [
+          { "id": 1, "text": "Nitrogen" },
+          { "id": 2, "text": "Oxygen" },
+          { "id": 3, "text": "Carbon Dioxide" },
+          { "id": 4, "text": "Hydrogen" }
+        ],
+        "CorrectAnswer": "Carbon Dioxide",
+        "Explanation": "Dry ice is solid Carbon Dioxide (CO₂). It undergoes sublimation (turns directly from solid to gas) at atmospheric pressure, making it useful for cooling.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who administers the oath of office to the President of India?",
+        "Options": [
+          { "id": 1, "text": "The outgoing President" },
+          { "id": 2, "text": "The Prime Minister" },
+          { "id": 3, "text": "The Vice-President" },
+          { "id": 4, "text": "The Chief Justice of India" }
+        ],
+        "CorrectAnswer": "The Chief Justice of India",
+        "Explanation": "As per Article 60 of the Constitution, the oath of office to the President is administered by the Chief Justice of India, or in their absence, the senior-most judge of the Supreme Court available.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The famous 'Lavani' dance form belongs to which Indian state?",
+        "Options": [
+          { "id": 1, "text": "Maharashtra" },
+          { "id": 2, "text": "Gujarat" },
+          { "id": 3, "text": "Rajasthan" },
+          { "id": 4, "text": "Punjab" }
+        ],
+        "CorrectAnswer": "Maharashtra",
+        "Explanation": "Lavani is a traditional song and dance combination, particularly associated with the state of Maharashtra, known for its powerful rhythm and contribution to Marathi folk theatre.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "Maharashtra History & Culture"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which layer of the Earth's atmosphere contains the Ozone Layer?",
+        "Options": [
+          { "id": 1, "text": "Troposphere" },
+          { "id": 2, "text": "Stratosphere" },
+          { "id": 3, "text": "Mesosphere" },
+          { "id": 4, "text": "Thermosphere" }
+        ],
+        "CorrectAnswer": "Stratosphere",
+        "Explanation": "The Ozone Layer, which absorbs most of the Sun's harmful ultraviolet (UV) radiation, is mainly found in the lower portion of the Stratosphere.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Environment)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who presided over the Lahore Session of the Indian National Congress (1929) where 'Purna Swaraj' was declared?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "Subhas Chandra Bose" },
+          { "id": 3, "text": "Sardar Patel" },
+          { "id": 4, "text": "Jawaharlal Nehru" }
+        ],
+        "CorrectAnswer": "Jawaharlal Nehru",
+        "Explanation": "Jawaharlal Nehru presided over the historic Lahore session where the resolution for 'Purna Swaraj' (Complete Independence) was adopted, and January 26 was chosen as Independence Day.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which part of the human eye controls the amount of light entering it?",
+        "Options": [
+          { "id": 1, "text": "Retina" },
+          { "id": 2, "text": "Cornea" },
+          { "id": 3, "text": "Iris" },
+          { "id": 4, "text": "Lens" }
+        ],
+        "CorrectAnswer": "Iris",
+        "Explanation": "The Iris is the coloured part of the eye that surrounds the pupil. It acts like the diaphragm of a camera, controlling the size of the pupil and thus regulating the amount of light that enters.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 42nd Amendment Act, 1976 added which three words to the Preamble of the Indian Constitution?",
+        "Options": [
+          { "id": 1, "text": "Democratic, Republic, Justice" },
+          { "id": 2, "text": "Sovereign, Secular, Democratic" },
+          { "id": 3, "text": "Socialist, Secular, Integrity" },
+          { "id": 4, "text": "Liberty, Equality, Fraternity" }
+        ],
+        "CorrectAnswer": "Socialist, Secular, Integrity",
+        "Explanation": "Often called the 'Mini-Constitution', the 42nd Amendment added the words 'Socialist' and 'Secular' between 'Sovereign' and 'Democratic', and changed 'unity of the Nation' to 'unity and integrity of the Nation'.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Bhima River, a major tributary of the Krishna River, originates near which place in Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Trimbakeshwar" },
+          { "id": 2, "text": "Mahabaleshwar" },
+          { "id": 3, "text": "Bhimashankar" },
+          { "id": 4, "text": "Matheran" }
+        ],
+        "CorrectAnswer": "Bhimashankar",
+        "Explanation": "The Bhima River originates from the Bhimashankar hills in the Pune district of Maharashtra.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who is known as the 'Iron Man of India'?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "Jawaharlal Nehru" },
+          { "id": 3, "text": "Subhas Chandra Bose" },
+          { "id": 4, "text": "Sardar Vallabhbhai Patel" }
+        ],
+        "CorrectAnswer": "Sardar Vallabhbhai Patel",
+        "Explanation": "Sardar Patel, India's first Deputy Prime Minister and Home Minister, earned the title 'Iron Man of India' for his crucial role in integrating hundreds of princely states into the Indian Union.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which type of lens is used to correct Hypermetropia (far-sightedness)?",
+        "Options": [
+          { "id": 1, "text": "Concave Lens" },
+          { "id": 2, "text": "Convex Lens" },
+          { "id": 3, "text": "Bifocal Lens" },
+          { "id": 4, "text": "Cylindrical Lens" }
+        ],
+        "CorrectAnswer": "Convex Lens",
+        "Explanation": "In hypermetropia, the image is focused behind the retina. A convex (converging) lens is used to increase the converging power and focus the image correctly on the retina.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which strait separates India from Sri Lanka?",
+        "Options": [
+          { "id": 1, "text": "Strait of Malacca" },
+          { "id": 2, "text": "Palk Strait" },
+          { "id": 3, "text": "Strait of Hormuz" },
+          { "id": 4, "text": "Sunda Strait" }
+        ],
+        "CorrectAnswer": "Palk Strait",
+        "Explanation": "The Palk Strait is a strait between the Tamil Nadu state of India and the Mannar district of Sri Lanka, connecting the Bay of Bengal in the northeast with Palk Bay in the southwest.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Poona Pact (1932) was an agreement between Mahatma Gandhi and whom?",
+        "Options": [
+          { "id": 1, "text": "Lord Irwin" },
+          { "id": 2, "text": "Muhammad Ali Jinnah" },
+          { "id": 3, "text": "Dr. B.R. Ambedkar" },
+          { "id": 4, "text": "Subhas Chandra Bose" }
+        ],
+        "CorrectAnswer": "Dr. B.R. Ambedkar",
+        "Explanation": "The Poona Pact was signed between Gandhi (on fast) and Ambedkar (representing depressed classes) to provide reserved seats for depressed classes within the general electorate, instead of separate electorates granted by the Communal Award.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the pH value of pure water?",
+        "Options": [
+          { "id": 1, "text": "0" },
+          { "id": 2, "text": "7" },
+          { "id": 3, "text": "14" },
+          { "id": 4, "text": "1" }
+        ],
+        "CorrectAnswer": "7",
+        "Explanation": "The pH scale ranges from 0 (highly acidic) to 14 (highly alkaline). Pure water is neutral and has a pH of 7 at standard temperature.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the maximum strength of the Lok Sabha as envisaged by the Constitution?",
+        "Options": [
+          { "id": 1, "text": "500" },
+          { "id": 2, "text": "543" },
+          { "id": 3, "text": "545" },
+          { "id": 4, "text": "552" }
+        ],
+        "CorrectAnswer": "552",
+        "Explanation": "As originally envisaged, the Lok Sabha's maximum strength was 552 (530 from states, 20 from UTs, 2 nominated Anglo-Indians). However, the Anglo-Indian nomination was removed by the 104th Amendment.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Ellora Caves in Maharashtra are unique because they contain structures belonging to which three religions?",
+        "Options": [
+          { "id": 1, "text": "Hinduism, Islam, Christianity" },
+          { "id": 2, "text": "Buddhism, Jainism, Sikhism" },
+          { "id": 3, "text": "Hinduism, Buddhism, Jainism" },
+          { "id": 4, "text": "Hinduism, Buddhism, Zoroastrianism" }
+        ],
+        "CorrectAnswer": "Hinduism, Buddhism, Jainism",
+        "Explanation": "The Ellora cave complex is a remarkable example of religious harmony, featuring rock-cut monasteries and temples of Buddhism, Hinduism, and Jainism, built between the 6th and 10th centuries.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra History & Culture"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The escape velocity from the Earth's surface is approximately:",
+        "Options": [
+          { "id": 1, "text": "9.8 km/s" },
+          { "id": 2, "text": "11.2 km/s" },
+          { "id": 3, "text": "3.0 x 10^8 m/s" },
+          { "id": 4, "text": "343 m/s" }
+        ],
+        "CorrectAnswer": "11.2 km/s",
+        "Explanation": "Escape velocity is the minimum speed needed for an object to break free from the gravitational attraction of a massive body (like Earth) without further propulsion. For Earth, it's about 11.2 kilometers per second.",
+        "Difficulty": "Hard",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who founded the 'Depressed Classes Mission' of India in 1906?",
+        "Options": [
+          { "id": 1, "text": "Dr. B.R. Ambedkar" },
+          { "id": 2, "text": "Jyotirao Phule" },
+          { "id": 3, "text": "Maharshi Vitthal Ramji Shinde" },
+          { "id": 4, "text": "Gopal Krishna Gokhale" }
+        ],
+        "CorrectAnswer": "Maharshi Vitthal Ramji Shinde",
+        "Explanation": "V.R. Shinde, a prominent social reformer associated with the Prarthana Samaj, founded the Depressed Classes Mission in Mumbai in 1906 to work for the education and upliftment of untouchables.",
+        "Difficulty": "Hard",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which part of the human body produces bile?",
+        "Options": [
+          { "id": 1, "text": "Pancreas" },
+          { "id": 2, "text": "Stomach" },
+          { "id": 3, "text": "Gallbladder" },
+          { "id": 4, "text": "Liver" }
+        ],
+        "CorrectAnswer": "Liver",
+        "Explanation": "Bile, which aids in the digestion of fats, is produced by the liver and stored in the gallbladder before being released into the small intestine.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the term for the Members of the Legislative Assembly (Vidhan Sabha) in Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "MP (Member of Parliament)" },
+          { "id": 2, "text": "MLC (Member of Legislative Council)" },
+          { "id": 3, "text": "MLA (Member of Legislative Assembly)" },
+          { "id": 4, "text": "Corporator" }
+        ],
+        "CorrectAnswer": "MLA (Member of Legislative Assembly)",
+        "Explanation": "Members elected to the state Legislative Assembly (Vidhan Sabha), the lower house, are called MLAs (Aamdar in Marathi). Members of the upper house (Vidhan Parishad) are called MLCs.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The headquarters of the World Trade Organization (WTO) is located in:",
+        "Options": [
+          { "id": 1, "text": "New York, USA" },
+          { "id": 2, "text": "Geneva, Switzerland" },
+          { "id": 3, "text": "Paris, France" },
+          { "id": 4, "text": "Brussels, Belgium" }
+        ],
+        "CorrectAnswer": "Geneva, Switzerland",
+        "Explanation": "The World Trade Organization (WTO), which deals with the global rules of trade between nations, has its headquarters in Geneva, Switzerland.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Static GK (International)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the common name for Sodium Hydroxide (NaOH)?",
+        "Options": [
+          { "id": 1, "text": "Caustic Soda" },
+          { "id": 2, "text": "Baking Soda" },
+          { "id": 3, "text": "Washing Soda" },
+          { "id": 4, "text": "Bleaching Powder" }
+        ],
+        "CorrectAnswer": "Caustic Soda",
+        "Explanation": "Sodium Hydroxide (NaOH) is a strong base commonly known as caustic soda or lye. Baking soda is Sodium Bicarbonate, and Washing Soda is Sodium Carbonate.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who was the Viceroy of India at the time of the Partition of Bengal in 1905?",
+        "Options": [
+          { "id": 1, "text": "Lord Minto" },
+          { "id": 2, "text": "Lord Hardinge" },
+          { "id": 3, "text": "Lord Curzon" },
+          { "id": 4, "text": "Lord Chelmsford" }
+        ],
+        "CorrectAnswer": "Lord Curzon",
+        "Explanation": "Lord Curzon, Viceroy from 1899 to 1905, ordered the partition of Bengal, ostensibly for administrative reasons but widely seen as a 'divide and rule' tactic.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which type of blood vessel carries oxygenated blood away from the heart?",
+        "Options": [
+          { "id": 1, "text": "Artery" },
+          { "id": 2, "text": "Vein" },
+          { "id": 3, "text": "Capillary" },
+          { "id": 4, "text": "Lymphatic Vessel" }
+        ],
+        "CorrectAnswer": "Artery",
+        "Explanation": "Arteries generally carry oxygenated blood away from the heart to the rest of the body (exception: pulmonary artery). Veins carry deoxygenated blood towards the heart (exception: pulmonary vein).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The power of 'Judicial Review' allows the judiciary to:",
+        "Options": [
+          { "id": 1, "text": "Appoint judges." },
+          { "id": 2, "text": "Review and potentially invalidate laws that violate the Constitution." },
+          { "id": 3, "text": "Advise the President on legal matters." },
+          { "id": 4, "text": "Conduct elections." }
+        ],
+        "CorrectAnswer": "Review and potentially invalidate laws that violate the Constitution.",
+        "Explanation": "Judicial Review is the power of the courts (especially the Supreme Court and High Courts) to examine the constitutionality of legislative acts and executive orders.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Tapi River flows through which major region of Maharashtra before entering Gujarat?",
+        "Options": [
+          { "id": 1, "text": "Konkan" },
+          { "id": 2, "text": "Marathwada" },
+          { "id": 3, "text": "Vidarbha" },
+          { "id": 4, "text": "Khandesh" }
+        ],
+        "CorrectAnswer": "Khandesh",
+        "Explanation": "The Tapi River, one of India's major west-flowing rivers, flows through the Khandesh region of North Maharashtra (districts like Jalgaon, Dhule, Nandurbar).",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The unit 'Decibel (dB)' is used to measure the intensity of:",
+        "Options": [
+          { "id": 1, "text": "Light" },
+          { "id": 2, "text": "Sound" },
+          { "id": 3, "text": "Electric Current" },
+          { "id": 4, "text": "Radiation" }
+        ],
+        "CorrectAnswer": "Sound",
+        "Explanation": "The Decibel (dB) is a logarithmic unit used to express the ratio of two values of a physical quantity, most commonly the intensity level of sound.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who founded the 'Satyashodhak Samaj' (Truth Seekers' Society)?",
+        "Options": [
+          { "id": 1, "text": "Dr. B.R. Ambedkar" },
+          { "id": 2, "text": "Gopal Ganesh Agarkar" },
+          { "id": 3, "text": "Jyotirao Phule" },
+          { "id": 4, "text": "V.R. Shinde" }
+        ],
+        "CorrectAnswer": "Jyotirao Phule",
+        "Explanation": "Mahatma Jyotirao Phule founded the Satyashodhak Samaj in Pune in 1873 to fight against caste discrimination and work for the liberation of lower castes.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which gas is released during photosynthesis?",
+        "Options": [
+          { "id": 1, "text": "Carbon Dioxide" },
+          { "id": 2, "text": "Nitrogen" },
+          { "id": 3, "text": "Oxygen" },
+          { "id": 4, "text": "Methane" }
+        ],
+        "CorrectAnswer": "Oxygen",
+        "Explanation": "Green plants use Carbon Dioxide and water in the presence of sunlight to produce glucose (food) and release Oxygen as a byproduct.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What does the 10th Schedule of the Indian Constitution deal with?",
+        "Options": [
+          { "id": 1, "text": "Official Languages" },
+          { "id": 2, "text": "Panchayati Raj" },
+          { "id": 3, "text": "Allocation of seats in Rajya Sabha" },
+          { "id": 4, "text": "Anti-Defection Law" }
+        ],
+        "CorrectAnswer": "Anti-Defection Law",
+        "Explanation": "The 10th Schedule, added by the 52nd Amendment Act of 1985, lays down the provisions for disqualification of Members of Parliament and State Legislatures on the ground of defection.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The historical fort of Sinhagad is located near which major city in Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Mumbai" },
+          { "id": 2, "text": "Pune" },
+          { "id": 3, "text": "Nagpur" },
+          { "id": 4, "text": "Nashik" }
+        ],
+        "CorrectAnswer": "Pune",
+        "Explanation": "Sinhagad (formerly Kondhana), famous for the Battle of Sinhagad (1670), is a hill fortress located about 35 km southwest of the city of Pune.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Maharashtra History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the chemical formula for water?",
+        "Options": [
+          { "id": 1, "text": "CO₂" },
+          { "id": 2, "text": "O₂" },
+          { "id": 3, "text": "H₂O₂" },
+          { "id": 4, "text": "H₂O" }
+        ],
+        "CorrectAnswer": "H₂O",
+        "Explanation": "The chemical formula for water is H₂O, indicating that one molecule of water consists of two hydrogen atoms and one oxygen atom. H₂O₂ is hydrogen peroxide.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The slogan 'Do or Die' is associated with which national movement?",
+        "Options": [
+          { "id": 1, "text": "Non-Cooperation Movement" },
+          { "id": 2, "text": "Civil Disobedience Movement" },
+          { "id": 3, "text": "Quit India Movement" },
+          { "id": 4, "text": "Swadeshi Movement" }
+        ],
+        "CorrectAnswer": "Quit India Movement",
+        "Explanation": "Mahatma Gandhi gave the 'Do or Die' (Karenge Ya Marenge) call in his speech in Bombay on August 8, 1942, marking the beginning of the Quit India Movement.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which component of blood helps in clotting?",
+        "Options": [
+          { "id": 1, "text": "Red Blood Cells (RBCs)" },
+          { "id": 2, "text": "White Blood Cells (WBCs)" },
+          { "id": 3, "text": "Plasma" },
+          { "id": 4, "text": "Platelets" }
+        ],
+        "CorrectAnswer": "Platelets",
+        "Explanation": "Platelets (Thrombocytes) are small, irregular cell fragments that circulate in the blood and are involved in hemostasis, leading to the formation of blood clots.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which committee recommended the three-tier structure of Panchayati Raj in India?",
+        "Options": [
+          { "id": 1, "text": "Balwant Rai Mehta Committee" },
+          { "id": 2, "text": "Ashok Mehta Committee" },
+          { "id": 3, "text": "Sarkaria Commission" },
+          { "id": 4, "text": "Swaran Singh Committee" }
+        ],
+        "CorrectAnswer": "Balwant Rai Mehta Committee",
+        "Explanation": "The Balwant Rai Mehta Committee (1957) recommended the establishment of a three-tier Panchayati Raj system: Gram Panchayat at the village level, Panchayat Samiti at the block level, and Zilla Parishad at the district level.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 'Bibikā Maqbarā', often called the 'Taj of the Deccan', is located in which city of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Nagpur" },
+          { "id": 3, "text": "Chhatrapati Sambhaji Nagar (Aurangabad)" },
+          { "id": 4, "text": "Kolhapur" }
+        ],
+        "CorrectAnswer": "Chhatrapati Sambhaji Nagar (Aurangabad)",
+        "Explanation": "Bibi Ka Maqbara is a tomb commissioned in the late 17th century by the Mughal emperor Aurangzeb in memory of his first wife, Dilras Banu Begum. It is located in Chhatrapati Sambhaji Nagar (Aurangabad).",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra History & Culture"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the unit of electric resistance?",
+        "Options": [
+          { "id": 1, "text": "Volt" },
+          { "id": 2, "text": "Ampere" },
+          { "id": 3, "text": "Watt" },
+          { "id": 4, "text": "Ohm" }
+        ],
+        "CorrectAnswer": "Ohm",
+        "Explanation": "The SI unit of electrical resistance is the Ohm (Ω). Volt is for potential difference, Ampere is for current, and Watt is for power.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who started the newspaper 'Sudharak'?",
+        "Options": [
+          { "id": 1, "text": "Bal Gangadhar Tilak" },
+          { "id": 2, "text": "Gopal Krishna Gokhale" },
+          { "id": 3, "text": "Gopal Ganesh Agarkar" },
+          { "id": 4, "text": "Jyotirao Phule" }
+        ],
+        "CorrectAnswer": "Gopal Ganesh Agarkar",
+        "Explanation": "After leaving 'Kesari' due to ideological differences with Tilak, Gopal Ganesh Agarkar started his own newspaper, 'Sudharak' (The Reformer), in 1888 to advocate social reforms.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Scurvy is caused by the deficiency of which vitamin?",
+        "Options": [
+          { "id": 1, "text": "Vitamin A" },
+          { "id": 2, "text": "Vitamin B" },
+          { "id": 3, "text": "Vitamin C" },
+          { "id": 4, "text": "Vitamin D" }
+        ],
+        "CorrectAnswer": "Vitamin C",
+        "Explanation": "Scurvy is a disease resulting from a deficiency of Vitamin C (Ascorbic Acid), characterized by weakness, anemia, gum disease, and skin hemorrhages.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which amendment is known as the 'Mini-Constitution' of India?",
+        "Options": [
+          { "id": 1, "text": "42nd Amendment" },
+          { "id": 2, "text": "44th Amendment" },
+          { "id": 3, "text": "61st Amendment" },
+          { "id": 4, "text": "73rd Amendment" }
+        ],
+        "CorrectAnswer": "42nd Amendment",
+        "Explanation": "The 42nd Amendment Act, 1976, made widespread changes to the Constitution (including adding Fundamental Duties and modifying the Preamble), earning it the nickname 'Mini-Constitution'.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The headquarters of the Central Railway zone of Indian Railways is located in:",
+        "Options": [
+          { "id": 1, "text": "Mumbai (CSMT)" },
+          { "id": 2, "text": "Pune" },
+          { "id": 3, "text": "Nagpur" },
+          { "id": 4, "text": "Bhusawal" }
+        ],
+        "CorrectAnswer": "Mumbai (CSMT)",
+        "Explanation": "The headquarters of the Central Railway (CR) zone is located at Chhatrapati Shivaji Maharaj Terminus (CSMT) in Mumbai.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which metal is used in the filament of an electric bulb?",
+        "Options": [
+          { "id": 1, "text": "Copper" },
+          { "id": 2, "text": "Aluminum" },
+          { "id": 3, "text": "Tungsten" },
+          { "id": 4, "text": "Iron" }
+        ],
+        "CorrectAnswer": "Tungsten",
+        "Explanation": "Tungsten is used for the filament in incandescent light bulbs because it has a very high melting point and glows brightly when heated by electric current without melting.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Chemistry/Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who wrote the book 'Discovery of India'?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "Sardar Patel" },
+          { "id": 3, "text": "Subhas Chandra Bose" },
+          { "id": 4, "text": "Jawaharlal Nehru" }
+        ],
+        "CorrectAnswer": "Jawaharlal Nehru",
+        "Explanation": "Jawaharlal Nehru wrote 'The Discovery of India' during his imprisonment at Ahmednagar fort in Maharashtra during the Quit India Movement (1942-45).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian History"
+      },{
+        "category": "General Knowledge",
+        "Question": "Who is considered the 'Father of the Indian Space Programme'?",
+        "Options": [
+          { "id": 1, "text": "Dr. A.P.J. Abdul Kalam" },
+          { "id": 2, "text": "Dr. Vikram Sarabhai" },
+          { "id": 3, "text": "Dr. Homi J. Bhabha" },
+          { "id": 4, "text": "Dr. Satish Dhawan" }
+        ],
+        "CorrectAnswer": "Dr. Vikram Sarabhai",
+        "Explanation": "Dr. Vikram Sarabhai is widely regarded as the visionary founder and father of the Indian space program, leading to the establishment of ISRO.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Static GK (India)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the instrument used to measure the purity of milk?",
+        "Options": [
+          { "id": 1, "text": "Hydrometer" },
+          { "id": 2, "text": "Barometer" },
+          { "id": 3, "text": "Lactometer" },
+          { "id": 4, "text": "Thermometer" }
+        ],
+        "CorrectAnswer": "Lactometer",
+        "Explanation": "A lactometer is a type of hydrometer specifically designed to measure the specific gravity (density) of milk, which helps determine its purity and water content.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 'Lok Adalat' system in India aims to provide:",
+        "Options": [
+          { "id": 1, "text": "Speedy justice through compromise and settlement." },
+          { "id": 2, "text": "Legal advice to the poor." },
+          { "id": 3, "text": "Training for judges." },
+          { "id": 4, "text": "A platform for political debates." }
+        ],
+        "CorrectAnswer": "Speedy justice through compromise and settlement.",
+        "Explanation": "Lok Adalats (People's Courts) are alternative dispute resolution mechanisms where disputes pending in courts or at the pre-litigation stage are settled amicably.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which river is known as the 'Dakshin Ganga' (Ganga of the South)?",
+        "Options": [
+          { "id": 1, "text": "Krishna" },
+          { "id": 2, "text": "Kaveri" },
+          { "id": 3, "text": "Godavari" },
+          { "id": 4, "text": "Mahanadi" }
+        ],
+        "CorrectAnswer": "Godavari",
+        "Explanation": "Due to its large size and extent, the Godavari River, originating in Maharashtra, is often referred to as the 'Dakshin Ganga'.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who established the 'Sharda Sadan' in Bombay (later moved to Pune) for the education of widows?",
+        "Options": [
+          { "id": 1, "text": "Savitribai Phule" },
+          { "id": 2, "text": "Maharshi Karve" },
+          { "id": 3, "text": "Pandita Ramabai" },
+          { "id": 4, "text": "Ramabai Ranade" }
+        ],
+        "CorrectAnswer": "Pandita Ramabai",
+        "Explanation": "Pandita Ramabai, a renowned scholar and social reformer, founded the Sharada Sadan in 1889 as a home and school, primarily for high-caste Hindu widows.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which element is common to all acids?",
+        "Options": [
+          { "id": 1, "text": "Oxygen" },
+          { "id": 2, "text": "Hydrogen" },
+          { "id": 3, "text": "Chlorine" },
+          { "id": 4, "text": "Sulphur" }
+        ],
+        "CorrectAnswer": "Hydrogen",
+        "Explanation": "According to the Arrhenius definition, an acid is a substance that produces Hydrogen ions (H+) or Hydronium ions (H₃O+) when dissolved in water.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which Constitutional Amendment introduced the Goods and Services Tax (GST)?",
+        "Options": [
+          { "id": 1, "text": "100th Amendment" },
+          { "id": 2, "text": "101st Amendment" },
+          { "id": 3, "text": "102nd Amendment" },
+          { "id": 4, "text": "103rd Amendment" }
+        ],
+        "CorrectAnswer": "101st Amendment",
+        "Explanation": "The Constitution (One Hundred and First Amendment) Act, 2016, introduced the Goods and Services Tax (GST) in India, subsuming most indirect taxes.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The famous rock-cut Kailasa temple is located within which cave complex in Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Ajanta Caves" },
+          { "id": 2, "text": "Elephanta Caves" },
+          { "id": 3, "text": "Karla Caves" },
+          { "id": 4, "text": "Ellora Caves" }
+        ],
+        "CorrectAnswer": "Ellora Caves",
+        "Explanation": "The Kailasa temple (Cave 16) at Ellora is a remarkable monolithic structure, carved top-down from a single rock face, dedicated to Lord Shiva.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra History & Culture"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which of these is NOT a greenhouse gas?",
+        "Options": [
+          { "id": 1, "text": "Carbon Dioxide (CO₂)" },
+          { "id": 2, "text": "Methane (CH₄)" },
+          { "id": 3, "text": "Nitrous Oxide (N₂O)" },
+          { "id": 4, "text": "Oxygen (O₂)" }
+        ],
+        "CorrectAnswer": "Oxygen (O₂)",
+        "Explanation": "Greenhouse gases (like CO₂, CH₄, N₂O, water vapor) trap heat in the atmosphere. Oxygen and Nitrogen, the main components of air, are not significant greenhouse gases.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "General Science (Environment)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Rowlatt Act of 1919 was primarily intended to:",
+        "Options": [
+          { "id": 1, "text": "Introduce provincial autonomy." },
+          { "id": 2, "text": "Allow detention of political prisoners without trial." },
+          { "id": 3, "text": "Implement separate electorates for Muslims." },
+          { "id": 4, "text": "Promote education in India." }
+        ],
+        "CorrectAnswer": "Allow detention of political prisoners without trial.",
+        "Explanation": "The Anarchical and Revolutionary Crimes Act, 1919 (Rowlatt Act) gave the British government repressive powers, including detention without trial, leading to widespread protests.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which disease is caused by the bite of an infected Aedes mosquito?",
+        "Options": [
+          { "id": 1, "text": "Malaria" },
+          { "id": 2, "text": "Dengue" },
+          { "id": 3, "text": "Tuberculosis" },
+          { "id": 4, "text": "Cholera" }
+        ],
+        "CorrectAnswer": "Dengue",
+        "Explanation": "Dengue fever, Chikungunya, and Zika virus are primarily transmitted by the bite of infected Aedes aegypti mosquitoes. Malaria is spread by Anopheles mosquitoes.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the minimum age required to be appointed as the Governor of a state?",
+        "Options": [
+          { "id": 1, "text": "25 years" },
+          { "id": 2, "text": "30 years" },
+          { "id": 3, "text": "35 years" },
+          { "id": 4, "text": "40 years" }
+        ],
+        "CorrectAnswer": "35 years",
+        "Explanation": "Article 157 of the Constitution specifies that a person must be a citizen of India and have completed the age of 35 years to be eligible for appointment as Governor.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which district of Maharashtra has the longest coastline?",
+        "Options": [
+          { "id": 1, "text": "Mumbai" },
+          { "id": 2, "text": "Raigad" },
+          { "id": 3, "text": "Sindhudurg" },
+          { "id": 4, "text": "Ratnagiri" }
+        ],
+        "CorrectAnswer": "Ratnagiri",
+        "Explanation": "Ratnagiri district in the Konkan region has the longest coastline among all districts of Maharashtra.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who among the following was NOT part of the 'Lal Bal Pal' trio of extremist leaders?",
+        "Options": [
+          { "id": 1, "text": "Lala Lajpat Rai" },
+          { "id": 2, "text": "Bal Gangadhar Tilak" },
+          { "id": 3, "text": "Bipin Chandra Pal" },
+          { "id": 4, "text": "Gopal Krishna Gokhale" }
+        ],
+        "CorrectAnswer": "Gopal Krishna Gokhale",
+        "Explanation": "'Lal Bal Pal' refers to the three prominent leaders of the assertive nationalist (extremist) faction: Lala Lajpat Rai, Bal Gangadhar Tilak, and Bipin Chandra Pal. Gokhale was a leader of the 'Moderate' faction.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the study of fossils called?",
+        "Options": [
+          { "id": 1, "text": "Archaeology" },
+          { "id": 2, "text": "Paleontology" },
+          { "id": 3, "text": "Anthropology" },
+          { "id": 4, "text": "Geology" }
+        ],
+        "CorrectAnswer": "Paleontology",
+        "Explanation": "Paleontology is the scientific study of life that existed prior to, and sometimes including, the start of the Holocene Epoch, based on fossil evidence.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Chilika Lake, the largest coastal lagoon in India, is located in which state?",
+        "Options": [
+          { "id": 1, "text": "Andhra Pradesh" },
+          { "id": 2, "text": "Tamil Nadu" },
+          { "id": 3, "text": "Odisha" },
+          { "id": 4, "text": "West Bengal" }
+        ],
+        "CorrectAnswer": "Odisha",
+        "Explanation": "Chilika Lake is a brackish water lagoon located on the east coast of India in the state of Odisha, known for its rich biodiversity, especially migratory birds.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who started the Ganapati festival in 1893 to galvanize nationalist sentiment?",
+        "Options": [
+          { "id": 1, "text": "Jyotirao Phule" },
+          { "id": 2, "text": "Gopal Ganesh Agarkar" },
+          { "id": 3, "text": "Bal Gangadhar Tilak" },
+          { "id": 4, "text": "V.D. Savarkar" }
+        ],
+        "CorrectAnswer": "Bal Gangadhar Tilak",
+        "Explanation": "Lokmanya Tilak transformed the private household worship of Ganesha into a large public event (Sarvajanik Ganeshotsav) to bridge caste gaps and mobilize people against British rule.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which gas is used in fire extinguishers?",
+        "Options": [
+          { "id": 1, "text": "Oxygen" },
+          { "id": 2, "text": "Nitrogen" },
+          { "id": 3, "text": "Carbon Dioxide" },
+          { "id": 4, "text": "Hydrogen" }
+        ],
+        "CorrectAnswer": "Carbon Dioxide",
+        "Explanation": "Carbon Dioxide (CO₂) is commonly used in fire extinguishers because it is non-flammable and heavier than air, displacing oxygen needed for combustion.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who can issue writs for the enforcement of Fundamental Rights?",
+        "Options": [
+          { "id": 1, "text": "Only the Supreme Court" },
+          { "id": 2, "text": "Only the High Courts" },
+          { "id": 3, "text": "Both the Supreme Court and High Courts" },
+          { "id": 4, "text": "The President" }
+        ],
+        "CorrectAnswer": "Both the Supreme Court and High Courts",
+        "Explanation": "Both the Supreme Court (under Article 32) and the High Courts (under Article 226) have the power to issue writs (like Habeas Corpus, Mandamus) for the enforcement of Fundamental Rights.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 'Lonar Crater' is located in which district of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Akola" },
+          { "id": 2, "text": "Washim" },
+          { "id": 3, "text": "Jalna" },
+          { "id": 4, "text": "Buldhana" }
+        ],
+        "CorrectAnswer": "Buldhana",
+        "Explanation": "The Lonar soda lake, formed by a meteorite impact, is situated in the Buldhana district of the Vidarbha region.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the unit of measurement for the frequency of sound waves?",
+        "Options": [
+          { "id": 1, "text": "Decibel (dB)" },
+          { "id": 2, "text": "Hertz (Hz)" },
+          { "id": 3, "text": "Watt (W)" },
+          { "id": 4, "text": "Pascal (Pa)" }
+        ],
+        "CorrectAnswer": "Hertz (Hz)",
+        "Explanation": "Frequency, which determines the pitch of a sound, is measured in Hertz (Hz), representing cycles per second. Decibel measures loudness/intensity.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who among these was NOT associated with the Prarthana Samaj?",
+        "Options": [
+          { "id": 1, "text": "Atmaram Pandurang" },
+          { "id": 2, "text": "R.G. Bhandarkar" },
+          { "id": 3, "text": "M.G. Ranade" },
+          { "id": 4, "text": "Jyotirao Phule" }
+        ],
+        "CorrectAnswer": "Jyotirao Phule",
+        "Explanation": "Atmaram Pandurang was a founder, while Bhandarkar and Ranade were key leaders of the Prarthana Samaj. Jyotirao Phule founded the distinct Satyashodhak Samaj.",
+        "Difficulty": "Hard",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Socio-Religious Movements"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Goitre, the swelling of the neck, is caused by the deficiency of which mineral?",
+        "Options": [
+          { "id": 1, "text": "Iron" },
+          { "id": 2, "text": "Calcium" },
+          { "id": 3, "text": "Iodine" },
+          { "id": 4, "text": "Zinc" }
+        ],
+        "CorrectAnswer": "Iodine",
+        "Explanation": "Iodine is essential for the thyroid gland to produce thyroid hormones. Iodine deficiency leads to the enlargement of the thyroid gland, causing goitre.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the maximum gap allowed between two sessions of the Parliament?",
+        "Options": [
+          { "id": 1, "text": "3 months" },
+          { "id": 2, "text": "4 months" },
+          { "id": 3, "text": "6 months" },
+          { "id": 4, "text": "1 year" }
+        ],
+        "CorrectAnswer": "6 months",
+        "Explanation": "Article 85 states that the President shall summon each House of Parliament such that six months shall not intervene between its last sitting in one session and the date appointed for its first sitting in the next session.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 'Samyukta Maharashtra Samiti' was formed primarily to advocate for:",
+        "Options": [
+          { "id": 1, "text": "The inclusion of Mumbai in the state of Maharashtra." },
+          { "id": 2, "text": "A separate state of Vidarbha." },
+          { "id": 3, "text": "Land reforms in Maharashtra." },
+          { "id": 4, "text": "The abolition of the Zamindari system." }
+        ],
+        "CorrectAnswer": "The inclusion of Mumbai in the state of Maharashtra.",
+        "Explanation": "The Samyukta Maharashtra Samiti led the movement for a unified Marathi-speaking state, with a key demand being the inclusion of the city of Bombay (Mumbai) as its capital.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "Maharashtra History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the common name for Calcium Carbonate (CaCO₃)?",
+        "Options": [
+          { "id": 1, "text": "Quicklime" },
+          { "id": 2, "text": "Slaked Lime" },
+          { "id": 3, "text": "Limestone / Chalk / Marble" },
+          { "id": 4, "text": "Gypsum" }
+        ],
+        "CorrectAnswer": "Limestone / Chalk / Marble",
+        "Explanation": "Calcium Carbonate (CaCO₃) occurs naturally as limestone, chalk, and marble. Quicklime is CaO, and Slaked Lime is Ca(OH)₂.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who founded the revolutionary organization 'Abhinav Bharat'?",
+        "Options": [
+          { "id": 1, "text": "Bal Gangadhar Tilak" },
+          { "id": 2, "text": "Bhagat Singh" },
+          { "id": 3, "text": "Vinayak Damodar Savarkar" },
+          { "id": 4, "text": "Lala Hardayal" }
+        ],
+        "CorrectAnswer": "Vinayak Damodar Savarkar",
+        "Explanation": "V.D. Savarkar and his brother Ganesh Savarkar founded the secret society 'Abhinav Bharat Society' (Young India Society) in 1904, initially started as 'Mitra Mela'.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which blood group is known as the 'Universal Donor'?",
+        "Options": [
+          { "id": 1, "text": "A" },
+          { "id": 2, "text": "B" },
+          { "id": 3, "text": "AB" },
+          { "id": 4, "text": "O" }
+        ],
+        "CorrectAnswer": "O",
+        "Explanation": "People with blood group O (specifically O negative) are called 'Universal Donors' because their red blood cells have no A or B antigens and can generally be transfused to people of any ABO blood group.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 73rd Amendment Act, relating to Panchayati Raj, added which Schedule to the Constitution?",
+        "Options": [
+          { "id": 1, "text": "9th Schedule" },
+          { "id": 2, "text": "10th Schedule" },
+          { "id": 3, "text": "11th Schedule" },
+          { "id": 4, "text": "12th Schedule" }
+        ],
+        "CorrectAnswer": "11th Schedule",
+        "Explanation": "The 73rd Amendment (1992) added Part IX and the 11th Schedule to the Constitution. The 11th Schedule contains 29 functional items for Panchayats.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which district in Maharashtra is known as the 'Sugar Belt' due to high sugarcane production?",
+        "Options": [
+          { "id": 1, "text": "Nashik" },
+          { "id": 2, "text": "Nagpur" },
+          { "id": 3, "text": "Kolhapur" },
+          { "id": 4, "text": "Ratnagiri" }
+        ],
+        "CorrectAnswer": "Kolhapur",
+        "Explanation": "The districts of Western Maharashtra, particularly Kolhapur, Sangli, Satara, Ahmednagar, and Pune, are known as the 'Sugar Belt' due to fertile soil, irrigation, and a concentration of sugar factories.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The phenomenon where light bends as it passes from one medium to another is called:",
+        "Options": [
+          { "id": 1, "text": "Reflection" },
+          { "id": 2, "text": "Refraction" },
+          { "id": 3, "text": "Diffraction" },
+          { "id": 4, "text": "Dispersion" }
+        ],
+        "CorrectAnswer": "Refraction",
+        "Explanation": "Refraction is the bending of a wave (like light) when it passes from one medium to another where its speed is different (e.g., from air to water). Reflection is bouncing off a surface.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who wrote the Marathi newspaper 'Kesari'?",
+        "Options": [
+          { "id": 1, "text": "Gopal Ganesh Agarkar" },
+          { "id": 2, "text": "Jyotirao Phule" },
+          { "id": 3, "text": "Vishnushastri Chiplunkar" },
+          { "id": 4, "text": "Bal Gangadhar Tilak" }
+        ],
+        "CorrectAnswer": "Bal Gangadhar Tilak",
+        "Explanation": "Lokmanya Tilak started the Marathi newspaper 'Kesari' in 1881. Agarkar was its first editor, but Tilak took over later and it became strongly associated with him.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which pigment gives human skin its colour?",
+        "Options": [
+          { "id": 1, "text": "Hemoglobin" },
+          { "id": 2, "text": "Melanin" },
+          { "id": 3, "text": "Chlorophyll" },
+          { "id": 4, "text": "Keratin" }
+        ],
+        "CorrectAnswer": "Melanin",
+        "Explanation": "Melanin is a pigment produced by cells called melanocytes. It primarily determines skin, hair, and eye colour and provides protection against UV radiation.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which state has the highest number of Lok Sabha seats?",
+        "Options": [
+          { "id": 1, "text": "Maharashtra" },
+          { "id": 2, "text": "West Bengal" },
+          { "id": 3, "text": "Uttar Pradesh" },
+          { "id": 4, "text": "Bihar" }
+        ],
+        "CorrectAnswer": "Uttar Pradesh",
+        "Explanation": "Due to its large population, Uttar Pradesh has the highest representation in the Lok Sabha, with 80 seats. Maharashtra is second with 48 seats.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 'Bibi Ka Maqbara' in Aurangabad was built in memory of:",
+        "Options": [
+          { "id": 1, "text": "Mumtaz Mahal" },
+          { "id": 2, "text": "Nur Jahan" },
+          { "id": 3, "text": "Dilras Banu Begum" },
+          { "id": 4, "text": "Jahanara Begum" }
+        ],
+        "CorrectAnswer": "Dilras Banu Begum",
+        "Explanation": "Mughal Emperor Aurangzeb commissioned the Bibi Ka Maqbara as a mausoleum for his first wife and chief consort, Dilras Banu Begum.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra History & Culture"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which acid is present in lemon and orange?",
+        "Options": [
+          { "id": 1, "text": "Acetic Acid" },
+          { "id": 2, "text": "Citric Acid" },
+          { "id": 3, "text": "Lactic Acid" },
+          { "id": 4, "text": "Formic Acid" }
+        ],
+        "CorrectAnswer": "Citric Acid",
+        "Explanation": "Citrus fruits like lemons, oranges, and grapefruits are rich in Citric Acid, which gives them their characteristic sour taste.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The first Round Table Conference was held in London in which year?",
+        "Options": [
+          { "id": 1, "text": "1929" },
+          { "id": 2, "text": "1930" },
+          { "id": 3, "text": "1931" },
+          { "id": 4, "text": "1932" }
+        ],
+        "CorrectAnswer": "1930",
+        "Explanation": "The first of the three Round Table Conferences, organized by the British government to discuss constitutional reforms in India, was held from November 1930 to January 1931.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Anemia is a condition characterized by a deficiency of:",
+        "Options": [
+          { "id": 1, "text": "White Blood Cells" },
+          { "id": 2, "text": "Platelets" },
+          { "id": 3, "text": "Red Blood Cells or Hemoglobin" },
+          { "id": 4, "text": "Plasma" }
+        ],
+        "CorrectAnswer": "Red Blood Cells or Hemoglobin",
+        "Explanation": "Anemia results from a lack of red blood cells or dysfunctional red blood cells, leading to reduced oxygen flow to the body's organs. Iron deficiency is a common cause.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who is the head of the government in India?",
+        "Options": [
+          { "id": 1, "text": "The President" },
+          { "id": 2, "text": "The Prime Minister" },
+          { "id": 3, "text": "The Chief Justice of India" },
+          { "id": 4, "text": "The Speaker of Lok Sabha" }
+        ],
+        "CorrectAnswer": "The Prime Minister",
+        "Explanation": "In India's parliamentary system, the President is the Head of State (nominal executive), while the Prime Minister is the Head of Government (real executive).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which National Highway connects Mumbai to Delhi?",
+        "Options": [
+          { "id": 1, "text": "NH 44" },
+          { "id": 2, "text": "NH 66" },
+          { "id": 3, "text": "NH 48" },
+          { "id": 4, "text": "NH 53" }
+        ],
+        "CorrectAnswer": "NH 48",
+        "Explanation": "NH 48 is a major national highway connecting Delhi to Chennai, passing through major cities including Mumbai, Pune, Bengaluru. (Previously parts were NH 8 and NH 4).",
+        "Difficulty": "Hard",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which physical quantity is measured in 'Joules'?",
+        "Options": [
+          { "id": 1, "text": "Power" },
+          { "id": 2, "text": "Force" },
+          { "id": 3, "text": "Pressure" },
+          { "id": 4, "text": "Energy / Work" }
+        ],
+        "CorrectAnswer": "Energy / Work",
+        "Explanation": "The Joule (J) is the SI unit for Energy and Work. Power is measured in Watts, Force in Newtons, and Pressure in Pascals.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who was the first woman teacher of India?",
+        "Options": [
+          { "id": 1, "text": "Pandita Ramabai" },
+          { "id": 2, "text": "Savitribai Phule" },
+          { "id": 3, "text": "Ramabai Ranade" },
+          { "id": 4, "text": "Anandibai Joshi" }
+        ],
+        "CorrectAnswer": "Savitribai Phule",
+        "Explanation": "Savitribai Phule, along with her husband Jyotirao Phule, opened the first school for girls in Pune in 1848, making her widely regarded as India's first female teacher.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "DNA (Deoxyribonucleic Acid) is primarily found in which part of the cell?",
+        "Options": [
+          { "id": 1, "text": "Ribosome" },
+          { "id": 2, "text": "Cytoplasm" },
+          { "id": 3, "text": "Nucleus" },
+          { "id": 4, "text": "Cell Membrane" }
+        ],
+        "CorrectAnswer": "Nucleus",
+        "Explanation": "In eukaryotic cells (like human cells), the vast majority of the DNA, which carries the genetic instructions, is located within the cell nucleus.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "How many Fundamental Duties are mentioned in the Indian Constitution (Article 51A)?",
+        "Options": [
+          { "id": 1, "text": "8" },
+          { "id": 2, "text": "10" },
+          { "id": 3, "text": "11" },
+          { "id": 4, "text": "12" }
+        ],
+        "CorrectAnswer": "11",
+        "Explanation": "Originally 10 Fundamental Duties were added by the 42nd Amendment. The 11th duty (regarding education for children aged 6-14) was added by the 86th Amendment in 2002.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 'Battle of Panipat' where the Maratha army was defeated by Ahmad Shah Abdali took place in which year?",
+        "Options": [
+          { "id": 1, "text": "1526 (First Battle)" },
+          { "id": 2, "text": "1556 (Second Battle)" },
+          { "id": 3, "text": "1761 (Third Battle)" },
+          { "id": 4, "text": "1857" }
+        ],
+        "CorrectAnswer": "1761 (Third Battle)",
+        "Explanation": "The Third Battle of Panipat, a major confrontation between the Maratha Empire and the invading Afghan army of Ahmad Shah Abdali, took place on January 14, 1761.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the primary component of Natural Gas?",
+        "Options": [
+          { "id": 1, "text": "Methane" },
+          { "id": 2, "text": "Ethane" },
+          { "id": 3, "text": "Propane" },
+          { "id": 4, "text": "Butane" }
+        ],
+        "CorrectAnswer": "Methane",
+        "Explanation": "Natural gas is a fossil fuel consisting primarily of Methane (CH₄), along with smaller amounts of other hydrocarbons like ethane, propane, and butane.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who was the first Governor-General of independent India?",
+        "Options": [
+          { "id": 1, "text": "C. Rajagopalachari" },
+          { "id": 2, "text": "Dr. Rajendra Prasad" },
+          { "id": 3, "text": "Lord Mountbatten" },
+          { "id": 4, "text": "Jawaharlal Nehru" }
+        ],
+        "CorrectAnswer": "Lord Mountbatten",
+        "Explanation": "Lord Mountbatten, the last Viceroy, stayed on as the first Governor-General of the Dominion of India from August 1947 to June 1948. C. Rajagopalachari succeeded him as the first (and only) Indian Governor-General.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The process by which plants release water vapor into the atmosphere is called:",
+        "Options": [
+          { "id": 1, "text": "Photosynthesis" },
+          { "id": 2, "text": "Respiration" },
+          { "id": 3, "text": "Transpiration" },
+          { "id": 4, "text": "Evaporation" }
+        ],
+        "CorrectAnswer": "Transpiration",
+        "Explanation": "Transpiration is the process where moisture is carried through plants from roots to small pores (stomata) on the underside of leaves, where it changes to vapor and is released to the atmosphere.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },{
+        "category": "General Knowledge",
+        "Question": "Which session of the Indian National Congress adopted the resolution for 'Purna Swaraj' (Complete Independence)?",
+        "Options": [
+          { "id": 1, "text": "Calcutta Session, 1928" },
+          { "id": 2, "text": "Lahore Session, 1929" },
+          { "id": 3, "text": "Karachi Session, 1931" },
+          { "id": 4, "text": "Nagpur Session, 1920" }
+        ],
+        "CorrectAnswer": "Lahore Session, 1929",
+        "Explanation": "At the Lahore Session in December 1929, presided over by Jawaharlal Nehru, the INC declared 'Purna Swaraj' as its goal.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the primary function of the ribosomes in a cell?",
+        "Options": [
+          { "id": 1, "text": "Energy production (ATP synthesis)" },
+          { "id": 2, "text": "Protein synthesis" },
+          { "id": 3, "text": "Waste disposal" },
+          { "id": 4, "text": "Cellular transport" }
+        ],
+        "CorrectAnswer": "Protein synthesis",
+        "Explanation": "Ribosomes are cellular machines responsible for translating genetic information (mRNA) into proteins.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who is the Chairman of the NITI Aayog?",
+        "Options": [
+          { "id": 1, "text": "The President of India" },
+          { "id": 2, "text": "The Vice-President of India" },
+          { "id": 3, "text": "The Prime Minister of India" },
+          { "id": 4, "text": "The Union Finance Minister" }
+        ],
+        "CorrectAnswer": "The Prime Minister of India",
+        "Explanation": "The Prime Minister of India serves as the ex-officio Chairperson of the NITI Aayog (National Institution for Transforming India).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Manikdoh Dam, providing water to the Junnar region, is built on which river?",
+        "Options": [
+          { "id": 1, "text": "Bhima" },
+          { "id": 2, "text": "Kukadi" },
+          { "id": 3, "text": "Pravara" },
+          { "id": 4, "text": "Mula" }
+        ],
+        "CorrectAnswer": "Kukadi",
+        "Explanation": "The Manikdoh Dam is an earthfill dam on the Kukadi River near Junnar in Pune district, part of the Kukadi project.",
+        "Difficulty": "Hard",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who started the newspaper 'Mooknayak' (Leader of the Dumb) in 1920?",
+        "Options": [
+          { "id": 1, "text": "Jyotirao Phule" },
+          { "id": 2, "text": "Gopal Ganesh Agarkar" },
+          { "id": 3, "text": "Dr. B.R. Ambedkar" },
+          { "id": 4, "text": "V.R. Shinde" }
+        ],
+        "CorrectAnswer": "Dr. B.R. Ambedkar",
+        "Explanation": "Dr. B.R. Ambedkar started the fortnightly Marathi newspaper 'Mooknayak' with the help of Chhatrapati Shahu Maharaj of Kolhapur to voice the concerns of the depressed classes.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the common name for Acetic Acid?",
+        "Options": [
+          { "id": 1, "text": "Vinegar" },
+          { "id": 2, "text": "Aspirin" },
+          { "id": 3, "text": "Formic Acid" },
+          { "id": 4, "text": "Citric Acid" }
+        ],
+        "CorrectAnswer": "Vinegar",
+        "Explanation": "Vinegar is essentially a dilute aqueous solution of Acetic Acid (CH₃COOH), typically 5-8% by volume.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The concept of 'Public Interest Litigation (PIL)' originated in which country?",
+        "Options": [
+          { "id": 1, "text": "India" },
+          { "id": 2, "text": "United Kingdom" },
+          { "id": 3, "text": "United States of America" },
+          { "id": 4, "text": "Australia" }
+        ],
+        "CorrectAnswer": "United States of America",
+        "Explanation": "The concept of Public Interest Litigation (PIL) originated and developed in the USA in the 1960s. It was later adopted and expanded significantly by the Indian judiciary.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Shivneri Fort, the birthplace of Chhatrapati Shivaji Maharaj, is located near which town?",
+        "Options": [
+          { "id": 1, "text": "Pune" },
+          { "id": 2, "text": "Satara" },
+          { "id": 3, "text": "Raigad" },
+          { "id": 4, "text": "Junnar" }
+        ],
+        "CorrectAnswer": "Junnar",
+        "Explanation": "Shivneri Fort is a historic hill fort located near Junnar in the Pune district of Maharashtra. Chhatrapati Shivaji Maharaj was born here in 1630.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Richter scale is used to measure the magnitude of:",
+        "Options": [
+          { "id": 1, "text": "Wind Speed" },
+          { "id": 2, "text": "Earthquakes" },
+          { "id": 3, "text": "Ocean Depth" },
+          { "id": 4, "text": "Atmospheric Pressure" }
+        ],
+        "CorrectAnswer": "Earthquakes",
+        "Explanation": "The Richter scale is a logarithmic scale used to quantify the magnitude (energy released) of an earthquake.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Earth Science)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who was the first Indian woman to climb Mount Everest?",
+        "Options": [
+          { "id": 1, "text": "Bachendri Pal" },
+          { "id": 2, "text": "Santosh Yadav" },
+          { "id": 3, "text": "Arunima Sinha" },
+          { "id": 4, "text": "Premlata Agarwal" }
+        ],
+        "CorrectAnswer": "Bachendri Pal",
+        "Explanation": "Bachendri Pal became the first Indian woman to reach the summit of Mount Everest in 1984.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "Static GK (India)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which genetic material carries hereditary information in most organisms?",
+        "Options": [
+          { "id": 1, "text": "RNA (Ribonucleic Acid)" },
+          { "id": 2, "text": "Proteins" },
+          { "id": 3, "text": "DNA (Deoxyribonucleic Acid)" },
+          { "id": 4, "text": "Enzymes" }
+        ],
+        "CorrectAnswer": "DNA (Deoxyribonucleic Acid)",
+        "Explanation": "DNA is the molecule that contains the genetic code responsible for the development, functioning, growth, and reproduction of nearly all known organisms.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 'Zero Hour' in the Indian Parliament refers to:",
+        "Options": [
+          { "id": 1, "text": "The time when the budget is presented." },
+          { "id": 2, "text": "The period immediately following the Question Hour." },
+          { "id": 3, "text": "The last hour of the sitting." },
+          { "id": 4, "text": "A period with no parliamentary business." }
+        ],
+        "CorrectAnswer": "The period immediately following the Question Hour.",
+        "Explanation": "Zero Hour is an Indian parliamentary innovation. It starts immediately after the Question Hour (around 12 noon) and allows members to raise matters of urgent public importance without prior notice.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which soil type, formed from weathered basalt, covers the largest area of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Alluvial Soil" },
+          { "id": 2, "text": "Laterite Soil" },
+          { "id": 3, "text": "Red Soil" },
+          { "id": 4, "text": "Black Soil (Regur)" }
+        ],
+        "CorrectAnswer": "Black Soil (Regur)",
+        "Explanation": "The Deccan Plateau, which forms most of Maharashtra, is made of volcanic basalt rock. Its weathering results in the formation of deep, clayey Black Soil (Regur), ideal for cotton cultivation.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The partition of Bengal in 1905 was annulled in which year?",
+        "Options": [
+          { "id": 1, "text": "1908" },
+          { "id": 2, "text": "1911" },
+          { "id": 3, "text": "1914" },
+          { "id": 4, "text": "1919" }
+        ],
+        "CorrectAnswer": "1911",
+        "Explanation": "Due to widespread protests (Swadeshi Movement), the British government annulled the partition of Bengal in 1911 during the Delhi Durbar.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Mirage is an optical phenomenon caused by:",
+        "Options": [
+          { "id": 1, "text": "Reflection of light" },
+          { "id": 2, "text": "Refraction of light" },
+          { "id": 3, "text": "Diffraction of light" },
+          { "id": 4, "text": "Scattering of light" }
+        ],
+        "CorrectAnswer": "Refraction of light",
+        "Explanation": "Mirages occur when light rays bend (refract) due to passing through layers of air with different temperatures (and thus different densities), typically creating an illusion of water on hot surfaces.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Kaziranga National Park in Assam is famous for:",
+        "Options": [
+          { "id": 1, "text": "Asiatic Lions" },
+          { "id": 2, "text": "Bengal Tigers" },
+          { "id": 3, "text": "One-horned Rhinoceroses" },
+          { "id": 4, "text": "Snow Leopards" }
+        ],
+        "CorrectAnswer": "One-horned Rhinoceroses",
+        "Explanation": "Kaziranga National Park, a UNESCO World Heritage Site, hosts two-thirds of the world's population of the Indian one-horned rhinoceros.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Static GK (India)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who administered the oath to the first Prime Minister of India, Jawaharlal Nehru?",
+        "Options": [
+          { "id": 1, "text": "Mahatma Gandhi" },
+          { "id": 2, "text": "Lord Mountbatten" },
+          { "id": 3, "text": "Dr. Rajendra Prasad" },
+          { "id": 4, "text": "Sardar Patel" }
+        ],
+        "CorrectAnswer": "Lord Mountbatten",
+        "Explanation": "Lord Mountbatten, as the first Governor-General of independent India, administered the oath of office to Jawaharlal Nehru on August 15, 1947.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which gas is commonly filled in electric bulbs?",
+        "Options": [
+          { "id": 1, "text": "Oxygen" },
+          { "id": 2, "text": "Hydrogen" },
+          { "id": 3, "text": "Argon" },
+          { "id": 4, "text": "Carbon Dioxide" }
+        ],
+        "CorrectAnswer": "Argon",
+        "Explanation": "Incandescent light bulbs are typically filled with an inert gas like Argon (or sometimes Nitrogen) to prevent the hot tungsten filament from oxidizing and burning out quickly.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the maximum number of members in the Rajya Sabha?",
+        "Options": [
+          { "id": 1, "text": "238" },
+          { "id": 2, "text": "245" },
+          { "id": 3, "text": "250" },
+          { "id": 4, "text": "272" }
+        ],
+        "CorrectAnswer": "250",
+        "Explanation": "The Constitution provides for a maximum strength of 250 members in the Rajya Sabha (238 elected representatives of States and UTs, and 12 nominated by the President). The current strength is 245.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Ajanta and Ellora caves are located in which district of Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Nashik" },
+          { "id": 2, "text": "Pune" },
+          { "id": 3, "text": "Jalgaon" },
+          { "id": 4, "text": "Chhatrapati Sambhaji Nagar (Aurangabad)" }
+        ],
+        "CorrectAnswer": "Chhatrapati Sambhaji Nagar (Aurangabad)",
+        "Explanation": "Both these UNESCO World Heritage Sites, famous for their rock-cut caves, are located in the Chhatrapati Sambhaji Nagar (formerly Aurangabad) district.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Maharashtra Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the primary purpose of a fuse in an electrical circuit?",
+        "Options": [
+          { "id": 1, "text": "To increase the voltage." },
+          { "id": 2, "text": "To decrease the voltage." },
+          { "id": 3, "text": "To protect the circuit from excessive current." },
+          { "id": 4, "text": "To store electrical energy." }
+        ],
+        "CorrectAnswer": "To protect the circuit from excessive current.",
+        "Explanation": "A fuse contains a wire that melts and breaks the circuit ('blows') if the current exceeds a safe level, thereby preventing damage to appliances or causing a fire.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who among the following social reformers is known for his work related to widow remarriage in Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Jyotirao Phule" },
+          { "id": 2, "text": "Dhondo Keshav Karve" },
+          { "id": 3, "text": "Gopal Ganesh Agarkar" },
+          { "id": 4, "text": "Gopal Hari Deshmukh" }
+        ],
+        "CorrectAnswer": "Dhondo Keshav Karve",
+        "Explanation": "Maharshi Dhondo Keshav Karve was a prominent champion of women's education and the remarriage of widows. He himself married a widow and established a home for widows.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which organ is known as the 'powerhouse of the cell'?",
+        "Options": [
+          { "id": 1, "text": "Nucleus" },
+          { "id": 2, "text": "Ribosome" },
+          { "id": 3, "text": "Mitochondrion" },
+          { "id": 4, "text": "Lysosome" }
+        ],
+        "CorrectAnswer": "Mitochondrion",
+        "Explanation": "Mitochondria (singular: mitochondrion) are organelles responsible for cellular respiration, generating most of the cell's supply of adenosine triphosphate (ATP), used as a source of chemical energy.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The quorum required to constitute a meeting of either House of Parliament is:",
+        "Options": [
+          { "id": 1, "text": "One-tenth of the total members of the House." },
+          { "id": 2, "text": "One-third of the total members of the House." },
+          { "id": 3, "text": "One-half of the total members of the House." },
+          { "id": 4, "text": "A simple majority of members present." }
+        ],
+        "CorrectAnswer": "One-tenth of the total members of the House.",
+        "Explanation": "Article 100(3) states that the quorum (minimum number of members required to be present) for a meeting of either House is one-tenth of its total membership.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which movement began with the Dandi March in 1930?",
+        "Options": [
+          { "id": 1, "text": "Non-Cooperation Movement" },
+          { "id": 2, "text": "Quit India Movement" },
+          { "id": 3, "text": "Swadeshi Movement" },
+          { "id": 4, "text": "Civil Disobedience Movement" }
+        ],
+        "CorrectAnswer": "Civil Disobedience Movement",
+        "Explanation": "Mahatma Gandhi's Salt March to Dandi to break the salt law marked the beginning of the mass Civil Disobedience Movement against British rule.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Bauxite is the primary ore of which metal?",
+        "Options": [
+          { "id": 1, "text": "Iron" },
+          { "id": 2, "text": "Aluminum" },
+          { "id": 3, "text": "Copper" },
+          { "id": 4, "text": "Zinc" }
+        ],
+        "CorrectAnswer": "Aluminum",
+        "Explanation": "Bauxite is a sedimentary rock with a relatively high aluminum content. It is the world's main source ore for aluminum.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who was the first Law Minister of independent India?",
+        "Options": [
+          { "id": 1, "text": "Sardar Patel" },
+          { "id": 2, "text": "C. Rajagopalachari" },
+          { "id": 3, "text": "Dr. B.R. Ambedkar" },
+          { "id": 4, "text": "Jawaharlal Nehru" }
+        ],
+        "CorrectAnswer": "Dr. B.R. Ambedkar",
+        "Explanation": "Dr. B.R. Ambedkar served as the first Minister of Law and Justice in Jawaharlal Nehru's cabinet from 1947 to 1951.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The National Defence Academy (NDA) is located at:",
+        "Options": [
+          { "id": 1, "text": "Dehradun" },
+          { "id": 2, "text": "Wellington" },
+          { "id": 3, "text": "Khadakwasla, Pune" },
+          { "id": 4, "text": "Hyderabad" }
+        ],
+        "CorrectAnswer": "Khadakwasla, Pune",
+        "Explanation": "The National Defence Academy, the joint services academy of the Indian Armed Forces, is located at Khadakwasla near Pune, Maharashtra.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Static GK (Maharashtra)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What causes the 'blue colour' of the sky?",
+        "Options": [
+          { "id": 1, "text": "Reflection of sunlight from oceans" },
+          { "id": 2, "text": "Dispersion of sunlight by water droplets" },
+          { "id": 3, "text": "Scattering of sunlight by air molecules" },
+          { "id": 4, "text": "Absorption of other colours by the atmosphere" }
+        ],
+        "CorrectAnswer": "Scattering of sunlight by air molecules",
+        "Explanation": "This phenomenon is known as Rayleigh scattering. Air molecules scatter shorter wavelengths of light (blue and violet) more effectively than longer wavelengths (red and orange), making the sky appear blue.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who wrote the book 'Gulamgiri' (Slavery)?",
+        "Options": [
+          { "id": 1, "text": "Dr. B.R. Ambedkar" },
+          { "id": 2, "text": "Gopal Hari Deshmukh" },
+          { "id": 3, "text": "Maharshi Karve" },
+          { "id": 4, "text": "Jyotirao Phule" }
+        ],
+        "CorrectAnswer": "Jyotirao Phule",
+        "Explanation": "Mahatma Jyotirao Phule wrote 'Gulamgiri' in 1873, a powerful critique of the caste system, comparing it to slavery in America.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which cells in the pancreas produce insulin?",
+        "Options": [
+          { "id": 1, "text": "Alpha cells" },
+          { "id": 2, "text": "Beta cells" },
+          { "id": 3, "text": "Delta cells" },
+          { "id": 4, "text": "Gamma cells" }
+        ],
+        "CorrectAnswer": "Beta cells",
+        "Explanation": "Insulin is produced by the Beta cells located in the Islets of Langerhans within the pancreas.",
+        "Difficulty": "Hard",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who is the guardian of the Fundamental Rights in India?",
+        "Options": [
+          { "id": 1, "text": "The President" },
+          { "id": 2, "text": "The Parliament" },
+          { "id": 3, "text": "The Prime Minister" },
+          { "id": 4, "text": "The Supreme Court" }
+        ],
+        "CorrectAnswer": "The Supreme Court",
+        "Explanation": "The Supreme Court (and High Courts) are considered the guardians and guarantors of Fundamental Rights, empowered to issue writs (Article 32, 226) for their enforcement.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 'Gateway of India' is located in which city?",
+        "Options": [
+          { "id": 1, "text": "Mumbai" },
+          { "id": 2, "text": "Delhi" },
+          { "id": 3, "text": "Kolkata" },
+          { "id": 4, "text": "Chennai" }
+        ],
+        "CorrectAnswer": "Mumbai",
+        "Explanation": "The Gateway of India, an iconic arch-monument built during the British Raj, is located on the waterfront in South Mumbai, Maharashtra.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "Maharashtra History & Culture"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the main component of Biogas?",
+        "Options": [
+          { "id": 1, "text": "Methane" },
+          { "id": 2, "text": "Propane" },
+          { "id": 3, "text": "Hydrogen" },
+          { "id": 4, "text": "Carbon Monoxide" }
+        ],
+        "CorrectAnswer": "Methane",
+        "Explanation": "Biogas, produced from the anaerobic digestion of organic matter, is primarily composed of Methane (CH₄, typically 50-75%) and Carbon Dioxide (CO₂).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who gave the title 'Mahatma' to Gandhiji?",
+        "Options": [
+          { "id": 1, "text": "Rabindranath Tagore" },
+          { "id": 2, "text": "Subhas Chandra Bose" },
+          { "id": 3, "text": "Jawaharlal Nehru" },
+          { "id": 4, "text": "Sardar Patel" }
+        ],
+        "CorrectAnswer": "Rabindranath Tagore",
+        "Explanation": "It is widely believed that Nobel laureate Rabindranath Tagore bestowed the title 'Mahatma' (Great Soul) upon Mohandas Karamchand Gandhi.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which vitamin helps in blood clotting?",
+        "Options": [
+          { "id": 1, "text": "Vitamin A" },
+          { "id": 2, "text": "Vitamin D" },
+          { "id": 3, "text": "Vitamin E" },
+          { "id": 4, "text": "Vitamin K" }
+        ],
+        "CorrectAnswer": "Vitamin K",
+        "Explanation": "Vitamin K plays a crucial role in the synthesis of several proteins needed for blood coagulation (clotting).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What type of majority is required to amend the Fundamental Rights?",
+        "Options": [
+          { "id": 1, "text": "Simple Majority" },
+          { "id": 2, "text": "Absolute Majority" },
+          { "id": 3, "text": "Special Majority (as per Article 368)" },
+          { "id": 4, "text": "Special Majority + Ratification by half the states" }
+        ],
+        "CorrectAnswer": "Special Majority (as per Article 368)",
+        "Explanation": "Amendments to Fundamental Rights (Part III) require a Special Majority as defined in Article 368: a majority of the total membership of the house AND a majority of not less than two-thirds of the members present and voting.",
+        "Difficulty": "Hard",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 'Chand Minar' is a prominent medieval tower located within which fort complex in Maharashtra?",
+        "Options": [
+          { "id": 1, "text": "Raigad Fort" },
+          { "id": 2, "text": "Sinhagad Fort" },
+          { "id": 3, "text": "Daulatabad Fort" },
+          { "id": 4, "text": "Panhala Fort" }
+        ],
+        "CorrectAnswer": "Daulatabad Fort",
+        "Explanation": "The Chand Minar, a tall minaret resembling the Qutb Minar, was built in the 15th century by Ala-ud-din Bahmani within the Daulatabad (Devgiri) fort complex near Aurangabad.",
+        "Difficulty": "Hard",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Maharashtra History & Culture"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which of these is NOT a primary colour of light?",
+        "Options": [
+          { "id": 1, "text": "Red" },
+          { "id": 2, "text": "Green" },
+          { "id": 3, "text": "Blue" },
+          { "id": 4, "text": "Yellow" }
+        ],
+        "CorrectAnswer": "Yellow",
+        "Explanation": "The primary colours of light (additive primaries used in screens) are Red, Green, and Blue (RGB). Mixing them produces secondary colours like yellow (Red + Green), cyan, and magenta. Yellow is a primary colour in pigment mixing (subtractive).",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "General Science (Physics)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Deccan Education Society, which established Fergusson College, was founded by whom among others?",
+        "Options": [
+          { "id": 1, "text": "Jyotirao Phule" },
+          { "id": 2, "text": "Gopal Hari Deshmukh" },
+          { "id": 3, "text": "Bal Gangadhar Tilak & Gopal Ganesh Agarkar" },
+          { "id": 4, "text": "Dr. B.R. Ambedkar" }
+        ],
+        "CorrectAnswer": "Bal Gangadhar Tilak & Gopal Ganesh Agarkar",
+        "Explanation": "The Deccan Education Society was founded in 1884 in Pune by prominent nationalist leaders including Tilak, Agarkar, V.K. Chiplunkar, and M.B. Namjoshi to provide quality education.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Social Reformers of Maharashtra"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Night blindness is caused by the deficiency of which vitamin?",
+        "Options": [
+          { "id": 1, "text": "Vitamin A" },
+          { "id": 2, "text": "Vitamin C" },
+          { "id": 3, "text": "Vitamin D" },
+          { "id": 4, "text": "Vitamin K" }
+        ],
+        "CorrectAnswer": "Vitamin A",
+        "Explanation": "Vitamin A (Retinol) is crucial for vision, particularly in low light. Its deficiency leads to impaired production of rhodopsin, causing night blindness (nyctalopia).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 1,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Parliament of India consists of:",
+        "Options": [
+          { "id": 1, "text": "Lok Sabha only" },
+          { "id": 2, "text": "Rajya Sabha only" },
+          { "id": 3, "text": "Lok Sabha and Rajya Sabha" },
+          { "id": 4, "text": "The President, Lok Sabha, and Rajya Sabha" }
+        ],
+        "CorrectAnswer": "The President, Lok Sabha, and Rajya Sabha",
+        "Explanation": "According to Article 79, the Parliament of India consists of the President and the two Houses: the Council of States (Rajya Sabha) and the House of the People (Lok Sabha).",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "Indian Polity"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Which city is known as the 'Manchester of India' for its textile industry?",
+        "Options": [
+          { "id": 1, "text": "Mumbai" },
+          { "id": 2, "text": "Ahmedabad" },
+          { "id": 3, "text": "Coimbatore" },
+          { "id": 4, "text": "Surat" }
+        ],
+        "CorrectAnswer": "Ahmedabad",
+        "Explanation": "Ahmedabad in Gujarat earned the nickname 'Manchester of India' due to its flourishing cotton textile mills in the past, similar to Manchester in England.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian Geography"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Who was the founder of the Mauryan Empire?",
+        "Options": [
+          { "id": 1, "text": "Ashoka" },
+          { "id": 2, "text": "Bindusara" },
+          { "id": 3, "text": "Chandragupta Maurya" },
+          { "id": 4, "text": "Chanakya" }
+        ],
+        "CorrectAnswer": "Chandragupta Maurya",
+        "Explanation": "Chandragupta Maurya, with the guidance of his mentor Chanakya, overthrew the Nanda dynasty and established the Mauryan Empire around 322 BCE.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "Ancient Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "What is the chemical symbol for Silver?",
+        "Options": [
+          { "id": 1, "text": "Si" },
+          { "id": 2, "text": "Au" },
+          { "id": 3, "text": "Ag" },
+          { "id": 4, "text": "Pb" }
+        ],
+        "CorrectAnswer": "Ag",
+        "Explanation": "The chemical symbol for Silver is Ag, derived from its Latin name 'Argentum'. Au is Gold, Si is Silicon, Pb is Lead.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 3,
+        "topic": "General Science (Chemistry)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The 'Doctrine of Lapse' was a policy associated with which Governor-General?",
+        "Options": [
+          { "id": 1, "text": "Lord Wellesley" },
+          { "id": 2, "text": "Lord Dalhousie" },
+          { "id": 3, "text": "Lord Canning" },
+          { "id": 4, "text": "Lord Curzon" }
+        ],
+        "CorrectAnswer": "Lord Dalhousie",
+        "Explanation": "Lord Dalhousie implemented the Doctrine of Lapse, an annexation policy where any princely state without a natural heir would be annexed by the British. It was a major cause of the 1857 Revolt.",
+        "Difficulty": "Medium",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian History"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "Rickets is a disease caused by the deficiency of which vitamin?",
+        "Options": [
+          { "id": 1, "text": "Vitamin A" },
+          { "id": 2, "text": "Vitamin B" },
+          { "id": 3, "text": "Vitamin C" },
+          { "id": 4, "text": "Vitamin D" }
+        ],
+        "CorrectAnswer": "Vitamin D",
+        "Explanation": "Rickets is a condition affecting bone development in children, causing soft and weak bones. It is primarily caused by a deficiency or impaired metabolism of Vitamin D.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 4,
+        "topic": "General Science (Biology)"
+      },
+      {
+        "category": "General Knowledge",
+        "Question": "The Chief Minister of a state is appointed by:",
+        "Options": [
+          { "id": 1, "text": "The President" },
+          { "id": 2, "text": "The Governor" },
+          { "id": 3, "text": "The Chief Justice of the High Court" },
+          { "id": 4, "text": "The Speaker of the Legislative Assembly" }
+        ],
+        "CorrectAnswer": "The Governor",
+        "Explanation": "According to Article 164, the Chief Minister shall be appointed by the Governor, who usually appoints the leader of the party/coalition commanding a majority in the State Legislative Assembly.",
+        "Difficulty": "Easy",
+        "Job": "PSI, STI, MPSC",
+        "correctOption": 2,
+        "topic": "Indian Polity"
+      }
+  ]

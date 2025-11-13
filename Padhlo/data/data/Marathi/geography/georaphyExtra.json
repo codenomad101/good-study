@@ -1,0 +1,3729 @@
+[
+    {
+      "category": "Maharashtra Geography",
+      "Question": "What is the highest peak in Maharashtra, often referred to as the 'Everest of Maharashtra'?",
+      "Options": [
+        { "id": 1, "text": "Salher Peak" },
+        { "id": 2, "text": "Kalsubai Peak" },
+        { "id": 3, "text": "Torna Peak" },
+        { "id": 4, "text": "Mahabaleshwar Peak" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kalsubai Peak",
+      "Explanation": "The **Kalsubai Peak** ($1,646$ meters) in the **Sahyadri Range** (Western Ghats) is the highest point in Maharashtra, located in the Ahmednagar district.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade C"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The **Black Cotton Soil** (Regur) prevalent in the Deccan Plateau region of Maharashtra is primarily formed from the weathering of which type of rock?",
+      "Options": [
+        { "id": 1, "text": "Granite" },
+        { "id": 2, "text": "Limestone" },
+        { "id": 3, "text": "Basalt" },
+        { "id": 4, "text": "Laterite" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Basalt",
+      "Explanation": "The **Deccan Traps** region of Maharashtra is composed mainly of **basaltic lava flows**. The weathering of basalt forms the fine-textured **Regur** or Black Cotton Soil.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC Prelims"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which major river of Maharashtra originates near Mahabaleshwar in the Western Ghats and flows through Karnataka and Andhra Pradesh before draining into the Bay of Bengal?",
+      "Options": [
+        { "id": 1, "text": "Godavari" },
+        { "id": 2, "text": "Tapi" },
+        { "id": 3, "text": "Krishna" },
+        { "id": 4, "text": "Bhima" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Krishna",
+      "Explanation": "The **Krishna River** originates at **Mahabaleshwar** in the Satara district of Maharashtra.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade C"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The **Konkan Coast** is the western coastal strip of Maharashtra lying between which two major features?",
+      "Options": [
+        { "id": 1, "text": "Eastern Ghats and Arabian Sea" },
+        { "id": 2, "text": "Western Ghats (Sahyadris) and Arabian Sea" },
+        { "id": 3, "text": "Vindhya Range and Satpura Range" },
+        { "id": 4, "text": "Deccan Plateau and Bay of Bengal" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Western Ghats (Sahyadris) and Arabian Sea",
+      "Explanation": "The Konkan is a narrow coastal strip squeezed between the steep slopes of the **Western Ghats** (Sahyadris) and the **Arabian Sea**.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC Prelims"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which region of Maharashtra is characterized by the 'badland topography' or ravines, particularly in the Tapi river basin?",
+      "Options": [
+        { "id": 1, "text": "Konkan" },
+        { "id": 2, "text": "Marathwada" },
+        { "id": 3, "text": "Khandesh" },
+        { "id": 4, "text": "Vidarbha" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Khandesh",
+      "Explanation": "**Khandesh** (Jalgaon, Dhule, Nandurbar), traversed by the Tapi River and its tributaries, is known for significant soil erosion leading to extensive ravines and badland topography.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, Grade B"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The famous **Lonar Lake**, designated as a National Geo-heritage Monument, is unique because it was formed by a:",
+      "Options": [
+        { "id": 1, "text": "Tectonic uplift" },
+        { "id": 2, "text": "Volcanic eruption" },
+        { "id": 3, "text": "Glacial erosion" },
+        { "id": 4, "text": "Meteorite impact" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Meteorite impact",
+      "Explanation": "Located in the Buldhana district, **Lonar Lake** is a hypersaline and alkaline lake formed by a high-velocity **meteorite impact** during the Pleistocene Epoch.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade C"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which of the following passes connects Mumbai with Nashik, crossing the Sahyadri range?",
+      "Options": [
+        { "id": 1, "text": "Amboli Ghat" },
+        { "id": 2, "text": "Bhor Ghat" },
+        { "id": 3, "text": "Thal Ghat (or Kasara Ghat)" },
+        { "id": 4, "text": "Kumbharli Ghat" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Thal Ghat (or Kasara Ghat)",
+      "Explanation": "**Thal Ghat** is the mountain pass that facilitates rail and road connectivity between **Mumbai and Nashik**. **Bhor Ghat** connects Mumbai and Pune.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade B"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which river system is the largest in Maharashtra, covering nearly half of the state's area?",
+      "Options": [
+        { "id": 1, "text": "Krishna River System" },
+        { "id": 2, "text": "Godavari River System" },
+        { "id": 3, "text": "Tapi-Purna River System" },
+        { "id": 4, "text": "Narmada River System" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Godavari River System",
+      "Explanation": "The **Godavari River System** (known as the 'Ganga of the South' or 'Vridh Ganga') originates at Trimbakeshwar near Nashik and has the largest drainage basin within Maharashtra.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC Prelims"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The **Tadoba Andhari Tiger Reserve (TATR)**, famous for its tiger population, is located in which region of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Konkan" },
+        { "id": 2, "text": "Marathwada" },
+        { "id": 3, "text": "Western Maharashtra" },
+        { "id": 4, "text": "Vidarbha" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Vidarbha",
+      "Explanation": "TATR is one of the oldest and largest National Parks in Maharashtra, located in the **Chandrapur district** of the **Vidarbha** region.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade C"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which of the following mountain ranges forms the northern border of Maharashtra, separating it from Madhya Pradesh?",
+      "Options": [
+        { "id": 1, "text": "Aravalli Range" },
+        { "id": 2, "text": "Vindhya Range" },
+        { "id": 3, "text": "Satpura Range" },
+        { "id": 4, "text": "Eastern Ghats" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Satpura Range",
+      "Explanation": "The **Satpura Range** forms a major part of the northern boundary of Maharashtra, running parallel to the Tapi River.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC Prelims"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The drought-prone region of **Marathwada** lies primarily in the rain shadow area of which physical feature?",
+      "Options": [
+        { "id": 1, "text": "Satpura Range" },
+        { "id": 2, "text": "Western Ghats (Sahyadris)" },
+        { "id": 3, "text": "Ajanta Range" },
+        { "id": 4, "text": "Balaghat Range" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Western Ghats (Sahyadris)",
+      "Explanation": "**Marathwada** and parts of Western Maharashtra fall on the leeward (eastern) side of the **Western Ghats**, resulting in a rain shadow region with significantly less rainfall.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade B"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which administrative division of Maharashtra has the longest coastal line on the Arabian Sea?",
+      "Options": [
+        { "id": 1, "text": "Pune Division" },
+        { "id": 2, "text": "Nashik Division" },
+        { "id": 3, "text": "Konkan Division" },
+        { "id": 4, "text": "Aurangabad Division" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Konkan Division",
+      "Explanation": "The **Konkan Division** encompasses all the coastal districts (like Mumbai, Thane, Palghar, Raigad, Ratnagiri, Sindhudurg), giving it the entire coastline of the state.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade C"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The **Kaas Plateau**, a UNESCO World Heritage Site known for its seasonal flowers (Valley of Flowers of Maharashtra), is located in which district?",
+      "Options": [
+        { "id": 1, "text": "Kolhapur" },
+        { "id": 2, "text": "Pune" },
+        { "id": 3, "text": "Satara" },
+        { "id": 4, "text": "Sindhudurg" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Satara",
+      "Explanation": "The **Kaas Plateau** (or Kaas Pathar) is part of the Sahyadri sub-cluster of the Western Ghats and is located near the city of **Satara**.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC Prelims"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which river in Maharashtra flows westward and is one of the two major rivers in the Indian Peninsula that drain into the Arabian Sea?",
+      "Options": [
+        { "id": 1, "text": "Godavari" },
+        { "id": 2, "text": "Bhima" },
+        { "id": 3, "text": "Tapi (or Tapti)" },
+        { "id": 4, "text": "Wardha" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Tapi (or Tapti)",
+      "Explanation": "The **Tapi** (along with the Narmada) flows westwards into the Arabian Sea, running through a rift valley, unlike the majority of Peninsular rivers that flow east.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade B"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The **Bauxite** deposits in Maharashtra are predominantly found in which geographical region, often associated with Laterite soils?",
+      "Options": [
+        { "id": 1, "text": "Vidarbha" },
+        { "id": 2, "text": "Marathwada" },
+        { "id": 3, "text": "Konkan and Kolhapur region" },
+        { "id": 4, "text": "Central Maharashtra Plateau" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Konkan and Kolhapur region",
+      "Explanation": "**Bauxite** (the ore of Aluminium) is mainly found in the lateritic caps of the higher altitudes and plateaus, especially in the Kolhapur, Ratnagiri, and Raigad areas of the Konkan region.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, Grade B"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which of the following ports in Maharashtra is the largest container port in India?",
+      "Options": [
+        { "id": 1, "text": "Mumbai Port Trust (MbPT)" },
+        { "id": 2, "text": "Jawaharlal Nehru Port Authority (JNPA)" },
+        { "id": 3, "text": "Jaigad Port" },
+        { "id": 4, "text": "Dighi Port" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Jawaharlal Nehru Port Authority (JNPA)",
+      "Explanation": "The **JNPA** (formerly JNPT) at Nhava Sheva is the largest container handling port in India, located in Navi Mumbai.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade C"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The **Ajanta and Ellora Caves** are located in the vicinity of which city in the Marathwada region?",
+      "Options": [
+        { "id": 1, "text": "Nanded" },
+        { "id": 2, "text": "Latur" },
+        { "id": 3, "text": "Chhatrapati Sambhajinagar (Aurangabad)" },
+        { "id": 4, "text": "Jalna" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Chhatrapati Sambhajinagar (Aurangabad)",
+      "Explanation": "Both UNESCO World Heritage Sites are geographically and administratively linked to the city of **Chhatrapati Sambhajinagar** (formerly Aurangabad).",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade C"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which major river flows along the inter-state boundary between Maharashtra and Telangana/Andhra Pradesh?",
+      "Options": [
+        { "id": 1, "text": "Godavari" },
+        { "id": 2, "text": "Wainganga" },
+        { "id": 3, "text": "Wardha" },
+        { "id": 4, "text": "Pranhita" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Pranhita",
+      "Explanation": "The **Pranhita River** (formed by the confluence of the Wardha and Wainganga) forms a long stretch of the border between Maharashtra and Telangana before joining the Godavari.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, Grade B"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The **Dapoli-Harnai** coastal belt in Maharashtra is most famous for the cultivation of which fruit?",
+      "Options": [
+        { "id": 1, "text": "Grapes" },
+        { "id": 2, "text": "Oranges" },
+        { "id": 3, "text": "Alphonso Mangoes" },
+        { "id": 4, "text": "Bananas" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Alphonso Mangoes",
+      "Explanation": "The Konkan coast, especially the area around Ratnagiri (including Dapoli-Harnai), is renowned globally for the quality of its **Alphonso Mangoes**.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade C"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The **Ajanta Range** and the **Satamala Range** are part of the main plateau system in which region of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Konkan" },
+        { "id": 2, "text": "Paschim Maharashtra (Desh)" },
+        { "id": 3, "text": "Marathwada" },
+        { "id": 4, "text": "Vidarbha" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Marathwada",
+      "Explanation": "These ranges (Ajanta and Satamala) are important sub-ranges of the Deccan plateau that traverse through the northern parts of the **Marathwada** region.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, Grade B"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which type of forest is most commonly found in the highly fertile river basins of the Deccan Plateau in Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Evergreen Forests" },
+        { "id": 2, "text": "Tropical Moist Deciduous Forests" },
+        { "id": 3, "text": "Tropical Dry Deciduous Forests" },
+        { "id": 4, "text": "Mangrove Forests" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Tropical Dry Deciduous Forests",
+      "Explanation": "Due to the rain shadow effect and moderate rainfall, the dominant vegetation type in most of the plateau region of Maharashtra is **Tropical Dry Deciduous Forest**.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC Prelims"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The **Malshej Ghat** is a mountain pass on the Western Ghats connecting which two regions of Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Pune and Konkan" },
+        { "id": 2, "text": "Mumbai and Nashik" },
+        { "id": 3, "text": "Pune and Ahmednagar" },
+        { "id": 4, "text": "Thane/Kalyan and Ahmednagar" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Thane/Kalyan and Ahmednagar",
+      "Explanation": "**Malshej Ghat** provides a vital link between the densely populated urban area of Thane/Kalyan (Konkan) and the interior plateau regions of Ahmednagar and Pune.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade B"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which mineral resource is primarily associated with the Vidarbha region, leading to the designation of Nagpur as the 'Orange City' and 'Tiger Capital'?",
+      "Options": [
+        { "id": 1, "text": "Mica and Bauxite" },
+        { "id": 2, "text": "Iron Ore and Manganese" },
+        { "id": 3, "text": "Gold and Silver" },
+        { "id": 4, "text": "Petroleum" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Iron Ore and Manganese",
+      "Explanation": "The Vidarbha region, especially the Bhandara-Nagpur-Chandrapur belt, has significant deposits of **Manganese** and **Iron Ore**.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade C"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The city of **Pune** is known as the **'Queen of the Deccan'** and is located on the confluence of which two minor rivers?",
+      "Options": [
+        { "id": 1, "text": "Godavari and Pravara" },
+        { "id": 2, "text": "Bhima and Nira" },
+        { "id": 3, "text": "Mula and Mutha" },
+        { "id": 4, "text": "Krishna and Koyna" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Mula and Mutha",
+      "Explanation": "The city of **Pune** developed around the confluence of the **Mula and Mutha** rivers, which are tributaries of the Bhima River.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade C"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The **Narmada River**, which briefly touches the northern boundary of Maharashtra, flows through a **rift valley** situated between which two mountain ranges?",
+      "Options": [
+        { "id": 1, "text": "Aravalli and Vindhya" },
+        { "id": 2, "text": "Vindhya and Satpura" },
+        { "id": 3, "text": "Satpura and Ajanta" },
+        { "id": 4, "text": "Western Ghats and Satpura" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Vindhya and Satpura",
+      "Explanation": "The **Narmada River** flows westwards in a fault or rift valley between the **Vindhya** Range (North) and the **Satpura** Range (South).",
+      "Difficulty": "Medium",
+      "Job": "UPSC Prelims, MPSC"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which dam on the Koyna River is a major source of hydroelectric power and is famous for its 'Koyna Nagar' settlement?",
+      "Options": [
+        { "id": 1, "text": "Jayakwadi Dam" },
+        { "id": 2, "text": "Koyna Dam" },
+        { "id": 3, "text": "Ujani Dam" },
+        { "id": 4, "text": "Panshet Dam" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Koyna Dam",
+      "Explanation": "The **Koyna Dam** is one of the largest dams in Maharashtra and is critical for power generation. It is located in the Satara district.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade C"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which district of Maharashtra is known as the **'Gateway to the Konkan'** for road and rail traffic from the Deccan Plateau?",
+      "Options": [
+        { "id": 1, "text": "Thane" },
+        { "id": 2, "text": "Raigad" },
+        { "id": 3, "text": "Pune" },
+        { "id": 4, "text": "Nashik" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Pune",
+      "Explanation": "**Pune** is the critical city through which the major ghat sections (like Bhor Ghat) connect the Deccan plateau with the Konkan coast, making it the strategic 'Gateway'.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, Grade B"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The majority of the river flow on the Deccan Plateau in Maharashtra is towards the east, mainly due to:",
+      "Options": [
+        { "id": 1, "text": "The Coriolis effect" },
+        { "id": 2, "text": "A gradual eastward slope of the plateau" },
+        { "id": 3, "text": "The high elevation of the Eastern Ghats" },
+        { "id": 4, "text": "Strong tectonic forces" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "A gradual eastward slope of the plateau",
+      "Explanation": "The **Deccan Plateau** is structurally tilted towards the east. The Western Ghats are much higher, making the natural **slope** gently eastward, directing most major rivers (Godavari, Krishna) to the Bay of Bengal.",
+      "Difficulty": "Medium",
+      "Job": "UPSC Prelims, MPSC"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Which city is known as the **'Orange City'** and is a major hub for the orange trade in Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Pune" },
+        { "id": 2, "text": "Nashik" },
+        { "id": 3, "text": "Nagpur" },
+        { "id": 4, "text": "Amravati" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Nagpur",
+      "Explanation": "**Nagpur** is famous for its orange cultivation and is widely known by the nickname **'Orange City'**.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Grade C"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "The **Bhandardara Lake (Arthur Lake)**, a major reservoir in the Western Ghats, is built on which river?",
+      "Options": [
+        { "id": 1, "text": "Mula" },
+        { "id": 2, "text": "Pravara" },
+        { "id": 3, "text": "Godavari" },
+        { "id": 4, "text": "Ulhas" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Pravara",
+      "Explanation": "The **Wilson Dam** created the **Bhandardara Lake** (Arthur Lake) on the **Pravara River**, a tributary of the Godavari.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, Grade B"
+    },
+    {
+      "category": "Maharashtra Geography",
+      "Question": "Maharashtra shares its longest boundary with which neighboring state?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "Karnataka" },
+        { "id": 4, "text": "Telangana" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "**Madhya Pradesh** forms the longest land boundary with Maharashtra, primarily along the Satpura and Vindhya ranges.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which is the **largest plateau** in India, covering a significant portion of the peninsula?",
+      "Options": [
+        { "id": 1, "text": "Malwa Plateau" },
+        { "id": 2, "text": "Chota Nagpur Plateau" },
+        { "id": 3, "text": "Deccan Plateau" },
+        { "id": 4, "text": "Meghalaya Plateau" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Deccan Plateau",
+      "Explanation": "The **Deccan Plateau** is a massive triangular landmass that lies south of the Narmada River and is the largest plateau in India.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Tropic of Cancer** passes through how many states in India?",
+      "Options": [
+        { "id": 1, "text": "6" },
+        { "id": 2, "text": "7" },
+        { "id": 3, "text": "8" },
+        { "id": 4, "text": "9" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "8",
+      "Explanation": "The Tropic of Cancer ($23 circ 30' \text{ N}$) passes through **8** Indian states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which mountain range is the **oldest** in India and is an example of a relict mountain?",
+      "Options": [
+        { "id": 1, "text": "Himalayas" },
+        { "id": 2, "text": "Western Ghats" },
+        { "id": 3, "text": "Aravalli Range" },
+        { "id": 4, "text": "Vindhya Range" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Aravalli Range",
+      "Explanation": "The **Aravalli Range** in Northwestern India is the oldest fold mountain system in India and the world, existing since the Precambrian era.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which river is known as the **'Dakshina Ganga' (Ganga of the South)** due to its length, size, and religious significance?",
+      "Options": [
+        { "id": 1, "text": "Mahanadi" },
+        { "id": 2, "text": "Krishna" },
+        { "id": 3, "text": "Godavari" },
+        { "id": 4, "text": "Kaveri" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Godavari",
+      "Explanation": "The **Godavari** is the longest river in Peninsular India and is widely known as the **'Dakshina Ganga'** or **'Vridh Ganga'** (Old Ganga). The Kaveri is sometimes called 'Ganga of the South' but Godavari is the widely accepted answer for Dakshina Ganga.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Indira Point**, the southernmost point of the Indian Union, is located in which group of islands?",
+      "Options": [
+        { "id": 1, "text": "Lakshadweep Islands" },
+        { "id": 2, "text": "Andaman Islands" },
+        { "id": 3, "text": "Nicobar Islands" },
+        { "id": 4, "text": "Diu Island" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Nicobar Islands",
+      "Explanation": "Indira Point is located on the Great Nicobar Island, part of the **Nicobar Islands** in the Bay of Bengal.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which Indian state has the **longest coastline**?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Tamil Nadu" },
+        { "id": 3, "text": "Andhra Pradesh" },
+        { "id": 4, "text": "Gujarat" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Gujarat",
+      "Explanation": "**Gujarat** has the longest coastline among all Indian states, primarily due to the highly indented nature of the coast (including the Gulf of Kutch and Gulf of Khambhat).",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Sundarbans Delta**, the world's largest delta, is formed by the confluence of which two major rivers?",
+      "Options": [
+        { "id": 1, "text": "Ganga and Yamuna" },
+        { "id": 2, "text": "Ganga (Padma) and Brahmaputra (Jamuna)" },
+        { "id": 3, "text": "Mahanadi and Godavari" },
+        { "id": 4, "text": "Krishna and Kaveri" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Ganga (Padma) and Brahmaputra (Jamuna)",
+      "Explanation": "The delta is formed by the Ganga (**Padma**) and Brahmaputra (**Jamuna**) rivers, primarily in Bangladesh and West Bengal (India).",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Barren Island**, the only confirmed active volcano in India, is located in which island group?",
+      "Options": [
+        { "id": 1, "text": "Lakshadweep Islands" },
+        { "id": 2, "text": "Andaman Islands" },
+        { "id": 3, "text": "Nicobar Islands" },
+        { "id": 4, "text": "New Moore Island" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Andaman Islands",
+      "Explanation": "The **Barren Island** volcano is located in the **Andaman Sea**, about $138$ km northeast of the capital Port Blair.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which soil type, rich in iron and aluminium compounds, is commonly associated with areas of high temperature and heavy rainfall (leaching)?",
+      "Options": [
+        { "id": 1, "text": "Alluvial Soil" },
+        { "id": 2, "text": "Black Soil (Regur)" },
+        { "id": 3, "text": "Laterite Soil" },
+        { "id": 4, "text": "Arid Soil" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Laterite Soil",
+      "Explanation": "**Laterite Soil** is formed under conditions of high temperature and high rainfall, which leads to intense **leaching**, leaving behind iron and aluminum oxides, giving it a reddish color.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Wular Lake**, the largest freshwater lake in India, is located in which state/UT?",
+      "Options": [
+        { "id": 1, "text": "Odisha" },
+        { "id": 2, "text": "Jammu and Kashmir" },
+        { "id": 3, "text": "Kerala" },
+        { "id": 4, "text": "Sikkim" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Jammu and Kashmir",
+      "Explanation": "**Wular Lake** is a large shallow freshwater lake in the Bandipora district of **Jammu and Kashmir**, formed by the meandering of the Jhelum River.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Indian Standard Meridian (ISM)**, representing India's standard time, is located at which longitude?",
+      "Options": [
+        { "id": 1, "text": "$78^circ 30' \text{ E}$" },
+        { "id": 2, "text":" offshoring in India is centered",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which mountain range separates the North Indian plains from the Peninsular Plateau?",
+      "Options": [
+        { "id": 1, "text": "Aravalli Range" },
+        { "id": 2, "text": "Himalaya Range" },
+        { "id": 3, "text": "Vindhya Range" },
+        { "id": 4, "text": "Eastern Ghats" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Vindhya Range",
+      "Explanation": "The **Vindhya Range** is generally considered the geographical boundary separating North India from the Peninsular (or South) India.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Coromandel Coast** refers to the coastal plain stretching across which two South Indian states?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra and Goa" },
+        { "id": 2, "text": "Kerala and Karnataka" },
+        { "id": 3, "text": "Andhra Pradesh and Tamil Nadu" },
+        { "id": 4, "text": "Odisha and West Bengal" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Andhra Pradesh and Tamil Nadu",
+      "Explanation": "The **Coromandel Coast** is the southeastern coast of the Indian subcontinent, located between the Eastern Ghats and the Bay of Bengal, primarily covering Andhra Pradesh and Tamil Nadu.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The famous **Jim Corbett National Park**, India's oldest national park, is located in which state?",
+      "Options": [
+        { "id": 1, "text": "Uttar Pradesh" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "Uttarakhand" },
+        { "id": 4, "text": "Himachal Pradesh" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Uttarakhand",
+      "Explanation": "The park, established in 1936 as Hailey National Park, is located in the Nainital district of **Uttarakhand**.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The largest producer of **Mica** in India is the state of:",
+      "Options": [
+        { "id": 1, "text": "Karnataka" },
+        { "id": 2, "text": "Andhra Pradesh" },
+        { "id": 3, "text": "Jharkhand" },
+        { "id": 4, "text": "Bihar" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Andhra Pradesh",
+      "Explanation": "While Jharkhand (Koderma) is famous, **Andhra Pradesh** (Nellore belt) is the leading producer of **Mica** in India, which is an important insulator mineral.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which of the following mountain passes connects **Manali (Himachal Pradesh)** to **Leh (Ladakh)**?",
+      "Options": [
+        { "id": 1, "text": "Nathula Pass" },
+        { "id": 2, "text": "Zojila Pass" },
+        { "id": 3, "text": "Rohtang Pass" },
+        { "id": 4, "text": "Shipkila Pass" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Rohtang Pass",
+      "Explanation": "**Rohtang Pass** is the high mountain pass on the Eastern Pir Panjal Range that connects the Kullu Valley with the Lahaul and Spiti Valleys, on the road to Leh.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Great Indian Desert** is located in which geographical zone of India?",
+      "Options": [
+        { "id": 1, "text": "Southwest India" },
+        { "id": 2, "text": "Northwest India" },
+        { "id": 3, "text": "Northeast India" },
+        { "id": 4, "text": "Central India" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Northwest India",
+      "Explanation": "The **Great Indian Desert (Thar Desert)** lies predominantly in the state of **Rajasthan** in Northwest India.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The phenomenon of **'Norwesters' (Kalbaisakhi)**, known for sudden violent thunderstorms, is predominantly experienced in which states of India?",
+      "Options": [
+        { "id": 1, "text": "Tamil Nadu and Kerala" },
+        { "id": 2, "text": "Punjab and Haryana" },
+        { "id": 3, "text": "West Bengal, Bihar, and Assam" },
+        { "id": 4, "text": "Maharashtra and Gujarat" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "West Bengal, Bihar, and Assam",
+      "Explanation": "The local name **Kalbaisakhi** or **Norwesters** refers to the violent convective thundersqualls that occur in the pre-monsoon season in these eastern states.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Kandla Port (Deendayal Port)** is located on the coast of which Indian state?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Gujarat" },
+        { "id": 3, "text": "Odisha" },
+        { "id": 4, "text": "Kerala" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Gujarat",
+      "Explanation": "**Kandla** is a major tidal port located in the Gulf of Kutch, **Gujarat**, and is an important port for trade with western countries.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Western Ghats (Sahyadri)** are generally higher and more continuous than the Eastern Ghats. What type of mountains are the Western Ghats classified as?",
+      "Options": [
+        { "id": 1, "text": "Fold Mountains" },
+        { "id": 2, "text": "Residual Mountains" },
+        { "id": 3, "text": "Block Mountains (Fault-line Scarp)" },
+        { "id": 4, "text": "Volcanic Mountains" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Block Mountains (Fault-line Scarp)",
+      "Explanation": "The Western Ghats are largely seen as the **faulted edge (scarp)** of the Deccan Plateau, uplifted during the break-up of the Gondwana supercontinent, classifying them as **Block Mountains**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Kaveri River** water dispute primarily involves which three states and one Union Territory?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra, Karnataka, Kerala, Puducherry" },
+        { "id": 2, "text": "Karnataka, Tamil Nadu, Kerala, Puducherry" },
+        { "id": 3, "text": "Telangana, Andhra Pradesh, Maharashtra, Karnataka" },
+        { "id": 4, "text": "Odisha, Chhattisgarh, Maharashtra, Madhya Pradesh" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Karnataka, Tamil Nadu, Kerala, Puducherry",
+      "Explanation": "The long-standing **Kaveri water dispute** is primarily between **Karnataka and Tamil Nadu**, with minor shares claimed by **Kerala and Puducherry**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Loktak Lake**, famous for its floating vegetation called 'Phumdis', is located in which state?",
+      "Options": [
+        { "id": 1, "text": "Sikkim" },
+        { "id": 2, "text": "Assam" },
+        { "id": 3, "text": "Manipur" },
+        { "id": 4, "text": "Tripura" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Manipur",
+      "Explanation": "**Loktak Lake** is the largest freshwater lake in Northeast India, located in **Manipur**, and hosts the world's only floating national park, Keibul Lamjao.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **highest dam** in India, the **Tehri Dam**, is built on which river?",
+      "Options": [
+        { "id": 1, "text": "Ganga (Bhagirathi)" },
+        { "id": 2, "text": "Mahanadi" },
+        { "id": 3, "text": "Sutlej" },
+        { "id": 4, "text": "Chambal" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Ganga (Bhagirathi)",
+      "Explanation": "The **Tehri Dam** is a multi-purpose rock and earth-fill embankment dam on the **Bhagirathi River** near Tehri in Uttarakhand, making it India's highest.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which line defines the **international boundary** between India and Pakistan?",
+      "Options": [
+        { "id": 1, "text": "Durand Line" },
+        { "id": 2, "text": "McMahon Line" },
+        { "id": 3, "text": "Radcliffe Line" },
+        { "id": 4, "text": "Line of Actual Control (LAC)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Radcliffe Line",
+      "Explanation": "The **Radcliffe Line** was the boundary demarcation line between the Indian and Pakistani portions of the Punjab and Bengal presidencies of British India. It remains the legal boundary.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **'Valley of Flowers' National Park**, a UNESCO World Heritage Site, is located in which state?",
+      "Options": [
+        { "id": 1, "text": "Himachal Pradesh" },
+        { "id": 2, "text": "Sikkim" },
+        { "id": 3, "text": "Jammu and Kashmir" },
+        { "id": 4, "text": "Uttarakhand" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Uttarakhand",
+      "Explanation": "The **Valley of Flowers** is a high-altitude Himalayan valley in **Uttarakhand**, renowned for its endemic alpine flowers and diverse flora.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which city is known as the **'Manchester of South India'**?",
+      "Options": [
+        { "id": 1, "text": "Chennai" },
+        { "id": 2, "text": "Coimbatore" },
+        { "id": 3, "text": "Madurai" },
+        { "id": 4, "text": "Bengaluru" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Coimbatore",
+      "Explanation": "**Coimbatore** in Tamil Nadu is known as the 'Manchester of South India' due to its extensive textile industry, particularly cotton mills.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Gulf of Mannar**, a biosphere reserve, separates India from which neighboring country?",
+      "Options": [
+        { "id": 1, "text": "Bangladesh" },
+        { "id": 2, "text": "Sri Lanka" },
+        { "id": 3, "text": "Maldives" },
+        { "id": 4, "text": "Myanmar" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Sri Lanka",
+      "Explanation": "The **Gulf of Mannar** is a large shallow bay forming part of the Lakshadweep Sea in the Indian Ocean, situated between the southeastern tip of India and **Sri Lanka**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Bhabar** is a narrow belt parallel to the Shiwaliks. What does this belt primarily consist of?",
+      "Options": [
+        { "id": 1, "text": "Fine clay and silt" },
+        { "id": 2, "text": "Marshy, swampy land" },
+        { "id": 3, "text": "Pebbles and rocks deposited by rivers" },
+        { "id": 4, "text": "Old alluvial deposits" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Pebbles and rocks deposited by rivers",
+      "Explanation": "The **Bhabar** region is a zone of coarse alluvium comprising pebbles and gravels, deposited by streams descending from the Himalayas. This is where streams often disappear underground.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The river **Luni**, located in Rajasthan, is unique because it is an example of an **inland drainage system**. This means the river:",
+      "Options": [
+        { "id": 1, "text": "Flows underground entirely" },
+        { "id": 2, "text": "Flows into another river" },
+        { "id": 3, "text": "Drains into a lake or marsh without reaching the sea" },
+        { "id": 4, "text": "Flows through a rift valley" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Drains into a lake or marsh without reaching the sea",
+      "Explanation": "The **Luni River** in the Thar Desert is the only major river in peninsular India with an **inland drainage system**; it flows into the Rann of Kutch marsh.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **highest mountain peak** in India, entirely within the country's undisputed territory, is:",
+      "Options": [
+        { "id": 1, "text": "Mount Everest" },
+        { "id": 2, "text": "K2 (Godwin Austen)" },
+        { "id": 3, "text": "Nanda Devi" },
+        { "id": 4, "text": "Kanchenjunga" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Nanda Devi",
+      "Explanation": "While K2 is the highest in India (under Pakistani control) and Kanchenjunga is the highest entirely in India and Nepal, **Nanda Devi** is the highest peak considered to be **entirely and undisputed** within India (in Uttarakhand).",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Gir National Park** is famous for being the only natural habitat of the **Asiatic Lion**. It is located in which state?",
+      "Options": [
+        { "id": 1, "text": "Madhya Pradesh" },
+        { "id": 2, "text": "Gujarat" },
+        { "id": 3, "text": "Maharashtra" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Gujarat",
+      "Explanation": "**Gir National Park** is located in the Saurashtra region of **Gujarat**.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which type of natural vegetation is typically found in the regions of high altitude in the Himalayas, close to the snow line?",
+      "Options": [
+        { "id": 1, "text": "Tropical Evergreen Forests" },
+        { "id": 2, "text": "Alpine and Tundra Vegetation" },
+        { "id": 3, "text": "Tropical Thorn Forests" },
+        { "id": 4, "text": "Mangrove Forests" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Alpine and Tundra Vegetation",
+      "Explanation": "Above the tree line ($ sim 3600 \text{ meters}$) in the Himalayas, the vegetation transitions to short grass, shrubs, and mosses, characteristic of **Alpine and Tundra** regions.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Eastern Ghats** and **Western Ghats** meet at which hills in South India?",
+      "Options": [
+        { "id": 1, "text": "Anamalai Hills" },
+        { "id": 2, "text": "Cardamom Hills" },
+        { "id": 3, "text": "Nilgiri Hills" },
+        { "id": 4, "text": "Palani Hills" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Nilgiri Hills",
+      "Explanation": "The two major mountain ranges of Peninsular India, the Eastern and Western Ghats, converge at the **Nilgiri Hills** in Tamil Nadu.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Sutlej River**, one of the five major rivers of Punjab, enters India through which famous pass?",
+      "Options": [
+        { "id": 1, "text": "Bum La Pass" },
+        { "id": 2, "text": "Jelep La Pass" },
+        { "id": 3, "text": "Shipkila Pass" },
+        { "id": 4, "text": "Nathula Pass" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Shipkila Pass",
+      "Explanation": "The **Sutlej River** enters India through the **Shipkila Pass** in the Kinnaur district of Himachal Pradesh.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which industrial belt is often referred to as the **'Ruhr of India'** due to its rich mineral and coal deposits?",
+      "Options": [
+        { "id": 1, "text": "Mumbai-Pune Industrial Region" },
+        { "id": 2, "text": "Chota Nagpur Plateau Region" },
+        { "id": 3, "text": "Bengaluru-Tamil Nadu Industrial Region" },
+        { "id": 4, "text": "Ahmedabad-Vadodara Industrial Region" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Chota Nagpur Plateau Region",
+      "Explanation": "The **Chota Nagpur Plateau** (spanning Jharkhand, West Bengal, Odisha, and Chhattisgarh) is rich in mineral resources like iron ore, coal, and mica, resembling the industrial 'Ruhr' region of Germany.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Zojila Pass** connects which two regions in the Union Territory of Ladakh/Jammu and Kashmir?",
+      "Options": [
+        { "id": 1, "text": "Srinagar and Kargil/Leh" },
+        { "id": 2, "text": "Jammu and Kashmir Valley" },
+        { "id": 3, "text": "Leh and China" },
+        { "id": 4, "text": "Manali and Leh" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Srinagar and Kargil/Leh",
+      "Explanation": "The **Zojila Pass** is a vital mountain pass in the Himalayas, providing the main connection between the **Kashmir Valley (Srinagar)** and the town of **Kargil and Leh**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **largest river basin** in India belongs to the river:",
+      "Options": [
+        { "id": 1, "text": "Brahmaputra" },
+        { "id": 2, "text": "Godavari" },
+        { "id": 3, "text": "Ganga" },
+        { "id": 4, "text": "Indus" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Ganga",
+      "Explanation": "The **Ganga Basin** is the largest river basin in India, covering about $26%$ of the country's land area.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which phenomenon is responsible for causing rainfall during the winter season in the northwestern parts of India?",
+      "Options": [
+        { "id": 1, "text": "Southwest Monsoon" },
+        { "id": 2, "text": "Northeast Monsoon" },
+        { "id": 3, "text": "Western Disturbances" },
+        { "id": 4, "text": "Tropical Cyclones" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Western Disturbances",
+      "Explanation": "**Western Disturbances** are low-pressure systems originating over the Mediterranean Sea that bring non-monsoonal rainfall to the plains and snowfall to the mountains of Northwest India during winter.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Highest Waterfall** in India, the **Kunchikal Falls**, is located in which state?",
+      "Options": [
+        { "id": 1, "text": "Meghalaya" },
+        { "id": 2, "text": "Karnataka" },
+        { "id": 3, "text": "Himachal Pradesh" },
+        { "id": 4, "text": "Kerala" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Karnataka",
+      "Explanation": "The **Kunchikal Falls** on the Varahi River in **Karnataka** is recognized as the highest waterfall in India (in terms of total drop).",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Meghalaya Plateau** is geologically an extension of which major Indian geographical feature?",
+      "Options": [
+        { "id": 1, "text": "Himalayan Range" },
+        { "id": 2, "text": "Indo-Gangetic Plain" },
+        { "id": 3, "text": "Deccan Plateau" },
+        { "id": 4, "text": "Aravalli Range" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Deccan Plateau",
+      "Explanation": "The **Meghalaya Plateau** (Garo-Khasi-Jaintia Hills) is separated from the main peninsular block by the Malda Fault (Ganga-Brahmaputra gap), but it is geologically an extension of the **Deccan Plateau**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which state is the leading producer of **Tea** in India?",
+      "Options": [
+        { "id": 1, "text": "Kerala" },
+        { "id": 2, "text": "West Bengal" },
+        { "id": 3, "text": "Assam" },
+        { "id": 4, "text": "Tamil Nadu" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Assam",
+      "Explanation": "**Assam** accounts for the largest share of tea production in India, especially the famous Assam Tea variety.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Coastal Plains** of India are divided into the Western Coastal Plain and the Eastern Coastal Plain. Which one is generally broader and more fertile?",
+      "Options": [
+        { "id": 1, "text": "Western Coastal Plain" },
+        { "id": 2, "text": "Eastern Coastal Plain" },
+        { "id": 3, "text": "Both are equally broad" },
+        { "id": 4, "text": "The Western Plain is broader" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Eastern Coastal Plain",
+      "Explanation": "The **Eastern Coastal Plain** is generally **broader** due to the depositional action of large East-flowing rivers (Mahanadi, Godavari, Krishna, Kaveri) that form extensive deltas, making it more fertile.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Great Himalayan Range** (Himadri) is characterized by a core composed of:",
+      "Options": [
+        { "id": 1, "text": "Sedimentary and Volcanic rocks" },
+        { "id": 2, "text": "Unconsolidated alluvial soil" },
+        { "id": 3, "text": "Granite and Gneiss (crystalline and metamorphic rocks)" },
+        { "id": 4, "text": "Laterite and Basaltic rocks" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Granite and Gneiss (crystalline and metamorphic rocks)",
+      "Explanation": "The core of the **Great Himalayas** is composed of highly resistant and compressed metamorphic and crystalline rocks like **granite and gneiss**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Brahmaputra River** is known by which name in Tibet before it enters India?",
+      "Options": [
+        { "id": 1, "text": "Dihang" },
+        { "id": 2, "text": "Jamuna" },
+        { "id": 3, "text": "Tsangpo" },
+        { "id": 4, "text": "Meghna" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Tsangpo",
+      "Explanation": "In Tibet, the Brahmaputra is known as **Tsangpo** (meaning 'The Purifier').",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which state in India has the highest production of **coffee**?",
+      "Options": [
+        { "id": 1, "text": "Kerala" },
+        { "id": 2, "text": "Tamil Nadu" },
+        { "id": 3, "text": "Karnataka" },
+        { "id": 4, "text": "Andhra Pradesh" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Karnataka",
+      "Explanation": "**Karnataka** is the largest producer of coffee in India, mainly in the districts of Kodagu, Chikmagalur, and Hassan.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **highest peak** of the Peninsular Plateau (South India) is:",
+      "Options": [
+        { "id": 1, "text": "Doda Betta" },
+        { "id": 2, "text": "Anaimudi" },
+        { "id": 3, "text": "Mahendragiri" },
+        { "id": 4, "text": "Kalsubai" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Anaimudi",
+      "Explanation": "**Anaimudi** ($2,695$ meters), located in the Anamalai Hills of Kerala, is the highest peak in the Western Ghats and the entire Peninsular Plateau.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Rann of Kutch**, a seasonal salt marsh, is located in which state?",
+      "Options": [
+        { "id": 1, "text": "Odisha" },
+        { "id": 2, "text": "Gujarat" },
+        { "id": 3, "text": "Maharashtra" },
+        { "id": 4, "text": "Goa" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Gujarat",
+      "Explanation": "The **Rann of Kutch**, famous for being the largest salt desert in the world, is located in **Gujarat**.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Khader** and **Bhangar** are terms associated with which type of soil found in the Indo-Gangetic Plains?",
+      "Options": [
+        { "id": 1, "text": "Red Soil" },
+        { "id": 2, "text": "Alluvial Soil" },
+        { "id": 3, "text": "Black Soil" },
+        { "id": 4, "text": "Laterite Soil" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Alluvial Soil",
+      "Explanation": "**Khader** is the new, more fertile alluvial soil found in the floodplains, while **Bhangar** is the old, less fertile alluvial soil found away from the floodplains.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Palk Strait** and the **Gulf of Mannar** separate India from which country?",
+      "Options": [
+        { "id": 1, "text": "Maldives" },
+        { "id": 2, "text": "Indonesia" },
+        { "id": 3, "text": "Sri Lanka" },
+        { "id": 4, "text": "Myanmar" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Sri Lanka",
+      "Explanation": "The **Palk Strait** is a shallow body of water that lies between the Tamil Nadu state of India and the northern province of **Sri Lanka**.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which National Park in India is the only natural habitat for the **One-Horned Rhinoceros**?",
+      "Options": [
+        { "id": 1, "text": "Manas National Park" },
+        { "id": 2, "text": "Kaziranga National Park" },
+        { "id": 3, "text": "Jaldapara National Park" },
+        { "id": 4, "text": "Sunderbans National Park" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kaziranga National Park",
+      "Explanation": "**Kaziranga National Park** in **Assam** holds two-thirds of the world's great one-horned rhinoceros population.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **largest riverine island** in the world, **Majuli**, is formed by the river:",
+      "Options": [
+        { "id": 1, "text": "Ganga" },
+        { "id": 2, "text": "Brahmaputra" },
+        { "id": 3, "text": "Godavari" },
+        { "id": 4, "text": "Indus" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Brahmaputra",
+      "Explanation": "**Majuli** is an island in the **Brahmaputra River** in **Assam** and is the largest river island in the world.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Bastar Plateau** region, known for its tribal population and mineral resources, is primarily located in which state?",
+      "Options": [
+        { "id": 1, "text": "Odisha" },
+        { "id": 2, "text": "Jharkhand" },
+        { "id": 3, "text": "Chhattisgarh" },
+        { "id": 4, "text": "West Bengal" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Chhattisgarh",
+      "Explanation": "The **Bastar Plateau** region forms the southern part of **Chhattisgarh** and is famous for its forests and iron ore deposits.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Eastern Ghats** are mainly composed of discontinuous and low hill ranges. This is primarily due to:",
+      "Options": [
+        { "id": 1, "text": "Constant volcanic activity" },
+        { "id": 2, "text": "Erosion by major west-flowing rivers" },
+        { "id": 3, "text": "Erosion by major east-flowing rivers" },
+        { "id": 4, "text": "Glacial activity" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Erosion by major east-flowing rivers",
+      "Explanation": "The **Eastern Ghats** have been dissected and broken into discontinuous ranges by the four major East-flowing rivers: Mahanadi, Godavari, Krishna, and Kaveri, as they cut through to reach the Bay of Bengal.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which line separates the **Andaman Islands** from the **Nicobar Islands**?",
+      "Options": [
+        { "id": 1, "text": "8 Degree Channel" },
+        { "id": 2, "text": "9 Degree Channel" },
+        { "id": 3, "text": "10 Degree Channel" },
+        { "id": 4, "text": "Palk Strait" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "10 Degree Channel",
+      "Explanation": "The **10 Degree Channel** is a major shipping lane and separates the Andaman group from the Nicobar group of islands.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Chilika Lake**, a brackish water lagoon, is located on the coast of which state?",
+      "Options": [
+        { "id": 1, "text": "West Bengal" },
+        { "id": 2, "text": "Andhra Pradesh" },
+        { "id": 3, "text": "Odisha" },
+        { "id": 4, "text": "Kerala" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Odisha",
+      "Explanation": "**Chilika Lake** is located at the mouth of the Daya River in **Odisha**, on the east coast of India.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "Which type of forest is typically found in the high rainfall areas of the Western Ghats and Northeast India, characterized by high biodiversity?",
+      "Options": [
+        { "id": 1, "text": "Tropical Dry Deciduous Forests" },
+        { "id": 2, "text": "Tropical Thorn Forests" },
+        { "id": 3, "text": "Tropical Evergreen Forests" },
+        { "id": 4, "text": "Montane Forests" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Tropical Evergreen Forests",
+      "Explanation": "**Tropical Evergreen Forests** thrive in areas receiving very heavy rainfall (over $200 \text{ cm}$) throughout the year, such as the windward side of the Western Ghats.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **Dhauladhar Range** is a southern offshoot of which major Himalayan division?",
+      "Options": [
+        { "id": 1, "text": "Great Himalayas (Himadri)" },
+        { "id": 2, "text": "Lesser Himalayas (Himachal)" },
+        { "id": 3, "text": "Shiwaliks" },
+        { "id": 4, "text": "Trans Himalayas" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Lesser Himalayas (Himachal)",
+      "Explanation": "The **Dhauladhar Range** is one of the important ranges that form part of the **Lesser Himalayas**, prominently running through Himachal Pradesh.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Indian Geography",
+      "Question": "The **largest producer of Jute** in India is the state of:",
+      "Options": [
+        { "id": 1, "text": "Bihar" },
+        { "id": 2, "text": "Assam" },
+        { "id": 3, "text": "West Bengal" },
+        { "id": 4, "text": "Odisha" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "West Bengal",
+      "Explanation": "**West Bengal**, particularly the Hooghly basin, is the largest producer of **Jute** in India, benefiting from the fertile alluvial soil of the Ganga-Brahmaputra Delta.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Bogibeel Bridge**, India's longest rail-cum-road bridge, is built across which major river?",
+      "Options": [
+        { "id": 1, "text": "Ganga" },
+        { "id": 2, "text": "Yamuna" },
+        { "id": 3, "text": "Brahmaputra" },
+        { "id": 4, "text": "Mahanadi" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Brahmaputra",
+      "Explanation": "The **Bogibeel Bridge** is located in Assam and connects Dhemaji and Dibrugarh across the mighty **Brahmaputra River**.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which coastal region is known as the **Konkan Coast** in the Western Coastal Plains?",
+      "Options": [
+        { "id": 1, "text": "Gujarat Coast" },
+        { "id": 2, "text": "Maharashtra and Goa Coast" },
+        { "id": 3, "text": "Karnataka and Kerala Coast" },
+        { "id": 4, "text": "Tamil Nadu Coast" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Maharashtra and Goa Coast",
+      "Explanation": "The **Konkan Coast** is the central stretch of the Western Coastal Plain, extending across the coasts of **Maharashtra and Goa**.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Highest Rail Bridge** in the world, the Chenab Bridge, is located in which state/UT?",
+      "Options": [
+        { "id": 1, "text": "Himachal Pradesh" },
+        { "id": 2, "text": "Jammu and Kashmir" },
+        { "id": 3, "text": "Uttarakhand" },
+        { "id": 4, "text": "Ladakh" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Jammu and Kashmir",
+      "Explanation": "The **Chenab Bridge**, part of the Udhampur-Srinagar-Baramulla Rail Link project, is built over the Chenab River in the Reasi district of **Jammu and Kashmir**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest dam** in India, the **Tehri Dam**, is an example of which type of rock/earth-fill embankment dam?",
+      "Options": [
+        { "id": 1, "text": "Gravity Dam" },
+        { "id": 2, "text": "Arch Dam" },
+        { "id": 3, "text": "Embankment Dam" },
+        { "id": 4, "text": "Buttress Dam" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Embankment Dam",
+      "Explanation": "The **Tehri Dam** is a multi-purpose **rock and earth-fill embankment dam**, built on the Bhagirathi River.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Bandhavgarh National Park**, known for the highest density of the Royal Bengal Tiger population, is located in which state?",
+      "Options": [
+        { "id": 1, "text": "Assam" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "Karnataka" },
+        { "id": 4, "text": "Uttarakhand" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "**Bandhavgarh National Park** is located in the Umaria district of **Madhya Pradesh**.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **'Khader'** soil is formed by the deposition of **new alluvium** and is found predominantly in which part of the Indo-Gangetic Plains?",
+      "Options": [
+        { "id": 1, "text": "The arid regions" },
+        { "id": 2, "text": "The outer edge of the plains (Bhangar region)" },
+        { "id": 3, "text": "The river floodplains (lowlands)" },
+        { "id": 4, "text": "The Himalayan foothills (Bhabar region)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "The river floodplains (lowlands)",
+      "Explanation": "**Khader** is the fresh, fine, and highly fertile alluvial soil deposited every year by river floods in the **low-lying floodplains**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Indian Standard Time (IST)** line passes nearest to which major city?",
+      "Options": [
+        { "id": 1, "text": "New Delhi" },
+        { "id": 2, "text": "Bengaluru" },
+        { "id": 3, "text": "Mirzapur (near Allahabad)" },
+        { "id": 4, "text": "Mumbai" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Mirzapur (near Allahabad)",
+      "Explanation": "The **IST** ( $82^circ 30' \text{ E}$) passes through the center of India, near **Mirzapur** in Uttar Pradesh, which is used as the reference point.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state in India is the largest producer of **Soybean**?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "Rajasthan" },
+        { "id": 4, "text": "Gujarat" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "**Madhya Pradesh** is the largest producer of **Soybean** in India, leading to its nickname 'Soy State'.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **'Doab'** region of Punjab is the fertile land located between which two major tributaries of the Indus River?",
+      "Options": [
+        { "id": 1, "text": "Jhelum and Chenab" },
+        { "id": 2, "text": "Ravi and Beas" },
+        { "id": 3, "text": "Sutlej and Beas" },
+        { "id": 4, "text": "Indus and Jhelum" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Sutlej and Beas",
+      "Explanation": "The most famous Doabs in Punjab are located between the various rivers, such as the Bari Doab (Beas and Ravi) and the Bist Doab (**Beas and Sutlej**). The overall Punjab Plain refers to the land between the Indus and the Sutlej.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Sunderbans**, a UNESCO World Heritage Site, is characterized by which unique type of vegetation?",
+      "Options": [
+        { "id": 1, "text": "Tropical Evergreen" },
+        { "id": 2, "text": "Alpine" },
+        { "id": 3, "text": "Mangrove" },
+        { "id": 4, "text": "Dry Deciduous" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Mangrove",
+      "Explanation": "The **Sunderbans** is the world's largest **Mangrove** forest, adapted to the brackish water of the Ganga-Brahmaputra delta.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest railway station** in India, the Ghum Railway Station, is located in the Himalayan region of which state?",
+      "Options": [
+        { "id": 1, "text": "Sikkim" },
+        { "id": 2, "text": "Himachal Pradesh" },
+        { "id": 3, "text": "West Bengal" },
+        { "id": 4, "text": "Uttarakhand" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "West Bengal",
+      "Explanation": "**Ghum** Railway Station is on the Darjeeling Himalayan Railway (DHR) line in **West Bengal**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which type of rocks are the Deccan Traps (Deccan Plateau) primarily composed of?",
+      "Options": [
+        { "id": 1, "text": "Sedimentary rocks" },
+        { "id": 2, "text": "Metamorphic rocks" },
+        { "id": 3, "text": "Igneous rocks (Basalt)" },
+        { "id": 4, "text": "Limestone" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Igneous rocks (Basalt)",
+      "Explanation": "The **Deccan Traps** are one of the world's largest volcanic provinces, consisting of multiple layers of solidified **basaltic lava flows** (an extrusive Igneous rock).",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Eastern Ghats** are known by the name of **'Shevaroy Hills'** in which South Indian state?",
+      "Options": [
+        { "id": 1, "text": "Andhra Pradesh" },
+        { "id": 2, "text": "Tamil Nadu" },
+        { "id": 3, "text": "Odisha" },
+        { "id": 4, "text": "Karnataka" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Tamil Nadu",
+      "Explanation": "The **Shevaroy Hills** and the Javadhu Hills are southern extensions of the **Eastern Ghats** located in **Tamil Nadu**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state is the leading producer of **Manganese Ore** in India?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Odisha" },
+        { "id": 3, "text": "Karnataka" },
+        { "id": 4, "text": "Andhra Pradesh" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Odisha",
+      "Explanation": "**Odisha** is the largest producer of **Manganese Ore** in India, with major deposits in the Sundargarh and Keonjhar districts.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Bhavani, Amravati, and Kabini** rivers are important tributaries of which major South Indian river?",
+      "Options": [
+        { "id": 1, "text": "Godavari" },
+        { "id": 2, "text": "Krishna" },
+        { "id": 3, "text": "Kaveri" },
+        { "id": 4, "text": "Pennar" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Kaveri",
+      "Explanation": "The **Kaveri River** system, crucial for irrigation in Karnataka and Tamil Nadu, includes the tributaries **Bhavani, Amravati, and Kabini**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Tsunami Warning Centre** for the Indian Ocean is located in which Indian city?",
+      "Options": [
+        { "id": 1, "text": "Chennai" },
+        { "id": 2, "text": "Mumbai" },
+        { "id": 3, "text": "Kochi" },
+        { "id": 4, "text": "Hyderabad" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Hyderabad",
+      "Explanation": "The **Indian National Centre for Ocean Information Services (INCOIS)**, which houses the Tsunami Warning Centre, is located in **Hyderabad**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which type of forest is characterized by trees shedding their leaves in the dry season, common across most of the Peninsular Plateau?",
+      "Options": [
+        { "id": 1, "text": "Tropical Evergreen" },
+        { "id": 2, "text": "Tropical Deciduous (Monsoon)" },
+        { "id": 3, "text": "Montane Temperate" },
+        { "id": 4, "text": "Tidal (Mangrove)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Tropical Deciduous (Monsoon)",
+      "Explanation": "The **Tropical Deciduous Forests** are the most widespread forests in India, with trees like Teak and Sal that shed their leaves in the dry season (hence 'Deciduous').",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Kolleru Lake**, a large freshwater lake, lies between the deltas of which two major rivers?",
+      "Options": [
+        { "id": 1, "text": "Mahanadi and Godavari" },
+        { "id": 2, "text": "Godavari and Krishna" },
+        { "id": 3, "text": "Kaveri and Krishna" },
+        { "id": 4, "text": "Narmada and Tapi" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Godavari and Krishna",
+      "Explanation": "**Kolleru Lake** is located between the Krishna and Godavari deltas in the state of Andhra Pradesh.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Daman and Diu** islands were separated from the mainland territory of which state?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Goa" },
+        { "id": 3, "text": "Gujarat" },
+        { "id": 4, "text": "Karnataka" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Gujarat",
+      "Explanation": "**Daman and Diu** were geographically associated with the **Gujarat** coast before being merged with Dadra and Nagar Haveli in 2020.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest point in the Nilgiri Hills**, **Doda Betta**, is located in which state?",
+      "Options": [
+        { "id": 1, "text": "Kerala" },
+        { "id": 2, "text": "Tamil Nadu" },
+        { "id": 3, "text": "Karnataka" },
+        { "id": 4, "text": "Andhra Pradesh" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Tamil Nadu",
+      "Explanation": "**Doda Betta** ($2,637$ m) is the highest peak in the Nilgiri Mountains and is located in **Tamil Nadu**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which type of farming, characterized by low inputs and reliance on natural conditions, is dominant in the majority of India's rain-fed areas?",
+      "Options": [
+        { "id": 1, "text": "Commercial Farming" },
+        { "id": 2, "text": "Plantation Agriculture" },
+        { "id": 3, "text": "Subsistence Farming" },
+        { "id": 4, "text": "Horticulture" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Subsistence Farming",
+      "Explanation": "**Subsistence farming** (growing crops mainly for the farmer's family consumption) remains the dominant form of agriculture in India, especially in areas dependent on monsoon rainfall.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Bhadra Wildlife Sanctuary** is located in which state, primarily known for its tiger and elephant population?",
+      "Options": [
+        { "id": 1, "text": "Telangana" },
+        { "id": 2, "text": "Karnataka" },
+        { "id": 3, "text": "Odisha" },
+        { "id": 4, "text": "Andhra Pradesh" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Karnataka",
+      "Explanation": "The **Bhadra Wildlife Sanctuary** is located in the Chikmagalur and Shimoga districts of **Karnataka**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which of the following mountain passes is used to reach the **Kailash Mansarovar Yatra** route through Uttarakhand?",
+      "Options": [
+        { "id": 1, "text": "Nathula Pass" },
+        { "id": 2, "text": "Shipkila Pass" },
+        { "id": 3, "text": "Lipulekh Pass" },
+        { "id": 4, "text": "Jelep La Pass" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Lipulekh Pass",
+      "Explanation": "The **Lipulekh Pass** is one of the main routes for the pilgrimage to Kailash Mansarovar, connecting Uttarakhand with Tibet (China).",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Tidal Ports** in India are highly dependent on the rise and fall of the sea level for navigation. Which port is a prime example of a major tidal port?",
+      "Options": [
+        { "id": 1, "text": "Visakhapatnam" },
+        { "id": 2, "text": "Kandla (Deendayal Port)" },
+        { "id": 3, "text": "Chennai" },
+        { "id": 4, "text": "Marmagao" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kandla (Deendayal Port)",
+      "Explanation": "**Kandla (Deendayal Port)** in Gujarat, located in the Gulf of Kutch, is India's largest and most famous **tidal port**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Western Ghats** are known for the **laterite soil** that is commonly used for making:",
+      "Options": [
+        { "id": 1, "text": "Earthenware pots" },
+        { "id": 2, "text": "Bricks" },
+        { "id": 3, "text": "Pottery" },
+        { "id": 4, "text": "Glass" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Bricks",
+      "Explanation": "The term 'laterite' is derived from the Latin word 'later' meaning **brick**. Laterite soils harden irreversibly upon drying and are extensively used to make **bricks**.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state is the largest producer of **Spices** and is known as the **'Spice Garden of India'**?",
+      "Options": [
+        { "id": 1, "text": "Karnataka" },
+        { "id": 2, "text": "Andhra Pradesh" },
+        { "id": 3, "text": "Kerala" },
+        { "id": 4, "text": "Tamil Nadu" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Kerala",
+      "Explanation": "**Kerala** is known as the **'Spice Garden of India'** due to its cultivation of cardamom, pepper, cloves, and cinnamon.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest point** in the **Satpura Range** is:",
+      "Options": [
+        { "id": 1, "text": "Mount Abu" },
+        { "id": 2, "text": "Dhupgarh" },
+        { "id": 3, "text": "Pachmarhi" },
+        { "id": 4, "text": "Amarkantak" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Dhupgarh",
+      "Explanation": "**Dhupgarh** ($1,350$ m), near Pachmarhi in Madhya Pradesh, is the highest peak of the Satpura Range.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Northern Limit Line (NLL)** is the disputed maritime boundary between India and:",
+      "Options": [
+        { "id": 1, "text": "Sri Lanka" },
+        { "id": 2, "text": "Bangladesh" },
+        { "id": 3, "text": "Myanmar" },
+        { "id": 4, "text": "Pakistan" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Pakistan",
+      "Explanation": "The **Northern Limit Line (NLL)** is a key disputed maritime boundary in the Sir Creek estuary region between India and **Pakistan**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Indira Gandhi Canal**, one of the largest canal projects in India, provides irrigation to the arid regions of which state?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Haryana" },
+        { "id": 3, "text": "Rajasthan" },
+        { "id": 4, "text": "Punjab" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Rajasthan",
+      "Explanation": "The **Indira Gandhi Canal** draws water from the Sutlej and Beas rivers to irrigate the vast desert areas of western **Rajasthan**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state is known as the **'Land of Five Rivers'**?",
+      "Options": [
+        { "id": 1, "text": "Himachal Pradesh" },
+        { "id": 2, "text": "Punjab" },
+        { "id": 3, "text": "Uttar Pradesh" },
+        { "id": 4, "text": "Bihar" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Punjab",
+      "Explanation": "**Punjab** (from Persian 'Panj' meaning five and 'ab' meaning water) is named after the five rivers: Jhelum, Chenab, Ravi, Beas, and Sutlej.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Siachen Glacier** feeds water to which major river of the Indus system?",
+      "Options": [
+        { "id": 1, "text": "Indus" },
+        { "id": 2, "text": "Jhelum" },
+        { "id": 3, "text": "Shyok" },
+        { "id": 4, "text": "Chenab" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Shyok",
+      "Explanation": "The **Siachen Glacier** is the source of the **Nubra River**, which flows into the **Shyok River**, a major tributary of the Indus.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The term **'Terai'** in the context of the Northern Plains refers to:",
+      "Options": [
+        { "id": 1, "text": "Arid, rocky land" },
+        { "id": 2, "text": "Old alluvial terraces" },
+        { "id": 3, "text": "Marshy, swampy belt with dense forest" },
+        { "id": 4, "text": "River deltas" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Marshy, swampy belt with dense forest",
+      "Explanation": "The **Terai** belt lies south of the Bhabar region, where the streams re-emerge, creating an excessively moist, **marshy, and thickly forested** area.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **largest producer of Coffee** in India is:",
+      "Options": [
+        { "id": 1, "text": "Kerala" },
+        { "id": 2, "text": "Tamil Nadu" },
+        { "id": 3, "text": "Andhra Pradesh" },
+        { "id": 4, "text": "Karnataka" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Karnataka",
+      "Explanation": "**Karnataka** accounts for the largest share of total coffee production in India.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state has the **lowest sex ratio** (females per 1000 males) in India (as per the 2011 Census)?",
+      "Options": [
+        { "id": 1, "text": "Bihar" },
+        { "id": 2, "text": "Haryana" },
+        { "id": 3, "text": "Rajasthan" },
+        { "id": 4, "text": "Gujarat" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Haryana",
+      "Explanation": "**Haryana** recorded the lowest sex ratio in India ($879$ females per $1000$ males) in the 2011 Census.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Palk Strait** is a shallow strait separating India from Sri Lanka. It lies between the Bay of Bengal and which other water body?",
+      "Options": [
+        { "id": 1, "text": "Arabian Sea" },
+        { "id": 2, "text": "Palk Bay" },
+        { "id": 3, "text": "Gulf of Kutch" },
+        { "id": 4, "text": "Gulf of Thailand" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Palk Bay",
+      "Explanation": "The **Palk Strait** connects the **Bay of Bengal** in the northeast with the **Palk Bay** in the southwest.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Highest peak** in the **Western Ghats**, **Anaimudi**, is located in which hill cluster?",
+      "Options": [
+        { "id": 1, "text": "Nilgiri Hills" },
+        { "id": 2, "text": "Palani Hills" },
+        { "id": 3, "text": "Cardamom Hills" },
+        { "id": 4, "text": "Anamalai Hills" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Anamalai Hills",
+      "Explanation": "**Anaimudi** is located at the junction of the **Anamalai Hills**, the Cardamom Hills, and the Palani Hills.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Indian Monsoon** is caused by the differential heating of the land and the sea, leading to a complete reversal of wind direction. What is this phenomenon called?",
+      "Options": [
+        { "id": 1, "text": "Coriolis Force" },
+        { "id": 2, "text": "Jet Stream Effect" },
+        { "id": 3, "text": "Land and Sea Breeze" },
+        { "id": 4, "text": "Seasonal Wind Reversal" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Seasonal Wind Reversal",
+      "Explanation": "The core mechanism of the Asian Monsoon is the **Seasonal Wind Reversal**, driven by the large pressure difference between the continent and the ocean.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which of the following is an example of an **artificial lake** in India?",
+      "Options": [
+        { "id": 1, "text": "Wular Lake" },
+        { "id": 2, "text": "Pulicat Lake" },
+        { "id": 3, "text": "Chilika Lake" },
+        { "id": 4, "text": "Govind Ballabh Pant Sagar" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Govind Ballabh Pant Sagar",
+      "Explanation": "The **Govind Ballabh Pant Sagar** is the reservoir created by the Rihand Dam in Uttar Pradesh and is the largest **artificial lake** (reservoir) in India.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Laterite Soil** deposits in India are rich in which two metallic minerals?",
+      "Options": [
+        { "id": 1, "text": "Potash and Calcium" },
+        { "id": 2, "text": "Iron and Aluminium" },
+        { "id": 3, "text": "Magnesium and Zinc" },
+        { "id": 4, "text": "Phosphorus and Nitrogen" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Iron and Aluminium",
+      "Explanation": "Due to intense leaching in high rainfall areas, silica is washed away, leaving behind high concentrations of oxides of **Iron and Aluminium** in laterite soil.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which city is known as the **'Detroit of Asia'** due to its major concentration of the Automobile industry?",
+      "Options": [
+        { "id": 1, "text": "Pune" },
+        { "id": 2, "text": "Chennai" },
+        { "id": 3, "text": "Gurugram" },
+        { "id": 4, "text": "Kolkata" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Chennai",
+      "Explanation": "**Chennai** is a major hub for the Indian automobile industry, housing numerous domestic and international auto manufacturers and component companies.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **'Khamsin'**, a hot, dry, dusty local wind, is associated with which region of India?",
+      "Options": [
+        { "id": 1, "text": "Kerala Coast" },
+        { "id": 2, "text": "Indo-Gangetic Plain (Loo)" },
+        { "id": 3, "text": "Northwest Desert Region" },
+        { "id": 4, "text": "Deccan Plateau" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Indo-Gangetic Plain (Loo)",
+      "Explanation": "The term **'Loo'** is the Indian equivalent of Khamsin (a wind system found in North Africa/Middle East). The **Loo** is the hot, dry, and often dusty summer wind blowing over the **Indo-Gangetic Plain**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state is the largest producer of **Natural Gas** in India?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Assam" },
+        { "id": 3, "text": "Andhra Pradesh" },
+        { "id": 4, "text": "Tripura" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Andhra Pradesh",
+      "Explanation": "The Krishna-Godavari (KG) basin off the coast of **Andhra Pradesh** has the largest natural gas reserves and is currently the largest producer.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Karakoram Highway** connects China with which country, running through the Karakoram Mountains?",
+      "Options": [
+        { "id": 1, "text": "India" },
+        { "id": 2, "text": "Nepal" },
+        { "id": 3, "text": "Pakistan" },
+        { "id": 4, "text": "Afghanistan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Pakistan",
+      "Explanation": "The **Karakoram Highway (KKH)** connects Gilgit-Baltistan in Pakistan with the Xinjiang region of China, running through the Karakoram Pass area.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **most populous** state in India is:",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Bihar" },
+        { "id": 3, "text": "West Bengal" },
+        { "id": 4, "text": "Uttar Pradesh" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Uttar Pradesh",
+      "Explanation": "**Uttar Pradesh** is the most populous state in India, with a population exceeding $200$ million (as per 2011 Census).",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which of the following is the **Southernmost point of the Indian Mainland**?",
+      "Options": [
+        { "id": 1, "text": "Indira Point" },
+        { "id": 2, "text": "Kanyakumari" },
+        { "id": 3, "text": "Cape Comorin" },
+        { "id": 4, "text": "Ram Setu" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kanyakumari",
+      "Explanation": "**Kanyakumari** (formerly Cape Comorin) in Tamil Nadu is the Southernmost point of the **Indian Mainland**. Indira Point is the southernmost point of the Indian Union.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Highest Peak** in the Aravalli Range is:",
+      "Options": [
+        { "id": 1, "text": "Mount Abu" },
+        { "id": 2, "text": "Guru Shikhar" },
+        { "id": 3, "text": "Dhupgarh" },
+        { "id": 4, "text": "Anaimudi" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Guru Shikhar",
+      "Explanation": "**Guru Shikhar** ($1,722$ m), located in the Mount Abu region of Rajasthan, is the highest peak of the Aravalli Range.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Chota Nagpur Plateau** drains into the Bay of Bengal through which two major rivers?",
+      "Options": [
+        { "id": 1, "text": "Narmada and Tapi" },
+        { "id": 2, "text": "Mahanadi and Brahmani" },
+        { "id": 3, "text": "Damodar and Subarnarekha" },
+        { "id": 4, "text": "Ganga and Yamuna" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Damodar and Subarnarekha",
+      "Explanation": "The **Damodar** (tributary of Hooghly) and **Subarnarekha** rivers are the two main river systems draining the eastern part of the mineral-rich **Chota Nagpur Plateau**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Kumbh Mela** is held in which four cities in India?",
+      "Options": [
+        { "id": 1, "text": "Haridwar, Varanasi, Prayagraj, Ujjain" },
+        { "id": 2, "text": "Prayagraj, Haridwar, Ujjain, Nashik" },
+        { "id": 3, "text": "Varanasi, Nashik, Ujjain, Haridwar" },
+        { "id": 4, "text": "Prayagraj, Ujjain, Varanasi, Kolkata" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Prayagraj, Haridwar, Ujjain, Nashik",
+      "Explanation": "The **Kumbh Mela** is held every twelve years at four places: **Prayagraj** (Ganga, Yamuna, Saraswati), **Haridwar** (Ganga), **Ujjain** (Shipra), and **Nashik** (Godavari).",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Highest Literary Rate** among Indian states (as per 2011 Census) belongs to:",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Mizoram" },
+        { "id": 3, "text": "Goa" },
+        { "id": 4, "text": "Kerala" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Kerala",
+      "Explanation": "**Kerala** has consistently maintained the **highest literacy rate** in India (over $94%$ in 2011).",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Bhabar** belt, adjacent to the Shiwalik foothills, is characterized by its **high porosity** because it consists of:",
+      "Options": [
+        { "id": 1, "text": "Fine silt and clay" },
+        { "id": 2, "text": "Large pebbles and gravels" },
+        { "id": 3, "text": "Hard granite rocks" },
+        { "id": 4, "text": "Marshy peat deposits" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Large pebbles and gravels",
+      "Explanation": "The high porosity of the **Bhabar** is due to the coarse sediment (pebbles and **gravels**), which allows rivers to disappear underground.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **largest producer of Uranium** in India is the state of:",
+      "Options": [
+        { "id": 1, "text": "Bihar" },
+        { "id": 2, "text": "Jharkhand" },
+        { "id": 3, "text": "Andhra Pradesh" },
+        { "id": 4, "text": "Meghalaya" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Andhra Pradesh",
+      "Explanation": "The **Tummalapalle mine** in **Andhra Pradesh** holds India's largest known uranium reserves and is the largest producer.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **North Eastern states** of India primarily receive rainfall from which branch of the Southwest Monsoon?",
+      "Options": [
+        { "id": 1, "text": "Arabian Sea Branch" },
+        { "id": 2, "text": "Bay of Bengal Branch" },
+        { "id": 3, "text": "Western Disturbances" },
+        { "id": 4, "text": "North East Monsoon" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Bay of Bengal Branch",
+      "Explanation": "The **Bay of Bengal Branch** of the Southwest Monsoon moves northwards and is deflected by the Himalayan barrier, causing heavy rainfall in the North Eastern states.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **largest solar power plant** in the world by capacity (as of 2024 context) is located in which state of India?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Rajasthan" },
+        { "id": 3, "text": "Karnataka" },
+        { "id": 4, "text": "Andhra Pradesh" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Karnataka",
+      "Explanation": "The **Pavagada Solar Park** in **Karnataka** is currently one of the largest operational solar parks in the world by capacity.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Gulf of Mannar** is famous for the presence of which unique marine mammal?",
+      "Options": [
+        { "id": 1, "text": "Great White Shark" },
+        { "id": 2, "text": "Dugong (Sea Cow)" },
+        { "id": 3, "text": "Killer Whale" },
+        { "id": 4, "text": "Blue Whale" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Dugong (Sea Cow)",
+      "Explanation": "The **Gulf of Mannar Marine National Park** is one of the last remaining habitats in India for the threatened **Dugong (Sea Cow)**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state is the leading producer of **Zinc** and **Lead** in India?",
+      "Options": [
+        { "id": 1, "text": "Andhra Pradesh" },
+        { "id": 2, "text": "Rajasthan" },
+        { "id": 3, "text": "Jharkhand" },
+        { "id": 4, "text": "Madhya Pradesh" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Rajasthan",
+      "Explanation": "**Rajasthan** (specifically the Zawar mines) accounts for nearly all of India's production of **Zinc** and **Lead**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Khardung La Pass**, one of the highest motorable passes in the world, is located in which region?",
+      "Options": [
+        { "id": 1, "text": "Himachal Pradesh" },
+        { "id": 2, "text": "Uttarakhand" },
+        { "id": 3, "text": "Sikkim" },
+        { "id": 4, "text": "Ladakh" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Ladakh",
+      "Explanation": "**Khardung La Pass** is located in the **Ladakh** region and is a crucial gateway to the Nubra and Shyok valleys.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The term **'Sholas'** refers to the tropical montane forests found in which region of India?",
+      "Options": [
+        { "id": 1, "text": "Eastern Himalayas" },
+        { "id": 2, "text": "Satpura Range" },
+        { "id": 3, "text": "Western Ghats" },
+        { "id": 4, "text": "Aravalli Range" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Western Ghats",
+      "Explanation": "**Sholas** are patches of stunted, tropical montane forest found interspersed with rolling grasslands in the high-altitude regions of the **Western Ghats** (e.g., Nilgiris, Anamalai).",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which city is known as the **'Textile City of India'** and is located in Gujarat?",
+      "Options": [
+        { "id": 1, "text": "Surat" },
+        { "id": 2, "text": "Ahmedabad" },
+        { "id": 3, "text": "Vadodara" },
+        { "id": 4, "text": "Rajkot" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Ahmedabad",
+      "Explanation": "**Ahmedabad** is often called the 'Manchester of India' or the **'Textile City'** due to its historical and modern prominence in the textile industry.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest point of the Deccan Plateau** is located in which range?",
+      "Options": [
+        { "id": 1, "text": "Vindhya Range" },
+        { "id": 2, "text": "Satpura Range" },
+        { "id": 3, "text": "Nilgiri Hills" },
+        { "id": 4, "text": "Anamalai Hills" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Anamalai Hills",
+      "Explanation": "The highest point of the Peninsular Plateau is **Anaimudi**, which is located in the **Anamalai Hills** (a subdivision of the Western Ghats).",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state/UT has the **highest population density** in India (as per 2011 Census)?",
+      "Options": [
+        { "id": 1, "text": "Bihar" },
+        { "id": 2, "text": "West Bengal" },
+        { "id": 3, "text": "Delhi" },
+        { "id": 4, "text": "Chandigarh" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Delhi",
+      "Explanation": "Among all states and UTs, the **National Capital Territory of Delhi** has the highest population density ($11,320$ persons per sq km in 2011). Among only states, Bihar is highest.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Peninsular Plateau** is bordered on the West by the Western Ghats and on the East by the Eastern Ghats. The oldest part of the Peninsular Plateau is the:",
+      "Options": [
+        { "id": 1, "text": "Deccan Trap" },
+        { "id": 2, "text": "Chota Nagpur Plateau" },
+        { "id": 3, "text": "Dharwar Craton (Karnataka)" },
+        { "id": 4, "text": "Malwa Plateau" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Dharwar Craton (Karnataka)",
+      "Explanation": "The **Dharwar Craton** (part of the Karnataka Plateau) is one of the oldest and most stable continental blocks (cratons) of the Indian Peninsula, dating back over $3$ billion years.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **largest coal field** in India, often referred to as the 'Coal Capital', is located in which state?",
+      "Options": [
+        { "id": 1, "text": "Odisha" },
+        { "id": 2, "text": "West Bengal (Raniganj)" },
+        { "id": 3, "text": "Jharkhand (Jharia)" },
+        { "id": 4, "text": "Chhattisgarh (Korba)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Jharkhand (Jharia)",
+      "Explanation": "The **Jharia Coalfield** in **Jharkhand** is the largest coal field in terms of reserves and is the key source of coking coal in India.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which of the following is an example of a **cold desert** in India?",
+      "Options": [
+        { "id": 1, "text": "Thar Desert" },
+        { "id": 2, "text": "Rann of Kutch" },
+        { "id": 3, "text": "Deccan Plateau" },
+        { "id": 4, "text": "Ladakh" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Ladakh",
+      "Explanation": "**Ladakh** is classified as a **cold desert** due to its high altitude, extremely low temperatures, and arid conditions despite the snow.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Maikal Range**, which is the source of the Narmada and Son rivers, is located primarily in which state?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Odisha" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Chhattisgarh" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Chhattisgarh",
+      "Explanation": "The **Amarkantak Plateau**, which is part of the **Maikal Range**, lies mainly in **Chhattisgarh** and is the origin of the Narmada and Son rivers.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Gulf of Khambhat (Cambay)**, which separates the Kathiawar Peninsula from the Gujarat mainland, is an ideal location for which type of energy project?",
+      "Options": [
+        { "id": 1, "text": "Solar Thermal" },
+        { "id": 2, "text": "Geothermal" },
+        { "id": 3, "text": "Tidal" },
+        { "id": 4, "text": "Wind Farm" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Tidal",
+      "Explanation": "The **Gulf of Khambhat** experiences a very high tidal range, making it a prime location for generating **Tidal Energy**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which type of forest is found in the deltaic region of the Ganga and Brahmaputra, characterized by the 'Sundari' tree?",
+      "Options": [
+        { "id": 1, "text": "Evergreen Forests" },
+        { "id": 2, "text": "Montane Forests" },
+        { "id": 3, "text": "Tidal/Mangrove Forests" },
+        { "id": 4, "text": "Tropical Dry Deciduous Forests" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Tidal/Mangrove Forests",
+      "Explanation": "The **Sundarbans** is characterized by salt-tolerant **Tidal/Mangrove Forests** and is named after the predominant tree species, the **Sundari tree**.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Rihand Dam** creates a large reservoir on the Rihand River that is a tributary of which major river?",
+      "Options": [
+        { "id": 1, "text": "Mahanadi" },
+        { "id": 2, "text": "Son" },
+        { "id": 3, "text": "Yamuna" },
+        { "id": 4, "text": "Chambal" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Son",
+      "Explanation": "The **Rihand River** is a major southern tributary of the **Son River**, which itself is a tributary of the Ganga.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state in India is the largest producer of **Cashew Nuts**?",
+      "Options": [
+        { "id": 1, "text": "Goa" },
+        { "id": 2, "text": "Kerala" },
+        { "id": 3, "text": "Maharashtra" },
+        { "id": 4, "text": "Odisha" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Maharashtra",
+      "Explanation": "**Maharashtra** (especially the Konkan region) is the leading state in India for the production of **Cashew Nuts**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest point of the Eastern Ghats** is:",
+      "Options": [
+        { "id": 1, "text": "Mahendragiri" },
+        { "id": 2, "text": "Jindhagada Peak" },
+        { "id": 3, "text": "Deomali" },
+        { "id": 4, "text": "Arma Konda" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Arma Konda",
+      "Explanation": "The **Arma Konda** (or Sitamma Konda) in Andhra Pradesh is the **highest peak of the Eastern Ghats** ($1,680$ m), having surpassed the previously accepted Mahendragiri.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Tapti River** originates from the **Satpura Range** in which state?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Gujarat" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Tapti River** originates from the Multai plateau in the Betul district of **Madhya Pradesh**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which of the following is a **trans-Himalayan river** that cuts through the Great Himalayan Range to enter India?",
+      "Options": [
+        { "id": 1, "text": "Ganga" },
+        { "id": 2, "text": "Yamuna" },
+        { "id": 3, "text": "Sutlej" },
+        { "id": 4, "text": "Ravi" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Sutlej",
+      "Explanation": "**Trans-Himalayan rivers** (Indus, Sutlej, Brahmaputra) are older than the Himalayas themselves and cut across the ranges. The **Sutlej** is one such river.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Narmada River** originates from the **Amarkantak Plateau**, which is located at the junction of the Maikal Hills and which other range?",
+      "Options": [
+        { "id": 1, "text": "Aravalli Range" },
+        { "id": 2, "text": "Vindhya Range" },
+        { "id": 3, "text": "Satpura Range" },
+        { "id": 4, "text": "Kaimur Range" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Vindhya Range",
+      "Explanation": "The Amarkantak Plateau is located at the eastern end of the **Vindhya Range** and is part of the Maikal Hills, marking the triple point origin of the Narmada, Son, and Mahanadi rivers.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Bhandar Plateau** is a major geological feature found in which state, known for its diamond mines?",
+      "Options": [
+        { "id": 1, "text": "Jharkhand" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "Odisha" },
+        { "id": 4, "text": "Karnataka" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Panna diamond mines** are located on the **Bhander Plateau** (part of the Vindhyan region) in **Madhya Pradesh**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state has the **longest border with Pakistan**?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Punjab" },
+        { "id": 3, "text": "Rajasthan" },
+        { "id": 4, "text": "Jammu and Kashmir (UT)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Rajasthan",
+      "Explanation": "**Rajasthan** shares the longest continuous international boundary ($1,037$ km) with Pakistan.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Kolkata Port (Syama Prasad Mookerjee Port)** is located on which river?",
+      "Options": [
+        { "id": 1, "text": "Mahanadi" },
+        { "id": 2, "text": "Hooghly" },
+        { "id": 3, "text": "Damodar" },
+        { "id": 4, "text": "Ganga (Padma)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Hooghly",
+      "Explanation": "**Kolkata Port** is the only major riverine port in India and is located on the **Hooghly River**, a distributary of the Ganga.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Jhelum River** flows through which famous valley in Jammu and Kashmir?",
+      "Options": [
+        { "id": 1, "text": "Nubra Valley" },
+        { "id": 2, "text": "Kashmir Valley" },
+        { "id": 3, "text": "Dras Valley" },
+        { "id": 4, "text": "Kullu Valley" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kashmir Valley",
+      "Explanation": "The **Jhelum River** meanders through the **Kashmir Valley** and is critical to the region's economy and lifestyle.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which type of rocks are the oldest and contain most of the metallic minerals of the Indian Peninsula?",
+      "Options": [
+        { "id": 1, "text": "Tertiary Sedimentary Rocks" },
+        { "id": 2, "text": "Gondwana System Rocks" },
+        { "id": 3, "text": "Archaean and Dharwar System Rocks" },
+        { "id": 4, "text": "Deccan Trap Basalt" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Archaean and Dharwar System Rocks",
+      "Explanation": "The highly crystallized and metamorphosed **Archaean and Dharwar systems** (part of the Cratons) are the primary sources of valuable **metallic minerals** like Iron, Gold, and Manganese.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Keibul Lamjao National Park**, famous for the endangered Sangai deer, is located in which lake?",
+      "Options": [
+        { "id": 1, "text": "Chilika Lake" },
+        { "id": 2, "text": "Wular Lake" },
+        { "id": 3, "text": "Loktak Lake" },
+        { "id": 4, "text": "Dal Lake" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Loktak Lake",
+      "Explanation": "**Keibul Lamjao** is the world's only floating national park, located on the floating islands (**Phumdis**) on **Loktak Lake** in Manipur.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which river is known as the **'Lifeline of Sikkim'**?",
+      "Options": [
+        { "id": 1, "text": "Teesta" },
+        { "id": 2, "text": "Manas" },
+        { "id": 3, "text": "Jaldhaka" },
+        { "id": 4, "text": "Ganga" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Teesta",
+      "Explanation": "The **Teesta River** flows through almost the entire length of Sikkim and is the main water source for the state.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Barail Range** is a major hill range separating which two geographical areas in Northeast India?",
+      "Options": [
+        { "id": 1, "text": "Arunachal Pradesh and Assam" },
+        { "id": 2, "text": "Assam Valley and Manipur/Mizoram" },
+        { "id": 3, "text": "Meghalaya and Tripura" },
+        { "id": 4, "text": "Sikkim and West Bengal" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Assam Valley and Manipur/Mizoram",
+      "Explanation": "The **Barail Range** runs across parts of Assam, Nagaland, and Manipur, geographically separating the **Assam Valley** from the hills to the south (Manipur, Mizoram, etc.).",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **largest producer of Copper** in India is the state of:",
+      "Options": [
+        { "id": 1, "text": "Bihar" },
+        { "id": 2, "text": "Jharkhand" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "**Madhya Pradesh** (Malanjkhand mines) is the leading producer of **Copper Ore** in India.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest point in the Eastern Ghats** is:",
+      "Options": [
+        { "id": 1, "text": "Mahendragiri" },
+        { "id": 2, "text": "Jindhagada Peak" },
+        { "id": 3, "text": "Deomali" },
+        { "id": 4, "text": "Arma Konda" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Arma Konda",
+      "Explanation": "The **Arma Konda** (or Sitamma Konda) in Andhra Pradesh is the **highest peak of the Eastern Ghats** ($1,680$ m), having surpassed the previously accepted Mahendragiri.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Tapti River** originates from the **Satpura Range** in which state?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Gujarat" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Tapti River** originates from the Multai plateau in the Betul district of **Madhya Pradesh**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which of the following is a **trans-Himalayan river** that cuts through the Great Himalayan Range to enter India?",
+      "Options": [
+        { "id": 1, "text": "Ganga" },
+        { "id": 2, "text": "Yamuna" },
+        { "id": 3, "text": "Sutlej" },
+        { "id": 4, "text": "Ravi" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Sutlej",
+      "Explanation": "**Trans-Himalayan rivers** (Indus, Sutlej, Brahmaputra) are older than the Himalayas themselves and cut across the ranges. The **Sutlej** is one such river.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Narmada River** originates from the **Amarkantak Plateau**, which is located at the junction of the Maikal Hills and which other range?",
+      "Options": [
+        { "id": 1, "text": "Aravalli Range" },
+        { "id": 2, "text": "Vindhya Range" },
+        { "id": 3, "text": "Satpura Range" },
+        { "id": 4, "text": "Kaimur Range" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Vindhya Range",
+      "Explanation": "The Amarkantak Plateau is located at the eastern end of the **Vindhya Range** and is part of the Maikal Hills, marking the triple point origin of the Narmada, Son, and Mahanadi rivers.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Bhandar Plateau** is a major geological feature found in which state, known for its diamond mines?",
+      "Options": [
+        { "id": 1, "text": "Jharkhand" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "Odisha" },
+        { "id": 4, "text": "Karnataka" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Panna diamond mines** are located on the **Bhander Plateau** (part of the Vindhyan region) in **Madhya Pradesh**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state has the **longest border with Pakistan**?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Punjab" },
+        { "id": 3, "text": "Rajasthan" },
+        { "id": 4, "text": "Jammu and Kashmir (UT)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Rajasthan",
+      "Explanation": "**Rajasthan** shares the longest continuous international boundary ($1,037$ km) with Pakistan.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Kolkata Port (Syama Prasad Mookerjee Port)** is located on which river?",
+      "Options": [
+        { "id": 1, "text": "Mahanadi" },
+        { "id": 2, "text": "Hooghly" },
+        { "id": 3, "text": "Damodar" },
+        { "id": 4, "text": "Ganga (Padma)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Hooghly",
+      "Explanation": "**Kolkata Port** is the only major riverine port in India and is located on the **Hooghly River**, a distributary of the Ganga.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Jhelum River** flows through which famous valley in Jammu and Kashmir?",
+      "Options": [
+        { "id": 1, "text": "Nubra Valley" },
+        { "id": 2, "text": "Kashmir Valley" },
+        { "id": 3, "text": "Dras Valley" },
+        { "id": 4, "text": "Kullu Valley" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kashmir Valley",
+      "Explanation": "The **Jhelum River** meanders through the **Kashmir Valley** and is critical to the region's economy and lifestyle.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which type of rocks are the oldest and contain most of the metallic minerals of the Indian Peninsula?",
+      "Options": [
+        { "id": 1, "text": "Tertiary Sedimentary Rocks" },
+        { "id": 2, "text": "Gondwana System Rocks" },
+        { "id": 3, "text": "Archaean and Dharwar System Rocks" },
+        { "id": 4, "text": "Deccan Trap Basalt" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Archaean and Dharwar System Rocks",
+      "Explanation": "The highly crystallized and metamorphosed **Archaean and Dharwar systems** (part of the Cratons) are the primary sources of valuable **metallic minerals** like Iron, Gold, and Manganese.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Keibul Lamjao National Park**, famous for the endangered Sangai deer, is located in which lake?",
+      "Options": [
+        { "id": 1, "text": "Chilika Lake" },
+        { "id": 2, "text": "Wular Lake" },
+        { "id": 3, "text": "Loktak Lake" },
+        { "id": 4, "text": "Dal Lake" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Loktak Lake",
+      "Explanation": "**Keibul Lamjao** is the world's only floating national park, located on the floating islands (**Phumdis**) on **Loktak Lake** in Manipur.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which river is known as the **'Lifeline of Sikkim'**?",
+      "Options": [
+        { "id": 1, "text": "Teesta" },
+        { "id": 2, "text": "Manas" },
+        { "id": 3, "text": "Jaldhaka" },
+        { "id": 4, "text": "Ganga" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Teesta",
+      "Explanation": "The **Teesta River** flows through almost the entire length of Sikkim and is the main water source for the state.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Barail Range** is a major hill range separating which two geographical areas in Northeast India?",
+      "Options": [
+        { "id": 1, "text": "Arunachal Pradesh and Assam" },
+        { "id": 2, "text": "Assam Valley and Manipur/Mizoram" },
+        { "id": 3, "text": "Meghalaya and Tripura" },
+        { "id": 4, "text": "Sikkim and West Bengal" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Assam Valley and Manipur/Mizoram",
+      "Explanation": "The **Barail Range** runs across parts of Assam, Nagaland, and Manipur, geographically separating the **Assam Valley** from the hills to the south (Manipur, Mizoram, etc.).",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **largest producer of Copper** in India is the state of:",
+      "Options": [
+        { "id": 1, "text": "Bihar" },
+        { "id": 2, "text": "Jharkhand" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "**Madhya Pradesh** (Malanjkhand mines) is the leading producer of **Copper Ore** in India.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest point in the Eastern Ghats** is:",
+      "Options": [
+        { "id": 1, "text": "Mahendragiri" },
+        { "id": 2, "text": "Jindhagada Peak" },
+        { "id": 3, "text": "Deomali" },
+        { "id": 4, "text": "Arma Konda" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Arma Konda",
+      "Explanation": "The **Arma Konda** (or Sitamma Konda) in Andhra Pradesh is the **highest peak of the Eastern Ghats** ($1,680$ m), having surpassed the previously accepted Mahendragiri.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Tapti River** originates from the **Satpura Range** in which state?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Gujarat" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Tapti River** originates from the Multai plateau in the Betul district of **Madhya Pradesh**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which of the following is a **trans-Himalayan river** that cuts through the Great Himalayan Range to enter India?",
+      "Options": [
+        { "id": 1, "text": "Ganga" },
+        { "id": 2, "text": "Yamuna" },
+        { "id": 3, "text": "Sutlej" },
+        { "id": 4, "text": "Ravi" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Sutlej",
+      "Explanation": "**Trans-Himalayan rivers** (Indus, Sutlej, Brahmaputra) are older than the Himalayas themselves and cut across the ranges. The **Sutlej** is one such river.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Narmada River** originates from the **Amarkantak Plateau**, which is located at the junction of the Maikal Hills and which other range?",
+      "Options": [
+        { "id": 1, "text": "Aravalli Range" },
+        { "id": 2, "text": "Vindhya Range" },
+        { "id": 3, "text": "Satpura Range" },
+        { "id": 4, "text": "Kaimur Range" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Vindhya Range",
+      "Explanation": "The Amarkantak Plateau is located at the eastern end of the **Vindhya Range** and is part of the Maikal Hills, marking the triple point origin of the Narmada, Son, and Mahanadi rivers.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Bhandar Plateau** is a major geological feature found in which state, known for its diamond mines?",
+      "Options": [
+        { "id": 1, "text": "Jharkhand" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "Odisha" },
+        { "id": 4, "text": "Karnataka" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Panna diamond mines** are located on the **Bhander Plateau** (part of the Vindhyan region) in **Madhya Pradesh**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state has the **longest border with Pakistan**?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Punjab" },
+        { "id": 3, "text": "Rajasthan" },
+        { "id": 4, "text": "Jammu and Kashmir (UT)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Rajasthan",
+      "Explanation": "**Rajasthan** shares the longest continuous international boundary ($1,037$ km) with Pakistan.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Kolkata Port (Syama Prasad Mookerjee Port)** is located on which river?",
+      "Options": [
+        { "id": 1, "text": "Mahanadi" },
+        { "id": 2, "text": "Hooghly" },
+        { "id": 3, "text": "Damodar" },
+        { "id": 4, "text": "Ganga (Padma)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Hooghly",
+      "Explanation": "**Kolkata Port** is the only major riverine port in India and is located on the **Hooghly River**, a distributary of the Ganga.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Jhelum River** flows through which famous valley in Jammu and Kashmir?",
+      "Options": [
+        { "id": 1, "text": "Nubra Valley" },
+        { "id": 2, "text": "Kashmir Valley" },
+        { "id": 3, "text": "Dras Valley" },
+        { "id": 4, "text": "Kullu Valley" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kashmir Valley",
+      "Explanation": "The **Jhelum River** meanders through the **Kashmir Valley** and is critical to the region's economy and lifestyle.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which type of rocks are the oldest and contain most of the metallic minerals of the Indian Peninsula?",
+      "Options": [
+        { "id": 1, "text": "Tertiary Sedimentary Rocks" },
+        { "id": 2, "text": "Gondwana System Rocks" },
+        { "id": 3, "text": "Archaean and Dharwar System Rocks" },
+        { "id": 4, "text": "Deccan Trap Basalt" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Archaean and Dharwar System Rocks",
+      "Explanation": "The highly crystallized and metamorphosed **Archaean and Dharwar systems** (part of the Cratons) are the primary sources of valuable **metallic minerals** like Iron, Gold, and Manganese.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Keibul Lamjao National Park**, famous for the endangered Sangai deer, is located in which lake?",
+      "Options": [
+        { "id": 1, "text": "Chilika Lake" },
+        { "id": 2, "text": "Wular Lake" },
+        { "id": 3, "text": "Loktak Lake" },
+        { "id": 4, "text": "Dal Lake" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Loktak Lake",
+      "Explanation": "**Keibul Lamjao** is the world's only floating national park, located on the floating islands (**Phumdis**) on **Loktak Lake** in Manipur.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which river is known as the **'Lifeline of Sikkim'**?",
+      "Options": [
+        { "id": 1, "text": "Teesta" },
+        { "id": 2, "text": "Manas" },
+        { "id": 3, "text": "Jaldhaka" },
+        { "id": 4, "text": "Ganga" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Teesta",
+      "Explanation": "The **Teesta River** flows through almost the entire length of Sikkim and is the main water source for the state.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Barail Range** is a major hill range separating which two geographical areas in Northeast India?",
+      "Options": [
+        { "id": 1, "text": "Arunachal Pradesh and Assam" },
+        { "id": 2, "text": "Assam Valley and Manipur/Mizoram" },
+        { "id": 3, "text": "Meghalaya and Tripura" },
+        { "id": 4, "text": "Sikkim and West Bengal" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Assam Valley and Manipur/Mizoram",
+      "Explanation": "The **Barail Range** runs across parts of Assam, Nagaland, and Manipur, geographically separating the **Assam Valley** from the hills to the south (Manipur, Mizoram, etc.).",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **largest producer of Copper** in India is the state of:",
+      "Options": [
+        { "id": 1, "text": "Bihar" },
+        { "id": 2, "text": "Jharkhand" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "**Madhya Pradesh** (Malanjkhand mines) is the leading producer of **Copper Ore** in India.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest point in the Eastern Ghats** is:",
+      "Options": [
+        { "id": 1, "text": "Mahendragiri" },
+        { "id": 2, "text": "Jindhagada Peak" },
+        { "id": 3, "text": "Deomali" },
+        { "id": 4, "text": "Arma Konda" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Arma Konda",
+      "Explanation": "The **Arma Konda** (or Sitamma Konda) in Andhra Pradesh is the **highest peak of the Eastern Ghats** ($1,680$ m), having surpassed the previously accepted Mahendragiri.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Tapti River** originates from the **Satpura Range** in which state?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Gujarat" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Tapti River** originates from the Multai plateau in the Betul district of **Madhya Pradesh**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which of the following is a **trans-Himalayan river** that cuts through the Great Himalayan Range to enter India?",
+      "Options": [
+        { "id": 1, "text": "Ganga" },
+        { "id": 2, "text": "Yamuna" },
+        { "id": 3, "text": "Sutlej" },
+        { "id": 4, "text": "Ravi" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Sutlej",
+      "Explanation": "**Trans-Himalayan rivers** (Indus, Sutlej, Brahmaputra) are older than the Himalayas themselves and cut across the ranges. The **Sutlej** is one such river.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Narmada River** originates from the **Amarkantak Plateau**, which is located at the junction of the Maikal Hills and which other range?",
+      "Options": [
+        { "id": 1, "text": "Aravalli Range" },
+        { "id": 2, "text": "Vindhya Range" },
+        { "id": 3, "text": "Satpura Range" },
+        { "id": 4, "text": "Kaimur Range" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Vindhya Range",
+      "Explanation": "The Amarkantak Plateau is located at the eastern end of the **Vindhya Range** and is part of the Maikal Hills, marking the triple point origin of the Narmada, Son, and Mahanadi rivers.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Bhandar Plateau** is a major geological feature found in which state, known for its diamond mines?",
+      "Options": [
+        { "id": 1, "text": "Jharkhand" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "Odisha" },
+        { "id": 4, "text": "Karnataka" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Panna diamond mines** are located on the **Bhander Plateau** (part of the Vindhyan region) in **Madhya Pradesh**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state has the **longest border with Pakistan**?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Punjab" },
+        { "id": 3, "text": "Rajasthan" },
+        { "id": 4, "text": "Jammu and Kashmir (UT)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Rajasthan",
+      "Explanation": "**Rajasthan** shares the longest continuous international boundary ($1,037$ km) with Pakistan.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Kolkata Port (Syama Prasad Mookerjee Port)** is located on which river?",
+      "Options": [
+        { "id": 1, "text": "Mahanadi" },
+        { "id": 2, "text": "Hooghly" },
+        { "id": 3, "text": "Damodar" },
+        { "id": 4, "text": "Ganga (Padma)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Hooghly",
+      "Explanation": "**Kolkata Port** is the only major riverine port in India and is located on the **Hooghly River**, a distributary of the Ganga.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Jhelum River** flows through which famous valley in Jammu and Kashmir?",
+      "Options": [
+        { "id": 1, "text": "Nubra Valley" },
+        { "id": 2, "text": "Kashmir Valley" },
+        { "id": 3, "text": "Dras Valley" },
+        { "id": 4, "text": "Kullu Valley" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kashmir Valley",
+      "Explanation": "The **Jhelum River** meanders through the **Kashmir Valley** and is critical to the region's economy and lifestyle.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which type of rocks are the oldest and contain most of the metallic minerals of the Indian Peninsula?",
+      "Options": [
+        { "id": 1, "text": "Tertiary Sedimentary Rocks" },
+        { "id": 2, "text": "Gondwana System Rocks" },
+        { "id": 3, "text": "Archaean and Dharwar System Rocks" },
+        { "id": 4, "text": "Deccan Trap Basalt" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Archaean and Dharwar System Rocks",
+      "Explanation": "The highly crystallized and metamorphosed **Archaean and Dharwar systems** (part of the Cratons) are the primary sources of valuable **metallic minerals** like Iron, Gold, and Manganese.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Keibul Lamjao National Park**, famous for the endangered Sangai deer, is located in which lake?",
+      "Options": [
+        { "id": 1, "text": "Chilika Lake" },
+        { "id": 2, "text": "Wular Lake" },
+        { "id": 3, "text": "Loktak Lake" },
+        { "id": 4, "text": "Dal Lake" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Loktak Lake",
+      "Explanation": "**Keibul Lamjao** is the world's only floating national park, located on the floating islands (**Phumdis**) on **Loktak Lake** in Manipur.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which river is known as the **'Lifeline of Sikkim'**?",
+      "Options": [
+        { "id": 1, "text": "Teesta" },
+        { "id": 2, "text": "Manas" },
+        { "id": 3, "text": "Jaldhaka" },
+        { "id": 4, "text": "Ganga" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Teesta",
+      "Explanation": "The **Teesta River** flows through almost the entire length of Sikkim and is the main water source for the state.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Barail Range** is a major hill range separating which two geographical areas in Northeast India?",
+      "Options": [
+        { "id": 1, "text": "Arunachal Pradesh and Assam" },
+        { "id": 2, "text": "Assam Valley and Manipur/Mizoram" },
+        { "id": 3, "text": "Meghalaya and Tripura" },
+        { "id": 4, "text": "Sikkim and West Bengal" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Assam Valley and Manipur/Mizoram",
+      "Explanation": "The **Barail Range** runs across parts of Assam, Nagaland, and Manipur, geographically separating the **Assam Valley** from the hills to the south (Manipur, Mizoram, etc.).",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **largest producer of Copper** in India is the state of:",
+      "Options": [
+        { "id": 1, "text": "Bihar" },
+        { "id": 2, "text": "Jharkhand" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "**Madhya Pradesh** (Malanjkhand mines) is the leading producer of **Copper Ore** in India.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest point in the Eastern Ghats** is:",
+      "Options": [
+        { "id": 1, "text": "Mahendragiri" },
+        { "id": 2, "text": "Jindhagada Peak" },
+        { "id": 3, "text": "Deomali" },
+        { "id": 4, "text": "Arma Konda" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Arma Konda",
+      "Explanation": "The **Arma Konda** (or Sitamma Konda) in Andhra Pradesh is the **highest peak of the Eastern Ghats** ($1,680$ m), having surpassed the previously accepted Mahendragiri.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Tapti River** originates from the **Satpura Range** in which state?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Gujarat" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Tapti River** originates from the Multai plateau in the Betul district of **Madhya Pradesh**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which of the following is a **trans-Himalayan river** that cuts through the Great Himalayan Range to enter India?",
+      "Options": [
+        { "id": 1, "text": "Ganga" },
+        { "id": 2, "text": "Yamuna" },
+        { "id": 3, "text": "Sutlej" },
+        { "id": 4, "text": "Ravi" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Sutlej",
+      "Explanation": "**Trans-Himalayan rivers** (Indus, Sutlej, Brahmaputra) are older than the Himalayas themselves and cut across the ranges. The **Sutlej** is one such river.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Narmada River** originates from the **Amarkantak Plateau**, which is located at the junction of the Maikal Hills and which other range?",
+      "Options": [
+        { "id": 1, "text": "Aravalli Range" },
+        { "id": 2, "text": "Vindhya Range" },
+        { "id": 3, "text": "Satpura Range" },
+        { "id": 4, "text": "Kaimur Range" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Vindhya Range",
+      "Explanation": "The Amarkantak Plateau is located at the eastern end of the **Vindhya Range** and is part of the Maikal Hills, marking the triple point origin of the Narmada, Son, and Mahanadi rivers.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Bhandar Plateau** is a major geological feature found in which state, known for its diamond mines?",
+      "Options": [
+        { "id": 1, "text": "Jharkhand" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "Odisha" },
+        { "id": 4, "text": "Karnataka" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Panna diamond mines** are located on the **Bhander Plateau** (part of the Vindhyan region) in **Madhya Pradesh**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state has the **longest border with Pakistan**?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Punjab" },
+        { "id": 3, "text": "Rajasthan" },
+        { "id": 4, "text": "Jammu and Kashmir (UT)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Rajasthan",
+      "Explanation": "**Rajasthan** shares the longest continuous international boundary ($1,037$ km) with Pakistan.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Kolkata Port (Syama Prasad Mookerjee Port)** is located on which river?",
+      "Options": [
+        { "id": 1, "text": "Mahanadi" },
+        { "id": 2, "text": "Hooghly" },
+        { "id": 3, "text": "Damodar" },
+        { "id": 4, "text": "Ganga (Padma)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Hooghly",
+      "Explanation": "**Kolkata Port** is the only major riverine port in India and is located on the **Hooghly River**, a distributary of the Ganga.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Jhelum River** flows through which famous valley in Jammu and Kashmir?",
+      "Options": [
+        { "id": 1, "text": "Nubra Valley" },
+        { "id": 2, "text": "Kashmir Valley" },
+        { "id": 3, "text": "Dras Valley" },
+        { "id": 4, "text": "Kullu Valley" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kashmir Valley",
+      "Explanation": "The **Jhelum River** meanders through the **Kashmir Valley** and is critical to the region's economy and lifestyle.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which type of rocks are the oldest and contain most of the metallic minerals of the Indian Peninsula?",
+      "Options": [
+        { "id": 1, "text": "Tertiary Sedimentary Rocks" },
+        { "id": 2, "text": "Gondwana System Rocks" },
+        { "id": 3, "text": "Archaean and Dharwar System Rocks" },
+        { "id": 4, "text": "Deccan Trap Basalt" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Archaean and Dharwar System Rocks",
+      "Explanation": "The highly crystallized and metamorphosed **Archaean and Dharwar systems** (part of the Cratons) are the primary sources of valuable **metallic minerals** like Iron, Gold, and Manganese.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Keibul Lamjao National Park**, famous for the endangered Sangai deer, is located in which lake?",
+      "Options": [
+        { "id": 1, "text": "Chilika Lake" },
+        { "id": 2, "text": "Wular Lake" },
+        { "id": 3, "text": "Loktak Lake" },
+        { "id": 4, "text": "Dal Lake" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Loktak Lake",
+      "Explanation": "**Keibul Lamjao** is the world's only floating national park, located on the floating islands (**Phumdis**) on **Loktak Lake** in Manipur.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which river is known as the **'Lifeline of Sikkim'**?",
+      "Options": [
+        { "id": 1, "text": "Teesta" },
+        { "id": 2, "text": "Manas" },
+        { "id": 3, "text": "Jaldhaka" },
+        { "id": 4, "text": "Ganga" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Teesta",
+      "Explanation": "The **Teesta River** flows through almost the entire length of Sikkim and is the main water source for the state.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Barail Range** is a major hill range separating which two geographical areas in Northeast India?",
+      "Options": [
+        { "id": 1, "text": "Arunachal Pradesh and Assam" },
+        { "id": 2, "text": "Assam Valley and Manipur/Mizoram" },
+        { "id": 3, "text": "Meghalaya and Tripura" },
+        { "id": 4, "text": "Sikkim and West Bengal" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Assam Valley and Manipur/Mizoram",
+      "Explanation": "The **Barail Range** runs across parts of Assam, Nagaland, and Manipur, geographically separating the **Assam Valley** from the hills to the south (Manipur, Mizoram, etc.).",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **largest producer of Copper** in India is the state of:",
+      "Options": [
+        { "id": 1, "text": "Bihar" },
+        { "id": 2, "text": "Jharkhand" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "**Madhya Pradesh** (Malanjkhand mines) is the leading producer of **Copper Ore** in India.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest point in the Eastern Ghats** is:",
+      "Options": [
+        { "id": 1, "text": "Mahendragiri" },
+        { "id": 2, "text": "Jindhagada Peak" },
+        { "id": 3, "text": "Deomali" },
+        { "id": 4, "text": "Arma Konda" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Arma Konda",
+      "Explanation": "The **Arma Konda** (or Sitamma Konda) in Andhra Pradesh is the **highest peak of the Eastern Ghats** ($1,680$ m), having surpassed the previously accepted Mahendragiri.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Tapti River** originates from the **Satpura Range** in which state?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Gujarat" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Tapti River** originates from the Multai plateau in the Betul district of **Madhya Pradesh**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which of the following is a **trans-Himalayan river** that cuts through the Great Himalayan Range to enter India?",
+      "Options": [
+        { "id": 1, "text": "Ganga" },
+        { "id": 2, "text": "Yamuna" },
+        { "id": 3, "text": "Sutlej" },
+        { "id": 4, "text": "Ravi" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Sutlej",
+      "Explanation": "**Trans-Himalayan rivers** (Indus, Sutlej, Brahmaputra) are older than the Himalayas themselves and cut across the ranges. The **Sutlej** is one such river.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Narmada River** originates from the **Amarkantak Plateau**, which is located at the junction of the Maikal Hills and which other range?",
+      "Options": [
+        { "id": 1, "text": "Aravalli Range" },
+        { "id": 2, "text": "Vindhya Range" },
+        { "id": 3, "text": "Satpura Range" },
+        { "id": 4, "text": "Kaimur Range" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Vindhya Range",
+      "Explanation": "The Amarkantak Plateau is located at the eastern end of the **Vindhya Range** and is part of the Maikal Hills, marking the triple point origin of the Narmada, Son, and Mahanadi rivers.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Bhandar Plateau** is a major geological feature found in which state, known for its diamond mines?",
+      "Options": [
+        { "id": 1, "text": "Jharkhand" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "Odisha" },
+        { "id": 4, "text": "Karnataka" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Panna diamond mines** are located on the **Bhander Plateau** (part of the Vindhyan region) in **Madhya Pradesh**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state has the **longest border with Pakistan**?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Punjab" },
+        { "id": 3, "text": "Rajasthan" },
+        { "id": 4, "text": "Jammu and Kashmir (UT)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Rajasthan",
+      "Explanation": "**Rajasthan** shares the longest continuous international boundary ($1,037$ km) with Pakistan.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Kolkata Port (Syama Prasad Mookerjee Port)** is located on which river?",
+      "Options": [
+        { "id": 1, "text": "Mahanadi" },
+        { "id": 2, "text": "Hooghly" },
+        { "id": 3, "text": "Damodar" },
+        { "id": 4, "text": "Ganga (Padma)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Hooghly",
+      "Explanation": "**Kolkata Port** is the only major riverine port in India and is located on the **Hooghly River**, a distributary of the Ganga.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Jhelum River** flows through which famous valley in Jammu and Kashmir?",
+      "Options": [
+        { "id": 1, "text": "Nubra Valley" },
+        { "id": 2, "text": "Kashmir Valley" },
+        { "id": 3, "text": "Dras Valley" },
+        { "id": 4, "text": "Kullu Valley" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kashmir Valley",
+      "Explanation": "The **Jhelum River** meanders through the **Kashmir Valley** and is critical to the region's economy and lifestyle.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which type of rocks are the oldest and contain most of the metallic minerals of the Indian Peninsula?",
+      "Options": [
+        { "id": 1, "text": "Tertiary Sedimentary Rocks" },
+        { "id": 2, "text": "Gondwana System Rocks" },
+        { "id": 3, "text": "Archaean and Dharwar System Rocks" },
+        { "id": 4, "text": "Deccan Trap Basalt" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Archaean and Dharwar System Rocks",
+      "Explanation": "The highly crystallized and metamorphosed **Archaean and Dharwar systems** (part of the Cratons) are the primary sources of valuable **metallic minerals** like Iron, Gold, and Manganese.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Keibul Lamjao National Park**, famous for the endangered Sangai deer, is located in which lake?",
+      "Options": [
+        { "id": 1, "text": "Chilika Lake" },
+        { "id": 2, "text": "Wular Lake" },
+        { "id": 3, "text": "Loktak Lake" },
+        { "id": 4, "text": "Dal Lake" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Loktak Lake",
+      "Explanation": "**Keibul Lamjao** is the world's only floating national park, located on the floating islands (**Phumdis**) on **Loktak Lake** in Manipur.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which river is known as the **'Lifeline of Sikkim'**?",
+      "Options": [
+        { "id": 1, "text": "Teesta" },
+        { "id": 2, "text": "Manas" },
+        { "id": 3, "text": "Jaldhaka" },
+        { "id": 4, "text": "Ganga" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Teesta",
+      "Explanation": "The **Teesta River** flows through almost the entire length of Sikkim and is the main water source for the state.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Barail Range** is a major hill range separating which two geographical areas in Northeast India?",
+      "Options": [
+        { "id": 1, "text": "Arunachal Pradesh and Assam" },
+        { "id": 2, "text": "Assam Valley and Manipur/Mizoram" },
+        { "id": 3, "text": "Meghalaya and Tripura" },
+        { "id": 4, "text": "Sikkim and West Bengal" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Assam Valley and Manipur/Mizoram",
+      "Explanation": "The **Barail Range** runs across parts of Assam, Nagaland, and Manipur, geographically separating the **Assam Valley** from the hills to the south (Manipur, Mizoram, etc.).",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **largest producer of Copper** in India is the state of:",
+      "Options": [
+        { "id": 1, "text": "Bihar" },
+        { "id": 2, "text": "Jharkhand" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "**Madhya Pradesh** (Malanjkhand mines) is the leading producer of **Copper Ore** in India.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest point in the Eastern Ghats** is:",
+      "Options": [
+        { "id": 1, "text": "Mahendragiri" },
+        { "id": 2, "text": "Jindhagada Peak" },
+        { "id": 3, "text": "Deomali" },
+        { "id": 4, "text": "Arma Konda" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Arma Konda",
+      "Explanation": "The **Arma Konda** (or Sitamma Konda) in Andhra Pradesh is the **highest peak of the Eastern Ghats** ($1,680$ m), having surpassed the previously accepted Mahendragiri.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Tapti River** originates from the **Satpura Range** in which state?",
+      "Options": [
+        { "id": 1, "text": "Maharashtra" },
+        { "id": 2, "text": "Gujarat" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Tapti River** originates from the Multai plateau in the Betul district of **Madhya Pradesh**.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which of the following is a **trans-Himalayan river** that cuts through the Great Himalayan Range to enter India?",
+      "Options": [
+        { "id": 1, "text": "Ganga" },
+        { "id": 2, "text": "Yamuna" },
+        { "id": 3, "text": "Sutlej" },
+        { "id": 4, "text": "Ravi" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Sutlej",
+      "Explanation": "**Trans-Himalayan rivers** (Indus, Sutlej, Brahmaputra) are older than the Himalayas themselves and cut across the ranges. The **Sutlej** is one such river.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Narmada River** originates from the **Amarkantak Plateau**, which is located at the junction of the Maikal Hills and which other range?",
+      "Options": [
+        { "id": 1, "text": "Aravalli Range" },
+        { "id": 2, "text": "Vindhya Range" },
+        { "id": 3, "text": "Satpura Range" },
+        { "id": 4, "text": "Kaimur Range" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Vindhya Range",
+      "Explanation": "The Amarkantak Plateau is located at the eastern end of the **Vindhya Range** and is part of the Maikal Hills, marking the triple point origin of the Narmada, Son, and Mahanadi rivers.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Bhandar Plateau** is a major geological feature found in which state, known for its diamond mines?",
+      "Options": [
+        { "id": 1, "text": "Jharkhand" },
+        { "id": 2, "text": "Madhya Pradesh" },
+        { "id": 3, "text": "Odisha" },
+        { "id": 4, "text": "Karnataka" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "The **Panna diamond mines** are located on the **Bhander Plateau** (part of the Vindhyan region) in **Madhya Pradesh**.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which state has the **longest border with Pakistan**?",
+      "Options": [
+        { "id": 1, "text": "Gujarat" },
+        { "id": 2, "text": "Punjab" },
+        { "id": 3, "text": "Rajasthan" },
+        { "id": 4, "text": "Jammu and Kashmir (UT)" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Rajasthan",
+      "Explanation": "**Rajasthan** shares the longest continuous international boundary ($1,037$ km) with Pakistan.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Kolkata Port (Syama Prasad Mookerjee Port)** is located on which river?",
+      "Options": [
+        { "id": 1, "text": "Mahanadi" },
+        { "id": 2, "text": "Hooghly" },
+        { "id": 3, "text": "Damodar" },
+        { "id": 4, "text": "Ganga (Padma)" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Hooghly",
+      "Explanation": "**Kolkata Port** is the only major riverine port in India and is located on the **Hooghly River**, a distributary of the Ganga.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Jhelum River** flows through which famous valley in Jammu and Kashmir?",
+      "Options": [
+        { "id": 1, "text": "Nubra Valley" },
+        { "id": 2, "text": "Kashmir Valley" },
+        { "id": 3, "text": "Dras Valley" },
+        { "id": 4, "text": "Kullu Valley" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Kashmir Valley",
+      "Explanation": "The **Jhelum River** meanders through the **Kashmir Valley** and is critical to the region's economy and lifestyle.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which type of rocks are the oldest and contain most of the metallic minerals of the Indian Peninsula?",
+      "Options": [
+        { "id": 1, "text": "Tertiary Sedimentary Rocks" },
+        { "id": 2, "text": "Gondwana System Rocks" },
+        { "id": 3, "text": "Archaean and Dharwar System Rocks" },
+        { "id": 4, "text": "Deccan Trap Basalt" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Archaean and Dharwar System Rocks",
+      "Explanation": "The highly crystallized and metamorphosed **Archaean and Dharwar systems** (part of the Cratons) are the primary sources of valuable **metallic minerals** like Iron, Gold, and Manganese.",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Keibul Lamjao National Park**, famous for the endangered Sangai deer, is located in which lake?",
+      "Options": [
+        { "id": 1, "text": "Chilika Lake" },
+        { "id": 2, "text": "Wular Lake" },
+        { "id": 3, "text": "Loktak Lake" },
+        { "id": 4, "text": "Dal Lake" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Loktak Lake",
+      "Explanation": "**Keibul Lamjao** is the world's only floating national park, located on the floating islands (**Phumdis**) on **Loktak Lake** in Manipur.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "Which river is known as the **'Lifeline of Sikkim'**?",
+      "Options": [
+        { "id": 1, "text": "Teesta" },
+        { "id": 2, "text": "Manas" },
+        { "id": 3, "text": "Jaldhaka" },
+        { "id": 4, "text": "Ganga" }
+      ],
+      "Answer": "Option 1",
+      "CorrectAnswer": "Teesta",
+      "Explanation": "The **Teesta River** flows through almost the entire length of Sikkim and is the main water source for the state.",
+      "Difficulty": "Easy",
+      "Job": "Grade C, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **Barail Range** is a major hill range separating which two geographical areas in Northeast India?",
+      "Options": [
+        { "id": 1, "text": "Arunachal Pradesh and Assam" },
+        { "id": 2, "text": "Assam Valley and Manipur/Mizoram" },
+        { "id": 3, "text": "Meghalaya and Tripura" },
+        { "id": 4, "text": "Sikkim and West Bengal" }
+      ],
+      "Answer": "Option 2",
+      "CorrectAnswer": "Assam Valley and Manipur/Mizoram",
+      "Explanation": "The **Barail Range** runs across parts of Assam, Nagaland, and Manipur, geographically separating the **Assam Valley** from the hills to the south (Manipur, Mizoram, etc.).",
+      "Difficulty": "Hard",
+      "Job": "Grade A, UPSC Prelims"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **largest producer of Copper** in India is the state of:",
+      "Options": [
+        { "id": 1, "text": "Bihar" },
+        { "id": 2, "text": "Jharkhand" },
+        { "id": 3, "text": "Madhya Pradesh" },
+        { "id": 4, "text": "Rajasthan" }
+      ],
+      "Answer": "Option 3",
+      "CorrectAnswer": "Madhya Pradesh",
+      "Explanation": "**Madhya Pradesh** (Malanjkhand mines) is the leading producer of **Copper Ore** in India.",
+      "Difficulty": "Medium",
+      "Job": "Grade B, MPSC"
+    },
+    {
+      "category": "Geography - Indian",
+      "Question": "The **highest point in the Eastern Ghats** is:",
+      "Options": [
+        { "id": 1, "text": "Mahendragiri" },
+        { "id": 2, "text": "Jindhagada Peak" },
+        { "id": 3, "text": "Deomali" },
+        { "id": 4, "text": "Arma Konda" }
+      ],
+      "Answer": "Option 4",
+      "CorrectAnswer": "Arma Konda",
+      "Explanation": "The **Arma Konda** (or Sitamma Konda) in Andhra Pradesh is the **highest peak of the Eastern Ghat"}
+    
+  ]}]

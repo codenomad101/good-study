@@ -1,0 +1,1908 @@
+[
+    {
+      "category": "Indian History",
+      "Question": "Who was the Maratha Peshwa during the Third Battle of Panipat (1761)?",
+      "Options": [
+        { "id": 1, "text": "Balaji Baji Rao (Nanasaheb)" },
+        { "id": 2, "text": "Baji Rao I" },
+        { "id": 3, "text": "Balaji Vishwanath" },
+        { "id": 4, "text": "Madhav Rao I" }
+      ],
+      "CorrectAnswer": "Balaji Baji Rao (Nanasaheb)",
+      "Explanation": "Balaji Baji Rao, also known as Nanasaheb, was the Peshwa during the Third Battle of Panipat in 1761, where the Marathas suffered a major defeat against Ahmad Shah Abdali.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Maratha Empire"
+    },
+    {
+      "category": "Indian History",
+      "Question": "Which Mughal emperor was defeated by the Marathas at the Battle of Bhopal in 1737?",
+      "Options": [
+        { "id": 1, "text": "Aurangzeb" },
+        { "id": 2, "text": "Bahadur Shah I" },
+        { "id": 3, "text": "Muhammad Shah" },
+        { "id": 4, "text": "Ahmad Shah Bahadur" }
+      ],
+      "CorrectAnswer": "Muhammad Shah",
+      "Explanation": "Muhammad Shah's forces were defeated by Baji Rao I at the Battle of Bhopal in 1737, establishing Maratha supremacy in North India.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "Maratha Empire"
+    },
+    {
+      "category": "Maharashtra History",
+      "Question": "Who succeeded Shivaji Maharaj as the Chhatrapati of the Maratha Empire?",
+      "Options": [
+        { "id": 1, "text": "Rajaram I" },
+        { "id": 2, "text": "Shahu Maharaj" },
+        { "id": 3, "text": "Sambhaji Maharaj" },
+        { "id": 4, "text": "Balaji Vishwanath" }
+      ],
+      "CorrectAnswer": "Sambhaji Maharaj",
+      "Explanation": "Sambhaji Maharaj succeeded his father Shivaji Maharaj in 1680 and ruled until his capture and execution by Aurangzeb in 1689.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, Talathi",
+      "correctOption": 3,
+      "topic": "Maratha Empire"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The Treaty of Purandar (1665) was signed between Shivaji and which Mughal commander?",
+      "Options": [
+        { "id": 1, "text": "Shaista Khan" },
+        { "id": 2, "text": "Afzal Khan" },
+        { "id": 3, "text": "Aurangzeb" },
+        { "id": 4, "text": "Jai Singh I" }
+      ],
+      "CorrectAnswer": "Jai Singh I",
+      "Explanation": "The Treaty of Purandar was signed on June 11, 1665, between Shivaji and Raja Jai Singh I of Amber, representing Aurangzeb, forcing Shivaji to give up 23 forts.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 4,
+      "topic": "Maratha Empire"
+    },
+    {
+      "category": "Maharashtra History",
+      "Question": "In which year was Shivaji Maharaj coronated as Chhatrapati?",
+      "Options": [
+        { "id": 1, "text": "1664" },
+        { "id": 2, "text": "1670" },
+        { "id": 3, "text": "1674" },
+        { "id": 4, "text": "1680" }
+      ],
+      "CorrectAnswer": "1674",
+      "Explanation": "Shivaji Maharaj was formally coronated as Chhatrapati on June 6, 1674, at Raigad Fort, marking the establishment of independent Maratha sovereignty.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC, Talathi",
+      "correctOption": 3,
+      "topic": "Maratha Empire"
+    },
+    {
+      "category": "Indian History",
+      "Question": "Who was the first Peshwa to receive the title from Chhatrapati Shahu?",
+      "Options": [
+        { "id": 1, "text": "Balaji Vishwanath" },
+        { "id": 2, "text": "Ramchandra Pant Amatya" },
+        { "id": 3, "text": "Baji Rao I" },
+        { "id": 4, "text": "Balaji Baji Rao" }
+      ],
+      "CorrectAnswer": "Balaji Vishwanath",
+      "Explanation": "Balaji Vishwanath was appointed as the first hereditary Peshwa by Chhatrapati Shahu in 1713, establishing the Peshwa dynasty.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Maratha Empire"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The First Anglo-Maratha War (1775-1782) ended with which treaty?",
+      "Options": [
+        { "id": 1, "text": "Treaty of Bassein" },
+        { "id": 2, "text": "Treaty of Purandar" },
+        { "id": 3, "text": "Treaty of Surat" },
+        { "id": 4, "text": "Treaty of Salbai" }
+      ],
+      "CorrectAnswer": "Treaty of Salbai",
+      "Explanation": "The First Anglo-Maratha War ended with the Treaty of Salbai in 1782, restoring the status quo and establishing peace for 20 years.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "British-Maratha Relations"
+    },
+    {
+      "category": "Indian History",
+      "Question": "Which Maratha Peshwa signed the humiliating Treaty of Bassein with the British in 1802?",
+      "Options": [
+        { "id": 1, "text": "Baji Rao II" },
+        { "id": 2, "text": "Madhav Rao II" },
+        { "id": 3, "text": "Narayan Rao" },
+        { "id": 4, "text": "Balaji Baji Rao" }
+      ],
+      "CorrectAnswer": "Baji Rao II",
+      "Explanation": "Baji Rao II signed the Treaty of Bassein in 1802, which made the Marathas a subsidiary ally of the British and led to the Second Anglo-Maratha War.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "British-Maratha Relations"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The Second Anglo-Maratha War (1803-1805) resulted in the defeat of which major Maratha chiefs?",
+      "Options": [
+        { "id": 1, "text": "Gaekwad and Holkar" },
+        { "id": 2, "text": "Holkar and Scindia" },
+        { "id": 3, "text": "Peshwa and Gaekwad" },
+        { "id": 4, "text": "Bhonsle and Scindia" }
+      ],
+      "CorrectAnswer": "Bhonsle and Scindia",
+      "Explanation": "The Second Anglo-Maratha War saw the defeat of Daulat Rao Scindia and Raghuji Bhonsle II, with Holkar remaining undefeated but making peace later.",
+      "Difficulty": "Hard",
+      "Job": "MPSC, UPSC",
+      "correctOption": 4,
+      "topic": "British-Maratha Relations"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The Third Anglo-Maratha War (1817-1818) resulted in the:",
+      "Options": [
+        { "id": 1, "text": "Complete dissolution of the Maratha Confederacy" },
+        { "id": 2, "text": "Restoration of Peshwa power" },
+        { "id": 3, "text": "Independence of Maratha states" },
+        { "id": 4, "text": "Formation of Maratha-British alliance" }
+      ],
+      "CorrectAnswer": "Complete dissolution of the Maratha Confederacy",
+      "Explanation": "The Third Anglo-Maratha War ended with the defeat of the Marathas and the dissolution of the Peshwa position, bringing the Maratha Confederacy under British control.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 1,
+      "topic": "British-Maratha Relations"
+    },
+    {
+      "category": "Indian History",
+      "Question": "Who was the last Peshwa of the Maratha Empire?",
+      "Options": [
+        { "id": 1, "text": "Madhav Rao II" },
+        { "id": 2, "text": "Narayan Rao" },
+        { "id": 3, "text": "Raghunath Rao" },
+        { "id": 4, "text": "Baji Rao II" }
+      ],
+      "CorrectAnswer": "Baji Rao II",
+      "Explanation": "Baji Rao II was the last Peshwa, who was defeated in 1818 and pensioned off to Bithur near Kanpur, ending the Peshwa rule.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC",
+      "correctOption": 4,
+      "topic": "Maratha Empire"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The Doctrine of Lapse was introduced by which British Governor-General?",
+      "Options": [
+        { "id": 1, "text": "Lord Dalhousie" },
+        { "id": 2, "text": "Lord Wellesley" },
+        { "id": 3, "text": "Lord Canning" },
+        { "id": 4, "text": "Lord Bentinck" }
+      ],
+      "CorrectAnswer": "Lord Dalhousie",
+      "Explanation": "The Doctrine of Lapse was introduced by Lord Dalhousie (1848-1856), which allowed the British to annex Indian states if the ruler died without a natural heir.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 1,
+      "topic": "British India"
+    },
+    {
+      "category": "Indian History",
+      "Question": "Which state was NOT annexed under the Doctrine of Lapse?",
+      "Options": [
+        { "id": 1, "text": "Jhansi" },
+        { "id": 2, "text": "Satara" },
+        { "id": 3, "text": "Awadh" },
+        { "id": 4, "text": "Nagpur" }
+      ],
+      "CorrectAnswer": "Awadh",
+      "Explanation": "Awadh was annexed in 1856 on grounds of misgovernance, not under the Doctrine of Lapse. Satara, Jhansi, and Nagpur were annexed under this doctrine.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "British India"
+    },
+    {
+      "category": "Maharashtra History",
+      "Question": "Which Maratha state was annexed by the British in 1848 under the Doctrine of Lapse?",
+      "Options": [
+        { "id": 1, "text": "Satara" },
+        { "id": 2, "text": "Kolhapur" },
+        { "id": 3, "text": "Baroda" },
+        { "id": 4, "text": "Indore" }
+      ],
+      "CorrectAnswer": "Satara",
+      "Explanation": "Satara, ruled by descendants of Chhatrapati Shivaji, was the first major state annexed under the Doctrine of Lapse in 1848 after the death of the ruler without a natural heir.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "British-Maratha Relations"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The Revolt of 1857 began from which place?",
+      "Options": [
+        { "id": 1, "text": "Delhi" },
+        { "id": 2, "text": "Kanpur" },
+        { "id": 3, "text": "Meerut" },
+        { "id": 4, "text": "Lucknow" }
+      ],
+      "CorrectAnswer": "Meerut",
+      "Explanation": "The Revolt of 1857 began on May 10, 1857, when Indian sepoys in Meerut mutinied and marched to Delhi to restore Bahadur Shah Zafar as emperor.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC, SSC-CGL, Railway",
+      "correctOption": 3,
+      "topic": "1857 Revolt"
+    },
+    {
+      "category": "Indian History",
+      "Question": "Who was declared the Emperor of India during the Revolt of 1857?",
+      "Options": [
+        { "id": 1, "text": "Nana Saheb" },
+        { "id": 2, "text": "Tantia Tope" },
+        { "id": 3, "text": "Kunwar Singh" },
+        { "id": 4, "text": "Bahadur Shah Zafar" }
+      ],
+      "CorrectAnswer": "Bahadur Shah Zafar",
+      "Explanation": "Bahadur Shah Zafar, the last Mughal emperor, was declared the Emperor of India by the rebels in 1857, though he had little real power.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "1857 Revolt"
+    },
+    {
+      "category": "Indian History",
+      "Question": "Rani Lakshmibai of Jhansi died fighting the British at which place?",
+      "Options": [
+        { "id": 1, "text": "Gwalior" },
+        { "id": 2, "text": "Jhansi" },
+        { "id": 3, "text": "Kanpur" },
+        { "id": 4, "text": "Delhi" }
+      ],
+      "CorrectAnswer": "Gwalior",
+      "Explanation": "Rani Lakshmibai died fighting the British forces at Gwalior on June 18, 1858, during the Revolt of 1857, becoming a symbol of resistance.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 1,
+      "topic": "1857 Revolt"
+    },
+    {
+      "category": "Indian History",
+      "Question": "Who led the revolt in Kanpur during 1857?",
+      "Options": [
+        { "id": 1, "text": "Tantia Tope" },
+        { "id": 2, "text": "Begum Hazrat Mahal" },
+        { "id": 3, "text": "Nana Saheb" },
+        { "id": 4, "text": "Khan Bahadur Khan" }
+      ],
+      "CorrectAnswer": "Nana Saheb",
+      "Explanation": "Nana Saheb, the adopted son of Peshwa Baji Rao II, led the revolt in Kanpur in 1857 and was proclaimed Peshwa by the rebels.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "1857 Revolt"
+    },
+    {
+      "category": "Indian History",
+      "Question": "Who was the military commander of Nana Saheb during the 1857 Revolt?",
+      "Options": [
+        { "id": 1, "text": "Tantia Tope" },
+        { "id": 2, "text": "Mangal Pandey" },
+        { "id": 3, "text": "Kunwar Singh" },
+        { "id": 4, "text": "Bahadur Shah Zafar" }
+      ],
+      "CorrectAnswer": "Tantia Tope",
+      "Explanation": "Tantia Tope (Ramchandra Pandurang Tope) was the military commander of Nana Saheb and one of the most effective leaders of the 1857 Revolt.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "1857 Revolt"
+    },
+    {
+      "category": "Indian History",
+      "Question": "After the Revolt of 1857, the British Crown took over the administration of India from which organization?",
+      "Options": [
+        { "id": 1, "text": "British Parliament" },
+        { "id": 2, "text": "Board of Control" },
+        { "id": 3, "text": "Governor-General's Council" },
+        { "id": 4, "text": "East India Company" }
+      ],
+      "CorrectAnswer": "East India Company",
+      "Explanation": "The Government of India Act 1858 transferred the administration of India from the East India Company to the British Crown, marking the beginning of the British Raj.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "British India"
+    },
+    {
+      "category": "Indian History",
+      "Question": "Which Act abolished the East India Company and transferred power to the British Crown?",
+      "Options": [
+        { "id": 1, "text": "Government of India Act 1858" },
+        { "id": 2, "text": "Charter Act of 1853" },
+        { "id": 3, "text": "Indian Councils Act 1861" },
+        { "id": 4, "text": "Regulating Act of 1773" }
+      ],
+      "CorrectAnswer": "Government of India Act 1858",
+      "Explanation": "The Government of India Act 1858 abolished the East India Company's rule and established direct British Crown rule over India.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 1,
+      "topic": "British India"
+    },
+    {
+      "category": "Indian History",
+      "Question": "Who was the first Viceroy of India?",
+      "Options": [
+        { "id": 1, "text": "Lord Dalhousie" },
+        { "id": 2, "text": "Lord Ripon" },
+        { "id": 3, "text": "Lord Canning" },
+        { "id": 4, "text": "Lord Curzon" }
+      ],
+      "CorrectAnswer": "Lord Canning",
+      "Explanation": "Lord Canning, who was the last Governor-General, became the first Viceroy of India in 1858 after the Government of India Act was passed.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "British India"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The Indian National Congress was founded in which year?",
+      "Options": [
+        { "id": 1, "text": "1885" },
+        { "id": 2, "text": "1857" },
+        { "id": 3, "text": "1875" },
+        { "id": 4, "text": "1905" }
+      ],
+      "CorrectAnswer": "1885",
+      "Explanation": "The Indian National Congress was founded in 1885 by Allan Octavian Hume, with its first session held in Bombay (Mumbai) under W.C. Bonnerjee.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC, SSC-CGL, Railway",
+      "correctOption": 1,
+      "topic": "Freedom Movement"
+    },
+    {
+      "category": "Maharashtra History",
+      "Question": "The first session of the Indian National Congress in 1885 was held in which Maharashtra city?",
+      "Options": [
+        { "id": 1, "text": "Mumbai (Bombay)" },
+        { "id": 2, "text": "Pune" },
+        { "id": 3, "text": "Nagpur" },
+        { "id": 4, "text": "Nashik" }
+      ],
+      "CorrectAnswer": "Mumbai (Bombay)",
+      "Explanation": "The first session of the Indian National Congress was held in Bombay (now Mumbai) at Gokuldas Tejpal Sanskrit College from December 28-31, 1885.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC",
+      "correctOption": 1,
+      "topic": "Freedom Movement"
+    },
+    {
+      "category": "Maharashtra History",
+      "Question": "Who is known as the 'Father of Indian Unrest' and was a prominent leader from Maharashtra?",
+      "Options": [
+        { "id": 1, "text": "Gopal Krishna Gokhale" },
+        { "id": 2, "text": "Dadabhai Naoroji" },
+        { "id": 3, "text": "Bal Gangadhar Tilak" },
+        { "id": 4, "text": "Mahadev Govind Ranade" }
+      ],
+      "CorrectAnswer": "Bal Gangadhar Tilak",
+      "Explanation": "Bal Gangadhar Tilak was called 'Father of Indian Unrest' by British Valentine Chirol for his aggressive nationalism. His slogan was 'Swaraj is my birthright and I shall have it.'",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Freedom Movement"
+    },
+    {
+      "category": "Maharashtra History",
+      "Question": "Bal Gangadhar Tilak started which festival to promote nationalism?",
+      "Options": [
+        { "id": 1, "text": "Ganesh Chaturthi Festival" },
+        { "id": 2, "text": "Diwali Festival" },
+        { "id": 3, "text": "Holi Festival" },
+        { "id": 4, "text": "Dussehra Festival" }
+      ],
+      "CorrectAnswer": "Ganesh Chaturthi Festival",
+      "Explanation": "Tilak transformed Ganesh Chaturthi from a private family celebration to a public festival in 1893 to promote nationalism and unite people against British rule.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, SSC, Talathi",
+      "correctOption": 1,
+      "topic": "Freedom Movement"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The partition of Bengal was announced in which year?",
+      "Options": [
+        { "id": 1, "text": "1885" },
+        { "id": 2, "text": "1911" },
+        { "id": 3, "text": "1905" },
+        { "id": 4, "text": "1919" }
+      ],
+      "CorrectAnswer": "1905",
+      "Explanation": "Lord Curzon announced the partition of Bengal in 1905, dividing it into East Bengal (Muslim majority) and West Bengal (Hindu majority), sparking widespread protests.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 3,
+      "topic": "Freedom Movement"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The Swadeshi Movement was launched in response to which event?",
+      "Options": [
+        { "id": 1, "text": "Partition of Bengal" },
+        { "id": 2, "text": "Jallianwala Bagh Massacre" },
+        { "id": 3, "text": "Rowlatt Act" },
+        { "id": 4, "text": "Simon Commission" }
+      ],
+      "CorrectAnswer": "Partition of Bengal",
+      "Explanation": "The Swadeshi Movement (1905-1911) was launched in protest against the Partition of Bengal, promoting Indian goods and boycotting British products.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 1,
+      "topic": "Freedom Movement"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The Morley-Minto Reforms were introduced in which year?",
+      "Options": [
+        { "id": 1, "text": "1905" },
+        { "id": 2, "text": "1919" },
+        { "id": 3, "text": "1909" },
+        { "id": 4, "text": "1935" }
+      ],
+      "CorrectAnswer": "1909",
+      "Explanation": "The Indian Councils Act 1909, known as Morley-Minto Reforms, introduced separate electorates for Muslims and expanded legislative councils.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 3,
+      "topic": "British India"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The Home Rule Movement in India was started by:",
+      "Options": [
+        { "id": 1, "text": "Mahatma Gandhi and Jawaharlal Nehru" },
+        { "id": 2, "text": "Gopal Krishna Gokhale and Pherozeshah Mehta" },
+        { "id": 3, "text": "Lala Lajpat Rai and Bipin Chandra Pal" },
+        { "id": 4, "text": "Bal Gangadhar Tilak and Annie Besant" }
+      ],
+      "CorrectAnswer": "Bal Gangadhar Tilak and Annie Besant",
+      "Explanation": "The Home Rule Movement (1916) was started by Bal Gangadhar Tilak in Maharashtra and Annie Besant in Madras to demand self-government for India.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "Freedom Movement"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The Lucknow Pact of 1916 was an agreement between:",
+      "Options": [
+        { "id": 1, "text": "Congress and Muslim League" },
+        { "id": 2, "text": "Congress and British Government" },
+        { "id": 3, "text": "Muslim League and British Government" },
+        { "id": 4, "text": "Moderates and Extremists" }
+      ],
+      "CorrectAnswer": "Congress and Muslim League",
+      "Explanation": "The Lucknow Pact of 1916 was an agreement between the Indian National Congress and the Muslim League, uniting them in their demand for self-government.",
+      "Difficulty": "Medium",
+      "Job": "MPSC, UPSC",
+      "correctOption": 1,
+      "topic": "Freedom Movement"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The Rowlatt Act was passed in which year?",
+      "Options": [
+        { "id": 1, "text": "1917" },
+        { "id": 2, "text": "1920" },
+        { "id": 3, "text": "1922" },
+        { "id": 4, "text": "1919" }
+      ],
+      "CorrectAnswer": "1919",
+      "Explanation": "The Rowlatt Act was passed in March 1919, giving the British government power to arrest and detain people without trial, leading to widespread protests.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 4,
+      "topic": "Freedom Movement"
+    },
+    {
+      "category": "Indian History",
+      "Question": "The Jallianwala Bagh massacre took place on:",
+      "Options": [
+        { "id": 1, "text": "April 13, 1919" },
+        { "id": 2, "text": "April 13, 1918" },
+        { "id": 3, "text": "April 13, 1920" },
+        { "id": 4, "text": "April 13, 1921" }
+      ],
+      "CorrectAnswer": "April 13, 1919",
+      "Explanation": "The Jallianwala Bagh massacre occurred on April 13, 1919, when General Dyer ordered firing on a peaceful gathering in Amritsar, killing hundreds.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC, SSC-CGL, Railway",
+      "correctOption": 1,
+      "topic": "Freedom Movement"
+    },
+    {
+      "category": "Indian History",
+      "Question": "Who was responsible for the Jallianwala Bagh massacre?",
+      "Options": [
+        { "id": 1, "text": "Lord Curzon" },
+        { "id": 2, "text": "General O'Dwyer" },
+        { "id": 3, "text": "Lord Chelmsford" },
+        { "id": 4, "text": "General Reginald Dyer" }
+      ],
+      "CorrectAnswer": "General Reginald Dyer",
+      "Explanation": "General Reginald Dyer ordered the firing at Jallianwala Bagh on April 13, 1919, resulting in one of the worst atrocities in British India.",
+      "Difficulty": "Easy",
+      "Job": "MPSC, UPSC, SSC-CGL",
+      "correctOption": 4,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Non-Cooperation Movement was launched by Mahatma Gandhi in which year?",
+    "Options": [
+      { "id": 1, "text": "1920" },
+      { "id": 2, "text": "1918" },
+      { "id": 3, "text": "1922" },
+      { "id": 4, "text": "1919" }
+    ],
+    "CorrectAnswer": "1920",
+    "Explanation": "The Non-Cooperation Movement was launched in September 1920 against the Rowlatt Act and Jallianwala Bagh massacre, calling for boycott of British institutions.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Chauri Chaura incident, which led to the suspension of Non-Cooperation Movement, occurred in which year?",
+    "Options": [
+      { "id": 1, "text": "1920" },
+      { "id": 2, "text": "1921" },
+      { "id": 3, "text": "1922" },
+      { "id": 4, "text": "1923" }
+    ],
+    "CorrectAnswer": "1922",
+    "Explanation": "The Chauri Chaura incident occurred on February 4, 1922, when a mob set fire to a police station killing 22 policemen, prompting Gandhi to suspend the Non-Cooperation Movement.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 3,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Simon Commission arrived in India in which year?",
+    "Options": [
+      { "id": 1, "text": "1928" },
+      { "id": 2, "text": "1925" },
+      { "id": 3, "text": "1930" },
+      { "id": 4, "text": "1927" }
+    ],
+    "CorrectAnswer": "1928",
+    "Explanation": "The Simon Commission arrived in India in February 1928 to review constitutional reforms. It was boycotted because it had no Indian members, leading to the slogan 'Simon Go Back'.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "Lala Lajpat Rai died during protests against which commission?",
+    "Options": [
+      { "id": 1, "text": "Hunter Commission" },
+      { "id": 2, "text": "Simon Commission" },
+      { "id": 3, "text": "Butler Commission" },
+      { "id": 4, "text": "Cripps Mission" }
+    ],
+    "CorrectAnswer": "Simon Commission",
+    "Explanation": "Lala Lajpat Rai was severely beaten by police during a protest against the Simon Commission in Lahore on October 30, 1928, and died on November 17, 1928.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 2,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Nehru Report was prepared in which year?",
+    "Options": [
+      { "id": 1, "text": "1927" },
+      { "id": 2, "text": "1930" },
+      { "id": 3, "text": "1928" },
+      { "id": 4, "text": "1929" }
+    ],
+    "CorrectAnswer": "1928",
+    "Explanation": "The Nehru Report was prepared in 1928 by a committee headed by Motilal Nehru, proposing a constitution for India with Dominion Status.",
+    "Difficulty": "Hard",
+    "Job": "MPSC, UPSC",
+    "correctOption": 3,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The historic Lahore session of Congress where Purna Swaraj was declared was held in which year?",
+    "Options": [
+      { "id": 1, "text": "1929" },
+      { "id": 2, "text": "1928" },
+      { "id": 3, "text": "1930" },
+      { "id": 4, "text": "1931" }
+    ],
+    "CorrectAnswer": "1929",
+    "Explanation": "The Lahore session of Congress in December 1929, presided over by Jawaharlal Nehru, declared Purna Swaraj (complete independence) as the goal and decided to celebrate January 26, 1930 as Independence Day.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Salt March (Dandi March) was started on which date?",
+    "Options": [
+      { "id": 1, "text": "March 12, 1930" },
+      { "id": 2, "text": "April 6, 1930" },
+      { "id": 3, "text": "February 12, 1930" },
+      { "id": 4, "text": "January 26, 1930" }
+    ],
+    "CorrectAnswer": "March 12, 1930",
+    "Explanation": "The Salt March began on March 12, 1930, when Gandhi started his 24-day march from Sabarmati Ashram to Dandi to protest the salt tax.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "Gandhi broke the salt law at Dandi on which date?",
+    "Options": [
+      { "id": 1, "text": "March 12, 1930" },
+      { "id": 2, "text": "March 26, 1930" },
+      { "id": 3, "text": "April 6, 1930" },
+      { "id": 4, "text": "April 12, 1930" }
+    ],
+    "CorrectAnswer": "April 6, 1930",
+    "Explanation": "Gandhi reached Dandi on April 5, 1930, and broke the salt law on April 6, 1930, by picking up salt from the seashore, marking the beginning of Civil Disobedience Movement.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 3,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Gandhi-Irwin Pact was signed in which year?",
+    "Options": [
+      { "id": 1, "text": "1931" },
+      { "id": 2, "text": "1930" },
+      { "id": 3, "text": "1932" },
+      { "id": 4, "text": "1933" }
+    ],
+    "CorrectAnswer": "1931",
+    "Explanation": "The Gandhi-Irwin Pact was signed on March 5, 1931, leading to the suspension of the Civil Disobedience Movement and Gandhi's participation in the Second Round Table Conference.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 1,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "How many Round Table Conferences were held in London to discuss Indian constitutional reforms?",
+    "Options": [
+      { "id": 1, "text": "Two" },
+      { "id": 2, "text": "Four" },
+      { "id": 3, "text": "Three" },
+      { "id": 4, "text": "Five" }
+    ],
+    "CorrectAnswer": "Three",
+    "Explanation": "Three Round Table Conferences were held in London (1930, 1931, 1932) to discuss constitutional reforms. Gandhi attended only the second conference.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 3,
+    "topic": "British India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Communal Award by Ramsay MacDonald was announced in which year?",
+    "Options": [
+      { "id": 1, "text": "1932" },
+      { "id": 2, "text": "1931" },
+      { "id": 3, "text": "1933" },
+      { "id": 4, "text": "1930" }
+    ],
+    "CorrectAnswer": "1932",
+    "Explanation": "The Communal Award was announced on August 16, 1932, providing separate electorates for various communities including depressed classes, which Gandhi opposed through his fast.",
+    "Difficulty": "Hard",
+    "Job": "MPSC, UPSC",
+    "correctOption": 1,
+    "topic": "British India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Poona Pact was signed between Gandhi and which leader?",
+    "Options": [
+      { "id": 1, "text": "Muhammad Ali Jinnah" },
+      { "id": 2, "text": "B.R. Ambedkar" },
+      { "id": 3, "text": "Motilal Nehru" },
+      { "id": 4, "text": "Subhas Chandra Bose" }
+    ],
+    "CorrectAnswer": "B.R. Ambedkar",
+    "Explanation": "The Poona Pact was signed on September 24, 1932, between Gandhi and Dr. B.R. Ambedkar, replacing separate electorates for depressed classes with reserved seats in general electorates.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 2,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Government of India Act 1935 introduced which system?",
+    "Options": [
+      { "id": 1, "text": "Unitary Government" },
+      { "id": 2, "text": "Federal System" },
+      { "id": 3, "text": "Presidential System" },
+      { "id": 4, "text": "Parliamentary System" }
+    ],
+    "CorrectAnswer": "Federal System",
+    "Explanation": "The Government of India Act 1935 introduced a federal structure with division of powers between the Centre and Provinces, though the federal part was never implemented.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 2,
+    "topic": "British India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Congress ministries were formed in provinces after the 1937 elections but resigned in which year?",
+    "Options": [
+      { "id": 1, "text": "1938" },
+      { "id": 2, "text": "1940" },
+      { "id": 3, "text": "1939" },
+      { "id": 4, "text": "1941" }
+    ],
+    "CorrectAnswer": "1939",
+    "Explanation": "Congress ministries resigned in October-November 1939 in protest against India being dragged into World War II without consultation.",
+    "Difficulty": "Hard",
+    "Job": "MPSC, UPSC",
+    "correctOption": 3,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Lahore Resolution demanding a separate nation for Muslims was passed in which year?",
+    "Options": [
+      { "id": 1, "text": "1940" },
+      { "id": 2, "text": "1939" },
+      { "id": 3, "text": "1942" },
+      { "id": 4, "text": "1937" }
+    ],
+    "CorrectAnswer": "1940",
+    "Explanation": "The Lahore Resolution, also known as Pakistan Resolution, was passed by the Muslim League on March 23, 1940, demanding independent states for Muslims.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The 'August Offer' was made by the British in which year?",
+    "Options": [
+      { "id": 1, "text": "1939" },
+      { "id": 2, "text": "1941" },
+      { "id": 3, "text": "1940" },
+      { "id": 4, "text": "1942" }
+    ],
+    "CorrectAnswer": "1940",
+    "Explanation": "The August Offer was made in August 1940 by Viceroy Linlithgow, proposing Dominion Status for India after the war, but was rejected by Congress.",
+    "Difficulty": "Hard",
+    "Job": "MPSC, UPSC",
+    "correctOption": 3,
+    "topic": "British India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Individual Satyagraha was launched in which year?",
+    "Options": [
+      { "id": 1, "text": "1940" },
+      { "id": 2, "text": "1939" },
+      { "id": 3, "text": "1941" },
+      { "id": 4, "text": "1942" }
+    ],
+    "CorrectAnswer": "1940",
+    "Explanation": "Individual Satyagraha was launched in October 1940 with Vinoba Bhave as the first Satyagrahi, allowing selected individuals to offer civil disobedience against the war.",
+    "Difficulty": "Hard",
+    "Job": "MPSC, UPSC",
+    "correctOption": 1,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Cripps Mission came to India in which year?",
+    "Options": [
+      { "id": 1, "text": "1941" },
+      { "id": 2, "text": "1943" },
+      { "id": 3, "text": "1940" },
+      { "id": 4, "text": "1942" }
+    ],
+    "CorrectAnswer": "1942",
+    "Explanation": "The Cripps Mission came to India in March 1942, offering Dominion Status after the war, but it failed as both Congress and Muslim League rejected it.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 4,
+    "topic": "British India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Quit India Movement was launched on which date?",
+    "Options": [
+      { "id": 1, "text": "August 8, 1942" },
+      { "id": 2, "text": "August 15, 1942" },
+      { "id": 3, "text": "July 8, 1942" },
+      { "id": 4, "text": "September 8, 1942" }
+    ],
+    "CorrectAnswer": "August 8, 1942",
+    "Explanation": "The Quit India Movement was launched on August 8, 1942, at the Bombay session of AICC with Gandhi's famous 'Do or Die' call.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "The Quit India Resolution was passed at which place in Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Gowalia Tank Maidan, Mumbai" },
+      { "id": 2, "text": "Shaniwar Wada, Pune" },
+      { "id": 3, "text": "Deekshabhoomi, Nagpur" },
+      { "id": 4, "text": "Reshimbag, Nagpur" }
+    ],
+    "CorrectAnswer": "Gowalia Tank Maidan, Mumbai",
+    "Explanation": "The historic Quit India Resolution was passed at Gowalia Tank Maidan (now August Kranti Maidan) in Mumbai on August 8, 1942.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, SSC",
+    "correctOption": 1,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "Who gave the slogan 'Do or Die' during the Quit India Movement?",
+    "Options": [
+      { "id": 1, "text": "Jawaharlal Nehru" },
+      { "id": 2, "text": "Subhas Chandra Bose" },
+      { "id": 3, "text": "Mahatma Gandhi" },
+      { "id": 4, "text": "Sardar Patel" }
+    ],
+    "CorrectAnswer": "Mahatma Gandhi",
+    "Explanation": "Mahatma Gandhi gave the slogan 'Do or Die' at the launch of the Quit India Movement on August 8, 1942, calling for immediate end to British rule.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 3,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Indian National Army (INA) was formed by Subhas Chandra Bose in which year?",
+    "Options": [
+      { "id": 1, "text": "1942" },
+      { "id": 2, "text": "1941" },
+      { "id": 3, "text": "1944" },
+      { "id": 4, "text": "1943" }
+    ],
+    "CorrectAnswer": "1943",
+    "Explanation": "Subhas Chandra Bose reorganized and took command of the Indian National Army (Azad Hind Fauj) in Singapore on July 4, 1943.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 4,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "Who gave the famous slogan 'Give me blood, and I shall give you freedom'?",
+    "Options": [
+      { "id": 1, "text": "Bhagat Singh" },
+      { "id": 2, "text": "Chandrashekhar Azad" },
+      { "id": 3, "text": "Subhas Chandra Bose" },
+      { "id": 4, "text": "Bal Gangadhar Tilak" }
+    ],
+    "CorrectAnswer": "Subhas Chandra Bose",
+    "Explanation": "Subhas Chandra Bose gave the famous slogan 'Give me blood, and I shall give you freedom' while addressing the INA in Burma (Myanmar).",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 3,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Wavell Plan was announced in which year?",
+    "Options": [
+      { "id": 1, "text": "1945" },
+      { "id": 2, "text": "1944" },
+      { "id": 3, "text": "1946" },
+      { "id": 4, "text": "1943" }
+    ],
+    "CorrectAnswer": "1945",
+    "Explanation": "The Wavell Plan was announced in June 1945 by Viceroy Wavell at the Shimla Conference, proposing an Executive Council with equal representation of Hindus and Muslims.",
+    "Difficulty": "Hard",
+    "Job": "MPSC, UPSC",
+    "correctOption": 1,
+    "topic": "British India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Cabinet Mission came to India in which year?",
+    "Options": [
+      { "id": 1, "text": "1945" },
+      { "id": 2, "text": "1947" },
+      { "id": 3, "text": "1946" },
+      { "id": 4, "text": "1944" }
+    ],
+    "CorrectAnswer": "1946",
+    "Explanation": "The Cabinet Mission came to India in March 1946 to discuss the transfer of power from British to Indian leadership and proposed a three-tier federation.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 3,
+    "topic": "British India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Direct Action Day called by Muslim League occurred on which date?",
+    "Options": [
+      { "id": 1, "text": "August 16, 1946" },
+      { "id": 2, "text": "July 16, 1946" },
+      { "id": 3, "text": "September 16, 1946" },
+      { "id": 4, "text": "June 16, 1946" }
+    ],
+    "CorrectAnswer": "August 16, 1946",
+    "Explanation": "Direct Action Day was called by the Muslim League on August 16, 1946, demanding Pakistan, which led to widespread communal violence, especially in Calcutta.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 1,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Constituent Assembly of India first met on which date?",
+    "Options": [
+      { "id": 1, "text": "December 9, 1946" },
+      { "id": 2, "text": "November 9, 1946" },
+      { "id": 3, "text": "January 9, 1947" },
+      { "id": 4, "text": "October 9, 1946" }
+    ],
+    "CorrectAnswer": "December 9, 1946",
+    "Explanation": "The Constituent Assembly of India first met on December 9, 1946, with Dr. Sachchidananda Sinha as the temporary chairman.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Constitution Making"
+  },
+  {
+    "category": "Indian History",
+    "Question": "Who was elected as the permanent President of the Constituent Assembly?",
+    "Options": [
+      { "id": 1, "text": "B.R. Ambedkar" },
+      { "id": 2, "text": "Jawaharlal Nehru" },
+      { "id": 3, "text": "Dr. Rajendra Prasad" },
+      { "id": 4, "text": "Sardar Vallabhbhai Patel" }
+    ],
+    "CorrectAnswer": "Dr. Rajendra Prasad",
+    "Explanation": "Dr. Rajendra Prasad was elected as the permanent President of the Constituent Assembly on December 11, 1946.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 3,
+    "topic": "Constitution Making"
+  },
+  {
+    "category": "Indian History",
+    "Question": "Lord Mountbatten became the Viceroy of India in which year?",
+    "Options": [
+      { "id": 1, "text": "1947" },
+      { "id": 2, "text": "1946" },
+      { "id": 3, "text": "1948" },
+      { "id": 4, "text": "1945" }
+    ],
+    "CorrectAnswer": "1947",
+    "Explanation": "Lord Mountbatten became the last Viceroy of India in March 1947, tasked with overseeing the transfer of power to Indian hands.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "British India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Mountbatten Plan for partition of India was announced on which date?",
+    "Options": [
+      { "id": 1, "text": "June 3, 1947" },
+      { "id": 2, "text": "July 3, 1947" },
+      { "id": 3, "text": "May 3, 1947" },
+      { "id": 4, "text": "August 3, 1947" }
+    ],
+    "CorrectAnswer": "June 3, 1947",
+    "Explanation": "The Mountbatten Plan, outlining the partition of India into India and Pakistan, was announced on June 3, 1947.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Independence"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Indian Independence Act was passed by the British Parliament in which year?",
+    "Options": [
+      { "id": 1, "text": "1946" },
+      { "id": 2, "text": "1948" },
+      { "id": 3, "text": "1945" },
+      { "id": 4, "text": "1947" }
+    ],
+    "CorrectAnswer": "1947",
+    "Explanation": "The Indian Independence Act was passed by the British Parliament on July 18, 1947, providing for the partition of India and creation of two dominions.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 4,
+    "topic": "Independence"
+  },
+  {
+    "category": "Indian History",
+    "Question": "India and Pakistan became independent on which date?",
+    "Options": [
+      { "id": 1, "text": "August 15, 1947 and August 14, 1947" },
+      { "id": 2, "text": "August 14, 1947 and August 15, 1947" },
+      { "id": 3, "text": "August 15, 1947 for both" },
+      { "id": 4, "text": "August 14, 1947 for both" }
+    ],
+    "CorrectAnswer": "August 15, 1947 and August 14, 1947",
+    "Explanation": "India became independent on August 15, 1947, while Pakistan celebrated independence on August 14, 1947, marking the partition of British India.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL, Railway",
+    "correctOption": 1,
+    "topic": "Independence"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "The Samyukta Maharashtra Movement demanded a separate Marathi-speaking state. In which year was Maharashtra state formed?",
+    "Options": [
+      { "id": 1, "text": "1956" },
+      { "id": 2, "text": "1947" },
+      { "id": 3, "text": "1950" },
+      { "id": 4, "text": "1960" }
+    ],
+    "CorrectAnswer": "1960",
+    "Explanation": "Maharashtra state was formed on May 1, 1960, after the division of the bilingual Bombay State into Maharashtra and Gujarat following the Samyukta Maharashtra Movement.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, SSC, Talathi",
+    "correctOption": 4,
+    "topic": "Post-Independence Maharashtra"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "Maharashtra Day is celebrated on which date?",
+    "Options": [
+      { "id": 1, "text": "May 1" },
+      { "id": 2, "text": "June 1" },
+      { "id": 3, "text": "August 15" },
+      { "id": 4, "text": "November 1" }
+    ],
+    "CorrectAnswer": "May 1",
+    "Explanation": "Maharashtra Day (Maharashtra Din) is celebrated on May 1 every year to commemorate the formation of Maharashtra state in 1960.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, SSC, Talathi",
+    "correctOption": 1,
+    "topic": "Post-Independence Maharashtra"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "Who was the first Chief Minister of Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Vasantrao Naik" },
+      { "id": 2, "text": "Shankarrao Chavan" },
+      { "id": 3, "text": "Yashwantrao Chavan" },
+      { "id": 4, "text": "Morarji Desai" }
+    ],
+    "CorrectAnswer": "Yashwantrao Chavan",
+    "Explanation": "Yashwantrao Chavan became the first Chief Minister of Maharashtra when the state was formed on May 1, 1960, and served until 1962.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, SSC, Talathi",
+    "correctOption": 3,
+    "topic": "Post-Independence Maharashtra"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "The 105 martyrs of the Samyukta Maharashtra Movement were killed in police firing in Mumbai in which year?",
+    "Options": [
+      { "id": 1, "text": "1956" },
+      { "id": 2, "text": "1960" },
+      { "id": 3, "text": "1957" },
+      { "id": 4, "text": "1959" }
+    ],
+    "CorrectAnswer": "1956",
+    "Explanation": "On January 16, 1956, 105 protestors were killed in police firing during the Samyukta Maharashtra Movement at Flora Fountain (now Hutatma Chowk) in Mumbai.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, SSC",
+    "correctOption": 1,
+    "topic": "Post-Independence Maharashtra"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "Hutatma Chowk in Mumbai was formerly known as:",
+    "Options": [
+      { "id": 1, "text": "Victoria Terminus" },
+      { "id": 2, "text": "Gateway of India" },
+      { "id": 3, "text": "Flora Fountain" },
+      { "id": 4, "text": "Churchgate" }
+    ],
+    "CorrectAnswer": "Flora Fountain",
+    "Explanation": "Flora Fountain was renamed as Hutatma Chowk (Martyrs' Square) in memory of the 105 people who died during the Samyukta Maharashtra Movement in 1956.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, SSC",
+    "correctOption": 3,
+    "topic": "Post-Independence Maharashtra"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The States Reorganisation Act was passed in which year?",
+    "Options": [
+      { "id": 1, "text": "1956" },
+      { "id": 2, "text": "1955" },
+      { "id": 3, "text": "1957" },
+      { "id": 4, "text": "1950" }
+    ],
+    "CorrectAnswer": "1956",
+    "Explanation": "The States Reorganisation Act was passed in 1956, reorganizing state boundaries primarily on linguistic basis, though Maharashtra had to wait until 1960.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "Who was known as the 'Lion of Maharashtra' and led the Samyukta Maharashtra Movement?",
+    "Options": [
+      { "id": 1, "text": "Prabodhankar Thackeray" },
+      { "id": 2, "text": "Keshavrao Jedhe" },
+      { "id": 3, "text": "Senapati Bapat" },
+      { "id": 4, "text": "Acharya Atre" }
+    ],
+    "CorrectAnswer": "Keshavrao Jedhe",
+    "Explanation": "Keshavrao Jedhe, known as the 'Lion of Maharashtra', was a key leader of the Samyukta Maharashtra Movement and fought for the creation of a separate Marathi-speaking state.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, SSC",
+    "correctOption": 2,
+    "topic": "Post-Independence Maharashtra"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "The Goa Liberation Movement resulted in Goa's integration into India in which year?",
+    "Options": [
+      { "id": 1, "text": "1960" },
+      { "id": 2, "text": "1947" },
+      { "id": 3, "text": "1961" },
+      { "id": 4, "text": "1965" }
+    ],
+    "CorrectAnswer": "1961",
+    "Explanation": "Goa was liberated from Portuguese rule on December 19, 1961, through military action (Operation Vijay) and integrated into India, though it became a separate state only in 1987.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 3,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "Dr. B.R. Ambedkar, who belonged to Maharashtra, was the Chairman of which important committee?",
+    "Options": [
+      { "id": 1, "text": "Drafting Committee of the Constitution" },
+      { "id": 2, "text": "States Reorganisation Committee" },
+      { "id": 3, "text": "Finance Commission" },
+      { "id": 4, "text": "Planning Commission" }
+    ],
+    "CorrectAnswer": "Drafting Committee of the Constitution",
+    "Explanation": "Dr. B.R. Ambedkar was the Chairman of the Drafting Committee of the Constituent Assembly and is known as the 'Father of the Indian Constitution'.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Constitution Making"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "Dr. B.R. Ambedkar converted to Buddhism at which place in Maharashtra?",
+    "Options": [
+      { "id": 1, "text": "Mhow" },
+      { "id": 2, "text": "Deekshabhoomi, Nagpur" },
+      { "id": 3, "text": "Mumbai" },
+      { "id": 4, "text": "Pune" }
+    ],
+    "CorrectAnswer": "Deekshabhoomi, Nagpur",
+    "Explanation": "Dr. B.R. Ambedkar embraced Buddhism on October 14, 1956, at Deekshabhoomi in Nagpur, along with approximately 500,000 followers, starting the Neo-Buddhist movement.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, SSC, Talathi",
+    "correctOption": 2,
+    "topic": "Post-Independence Maharashtra"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Panchsheel Agreement was signed between India and which country in 1954?",
+    "Options": [
+      { "id": 1, "text": "China" },
+      { "id": 2, "text": "Pakistan" },
+      { "id": 3, "text": "Nepal" },
+      { "id": 4, "text": "Soviet Union" }
+    ],
+    "CorrectAnswer": "China",
+    "Explanation": "The Panchsheel Agreement (Five Principles of Peaceful Coexistence) was signed between India and China on April 29, 1954, regarding Tibet.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The first general elections in independent India were held in which year?",
+    "Options": [
+      { "id": 1, "text": "1947" },
+      { "id": 2, "text": "1950" },
+      { "id": 3, "text": "1951-52" },
+      { "id": 4, "text": "1949" }
+    ],
+    "CorrectAnswer": "1951-52",
+    "Explanation": "The first general elections in independent India were held from October 1951 to February 1952, with the Indian National Congress winning a decisive majority.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 3,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Indo-China War took place in which year?",
+    "Options": [
+      { "id": 1, "text": "1960" },
+      { "id": 2, "text": "1962" },
+      { "id": 3, "text": "1965" },
+      { "id": 4, "text": "1959" }
+    ],
+    "CorrectAnswer": "1962",
+    "Explanation": "The Indo-China War was fought in October-November 1962 over border disputes, resulting in a Chinese victory and India's military setback.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL, Railway",
+    "correctOption": 2,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Indo-Pak War of 1965 was fought primarily over which region?",
+    "Options": [
+      { "id": 1, "text": "Kashmir" },
+      { "id": 2, "text": "Punjab" },
+      { "id": 3, "text": "Rajasthan" },
+      { "id": 4, "text": "Gujarat" }
+    ],
+    "CorrectAnswer": "Kashmir",
+    "Explanation": "The Indo-Pak War of 1965 was fought primarily over Kashmir, triggered by Pakistan's Operation Gibraltar. It ended with the Tashkent Agreement in 1966.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Tashkent Agreement was signed in which year?",
+    "Options": [
+      { "id": 1, "text": "1966" },
+      { "id": 2, "text": "1965" },
+      { "id": 3, "text": "1967" },
+      { "id": 4, "text": "1964" }
+    ],
+    "CorrectAnswer": "1966",
+    "Explanation": "The Tashkent Agreement was signed on January 10, 1966, between India and Pakistan, mediated by Soviet Union, following the 1965 war. PM Lal Bahadur Shastri died in Tashkent shortly after.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Bangladesh Liberation War took place in which year?",
+    "Options": [
+      { "id": 1, "text": "1970" },
+      { "id": 2, "text": "1972" },
+      { "id": 3, "text": "1971" },
+      { "id": 4, "text": "1973" }
+    ],
+    "CorrectAnswer": "1971",
+    "Explanation": "The Bangladesh Liberation War was fought in 1971, resulting in the independence of Bangladesh from Pakistan with India's military support.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL, Railway",
+    "correctOption": 3,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Shimla Agreement between India and Pakistan was signed in which year?",
+    "Options": [
+      { "id": 1, "text": "1971" },
+      { "id": 2, "text": "1973" },
+      { "id": 3, "text": "1972" },
+      { "id": 4, "text": "1974" }
+    ],
+    "CorrectAnswer": "1972",
+    "Explanation": "The Shimla Agreement was signed on July 2, 1972, between PM Indira Gandhi and President Zulfikar Ali Bhutto after the 1971 war, establishing the Line of Control.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 3,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "India conducted its first nuclear test, Operation Smiling Buddha, in which year?",
+    "Options": [
+      { "id": 1, "text": "1974" },
+      { "id": 2, "text": "1971" },
+      { "id": 3, "text": "1975" },
+      { "id": 4, "text": "1972" }
+    ],
+    "CorrectAnswer": "1974",
+    "Explanation": "India conducted its first nuclear test, codenamed Operation Smiling Buddha (Pokhran-I), on May 18, 1974, at Pokhran in Rajasthan.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Emergency in India was declared in which year?",
+    "Options": [
+      { "id": 1, "text": "1975" },
+      { "id": 2, "text": "1974" },
+      { "id": 3, "text": "1976" },
+      { "id": 4, "text": "1977" }
+    ],
+    "CorrectAnswer": "1975",
+    "Explanation": "The Emergency was declared on June 25, 1975, by Prime Minister Indira Gandhi and lasted until March 21, 1977, suspending civil liberties and press freedom.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Janata Party came to power in which year, ending Congress rule?",
+    "Options": [
+      { "id": 1, "text": "1976" },
+      { "id": 2, "text": "1978" },
+      { "id": 3, "text": "1975" },
+      { "id": 4, "text": "1977" }
+    ],
+    "CorrectAnswer": "1977",
+    "Explanation": "The Janata Party won the 1977 elections held after the Emergency, forming the first non-Congress government at the Centre with Morarji Desai as Prime Minister.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 4,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "Operation Blue Star was conducted at the Golden Temple in which year?",
+    "Options": [
+      { "id": 1, "text": "1984" },
+      { "id": 2, "text": "1983" },
+      { "id": 3, "text": "1985" },
+      { "id": 4, "text": "1982" }
+    ],
+    "CorrectAnswer": "1984",
+    "Explanation": "Operation Blue Star was conducted in June 1984 by the Indian Army to remove Sikh militants from the Golden Temple in Amritsar, leading to significant controversy.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Bhopal Gas Tragedy occurred in which year?",
+    "Options": [
+      { "id": 1, "text": "1983" },
+      { "id": 2, "text": "1985" },
+      { "id": 3, "text": "1984" },
+      { "id": 4, "text": "1986" }
+    ],
+    "CorrectAnswer": "1984",
+    "Explanation": "The Bhopal Gas Tragedy occurred on the night of December 2-3, 1984, when toxic gas leaked from the Union Carbide plant, killing thousands and affecting hundreds of thousands.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 3,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "India's economic liberalization began under which Prime Minister?",
+    "Options": [
+      { "id": 1, "text": "Rajiv Gandhi" },
+      { "id": 2, "text": "P.V. Narasimha Rao" },
+      { "id": 3, "text": "Atal Bihari Vajpayee" },
+      { "id": 4, "text": "V.P. Singh" }
+    ],
+    "CorrectAnswer": "P.V. Narasimha Rao",
+    "Explanation": "Economic liberalization in India began in 1991 under Prime Minister P.V. Narasimha Rao with Dr. Manmohan Singh as Finance Minister, introducing LPG (Liberalization, Privatization, Globalization) reforms.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 2,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Mandal Commission recommendations were implemented in which year?",
+    "Options": [
+      { "id": 1, "text": "1989" },
+      { "id": 2, "text": "1991" },
+      { "id": 3, "text": "1980" },
+      { "id": 4, "text": "1990" }
+    ],
+    "CorrectAnswer": "1990",
+    "Explanation": "The Mandal Commission recommendations for 27% reservation for OBCs were implemented by PM V.P. Singh in August 1990, leading to widespread protests.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 4,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "India conducted nuclear tests at Pokhran-II under which Prime Minister?",
+    "Options": [
+      { "id": 1, "text": "Atal Bihari Vajpayee" },
+      { "id": 2, "text": "P.V. Narasimha Rao" },
+      { "id": 3, "text": "I.K. Gujral" },
+      { "id": 4, "text": "H.D. Deve Gowda" }
+    ],
+    "CorrectAnswer": "Atal Bihari Vajpayee",
+    "Explanation": "Pokhran-II nuclear tests were conducted on May 11 and 13, 1998, under Prime Minister Atal Bihari Vajpayee, establishing India as a nuclear weapons state.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Kargil War between India and Pakistan was fought in which year?",
+    "Options": [
+      { "id": 1, "text": "1998" },
+      { "id": 2, "text": "2000" },
+      { "id": 3, "text": "1997" },
+      { "id": 4, "text": "1999" }
+    ],
+    "CorrectAnswer": "1999",
+    "Explanation": "The Kargil War was fought between May and July 1999 in the Kargil district of Kashmir, ending with India's successful recapture of occupied territories from Pakistan.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL, Railway",
+    "correctOption": 4,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "The Bombay High Court, one of the oldest High Courts in India, was established in which year?",
+    "Options": [
+      { "id": 1, "text": "1862" },
+      { "id": 2, "text": "1857" },
+      { "id": 3, "text": "1870" },
+      { "id": 4, "text": "1875" }
+    ],
+    "CorrectAnswer": "1862",
+    "Explanation": "The Bombay High Court was established on August 14, 1862, during British rule and is one of the three High Courts established in the Presidency towns.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, SSC",
+    "correctOption": 1,
+    "topic": "British-era Maharashtra"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "The University of Mumbai (formerly University of Bombay) was established in which year?",
+    "Options": [
+      { "id": 1, "text": "1857" },
+      { "id": 2, "text": "1862" },
+      { "id": 3, "text": "1870" },
+      { "id": 4, "text": "1850" }
+    ],
+    "CorrectAnswer": "1857",
+    "Explanation": "The University of Bombay (now University of Mumbai) was established on July 18, 1857, as one of the first three universities in India along with Calcutta and Madras.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, SSC",
+    "correctOption": 1,
+    "topic": "British-era Maharashtra"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "Jyotirao Phule founded Satyashodhak Samaj in which year?",
+    "Options": [
+      { "id": 1, "text": "1873" },
+      { "id": 2, "text": "1870" },
+      { "id": 3, "text": "1875" },
+      { "id": 4, "text": "1865" }
+    ],
+    "CorrectAnswer": "1873",
+    "Explanation": "Jyotirao Phule founded Satyashodhak Samaj (Society of Truth Seekers) in 1873 in Pune to fight against caste discrimination and promote education for all.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, SSC, Talathi",
+    "correctOption": 1,
+    "topic": "Social Reform Movement"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "Savitribai Phule, India's first female teacher, opened the first girls' school in Pune in which year?",
+    "Options": [
+      { "id": 1, "text": "1848" },
+      { "id": 2, "text": "1850" },
+      { "id": 3, "text": "1845" },
+      { "id": 4, "text": "1852" }
+    ],
+    "CorrectAnswer": "1848",
+    "Explanation": "Savitribai Phule, along with her husband Jyotirao Phule, opened the first girls' school in Pune in 1848, pioneering women's education in India.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, SSC, Talathi",
+    "correctOption": 1,
+    "topic": "Social Reform Movement"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "Gopal Krishna Gokhale founded the Servants of India Society in which year?",
+    "Options": [
+      { "id": 1, "text": "1905" },
+      { "id": 2, "text": "1900" },
+      { "id": 3, "text": "1910" },
+      { "id": 4, "text": "1902" }
+    ],
+    "CorrectAnswer": "1905",
+    "Explanation": "Gopal Krishna Gokhale founded the Servants of India Society in 1905 in Pune to train national missionaries for the service of India and spread liberal ideas.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 1,
+    "topic": "Freedom Movement"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "The Deccan Riots of 1875 were primarily caused by exploitation by:",
+    "Options": [
+      { "id": 1, "text": "British officials" },
+      { "id": 2, "text": "Moneylenders (Sahukars)" },
+      { "id": 3, "text": "Zamindars" },
+      { "id": 4, "text": "Merchants" }
+    ],
+    "CorrectAnswer": "Moneylenders (Sahukars)",
+    "Explanation": "The Deccan Riots of 1875 were agrarian uprisings by farmers in Maharashtra against exploitative moneylenders, leading to the Deccan Agriculturists Relief Act of 1879.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 2,
+    "topic": "British-era Maharashtra"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "Chhatrapati Shahu Maharaj of Kolhapur introduced reservation for backward classes in which year?",
+    "Options": [
+      { "id": 1, "text": "1902" },
+      { "id": 2, "text": "1900" },
+      { "id": 3, "text": "1905" },
+      { "id": 4, "text": "1910" }
+    ],
+    "CorrectAnswer": "1902",
+    "Explanation": "Chhatrapati Shahu Maharaj of Kolhapur introduced reservation for backward classes in his administration in 1902, making him a pioneer of affirmative action in India.",
+    "Difficulty": "Hard",
+    "Job": "MPSC, UPSC",
+    "correctOption": 1,
+    "topic": "Social Reform Movement"
+  },
+
+  {
+    "category": "Indian History",
+    "Question": "The reorganization of states on linguistic basis faced which challenges?\n1. Opposition from the Nehru government initially\n2. Violent protests as in the case of Andhra Pradesh\n3. Concerns about national unity and integrity",
+    "Options": [
+      { "id": 1, "text": "1, 2 and 3" },
+      { "id": 2, "text": "1 and 2 only" },
+      { "id": 3, "text": "2 and 3 only" },
+      { "id": 4, "text": "1 and 3 only" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three were significant challenges. (1) Initially, Nehru and other leaders were apprehensive about linguistic reorganization, fearing it would strengthen regionalism. (2) The death of Potti Sriramulu after a 58-day fast in December 1952 demanding Andhra Pradesh led to violent protests forcing the government's hand. (3) There were genuine fears that linguistic states might lead to separatism and threaten national unity.",
+    "Difficulty": "Hard",
+    "Job": "MPSC, UPSC",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "Consider the following about the Planning Commission established in 1950:\n1. Jawaharlal Nehru was its first Chairman\n2. It was a constitutional body\n3. It was responsible for formulating Five-Year Plans",
+    "Options": [
+      { "id": 1, "text": "1 and 3 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 2 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1 and 3 only",
+    "Explanation": "Statement 2 is incorrect. (1) Prime Minister Jawaharlal Nehru was the first Chairman of the Planning Commission established in March 1950. (2) This is wrong - the Planning Commission was an extra-constitutional body created by an executive resolution, not mentioned in the Constitution. (3) Its primary function was to formulate Five-Year Plans for India's economic development.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Green Revolution in India was characterized by:\n1. Introduction of high-yielding variety seeds\n2. Increased use of chemical fertilizers and pesticides\n3. Predominant success in Punjab, Haryana, and western Uttar Pradesh",
+    "Options": [
+      { "id": 1, "text": "1, 2 and 3" },
+      { "id": 2, "text": "1 and 2 only" },
+      { "id": 3, "text": "2 and 3 only" },
+      { "id": 4, "text": "1 and 3 only" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three were features of the Green Revolution. (1) The revolution was based on HYV seeds developed by scientists like M.S. Swaminathan and Norman Borlaug, particularly for wheat and rice. (2) It required intensive use of chemical fertilizers, pesticides, and assured irrigation. (3) The revolution was most successful in Punjab, Haryana, and western UP due to better irrigation facilities and progressive farming, but was less effective in eastern India.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "Which of the following were consequences of the Green Revolution?\n1. India achieved self-sufficiency in food grains\n2. Increased regional disparity in agricultural development\n3. Environmental problems due to excessive use of chemicals",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 3 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three were consequences. (1) By the 1970s, India achieved self-sufficiency in food grain production and ended dependence on imports. (2) The benefits were concentrated in certain regions, widening the gap between prosperous and poor agricultural areas. (3) Excessive use of fertilizers and pesticides led to soil degradation, water pollution, and declining water tables.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 4,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The White Revolution (Operation Flood) in India:\n1. Made India the largest milk producer in the world\n2. Was initiated by Dr. Verghese Kurien\n3. Created a national milk grid linking producers with consumers",
+    "Options": [
+      { "id": 1, "text": "1, 2 and 3" },
+      { "id": 2, "text": "1 and 2 only" },
+      { "id": 3, "text": "2 and 3 only" },
+      { "id": 4, "text": "1 and 3 only" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three statements are correct. (1) Operation Flood made India the world's largest milk producer by the 1990s. (2) Dr. Verghese Kurien, known as the 'Father of the White Revolution,' initiated and led this program from 1970. (3) The program created a national milk grid by linking milk producers in rural areas with consumers in urban areas through cooperatives like Amul.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The nationalization of banks in 1969 was done to:\n1. Ensure greater credit flow to priority sectors like agriculture\n2. Remove concentration of economic power\n3. Promote financial inclusion in rural areas",
+    "Options": [
+      { "id": 1, "text": "1 and 3 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 2 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three were objectives of bank nationalization. (1) The government wanted to direct credit to priority sectors like agriculture, small industries, and exports which were neglected by private banks. (2) It aimed to break the concentration of economic power in a few hands and prevent monopolistic control. (3) Nationalized banks were mandated to open branches in rural and unbanked areas, promoting financial inclusion.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 4,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "Consider the following about the 1971 Bangladesh Liberation War:\n1. It resulted in the creation of Bangladesh\n2. India signed a Treaty of Peace and Friendship with Soviet Union before the war\n3. Pakistan army surrendered in Dhaka on December 16, 1971",
+    "Options": [
+      { "id": 1, "text": "1, 2 and 3" },
+      { "id": 2, "text": "1 and 2 only" },
+      { "id": 3, "text": "2 and 3 only" },
+      { "id": 4, "text": "1 and 3 only" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three statements are correct. (1) The war resulted in the liberation of East Pakistan and creation of Bangladesh. (2) India signed a 20-year Treaty of Peace, Friendship and Cooperation with the Soviet Union in August 1971 to counter US-China support to Pakistan. (3) The Pakistan army under General Niazi surrendered to the joint command of Indian and Bangladeshi forces on December 16, 1971.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Emergency (1975-77) saw which of the following measures?\n1. Suspension of fundamental rights under Article 352\n2. Press censorship and detention of opposition leaders\n3. The 42nd Constitutional Amendment",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 3 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "2 and 3 only",
+    "Explanation": "Statement 1 is technically incorrect. (1) Article 352 was used to declare Emergency, but fundamental rights were suspended under Article 359, not 352. (2) Strict press censorship was imposed, and thousands of opposition leaders, activists, and journalists were detained under MISA (Maintenance of Internal Security Act). (3) The controversial 42nd Amendment was passed in 1976, making sweeping changes to the Constitution.",
+    "Difficulty": "Hard",
+    "Job": "MPSC, UPSC",
+    "correctOption": 2,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The 42nd Constitutional Amendment during Emergency made which changes?\n1. Added 'Socialist' and 'Secular' to the Preamble\n2. Added Fundamental Duties\n3. Increased the term of Lok Sabha and State Assemblies to six years",
+    "Options": [
+      { "id": 1, "text": "1, 2 and 3" },
+      { "id": 2, "text": "1 and 2 only" },
+      { "id": 3, "text": "2 and 3 only" },
+      { "id": 4, "text": "1 and 3 only" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three changes were made by the 42nd Amendment. (1) The words 'Socialist', 'Secular', and 'Integrity' were added to the Preamble. (2) Part IVA was added, introducing Fundamental Duties (originally 10, now 11). (3) The term of Lok Sabha and State Assemblies was extended from five to six years (later reversed by the 44th Amendment).",
+    "Difficulty": "Hard",
+    "Job": "MPSC, UPSC",
+    "correctOption": 1,
+    "topic": "Constitutional Amendments"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Janata Party government (1977-79) achieved which of the following?\n1. Restoration of civil liberties after Emergency\n2. Appointment of Shah Commission to investigate Emergency excesses\n3. Passing of the 44th Constitutional Amendment",
+    "Options": [
+      { "id": 1, "text": "1 and 3 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 2 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three were achievements of the Janata government. (1) The government immediately restored civil liberties and repealed repressive laws like MISA. (2) The Shah Commission was appointed to inquire into the excesses committed during the Emergency. (3) The 44th Amendment was passed in 1978, reversing many controversial provisions of the 42nd Amendment and providing safeguards against future emergencies.",
+    "Difficulty": "Hard",
+    "Job": "MPSC, UPSC",
+    "correctOption": 4,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Mandal Commission recommendations led to:\n1. 27% reservation for Other Backward Classes in central government jobs\n2. Widespread protests and anti-reservation movements\n3. Implementation during V.P. Singh's government in 1990",
+    "Options": [
+      { "id": 1, "text": "1, 2 and 3" },
+      { "id": 2, "text": "1 and 2 only" },
+      { "id": 3, "text": "2 and 3 only" },
+      { "id": 4, "text": "1 and 3 only" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three are correct. (1) The commission recommended 27% reservation for OBCs in addition to existing 22.5% for SCs/STs. (2) The implementation led to intense protests, self-immolations, and polarization of society. (3) Though the commission submitted its report in 1980, it was implemented by PM V.P. Singh's government in August 1990.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The economic liberalization of 1991 included:\n1. Devaluation of the rupee\n2. Reduction in import tariffs and removal of licensing\n3. Opening up of sectors to foreign investment",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 3 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three were key reforms. (1) The rupee was devalued by about 20% in July 1991 to make exports competitive. (2) Import licensing was abolished for most items, and tariffs were progressively reduced from over 200% to around 30%. (3) Many sectors were opened to foreign direct investment, and the restrictive FERA was replaced by the liberal FEMA.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 4,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "Consider the following about the Pokhran-II nuclear tests of 1998:\n1. They were conducted under the code name 'Operation Shakti'\n2. India declared itself a nuclear weapons state\n3. They led to international sanctions on India",
+    "Options": [
+      { "id": 1, "text": "1, 2 and 3" },
+      { "id": 2, "text": "1 and 2 only" },
+      { "id": 3, "text": "2 and 3 only" },
+      { "id": 4, "text": "1 and 3 only" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three statements are correct. (1) The series of five nuclear tests conducted on May 11 and 13, 1998, were codenamed 'Operation Shakti'. (2) India declared itself a nuclear weapons state, though committing to 'no first use' policy. (3) The tests led to immediate sanctions from the US, Japan, and other countries, though most were gradually lifted.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Kargil War of 1999 was significant because:\n1. Pakistani forces infiltrated across the Line of Control\n2. It was fought at high altitudes in difficult terrain\n3. It ended with complete eviction of infiltrators",
+    "Options": [
+      { "id": 1, "text": "1 and 3 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 2 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three characterized the Kargil War. (1) Pakistani forces and militants infiltrated Indian territory in the Kargil-Dras-Mushkoh sector, occupying strategic heights. (2) Operation Vijay was launched to evict them from altitudes of 16,000-18,000 feet in extremely harsh conditions. (3) By July 26, 1999 (Kargil Vijay Diwas), all infiltrators were evicted and India regained control of all posts.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 4,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "The 1960 language riots in Maharashtra were triggered by:\n1. Demand for Mumbai to be the capital of Maharashtra\n2. Opposition to inclusion of Mumbai in Gujarat\n3. Linguistic pride and identity issues",
+    "Options": [
+      { "id": 1, "text": "1, 2 and 3" },
+      { "id": 2, "text": "1 and 2 only" },
+      { "id": 3, "text": "2 and 3 only" },
+      { "id": 4, "text": "1 and 3 only" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three factors contributed to the riots. (1) Marathi-speaking people wanted Mumbai (then Bombay) as the capital of Maharashtra. (2) There was strong opposition to proposals to make Mumbai a separate union territory or include it in Gujarat. (3) The issue became one of linguistic identity and Marathi pride. Eventually, Mumbai became the capital of Maharashtra.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, SSC",
+    "correctOption": 1,
+    "topic": "Post-Independence Maharashtra"
+  },
+  {
+    "category": "Maharashtra History",
+    "Question": "Consider the following about Vasantrao Naik, Chief Minister of Maharashtra (1963-75):\n1. He had the longest tenure as Maharashtra CM\n2. He implemented land reforms and cooperative movement\n3. He promoted sugar cooperatives in Maharashtra",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 3 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three are correct. (1) Vasantrao Naik served as CM for nearly 12 years (1963-1975), the longest tenure in Maharashtra's history. (2) He implemented land ceiling laws and promoted the cooperative movement in various sectors. (3) Under his leadership, Maharashtra saw rapid growth of sugar cooperatives, making it a leading sugar-producing state. The cooperative movement became a model for rural development.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, SSC",
+    "correctOption": 4,
+    "topic": "Post-Independence Maharashtra"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The 73rd and 74th Constitutional Amendments (1992) provided for:\n1. Constitutional status to Panchayati Raj Institutions\n2. Reservation for women in local bodies\n3. Regular elections every five years",
+    "Options": [
+      { "id": 1, "text": "1, 2 and 3" },
+      { "id": 2, "text": "1 and 2 only" },
+      { "id": 3, "text": "2 and 3 only" },
+      { "id": 4, "text": "1 and 3 only" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three provisions were included. (1) The 73rd Amendment gave constitutional status to Panchayati Raj Institutions (rural local bodies) and 74th to Urban Local Bodies. (2) They mandated one-third reservation for women in all elected positions. (3) They provided for regular elections every five years and establishment of State Election Commissions.",
+    "Difficulty": "Medium",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Constitutional Amendments"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Right to Information Act, 2005 provides:\n1. Citizens' right to access information from public authorities\n2. Time-bound response from authorities\n3. Penalties for non-compliance",
+    "Options": [
+      { "id": 1, "text": "1 and 3 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 2 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three are features of the RTI Act. (1) It gives citizens the right to seek information from any public authority. (2) Public authorities must respond within 30 days (48 hours for life and liberty matters). (3) Information Commissioners can impose penalties up to Rs. 25,000 on erring officials for non-compliance or providing false information.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 4,
+    "topic": "Post-Independence India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The 26/11 Mumbai terror attacks of 2008:\n1. Were carried out by Lashkar-e-Taiba terrorists\n2. Targeted multiple locations including Taj Hotel and CST station\n3. Led to tensions in India-Pakistan relations",
+    "Options": [
+      { "id": 1, "text": "1, 2 and 3" },
+      { "id": 2, "text": "1 and 2 only" },
+      { "id": 3, "text": "2 and 3 only" },
+      { "id": 4, "text": "1 and 3 only" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three statements are correct. (1) Ten terrorists from Pakistan-based Lashkar-e-Taiba carried out the coordinated attacks. (2) Multiple locations were targeted including Taj Mahal Palace Hotel, Oberoi Trident, Chhatrapati Shivaji Terminus, Leopold Cafe, and Nariman House. (3) The attacks killed 166 people and severely strained India-Pakistan relations, with India demanding action against the masterminds.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 1,
+    "topic": "Contemporary India"
+  },
+  {
+    "category": "Indian History",
+    "Question": "The Goods and Services Tax (GST), implemented in 2017, aimed to:\n1. Create a unified national market\n2. Eliminate cascading effect of taxes\n3. Subsume multiple indirect taxes",
+    "Options": [
+      { "id": 1, "text": "1 and 2 only" },
+      { "id": 2, "text": "2 and 3 only" },
+      { "id": 3, "text": "1 and 3 only" },
+      { "id": 4, "text": "1, 2 and 3" }
+    ],
+    "CorrectAnswer": "1, 2 and 3",
+    "Explanation": "All three were objectives of GST. (1) It created 'One Nation, One Tax, One Market' by removing inter-state barriers. (2) It eliminated the cascading effect (tax on tax) by allowing input tax credit throughout the value chain. (3) It subsumed multiple central and state taxes like excise duty, service tax, VAT, entry tax, etc., into a single tax structure.",
+    "Difficulty": "Easy",
+    "Job": "MPSC, UPSC, SSC-CGL",
+    "correctOption": 4,
+    "topic": "Contemporary India"
+  }
+
+]

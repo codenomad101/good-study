@@ -8,6 +8,7 @@ import { QueryProvider } from '../providers/QueryProvider';
 import { LanguageProvider } from '../contexts/LanguageContext';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
 import Toast from 'react-native-toast-message';
+import { AIChatBubble } from '../components/AIChatBubble';
 
 import { useColorScheme } from '@/hooks/use-color-scheme';
 
@@ -61,6 +62,7 @@ export default function RootLayout() {
                 <Stack.Screen name="modal" options={{ presentation: 'modal', title: 'Modal' }} />
                 <Stack.Screen name="payment" options={{ presentation: 'modal', title: 'Payment', headerShown: false }} />
               </Stack>
+              <AIChatBubble />
               <StatusBar style="auto" />
             </ThemeProvider>
           </AuthProvider>

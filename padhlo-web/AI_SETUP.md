@@ -8,7 +8,7 @@ This guide shows you how to add AI-powered performance insights using **complete
 - **Free tier**: Unlimited requests for public models
 - **Cost**: Completely FREE forever
 - **Setup**: Very easy, no credit card required
-- **Models**: Multiple options including Llama, Mistral, etc.
+- **Model**: Pythia-160m (EleutherAI) - Fast, efficient, and designed for research
 
 ### 2. **Local AI (No API Needed)** - Works immediately
 - **Smart rule-based insights** (already implemented)
@@ -60,7 +60,7 @@ This guide shows you how to add AI-powered performance insights using **complete
    - Push to GitHub or trigger a new deployment
    - The API will work automatically in production!
 
-**Note:** The app uses a small, fast model (DistilGPT2) - perfect for quick, responsive insights.
+**Note:** The app uses **Pythia-160m** from EleutherAI - a 160M parameter model designed for research and interpretability, perfect for quick, responsive insights. Learn more: https://huggingface.co/EleutherAI/pythia-160m
 
 ### Option 2: Use Built-in Smart Insights (No Setup)
 

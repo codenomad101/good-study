@@ -22,6 +22,7 @@ import {
   Award
 } from 'lucide-react-native';
 import { useAuth } from '../contexts/AuthContext';
+import { useLanguage } from '../contexts/LanguageContext';
 import { showToast } from '../utils/toast';
 import { useCategories } from '../hooks/useCategories';
 import { useRemainingSessions } from '../hooks/useApi';
@@ -58,6 +59,7 @@ interface DynamicExamContentProps {
 
 const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: initialSessionId, onViewChange }) => {
   const { user } = useAuth();
+  const { language } = useLanguage(); // Get current language (en or mr)
   const router = useRouter();
   const [currentView, setCurrentView] = useState<'config' | 'exam' | 'results'>('config');
   const [isLoading, setIsLoading] = useState(false);
@@ -241,11 +243,12 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
       durationMinutes: Math.ceil(totalQ * 0.75),
       negativeMarking: true,
       negativeMarksRatio: 0.25,
-      questionDistribution: defaultDistribution
+      questionDistribution: defaultDistribution,
+      language: 'en' // Will be updated based on current language selection
     };
   });
 
-  // Update exam config when categories are loaded
+  // Update exam config when categories are loaded or language changes
   useEffect(() => {
     if (categories.length > 0 && !initialSessionId) {
       const distribution = generateQuestionDistribution(20);
@@ -256,10 +259,11 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
         durationMinutes: Math.ceil(totalQ * 0.75),
         negativeMarking: true,
         negativeMarksRatio: 0.25,
-        questionDistribution: distribution
+        questionDistribution: distribution,
+        language: language as 'en' | 'mr' // Use current language selection
       });
     }
-  }, [categories.length, initialSessionId]);
+  }, [categories.length, initialSessionId, language]);
 
   // Helper function to get category name
   const getCategoryName = (categoryId: string) => {
@@ -339,7 +343,12 @@ const DynamicExamContent: React.FC<DynamicExamContentProps> = ({ sessionId: init
 
     setIsLoading(true);
     try {
-      const response = await apiService.createDynamicExam(examConfig);
+      // Ensure language is included in exam config
+      const examConfigWithLanguage = {
+        ...examConfig,
+        language: language as 'en' | 'mr'
+      };
+      const response = await apiService.createDynamicExam(examConfigWithLanguage);
       
       if (response.success && response.data) {
         // Refetch remaining sessions after creating exam
