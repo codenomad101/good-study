@@ -11,6 +11,7 @@ import {
   KeyboardAvoidingView,
   Platform,
   ScrollView,
+  Image,
 } from 'react-native';
 import { Mail, Lock, Eye, EyeOff, User, Phone } from 'lucide-react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -58,6 +59,11 @@ export const LoginScreen: React.FC<LoginScreenProps> = ({ onLogin, onSwitchToReg
       >
         <ScrollView contentContainerStyle={[styles.scrollContent, { paddingTop: insets.top + 60 }]}>
           <View style={styles.header}>
+            <Image 
+              source={require('../assets/images/padhero logo.png')} 
+              style={styles.logoImage}
+              resizeMode="contain"
+            />
             <Text style={styles.title}>Welcome Back!</Text>
             <Text style={styles.subtitle}>Sign in to continue your learning journey</Text>
           </View>
@@ -212,6 +218,11 @@ export const RegisterScreen: React.FC<RegisterScreenProps> = ({ onRegister, onSw
       >
         <ScrollView contentContainerStyle={[styles.scrollContent, { paddingTop: insets.top + 60 }]}>
           <View style={styles.header}>
+            <Image 
+              source={require('../assets/images/padhero logo.png')} 
+              style={styles.logoImage}
+              resizeMode="contain"
+            />
             <Text style={styles.title}>Create Account</Text>
             <Text style={styles.subtitle}>Join thousands of successful learners</Text>
           </View>
@@ -349,6 +360,12 @@ const styles = StyleSheet.create({
   header: {
     alignItems: 'center',
     marginBottom: 40,
+  },
+  logoImage: {
+    width: 100,
+    height: 36,
+    marginBottom: 16,
+    borderRadius: 10,
   },
   title: {
     fontSize: 28,

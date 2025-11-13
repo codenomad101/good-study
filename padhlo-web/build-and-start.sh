@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Build script for Padhlo Web Application
-echo "🚀 Building Padhlo Web Application..."
+# Build script for Padhero Web Application
+echo "🚀 Building Padhero Web Application..."
 
 # Build frontend
 echo "📦 Building frontend..."

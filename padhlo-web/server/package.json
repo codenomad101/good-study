@@ -1,7 +1,7 @@
 {
   "name": "server",
   "version": "1.0.0",
-  "description": "Backend API for Padhlo app",
+  "description": "Backend API for Padhero app",
   "main": "dist/index.js",
   "scripts": {
     "dev": "tsx watch src/index.ts",
@@ -16,7 +16,7 @@
   "keywords": [
     "api",
     "backend",
-    "padhlo"
+    "padhero"
   ],
   "author": "",
   "license": "ISC",

@@ -1,6 +1,6 @@
-# Padhlo Backend
+# Padhero Backend
 
-Backend API for the Padhlo mobile application built with Express.js, PostgreSQL, and Drizzle ORM.
+Backend API for the Padhero mobile application built with Express.js, PostgreSQL, and Drizzle ORM.
 
 ## Features
 

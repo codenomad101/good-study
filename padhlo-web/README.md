@@ -1,4 +1,4 @@
-# Padhlo Monorepo
+# Padhero Monorepo
 
 A unified monorepo containing both web frontend and backend API, serving everything from a single server.
 
@@ -12,7 +12,7 @@ A unified monorepo containing both web frontend and backend API, serving everyth
 ## Project Structure
 
 ```
-padhlo-web/
+padhero-web/
 ├── backend/          # Node.js/Express API server
 ├── frontend/         # Next.js web application (built to static files)
 ├── package.json      # Monorepo package management
@@ -147,4 +147,4 @@ The frontend is located in the `frontend/` directory and uses:
 
 ## Mobile App Integration
 
-The Android mobile app (`Padhlo/`) connects to the same backend API endpoints, providing a consistent experience across web and mobile platforms.
+The Android mobile app (`Padhero/`) connects to the same backend API endpoints, providing a consistent experience across web and mobile platforms.

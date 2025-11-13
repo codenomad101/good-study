@@ -47,16 +47,15 @@
   transition: all 0.2s ease;
 }
 
-.logo-text {
-  font-size: 40px !important;
-  font-weight: 800 !important;
-  color: #1f2937 !important;
-  letter-spacing: -0.5px;
-  transition: color 0.2s ease;
+.logo-image {
+  height: 44px !important;
+  width: auto !important;
+  object-fit: contain !important;
+  transition: opacity 0.2s ease;
 }
 
-.logo-container:hover .logo-text {
-  color: #FF7846 !important;
+.logo-container:hover .logo-image {
+  opacity: 0.8;
 }
 
 .nav-menu {
@@ -371,8 +370,8 @@
     gap: 0;
   }
   
-  .logo-text {
-    font-size: 36px !important;
+  .logo-image {
+    height: 40px !important;
   }
   
   .user-name-trigger {

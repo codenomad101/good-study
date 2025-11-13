@@ -220,32 +220,17 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
               className="logo-link"
             >
               <div className="logo-container" style={{ position: 'relative' }}>
-                <Text className="logo-text" style={{ fontWeight: 'bold', fontStyle: 'italic' }}>
-                  <span style={{ 
-                    color: '#7f8f9d',
-                    fontFamily: 'Anton, sans-serif',
-                    fontWeight: 'bold',
-                    fontStyle: 'italic'
-                  }}>G</span>
-                  <span style={{ 
-                    color: '#160676',
-                    fontFamily: 'Anton, sans-serif',
-                    fontWeight: 'bold',
-                    fontStyle: 'italic',
-                    position: 'relative'
-                  }}>
-                    S
-                    <span style={{
-                      position: 'absolute',
-                      top: '-4px',
-                      right: '-6px',
-                      color: '#160676',
-                      fontSize: '14px',
-                      transform: 'rotate(-45deg)',
-                      fontWeight: 'bold'
-                    }}>&gt;</span>
-                  </span>
-                </Text>
+                <img 
+                  src="/assets/padhero logo.svg" 
+                  alt="Padhero" 
+                  className="logo-image"
+                  style={{
+                    height: '44px',
+                    width: 'auto',
+                    objectFit: 'contain',
+                    borderRadius: '10px'
+                  }}
+                />
               </div>
             </Link>
             

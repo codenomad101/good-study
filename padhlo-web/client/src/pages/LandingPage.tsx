@@ -167,32 +167,15 @@ export default function LandingPage() {
         color: 'white'
       }}>
         <div style={{ maxWidth: '800px', margin: '0 auto' }}>
+          <div style={{ marginBottom: '24px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
+            <img 
+              src="/assets/padhero logo.svg" 
+              alt="Padhero" 
+              style={{ height: '52px', width: 'auto', objectFit: 'contain', filter: 'brightness(0) invert(1)', borderRadius: '10px' }} 
+            />
+          </div>
           <Title level={1} style={{ color: 'white', fontSize: '2.5rem', marginBottom: '16px' }}>
-            Master MPSC with{' '}
-            <span style={{ 
-              color: '#7f8f9d',
-              fontFamily: 'Anton, sans-serif',
-              fontWeight: 'bold',
-              fontStyle: 'italic'
-            }}>G</span>
-            <span style={{ 
-              color: '#160676',
-              fontFamily: 'Anton, sans-serif',
-              fontWeight: 'bold',
-              fontStyle: 'italic',
-              position: 'relative'
-            }}>
-              S
-              <span style={{
-                position: 'absolute',
-                top: '-8px',
-                right: '-2px',
-                color: '#160676',
-                fontSize: '10px',
-                transform: 'rotate(-45deg)',
-                fontWeight: 'bold'
-              }}>&gt;</span>
-            </span>
+            Master MPSC with Padhero
           </Title>
           
           <Paragraph style={{ 

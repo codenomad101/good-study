@@ -44,8 +44,15 @@ export const AuthModal: React.FC<AuthModalProps> = ({ visible, onCancel, mode, o
     <Modal
       title={
         <div style={{ textAlign: 'center' }}>
+          <div style={{ marginBottom: '16px', display: 'flex', justifyContent: 'center' }}>
+            <img 
+              src="/assets/padhero logo.svg" 
+              alt="Padhero" 
+              style={{ height: '44px', width: 'auto', objectFit: 'contain', borderRadius: '10px' }} 
+            />
+          </div>
           <Title level={3} style={{ margin: 0 }}>
-            {mode === 'login' ? 'Welcome Back!' : 'Join Padhlo'}
+            {mode === 'login' ? 'Welcome Back!' : 'Join Padhero'}
           </Title>
           <Text type="secondary">
             {mode === 'login' ? 'Sign in to continue your learning journey' : 'Create your account to get started'}

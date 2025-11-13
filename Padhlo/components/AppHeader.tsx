@@ -37,13 +37,11 @@ const AppHeader: React.FC<AppHeaderProps> = ({ title, showLogo = true, extraTopS
         <View style={styles.leftSection}>
           {showLogo && (
             <View style={styles.logoContainer}>
-              <Text style={styles.logoText}>
-                <Text style={styles.logoG}>G</Text>
-                <Text style={styles.logoS}>
-                  S
-                  <Text style={styles.logoAccent}>&gt;</Text>
-                </Text>
-              </Text>
+              <Image 
+                source={require('../assets/images/padhero logo.png')} 
+                style={styles.logoImage}
+                resizeMode="contain"
+              />
             </View>
           )}
           {title && (
@@ -165,27 +163,10 @@ const styles = StyleSheet.create({
   logoContainer: {
     marginRight: 16,
   },
-  logoText: {
-    fontSize: 32,
-    fontWeight: 'bold',
-    fontStyle: 'italic',
-  },
-  logoG: {
-    color: '#93C5FD', // Light blue for G
-    fontFamily: 'System',
-  },
-  logoS: {
-    color: '#FFFFFF', // White for S
-    fontFamily: 'System',
-    position: 'relative',
-  },
-  logoAccent: {
-    position: 'absolute',
-    top: -4,
-    right: -6,
-    fontSize: 14,
-    transform: [{ rotate: '-45deg' }],
-    color: '#FFFFFF', // White for accent
+  logoImage: {
+    width: 90,
+    height: 32,
+    borderRadius: 10,
   },
   title: {
     fontSize: 20,

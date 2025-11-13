@@ -86,35 +86,11 @@ export const Footer: React.FC = () => {
           {/* Company Info */}
           <Col xs={24} sm={12} md={6}>
             <div style={{ marginBottom: '16px' }}>
-              <Space>
-                <img src="/vite.svg" alt="Siklo Logo" style={{ height: '24px' }} />
-                <Title level={4} style={{ color: 'white', margin: 0, fontWeight: 'bold', fontStyle: 'italic' }}>
-                  <span style={{ 
-                    color: '#7f8f9d',
-                    fontFamily: 'Anton, sans-serif',
-                    fontWeight: 'bold',
-                    fontStyle: 'italic'
-                  }}>G</span>
-                  <span style={{ 
-                    color: '#160676',
-                    fontFamily: 'Anton, sans-serif',
-                    fontWeight: 'bold',
-                    fontStyle: 'italic',
-                    position: 'relative'
-                  }}>
-                    S
-                    <span style={{
-                      position: 'absolute',
-                      top: '-8px',
-                      right: '-2px',
-                      color: '#160676',
-                      fontSize: '10px',
-                      transform: 'rotate(-45deg)',
-                      fontWeight: 'bold'
-                    }}>&gt;</span>
-                  </span>
-                </Title>
-              </Space>
+              <img 
+                src="/assets/padhero logo.svg" 
+                alt="Padhero" 
+                style={{ height: '40px', width: 'auto', objectFit: 'contain', filter: 'brightness(0) invert(1)', borderRadius: '10px' }} 
+              />
             </div>
             <Paragraph style={{ color: 'rgba(255,255,255,0.7)', marginBottom: '16px' }}>
               Empowering students to achieve their academic goals through smart practice, 

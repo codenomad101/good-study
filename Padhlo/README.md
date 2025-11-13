@@ -1,4 +1,4 @@
-# Padhlo Mobile App
+# Padhero Mobile App
 
 A React Native exam preparation app built with Expo, featuring authentication, responsive design, and comprehensive study tools.
 
@@ -33,7 +33,7 @@ A React Native exam preparation app built with Expo, featuring authentication, r
 
 1. **Install dependencies:**
    ```bash
-   cd Padhlo
+   cd Padhero
    npm install
    ```
 
@@ -75,7 +75,7 @@ The app connects to a backend API for authentication and data management.
 ## Project Structure
 
 ```
-Padhlo/
+Padhero/
 ├── app/                    # Expo Router pages
 ├── components/             # Reusable components
 │   ├── ExamPrepApp.tsx    # Main app component
