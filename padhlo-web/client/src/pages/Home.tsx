@@ -21,6 +21,7 @@ import {
   QuestionCircleOutlined,
   CheckCircleOutlined,
   GlobalOutlined,
+  BulbOutlined,
   DollarOutlined,
   HistoryOutlined,
   EnvironmentOutlined,
@@ -654,6 +655,421 @@ export default function Home() {
                     </div>
                   </div>
 
+        {/* Leaderboard & AI Insights Section */}
+        <div style={{ 
+          marginBottom: '24px', 
+          paddingLeft: '16px', 
+          paddingRight: '16px' 
+        }}>
+          <Row gutter={[16, 16]}>
+            {/* Leaderboard Section - Left Half */}
+            <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+              <Card
+                style={{
+                  borderRadius: '16px',
+                  border: '1px solid #E5E7EB',
+                  boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
+                  height: '100%'
+                }}
+                bodyStyle={{ padding: '24px' }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
+                  <TrophyOutlined style={{ fontSize: '24px', color: '#F59E0B' }} />
+                  <Title level={4} style={{ margin: 0, fontSize: '20px', fontWeight: '700', color: '#1F2937' }}>
+                    Leaderboard
+                  </Title>
+                </div>
+                
+                {userRank && (typeof userRank === 'object' ? userRank.rank : userRank) ? (
+                  <div>
+                    <div style={{
+                      background: 'linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%)',
+                      borderRadius: '12px',
+                      padding: '20px',
+                      textAlign: 'center',
+                      marginBottom: '16px'
+                    }}>
+                      <Text style={{ 
+                        fontSize: '14px', 
+                        color: '#92400E', 
+                        fontWeight: '600',
+                        display: 'block',
+                        marginBottom: '8px'
+                      }}>
+                        Your Current Rank
+                      </Text>
+                      <Text style={{ 
+                        fontSize: '36px', 
+                        fontWeight: '800', 
+                        color: '#92400E',
+                        display: 'block'
+                      }}>
+                        #{typeof userRank === 'object' ? userRank.rank : userRank}
+                      </Text>
+                    </div>
+                    
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <Text style={{ fontSize: '14px', color: '#6B7280', fontWeight: '500' }}>
+                          Total Questions
+                        </Text>
+                        <Text style={{ fontSize: '16px', fontWeight: '700', color: '#1F2937' }}>
+                          {userStats?.totalQuestionsAttempted || 0}
+                        </Text>
+                      </div>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <Text style={{ fontSize: '14px', color: '#6B7280', fontWeight: '500' }}>
+                          Overall Accuracy
+                        </Text>
+                        <Text style={{ fontSize: '16px', fontWeight: '700', color: '#1F2937' }}>
+                          {Math.round(parseFloat(userStats?.overallAccuracy || '0'))}%
+                        </Text>
+                      </div>
+                      <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                        <Text style={{ fontSize: '14px', color: '#6B7280', fontWeight: '500' }}>
+                          Current Streak
+                        </Text>
+                        <Text style={{ fontSize: '16px', fontWeight: '700', color: '#1F2937' }}>
+                          {userStats?.currentStreak || 0} 🔥
+                        </Text>
+                      </div>
+                    </div>
+                    
+                    <Link to="/leaderboard" style={{ textDecoration: 'none', display: 'block', marginTop: '16px' }}>
+                      <div style={{
+                        width: '100%',
+                        padding: '10px',
+                        borderRadius: '8px',
+                        background: '#2563EB',
+                        color: '#FFFFFF',
+                        textAlign: 'center',
+                        fontSize: '13px',
+                        fontWeight: '600',
+                        cursor: 'pointer',
+                        transition: 'all 0.2s ease'
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.background = '#1E40AF';
+                        e.currentTarget.style.transform = 'translateY(-2px)';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.background = '#2563EB';
+                        e.currentTarget.style.transform = 'translateY(0)';
+                      }}>
+                        View Full Leaderboard
+                        <ArrowRightOutlined style={{ marginLeft: '6px', fontSize: '12px' }} />
+                      </div>
+                    </Link>
+                  </div>
+                ) : (
+                  <div style={{ textAlign: 'center', padding: '20px' }}>
+                    <Text style={{ fontSize: '14px', color: '#6B7280' }}>
+                      Start practicing to see your rank!
+                    </Text>
+                  </div>
+                )}
+              </Card>
+            </Col>
+
+            {/* AI Insights Section - Right Half */}
+            <Col xs={24} sm={24} md={12} lg={12} xl={12}>
+              <Card
+                style={{
+                  borderRadius: '16px',
+                  border: '1px solid #E5E7EB',
+                  boxShadow: '0 2px 8px rgba(0, 0, 0, 0.08)',
+                  height: '100%',
+                  background: '#FFF7ED'
+                }}
+                bodyStyle={{ padding: '24px' }}
+              >
+                <div style={{ display: 'flex', alignItems: 'center', gap: '12px', marginBottom: '20px' }}>
+                  <BulbOutlined style={{ fontSize: '24px', color: '#F59E0B' }} />
+                  <Title level={4} style={{ margin: 0, fontSize: '20px', fontWeight: '700', color: '#1F2937' }}>
+                    AI Insights
+                  </Title>
+                </div>
+                
+                {(() => {
+                  // Get weak areas using same logic as PerformanceInsightsCard
+                  const getQuickInsights = (): { category: string; score: number; count: number; color: string }[] => {
+                    const performance: Record<string, { scores: number[], count: number }> = {};
+                    
+                    // Process exam history
+                    (examHistory as any[]).forEach((exam: any) => {
+                      const percentage = typeof exam.percentage === 'string' 
+                        ? parseFloat(exam.percentage) 
+                        : (exam.percentage ?? 0);
+                      
+                      const examName = exam.examName || exam.name || '';
+                      const category = extractCategory(examName);
+                      
+                      if (!performance[category]) {
+                        performance[category] = { scores: [], count: 0 };
+                      }
+                      performance[category].scores.push(percentage);
+                      performance[category].count++;
+                    });
+                    
+                    // Process practice history
+                    (practiceHistory as any[]).forEach((session: any) => {
+                      const accuracy = session.accuracy || 0;
+                      const category = session.category || 'General';
+                      
+                      if (!performance[category]) {
+                        performance[category] = { scores: [], count: 0 };
+                      }
+                      performance[category].scores.push(accuracy);
+                      performance[category].count++;
+                    });
+                    
+                    // Get weak areas
+                    const weakAreas: { category: string; score: number; count: number; color: string }[] = [];
+                    
+                    Object.entries(performance).forEach(([category, data]) => {
+                      const avgScore = data.scores.reduce((a, b) => a + b, 0) / data.scores.length;
+                      
+                      if (avgScore > 0 && avgScore < 60 && data.count >= 2) {
+                        if ((category === 'Current Affairs' || category === 'General') && avgScore < 30) {
+                          return;
+                        }
+                        
+                        weakAreas.push({
+                          category,
+                          score: Math.round(avgScore),
+                          count: data.count,
+                          color: getCategoryColor(category)
+                        });
+                      }
+                    });
+                    
+                    return weakAreas.sort((a, b) => a.score - b.score).slice(0, 4);
+                  };
+                  
+                  const extractCategory = (examName: string): string => {
+                    const name = examName.toLowerCase();
+                    if (name.includes('english') || name.includes('grammar')) return 'English';
+                    if (name.includes('history')) return 'History';
+                    if (name.includes('economy') || name.includes('economic')) return 'Economy';
+                    if (name.includes('geography') || name.includes('geo')) return 'Geography';
+                    if (name.includes('polity') || name.includes('political')) return 'Polity';
+                    if (name.includes('science')) return 'Science';
+                    if (name.includes('current affairs') || name.includes('gk')) return 'Current Affairs';
+                    if (name.includes('aptitude') || name.includes('math')) return 'Aptitude';
+                    if (name.includes('agriculture')) return 'Agriculture';
+                    return 'General';
+                  };
+                  
+                  const getCategoryColor = (category: string): string => {
+                    const colorMap: Record<string, string> = {
+                      'English': '#3b82f6',
+                      'History': '#ef4444',
+                      'Economy': '#10b981',
+                      'Geography': '#8b5cf6',
+                      'Polity': '#f59e0b',
+                      'Science': '#ec4899',
+                      'Current Affairs': '#06b6d4',
+                      'Aptitude': '#6366f1',
+                      'Agriculture': '#84cc16',
+                      'General': '#6b7280'
+                    };
+                    return colorMap[category] || '#6b7280';
+                  };
+                  
+                  const weakAreas = getQuickInsights();
+                  
+                  // Get default topics when no weak areas are found
+                  const getDefaultTopics = (): { category: string; color: string }[] => {
+                    const defaultTopicsByCategory: Record<string, string[]> = {
+                      'English': ['Grammar Fundamentals', 'Reading Comprehension', 'Vocabulary Building'],
+                      'History': ['Ancient History', 'Medieval History', 'Modern History'],
+                      'Economy': ['Basic Economics', 'Indian Economy', 'Economic Policies'],
+                      'Geography': ['Physical Geography', 'Indian Geography', 'World Geography'],
+                      'Polity': ['Constitution', 'Fundamental Rights', 'Governance'],
+                      'Science': ['Physics Basics', 'Chemistry Fundamentals', 'Biology Concepts'],
+                      'Current Affairs': ['National News', 'International Affairs', 'Government Schemes'],
+                      'Aptitude': ['Quantitative Aptitude', 'Logical Reasoning', 'Data Interpretation'],
+                      'Agriculture': ['Crop Production', 'Agricultural Policies', 'Rural Development'],
+                      'General': ['General Knowledge', 'Current Events', 'Important Dates']
+                    };
+                    
+                    // Get day of year (1-365/366) to rotate topics daily
+                    const now = new Date();
+                    const start = new Date(now.getFullYear(), 0, 0);
+                    const dayOfYear = Math.floor((now.getTime() - start.getTime()) / (1000 * 60 * 60 * 24));
+                    
+                    // Select categories based on day of year
+                    const allCategories = Object.keys(defaultTopicsByCategory);
+                    const selectedCategories: string[] = [];
+                    
+                    // Rotate through categories based on day
+                    for (let i = 0; i < 4; i++) {
+                      const categoryIndex = (dayOfYear + i) % allCategories.length;
+                      selectedCategories.push(allCategories[categoryIndex]);
+                    }
+                    
+                    // Get topics from selected categories
+                    const defaultTopics: { category: string; color: string }[] = [];
+                    selectedCategories.forEach((category, index) => {
+                      const topics = defaultTopicsByCategory[category];
+                      // Rotate through topics within category based on day
+                      const topicIndex = Math.floor((dayOfYear + index) / allCategories.length) % topics.length;
+                      defaultTopics.push({
+                        category: topics[topicIndex],
+                        color: getCategoryColor(category)
+                      });
+                    });
+                    
+                    return defaultTopics;
+                  };
+                  
+                  const defaultTopics = getDefaultTopics();
+                  
+                  return weakAreas.length > 0 ? (
+                    <div>
+                      <Text style={{ 
+                        fontSize: '13px', 
+                        color: '#92400E', 
+                        fontWeight: '500',
+                        display: 'block',
+                        marginBottom: '16px'
+                      }}>
+                        Topics that need your attention:
+                      </Text>
+                      
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                        {weakAreas.map((area, index) => (
+                          <div 
+                            key={index}
+                            style={{
+                              padding: '12px',
+                              borderRadius: '10px',
+                              background: '#FFFFFF',
+                              border: `1px solid ${area.color}30`,
+                              display: 'flex',
+                              justifyContent: 'space-between',
+                              alignItems: 'center'
+                            }}
+                          >
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', flex: 1 }}>
+                              <div style={{
+                                width: '8px',
+                                height: '8px',
+                                borderRadius: '50%',
+                                background: area.color
+                              }} />
+                              <Text style={{ fontSize: '14px', fontWeight: '600', color: '#1F2937' }}>
+                                {area.category}
+                              </Text>
+                            </div>
+                            <Text style={{ 
+                              fontSize: '14px', 
+                              fontWeight: '700', 
+                              color: area.color 
+                            }}>
+                              {area.score}%
+                            </Text>
+                          </div>
+                        ))}
+                      </div>
+                      
+                      <Link to="/performance-insights" style={{ textDecoration: 'none', display: 'block', marginTop: '16px' }}>
+                        <div style={{
+                          width: '100%',
+                          padding: '10px',
+                          borderRadius: '8px',
+                          background: '#F59E0B',
+                          color: '#FFFFFF',
+                          textAlign: 'center',
+                          fontSize: '13px',
+                          fontWeight: '600',
+                          cursor: 'pointer',
+                          transition: 'all 0.2s ease'
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.background = '#D97706';
+                          e.currentTarget.style.transform = 'translateY(-2px)';
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.background = '#F59E0B';
+                          e.currentTarget.style.transform = 'translateY(0)';
+                        }}>
+                          View All Insights
+                          <ArrowRightOutlined style={{ marginLeft: '6px', fontSize: '12px' }} />
+                        </div>
+                      </Link>
+                    </div>
+                  ) : (
+                    <div>
+                      <Text style={{ 
+                        fontSize: '13px', 
+                        color: '#92400E', 
+                        fontWeight: '500',
+                        display: 'block',
+                        marginBottom: '16px'
+                      }}>
+                        Recommended topics to practice today:
+                      </Text>
+                      
+                      <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
+                        {defaultTopics.map((topic, index) => (
+                          <div 
+                            key={index}
+                            style={{
+                              padding: '12px',
+                              borderRadius: '10px',
+                              background: '#FFFFFF',
+                              border: `1px solid ${topic.color}30`,
+                              display: 'flex',
+                              alignItems: 'center',
+                              gap: '10px'
+                            }}
+                          >
+                            <div style={{
+                              width: '8px',
+                              height: '8px',
+                              borderRadius: '50%',
+                              background: topic.color
+                            }} />
+                            <Text style={{ fontSize: '14px', fontWeight: '600', color: '#1F2937', flex: 1 }}>
+                              {topic.category}
+                            </Text>
+                          </div>
+                        ))}
+                      </div>
+                      
+                      <Link to="/practice" style={{ textDecoration: 'none', display: 'block', marginTop: '16px' }}>
+                        <div style={{
+                          width: '100%',
+                          padding: '10px',
+                          borderRadius: '8px',
+                          background: '#F59E0B',
+                          color: '#FFFFFF',
+                          textAlign: 'center',
+                          fontSize: '13px',
+                          fontWeight: '600',
+                          cursor: 'pointer',
+                          transition: 'all 0.2s ease'
+                        }}
+                        onMouseEnter={(e) => {
+                          e.currentTarget.style.background = '#D97706';
+                          e.currentTarget.style.transform = 'translateY(-2px)';
+                        }}
+                        onMouseLeave={(e) => {
+                          e.currentTarget.style.background = '#F59E0B';
+                          e.currentTarget.style.transform = 'translateY(0)';
+                        }}>
+                          Start Practicing
+                          <ArrowRightOutlined style={{ marginLeft: '6px', fontSize: '12px' }} />
+                        </div>
+                      </Link>
+                    </div>
+                  );
+                })()}
+              </Card>
+            </Col>
+          </Row>
+        </div>
 
         {/* Practice Categories - Modern Design */}
         <div style={{ marginBottom: '24px', paddingLeft: '16px', paddingRight: '16px' }}>
@@ -879,14 +1295,6 @@ export default function Home() {
                   </Row>
           </div>
         
-        {/* Performance Insights Card */}
-        <div style={{ marginTop: '24px', paddingLeft: '16px', paddingRight: '16px' }}>
-          <PerformanceInsightsCard 
-            examHistory={(examHistory || []) as any[]}
-            practiceHistory={(practiceHistory || []) as any[]}
-            userStats={userStats}
-                  />
-                </div>
       </div>
     </AppLayout>
   );
