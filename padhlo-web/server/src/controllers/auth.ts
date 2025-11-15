@@ -211,3 +211,86 @@ export const logout = async (req: Request, res: Response) => {
     });
   }
 };
+
+export const requestPasswordReset = async (req: Request, res: Response) => {
+  try {
+    const { email } = req.body;
+    
+    if (!email) {
+      return res.status(400).json({
+        success: false,
+        message: 'Email is required',
+      });
+    }
+
+    const result = await authService.requestPasswordReset(email);
+    
+    res.json({
+      success: result.success,
+      message: result.message,
+    });
+  } catch (error: any) {
+    console.error('Password reset request error:', error);
+    
+    res.status(500).json({
+      success: false,
+      message: error.message || 'Failed to process password reset request',
+    });
+  }
+};
+
+export const resetPassword = async (req: Request, res: Response) => {
+  try {
+    const { email, otp, newPassword, token } = req.body;
+    
+    if (!newPassword) {
+      return res.status(400).json({
+        success: false,
+        message: 'New password is required',
+      });
+    }
+
+    if (newPassword.length < 6) {
+      return res.status(400).json({
+        success: false,
+        message: 'Password must be at least 6 characters long',
+      });
+    }
+
+    let result;
+    
+    // If OTP is provided, use OTP method
+    if (otp && email) {
+      result = await authService.resetPasswordWithOTP(email, otp, newPassword);
+    } 
+    // If token is provided, use token method
+    else if (token) {
+      result = await authService.resetPasswordWithToken(token, newPassword);
+    } 
+    else {
+      return res.status(400).json({
+        success: false,
+        message: 'Either OTP with email or reset token is required',
+      });
+    }
+    
+    res.json({
+      success: result.success,
+      message: result.message,
+    });
+  } catch (error: any) {
+    console.error('Password reset error:', error);
+    
+    if (error.message.includes('Invalid') || error.message.includes('expired')) {
+      return res.status(400).json({
+        success: false,
+        message: error.message,
+      });
+    }
+    
+    res.status(500).json({
+      success: false,
+      message: error.message || 'Failed to reset password',
+    });
+  }
+};

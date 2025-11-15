@@ -7,6 +7,7 @@ import { ProtectedRoute } from './components/ProtectedRoute';
 import RootRoute from './components/RootRoute';
 import LoginPage from './pages/LoginPage';
 import RegisterPage from './pages/RegisterPage';
+import ForgotPasswordPage from './pages/ForgotPasswordPage';
 import Home from './pages/Home';
 import Practice from './pages/Practice';
 import PracticeTest from './pages/PracticeTest';
@@ -18,6 +19,8 @@ import Leaderboard from './pages/Leaderboard';
 import CategoryPage from './pages/Category';
 import StudyPage from './pages/Study';
 import HelpPage from './pages/Help';
+import AboutPage from './pages/AboutPage';
+import ContactPage from './pages/ContactPage';
 import NotesPage from './pages/Notes';
 import PerformanceInsightsPage from './pages/PerformanceInsightsPage';
 import Community from './pages/Community';
@@ -52,9 +55,15 @@ function App() {
           <Router>
             <div style={{ minHeight: '100vh' }}>
               <Routes>
-                <Route path="/" element={<RootRoute />} />
+                {/* Public routes - accessible without authentication */}
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/contact" element={<ContactPage />} />
+                <Route path="/help" element={<HelpPage />} />
                 <Route path="/login" element={<LoginPage />} />
                 <Route path="/register" element={<RegisterPage />} />
+                <Route path="/forgot-password" element={<ForgotPasswordPage />} />
+                {/* Root route - must be after other public routes */}
+                <Route path="/" element={<RootRoute />} />
                 <Route 
                   path="/dashboard" 
                   element={
@@ -92,14 +101,6 @@ function App() {
                   element={
                     <ProtectedRoute>
                       <StudyPage />
-                    </ProtectedRoute>
-                  } 
-                />
-                <Route 
-                  path="/help" 
-                  element={
-                    <ProtectedRoute>
-                      <HelpPage />
                     </ProtectedRoute>
                   } 
                 />
@@ -199,6 +200,7 @@ function App() {
                         </ProtectedRoute>
                       } 
                     />
+                    {/* Catch-all route - must be last */}
                     <Route path="*" element={<Navigate to="/" replace />} />
               </Routes>
             </div>

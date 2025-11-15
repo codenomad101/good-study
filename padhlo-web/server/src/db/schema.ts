@@ -87,6 +87,20 @@ export const users = pgTable('users', {
   lastLoginAt: timestamp('last_login_at'),
 });
 
+// Password Reset Tokens table
+export const passwordResetTokens = pgTable('password_reset_tokens', {
+  tokenId: uuid('token_id').primaryKey().defaultRandom(),
+  userId: uuid('user_id').notNull().references(() => users.userId, { onDelete: 'cascade' }),
+  token: varchar('token', { length: 255 }).notNull().unique(),
+  otp: varchar('otp', { length: 6 }),
+  expiresAt: timestamp('expires_at').notNull(),
+  used: boolean('used').default(false),
+  createdAt: timestamp('created_at').defaultNow().notNull(),
+});
+
+export type PasswordResetToken = typeof passwordResetTokens.$inferSelect;
+export type NewPasswordResetToken = typeof passwordResetTokens.$inferInsert;
+
 // Exams table
 export const exams = pgTable('exams', {
   examId: uuid('exam_id').primaryKey().defaultRandom(),

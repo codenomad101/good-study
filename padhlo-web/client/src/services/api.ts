@@ -35,8 +35,11 @@ apiClient.interceptors.response.use(
 			// This prevents redirects during network glitches
 			localStorage.removeItem('authToken');
 			localStorage.removeItem('user');
-			// Only redirect if we're not already on the login/landing page
-			if (window.location.pathname !== '/' && window.location.pathname !== '/login') {
+			// List of public routes that should not be redirected
+			const publicRoutes = ['/', '/login', '/register', '/forgot-password', '/about', '/contact', '/help'];
+			const currentPath = window.location.pathname;
+			// Only redirect if we're not on a public route
+			if (!publicRoutes.includes(currentPath)) {
 				window.location.href = '/';
 			}
 		}
@@ -75,6 +78,16 @@ export const authAPI = {
 
 	refreshToken: async () => {
 		const response = await apiClient.post('/auth/refresh');
+		return response.data;
+	},
+
+	forgotPassword: async (email: string) => {
+		const response = await apiClient.post('/auth/forgot-password', { email });
+		return response.data;
+	},
+
+	resetPassword: async (data: { email?: string; otp?: string; token?: string; newPassword: string }) => {
+		const response = await apiClient.post('/auth/reset-password', data);
 		return response.data;
 	},
 };

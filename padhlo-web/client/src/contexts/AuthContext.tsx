@@ -38,20 +38,26 @@ interface AuthProviderProps {
 }
 
 export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
-  const [isAuthenticated, setIsAuthenticated] = useState(false);
+  // Initialize auth state from localStorage immediately (synchronously)
+  const [isAuthenticated, setIsAuthenticated] = useState(() => {
+    // Check localStorage synchronously on initial render
+    const token = localStorage.getItem('authToken');
+    return !!token;
+  });
+  const [isInitializing, setIsInitializing] = useState(true);
   const { data: user, isLoading, error } = useUser();
   const logoutMutation = useLogout();
 
-  // Initialize auth state from localStorage on mount
+  // Mark initialization as complete once useUser has finished its initial check
+  // This ensures we don't redirect during the initial auth state determination
   useEffect(() => {
-    const token = localStorage.getItem('authToken');
-    const storedUser = localStorage.getItem('user');
-    if (token) {
-      setIsAuthenticated(true);
-      // If we have a stored user but useUser hasn't loaded yet, use stored user
-      // This prevents flickering and redirects during initial load
+    // Wait for useUser to complete its initial load
+    // If we have a token, keep isAuthenticated true even if API call is still loading
+    if (!isLoading) {
+      // useUser has finished loading (either success or error)
+      setIsInitializing(false);
     }
-  }, []);
+  }, [isLoading]);
 
   // Update auth state based on user data, but don't clear on network errors
   useEffect(() => {
@@ -84,8 +90,17 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
       }
     } else if (!isLoading && !error && !user) {
       // No error, no user, and not loading - check if we have a token
+      // If we have a token, keep authenticated state (might be network issue)
+      // Only set to false if we truly don't have a token
       const token = localStorage.getItem('authToken');
-      setIsAuthenticated(!!token);
+      if (token) {
+        // We have a token but no user data - might be network issue
+        // Keep authenticated state to prevent redirects
+        setIsAuthenticated(true);
+      } else {
+        // No token, definitely not authenticated
+        setIsAuthenticated(false);
+      }
     }
   }, [user, isLoading, error]);
 
@@ -96,9 +111,13 @@ export const AuthProvider: React.FC<AuthProviderProps> = ({ children }) => {
     localStorage.removeItem('user');
   };
 
+  // Combine initializing state with loading state
+  // During initial load, we want to show loading to prevent redirects
+  const combinedIsLoading = isInitializing || isLoading;
+
   const value: AuthContextType = {
     user: user || null,
-    isLoading,
+    isLoading: combinedIsLoading,
     isAuthenticated,
     logout,
   };

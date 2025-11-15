@@ -47,7 +47,7 @@ export default function LoginPage() {
   return (
     <AppLayout showAuth={false} showFooter={false}>
       <div style={{ 
-        background: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
+        background: 'linear-gradient(135deg, #F8FAFC 0%, #EFF6FF 100%)',
         minHeight: '100vh',
         display: 'flex', 
         alignItems: 'center', 
@@ -58,40 +58,31 @@ export default function LoginPage() {
           <Col xs={24} sm={20} md={16} lg={12} xl={8}>
             <Card 
               style={{ 
-                borderRadius: '16px',
-                boxShadow: '0 20px 40px rgba(0,0,0,0.1)',
-                border: 'none'
+                borderRadius: '24px',
+                boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+                border: '1px solid #E5E7EB',
+                background: '#FFFFFF'
               }}
               bodyStyle={{ padding: '48px' }}
             >
               <div style={{ textAlign: 'center', marginBottom: '32px' }}>
-                <Title level={2} style={{ margin: '0 0 8px 0', color: '#FF7846' }}>
-                  Welcome to <span style={{ 
-                    color: '#7f8f9d',
-                    fontFamily: 'Anton, sans-serif',
-                    fontWeight: 'bold',
-                    fontStyle: 'italic'
-                  }}>G</span><span style={{ 
-                    color: '#160676',
-                    fontFamily: 'Anton, sans-serif',
-                    fontWeight: 'bold',
-                    fontStyle: 'italic',
-                    position: 'relative'
-                  }}>
-                    S
-                    <span style={{
-                      position: 'absolute',
-                      top: '-8px',
-                      right: '-2px',
-                      color: '#160676',
-                      fontSize: '10px',
-                      transform: 'rotate(-45deg)',
-                      fontWeight: 'bold'
-                    }}>&gt;</span>
-                  </span>!
+                <div style={{ marginBottom: '16px' }}>
+                  <img 
+                    src="/assets/padhero logo.svg" 
+                    alt="Padhero" 
+                    style={{ 
+                      height: '60px', 
+                      width: 'auto', 
+                      objectFit: 'contain',
+                      marginBottom: '16px'
+                    }} 
+                  />
+                </div>
+                <Title level={2} style={{ margin: '0 0 8px 0', color: '#1F2937', fontWeight: '700' }}>
+                  Welcome Back!
                 </Title>
-                <Paragraph style={{ color: '#666', margin: 0 }}>
-                  Sign in to continue your learning journey
+                <Paragraph style={{ color: '#6B7280', margin: 0, fontSize: '16px' }}>
+                  Sign in to continue your MPSC preparation journey
                 </Paragraph>
               </div>
 
@@ -131,6 +122,14 @@ export default function LoginPage() {
                   />
                 </Form.Item>
 
+                <Form.Item style={{ marginBottom: '8px', textAlign: 'right' }}>
+                  <Link to="/forgot-password">
+                    <Button type="link" style={{ padding: 0, fontSize: '14px' }}>
+                      Forgot Password?
+                    </Button>
+                  </Link>
+                </Form.Item>
+
                 <Form.Item style={{ marginBottom: '24px' }}>
                   <Button
                     type="primary"
@@ -139,10 +138,13 @@ export default function LoginPage() {
                     block
                     size="large"
                     style={{ 
-                      borderRadius: '8px',
+                      borderRadius: '12px',
                       height: '48px',
                       fontSize: '16px',
-                      fontWeight: 'bold'
+                      fontWeight: '600',
+                      background: 'linear-gradient(135deg, #FF7846 0%, #FF5722 100%)',
+                      border: 'none',
+                      boxShadow: '0 4px 12px rgba(249, 115, 22, 0.3)'
                     }}
                   >
                     Sign In
