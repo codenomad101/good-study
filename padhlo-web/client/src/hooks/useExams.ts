@@ -10,11 +10,24 @@ export const useCreateDynamicExam = () => {
     mutationFn: examAPI.createDynamicExam,
     onSuccess: (data) => {
       queryClient.invalidateQueries({ queryKey: ['examHistory'] });
+      queryClient.invalidateQueries({ queryKey: ['remainingSessions'] });
       message.success('Dynamic exam created successfully!');
       return data;
     },
     onError: (error: any) => {
-      message.error(error.response?.data?.message || 'Failed to create exam');
+      // Check if it's a subscription/plan limit error
+      if (error?.response?.status === 403 && error?.response?.data?.requiresUpgrade) {
+        const errorData = error.response.data;
+        message.error({
+          content: errorData.message || 'Free plan limit reached. Upgrade to Pro for unlimited sessions.',
+          duration: 6,
+          key: 'subscription-error'
+        });
+      } else {
+        // Generic error
+        const errorMessage = error?.response?.data?.message || error?.message || 'Failed to create exam';
+        message.error(errorMessage);
+      }
     },
   });
 };

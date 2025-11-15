@@ -3,8 +3,39 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Padhlo App Color Scheme */
+  --background: #F8FAFC;
+  --foreground: #1F2937;
+  
+  /* Primary Blue Colors (matching app) */
+  --primary-blue: #2563EB;
+  --primary-blue-dark: #1E3A8A;
+  --primary-blue-light: #3B82F6;
+  
+  /* Accent Colors */
+  --orange: #F97316;
+  --orange-light: #FED7AA;
+  --green: #10B981;
+  --green-light: #D1FAE5;
+  --amber: #F59E0B;
+  --red: #EF4444;
+  --purple: #7C3AED;
+  
+  /* Text Colors */
+  --text-primary: #1F2937;
+  --text-secondary: #6B7280;
+  --text-tertiary: #9CA3AF;
+  --text-white: #FFFFFF;
+  
+  /* Background Colors */
+  --bg-white: #FFFFFF;
+  --bg-gray: #F9FAFB;
+  --bg-gray-light: #F3F4F6;
+  --bg-blue-light: #EFF6FF;
+  
+  /* Border Colors */
+  --border-gray: #E5E7EB;
+  --border-blue: #DBEAFE;
 }
 
 @theme inline {
@@ -12,15 +43,57 @@
   --color-foreground: var(--foreground);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  margin: 0;
+  padding: 0;
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji;
+}
+
+/* Ensure Ant Design components use the same font */
+.ant-typography,
+.ant-menu,
+.ant-btn,
+.ant-input,
+.ant-card,
+.ant-layout,
+.ant-layout-header,
+.ant-layout-content,
+.ant-layout-footer {
+  font-family: ui-sans-serif, system-ui, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol, Noto Color Emoji !important;
+}
+
+/* Modern scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-gray);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--text-tertiary);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--text-secondary);
 }

@@ -11,7 +11,8 @@ import {
   Col,
   Statistic,
   Divider,
-  Alert
+  Alert,
+  message
 } from 'antd';
 import { 
   ClockCircleOutlined, 
@@ -164,9 +165,24 @@ const PracticeTestPage: React.FC = () => {
         }
         
         setSession(sessionData.data);
-      } catch (err) {
-        setError('Failed to create practice session');
+      } catch (err: any) {
         console.error('Error creating practice session:', err);
+        
+        // Check if it's a subscription/plan limit error
+        if (err?.response?.status === 403 && err?.response?.data?.requiresUpgrade) {
+          const errorData = err.response.data;
+          message.error({
+            content: errorData.message || 'Free plan limit reached. Upgrade to Pro for unlimited sessions.',
+            duration: 6,
+            key: 'subscription-error'
+          });
+          setError(errorData.message || 'Free plan limit reached');
+        } else {
+          // Generic error
+          const errorMessage = err?.response?.data?.message || err?.message || 'Failed to create practice session';
+          message.error(errorMessage);
+          setError(errorMessage);
+        }
       } finally {
         setLoading(false);
       }

@@ -31,11 +31,161 @@ import {
   DatabaseOutlined,
   BarChartOutlined as ChartOutlined,
   TranslationOutlined,
-  ReadOutlined
+  ReadOutlined,
+  SafetyOutlined,
+  BankOutlined,
+  AuditOutlined,
+  RocketOutlined,
+  ArrowRightOutlined,
+  BarChartOutlined as AnalyticsOutlined
 } from '@ant-design/icons';
 import { AppLayout } from '../components/AppLayout';
 
 const { Title, Text, Paragraph } = Typography;
+
+// Feature Card Component
+const FeatureCard: React.FC<{ feature: any }> = ({ feature }) => {
+  const [isHovered, setIsHovered] = React.useState(false);
+  const IconComponent = feature.icon;
+  
+  return (
+    <Col xs={12} sm={12} md={8} lg={8} xl={8}>
+      <div 
+        style={{
+          borderRadius: '20px',
+          background: '#FFFFFF',
+          border: '1px solid #E5E7EB',
+          transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+          cursor: 'pointer',
+          display: 'flex',
+          flexDirection: 'column',
+          overflow: 'hidden',
+          minHeight: '420px',
+          boxShadow: isHovered ? '0 12px 24px rgba(0, 0, 0, 0.12)' : '0 2px 8px rgba(0, 0, 0, 0.08)',
+          transform: isHovered ? 'translateY(-6px)' : 'translateY(0)',
+          position: 'relative'
+        }}
+        onMouseEnter={() => setIsHovered(true)}
+        onMouseLeave={() => setIsHovered(false)}
+      >
+        {/* Header Section */}
+        <div style={{
+          background: feature.colors.bg,
+          padding: '20px 20px 16px 20px',
+          borderBottom: '1px solid #E5E7EB',
+          position: 'relative',
+          overflow: 'hidden'
+        }}>
+          {/* Decorative background element */}
+          <div style={{
+            position: 'absolute',
+            top: '-20px',
+            right: '-20px',
+            width: '100px',
+            height: '100px',
+            borderRadius: '50%',
+            background: 'rgba(255, 255, 255, 0.4)',
+            opacity: 0.6
+          }} />
+          <div style={{ display: 'flex', alignItems: 'center', gap: '12px', position: 'relative', zIndex: 1 }}>
+            <div style={{
+              width: '48px',
+              height: '48px',
+              borderRadius: '12px',
+              background: '#FFFFFF',
+              display: 'flex',
+              alignItems: 'center',
+              justifyContent: 'center',
+              border: `2px solid ${feature.colors.icon}20`
+            }}>
+              <IconComponent style={{ 
+                fontSize: '24px', 
+                color: feature.colors.icon
+              }} />
+            </div>
+            <div>
+              <Text 
+                style={{ 
+                  fontSize: '18px',
+                  fontWeight: '700',
+                  color: '#1F2937',
+                  lineHeight: '1.2',
+                  display: 'block'
+                }}
+              >
+                {feature.name}
+              </Text>
+              <Text style={{ 
+                fontSize: '12px',
+                color: '#6B7280',
+                fontWeight: '500',
+                display: 'block',
+                marginTop: '4px'
+              }}>
+                {feature.description}
+              </Text>
+            </div>
+          </div>
+        </div>
+        
+        {/* Center Section - Features List */}
+        <div style={{ 
+          flex: 1,
+          padding: '20px',
+          display: 'flex',
+          flexDirection: 'column',
+          gap: '12px'
+        }}>
+          {feature.features.map((item: string, itemIndex: number) => (
+            <div 
+              key={itemIndex}
+              style={{
+                display: 'flex',
+                alignItems: 'flex-start',
+                gap: '12px',
+                padding: '12px',
+                borderRadius: '12px',
+                background: '#F9FAFB',
+                transition: 'all 0.2s ease',
+                transform: isHovered ? 'translateX(4px)' : 'translateX(0)'
+              }}
+            >
+              {/* Check Icon */}
+              <div style={{
+                width: '24px',
+                height: '24px',
+                borderRadius: '6px',
+                background: feature.colors.bg,
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                flexShrink: 0,
+                border: `1px solid ${feature.colors.icon}30`
+              }}>
+                <CheckCircleOutlined style={{ 
+                  fontSize: '14px', 
+                  color: feature.colors.icon
+                }} />
+              </div>
+              {/* Feature Text */}
+              <Text 
+                style={{ 
+                  fontSize: '13px',
+                  color: '#1F2937',
+                  fontWeight: '500',
+                  lineHeight: '1.5',
+                  flex: 1
+                }}
+              >
+                {item}
+              </Text>
+            </div>
+          ))}
+        </div>
+      </div>
+    </Col>
+  );
+};
 
 export default function LandingPage() {
   const primaryColor = '#FF7846';
@@ -158,230 +308,668 @@ export default function LandingPage() {
   ];
 
   return (
-    <AppLayout showAuth={true} showFooter={false}>
-      {/* Compact Hero Section */}
+    <AppLayout showAuth={true} showFooter={true}>
+      {/* MPSC Exam Preparation Section - Coinbase Style */}
       <div style={{ 
-        background: gradient,
-        padding: '60px 24px',
-        textAlign: 'center',
-        color: 'white'
+        marginBottom: '0', 
+        padding: '80px 16px',
+        background: '#F8FAFC'
       }}>
-        <div style={{ maxWidth: '800px', margin: '0 auto' }}>
-          <div style={{ marginBottom: '24px', display: 'flex', justifyContent: 'center', alignItems: 'center' }}>
-            <img 
-              src="/assets/padhero logo.svg" 
-              alt="Padhero" 
-              style={{ height: '52px', width: 'auto', objectFit: 'contain', filter: 'brightness(0) invert(1)', borderRadius: '10px' }} 
-            />
-          </div>
-          <Title level={1} style={{ color: 'white', fontSize: '2.5rem', marginBottom: '16px' }}>
-            Master MPSC with Padhero
-          </Title>
-          
-          <Paragraph style={{ 
-            fontSize: '1.1rem', 
-            color: 'rgba(255,255,255,0.9)', 
-            marginBottom: '30px',
-            maxWidth: '600px',
-            margin: '0 auto 30px auto'
+        <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
+          <div style={{
+            background: 'linear-gradient(135deg, #FFFFFF 0%, #F8FAFC 100%)',
+            borderRadius: '24px',
+            border: '1px solid #E5E7EB',
+            padding: '64px 48px',
+            boxShadow: '0 4px 20px rgba(0, 0, 0, 0.08)',
+            position: 'relative',
+            overflow: 'hidden'
           }}>
-            70,000+ Questions • Bilingual Support • All MPSC Grades
-          </Paragraph>
-          
-          <Space size="large">
-            <Link to="/register">
-              <Button 
-                type="primary" 
-                size="large" 
-                style={{ 
-                  background: 'white', 
-                  borderColor: 'white',
-                  color: primaryColor,
-                  height: '50px',
-                  padding: '0 32px',
-                  fontSize: '16px',
-                  fontWeight: 'bold'
-                }}
-              >
-                Register Now
-              </Button>
-            </Link>
-            <Button 
-              size="large" 
-              style={{ 
-                background: 'rgba(255,255,255,0.1)', 
-                borderColor: 'rgba(255,255,255,0.3)',
-                color: 'white',
-                height: '50px',
-                padding: '0 32px',
-                fontSize: '16px'
-              }}
-            >
-              Watch Demo
-            </Button>
-          </Space>
-        </div>
-      </div>
+            {/* Decorative background elements */}
+            <div style={{
+              position: 'absolute',
+              top: '-100px',
+              right: '-100px',
+              width: '400px',
+              height: '400px',
+              borderRadius: '50%',
+              background: 'linear-gradient(135deg, rgba(37, 99, 235, 0.05) 0%, rgba(249, 115, 22, 0.05) 100%)',
+              opacity: 0.6
+            }} />
+            <div style={{
+              position: 'absolute',
+              bottom: '-80px',
+              left: '-80px',
+              width: '300px',
+              height: '300px',
+              borderRadius: '50%',
+              background: 'linear-gradient(135deg, rgba(16, 185, 129, 0.05) 0%, rgba(37, 99, 235, 0.05) 100%)',
+              opacity: 0.5
+            }} />
+            
+            <div style={{ position: 'relative', zIndex: 1 }}>
+              {/* Main Heading */}
+              <div style={{ 
+                textAlign: 'center', 
+                marginBottom: '48px' 
+              }}>
+                <Title level={1} style={{ 
+                  margin: '0 0 16px 0',
+                  fontSize: '42px',
+                  fontWeight: '800',
+                  color: '#1F2937',
+                  lineHeight: '1.2',
+                  letterSpacing: '-0.5px'
+                }}>
+                  Prepare for Maharashtra Government Exams
+                </Title>
+                <Text style={{ 
+                  fontSize: '20px',
+                  color: '#6B7280',
+                  fontWeight: '500',
+                  lineHeight: '1.6',
+                  maxWidth: '700px',
+                  margin: '0 auto',
+                  display: 'block'
+                }}>
+                  Comprehensive preparation platform for MPSC, Talathi, Clerk, PSI, STI, and other Maharashtra state government examinations
+                </Text>
+              </div>
 
-      {/* Stats Section */}
-      <div style={{ padding: '50px 24px', background: '#f8f9fa' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <Row gutter={[32, 32]} justify="center">
-            <Col xs={24} sm={6}>
-              <Card style={{ textAlign: 'center', border: 'none', boxShadow: 'none' }}>
-                <Statistic
-                  title="Students"
-                  value={10000}
-                  suffix="+"
-                  valueStyle={{ color: primaryColor, fontSize: '2rem' }}
-                />
-              </Card>
-            </Col>
-            <Col xs={24} sm={6}>
-              <Card style={{ textAlign: 'center', border: 'none', boxShadow: 'none' }}>
-                <Statistic
-                  title="Questions"
-                  value={70000}
-                  suffix="+"
-                  valueStyle={{ color: primaryColor, fontSize: '2rem' }}
-                />
-              </Card>
-            </Col>
-            <Col xs={24} sm={6}>
-              <Card style={{ textAlign: 'center', border: 'none', boxShadow: 'none' }}>
-                <Statistic
-                  title="Success Rate"
-                  value={95}
-                  suffix="%"
-                  valueStyle={{ color: primaryColor, fontSize: '2rem' }}
-                />
-              </Card>
-            </Col>
-            <Col xs={24} sm={6}>
-              <Card style={{ textAlign: 'center', border: 'none', boxShadow: 'none' }}>
-                <Statistic
-                  title="Exam Categories"
-                  value={4}
-                  valueStyle={{ color: primaryColor, fontSize: '2rem' }}
-                />
-              </Card>
-            </Col>
-          </Row>
-        </div>
-      </div>
+              {/* Exam Types Grid */}
+              <Row gutter={[24, 24]} style={{ marginBottom: '40px' }}>
+                {[
+                  { 
+                    name: 'MPSC', 
+                    fullName: 'Maharashtra Public Service Commission',
+                    icon: TrophyOutlined,
+                    color: '#2563EB',
+                    bg: 'linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%)'
+                  },
+                  { 
+                    name: 'Talathi', 
+                    fullName: 'Talathi Exam',
+                    icon: FileTextOutlined,
+                    color: '#10B981',
+                    bg: 'linear-gradient(135deg, #D1FAE5 0%, #A7F3D0 100%)'
+                  },
+                  { 
+                    name: 'Clerk', 
+                    fullName: 'Clerk Exam',
+                    icon: BankOutlined,
+                    color: '#7C3AED',
+                    bg: 'linear-gradient(135deg, #F3E8FF 0%, #E9D5FF 100%)'
+                  },
+                  { 
+                    name: 'PSI', 
+                    fullName: 'Police Sub-Inspector',
+                    icon: SafetyOutlined,
+                    color: '#F97316',
+                    bg: 'linear-gradient(135deg, #FFF7ED 0%, #FFEDD5 100%)'
+                  },
+                  { 
+                    name: 'STI', 
+                    fullName: 'Sales Tax Inspector',
+                    icon: AuditOutlined,
+                    color: '#EC4899',
+                    bg: 'linear-gradient(135deg, #FCE7F3 0%, #FBCFE8 100%)'
+                  },
+                  { 
+                    name: 'Other Exams', 
+                    fullName: 'Various State Exams',
+                    icon: RocketOutlined,
+                    color: '#6366F1',
+                    bg: 'linear-gradient(135deg, #E0E7FF 0%, #C7D2FE 100%)'
+                  }
+                ].map((exam, index) => {
+                  const IconComponent = exam.icon;
+                  return (
+                    <Col xs={24} sm={12} md={8} lg={8} xl={8} key={index}>
+                      <div style={{
+                        background: '#FFFFFF',
+                        borderRadius: '16px',
+                        padding: '32px 24px',
+                        border: '1px solid #E5E7EB',
+                        transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                        cursor: 'pointer',
+                        height: '100%',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        alignItems: 'center',
+                        textAlign: 'center',
+                        boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)'
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.transform = 'translateY(-4px)';
+                        e.currentTarget.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.12)';
+                        e.currentTarget.style.borderColor = exam.color;
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.transform = 'translateY(0)';
+                        e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.04)';
+                        e.currentTarget.style.borderColor = '#E5E7EB';
+                      }}>
+                        <div style={{
+                          width: '64px',
+                          height: '64px',
+                          borderRadius: '16px',
+                          background: exam.bg,
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center',
+                          marginBottom: '20px',
+                          border: `2px solid ${exam.color}20`
+                        }}>
+                          <IconComponent style={{ 
+                            fontSize: '32px', 
+                            color: exam.color 
+                          }} />
+                        </div>
+                        <Title level={4} style={{ 
+                          margin: '0 0 8px 0',
+                          fontSize: '22px',
+                          fontWeight: '700',
+                          color: '#1F2937'
+                        }}>
+                          {exam.name}
+                        </Title>
+                        <Text style={{ 
+                          fontSize: '14px',
+                          color: '#6B7280',
+                          fontWeight: '500',
+                          lineHeight: '1.5'
+                        }}>
+                          {exam.fullName}
+                        </Text>
+                      </div>
+                    </Col>
+                  );
+                })}
+              </Row>
 
-      {/* Question Bank Section */}
-      <div style={{ padding: '80px 24px' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-            <Title level={2}>70,000+ Practice Questions</Title>
-            <Paragraph style={{ fontSize: '1.1rem', color: '#666', maxWidth: '600px', margin: '0 auto' }}>
-              Comprehensive question bank covering all topics and difficulty levels for complete preparation
-            </Paragraph>
+              {/* Features Section */}
+              <div style={{
+                background: '#F9FAFB',
+                borderRadius: '16px',
+                padding: '40px 32px',
+                border: '1px solid #E5E7EB',
+                marginTop: '32px'
+              }}>
+                <Row gutter={[32, 24]}>
+                  <Col xs={24} sm={12} md={6}>
+                    <div style={{ textAlign: 'center' }}>
+                      <div style={{
+                        fontSize: '36px',
+                        fontWeight: '800',
+                        color: '#2563EB',
+                        marginBottom: '8px',
+                        lineHeight: '1.2'
+                      }}>
+                        10,000+
+                      </div>
+                      <Text style={{ 
+                        fontSize: '15px',
+                        color: '#6B7280',
+                        fontWeight: '600'
+                      }}>
+                        Practice Questions
+                      </Text>
+                    </div>
+                  </Col>
+                  <Col xs={24} sm={12} md={6}>
+                    <div style={{ textAlign: 'center' }}>
+                      <div style={{
+                        fontSize: '36px',
+                        fontWeight: '800',
+                        color: '#10B981',
+                        marginBottom: '8px',
+                        lineHeight: '1.2'
+                      }}>
+                        50+
+                      </div>
+                      <Text style={{ 
+                        fontSize: '15px',
+                        color: '#6B7280',
+                        fontWeight: '600'
+                      }}>
+                        Exam Categories
+                      </Text>
+                    </div>
+                  </Col>
+                  <Col xs={24} sm={12} md={6}>
+                    <div style={{ textAlign: 'center' }}>
+                      <div style={{
+                        fontSize: '36px',
+                        fontWeight: '800',
+                        color: '#F97316',
+                        marginBottom: '8px',
+                        lineHeight: '1.2'
+                      }}>
+                        24/7
+                      </div>
+                      <Text style={{ 
+                        fontSize: '15px',
+                        color: '#6B7280',
+                        fontWeight: '600'
+                      }}>
+                        Access Anytime
+                      </Text>
+                    </div>
+                  </Col>
+                  <Col xs={24} sm={12} md={6}>
+                    <div style={{ textAlign: 'center' }}>
+                      <div style={{
+                        fontSize: '36px',
+                        fontWeight: '800',
+                        color: '#7C3AED',
+                        marginBottom: '8px',
+                        lineHeight: '1.2'
+                      }}>
+                        100%
+                      </div>
+                      <Text style={{ 
+                        fontSize: '15px',
+                        color: '#6B7280',
+                        fontWeight: '600'
+                      }}>
+                        Free to Start
+                      </Text>
+                    </div>
+                  </Col>
+                </Row>
+              </div>
+
+              {/* CTA Button */}
+              <div style={{ 
+                textAlign: 'center', 
+                marginTop: '40px' 
+              }}>
+                <Link to="/register" style={{ textDecoration: 'none' }}>
+                  <Button 
+                    type="primary"
+                    size="large"
+                    style={{
+                      height: '56px',
+                      padding: '0 40px',
+                      fontSize: '18px',
+                      fontWeight: '700',
+                      borderRadius: '12px',
+                      background: 'linear-gradient(135deg, #2563EB 0%, #1E40AF 100%)',
+                      border: 'none',
+                      boxShadow: '0 4px 12px rgba(37, 99, 235, 0.3)',
+                      transition: 'all 0.3s ease'
+                    }}
+                    onMouseEnter={(e) => {
+                      e.currentTarget.style.transform = 'translateY(-2px)';
+                      e.currentTarget.style.boxShadow = '0 6px 20px rgba(37, 99, 235, 0.4)';
+                    }}
+                    onMouseLeave={(e) => {
+                      e.currentTarget.style.transform = 'translateY(0)';
+                      e.currentTarget.style.boxShadow = '0 4px 12px rgba(37, 99, 235, 0.3)';
+                    }}
+                  >
+                    Get Started Free
+                    <ArrowRightOutlined style={{ marginLeft: '8px', fontSize: '18px' }} />
+                  </Button>
+                </Link>
+              </div>
+            </div>
           </div>
-          
-          <Row gutter={[32, 32]}>
-            {difficultyLevels.map((difficulty, index) => (
-              <Col xs={24} md={8} key={index}>
-                <Card 
-                  hoverable
-                  style={{ 
-                    height: '100%',
-                    borderRadius: '12px',
-                    border: `2px solid ${difficulty.color}20`,
-                    textAlign: 'center'
-                  }}
-                  bodyStyle={{ padding: '32px' }}
-                >
-                  <div style={{ 
-                    fontSize: '48px', 
-                    color: difficulty.color, 
-                    marginBottom: '20px' 
-                  }}>
-                    {difficulty.icon}
-                  </div>
-                  <Title level={3} style={{ color: difficulty.color, marginBottom: '16px' }}>
-                    {difficulty.level}
-                  </Title>
-                  <div style={{ marginBottom: '16px' }}>
-                    <Text strong style={{ fontSize: '1.5rem', color: primaryColor }}>
-                      {difficulty.questions}
-                    </Text>
-                    <br />
-                    <Text type="secondary">Questions</Text>
-                  </div>
-                  <Paragraph style={{ color: '#666', marginBottom: '0' }}>
-                    {difficulty.description}
-                  </Paragraph>
-                </Card>
-              </Col>
+        </div>
+      </div>
+
+      {/* Features Section Below MPSC Card */}
+      <div style={{ 
+        padding: '80px 16px',
+        background: '#FFFFFF'
+      }}>
+        <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '48px' }}>
+            <Title level={2} style={{ 
+              margin: '0 0 16px 0',
+              fontSize: '36px',
+              fontWeight: '800',
+              color: '#1F2937'
+            }}>
+              Features
+            </Title>
+            <Text style={{ 
+              fontSize: '18px',
+              color: '#6B7280',
+              fontWeight: '500',
+              maxWidth: '700px',
+              margin: '0 auto',
+              display: 'block'
+            }}>
+              Comprehensive tools and resources designed to help you excel in Maharashtra Government Exams
+            </Text>
+          </div>
+
+          <Row gutter={[24, 24]}>
+            {[
+              {
+                name: 'Leaderboard',
+                icon: TrophyOutlined,
+                description: 'Compete with thousands of aspirants and track your ranking',
+                features: [
+                  'Real-time ranking updates',
+                  'Compare performance with peers',
+                  'Track progress over time',
+                  'See top performers'
+                ],
+                colors: { bg: 'linear-gradient(135deg, #FEF3C7 0%, #FDE68A 100%)', icon: '#F59E0B', hover: '#D97706' }
+              },
+              {
+                name: 'Exams',
+                icon: BookOutlined,
+                description: 'Create and take personalized mock exams with custom settings',
+                features: [
+                  'Custom question distribution',
+                  'Flexible timing options',
+                  'Realistic negative marking',
+                  'Detailed performance analysis'
+                ],
+                colors: { bg: 'linear-gradient(135deg, #FEE2E2 0%, #FECACA 100%)', icon: '#EF4444', hover: '#DC2626' }
+              },
+              {
+                name: 'Practice',
+                icon: PlayCircleOutlined,
+                description: 'Smart practice sessions with adaptive difficulty',
+                features: [
+                  '15-minute focused sessions',
+                  '20 questions per session',
+                  'Adaptive difficulty system',
+                  'Instant feedback and explanations'
+                ],
+                colors: { bg: 'linear-gradient(135deg, #E0E7FF 0%, #C7D2FE 100%)', icon: '#6366F1', hover: '#4F46E5' }
+              },
+              {
+                name: 'Notes',
+                icon: FileTextOutlined,
+                description: 'Save and organize your study notes efficiently',
+                features: [
+                  'Create and edit notes',
+                  'Organize by categories',
+                  'Quick search functionality',
+                  'Access from anywhere'
+                ],
+                colors: { bg: 'linear-gradient(135deg, #D1FAE5 0%, #A7F3D0 100%)', icon: '#10B981', hover: '#059669' }
+              },
+              {
+                name: 'Analytics',
+                icon: AnalyticsOutlined,
+                description: 'Get deep insights into your performance',
+                features: [
+                  'Performance statistics',
+                  'Weak area identification',
+                  'Improvement trends',
+                  'AI-powered recommendations'
+                ],
+                colors: { bg: 'linear-gradient(135deg, #FCE7F3 0%, #FBCFE8 100%)', icon: '#EC4899', hover: '#DB2777' }
+              },
+              {
+                name: 'Progress Tracking',
+                icon: RocketOutlined,
+                description: 'Monitor your learning journey and achievements',
+                features: [
+                  'Daily streak tracking',
+                  'Weekly progress reports',
+                  'Achievement milestones',
+                  'Visual progress indicators'
+                ],
+                colors: { bg: 'linear-gradient(135deg, #EFF6FF 0%, #DBEAFE 100%)', icon: '#2563EB', hover: '#1E40AF' }
+              }
+            ].map((feature, index) => (
+              <FeatureCard key={index} feature={feature} />
             ))}
           </Row>
 
-          {/* Total Questions Progress */}
-          <div style={{ marginTop: '60px', textAlign: 'center' }}>
-            <Card style={{ borderRadius: '12px', background: '#fffaf0' }}>
-              <DatabaseOutlined style={{ fontSize: '48px', color: primaryColor, marginBottom: '20px' }} />
-              <Title level={4} style={{ color: primaryColor }}>
-                Total Question Bank: 70,000+ Questions
+          {/* Quick Links Section */}
+          <div style={{
+            marginTop: '48px',
+            background: '#F9FAFB',
+            borderRadius: '20px',
+            padding: '40px 32px',
+            border: '1px solid #E5E7EB'
+          }}>
+            <div style={{ textAlign: 'center', marginBottom: '32px' }}>
+              <Title level={3} style={{ 
+                margin: '0 0 8px 0',
+                fontSize: '24px',
+                fontWeight: '700',
+                color: '#1F2937'
+              }}>
+                Explore Our Platform
               </Title>
-              <Progress 
-                percent={100}
-                strokeColor={{
-                  '0%': '#FF7846',
-                  '100%': '#FF5722',
-                }}
-                style={{ maxWidth: '400px', margin: '0 auto' }}
-              />
-              <Text type="secondary" style={{ marginTop: '16px', display: 'block' }}>
-                Continuously updated with latest exam patterns
+              <Text style={{ 
+                fontSize: '16px',
+                color: '#6B7280'
+              }}>
+                Access all features and resources
               </Text>
-            </Card>
+            </div>
+            <Row gutter={[16, 16]}>
+              <Col xs={12} sm={8} md={6} lg={6}>
+                <Link to="/leaderboard" style={{ textDecoration: 'none' }}>
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    padding: '24px',
+                    borderRadius: '12px',
+                    background: '#FFFFFF',
+                    border: '1px solid #E5E7EB',
+                    cursor: 'pointer',
+                    transition: 'all 0.2s ease'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-4px)';
+                    e.currentTarget.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.1)';
+                    e.currentTarget.style.borderColor = '#2563EB';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = 'none';
+                    e.currentTarget.style.borderColor = '#E5E7EB';
+                  }}>
+                    <TrophyOutlined style={{ fontSize: '32px', color: '#2563EB', marginBottom: '12px' }} />
+                    <Text style={{ fontSize: '15px', fontWeight: '600', color: '#1F2937' }}>Leaderboard</Text>
+                  </div>
+                </Link>
+              </Col>
+              <Col xs={12} sm={8} md={6} lg={6}>
+                <Link to="/notes" style={{ textDecoration: 'none' }}>
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    padding: '24px',
+                    borderRadius: '12px',
+                    background: '#FFFFFF',
+                    border: '1px solid #E5E7EB',
+                    cursor: 'pointer',
+                    transition: 'all 0.2s ease'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-4px)';
+                    e.currentTarget.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.1)';
+                    e.currentTarget.style.borderColor = '#10B981';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = 'none';
+                    e.currentTarget.style.borderColor = '#E5E7EB';
+                  }}>
+                    <FileTextOutlined style={{ fontSize: '32px', color: '#10B981', marginBottom: '12px' }} />
+                    <Text style={{ fontSize: '15px', fontWeight: '600', color: '#1F2937' }}>Notes</Text>
+                  </div>
+                </Link>
+              </Col>
+              <Col xs={12} sm={8} md={6} lg={6}>
+                <Link to="/exams" style={{ textDecoration: 'none' }}>
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    padding: '24px',
+                    borderRadius: '12px',
+                    background: '#FFFFFF',
+                    border: '1px solid #E5E7EB',
+                    cursor: 'pointer',
+                    transition: 'all 0.2s ease'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-4px)';
+                    e.currentTarget.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.1)';
+                    e.currentTarget.style.borderColor = '#F97316';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = 'none';
+                    e.currentTarget.style.borderColor = '#E5E7EB';
+                  }}>
+                    <BookOutlined style={{ fontSize: '32px', color: '#F97316', marginBottom: '12px' }} />
+                    <Text style={{ fontSize: '15px', fontWeight: '600', color: '#1F2937' }}>Exams</Text>
+                  </div>
+                </Link>
+              </Col>
+              <Col xs={12} sm={8} md={6} lg={6}>
+                <Link to="/practice" style={{ textDecoration: 'none' }}>
+                  <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    padding: '24px',
+                    borderRadius: '12px',
+                    background: '#FFFFFF',
+                    border: '1px solid #E5E7EB',
+                    cursor: 'pointer',
+                    transition: 'all 0.2s ease'
+                  }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-4px)';
+                    e.currentTarget.style.boxShadow = '0 8px 16px rgba(0, 0, 0, 0.1)';
+                    e.currentTarget.style.borderColor = '#7C3AED';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = 'none';
+                    e.currentTarget.style.borderColor = '#E5E7EB';
+                  }}>
+                    <PlayCircleOutlined style={{ fontSize: '32px', color: '#7C3AED', marginBottom: '12px' }} />
+                    <Text style={{ fontSize: '15px', fontWeight: '600', color: '#1F2937' }}>Practice</Text>
+                  </div>
+                </Link>
+              </Col>
+            </Row>
           </div>
         </div>
       </div>
 
+
+
       {/* Exam Coverage Section */}
-      <div style={{ padding: '80px 24px', background: '#f8f9fa' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-            <Title level={2}>Complete Exam Coverage</Title>
-            <Paragraph style={{ fontSize: '1.1rem', color: '#666', maxWidth: '600px', margin: '0 auto' }}>
+      <div style={{ 
+        padding: '80px 16px',
+        background: '#FFFFFF'
+      }}>
+        <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '48px' }}>
+            <Title level={2} style={{ 
+              margin: '0 0 16px 0',
+              fontSize: '36px',
+              fontWeight: '800',
+              color: '#1F2937'
+            }}>
+              Complete Exam Coverage
+            </Title>
+            <Text style={{ 
+              fontSize: '18px',
+              color: '#6B7280',
+              fontWeight: '500',
+              maxWidth: '700px',
+              margin: '0 auto',
+              display: 'block'
+            }}>
               Prepare for all major MPSC grades and state service examinations with specialized content
-            </Paragraph>
+            </Text>
           </div>
           
-          <Row gutter={[32, 32]}>
+          <Row gutter={[24, 24]}>
             {examCategories.map((exam, index) => (
-              <Col xs={24} md={6} key={index}>
+              <Col xs={24} sm={12} md={6} key={index}>
                 <Card 
                   hoverable
                   style={{ 
                     height: '100%',
-                    borderRadius: '12px',
-                    border: `2px solid ${exam.color}20`,
-                    textAlign: 'center'
+                    borderRadius: '16px',
+                    border: '1px solid #E5E7EB',
+                    textAlign: 'center',
+                    boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)',
+                    transition: 'all 0.3s ease'
                   }}
-                  bodyStyle={{ padding: '24px' }}
+                  bodyStyle={{ padding: '32px 24px' }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-4px)';
+                    e.currentTarget.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.12)';
+                    e.currentTarget.style.borderColor = exam.color;
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.04)';
+                    e.currentTarget.style.borderColor = '#E5E7EB';
+                  }}
                 >
-                  <SafetyCertificateOutlined style={{ 
-                    fontSize: '48px', 
-                    color: exam.color, 
-                    marginBottom: '16px' 
-                  }} />
-                  <Title level={4} style={{ marginBottom: '12px', color: exam.color }}>
+                  <div style={{
+                    width: '64px',
+                    height: '64px',
+                    borderRadius: '16px',
+                    background: `linear-gradient(135deg, ${exam.color}15 0%, ${exam.color}25 100%)`,
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    margin: '0 auto 20px auto',
+                    border: `2px solid ${exam.color}30`
+                  }}>
+                    <SafetyCertificateOutlined style={{ 
+                      fontSize: '32px', 
+                      color: exam.color
+                    }} />
+                  </div>
+                  <Title level={4} style={{ 
+                    margin: '0 0 12px 0',
+                    fontSize: '20px',
+                    fontWeight: '700',
+                    color: '#1F2937'
+                  }}>
                     {exam.title}
                   </Title>
                   <div style={{ marginBottom: '12px' }}>
-                    <Text strong style={{ fontSize: '1.2rem', color: primaryColor }}>
+                    <Text strong style={{ 
+                      fontSize: '24px',
+                      fontWeight: '800',
+                      color: exam.color,
+                      display: 'block',
+                      marginBottom: '4px'
+                    }}>
                       {exam.questions}
                     </Text>
-                    <br />
-                    <Text type="secondary">Questions</Text>
+                    <Text style={{ 
+                      fontSize: '14px',
+                      color: '#6B7280',
+                      fontWeight: '500'
+                    }}>
+                      Questions
+                    </Text>
                   </div>
-                  <Paragraph style={{ color: '#666', margin: 0, fontSize: '14px' }}>
+                  <Text style={{ 
+                    color: '#6B7280',
+                    fontSize: '14px',
+                    lineHeight: '1.6',
+                    display: 'block'
+                  }}>
                     {exam.description}
-                  </Paragraph>
+                  </Text>
                 </Card>
               </Col>
             ))}
@@ -390,51 +978,102 @@ export default function LandingPage() {
       </div>
 
       {/* Language Support Section */}
-      <div style={{ padding: '80px 24px' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-            <Title level={2}>Bilingual Learning Experience</Title>
-            <Paragraph style={{ fontSize: '1.1rem', color: '#666', maxWidth: '600px', margin: '0 auto' }}>
+      <div style={{ 
+        padding: '80px 16px',
+        background: '#F8FAFC'
+      }}>
+        <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '48px' }}>
+            <Title level={2} style={{ 
+              margin: '0 0 16px 0',
+              fontSize: '36px',
+              fontWeight: '800',
+              color: '#1F2937'
+            }}>
+              Bilingual Learning Experience
+            </Title>
+            <Text style={{ 
+              fontSize: '18px',
+              color: '#6B7280',
+              fontWeight: '500',
+              maxWidth: '700px',
+              margin: '0 auto',
+              display: 'block'
+            }}>
               Study in your preferred language with complete Marathi and English support
-            </Paragraph>
+            </Text>
           </div>
           
-          <Row gutter={[32, 32]}>
+          <Row gutter={[24, 24]}>
             {languageFeatures.map((lang, index) => (
               <Col xs={24} md={12} key={index}>
                 <Card 
                   hoverable
                   style={{ 
                     height: '100%',
-                    borderRadius: '12px',
-                    border: `2px solid ${primaryColor}20`,
-                    textAlign: 'center'
+                    borderRadius: '16px',
+                    border: '1px solid #E5E7EB',
+                    textAlign: 'center',
+                    background: '#FFFFFF',
+                    boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)',
+                    transition: 'all 0.3s ease'
                   }}
-                  bodyStyle={{ padding: '32px' }}
+                  bodyStyle={{ padding: '40px 32px' }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-4px)';
+                    e.currentTarget.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.12)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.04)';
+                  }}
                 >
                   <div style={{ 
                     fontSize: '48px', 
-                    color: primaryColor, 
-                    marginBottom: '20px' 
+                    color: '#2563EB', 
+                    marginBottom: '24px' 
                   }}>
                     {lang.icon}
                   </div>
-                  <Title level={3} style={{ marginBottom: '16px', color: primaryColor }}>
+                  <Title level={3} style={{ 
+                    margin: '0 0 16px 0',
+                    fontSize: '24px',
+                    fontWeight: '700',
+                    color: '#1F2937'
+                  }}>
                     {lang.language}
                   </Title>
-                  <Paragraph style={{ color: '#666', marginBottom: '24px' }}>
+                  <Text style={{ 
+                    color: '#6B7280',
+                    fontSize: '15px',
+                    lineHeight: '1.6',
+                    marginBottom: '24px',
+                    display: 'block'
+                  }}>
                     {lang.description}
-                  </Paragraph>
+                  </Text>
                   <Space direction="vertical" size="small" style={{ width: '100%' }}>
                     {lang.features.map((feature, idx) => (
                       <div key={idx} style={{ 
-                        padding: '8px 16px', 
-                        background: `${primaryColor}10`,
-                        borderRadius: '6px',
-                        border: `1px solid ${primaryColor}20`
+                        padding: '12px 16px', 
+                        background: '#F9FAFB',
+                        borderRadius: '10px',
+                        border: '1px solid #E5E7EB',
+                        textAlign: 'left',
+                        transition: 'all 0.2s ease'
+                      }}
+                      onMouseEnter={(e) => {
+                        e.currentTarget.style.background = '#F3F4F6';
+                        e.currentTarget.style.borderColor = '#D1D5DB';
+                      }}
+                      onMouseLeave={(e) => {
+                        e.currentTarget.style.background = '#F9FAFB';
+                        e.currentTarget.style.borderColor = '#E5E7EB';
                       }}>
-                        <CheckCircleOutlined style={{ color: primaryColor, marginRight: '8px' }} />
-                        {feature}
+                        <CheckCircleOutlined style={{ color: '#10B981', marginRight: '10px' }} />
+                        <Text style={{ fontSize: '14px', color: '#1F2937', fontWeight: '500' }}>
+                          {feature}
+                        </Text>
                       </div>
                     ))}
                   </Space>
@@ -446,37 +1085,75 @@ export default function LandingPage() {
       </div>
 
       {/* Features Section */}
-      <div style={{ padding: '80px 24px', background: '#f8f9fa' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-            <Title level={2}>Advanced Learning Features</Title>
-            <Paragraph style={{ fontSize: '1.1rem', color: '#666', maxWidth: '600px', margin: '0 auto' }}>
+      <div style={{ 
+        padding: '80px 16px',
+        background: '#FFFFFF'
+      }}>
+        <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '48px' }}>
+            <Title level={2} style={{ 
+              margin: '0 0 16px 0',
+              fontSize: '36px',
+              fontWeight: '800',
+              color: '#1F2937'
+            }}>
+              Advanced Learning Features
+            </Title>
+            <Text style={{ 
+              fontSize: '18px',
+              color: '#6B7280',
+              fontWeight: '500',
+              maxWidth: '700px',
+              margin: '0 auto',
+              display: 'block'
+            }}>
               Smart tools and features designed to maximize your preparation efficiency
-            </Paragraph>
+            </Text>
           </div>
           
-          <Row gutter={[32, 32]}>
+          <Row gutter={[24, 24]}>
             {features.map((feature, index) => (
               <Col xs={24} md={12} key={index}>
                 <Card 
                   hoverable
                   style={{ 
                     height: '100%',
-                    borderRadius: '12px',
-                    border: `2px solid ${primaryColor}20`
+                    borderRadius: '16px',
+                    border: '1px solid #E5E7EB',
+                    background: '#FFFFFF',
+                    boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)',
+                    transition: 'all 0.3s ease'
                   }}
-                  bodyStyle={{ padding: '32px' }}
+                  bodyStyle={{ padding: '40px 32px' }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-4px)';
+                    e.currentTarget.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.12)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.04)';
+                  }}
                 >
                   <div style={{ textAlign: 'center' }}>
-                    <div style={{ marginBottom: '20px' }}>
+                    <div style={{ marginBottom: '24px' }}>
                       {feature.icon}
                     </div>
-                    <Title level={4} style={{ marginBottom: '16px', color: primaryColor }}>
+                    <Title level={4} style={{ 
+                      margin: '0 0 16px 0',
+                      fontSize: '22px',
+                      fontWeight: '700',
+                      color: '#1F2937'
+                    }}>
                       {feature.title}
                     </Title>
-                    <Paragraph style={{ color: '#666', margin: 0 }}>
+                    <Text style={{ 
+                      color: '#6B7280',
+                      fontSize: '15px',
+                      lineHeight: '1.6',
+                      display: 'block'
+                    }}>
                       {feature.description}
-                    </Paragraph>
+                    </Text>
                   </div>
                 </Card>
               </Col>
@@ -486,73 +1163,100 @@ export default function LandingPage() {
       </div>
 
       {/* Testimonials Section */}
-      <div style={{ padding: '80px 24px' }}>
-        <div style={{ maxWidth: '1200px', margin: '0 auto' }}>
-          <div style={{ textAlign: 'center', marginBottom: '60px' }}>
-            <Title level={2}>Success Stories</Title>
-            <Paragraph style={{ fontSize: '1.1rem', color: '#666' }}>
-              Join thousands of successful MPSC aspirants who achieved their goals with{' '}
-              <span style={{ 
-                color: '#7f8f9d',
-                fontFamily: 'Anton, sans-serif',
-                fontWeight: 'bold',
-                fontStyle: 'italic'
-              }}>G</span>
-              <span style={{ 
-                color: '#160676',
-                fontFamily: 'Anton, sans-serif',
-                fontWeight: 'bold',
-                fontStyle: 'italic',
-                position: 'relative'
-              }}>
-                S
-                <span style={{
-                  position: 'absolute',
-                  top: '-8px',
-                  right: '-2px',
-                  color: '#160676',
-                  fontSize: '10px',
-                  transform: 'rotate(-45deg)',
-                  fontWeight: 'bold'
-                }}>&gt;</span>
-              </span>
-            </Paragraph>
+      <div style={{ 
+        padding: '80px 16px',
+        background: '#F8FAFC'
+      }}>
+        <div style={{ maxWidth: '1400px', margin: '0 auto' }}>
+          <div style={{ textAlign: 'center', marginBottom: '48px' }}>
+            <Title level={2} style={{ 
+              margin: '0 0 16px 0',
+              fontSize: '36px',
+              fontWeight: '800',
+              color: '#1F2937'
+            }}>
+              Success Stories
+            </Title>
+            <Text style={{ 
+              fontSize: '18px',
+              color: '#6B7280',
+              fontWeight: '500',
+              maxWidth: '700px',
+              margin: '0 auto',
+              display: 'block'
+            }}>
+              Join thousands of successful MPSC aspirants who achieved their goals with Padhero
+            </Text>
           </div>
           
-          <Row gutter={[32, 32]}>
+          <Row gutter={[24, 24]}>
             {testimonials.map((testimonial, index) => (
-              <Col xs={24} md={6} key={index}>
+              <Col xs={24} sm={12} md={6} key={index}>
                 <Card 
                   style={{ 
                     height: '100%',
-                    borderRadius: '12px',
-                    border: `2px solid ${primaryColor}20`
+                    borderRadius: '16px',
+                    border: '1px solid #E5E7EB',
+                    background: '#FFFFFF',
+                    boxShadow: '0 2px 8px rgba(0, 0, 0, 0.04)',
+                    transition: 'all 0.3s ease'
                   }}
-                  bodyStyle={{ padding: '24px' }}
+                  bodyStyle={{ padding: '32px 24px' }}
+                  onMouseEnter={(e) => {
+                    e.currentTarget.style.transform = 'translateY(-4px)';
+                    e.currentTarget.style.boxShadow = '0 8px 24px rgba(0, 0, 0, 0.12)';
+                  }}
+                  onMouseLeave={(e) => {
+                    e.currentTarget.style.transform = 'translateY(0)';
+                    e.currentTarget.style.boxShadow = '0 2px 8px rgba(0, 0, 0, 0.04)';
+                  }}
                 >
                   <div style={{ textAlign: 'center' }}>
                     <Avatar 
                       size={64} 
                       icon={<UserOutlined />} 
-                      style={{ backgroundColor: primaryColor, marginBottom: '16px' }}
+                      style={{ 
+                        backgroundColor: '#2563EB', 
+                        marginBottom: '20px',
+                        border: '3px solid #EFF6FF'
+                      }}
                     />
-                    <div style={{ marginBottom: '12px' }}>
+                    <div style={{ marginBottom: '16px' }}>
                       {[...Array(testimonial.rating)].map((_, i) => (
-                        <StarOutlined key={i} style={{ color: '#ffd700', marginRight: '2px' }} />
+                        <StarOutlined key={i} style={{ 
+                          color: '#FCD34D', 
+                          fontSize: '16px',
+                          marginRight: '4px' 
+                        }} />
                       ))}
                     </div>
-                    <Paragraph style={{ 
+                    <Text style={{ 
                       fontStyle: 'italic', 
-                      marginBottom: '16px',
-                      fontSize: '14px',
-                      lineHeight: '1.5'
+                      marginBottom: '20px',
+                      fontSize: '15px',
+                      lineHeight: '1.6',
+                      color: '#374151',
+                      display: 'block'
                     }}>
                       "{testimonial.content}"
-                    </Paragraph>
+                    </Text>
                     <div>
-                      <Text strong style={{ fontSize: '14px' }}>{testimonial.name}</Text>
-                      <br />
-                      <Text type="secondary" style={{ fontSize: '12px' }}>{testimonial.role}</Text>
+                      <Text strong style={{ 
+                        fontSize: '16px',
+                        color: '#1F2937',
+                        fontWeight: '700',
+                        display: 'block',
+                        marginBottom: '4px'
+                      }}>
+                        {testimonial.name}
+                      </Text>
+                      <Text style={{ 
+                        fontSize: '13px',
+                        color: '#6B7280',
+                        fontWeight: '500'
+                      }}>
+                        {testimonial.role}
+                      </Text>
                     </div>
                   </div>
                 </Card>
@@ -564,35 +1268,78 @@ export default function LandingPage() {
 
       {/* CTA Section */}
       <div style={{ 
-        padding: '80px 24px',
-        background: gradient,
+        padding: '80px 16px',
+        background: 'linear-gradient(135deg, #2563EB 0%, #1E40AF 100%)',
         textAlign: 'center',
-        color: 'white'
+        color: 'white',
+        position: 'relative',
+        overflow: 'hidden'
       }}>
-        <div style={{ maxWidth: '600px', margin: '0 auto' }}>
-          <Title level={2} style={{ color: 'white', marginBottom: '20px' }}>
+        {/* Decorative elements */}
+        <div style={{
+          position: 'absolute',
+          top: '-100px',
+          right: '-100px',
+          width: '300px',
+          height: '300px',
+          borderRadius: '50%',
+          background: 'rgba(255, 255, 255, 0.1)',
+          opacity: 0.5
+        }} />
+        <div style={{
+          position: 'absolute',
+          bottom: '-80px',
+          left: '-80px',
+          width: '250px',
+          height: '250px',
+          borderRadius: '50%',
+          background: 'rgba(255, 255, 255, 0.08)',
+          opacity: 0.4
+        }} />
+        
+        <div style={{ maxWidth: '800px', margin: '0 auto', position: 'relative', zIndex: 1 }}>
+          <Title level={2} style={{ 
+            color: 'white', 
+            marginBottom: '20px',
+            fontSize: '42px',
+            fontWeight: '800',
+            lineHeight: '1.2'
+          }}>
             Start Your MPSC Journey Today
           </Title>
-          <Paragraph style={{ 
-            fontSize: '1.1rem', 
+          <Text style={{ 
+            fontSize: '20px', 
             color: 'rgba(255,255,255,0.9)', 
-            marginBottom: '40px' 
+            marginBottom: '40px',
+            lineHeight: '1.6',
+            display: 'block'
           }}>
-            Access 70,000+ questions in Marathi and English, complete exam coverage, 
+            Access comprehensive question bank in Marathi and English, complete exam coverage, 
             and advanced learning features.
-          </Paragraph>
-          <Link to="/register">
+          </Text>
+          <Link to="/register" style={{ textDecoration: 'none' }}>
             <Button 
               type="primary" 
               size="large" 
               style={{ 
                 background: 'white', 
                 borderColor: 'white',
-                color: primaryColor,
-                height: '50px',
-                padding: '0 32px',
-                fontSize: '16px',
-                fontWeight: 'bold'
+                color: '#2563EB',
+                height: '56px',
+                padding: '0 40px',
+                fontSize: '18px',
+                fontWeight: '700',
+                borderRadius: '12px',
+                boxShadow: '0 4px 12px rgba(0, 0, 0, 0.15)',
+                transition: 'all 0.3s ease'
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.transform = 'translateY(-2px)';
+                e.currentTarget.style.boxShadow = '0 6px 20px rgba(0, 0, 0, 0.2)';
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.transform = 'translateY(0)';
+                e.currentTarget.style.boxShadow = '0 4px 12px rgba(0, 0, 0, 0.15)';
               }}
             >
               Register Now - Free Trial

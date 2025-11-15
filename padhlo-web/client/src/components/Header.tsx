@@ -206,8 +206,8 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
     <ConfigProvider
       theme={{
         token: {
-          colorPrimary: '#FF7846',
-          borderRadius: 8,
+          colorPrimary: '#2563EB',
+          borderRadius: 20,
         },
       }}
     >

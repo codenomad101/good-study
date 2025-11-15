@@ -3,6 +3,7 @@ import { Layout } from 'antd';
 import { Header } from './Header';
 import { Footer } from './Footer';
 import { useAuth } from '../contexts/AuthContext';
+import { FloatingChatBubble } from './FloatingChatBubble';
 
 const { Content } = Layout;
 
@@ -25,17 +26,21 @@ export const AppLayout: React.FC<AppLayoutProps> = ({
   const shouldShowFooter = showFooter !== undefined ? showFooter : isAuthenticated;
 
   return (
-    <Layout style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column' }}>
+    <Layout style={{ minHeight: '100vh', display: 'flex', flexDirection: 'column', backgroundColor: '#F8FAFC', margin: 0, padding: 0 }}>
       <Header showAuth={showAuth} />
       <Content style={{ 
         flex: 1,
         display: 'flex',
         flexDirection: 'column',
+        backgroundColor: '#F8FAFC',
+        margin: 0,
+        padding: 0,
         ...contentStyle 
       }}>
         {children}
       </Content>
       {shouldShowFooter && <Footer />}
+      <FloatingChatBubble />
     </Layout>
   );
 };

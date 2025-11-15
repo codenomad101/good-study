@@ -29,11 +29,24 @@ export const useCreateDataServicePracticeSession = () => {
       practiceAPI.createSession(categoryId, timeLimitMinutes),
     onSuccess: (data) => {
       queryClient.invalidateQueries({ queryKey: ['practiceHistory'] });
+      queryClient.invalidateQueries({ queryKey: ['remainingSessions'] });
       message.success('Practice session created successfully!');
       return data.data;
     },
     onError: (error: any) => {
-      message.error(error.message || 'Failed to create practice session');
+      // Check if it's a subscription/plan limit error
+      if (error?.response?.status === 403 && error?.response?.data?.requiresUpgrade) {
+        const errorData = error.response.data;
+        message.error({
+          content: errorData.message || 'Free plan limit reached. Upgrade to Pro for unlimited sessions.',
+          duration: 6,
+          key: 'subscription-error'
+        });
+      } else {
+        // Generic error
+        const errorMessage = error?.response?.data?.message || error?.message || 'Failed to create practice session';
+        message.error(errorMessage);
+      }
     },
   });
 };

@@ -3,7 +3,7 @@
  * Uses fast, efficient methods to generate personalized performance insights
  */
 
-interface PerformanceData {
+export interface PerformanceData {
   overallAccuracy: number;
   totalQuestionsAttempted: number;
   currentStreak: number;
