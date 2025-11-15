@@ -286,16 +286,17 @@ const Community = () => {
                         boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
                         transition: 'all 0.3s ease',
                         position: 'relative',
-                        overflow: 'hidden'
+                        overflow: 'hidden',
+                        height: '100%'
                       }}
-                      bodyStyle={{ padding: '24px' }}
+                      bodyStyle={{ padding: '16px' }}
                     >
                       <div style={{
                         position: 'absolute',
-                        top: '16px',
-                        right: '16px',
-                        width: '36px',
-                        height: '36px',
+                        top: '12px',
+                        right: '12px',
+                        width: '28px',
+                        height: '28px',
                         borderRadius: '50%',
                         background: 'linear-gradient(135deg, #FF7846 0%, #FF5722 100%)',
                         color: 'white',
@@ -303,27 +304,33 @@ const Community = () => {
                         alignItems: 'center',
                         justifyContent: 'center',
                         fontWeight: '700',
-                        fontSize: '16px',
+                        fontSize: '14px',
                         boxShadow: '0 2px 8px rgba(0, 0, 0, 0.2)',
                         zIndex: 1
                       }}>
                         {index + 1}
                       </div>
-                      <div style={{ textAlign: 'center' }}>
+                      <div style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '12px',
+                        alignItems: 'center',
+                        textAlign: 'center'
+                      }}>
                         <Avatar 
-                          size={64}
+                          size={48}
                           style={{ 
                             background: 'linear-gradient(135deg, #FF7846 0%, #FF5722 100%)',
                             color: 'white',
                             fontWeight: '600',
-                            marginBottom: '16px'
+                            marginBottom: '4px'
                           }}
                         >
                           {getInitials(group.name)}
                         </Avatar>
                         <Title level={4} style={{ 
-                          margin: '0 0 8px 0',
-                          fontSize: '18px',
+                          margin: 0,
+                          fontSize: '16px',
                           fontWeight: '700',
                           color: '#1F2937'
                         }}>
@@ -331,49 +338,49 @@ const Community = () => {
                         </Title>
                         <Text style={{ 
                           color: '#6B7280',
-                          fontSize: '14px',
-                          display: 'block',
-                          marginBottom: '12px',
-                          minHeight: '40px'
+                          fontSize: '13px',
+                          margin: 0,
+                          minHeight: '40px',
+                          lineHeight: '1.4'
                         }}>
-                          {group.description?.substring(0, 80) || 'No description'}
-                          {group.description && group.description.length > 80 ? '...' : ''}
+                          {group.description?.substring(0, 60) || 'No description'}
+                          {group.description && group.description.length > 60 ? '...' : ''}
                         </Text>
                         {group.creator && (
                           <Text style={{ 
-                            fontSize: '12px', 
+                            fontSize: '11px', 
                             color: '#9CA3AF', 
-                            display: 'block',
-                            marginBottom: '8px'
+                            marginTop: '4px'
                           }}>
                             Created by {group.creator.fullName}
                           </Text>
                         )}
                         {group.examType && (
-                          <Tag color="blue" style={{ marginBottom: '16px' }}>
+                          <Tag color="blue" style={{ margin: '4px 0', fontSize: '11px' }}>
                             {group.examType}
                           </Tag>
                         )}
                         <div style={{
                           display: 'flex',
                           justifyContent: 'space-around',
-                          gap: '16px',
-                          marginTop: '20px',
-                          paddingTop: '20px',
-                          borderTop: '1px solid #E5E7EB'
+                          gap: '12px',
+                          marginTop: '12px',
+                          paddingTop: '12px',
+                          borderTop: '1px solid #E5E7EB',
+                          width: '100%'
                         }}>
                           <div style={{ textAlign: 'center' }}>
                             <Text style={{
                               display: 'block',
-                              fontSize: '20px',
+                              fontSize: '16px',
                               fontWeight: '700',
                               color: '#2563EB',
-                              marginBottom: '4px'
+                              marginBottom: '2px'
                             }}>
                               {group.postCount || 0}
                             </Text>
                             <Text style={{
-                              fontSize: '12px',
+                              fontSize: '11px',
                               color: '#6B7280',
                               fontWeight: '500'
                             }}>
@@ -383,15 +390,15 @@ const Community = () => {
                           <div style={{ textAlign: 'center' }}>
                             <Text style={{
                               display: 'block',
-                              fontSize: '20px',
+                              fontSize: '16px',
                               fontWeight: '700',
                               color: '#7C3AED',
-                              marginBottom: '4px'
+                              marginBottom: '2px'
                             }}>
                               {group.commentCount || 0}
                             </Text>
                             <Text style={{
-                              fontSize: '12px',
+                              fontSize: '11px',
                               color: '#6B7280',
                               fontWeight: '500'
                             }}>
@@ -401,15 +408,15 @@ const Community = () => {
                           <div style={{ textAlign: 'center' }}>
                             <Text style={{
                               display: 'block',
-                              fontSize: '20px',
+                              fontSize: '16px',
                               fontWeight: '700',
                               color: '#F59E0B',
-                              marginBottom: '4px'
+                              marginBottom: '2px'
                             }}>
                               {group.memberCount || 0}
                             </Text>
                             <Text style={{
-                              fontSize: '12px',
+                              fontSize: '11px',
                               color: '#6B7280',
                               fontWeight: '500'
                             }}>
