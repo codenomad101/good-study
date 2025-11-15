@@ -17,7 +17,8 @@ import {
   List,
   Modal,
   Result,
-  Divider
+  Divider,
+  Spin
 } from 'antd';
 import {
   BookOutlined,
@@ -422,200 +423,424 @@ export default function Exams() {
     },
   ];
 
+  // Calculate exam statistics
+  const completedExams = examHistory.filter(e => e.status === 'completed');
+  const totalExams = examHistory.length;
+  const averageScore = completedExams.length > 0
+    ? (completedExams.reduce((sum, e) => {
+        const pct = typeof e.percentage === 'string' ? parseFloat(e.percentage) : (e.percentage ?? 0);
+        return sum + pct;
+      }, 0) / completedExams.length).toFixed(1)
+    : '0';
+  const bestScore = completedExams.length > 0
+    ? Math.max(...completedExams.map(e => {
+        const pct = typeof e.percentage === 'string' ? parseFloat(e.percentage) : (e.percentage ?? 0);
+        return pct;
+      })).toFixed(1)
+    : '0';
+  const totalTime = Math.floor(examHistory.reduce((sum, e) => sum + (e.timeSpentSeconds || 0), 0) / 60);
+
   return (
     <AppLayout>
-      <div style={{ padding: '32px 24px', maxWidth: '1600px', margin: '0 auto', width: '100%' }}>
+      <div style={{ 
+        padding: '24px', 
+        width: '1400px', 
+        margin: '0 auto',
+        backgroundColor: '#F8FAFC',
+        minHeight: '100vh'
+      }}>
+        {/* Page Header */}
+        <div style={{ 
+          marginBottom: '24px'
+        }}>
+          <Title level={1} style={{ 
+            margin: '0 0 8px 0',
+            fontSize: '28px',
+            fontWeight: '800',
+            color: '#1F2937'
+          }}>
+            Exams
+          </Title>
+          <Text style={{ 
+            fontSize: '16px', 
+            color: '#6B7280',
+            fontWeight: '500'
+          }}>
+            Create custom exams or take quick tests to assess your preparation.
+          </Text>
+        </div>
+
+        {/* Exam Statistics */}
+        <div style={{ 
+          marginBottom: '32px'
+        }}>
+          {historyLoading ? (
+            <div style={{ textAlign: 'center', padding: '24px' }}>
+              <Spin />
+            </div>
+          ) : (
+            <div style={{
+              background: 'linear-gradient(135deg, #F97316 0%, #EA580C 100%)',
+              borderRadius: '20px',
+              padding: '24px',
+              boxShadow: '0 4px 12px rgba(249, 115, 22, 0.2)',
+              position: 'relative',
+              overflow: 'hidden'
+            }}>
+              {/* Decorative circles */}
+              <div style={{
+                position: 'absolute',
+                top: '-30px',
+                right: '-30px',
+                width: '120px',
+                height: '120px',
+                borderRadius: '50%',
+                background: 'rgba(255, 255, 255, 0.15)',
+                opacity: 0.6
+              }} />
+              <div style={{
+                position: 'absolute',
+                bottom: '-20px',
+                left: '-20px',
+                width: '80px',
+                height: '80px',
+                borderRadius: '50%',
+                background: 'rgba(255, 255, 255, 0.1)',
+                opacity: 0.5
+              }} />
+              
+              <Row gutter={[16, 16]} style={{ position: 'relative', zIndex: 1 }}>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                  <div style={{ textAlign: 'center' }}>
+                    <div style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      marginBottom: '8px'
+                    }}>
+                      <FileTextOutlined style={{ 
+                        fontSize: '24px', 
+                        color: '#FFFFFF',
+                        marginRight: '8px'
+                      }} />
+                    </div>
+                    <Text style={{
+                      display: 'block',
+                      fontSize: '28px',
+                      fontWeight: '800',
+                      color: '#FFFFFF',
+                      marginBottom: '4px',
+                      lineHeight: '1.2'
+                    }}>
+                      {totalExams}
+                    </Text>
+                    <Text style={{
+                      fontSize: '13px',
+                      color: 'rgba(255, 255, 255, 0.9)',
+                      fontWeight: '600'
+                    }}>
+                      Total Exams
+                    </Text>
+                  </div>
+                </Col>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                  <div style={{ textAlign: 'center' }}>
+                    <div style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      marginBottom: '8px'
+                    }}>
+                      <TrophyOutlined style={{ 
+                        fontSize: '24px', 
+                        color: '#FFFFFF',
+                        marginRight: '8px'
+                      }} />
+                    </div>
+                    <Text style={{
+                      display: 'block',
+                      fontSize: '28px',
+                      fontWeight: '800',
+                      color: '#FFFFFF',
+                      marginBottom: '4px',
+                      lineHeight: '1.2'
+                    }}>
+                      {averageScore}%
+                    </Text>
+                    <Text style={{
+                      fontSize: '13px',
+                      color: 'rgba(255, 255, 255, 0.9)',
+                      fontWeight: '600'
+                    }}>
+                      Average Score
+                    </Text>
+                  </div>
+                </Col>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                  <div style={{ textAlign: 'center' }}>
+                    <div style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      marginBottom: '8px'
+                    }}>
+                      <TrophyOutlined style={{ 
+                        fontSize: '24px', 
+                        color: '#FFFFFF',
+                        marginRight: '8px'
+                      }} />
+                    </div>
+                    <Text style={{
+                      display: 'block',
+                      fontSize: '28px',
+                      fontWeight: '800',
+                      color: '#FFFFFF',
+                      marginBottom: '4px',
+                      lineHeight: '1.2'
+                    }}>
+                      {bestScore}%
+                    </Text>
+                    <Text style={{
+                      fontSize: '13px',
+                      color: 'rgba(255, 255, 255, 0.9)',
+                      fontWeight: '600'
+                    }}>
+                      Best Score
+                    </Text>
+                  </div>
+                </Col>
+                <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+                  <div style={{ textAlign: 'center' }}>
+                    <div style={{
+                      display: 'flex',
+                      alignItems: 'center',
+                      justifyContent: 'center',
+                      marginBottom: '8px'
+                    }}>
+                      <ClockCircleOutlined style={{ 
+                        fontSize: '24px', 
+                        color: '#FFFFFF',
+                        marginRight: '8px'
+                      }} />
+                    </div>
+                    <Text style={{
+                      display: 'block',
+                      fontSize: '28px',
+                      fontWeight: '800',
+                      color: '#FFFFFF',
+                      marginBottom: '4px',
+                      lineHeight: '1.2'
+                    }}>
+                      {totalTime}
+                    </Text>
+                    <Text style={{
+                      fontSize: '13px',
+                      color: 'rgba(255, 255, 255, 0.9)',
+                      fontWeight: '600'
+                    }}>
+                      Minutes Spent
+                    </Text>
+                  </div>
+                </Col>
+              </Row>
+            </div>
+          )}
+        </div>
+
         {/* Quick Actions */}
-        <Row gutter={[16, 16]} style={{ marginBottom: '24px' }}>
-          <Col xs={24} sm={6}>
+        <div style={{ 
+          marginBottom: '32px'
+        }}>
+          <Row gutter={[16, 16]}>
+          <Col xs={24} sm={12} md={6}>
             <Card 
               hoverable
-              style={{ borderRadius: '12px', textAlign: 'center' }}
-              bodyStyle={{ padding: '20px' }}
+              style={{ 
+                borderRadius: '20px', 
+                textAlign: 'center',
+                border: '1px solid #E5E7EB',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
+                transition: 'all 0.3s ease'
+              }}
+              bodyStyle={{ padding: '24px' }}
             >
-              <div style={{ fontSize: '40px', color: '#FF7846', marginBottom: '12px' }}>
+              <div style={{ fontSize: '48px', color: '#FF7846', marginBottom: '16px' }}>
                 <PlayCircleOutlined />
               </div>
-              <Title level={5} style={{ margin: '0 0 8px 0' }}>
+              <Title level={4} style={{ margin: '0 0 8px 0', color: '#1F2937', fontWeight: '700' }}>
                 Quick Test (20Q)
               </Title>
-              <Paragraph style={{ color: '#666', margin: '0 0 12px 0', fontSize: '12px' }}>
+              <Text style={{ color: '#6B7280', margin: '0 0 16px 0', fontSize: '14px', display: 'block' }}>
                 No negative marking
-              </Paragraph>
+              </Text>
               <Button 
                 type="primary" 
-                size="middle" 
+                size="large" 
                 block
                 onClick={() => handleQuickExam(20, false)}
                 loading={createExamMutation.isPending}
+                style={{
+                  borderRadius: '12px',
+                  height: '44px',
+                  fontWeight: '600',
+                  background: 'linear-gradient(135deg, #FF7846 0%, #FF5722 100%)',
+                  border: 'none',
+                  boxShadow: '0 4px 12px rgba(249, 115, 22, 0.3)'
+                }}
               >
                 Start Now
               </Button>
             </Card>
           </Col>
 
-          <Col xs={24} sm={6}>
+          <Col xs={24} sm={12} md={6}>
             <Card 
               hoverable
-              style={{ borderRadius: '12px', textAlign: 'center' }}
-              bodyStyle={{ padding: '20px' }}
+              style={{ 
+                borderRadius: '20px', 
+                textAlign: 'center',
+                border: '1px solid #E5E7EB',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
+                transition: 'all 0.3s ease'
+              }}
+              bodyStyle={{ padding: '24px' }}
             >
-              <div style={{ fontSize: '40px', color: '#FF7846', marginBottom: '12px' }}>
+              <div style={{ fontSize: '48px', color: '#FF7846', marginBottom: '16px' }}>
                 <PlayCircleOutlined />
               </div>
-              <Title level={5} style={{ margin: '0 0 8px 0' }}>
+              <Title level={4} style={{ margin: '0 0 8px 0', color: '#1F2937', fontWeight: '700' }}>
                 Quick Test (50Q)
               </Title>
-              <Paragraph style={{ color: '#666', margin: '0 0 12px 0', fontSize: '12px' }}>
+              <Text style={{ color: '#6B7280', margin: '0 0 16px 0', fontSize: '14px', display: 'block' }}>
                 No negative marking
-              </Paragraph>
+              </Text>
               <Button 
                 type="primary" 
-                size="middle" 
+                size="large" 
                 block
                 onClick={() => handleQuickExam(50, false)}
                 loading={createExamMutation.isPending}
+                style={{
+                  borderRadius: '12px',
+                  height: '44px',
+                  fontWeight: '600',
+                  background: 'linear-gradient(135deg, #FF7846 0%, #FF5722 100%)',
+                  border: 'none',
+                  boxShadow: '0 4px 12px rgba(249, 115, 22, 0.3)'
+                }}
               >
                 Start Now
               </Button>
             </Card>
           </Col>
 
-          <Col xs={24} sm={6}>
+          <Col xs={24} sm={12} md={6}>
             <Card 
               hoverable
-              style={{ borderRadius: '12px', textAlign: 'center' }}
-              bodyStyle={{ padding: '20px' }}
+              style={{ 
+                borderRadius: '20px', 
+                textAlign: 'center',
+                border: '1px solid #E5E7EB',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
+                transition: 'all 0.3s ease'
+              }}
+              bodyStyle={{ padding: '24px' }}
             >
-              <div style={{ fontSize: '40px', color: '#ff4d4f', marginBottom: '12px' }}>
+              <div style={{ fontSize: '48px', color: '#EF4444', marginBottom: '16px' }}>
                 <PlayCircleOutlined />
               </div>
-              <Title level={5} style={{ margin: '0 0 8px 0' }}>
+              <Title level={4} style={{ margin: '0 0 8px 0', color: '#1F2937', fontWeight: '700' }}>
                 Challenge Test (20Q)
               </Title>
-              <Paragraph style={{ color: '#666', margin: '0 0 12px 0', fontSize: '12px' }}>
+              <Text style={{ color: '#6B7280', margin: '0 0 16px 0', fontSize: '14px', display: 'block' }}>
                 With -25% negative marking
-              </Paragraph>
+              </Text>
               <Button 
                 danger
                 type="primary" 
-                size="middle" 
+                size="large" 
                 block
                 onClick={() => handleQuickExam(20, true)}
                 loading={createExamMutation.isPending}
+                style={{
+                  borderRadius: '12px',
+                  height: '44px',
+                  fontWeight: '600'
+                }}
               >
                 Start Challenge
               </Button>
             </Card>
           </Col>
 
-          <Col xs={24} sm={6}>
+          <Col xs={24} sm={12} md={6}>
             <Card 
               hoverable
-              style={{ borderRadius: '12px', textAlign: 'center' }}
-              bodyStyle={{ padding: '20px' }}
+              style={{ 
+                borderRadius: '20px', 
+                textAlign: 'center',
+                border: '1px solid #E5E7EB',
+                boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
+                transition: 'all 0.3s ease'
+              }}
+              bodyStyle={{ padding: '24px' }}
             >
-              <div style={{ fontSize: '40px', color: '#722ed1', marginBottom: '12px' }}>
+              <div style={{ fontSize: '48px', color: '#7C3AED', marginBottom: '16px' }}>
                 <PlusOutlined />
               </div>
-              <Title level={5} style={{ margin: '0 0 8px 0' }}>
+              <Title level={4} style={{ margin: '0 0 8px 0', color: '#1F2937', fontWeight: '700' }}>
                 Custom Exam
               </Title>
-              <Paragraph style={{ color: '#666', margin: '0 0 12px 0', fontSize: '12px' }}>
+              <Text style={{ color: '#6B7280', margin: '0 0 16px 0', fontSize: '14px', display: 'block' }}>
                 Configure your own
-              </Paragraph>
+              </Text>
               <Button 
-                size="middle" 
+                size="large" 
                 block
                 onClick={handleCreateExam}
+                style={{
+                  borderRadius: '12px',
+                  height: '44px',
+                  fontWeight: '600',
+                  border: '1px solid #E5E7EB'
+                }}
               >
                 Create
               </Button>
             </Card>
           </Col>
         </Row>
-
-        {/* Divider */}
-        <div style={{ margin: '32px 0', borderTop: '1px solid #e5e7eb' }} />
-
-        {/* Performance Summary */}
-        <Row gutter={[16, 16]} style={{ marginBottom: '24px' }}>
-          <Col xs={24} sm={6}>
-            <Card>
-              <Statistic
-                title="Total Exams"
-                value={examHistory.length}
-                prefix={<FileTextOutlined />}
-                valueStyle={{ color: '#FF7846' }}
-              />
-            </Card>
-          </Col>
-          <Col xs={24} sm={6}>
-            <Card>
-              <Statistic
-                title="Average Score"
-                value={(() => {
-                  const completed = examHistory.filter(e => e.status === 'completed');
-                  if (completed.length === 0) return 0;
-                  const sum = completed.reduce((acc, e) => {
-                    const pct = typeof e.percentage === 'string' ? parseFloat(e.percentage) : (e.percentage ?? 0);
-                    return acc + pct;
-                  }, 0);
-                  return (sum / completed.length).toFixed(1);
-                })()}
-                suffix="%"
-                prefix={<TrophyOutlined />}
-                valueStyle={{ color: '#52c41a' }}
-              />
-            </Card>
-          </Col>
-          <Col xs={24} sm={6}>
-            <Card>
-              <Statistic
-                title="Total Time"
-                value={(() => {
-                  const totalSeconds = examHistory.reduce((sum, e) => sum + (e.timeSpentSeconds || 0), 0);
-                  return Math.floor(totalSeconds / 60);
-                })()}
-                suffix="min"
-                prefix={<ClockCircleOutlined />}
-                valueStyle={{ color: '#fa8c16' }}
-              />
-            </Card>
-          </Col>
-          <Col xs={24} sm={6}>
-            <Card>
-              <Statistic
-                title="Best Score"
-                value={(() => {
-                  const completed = examHistory.filter(e => e.status === 'completed');
-                  if (completed.length === 0) return 0;
-                  const max = Math.max(...completed.map(e => {
-                    const pct = typeof e.percentage === 'string' ? parseFloat(e.percentage) : (e.percentage ?? 0);
-                    return pct;
-                  }));
-                  return max.toFixed(1);
-                })()}
-                suffix="%"
-                prefix={<TrophyOutlined />}
-                valueStyle={{ color: '#722ed1' }}
-              />
-            </Card>
-          </Col>
-        </Row>
+        </div>
 
         {/* Exam History */}
-        <Card title="Recent Exams" style={{ borderRadius: '12px' }}>
+        <div style={{ 
+          marginBottom: '32px'
+        }}>
+          <Title level={2} style={{ 
+            margin: '0 0 16px 0',
+            fontSize: '22px',
+            fontWeight: '700',
+            color: '#1F2937'
+          }}>
+            Recent Exams
+          </Title>
+          <Card style={{ 
+            borderRadius: '20px',
+            border: '1px solid #E5E7EB',
+            boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)'
+          }}>
           <Table 
             columns={columns} 
             dataSource={examHistory} 
             pagination={false}
             rowKey="sessionId"
           />
-        </Card>
+          </Card>
+        </div>
 
         {/* Performance Timeline */}
-        <Row gutter={[16, 16]} style={{ marginTop: '24px' }}>
+        <div>
+          <Row gutter={[16, 16]}>
           <Col xs={24} lg={12}>
             <Card title="Recent Performance" style={{ borderRadius: '12px' }}>
               <Timeline>
@@ -692,7 +917,8 @@ export default function Exams() {
               />
             </Card>
           </Col>
-        </Row>
+          </Row>
+        </div>
       </div>
 
       {/* Exam Results Modal */}

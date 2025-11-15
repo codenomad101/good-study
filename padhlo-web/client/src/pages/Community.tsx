@@ -1,17 +1,16 @@
 import React, { useState, useEffect } from 'react';
-import { Layout, Card, Button, Modal, Form, Input, Select, message, Spin, Empty, Tabs, Tag, Statistic, Row, Col, Avatar } from 'antd';
+import { Card, Button, Modal, Form, Input, Select, message, Spin, Empty, Tabs, Tag, Statistic, Row, Col, Avatar, Typography } from 'antd';
 import { PlusOutlined, MessageOutlined, CommentOutlined, TrophyOutlined, FireOutlined, TeamOutlined, BookOutlined } from '@ant-design/icons';
 import { Link, useNavigate } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { useApi } from '../hooks/useAPI';
-import { Header } from '../components/Header';
-import { Footer } from '../components/Footer';
+import { AppLayout } from '../components/AppLayout';
 import { SubscriptionGate } from '../components/SubscriptionGate';
 import './Community.css';
 
 const { Option } = Select;
 const { TextArea } = Input;
-const { Content } = Layout;
+const { Title, Text } = Typography;
 
 interface Group {
   groupId: string;
@@ -190,82 +189,233 @@ const Community = () => {
   const topCommunities = filteredGroups.slice(0, 3);
 
   return (
-    <Layout style={{ minHeight: '100vh', background: '#f5f5f5' }}>
-      <Header />
+    <AppLayout>
       <SubscriptionGate requirePro={true} featureName="Community">
-        <Content style={{ flex: 1 }}>
-          <div className="community-container">
-          {/* Hero Section */}
-          <div className="community-hero">
-            <div className="hero-content">
-              <h1 className="hero-title">Community Hub</h1>
-              <p className="hero-subtitle">Connect, Learn, and Grow Together</p>
+        <div style={{ 
+          padding: '24px', 
+          width: '1400px', 
+          margin: '0 auto',
+          backgroundColor: '#F8FAFC',
+          minHeight: '100vh'
+        }}>
+          {/* Page Header Card */}
+          <Card
+            style={{
+              marginBottom: '32px',
+              borderRadius: '20px',
+              border: '1px solid #E5E7EB',
+              boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
+              background: '#FFFFFF'
+            }}
+            bodyStyle={{ padding: '24px' }}
+          >
+            <div style={{
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center',
+              flexWrap: 'wrap',
+              gap: '16px'
+            }}>
+              <div>
+                <Title level={1} style={{ 
+                  margin: '0 0 8px 0',
+                  fontSize: '28px',
+                  fontWeight: '800',
+                  color: '#1F2937'
+                }}>
+                  Community Hub
+                </Title>
+                <Text style={{ 
+                  fontSize: '16px', 
+                  color: '#6B7280',
+                  fontWeight: '500'
+                }}>
+                  Connect, Learn, and Grow Together
+                </Text>
+              </div>
               <Button
                 type="primary"
                 size="large"
                 icon={<PlusOutlined />}
                 onClick={showModal}
-                className="create-group-btn"
+                style={{
+                  borderRadius: '12px',
+                  height: '44px',
+                  fontWeight: '600',
+                  background: 'linear-gradient(135deg, #FF7846 0%, #FF5722 100%)',
+                  border: 'none',
+                  boxShadow: '0 4px 12px rgba(249, 115, 22, 0.3)',
+                  padding: '0 24px'
+                }}
               >
                 Create New Group
               </Button>
             </div>
-          </div>
+          </Card>
 
           {/* Top Communities Section */}
           {topCommunities.length > 0 && (
-            <div className="top-communities-section">
-              <div className="section-header">
-                <TrophyOutlined className="section-icon" />
-                <h2 className="section-title">Top Communities</h2>
+            <div style={{ 
+              marginBottom: '48px'
+            }}>
+              <div style={{ 
+                display: 'flex', 
+                alignItems: 'center', 
+                gap: '12px', 
+                marginBottom: '24px' 
+              }}>
+                <TrophyOutlined style={{ fontSize: '24px', color: '#FF7846' }} />
+                <Title level={2} style={{ 
+                  margin: 0,
+                  fontSize: '22px',
+                  fontWeight: '700',
+                  color: '#1F2937'
+                }}>
+                  Top Communities
+                </Title>
               </div>
               <Row gutter={[16, 16]}>
                 {topCommunities.map((group, index) => (
                   <Col xs={24} sm={12} md={8} key={group.groupId}>
                     <Card
-                      className="top-community-card"
                       hoverable
                       onClick={() => handleGroupClick(group.groupId)}
+                      style={{
+                        borderRadius: '20px',
+                        border: '1px solid #E5E7EB',
+                        boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
+                        transition: 'all 0.3s ease',
+                        position: 'relative',
+                        overflow: 'hidden'
+                      }}
+                      bodyStyle={{ padding: '24px' }}
                     >
-                      <div className="rank-badge">{index + 1}</div>
-                      <div className="top-community-content">
-                        <Avatar className="top-community-avatar" size={56}>
+                      <div style={{
+                        position: 'absolute',
+                        top: '16px',
+                        right: '16px',
+                        width: '36px',
+                        height: '36px',
+                        borderRadius: '50%',
+                        background: 'linear-gradient(135deg, #FF7846 0%, #FF5722 100%)',
+                        color: 'white',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        fontWeight: '700',
+                        fontSize: '16px',
+                        boxShadow: '0 2px 8px rgba(0, 0, 0, 0.2)',
+                        zIndex: 1
+                      }}>
+                        {index + 1}
+                      </div>
+                      <div style={{ textAlign: 'center' }}>
+                        <Avatar 
+                          size={64}
+                          style={{ 
+                            background: 'linear-gradient(135deg, #FF7846 0%, #FF5722 100%)',
+                            color: 'white',
+                            fontWeight: '600',
+                            marginBottom: '16px'
+                          }}
+                        >
                           {getInitials(group.name)}
                         </Avatar>
-                        <h3 className="top-community-name">{group.name}</h3>
-                        <p className="top-community-description">
+                        <Title level={4} style={{ 
+                          margin: '0 0 8px 0',
+                          fontSize: '18px',
+                          fontWeight: '700',
+                          color: '#1F2937'
+                        }}>
+                          {group.name}
+                        </Title>
+                        <Text style={{ 
+                          color: '#6B7280',
+                          fontSize: '14px',
+                          display: 'block',
+                          marginBottom: '12px',
+                          minHeight: '40px'
+                        }}>
                           {group.description?.substring(0, 80) || 'No description'}
                           {group.description && group.description.length > 80 ? '...' : ''}
-                        </p>
+                        </Text>
                         {group.creator && (
-                          <p className="top-community-creator" style={{ fontSize: '12px', color: '#999', marginTop: '8px' }}>
+                          <Text style={{ 
+                            fontSize: '12px', 
+                            color: '#9CA3AF', 
+                            display: 'block',
+                            marginBottom: '8px'
+                          }}>
                             Created by {group.creator.fullName}
-                          </p>
+                          </Text>
                         )}
                         {group.examType && (
-                          <Tag color="blue" style={{ marginTop: '8px' }}>
+                          <Tag color="blue" style={{ marginBottom: '16px' }}>
                             {group.examType}
                           </Tag>
                         )}
-                        <div className="top-community-stats">
-                          <Statistic
-                            title="Posts"
-                            value={group.postCount || 0}
-                            prefix={<MessageOutlined />}
-                            valueStyle={{ fontSize: '18px', color: '#667eea' }}
-                          />
-                          <Statistic
-                            title="Comments"
-                            value={group.commentCount || 0}
-                            prefix={<CommentOutlined />}
-                            valueStyle={{ fontSize: '18px', color: '#764ba2' }}
-                          />
-                          <Statistic
-                            title="Members"
-                            value={group.memberCount || 0}
-                            prefix={<TeamOutlined />}
-                            valueStyle={{ fontSize: '18px', color: '#f59e0b' }}
-                          />
+                        <div style={{
+                          display: 'flex',
+                          justifyContent: 'space-around',
+                          gap: '16px',
+                          marginTop: '20px',
+                          paddingTop: '20px',
+                          borderTop: '1px solid #E5E7EB'
+                        }}>
+                          <div style={{ textAlign: 'center' }}>
+                            <Text style={{
+                              display: 'block',
+                              fontSize: '20px',
+                              fontWeight: '700',
+                              color: '#2563EB',
+                              marginBottom: '4px'
+                            }}>
+                              {group.postCount || 0}
+                            </Text>
+                            <Text style={{
+                              fontSize: '12px',
+                              color: '#6B7280',
+                              fontWeight: '500'
+                            }}>
+                              Posts
+                            </Text>
+                          </div>
+                          <div style={{ textAlign: 'center' }}>
+                            <Text style={{
+                              display: 'block',
+                              fontSize: '20px',
+                              fontWeight: '700',
+                              color: '#7C3AED',
+                              marginBottom: '4px'
+                            }}>
+                              {group.commentCount || 0}
+                            </Text>
+                            <Text style={{
+                              fontSize: '12px',
+                              color: '#6B7280',
+                              fontWeight: '500'
+                            }}>
+                              Comments
+                            </Text>
+                          </div>
+                          <div style={{ textAlign: 'center' }}>
+                            <Text style={{
+                              display: 'block',
+                              fontSize: '20px',
+                              fontWeight: '700',
+                              color: '#F59E0B',
+                              marginBottom: '4px'
+                            }}>
+                              {group.memberCount || 0}
+                            </Text>
+                            <Text style={{
+                              fontSize: '12px',
+                              color: '#6B7280',
+                              fontWeight: '500'
+                            }}>
+                              Members
+                            </Text>
+                          </div>
                         </div>
                       </div>
                     </Card>
@@ -276,48 +426,79 @@ const Community = () => {
           )}
 
           {/* All Communities Section */}
-          <div className="all-communities-section">
-            <div className="section-header">
-              <TeamOutlined className="section-icon" />
-              <h2 className="section-title">All Communities</h2>
+          <div>
+            <div style={{ 
+              display: 'flex', 
+              alignItems: 'center', 
+              gap: '12px', 
+              marginBottom: '24px' 
+            }}>
+              <TeamOutlined style={{ fontSize: '24px', color: '#FF7846' }} />
+              <Title level={2} style={{ 
+                margin: 0,
+                fontSize: '22px',
+                fontWeight: '700',
+                color: '#1F2937'
+              }}>
+                All Communities
+              </Title>
             </div>
             
             <Tabs
               activeKey={activeTab}
               onChange={setActiveTab}
-              className="community-tabs"
+              style={{ marginBottom: '24px' }}
               items={[
                 {
                   key: 'all',
-                  label: 'All Groups',
-                  icon: <TeamOutlined />
+                  label: (
+                    <span>
+                      <TeamOutlined /> All Groups
+                    </span>
+                  )
                 },
                 {
                   key: 'most-posts',
-                  label: 'Most Posts',
-                  icon: <MessageOutlined />
+                  label: (
+                    <span>
+                      <MessageOutlined /> Most Posts
+                    </span>
+                  )
                 },
                 {
                   key: 'most-comments',
-                  label: 'Most Comments',
-                  icon: <CommentOutlined />
+                  label: (
+                    <span>
+                      <CommentOutlined /> Most Comments
+                    </span>
+                  )
                 },
                 {
                   key: 'exam-based',
-                  label: 'Exam Based',
-                  icon: <BookOutlined />
+                  label: (
+                    <span>
+                      <BookOutlined /> Exam Based
+                    </span>
+                  )
                 }
               ]}
             />
 
             {isLoading ? (
-              <div className="loading-container">
+              <div style={{
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center',
+                padding: '60px 20px',
+                color: '#6B7280'
+              }}>
                 <Spin size="large" />
                 <div style={{ marginTop: '16px' }}>Loading communities...</div>
               </div>
             ) : filteredGroups.length === 0 ? (
               <Empty
-                image={<TeamOutlined style={{ fontSize: '64px', color: '#d9d9d9' }} />}
+                image={<TeamOutlined style={{ fontSize: '64px', color: '#D1D5DB' }} />}
                 description="No communities found. Create your first group!"
                 style={{ marginTop: '60px' }}
               />
@@ -326,32 +507,76 @@ const Community = () => {
                 {filteredGroups.map((group) => (
                   <Col xs={24} sm={12} lg={8} xl={6} key={group.groupId}>
                     <Card
-                      className="community-card"
                       hoverable
                       onClick={() => handleGroupClick(group.groupId)}
+                      style={{
+                        borderRadius: '20px',
+                        border: '1px solid #E5E7EB',
+                        boxShadow: '0 2px 8px rgba(0, 0, 0, 0.05)',
+                        transition: 'all 0.3s ease',
+                        height: '100%'
+                      }}
+                      bodyStyle={{ padding: '20px' }}
                     >
-                      <div className="community-card-content">
-                        <Avatar className="community-avatar" size={48}>
+                      <div style={{
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '12px',
+                        alignItems: 'center',
+                        textAlign: 'center'
+                      }}>
+                        <Avatar 
+                          size={48}
+                          style={{ 
+                            background: 'linear-gradient(135deg, #FF7846 0%, #FF5722 100%)',
+                            color: 'white',
+                            fontWeight: '600',
+                            marginBottom: '8px'
+                          }}
+                        >
                           {getInitials(group.name)}
                         </Avatar>
-                        <h3 className="community-name">{group.name}</h3>
-                        <p className="community-description">
+                        <Title level={4} style={{ 
+                          margin: 0,
+                          fontSize: '16px',
+                          fontWeight: '700',
+                          color: '#1F2937'
+                        }}>
+                          {group.name}
+                        </Title>
+                        <Text style={{ 
+                          color: '#6B7280',
+                          fontSize: '13px',
+                          margin: 0,
+                          minHeight: '60px',
+                          lineHeight: '1.5'
+                        }}>
                           {group.description?.substring(0, 100) || 'No description'}
                           {group.description && group.description.length > 100 ? '...' : ''}
-                        </p>
+                        </Text>
                         {group.creator && (
-                          <p style={{ fontSize: '12px', color: '#999', marginTop: '4px', textAlign: 'center' }}>
+                          <Text style={{ 
+                            fontSize: '12px', 
+                            color: '#9CA3AF', 
+                            marginTop: '4px'
+                          }}>
                             Created by {group.creator.fullName}
-                          </p>
+                          </Text>
                         )}
-                        <div className="community-stats">
-                          <Tag icon={<MessageOutlined />} color="blue">
+                        <div style={{
+                          display: 'flex',
+                          justifyContent: 'center',
+                          flexWrap: 'wrap',
+                          gap: '8px',
+                          marginTop: '12px'
+                        }}>
+                          <Tag icon={<MessageOutlined />} color="blue" style={{ margin: 0 }}>
                             {group.postCount || 0} Posts
                           </Tag>
-                          <Tag icon={<CommentOutlined />} color="purple">
+                          <Tag icon={<CommentOutlined />} color="purple" style={{ margin: 0 }}>
                             {group.commentCount || 0} Comments
                           </Tag>
-                          <Tag icon={<TeamOutlined />} color="orange">
+                          <Tag icon={<TeamOutlined />} color="orange" style={{ margin: 0 }}>
                             {group.memberCount || 0} Members
                           </Tag>
                         </div>
@@ -363,15 +588,19 @@ const Community = () => {
             )}
           </div>
         </div>
-        </Content>
       </SubscriptionGate>
-      <Footer />
 
       {/* Create Group Modal */}
       <Modal
         title={
-          <div className="modal-header">
-            <PlusOutlined style={{ marginRight: '8px', color: '#667eea' }} />
+          <div style={{
+            display: 'flex',
+            alignItems: 'center',
+            fontSize: '20px',
+            fontWeight: '600',
+            color: '#1F2937'
+          }}>
+            <PlusOutlined style={{ marginRight: '8px', color: '#FF7846' }} />
             Create New Community
           </div>
         }
@@ -379,7 +608,7 @@ const Community = () => {
         onCancel={handleCancel}
         footer={null}
         width={600}
-        className="create-group-modal"
+        style={{ borderRadius: '20px' }}
       >
         <Form form={form} onFinish={handleCreate} layout="vertical">
           <Form.Item
@@ -440,7 +669,7 @@ const Community = () => {
           </Form.Item>
         </Form>
       </Modal>
-    </Layout>
+    </AppLayout>
   );
 };
 
