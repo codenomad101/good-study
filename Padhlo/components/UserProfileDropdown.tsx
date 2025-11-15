@@ -62,8 +62,7 @@ const UserProfileDropdown: React.FC<UserProfileDropdownProps> = ({ visible, onCl
 
   const handleNavigateToSettings = () => {
     onClose();
-    // Navigate to settings when settings page is created
-    // router.push('/(tabs)/settings');
+    router.push('/(tabs)/settings');
   };
 
   const handlePickProfileImage = async () => {

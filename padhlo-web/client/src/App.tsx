@@ -14,6 +14,7 @@ import PracticeTest from './pages/PracticeTest';
 import Exams from './pages/Exams';
 import Exam from './pages/Exam';
 import Profile from './pages/Profile';
+import Settings from './pages/Settings';
 import Admin from './pages/Admin';
 import Leaderboard from './pages/Leaderboard';
 import CategoryPage from './pages/Category';
@@ -125,6 +126,14 @@ function App() {
                       element={
                         <ProtectedRoute>
                           <Profile />
+                        </ProtectedRoute>
+                      } 
+                    />
+                    <Route 
+                      path="/settings" 
+                      element={
+                        <ProtectedRoute>
+                          <Settings />
                         </ProtectedRoute>
                       } 
                     />

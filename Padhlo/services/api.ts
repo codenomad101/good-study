@@ -1247,6 +1247,42 @@ class ApiService {
     }
   }
 
+  // Upload profile picture
+  async uploadProfilePicture(fileUri: string, filename: string, mimeType: string): Promise<ApiResponse<{ url: string; user: any }>> {
+    try {
+      const formData = new FormData();
+      
+      // @ts-ignore - React Native FormData supports file objects
+      formData.append('file', {
+        uri: fileUri,
+        type: mimeType,
+        name: filename || 'profile.jpg',
+      } as any);
+
+      const token = await this.getAuthToken();
+      const response = await fetch(`${this.baseURL}/auth/upload-profile-picture`, {
+        method: 'POST',
+        headers: {
+          'Authorization': token ? `Bearer ${token}` : '',
+        },
+        body: formData,
+      });
+
+      const data = await response.json();
+      
+      if (!response.ok) {
+        throw new Error(data.message || 'Failed to upload profile picture');
+      }
+
+      return data as ApiResponse<{ url: string; user: any }>;
+    } catch (error: any) {
+      if (__DEV__) {
+        console.error('[API] Error uploading profile picture:', error);
+      }
+      throw error;
+    }
+  }
+
   // Logout method
   async logout() {
     return this.post('/auth/logout');
