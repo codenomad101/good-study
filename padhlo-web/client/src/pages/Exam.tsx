@@ -28,6 +28,7 @@ import { AppLayout } from '../components/AppLayout';
 import { useExamQuestions, useCompleteExam, useResumeExam } from '../hooks/useExams';
 import { useUserStatistics } from '../hooks/useStatistics';
 import { useQueryClient } from '@tanstack/react-query';
+import { startDevToolsDetection, stopDevToolsDetection, handleDevToolsDetected } from '../utils/devToolsDetection';
 
 const { Title, Text, Paragraph } = Typography;
 
@@ -70,6 +71,7 @@ const ExamPage: React.FC = () => {
   const [sessionInitialized, setSessionInitialized] = useState(false);
   const [examResults, setExamResults] = useState<any>(null);
   const [showResultsModal, setShowResultsModal] = useState(false);
+  const [devToolsBlocking, setDevToolsBlocking] = useState(false);
 
   // Use custom hooks
   const { data: sessionData, isLoading: loading, error: queryError } = useExamQuestions(sessionId || '');
@@ -82,7 +84,7 @@ const ExamPage: React.FC = () => {
   const currentQuestion = session?.questions?.[currentQuestionIndex];
   const totalQuestions = session?.questions?.length || 0;
 
-  // Disable right-click and developer tools
+  // Disable right-click and developer tools + detect if already open
   useEffect(() => {
     // Disable right-click context menu
     const handleContextMenu = (e: MouseEvent) => {
@@ -146,11 +148,54 @@ const ExamPage: React.FC = () => {
     document.addEventListener('keydown', handleKeyDown);
     document.addEventListener('selectstart', handleSelectStart);
 
+    // Start detecting if dev tools are already open
+    // Block session until dev tools are closed
+    startDevToolsDetection(() => {
+      // Dev tools detected - block the session
+      setDevToolsBlocking(true);
+      console.clear();
+    }, 500, { blockUntilClosed: true });
+
+    // Also check if dev tools close (using functional update to avoid stale closures)
+    let checkDevToolsInterval: NodeJS.Timeout | null = null;
+    checkDevToolsInterval = setInterval(() => {
+      // Check if dev tools are still open
+      const widthDiff = window.outerWidth - window.innerWidth;
+      const heightDiff = window.outerHeight - window.innerHeight;
+      const isOpen = widthDiff > 160 || heightDiff > 160;
+      
+      setDevToolsBlocking(prev => {
+        if (!isOpen && prev) {
+          // Dev tools closed - allow session to proceed
+          return false;
+        } else if (isOpen && !prev) {
+          // Dev tools opened - block session
+          return true;
+        }
+        return prev;
+      });
+    }, 1000);
+
+    // Use debugger trap to pause if dev tools open (but don't reload)
+    const debuggerInterval = setInterval(() => {
+      // This will pause execution if dev tools are open
+      // This makes it difficult to inspect without being annoying
+      // eslint-disable-next-line no-debugger
+      debugger;
+    }, 3000); // Increased interval to be less aggressive
+
     // Cleanup on unmount
     return () => {
       document.removeEventListener('contextmenu', handleContextMenu);
       document.removeEventListener('keydown', handleKeyDown);
       document.removeEventListener('selectstart', handleSelectStart);
+      stopDevToolsDetection();
+      if (debuggerInterval) {
+        clearInterval(debuggerInterval);
+      }
+      if (checkDevToolsInterval) {
+        clearInterval(checkDevToolsInterval);
+      }
     };
   }, []);
 
@@ -389,6 +434,26 @@ const ExamPage: React.FC = () => {
     return Math.round((correct / (session.questions?.length || 1)) * 100);
   };
 
+  // Show blocking modal if dev tools are open
+  useEffect(() => {
+    if (devToolsBlocking) {
+      // Continuously check if dev tools are closed
+      const checkInterval = setInterval(() => {
+        const widthDiff = window.outerWidth - window.innerWidth;
+        const heightDiff = window.outerHeight - window.innerHeight;
+        const isOpen = widthDiff > 160 || heightDiff > 160;
+        
+        if (!isOpen) {
+          // Dev tools closed - allow session to proceed
+          setDevToolsBlocking(false);
+          clearInterval(checkInterval);
+        }
+      }, 500);
+      
+      return () => clearInterval(checkInterval);
+    }
+  }, [devToolsBlocking]);
+
   if (loading) {
     return (
       <AppLayout>
@@ -595,7 +660,49 @@ const ExamPage: React.FC = () => {
 
   return (
     <AppLayout>
-      <div style={{ padding: '32px 24px', maxWidth: '1200px', margin: '0 auto' }}>
+      {/* Blocking Modal for Developer Tools */}
+      <Modal
+        open={devToolsBlocking}
+        closable={false}
+        maskClosable={false}
+        footer={null}
+        width={500}
+        centered
+        style={{ pointerEvents: 'auto' }}
+      >
+        <div style={{ textAlign: 'center', padding: '24px' }}>
+          <CloseCircleOutlined style={{ fontSize: '64px', color: '#ff4d4f', marginBottom: '16px' }} />
+          <Title level={3} style={{ marginBottom: '16px' }}>
+            Developer Tools Detected
+          </Title>
+          <Typography.Paragraph style={{ fontSize: '16px', marginBottom: '24px' }}>
+            Please close your browser's developer tools (F12 or Inspect Element) to continue with the exam.
+          </Typography.Paragraph>
+          <Typography.Paragraph type="secondary" style={{ fontSize: '14px' }}>
+            The exam will automatically start once developer tools are closed.
+          </Typography.Paragraph>
+        </div>
+      </Modal>
+
+      {/* Overlay to block interaction when dev tools are open */}
+      {devToolsBlocking && (
+        <div
+          style={{
+            position: 'fixed',
+            top: 0,
+            left: 0,
+            right: 0,
+            bottom: 0,
+            backgroundColor: 'rgba(0, 0, 0, 0.5)',
+            zIndex: 9998,
+            pointerEvents: 'auto'
+          }}
+        />
+      )}
+
+      <div style={{ padding: '32px 24px', maxWidth: '1200px', margin: '0 auto',
+                    opacity: devToolsBlocking ? 0.3 : 1,
+                    pointerEvents: devToolsBlocking ? 'none' : 'auto' }}>
         {/* Header */}
         <div style={{ marginBottom: '32px' }}>
           <Button 

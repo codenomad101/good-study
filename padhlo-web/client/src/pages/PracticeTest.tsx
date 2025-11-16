@@ -12,7 +12,8 @@ import {
   Statistic,
   Divider,
   Alert,
-  message
+  message,
+  Modal
 } from 'antd';
 import { 
   ClockCircleOutlined, 
@@ -25,6 +26,7 @@ import { AppLayout } from '../components/AppLayout';
 import { dataService, Question } from '../services/dataService';
 import { practiceAPI } from '../services/api';
 import { useQueryClient } from '@tanstack/react-query';
+import { startDevToolsDetection, stopDevToolsDetection, handleDevToolsDetected } from '../utils/devToolsDetection';
 
 const { Title, Text, Paragraph } = Typography;
 
@@ -58,11 +60,12 @@ const PracticeTestPage: React.FC = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string>('');
   const [language, setLanguage] = useState<'en' | 'mr'>('en');
+  const [devToolsBlocking, setDevToolsBlocking] = useState(false);
 
   const currentQuestion = session?.questions[currentQuestionIndex];
   const totalQuestions = session?.totalQuestions || 20;
   
-  // Disable right-click and developer tools
+  // Disable right-click and developer tools + detect if already open
   useEffect(() => {
     // Disable right-click context menu
     const handleContextMenu = (e: MouseEvent) => {
@@ -126,11 +129,54 @@ const PracticeTestPage: React.FC = () => {
     document.addEventListener('keydown', handleKeyDown);
     document.addEventListener('selectstart', handleSelectStart);
 
+    // Start detecting if dev tools are already open
+    // Block session until dev tools are closed
+    startDevToolsDetection(() => {
+      // Dev tools detected - block the session
+      setDevToolsBlocking(true);
+      console.clear();
+    }, 500, { blockUntilClosed: true });
+
+    // Also check if dev tools close (using a ref to avoid stale closures)
+    let checkDevToolsInterval: NodeJS.Timeout | null = null;
+    checkDevToolsInterval = setInterval(() => {
+      // Check if dev tools are still open
+      const widthDiff = window.outerWidth - window.innerWidth;
+      const heightDiff = window.outerHeight - window.innerHeight;
+      const isOpen = widthDiff > 160 || heightDiff > 160;
+      
+      setDevToolsBlocking(prev => {
+        if (!isOpen && prev) {
+          // Dev tools closed - allow session to proceed
+          return false;
+        } else if (isOpen && !prev) {
+          // Dev tools opened - block session
+          return true;
+        }
+        return prev;
+      });
+    }, 1000);
+
+    // Use debugger trap to pause if dev tools open (but don't reload)
+    const debuggerInterval = setInterval(() => {
+      // This will pause execution if dev tools are open
+      // This makes it difficult to inspect without being annoying
+      // eslint-disable-next-line no-debugger
+      debugger;
+    }, 3000); // Increased interval to be less aggressive
+
     // Cleanup on unmount
     return () => {
       document.removeEventListener('contextmenu', handleContextMenu);
       document.removeEventListener('keydown', handleKeyDown);
       document.removeEventListener('selectstart', handleSelectStart);
+      stopDevToolsDetection();
+      if (debuggerInterval) {
+        clearInterval(debuggerInterval);
+      }
+      if (checkDevToolsInterval) {
+        clearInterval(checkDevToolsInterval);
+      }
     };
   }, []);
 
@@ -376,6 +422,26 @@ const PracticeTestPage: React.FC = () => {
     const correct = testResults.filter(result => result.isCorrect).length;
     return Math.round((correct / testResults.length) * 100);
   };
+
+  // Show blocking modal if dev tools are open
+  useEffect(() => {
+    if (devToolsBlocking) {
+      // Continuously check if dev tools are closed
+      const checkInterval = setInterval(() => {
+        const widthDiff = window.outerWidth - window.innerWidth;
+        const heightDiff = window.outerHeight - window.innerHeight;
+        const isOpen = widthDiff > 160 || heightDiff > 160;
+        
+        if (!isOpen) {
+          // Dev tools closed - allow session to proceed
+          setDevToolsBlocking(false);
+          clearInterval(checkInterval);
+        }
+      }, 500);
+      
+      return () => clearInterval(checkInterval);
+    }
+  }, [devToolsBlocking]);
 
   if (loading) {
     return (
