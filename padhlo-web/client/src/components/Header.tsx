@@ -25,7 +25,8 @@ import {
   FileTextOutlined as ExamIcon,
   TeamOutlined,
   PlusOutlined,
-  UnorderedListOutlined
+  UnorderedListOutlined,
+  SearchOutlined
 } from '@ant-design/icons';
 import { useAuth } from '../contexts/AuthContext';
 import { useState, useEffect } from 'react';
@@ -51,15 +52,6 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
     navigate('/');
   };
 
-  const handleCreateExam = (totalQuestions: number) => {
-    // Navigate to exams page and trigger exam creation
-    navigate('/exams', { state: { createExam: true, totalQuestions } });
-  };
-
-  const handleCreateCommunity = () => {
-    // Navigate to community page and trigger modal
-    navigate('/community', { state: { showCreateModal: true } });
-  };
 
   // Set open keys based on current path
   useEffect(() => {
@@ -164,52 +156,18 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
     },
     {
       key: '/practice',
-      label: 'Practice',
-      className: 'nav-menu-item',
-      children: [
-        {
-          key: '/practice',
-          label: <Link to="/practice"><UnorderedListOutlined style={{ marginRight: '8px' }} />All Categories</Link>
-        },
-        {
-          key: '/practice-categories',
-          label: <Link to="/practice"><BookOutlined style={{ marginRight: '8px' }} />Categories Listing</Link>
-        }
-      ]
+      label: <Link to="/practice">Practice</Link>,
+      className: 'nav-menu-item'
     },
     {
       key: '/exams',
-      label: 'Exams',
-      className: 'nav-menu-item',
-      children: [
-        {
-          key: '/exams',
-          label: <Link to="/exams"><ExamIcon style={{ marginRight: '8px' }} />Exams Page</Link>
-        },
-        {
-          key: '/exams/create-20',
-          label: <span onClick={() => handleCreateExam(20)} style={{ cursor: 'pointer' }}><PlusOutlined style={{ marginRight: '8px' }} />Create Exam (20 Questions)</span>
-        },
-        {
-          key: '/exams/create-50',
-          label: <span onClick={() => handleCreateExam(50)} style={{ cursor: 'pointer' }}><PlusOutlined style={{ marginRight: '8px' }} />Create Exam (50 Questions)</span>
-        }
-      ]
+      label: <Link to="/exams">Exams</Link>,
+      className: 'nav-menu-item'
     },
     {
       key: '/community',
-      label: 'Community',
-      className: 'nav-menu-item',
-      children: [
-        {
-          key: '/community',
-          label: <Link to="/community"><TeamOutlined style={{ marginRight: '8px' }} />Your Communities</Link>
-        },
-        {
-          key: '/community/create',
-          label: <span onClick={() => handleCreateCommunity()} style={{ cursor: 'pointer' }}><PlusOutlined style={{ marginRight: '8px' }} />Create Community</span>
-        }
-      ]
+      label: <Link to="/community">Community</Link>,
+      className: 'nav-menu-item'
     },
     {
       key: '/help',
@@ -243,28 +201,23 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
 
   const mainMenuItems = isAuthenticated ? authenticatedMenuItems : unauthenticatedMenuItems;
 
-  // Flatten menu items for mobile (expand submenus)
+  // Flatten menu items for mobile
   const flattenMenuItems = (items: any[]): any[] => {
     const flattened: any[] = [];
     items.forEach(item => {
-      if (item.children) {
-        // Add parent as a link if it has a key
-        if (item.key) {
-          flattened.push({
-            key: item.key,
-            label: <Link to={item.key}>{typeof item.label === 'string' ? item.label : 'Practice'}</Link>
-          });
-        }
-        // Add children
-        item.children.forEach((child: any) => {
-          flattened.push({
-            key: child.key,
-            label: child.label
-          });
-        });
-      } else {
-        flattened.push(item);
+      // Extract the actual label from React element if needed
+      let label = item.label;
+      if (React.isValidElement(item.label)) {
+        // For mega menu triggers, just use the text
+        if (item.key === '/practice') label = <Link to="/practice">Practice</Link>;
+        else if (item.key === '/exams') label = <Link to="/exams">Exams</Link>;
+        else if (item.key === '/community') label = <Link to="/community">Community</Link>;
+        else label = item.label;
       }
+      flattened.push({
+        key: item.key,
+        label: label
+      });
     });
     return flattened;
   };
@@ -322,9 +275,6 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
               selectedKeys={[location.pathname]} 
               items={mainMenuItems}
               className="nav-menu"
-              openKeys={openKeys}
-              onOpenChange={setOpenKeys}
-              triggerSubMenuAction="hover"
             />
           </div>
 
