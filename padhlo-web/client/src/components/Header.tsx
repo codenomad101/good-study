@@ -10,7 +10,8 @@ import {
   Typography,
   Badge,
   Drawer,
-  ConfigProvider
+  ConfigProvider,
+  Divider
 } from 'antd';
 import { 
   UserOutlined, 
@@ -19,10 +20,15 @@ import {
   BellOutlined,
   SettingOutlined,
   CrownOutlined,
-  FileTextOutlined
+  FileTextOutlined,
+  BookOutlined,
+  FileTextOutlined as ExamIcon,
+  TeamOutlined,
+  PlusOutlined,
+  UnorderedListOutlined
 } from '@ant-design/icons';
 import { useAuth } from '../contexts/AuthContext';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import NotificationDropdown from './NotificationDropdown';
 import './Header.css';
 
@@ -38,11 +44,36 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
   const location = useLocation();
   const navigate = useNavigate();
   const [drawerVisible, setDrawerVisible] = useState(false);
+  const [openKeys, setOpenKeys] = useState<string[]>([]);
 
   const handleLogout = () => {
     logout();
     navigate('/');
   };
+
+  const handleCreateExam = (totalQuestions: number) => {
+    // Navigate to exams page and trigger exam creation
+    navigate('/exams', { state: { createExam: true, totalQuestions } });
+  };
+
+  const handleCreateCommunity = () => {
+    // Navigate to community page and trigger modal
+    navigate('/community', { state: { showCreateModal: true } });
+  };
+
+  // Set open keys based on current path
+  useEffect(() => {
+    const path = location.pathname;
+    if (path.startsWith('/practice')) {
+      setOpenKeys(['/practice']);
+    } else if (path.startsWith('/exams') || path.startsWith('/exam/')) {
+      setOpenKeys(['/exams']);
+    } else if (path.startsWith('/community')) {
+      setOpenKeys(['/community']);
+    } else {
+      setOpenKeys([]);
+    }
+  }, [location.pathname]);
 
   const userMenu = (
     <Menu 
@@ -133,23 +164,52 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
     },
     {
       key: '/practice',
-      label: <Link to="/practice">Practice</Link>,
-      className: 'nav-menu-item'
+      label: 'Practice',
+      className: 'nav-menu-item',
+      children: [
+        {
+          key: '/practice',
+          label: <Link to="/practice"><UnorderedListOutlined style={{ marginRight: '8px' }} />All Categories</Link>
+        },
+        {
+          key: '/practice-categories',
+          label: <Link to="/practice"><BookOutlined style={{ marginRight: '8px' }} />Categories Listing</Link>
+        }
+      ]
     },
     {
       key: '/exams',
-      label: <Link to="/exams">Exams</Link>,
-      className: 'nav-menu-item'
+      label: 'Exams',
+      className: 'nav-menu-item',
+      children: [
+        {
+          key: '/exams',
+          label: <Link to="/exams"><ExamIcon style={{ marginRight: '8px' }} />Exams Page</Link>
+        },
+        {
+          key: '/exams/create-20',
+          label: <span onClick={() => handleCreateExam(20)} style={{ cursor: 'pointer' }}><PlusOutlined style={{ marginRight: '8px' }} />Create Exam (20 Questions)</span>
+        },
+        {
+          key: '/exams/create-50',
+          label: <span onClick={() => handleCreateExam(50)} style={{ cursor: 'pointer' }}><PlusOutlined style={{ marginRight: '8px' }} />Create Exam (50 Questions)</span>
+        }
+      ]
     },
-   // {
-     // key: '/study',
-     // label: <Link to="/study">Study</Link>,
-     // className: 'nav-menu-item'
-    //},
     {
       key: '/community',
-      label: <Link to="/community">Community</Link>,
-      className: 'nav-menu-item'
+      label: 'Community',
+      className: 'nav-menu-item',
+      children: [
+        {
+          key: '/community',
+          label: <Link to="/community"><TeamOutlined style={{ marginRight: '8px' }} />Your Communities</Link>
+        },
+        {
+          key: '/community/create',
+          label: <span onClick={() => handleCreateCommunity()} style={{ cursor: 'pointer' }}><PlusOutlined style={{ marginRight: '8px' }} />Create Community</span>
+        }
+      ]
     },
     {
       key: '/help',
@@ -183,8 +243,34 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
 
   const mainMenuItems = isAuthenticated ? authenticatedMenuItems : unauthenticatedMenuItems;
 
+  // Flatten menu items for mobile (expand submenus)
+  const flattenMenuItems = (items: any[]): any[] => {
+    const flattened: any[] = [];
+    items.forEach(item => {
+      if (item.children) {
+        // Add parent as a link if it has a key
+        if (item.key) {
+          flattened.push({
+            key: item.key,
+            label: <Link to={item.key}>{typeof item.label === 'string' ? item.label : 'Practice'}</Link>
+          });
+        }
+        // Add children
+        item.children.forEach((child: any) => {
+          flattened.push({
+            key: child.key,
+            label: child.label
+          });
+        });
+      } else {
+        flattened.push(item);
+      }
+    });
+    return flattened;
+  };
+
   const mobileMenuItems = [
-    ...mainMenuItems,
+    ...flattenMenuItems(mainMenuItems),
     ...(isAuthenticated ? [] : [
       {
         key: '/about',
@@ -236,6 +322,9 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
               selectedKeys={[location.pathname]} 
               items={mainMenuItems}
               className="nav-menu"
+              openKeys={openKeys}
+              onOpenChange={setOpenKeys}
+              triggerSubMenuAction="hover"
             />
           </div>
 
@@ -349,7 +438,7 @@ export const Header: React.FC<HeaderProps> = ({ showAuth = true }) => {
           
           {isAuthenticated && (
             <>
-              <Menu.Divider style={{ margin: '12px 0' }} />
+              <Divider style={{ margin: '12px 0' }} />
               <Menu
                 mode="vertical"
                 className="mobile-menu"

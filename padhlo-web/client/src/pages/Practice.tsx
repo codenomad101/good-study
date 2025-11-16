@@ -544,7 +544,7 @@ const PracticePage: React.FC = () => {
             </Title>
             <Row gutter={[16, 16]}>
               {recentSessions.map((session: any, index: number) => (
-                <Col xs={24} sm={12} md={6} lg={6} xl={6} key={session.sessionId || index}>
+                <Col xs={24} sm={12} md={8} lg={6} xl={6} key={session.sessionId || index}>
                   <SessionCard session={{ ...session, type: 'practice' }} />
                 </Col>
               ))}

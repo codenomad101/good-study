@@ -97,3 +97,74 @@ body {
 ::-webkit-scrollbar-thumb:hover {
   background: var(--text-secondary);
 }
+
+/* Responsive styles for cards */
+@media (max-width: 768px) {
+  .category-card-responsive,
+  .session-card-responsive {
+    min-height: auto !important;
+  }
+  
+  /* Improve padding on mobile */
+  .ant-card-body {
+    padding: 16px !important;
+  }
+  
+  /* Better spacing on mobile */
+  .ant-row {
+    margin-left: -8px !important;
+    margin-right: -8px !important;
+  }
+  
+  .ant-col {
+    padding-left: 8px !important;
+    padding-right: 8px !important;
+  }
+}
+
+/* Responsive font sizes */
+@media (max-width: 576px) {
+  h1.ant-typography {
+    font-size: 24px !important;
+  }
+  
+  h2.ant-typography {
+    font-size: 20px !important;
+  }
+  
+  h3.ant-typography {
+    font-size: 18px !important;
+  }
+}
+
+/* Responsive welcome section */
+@media (max-width: 768px) {
+  .welcome-section-responsive {
+    padding: 16px !important;
+  }
+  
+  .welcome-buttons-responsive {
+    flex-direction: column !important;
+    gap: 8px !important;
+  }
+  
+  .welcome-buttons-responsive > * {
+    width: 100% !important;
+  }
+  
+  .stats-row-responsive {
+    flex-direction: column !important;
+    gap: 12px !important;
+  }
+  
+  .stats-row-responsive > div {
+    width: 100% !important;
+    border-right: none !important;
+    border-bottom: 1px solid rgba(254, 215, 170, 0.3) !important;
+    padding-bottom: 12px !important;
+  }
+  
+  .stats-row-responsive > div:last-child {
+    border-bottom: none !important;
+  }
+}

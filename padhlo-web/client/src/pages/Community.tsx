@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Card, Button, Modal, Form, Input, Select, message, Spin, Empty, Tabs, Tag, Statistic, Row, Col, Avatar, Typography } from 'antd';
 import { PlusOutlined, MessageOutlined, CommentOutlined, TrophyOutlined, FireOutlined, TeamOutlined, BookOutlined } from '@ant-design/icons';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
 import { useApi } from '../hooks/useAPI';
 import { AppLayout } from '../components/AppLayout';
@@ -34,6 +34,7 @@ interface Group {
 const Community = () => {
   const { user } = useAuth();
   const navigate = useNavigate();
+  const location = useLocation();
   const [groups, setGroups] = useState<Group[]>([]);
   const [filteredGroups, setFilteredGroups] = useState<Group[]>([]);
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -45,6 +46,16 @@ const Community = () => {
   useEffect(() => {
     fetchGroups();
   }, []);
+
+  // Handle navigation state for showing create modal
+  useEffect(() => {
+    const state = location.state as any;
+    if (state?.showCreateModal) {
+      setIsModalVisible(true);
+      // Clear the state
+      navigate(location.pathname, { replace: true, state: {} });
+    }
+  }, [location.state]);
 
   useEffect(() => {
     filterGroups();

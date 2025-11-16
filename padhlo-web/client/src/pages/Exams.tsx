@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Link, useNavigate } from 'react-router-dom';
+import { Link, useNavigate, useLocation } from 'react-router-dom';
 import { 
   Card, 
   Row, 
@@ -49,6 +49,7 @@ const { Title, Text, Paragraph } = Typography;
 
 export default function Exams() {
   const navigate = useNavigate();
+  const location = useLocation();
   
   // Use custom hooks
   const { data: categories = [] } = useCategories();
@@ -218,6 +219,16 @@ export default function Exams() {
       }
     }
   };
+
+  // Handle navigation state for creating exam
+  useEffect(() => {
+    const state = location.state as any;
+    if (state?.createExam && state?.totalQuestions && categories.length > 0) {
+      handleQuickExam(state.totalQuestions);
+      // Clear the state
+      navigate(location.pathname, { replace: true, state: {} });
+    }
+  }, [location.state, categories]);
 
   const handleCreateExam = async () => {
     // Navigate to practice page with exam mode

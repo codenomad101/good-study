@@ -62,6 +62,78 @@ const PracticeTestPage: React.FC = () => {
   const currentQuestion = session?.questions[currentQuestionIndex];
   const totalQuestions = session?.totalQuestions || 20;
   
+  // Disable right-click and developer tools
+  useEffect(() => {
+    // Disable right-click context menu
+    const handleContextMenu = (e: MouseEvent) => {
+      e.preventDefault();
+      return false;
+    };
+
+    // Disable developer tools shortcuts
+    const handleKeyDown = (e: KeyboardEvent) => {
+      // Disable F12
+      if (e.key === 'F12') {
+        e.preventDefault();
+        return false;
+      }
+      
+      // Disable Ctrl+Shift+I (DevTools)
+      if (e.ctrlKey && e.shiftKey && e.key === 'I') {
+        e.preventDefault();
+        return false;
+      }
+      
+      // Disable Ctrl+Shift+J (Console)
+      if (e.ctrlKey && e.shiftKey && e.key === 'J') {
+        e.preventDefault();
+        return false;
+      }
+      
+      // Disable Ctrl+Shift+C (Inspect Element)
+      if (e.ctrlKey && e.shiftKey && e.key === 'C') {
+        e.preventDefault();
+        return false;
+      }
+      
+      // Disable Ctrl+U (View Source)
+      if (e.ctrlKey && e.key === 'u') {
+        e.preventDefault();
+        return false;
+      }
+      
+      // Disable Ctrl+S (Save Page)
+      if (e.ctrlKey && e.key === 's') {
+        e.preventDefault();
+        return false;
+      }
+      
+      // Disable Ctrl+P (Print - can be used to view page)
+      if (e.ctrlKey && e.key === 'p') {
+        e.preventDefault();
+        return false;
+      }
+    };
+
+    // Disable text selection (helps prevent copy-paste)
+    const handleSelectStart = (e: Event) => {
+      e.preventDefault();
+      return false;
+    };
+
+    // Add event listeners
+    document.addEventListener('contextmenu', handleContextMenu);
+    document.addEventListener('keydown', handleKeyDown);
+    document.addEventListener('selectstart', handleSelectStart);
+
+    // Cleanup on unmount
+    return () => {
+      document.removeEventListener('contextmenu', handleContextMenu);
+      document.removeEventListener('keydown', handleKeyDown);
+      document.removeEventListener('selectstart', handleSelectStart);
+    };
+  }, []);
+
   // Debug: Log session changes
   useEffect(() => {
     console.log('Session state changed:', session);

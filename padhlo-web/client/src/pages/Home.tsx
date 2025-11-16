@@ -61,9 +61,10 @@ const CategoryCard: React.FC<{ category: any }> = ({ category }) => {
   const displayTopics = Array.isArray(topics) ? topics.slice(0, 3) : [];
   
   return (
-    <Col xs={12} sm={12} md={6} lg={6} xl={6}>
+    <Col xs={24} sm={12} md={8} lg={6} xl={6}>
       <Link to={`/category/${category.slug}`} style={{ textDecoration: 'none' }}>
         <div 
+          className="category-card-responsive"
           style={{
             borderRadius: '20px',
             background: '#FFFFFF',
@@ -353,7 +354,7 @@ export default function Home() {
         minHeight: '100vh'
       }}>
         {/* Combined Welcome & Stats Card */}
-        <div style={{
+        <div className="welcome-section-responsive" style={{
           backgroundColor: '#EA580C',
           borderRadius: '16px',
           padding: '20px',
@@ -422,7 +423,7 @@ export default function Home() {
             </div>
             
             {/* Leaderboard, Community, Notes & Schedule Buttons */}
-            <div style={{ 
+            <div className="welcome-buttons-responsive" style={{ 
               display: 'flex', 
               gap: '8px',
               flexWrap: 'wrap'
@@ -547,7 +548,7 @@ export default function Home() {
             </div>
 
           {/* Stats Row - All in One Line */}
-          <div style={{ 
+          <div className="stats-row-responsive" style={{ 
             display: 'flex', 
             alignItems: 'center', 
             gap: '16px',
@@ -1038,7 +1039,7 @@ export default function Home() {
                         ))}
                       </div>
                       
-                      <Link to="/practice" style={{ textDecoration: 'none', display: 'block', marginTop: '16px' }}>
+                      <Link to="/performance-insights" style={{ textDecoration: 'none', display: 'block', marginTop: '16px' }}>
                         <div style={{
                           width: '100%',
                           padding: '10px',
@@ -1059,7 +1060,7 @@ export default function Home() {
                           e.currentTarget.style.background = '#F59E0B';
                           e.currentTarget.style.transform = 'translateY(0)';
                         }}>
-                          Start Practicing
+                          View AI Insights
                           <ArrowRightOutlined style={{ marginLeft: '6px', fontSize: '12px' }} />
                         </div>
                       </Link>
@@ -1275,7 +1276,7 @@ export default function Home() {
             </div>
           <Row gutter={[16, 16]}>
               {allSessions.length > 0 ? allSessions.slice(0, 4).map((session: any, index: number) => (
-                <Col xs={24} sm={12} md={6} lg={6} xl={6} key={session.sessionId || session.examId || index}>
+                <Col xs={24} sm={12} md={8} lg={6} xl={6} key={session.sessionId || session.examId || index}>
                   <SessionCard session={session} />
                     </Col>
               )) : (

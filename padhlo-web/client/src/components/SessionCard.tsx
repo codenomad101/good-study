@@ -104,6 +104,7 @@ export const SessionCard: React.FC<SessionCardProps> = ({ session, onClick }) =>
 
   return (
     <div
+      className="session-card-responsive"
       onClick={onClick}
       style={{
         borderRadius: '20px',
