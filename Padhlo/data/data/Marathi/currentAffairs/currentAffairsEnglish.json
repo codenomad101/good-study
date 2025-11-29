@@ -1,1602 +1,1602 @@
 [
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "Who was sworn in as the Chief Minister of Maharashtra following the assembly elections in late 2024?",
-      "Options": [
-        { "id": 1, "text": "Eknath Shinde" },
-        { "id": 2, "text": "Ajit Pawar" },
-        { "id": 3, "text": "Uddhav Thackeray" },
-        { "id": 4, "text": "Devendra Fadnavis" }
-      ],
-      "CorrectAnswer": "Devendra Fadnavis",
-      "Explanation": "Devendra Fadnavis of the BJP took oath as the Chief Minister of Maharashtra for the third time in December 2024, leading the Mahayuti alliance.",
-      "Difficulty": "Easy",
-      "Job": "MPSC, Grade-B, Grade-C, Bank-PO, SSC-CGL",
-      "correctOption": 4,
-      "topic": "State Politics"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "In the Maharashtra government formed in December 2024, who were appointed as the Deputy Chief Ministers?",
-      "Options": [
-        { "id": 1, "text": "Devendra Fadnavis and Ajit Pawar" },
-        { "id": 2, "text": "Eknath Shinde and Chandrashekhar Bawankule" },
-        { "id": 3, "text": "Eknath Shinde and Ajit Pawar" },
-        { "id": 4, "text": "Radhakrishna Vikhe Patil and Hasan Mushrif" }
-      ],
-      "CorrectAnswer": "Eknath Shinde and Ajit Pawar",
-      "Explanation": "Both Eknath Shinde of Shiv Sena and Ajit Pawar of NCP were appointed as Deputy Chief Ministers in the Fadnavis-led government.",
-      "Difficulty": "Easy",
-      "Job": "MPSC, Grade-B, Grade-C",
-      "correctOption": 3,
-      "topic": "State Politics"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "What is the name of the scheme launched by the Maharashtra government to provide an annual financial benefit to farmers, supplementing the PM-KISAN scheme?",
-      "Options": [
-        { "id": 1, "text": "Majhi Kanya Bhagyashree Yojana" },
-        { "id": 2, "text": "Mukhyamantri Saur Krushi Pump Yojana" },
-        { "id": 3, "text": "Lek Ladki Scheme" },
-        { "id": 4, "text": "Namo Shetkari Maha Samman Nidhi Yojana" }
-      ],
-      "CorrectAnswer": "Namo Shetkari Maha Samman Nidhi Yojana",
-      "Explanation": "The Namo Shetkari Maha Samman Nidhi Yojana provides an additional annual amount to the farmers of Maharashtra, over and above the financial assistance provided by the central PM-KISAN scheme.",
-      "Difficulty": "Easy",
-      "Job": "MPSC, Agriculture Dept., Bank-PO",
-      "correctOption": 4,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "Which portfolio was allocated to Ajit Pawar in the Maharashtra cabinet formed in December 2024?",
-      "Options": [
-        { "id": 1, "text": "Home Affairs" },
-        { "id": 2, "text": "Revenue" },
-        { "id": 3, "text": "Finance and Planning" },
-        { "id": 4, "text": "Urban Development" }
-      ],
-      "CorrectAnswer": "Finance and Planning",
-      "Explanation": "Deputy Chief Minister Ajit Pawar was entrusted with the key portfolios of Finance and Planning in the new state cabinet.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Grade-B",
-      "correctOption": 3,
-      "topic": "State Politics"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "The Maharashtra government announced the development of 'Third Mumbai', a new planned city, around which major infrastructure project?",
-      "Options": [
-        { "id": 1, "text": "Mumbai Trans Harbour Sea Link" },
-        { "id": 2, "text": "Navi Mumbai International Airport" },
-        { "id": 3, "text": "Vadhavan Port" },
-        { "id": 4, "text": "Mumbai-Ahmedabad Bullet Train" }
-      ],
-      "CorrectAnswer": "Navi Mumbai International Airport",
-      "Explanation": "The state government has planned the development of a new city, dubbed 'Third Mumbai', in the vicinity of the under-construction Navi Mumbai International Airport to foster integrated development.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Urban Planning, State Services",
-      "correctOption": 2,
-      "topic": "Infrastructure"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "Who from Maharashtra was honoured with the Dronacharya Award for coaching in Shooting at the National Sports Awards 2024?",
-      "Options": [
-        { "id": 1, "text": "Murlikant Petkar" },
-        { "id": 2, "text": "Swapnil Kusale" },
-        { "id": 3, "text": "Deepali Deshpande" },
-        { "id": 4, "text": "Sachin Khilari" }
-      ],
-      "CorrectAnswer": "Deepali Deshpande",
-      "Explanation": "Deepali Deshpande was recognized for her outstanding contribution as a shooting coach and was conferred with the Dronacharya Award.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, SSC-CGL, Sports",
-      "correctOption": 3,
-      "topic": "Awards & Honours"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "The 'Lek Ladki' scheme, launched by the Maharashtra government, provides financial assistance for which purpose?",
-      "Options": [
-        { "id": 1, "text": "Marriage of girls from underprivileged families" },
-        { "id": 2, "text": "Higher education abroad for meritorious girl students" },
-        { "id": 3, "text": "Promoting entrepreneurship among women" },
-        { "id": 4, "text": "Supporting a girl child from birth till the age of 18" }
-      ],
-      "CorrectAnswer": "Supporting a girl child from birth till the age of 18",
-      "Explanation": "The 'Lek Ladki' (Dear Daughter) scheme provides financial aid in various installments to a girl child from her birth to encourage education and improve the child sex ratio.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Women & Child Development Dept.",
-      "correctOption": 4,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "What is the primary goal of the 'Majhi Vasundhara Abhiyan' (My Earth Campaign) run by the Maharashtra Government?",
-      "Options": [
-        { "id": 1, "text": "Promoting digital literacy in rural areas" },
-        { "id": 2, "text": "Providing housing for all" },
-        { "id": 3, "text": "Encouraging local bodies to take action on environmental conservation" },
-        { "id": 4, "text": "Improving rural road connectivity" }
-      ],
-      "CorrectAnswer": "Encouraging local bodies to take action on environmental conservation",
-      "Explanation": "This initiative focuses on encouraging citizens and local government bodies to engage in activities related to environmental protection, including tree plantation, water conservation, and waste management.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Environment Dept.",
-      "correctOption": 3,
-      "topic": "Environment"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "The upcoming deep-water Vadhavan Port, a project of national importance, is being developed in which district of Maharashtra?",
-      "Options": [
-        { "id": 1, "text": "Ratnagiri" },
-        { "id": 2, "text": "Sindhudurg" },
-        { "id": 3, "text": "Raigad" },
-        { "id": 4, "text": "Palghar" }
-      ],
-      "CorrectAnswer": "Palghar",
-      "Explanation": "The Vadhavan Port, set to be one of the largest ports in the world, is being constructed in the Palghar district of Maharashtra.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Grade-B, State Services",
-      "correctOption": 4,
-      "topic": "Infrastructure"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "Para-athlete Sachin Sarjerao Khilari, who won the Arjuna Award in 2024, is associated with which sport?",
-      "Options": [
-        { "id": 1, "text": "Para-Swimming" },
-        { "id": 2, "text": "Para-Shooting" },
-        { "id": 3, "text": "Para-Athletics (Shot Put)" },
-        { "id": 4, "text": "Para-Badminton" }
-      ],
-      "CorrectAnswer": "Para-Athletics (Shot Put)",
-      "Explanation": "Sachin Sarjerao Khilari was honored with the Arjuna Award for his outstanding achievements in Para-Athletics, specifically in the shot put event.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Sports",
-      "correctOption": 3,
-      "topic": "Sports"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "What is the primary objective of the 'Mukhyamantri Vayoshri Yojana' launched in Maharashtra?",
-      "Options": [
-        { "id": 1, "text": "Providing free pilgrimages for senior citizens" },
-        { "id": 2, "text": "Offering higher interest rates on savings for senior citizens" },
-        { "id": 3, "text": "Providing financial aid to senior citizens for age-related assistive devices" },
-        { "id": 4, "text": "Building old age homes in every district" }
-      ],
-      "CorrectAnswer": "Providing financial aid to senior citizens for age-related assistive devices",
-      "Explanation": "This scheme aims to support the elderly by providing financial assistance for the purchase of essential aids and devices like wheelchairs, hearing aids, etc., to help them cope with age-related disabilities.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Social Justice Dept.",
-      "correctOption": 3,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "In the new Maharashtra cabinet, who has been appointed as the Minister of Industries?",
-      "Options": [
-        { "id": 1, "text": "Radhakrishna Vikhe Patil" },
-        { "id": 2, "text": "Girish Mahajan" },
-        { "id": 3, "text": "Uday Samant" },
-        { "id": 4, "text": "Mangal Prabhat Lodha" }
-      ],
-      "CorrectAnswer": "Uday Samant",
-      "Explanation": "Uday Samant of the Shiv Sena faction was allocated the portfolio of Minister of Industries in the cabinet expansion of December 2024.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Grade-B",
-      "correctOption": 3,
-      "topic": "State Politics"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "According to the Economic Survey of Maharashtra, what was the state's projected GSDP (Gross State Domestic Product) growth rate for 2024-25?",
-      "Options": [
-        { "id": 1, "text": "5.9%" },
-        { "id": 2, "text": "7.3%" },
-        { "id": 3, "text": "6.4%" },
-        { "id": 4, "text": "8.2%" }
-      ],
-      "CorrectAnswer": "6.4%",
-      "Explanation": "The Maharashtra Economic Survey for the fiscal year 2024-25 projected a growth rate of 6.4% for the state's economy.",
-      "Difficulty": "Hard",
-      "Job": "MPSC, Grade-B, Bank-PO",
-      "correctOption": 3,
-      "topic": "Economy"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "Who has been appointed as the new State Election Commissioner of Maharashtra in January 2025?",
-      "Options": [
-        { "id": 1, "text": "U P S Madan" },
-        { "id": 2, "text": "Dinesh T. Waghmare" },
-        { "id": 3, "text": "Neela Satyanarayan" },
-        { "id": 4, "text": "Sitaram Kunte" }
-      ],
-      "CorrectAnswer": "Dinesh T. Waghmare",
-      "Explanation": "Shri Dinesh T. Waghmare, a retired IAS officer of the 1994 batch, took charge as the 7th State Election Commissioner of Maharashtra on 28th January 2025.",
-      "Difficulty": "Hard",
-      "Job": "MPSC, State Services",
-      "correctOption": 2,
-      "topic": "Appointments"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "The 'Aapla Dawakhana' (Our Clinic) initiative by the Maharashtra government aims to provide:",
-      "Options": [
-        { "id": 1, "text": "Specialty healthcare in rural areas" },
-        { "id": 2, "text": "Free medicines for chronic diseases" },
-        { "id": 3, "text": "Accessible primary healthcare in urban areas" },
-        { "id": 4, "text": "Telemedicine services across the state" }
-      ],
-      "CorrectAnswer": "Accessible primary healthcare in urban areas",
-      "Explanation": "This scheme focuses on establishing a network of clinics, named 'Hinduhriday Samrat Balasaheb Thackeray Aapla Dawakhana', to offer essential medical services and diagnostics to people in urban areas, especially in slums.",
-      "Difficulty": "Easy",
-      "Job": "MPSC, Health Dept.",
-      "correctOption": 3,
-      "topic": "Health"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "Which social worker and educator from Maharashtra was posthumously awarded the Padma Shri in 2025?",
-      "Options": [
-        { "id": 1, "text": "Sindhutai Sapkal" },
-        { "id": 2, "text": "Chaitram Deochand Pawar" },
-        { "id": 3, "text": "Prakash Amte" },
-        { "id": 4, "text": "Abhay Bang" }
-      ],
-      "CorrectAnswer": "Chaitram Deochand Pawar",
-      "Explanation": "Chaitram Deochand Pawar was honored with the Padma Shri in the field of Social Work for his contributions.",
-      "Difficulty": "Medium",
-      "Job": "MPSC",
-      "correctOption": 2,
-      "topic": "Awards & Honours"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "The Maharashtra government launched the 'Mukhyamantri Mazi Ladki Bahin' scheme, promising a monthly allowance of what amount to eligible women?",
-      "Options": [
-        { "id": 1, "text": "Rs. 500" },
-        { "id": 2, "text": "Rs. 1000" },
-        { "id": 3, "text": "Rs. 1500" },
-        { "id": 4, "text": "Rs. 2000" }
-      ],
-      "CorrectAnswer": "Rs. 1500",
-      "Explanation": "This flagship scheme was introduced to provide a monthly financial assistance of Rs. 1500 to eligible women between the ages of 21 and 65 to promote their economic independence.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Grade-C",
-      "correctOption": 3,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "In October 2025, Maharashtra unveiled a new policy to boost which specific sector of the agricultural economy?",
-      "Options": [
-        { "id": 1, "text": "Dairy Industry" },
-        { "id": 2, "text": "Bamboo Industry" },
-        { "id": 3, "text": "Fisheries" },
-        { "id": 4, "text": "Horticulture" }
-      ],
-      "CorrectAnswer": "Bamboo Industry",
-      "Explanation": "The Maharashtra Bamboo Industry Policy 2025 was launched to promote the cultivation, processing, and market linkages for bamboo, aiming to make it a profitable agro-industry.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Forest Dept., Agriculture Dept.",
-      "correctOption": 2,
-      "topic": "Government Policy"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "Who has been assigned the important portfolio of Revenue in the Maharashtra Government's 2024 cabinet?",
-      "Options": [
-        { "id": 1, "text": "Radhakrishna Vikhe Patil" },
-        { "id": 2, "text": "Chandrashekhar Bawankule" },
-        { "id": 3, "text": "Girish Mahajan" },
-        { "id": 4, "text": "Sudhir Mungantiwar" }
-      ],
-      "CorrectAnswer": "Chandrashekhar Bawankule",
-      "Explanation": "Senior BJP leader and state party president Chandrashekhar Bawankule was appointed as the Minister of Revenue.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Grade-B",
-      "correctOption": 2,
-      "topic": "State Politics"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "The first underground metro line in Mumbai, which recently became fully operational, connects which two areas?",
-      "Options": [
-        { "id": 1, "text": "Dahisar to DN Nagar" },
-        { "id": 2, "text": "Colaba to SEEPZ" },
-        { "id": 3, "text": "Wadala to Thane" },
-        { "id": 4, "text": "Andheri to Ghatkopar" }
-      ],
-      "CorrectAnswer": "Colaba to SEEPZ",
-      "Explanation": "The Mumbai Metro Line 3, also known as the Aqua Line, is the city's first fully underground corridor connecting Colaba in South Mumbai to SEEPZ in the suburbs.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Grade-C, Railways",
-      "correctOption": 2,
-      "topic": "Infrastructure"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "Which scheme was launched in Maharashtra to provide financial aid to women entrepreneurs to start their own businesses?",
-      "Options": [
-        { "id": 1, "text": "Lek Ladki Scheme" },
-        { "id": 2, "text": "Mukhyamantri Vayoshri Yojana" },
-        { "id": 3, "text": "Punyashlok Ahilya Devi Holkar Women Start-Up Scheme" },
-        { "id": 4, "text": "Majhi Kanya Bhagyashree Scheme" }
-      ],
-      "CorrectAnswer": "Punyashlok Ahilya Devi Holkar Women Start-Up Scheme",
-      "Explanation": "This scheme intends to fund and support startups led by women, aiming to boost innovation and entrepreneurship among women in the state.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Industries Dept., Bank-PO",
-      "correctOption": 3,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "According to a recent CPCB report, which state has the highest number of polluted river stretches in India?",
-      "Options": [
-        { "id": 1, "text": "Uttar Pradesh" },
-        { "id": 2, "text": "West Bengal" },
-        { "id": 3, "text": "Maharashtra" },
-        { "id": 4, "text": "Tamil Nadu" }
-      ],
-      "CorrectAnswer": "Maharashtra",
-      "Explanation": "A report by the Central Pollution Control Board (CPCB) in September 2025 highlighted that Maharashtra has 54 polluted river stretches, the most in the country.",
-      "Difficulty": "Hard",
-      "Job": "MPSC, Environment Dept.",
-      "correctOption": 3,
-      "topic": "Environment"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "Pankaja Munde has been allocated which key portfolio in the 2024 Maharashtra cabinet?",
-      "Options": [
-        { "id": 1, "text": "Women and Child Development" },
-        { "id": 2, "text": "Rural Development" },
-        { "id": 3, "text": "Environment & Climate Change and Animal Husbandry" },
-        { "id": 4, "text": "Social Justice" }
-      ],
-      "CorrectAnswer": "Environment & Climate Change and Animal Husbandry",
-      "Explanation": "In the Fadnavis 3.0 cabinet, Pankaja Munde was appointed as the minister for Environment & Climate Change and Animal Husbandry.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Grade-B",
-      "correctOption": 3,
-      "topic": "State Politics"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "Shooter Swapnil Kusale from Maharashtra won which prestigious sports award in 2024?",
-      "Options": [
-        { "id": 1, "text": "Major Dhyan Chand Khel Ratna Award" },
-        { "id": 2, "text": "Dronacharya Award" },
-        { "id": 3, "text": "Arjuna Award" },
-        { "id": 4, "text": "Rashtriya Khel Protsahan Puruskar" }
-      ],
-      "CorrectAnswer": "Arjuna Award",
-      "Explanation": "Swapnil Suresh Kusale was conferred with the Arjuna Award for his exceptional achievements in the sport of shooting.",
-      "Difficulty": "Easy",
-      "Job": "MPSC, Sports",
-      "correctOption": 3,
-      "topic": "Sports"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "To bolster irrigation in Sangli district, the Maharashtra cabinet recently approved a large-scale project based on what technology?",
-      "Options": [
-        { "id": 1, "text": "Drip Irrigation" },
-        { "id": 2, "text": "Canal Automation" },
-        { "id": 3, "text": "Solar Energy" },
-        { "id": 4, "text": "Cloud Seeding" }
-      ],
-      "CorrectAnswer": "Solar Energy",
-      "Explanation": "A solar energy project worth Rs 1,594 crore was approved to enhance irrigation efficiency for the Tembhu lift irrigation scheme in Sangli district.",
-      "Difficulty": "Hard",
-      "Job": "MPSC, Agriculture Dept., Grade-B",
-      "correctOption": 3,
-      "topic": "Agriculture & Energy"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "What is the name of the new scheme in Maharashtra that provides a stipend of up to Rs. 10,000 to students?",
-      "Options": [
-        { "id": 1, "text": "Lek Ladki Yojana" },
-        { "id": 2, "text": "Ladla Bhai Yojana" },
-        { "id": 3, "text": "Mukhyamantri Fellowship Program" },
-        { "id": 4, "text": "Swami Vivekananda Youth Health Card Scheme" }
-      ],
-      "CorrectAnswer": "Ladla Bhai Yojana",
-      "Explanation": "The 'Ladla Bhai Yojana' was announced to provide a stipend of up to Rs. 10,000 to students in Maharashtra to support their education.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Grade-C",
-      "correctOption": 2,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "Who has been appointed as the Minister for Public Health and Family Welfare in the new Maharashtra cabinet?",
-      "Options": [
-        { "id": 1, "text": "Hasan Mushrif" },
-        { "id": 2, "text": "Dhananjay Munde" },
-        { "id": 3, "text": "Prakashrao Abitkar" },
-        { "id": 4, "text": "Aditi Tatkare" }
-      ],
-      "CorrectAnswer": "Prakashrao Abitkar",
-      "Explanation": "Prakashrao Abitkar of the Shiv Sena was given the responsibility of the Ministry of Public Health and Family Welfare.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Health Dept.",
-      "correctOption": 3,
-      "topic": "State Politics"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "The 'Shivbhojan Thali' scheme, which provides subsidized meals, continues to be implemented by the Maharashtra government. What is the price of a thali for the common citizen?",
-      "Options": [
-        { "id": 1, "text": "Rs. 5" },
-        { "id": 2, "text": "Rs. 10" },
-        { "id": 3, "text": "Rs. 15" },
-        { "id": 4, "text": "Free" }
-      ],
-      "CorrectAnswer": "Rs. 10",
-      "Explanation": "The Shivbhojan Thali scheme offers a full meal to the poor and needy for a subsidized rate of Rs. 10 per plate.",
-      "Difficulty": "Easy",
-      "Job": "MPSC, Grade-C",
-      "correctOption": 2,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "Murlikant Petkar from Maharashtra received the Arjuna Award (Lifetime) at the National Sports Awards 2024 for his contribution to which sport?",
-      "Options": [
-        { "id": 1, "text": "Para-Athletics" },
-        { "id": 2, "text": "Para-Swimming" },
-        { "id": 3, "text": "Wheelchair Fencing" },
-        { "id": 4, "text": "Para-Table Tennis" }
-      ],
-      "CorrectAnswer": "Para-Swimming",
-      "Explanation": "Murlikant Petkar, a pioneer in para-sports, was honored with the Arjuna Award for Lifetime Contribution for his exceptional achievements and lifelong dedication to Para-Swimming.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, Sports",
-      "correctOption": 2,
-      "topic": "Sports"
-    },
-    {
-      "category": "Maharashtra Current Affairs",
-      "Question": "The government has established the 6th State Finance Commission in Maharashtra. What is the primary role of this commission?",
-      "Options": [
-        { "id": 1, "text": "To regulate the state's stock market" },
-        { "id": 2, "text": "To decide the annual budget of the state" },
-        { "id": 3, "text": "To review the financial position of Panchayats and Municipalities" },
-        { "id": 4, "text": "To manage the state's debt and borrowings" }
-      ],
-      "CorrectAnswer": "To review the financial position of Panchayats and Municipalities",
-      "Explanation": "The State Finance Commission is a constitutional body that recommends the principles for the distribution of financial resources between the state government and the local self-government bodies (rural and urban).",
-      "Difficulty": "Hard",
-      "Job": "MPSC, Grade-B",
-      "correctOption": 3,
-      "topic": "State Polity & Economy"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Which country is the host of the G20 Summit in 2025?",
-      "Options": [
-        { "id": 1, "text": "India" },
-        { "id": 2, "text": "Brazil" },
-        { "id": 3, "text": "South Africa" },
-        { "id": 4, "text": "Russia" }
-      ],
-      "CorrectAnswer": "South Africa",
-      "Explanation": "Following Brazil's presidency in 2024, South Africa is scheduled to host the G20 Summit in 2025.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, MPSC, Bank-PO, SSC-CGL",
-      "correctOption": 3,
-      "topic": "International"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who became the first Indian astronaut to set foot on the International Space Station (ISS) in 2025?",
-      "Options": [
-        { "id": 1, "text": "Rakesh Sharma" },
-        { "id": 2, "text": "Sunita Williams" },
-        { "id": 3, "text": "Shubhanshu Shukla" },
-        { "id": 4, "text": "Kalpana Chawla" }
-      ],
-      "CorrectAnswer": "Shubhanshu Shukla",
-      "Explanation": "IAF Group Captain Shubhanshu Shukla created history by becoming the first Indian astronaut to visit the ISS as part of the Axiom-4 private spaceflight mission.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, MPSC, SSC-CGL",
-      "correctOption": 3,
-      "topic": "Science & Technology"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "What is the name of ISRO's mission to demonstrate in-space docking technology, involving two satellites?",
-      "Options": [
-        { "id": 1, "text": "Gaganyaan" },
-        { "id": 2, "text": "SPADEX" },
-        { "id": 3, "text": "Aditya-L1" },
-        { "id": 4, "text": "NISAR" }
-      ],
-      "CorrectAnswer": "SPADEX",
-      "Explanation": "The Space Docking Experiment (SPADEX) is a mission by ISRO designed to test and demonstrate the technologies required for rendezvous, docking, and undocking of two spacecraft in orbit.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, MPSC, Science & Tech",
-      "correctOption": 2,
-      "topic": "Science & Technology"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "According to recent economic data, India surpassed which country to become the world's 4th-largest economy?",
-      "Options": [
-        { "id": 1, "text": "United Kingdom" },
-        { "id": 2, "text": "Germany" },
-        { "id": 3, "text": "Japan" },
-        { "id": 4, "text": "France" }
-      ],
-      "CorrectAnswer": "Japan",
-      "Explanation": "In 2025, reports confirmed that India's nominal GDP had overtaken Japan's, making India the fourth-largest economy in the world after the USA, China, and Germany.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, MPSC, Bank-PO",
-      "correctOption": 3,
-      "topic": "Economy"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who were the four recipients of the Major Dhyan Chand Khel Ratna Award in 2024?",
-      "Options": [
-        { "id": 1, "text": "Neeraj Chopra, PV Sindhu, Mirabai Chanu, Sharath Kamal" },
-        { "id": 2, "text": "Gukesh D, Harmanpreet Singh, Praveen Kumar, Manu Bhaker" },
-        { "id": 3, "text": "Virat Kohli, Rohit Sharma, Jasprit Bumrah, Mohammed Shami" },
-        { "id": 4, "text": "Lakshya Sen, Satwiksairaj Rankireddy, Chirag Shetty, Nikhat Zareen" }
-      ],
-      "CorrectAnswer": "Gukesh D, Harmanpreet Singh, Praveen Kumar, Manu Bhaker",
-      "Explanation": "Chess prodigy Gukesh D, hockey captain Harmanpreet Singh, para-athlete Praveen Kumar, and shooter Manu Bhaker were jointly awarded India's highest sporting honour for 2024.",
-      "Difficulty": "Medium",
-      "Job": "MPSC, SSC-CGL, Bank-PO",
-      "correctOption": 2,
-      "topic": "Sports"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The joint military exercise 'Dharma Guardian 2025' was conducted between India and which other country?",
-      "Options": [
-        { "id": 1, "text": "USA" },
-        { "id": 2, "text": "France" },
-        { "id": 3, "text": "Australia" },
-        { "id": 4, "text": "Japan" }
-      ],
-      "CorrectAnswer": "Japan",
-      "Explanation": "'Dharma Guardian' is an annual joint military exercise conducted between the Indian Army and the Japan Ground Self-Defense Force.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, MPSC, Defence Exams",
-      "correctOption": 4,
-      "topic": "Defence"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The central government scheme 'PM-SURAJ' (Pradhan Mantri Samajik Utthan and Rozgar Adharit Jankalyan) is aimed at empowering which section of society?",
-      "Options": [
-        { "id": 1, "text": "Farmers" },
-        { "id": 2, "text": "Women Self-Help Groups" },
-        { "id": 3, "text": "Entrepreneurs from disadvantaged sections" },
-        { "id": 4, "text": "Street Vendors" }
-      ],
-      "CorrectAnswer": "Entrepreneurs from disadvantaged sections",
-      "Explanation": "The PM-SURAJ national portal is a credit support initiative for entrepreneurs from socially disadvantaged sections of society, providing them with access to loans and empowering them economically.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Bank-PO",
-      "correctOption": 3,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who has been appointed as the new Chief of the Army Staff in 2025?",
-      "Options": [
-        { "id": 1, "text": "Gen. Manoj Pande" },
-        { "id": 2, "text": "Lt. Gen. Upendra Dwivedi" },
-        { "id": 3, "text": "Lt. Gen. N. S. Raja Subramani" },
-        { "id": 4, "text": "Gen. Anil Chauhan" }
-      ],
-      "CorrectAnswer": "Lt. Gen. Upendra Dwivedi",
-      "Explanation": "General Manoj Pande retired in 2025, and was succeeded by Lieutenant General Upendra Dwivedi as the Chief of the Army Staff.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 2,
-      "topic": "Appointments"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "What is the primary objective of the 'PM Surya Ghar: Muft Bijli Yojana' launched in 2024?",
-      "Options": [
-        { "id": 1, "text": "To provide free electricity to all households" },
-        { "id": 2, "text": "To electrify all remaining unelectrified villages" },
-        { "id": 3, "text": "To promote rooftop solar power generation for households" },
-        { "id": 4, "text": "To replace all old electricity meters with smart meters" }
-      ],
-      "CorrectAnswer": "To promote rooftop solar power generation for households",
-      "Explanation": "This scheme aims to install rooftop solar systems in one crore households, providing them with free electricity up to 300 units per month and enabling them to sell surplus power.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, MPSC, Bank-PO, SSC-CGL",
-      "correctOption": 3,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "In a landmark judgment in February 2024, the Supreme Court struck down which scheme as unconstitutional, citing the violation of the voters' right to information?",
-      "Options": [
-        { "id": 1, "text": "Aadhaar Scheme" },
-        { "id": 2, "text": "Electoral Bonds Scheme" },
-        { "id": 3, "text": "Demonetisation Scheme" },
-        { "id": 4, "text": "Citizenship Amendment Act" }
-      ],
-      "CorrectAnswer": "Electoral Bonds Scheme",
-      "Explanation": "The Supreme Court of India declared the Electoral Bonds Scheme, which allowed for anonymous political donations, unconstitutional as it violated the right to information under Article 19(1)(a).",
-      "Difficulty": "Medium",
-      "Job": "UPSC, MPSC, Law Exams",
-      "correctOption": 2,
-      "topic": "Polity & Judiciary"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The 'Viksit Bharat Sankalp Yatra' was launched by the government with the aim of:",
-      "Options": [
-        { "id": 1, "text": "Promoting tourism across India" },
-        { "id": 2, "text": "Achieving saturation of flagship government schemes" },
-        { "id": 3, "text": "Conducting a nationwide cleanliness drive" },
-        { "id": 4, "text": "Celebrating India's cultural heritage" }
-      ],
-      "CorrectAnswer": "Achieving saturation of flagship government schemes",
-      "Explanation": "The yatra was a massive outreach program to ensure that the benefits of central government's welfare schemes reach all intended beneficiaries across the country.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Bank-PO",
-      "correctOption": 2,
-      "topic": "Government Initiatives"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who has been appointed as the first-ever female Director General of the Railway Protection Force (RPF)?",
-      "Options": [
-        { "id": 1, "text": "Archana Ramasundaram" },
-        { "id": 2, "text": "Kanchan Chaudhary Bhattacharya" },
-        { "id": 3, "text": "Sonali Mishra" },
-        { "id": 4, "text": "Neena Singh" }
-      ],
-      "CorrectAnswer": "Sonali Mishra",
-      "Explanation": "In August 2025, Sonali Mishra made history by becoming the first woman to be appointed as the Director General of the Railway Protection Force.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Railways, MPSC",
-      "correctOption": 3,
-      "topic": "Appointments"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The joint naval exercise 'Varuna 2025' was conducted between India and which country in the Arabian Sea?",
-      "Options": [
-        { "id": 1, "text": "Russia" },
-        { "id": 2, "text": "United Kingdom" },
-        { "id": 3, "text": "United States" },
-        { "id": 4, "text": "France" }
-      ],
-      "CorrectAnswer": "France",
-      "Explanation": "Varuna is a bilateral naval exercise between the Indian Navy and the French Navy, aimed at enhancing interoperability and maritime cooperation.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 4,
-      "topic": "Defence"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The Chenab Bridge, inaugurated in 2025, holds the distinction of being the:",
-      "Options": [
-        { "id": 1, "text": "Longest sea bridge in India" },
-        { "id": 2, "text": "Highest railway bridge in the world" },
-        { "id": 3, "text": "First cable-stayed road bridge in the Himalayas" },
-        { "id": 4, "text": "Widest river bridge in Asia" }
-      ],
-      "CorrectAnswer": "Highest railway bridge in the world",
-      "Explanation": "The Chenab Rail Bridge, a part of the Udhampur-Srinagar-Baramulla Rail Link project in Jammu and Kashmir, is the world's highest railway bridge, standing taller than the Eiffel Tower.",
-      "Difficulty": "Easy",
-      "Job": "SSC-CGL, Railways, MPSC",
-      "correctOption": 2,
-      "topic": "Infrastructure"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "What is 'Prachand', which was recently in the news in the context of the Indian armed forces?",
-      "Options": [
-        { "id": 1, "text": "A new main battle tank" },
-        { "id": 2, "text": "An indigenous aircraft carrier" },
-        { "id": 3, "text": "A light combat helicopter" },
-        { "id": 4, "text": "A ballistic missile submarine" }
-      ],
-      "CorrectAnswer": "A light combat helicopter",
-      "Explanation": "Prachand is India's first indigenous multi-role combat helicopter, designed and manufactured by Hindustan Aeronautics Limited (HAL) for the Indian Army and Indian Air Force.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 3,
-      "topic": "Defence"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The Government of India has launched the 'Anuvadini' app for what purpose?",
-      "Options": [
-        { "id": 1, "text": "To track nutritional data for children" },
-        { "id": 2, "text": "To provide real-time translation of educational content into Indian languages" },
-        { "id": 3, "text": "To file and track consumer complaints online" },
-        { "id": 4, "text": "To book appointments in government hospitals" }
-      ],
-      "CorrectAnswer": "To provide real-time translation of educational content into Indian languages",
-      "Explanation": "Developed under the National Education Policy, the 'Anuvadini' app uses AI to translate study materials from English and other languages into various Indian regional languages, promoting multilingualism in education.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Bank-PO, SSC-CGL",
-      "correctOption": 2,
-      "topic": "Technology & Education"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who was appointed as the 16th Finance Commission Chairman?",
-      "Options": [
-        { "id": 1, "text": "N. K. Singh" },
-        { "id": 2, "text": "Dr. Arvind Panagariya" },
-        { "id": 3, "text": "Y. V. Reddy" },
-        { "id": 4, "text": "Urjit Patel" }
-      ],
-      "CorrectAnswer": "Dr. Arvind Panagariya",
-      "Explanation": "The government appointed Dr. Arvind Panagariya, former Vice-Chairman of NITI Aayog, as the Chairman of the 16th Finance Commission, which will make recommendations for the period 2026-2031.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, MPSC, Bank-PO",
-      "correctOption": 2,
-      "topic": "Appointments"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "What is the primary objective of the 'Lakhpati Didi' scheme?",
-      "Options": [
-        { "id": 1, "text": "To provide housing for rural women" },
-        { "id": 2, "text": "To create 1 crore women entrepreneurs in urban areas" },
-        { "id": 3, "text": "To train women in Self-Help Groups to earn a sustainable income of at least Rs 1 lakh per annum" },
-        { "id": 4, "text": "To provide free higher education to one girl child per family" }
-      ],
-      "CorrectAnswer": "To train women in Self-Help Groups to earn a sustainable income of at least Rs 1 lakh per annum",
-      "Explanation": "The 'Lakhpati Didi' scheme focuses on skill development for women in SHGs, equipping them with skills like plumbing, LED bulb making, and drone operation to ensure a significant and sustainable increase in their income.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Bank-PO, Social Sector",
-      "correctOption": 3,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The NISAR satellite, scheduled for launch in 2025, is a joint Earth observation mission between ISRO and which other space agency?",
-      "Options": [
-        { "id": 1, "text": "Roscosmos (Russia)" },
-        { "id": 2, "text": "JAXA (Japan)" },
-        { "id": 3, "text": "ESA (European Space Agency)" },
-        { "id": 4, "text": "NASA (USA)" }
-      ],
-      "CorrectAnswer": "NASA (USA)",
-      "Explanation": "NISAR (NASA-ISRO Synthetic Aperture Radar) is a collaborative mission between NASA and ISRO to co-develop and launch a dual-frequency synthetic aperture radar satellite to map Earth's surface.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, MPSC, Science & Tech",
-      "correctOption": 4,
-      "topic": "Science & Technology"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who has been appointed as the new CEO of the Food Safety and Standards Authority of India (FSSAI) in September 2025?",
-      "Options": [
-        { "id": 1, "text": "G. Kamala Vardhana Rao" },
-        { "id": 2, "text": "Rajit Punhani" },
-        { "id": 3, "text": "Arun Singhal" },
-        { "id": 4, "text": "Pawan Kumar Agarwal" }
-      ],
-      "CorrectAnswer": "Rajit Punhani",
-      "Explanation": "Rajit Punhani took over as the Chief Executive Officer of FSSAI, the apex food regulatory body in India, in September 2025.",
-      "Difficulty": "Hard",
-      "Job": "UPSC, MPSC, Food Inspector",
-      "correctOption": 2,
-      "topic": "Appointments"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The government has designated three major ports, including Deendayal, V.O. Chidambaranar, and Paradip, as hubs for what purpose under India's Net-Zero vision?",
-      "Options": [
-        { "id": 1, "text": "Ship Recycling" },
-        { "id": 2, "text": "Green Hydrogen" },
-        { "id": 3, "text": "Seafood Processing" },
-        { "id": 4, "text": "Cruise Tourism" }
-      ],
-      "CorrectAnswer": "Green Hydrogen",
-      "Explanation": "As part of the National Green Hydrogen Mission, these three ports are being developed as hubs for the production, storage, and export of green hydrogen and its derivatives.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Environment & Energy Sector",
-      "correctOption": 2,
-      "topic": "Environment & Energy"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The multilateral military exercise 'Bright Star 2025', in which the Indian Armed Forces participated, was hosted by which country?",
-      "Options": [
-        { "id": 1, "text": "USA" },
-        { "id": 2, "text": "Egypt" },
-        { "id": 3, "text": "Saudi Arabia" },
-        { "id": 4, "text": "France" }
-      ],
-      "CorrectAnswer": "Egypt",
-      "Explanation": "Exercise Bright Star is one of the largest multinational military exercises in the Middle East, hosted by Egypt, and India participated with its tri-services contingent.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 2,
-      "topic": "Defence"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "What major change was introduced regarding income tax in the Union Budget 2025?",
-      "Options": [
-        { "id": 1, "text": "A new 'super-rich' tax slab was introduced." },
-        { "id": 2, "text": "The standard deduction for salaried individuals was removed." },
-        { "id": 3, "text": "The income tax exemption limit was increased significantly for all taxpayers." },
-        { "id": 4, "text": "No income tax for annual incomes up to ₹12 lakh under the new regime." }
-      ],
-      "CorrectAnswer": "No income tax for annual incomes up to ₹12 lakh under the new regime.",
-      "Explanation": "The Union Budget 2025 announced a significant relief for middle-class taxpayers by making annual incomes up to ₹12 lakh tax-free under the new tax regime.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Bank-PO, SSC-CGL",
-      "correctOption": 4,
-      "topic": "Economy"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who has been appointed as the new Controller General of Accounts (CGA) in September 2025?",
-      "Options": [
-        { "id": 1, "text": "S.S. Dubey" },
-        { "id": 2, "text": "Tiruvalam Cudamani Aishwarya Kalyani" },
-        { "id": 3, "text": "Girraj Prasad Gupta" },
-        { "id": 4, "text": "Soma Roy Burman" }
-      ],
-      "CorrectAnswer": "Tiruvalam Cudamani Aishwarya Kalyani",
-      "Explanation": "T.C.A. Kalyani was appointed as the 29th Controller General of Accounts (CGA), the principal advisor on accounting matters to the Union Government.",
-      "Difficulty": "Hard",
-      "Job": "UPSC, SSC-CGL (Audit), Bank-PO",
-      "correctOption": 2,
-      "topic": "Appointments"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The 'PM SHRI' (PM Schools for Rising India) scheme is focused on:",
-      "Options": [
-        { "id": 1, "text": "Providing scholarships for higher education" },
-        { "id": 2, "text": "Upgrading existing government schools into model schools" },
-        { "id": 3, "text": "Building new private schools in rural areas" },
-        { "id": 4, "text": "Promoting online education platforms" }
-      ],
-      "CorrectAnswer": "Upgrading existing government schools into model schools",
-      "Explanation": "The PM SHRI scheme aims to develop over 14,500 existing schools across the country as exemplary schools that will showcase all components of the National Education Policy 2020.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, MPSC, Teaching Exams",
-      "correctOption": 2,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "In which city did India secure the hosting rights for the 2030 Commonwealth Games?",
-      "Options": [
-        { "id": 1, "text": "Mumbai" },
-        { "id": 2, "text": "Ahmedabad" },
-        { "id": 3, "text": "New Delhi" },
-        { "id": 4, "text": "Bengaluru" }
-      ],
-      "CorrectAnswer": "New Delhi",
-      "Explanation": "India successfully bid to host the 2030 Commonwealth Games, with New Delhi being the host city, marking the second time the city will host the event after 2010.",
-      "Difficulty": "Easy",
-      "Job": "SSC-CGL, Bank-PO, Sports",
-      "correctOption": 3,
-      "topic": "Sports"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who was appointed as the 37th President of the Board of Control for Cricket in India (BCCI) in September 2025?",
-      "Options": [
-        { "id": 1, "text": "Roger Binny" },
-        { "id": 2, "text": "Sourav Ganguly" },
-        { "id": 3, "text": "Jay Shah" },
-        { "id": 4, "text": "Mithun Manhas" }
-      ],
-      "CorrectAnswer": "Mithun Manhas",
-      "Explanation": "Former Delhi captain Mithun Manhas was elected as the 37th President of the BCCI in September 2025.",
-      "Difficulty": "Medium",
-      "Job": "SSC-CGL, Bank-PO, Sports",
-      "correctOption": 4,
-      "topic": "Sports"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The government launched 'Operation Sindoor' in 2025 for what purpose?",
-      "Options": [
-        { "id": 1, "text": "To promote women's safety" },
-        { "id": 2, "text": "To combat human trafficking" },
-        { "id": 3, "text": "To evacuate Indian nationals from a conflict zone" },
-        { "id": 4, "text": "To preserve cultural heritage sites" }
-      ],
-      "CorrectAnswer": "To evacuate Indian nationals from a conflict zone",
-      "Explanation": "'Operation Sindoor' was the codename for the mission undertaken by the Indian government to evacuate its citizens stranded in a conflict-ridden foreign country.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, MPSC",
-      "correctOption": 3,
-      "topic": "National Security"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Which two new teams were added to the Indian Premier League (IPL) starting from the 2025 season?",
-      "Options": [
-        { "id": 1, "text": "Pune and Kochi" },
-        { "id": 2, "text": "Ahmedabad and Lucknow" },
-        { "id": 3, "text": "Visakhapatnam and Guwahati" },
-        { "id": 4, "text": "Ranchi and Indore" }
-      ],
-      "CorrectAnswer": "Visakhapatnam and Guwahati",
-      "Explanation": "The IPL expanded to a 12-team tournament with the addition of new franchises based in Visakhapatnam and Guwahati.",
-      "Difficulty": "Easy",
-      "Job": "General Exams",
-      "correctOption": 3,
-      "topic": "Sports"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who is the current Director of the Vikram Sarabhai Space Centre (VSSC), appointed in August 2025?",
-      "Options": [
-        { "id": 1, "text": "S. Somanath" },
-        { "id": 2, "text": "K. Sivan" },
-        { "id": 3, "text": "Dr. A. Rajarajan" },
-        { "id": 4, "text": "Ritu Karidhal" }
-      ],
-      "CorrectAnswer": "Dr. A. Rajarajan",
-      "Explanation": "Dr. A. Rajarajan took charge as the Director of VSSC, a major space research centre of ISRO, in August 2025.",
-      "Difficulty": "Hard",
-      "Job": "UPSC, MPSC, Science & Tech",
-      "correctOption": 3,
-      "topic": "Appointments"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "What is the primary aim of the 'SMILE' (Support for Marginalized Individuals for Livelihood and Enterprise) scheme?",
-      "Options": [
-        { "id": 1, "text": "To support senior citizens" },
-        { "id": 2, "text": "To provide housing for the urban poor" },
-        { "id": 3, "text": "To provide welfare measures for the transgender community and persons engaged in begging" },
-        { "id": 4, "text": "To promote primary education among tribal children" }
-      ],
-      "CorrectAnswer": "To provide welfare measures for the transgender community and persons engaged in begging",
-      "Explanation": "The SMILE scheme is a comprehensive initiative that includes sub-schemes for the rehabilitation, medical facilities, counselling, and skill development for the transgender community and those engaged in the act of begging.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Social Justice Dept.",
-      "correctOption": 3,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The 'Yudh Abhyas 2025' is a joint military exercise between India and which country?",
-      "Options": [
-        { "id": 1, "text": "Japan" },
-        { "id": 2, "text": "Australia" },
-        { "id": 3, "text": "United States" },
-        { "id": 4, "text": "United Kingdom" }
-      ],
-      "CorrectAnswer": "United States",
-      "Explanation": "'Yudh Abhyas' is the largest running joint military training and defense cooperation endeavor between India and the USA, held annually.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, MPSC, Defence Exams",
-      "correctOption": 3,
-      "topic": "Defence"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The 'PM-WANI' scheme, frequently in the news, is related to:",
-      "Options": [
-        { "id": 1, "text": "Women's safety" },
-        { "id": 2, "text": "Setting up public Wi-Fi networks" },
-        { "id": 3, "text": "Water conservation" },
-        { "id": 4, "text": "Financial inclusion" }
-      ],
-      "CorrectAnswer": "Setting up public Wi-Fi networks",
-      "Explanation": "The Prime Minister's Wi-Fi Access Network Interface (PM-WANI) scheme aims to proliferate broadband through public Wi-Fi networks across the country, creating jobs and enhancing digital connectivity.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Bank-PO, Telecom",
-      "correctOption": 2,
-      "topic": "Technology & Schemes"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who has taken charge as the Vice Chief of the Army Staff in August 2025?",
-      "Options": [
-        { "id": 1, "text": "Lt Gen M. V. Suchindra Kumar" },
-        { "id": 2, "text": "Lt Gen B. S. Raju" },
-        { "id": 3, "text": "Lt Gen Pushpendra Singh" },
-        { "id": 4, "text": "Lt Gen C. P. Mohanty" }
-      ],
-      "CorrectAnswer": "Lt Gen Pushpendra Singh",
-      "Explanation": "Lieutenant General Pushpendra Singh was appointed as the Vice Chief of the Army Staff, a crucial leadership position in the Indian Army.",
-      "Difficulty": "Hard",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 3,
-      "topic": "Appointments"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "What is 'Mission Utkarsh', launched by the government in 2025?",
-      "Options": [
-        { "id": 1, "text": "A mission to improve the quality of higher education" },
-        { "id": 2, "text": "An initiative to enhance nutritional outcomes in 15 identified districts" },
-        { "id": 3, "text": "A program to promote sports at the grassroots level" },
-        { "id": 4, "text": "A project for the modernization of Indian Railways" }
-      ],
-      "CorrectAnswer": "An initiative to enhance nutritional outcomes in 15 identified districts",
-      "Explanation": "Mission Utkarsh was launched by the Ministry of Women and Child Development and Ministry of Ayush to address malnutrition by leveraging the Ayush system in 15 districts across 5 states.",
-      "Difficulty": "Hard",
-      "Job": "UPSC, Health & Social Sector",
-      "correctOption": 2,
-      "topic": "Government Initiatives"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The multinational naval exercise 'Malabar' involves which four countries?",
-      "Options": [
-        { "id": 1, "text": "India, USA, UK, France" },
-        { "id": 2, "text": "India, USA, Japan, Australia" },
-        { "id": 3, "text": "India, Russia, China, Iran" },
-        { "id": 4, "text": "India, Japan, South Korea, Vietnam" }
-      ],
-      "CorrectAnswer": "India, USA, Japan, Australia",
-      "Explanation": "The Malabar exercise is a multilateral naval exercise involving the naval forces of the Quad countries: India, the United States, Japan, and Australia.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 2,
-      "topic": "Defence"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who became the first Indian woman to win a gold medal in shooting at the Asian Games 2025?",
-      "Options": [
-        { "id": 1, "text": "Manu Bhaker" },
-        { "id": 2, "text": "Apurvi Chandela" },
-        { "id": 3, "text": "Sift Kaur Samra" },
-        { "id": 4, "text": "Rahi Sarnobat" }
-      ],
-      "CorrectAnswer": "Sift Kaur Samra",
-      "Explanation": "Sift Kaur Samra created history at the 2025 Asian Games by winning the gold medal in the women's 50m rifle 3 positions event with a world record score.",
-      "Difficulty": "Medium",
-      "Job": "SSC-CGL, MPSC, Sports",
-      "correctOption": 3,
-      "topic": "Sports"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "What is the primary goal of the 'National Green Hydrogen Mission'?",
-      "Options": [
-        { "id": 1, "text": "To increase the forest cover of India" },
-        { "id": 2, "text": "To make India a global hub for the production, use, and export of Green Hydrogen" },
-        { "id": 3, "text": "To shift all public transport to hydrogen fuel cells" },
-        { "id": 4, "text": "To clean major rivers using hydrogen peroxide" }
-      ],
-      "CorrectAnswer": "To make India a global hub for the production, use, and export of Green Hydrogen",
-      "Explanation": "This ambitious mission aims to facilitate demand creation, production, utilization, and export of Green Hydrogen, positioning India as a leader in clean energy.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Environment & Energy Sector",
-      "correctOption": 2,
-      "topic": "Environment & Energy"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The government's 'Amrit Dharohar' scheme is focused on the conservation of which specific ecosystems?",
-      "Options": [
-        { "id": 1, "text": "Himalayan Glaciers" },
-        { "id": 2, "text": "Desert Oases" },
-        { "id": 3, "text": "Wetlands (Ramsar Sites)" },
-        { "id": 4, "text": "Coral Reefs" }
-      ],
-      "CorrectAnswer": "Wetlands (Ramsar Sites)",
-      "Explanation": "The 'Amrit Dharohar' scheme was launched to promote the unique conservation values of India's Ramsar Sites (wetlands of international importance) and increase their optimal use for tourism and livelihoods.",
-      "Difficulty": "Hard",
-      "Job": "UPSC, Forest Services, Environment Dept.",
-      "correctOption": 3,
-      "topic": "Environment"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who has been appointed as the new Director General of the Central Industrial Security Force (CISF) in September 2025?",
-      "Options": [
-        { "id": 1, "text": "Sheel Vardhan Singh" },
-        { "id": 2, "text": "Nina Singh" },
-        { "id": 3, "text": "Praveer Ranjan" },
-        { "id": 4, "text": "Anish Dayal Singh" }
-      ],
-      "CorrectAnswer": "Praveer Ranjan",
-      "Explanation": "Praveer Ranjan, an IPS officer, was appointed to head the CISF, which is responsible for the security of critical industrial undertakings and infrastructure in the country.",
-      "Difficulty": "Hard",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 3,
-      "topic": "Appointments"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The 'PM-PRANAM' scheme has been launched to promote:",
-      "Options": [
-        { "id": 1, "text": "The use of alternative fertilizers and reduce chemical fertilizer use" },
-        { "id": 2, "text": "Yoga and traditional wellness practices" },
-        { "id": 3, "text": "The preservation of ancient monuments" },
-        { "id": 4, "text": "Digital payments in rural areas" }
-      ],
-      "CorrectAnswer": "The use of alternative fertilizers and reduce chemical fertilizer use",
-      "Explanation": "The PM Programme for Restoration, Awareness, Nourishment and Amelioration of Mother Earth (PM-PRANAM) aims to incentivize states and Union Territories to promote balanced use of fertilizers and alternative, natural farming methods.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Agriculture Dept.",
-      "correctOption": 1,
-      "topic": "Agriculture & Environment"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The Indian Air Force recently received the first of its C295 transport aircraft. These aircraft are being manufactured in India by Tata Advanced Systems in collaboration with which global company?",
-      "Options": [
-        { "id": 1, "text": "Boeing" },
-        { "id": 2, "text": "Lockheed Martin" },
-        { "id": 3, "text": "Dassault Aviation" },
-        { "id": 4, "text": "Airbus" }
-      ],
-      "CorrectAnswer": "Airbus",
-      "Explanation": "The C295 tactical transport aircraft are being manufactured in India for the first time by a private consortium, Tata-Airbus, at their facility in Vadodara, Gujarat.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 4,
-      "topic": "Defence"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Which Indian cricketer was awarded the ICC Men's Player of the Month for September 2025?",
-      "Options": [
-        { "id": 1, "text": "Virat Kohli" },
-        { "id": 2, "text": "Rohit Sharma" },
-        { "id": 3, "text": "Shubman Gill" },
-        { "id": 4, "text": "Jasprit Bumrah" }
-      ],
-      "CorrectAnswer": "Shubman Gill",
-      "Explanation": "Shubman Gill was named the ICC Men's Player of the Month for September 2025 for his exceptional batting performances during the period.",
-      "Difficulty": "Easy",
-      "Job": "SSC-CGL, Bank-PO, General Exams",
-      "correctOption": 3,
-      "topic": "Sports"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "What is the primary focus of the 'MISHTI' (Mangrove Initiative for Shoreline Habitats & Tangible Incomes) scheme?",
-      "Options": [
-        { "id": 1, "text": "Promoting sweet water fisheries" },
-        { "id": 2, "text": "Developing inland waterways" },
-        { "id": 3, "text": "Mangrove plantation and conservation along the coastline" },
-        { "id": 4, "text": "Providing subsidies for sugar production" }
-      ],
-      "CorrectAnswer": "Mangrove plantation and conservation along the coastline",
-      "Explanation": "The MISHTI scheme focuses on the intensive afforestation of mangrove forests along India's coastline and on salt pan lands to protect coastal ecosystems and support local communities.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Forest Services, Environment Dept.",
-      "correctOption": 3,
-      "topic": "Environment"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who has been appointed as the new Executive Director for India at the International Monetary Fund (IMF) in 2025?",
-      "Options": [
-        { "id": 1, "text": "Krishnamurthy Subramanian" },
-        { "id": 2, "text": "Surjit Bhalla" },
-        { "id": 3, "text": "Dr. Urjit Patel" },
-        { "id": 4, "text": "Viral Acharya" }
-      ],
-      "CorrectAnswer": "Dr. Urjit Patel",
-      "Explanation": "Former RBI Governor Dr. Urjit Patel was appointed as India's Executive Director at the IMF for a three-year term.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, RBI Grade B, Bank-PO",
-      "correctOption": 3,
-      "topic": "Appointments"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Which team won the Indian Premier League (IPL) in 2025?",
-      "Options": [
-        { "id": 1, "text": "Chennai Super Kings" },
-        { "id": 2, "text": "Mumbai Indians" },
-        { "id": 3, "text": "Kolkata Knight Riders" },
-        { "id": 4, "text": "Sunrisers Hyderabad" }
-      ],
-      "CorrectAnswer": "Kolkata Knight Riders",
-      "Explanation": "Kolkata Knight Riders won their third IPL title in the 2025 season.",
-      "Difficulty": "Easy",
-      "Job": "General Exams",
-      "correctOption": 3,
-      "topic": "Sports"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The government has approved the 'UNNATI' (Uttar Poorva Transformative Industrialization) scheme for which region of India?",
-      "Options": [
-        { "id": 1, "text": "The Himalayan states" },
-        { "id": 2, "text": "The coastal areas" },
-        { "id": 3, "text": "The North Eastern Region" },
-        { "id": 4, "text": "The tribal belts of Central India" }
-      ],
-      "CorrectAnswer": "The North Eastern Region",
-      "Explanation": "The UNNATI scheme is a new industrial development scheme aimed at fostering manufacturing and services sectors, generating employment, and promoting economic growth in the North Eastern states.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, State PSCs (NE)",
-      "correctOption": 3,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who is the current Chief of Defence Staff (CDS) of India?",
-      "Options": [
-        { "id": 1, "text": "General Bipin Rawat" },
-        { "id": 2, "text": "General Manoj Mukund Naravane" },
-        { "id": 3, "text": "General Anil Chauhan" },
-        { "id": 4, "text": "Admiral R. Hari Kumar" }
-      ],
-      "CorrectAnswer": "General Anil Chauhan",
-      "Explanation": "General Anil Chauhan (Retd.) is the current and second Chief of Defence Staff of the Indian Armed Forces.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 3,
-      "topic": "Defence"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "India's first indigenous aircraft carrier is named:",
-      "Options": [
-        { "id": 1, "text": "INS Viraat" },
-        { "id": 2, "text": "INS Vikramaditya" },
-        { "id": 3, "text": "INS Vikrant" },
-        { "id": 4, "text": "INS Vishal" }
-      ],
-      "CorrectAnswer": "INS Vikrant",
-      "Explanation": "INS Vikrant (IAC-1) is the first aircraft carrier to be indigenously designed and built in India. It was commissioned in 2022.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, MPSC, Defence Exams",
-      "correctOption": 3,
-      "topic": "Defence"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The 'PM Vishwakarma' scheme has been launched to provide support to which group of people?",
-      "Options": [
-        { "id": 1, "text": "Farmers" },
-        { "id": 2, "text": "Street vendors" },
-        { "id": 3, "text": "Traditional artisans and craftspeople" },
-        { "id": 4, "text": "MSME entrepreneurs" }
-      ],
-      "CorrectAnswer": "Traditional artisans and craftspeople",
-      "Explanation": "The PM Vishwakarma scheme provides end-to-end support to artisans and craftspeople, including skill training, toolkits, credit support, and market linkages, to integrate them into the formal economy.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, Bank-PO, SSC-CGL",
-      "correctOption": 3,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who won the Best Actor award at the 71st National Film Awards announced in 2025?",
-      "Options": [
-        { "id": 1, "text": "Allu Arjun" },
-        { "id": 2, "text": "Ranbir Kapoor" },
-        { "id": 3, "text": "Vicky Kaushal" },
-        { "id": 4, "text": "Suriya" }
-      ],
-      "CorrectAnswer": "Ranbir Kapoor",
-      "Explanation": "Ranbir Kapoor won the Best Actor award for his performance in the film 'Animal' at the 71st National Film Awards.",
-      "Difficulty": "Medium",
-      "Job": "SSC-CGL, MPSC, Entertainment",
-      "correctOption": 2,
-      "topic": "Awards & Honours"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The 'Vibrant Villages Programme' is a central government initiative focused on the development of:",
-      "Options": [
-        { "id": 1, "text": "Coastal fishing villages" },
-        { "id": 2, "text": "Villages with historical importance" },
-        { "id": 3, "text": "Border villages in northern states" },
-        { "id": 4, "text": "Villages in aspirational districts" }
-      ],
-      "CorrectAnswer": "Border villages in northern states",
-      "Explanation": "The Vibrant Villages Programme aims at the comprehensive development of select villages in 46 blocks along the northern border, improving infrastructure and creating livelihood opportunities to reverse out-migration.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, State PSCs",
-      "correctOption": 3,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who has been appointed as the new chairman of the Telecom Regulatory Authority of India (TRAI) in 2025?",
-      "Options": [
-        { "id": 1, "text": "P. D. Vaghela" },
-        { "id": 2, "text": "Anil Kumar Lahoti" },
-        { "id": 3, "text": "R. S. Sharma" },
-        { "id": 4, "text": "Meenakshi Gupta" }
-      ],
-      "CorrectAnswer": "Anil Kumar Lahoti",
-      "Explanation": "Anil Kumar Lahoti, former Chairman of the Railway Board, was appointed as the new chairman of TRAI for a period of three years.",
-      "Difficulty": "Hard",
-      "Job": "UPSC, Bank-PO",
-      "correctOption": 2,
-      "topic": "Appointments"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "What is the name of the operation launched by India to assist earthquake-hit Turkey and Syria in 2023?",
-      "Options": [
-        { "id": 1, "text": "Operation Ganga" },
-        { "id": 2, "text": "Operation Devi Shakti" },
-        { "id": 3, "text": "Operation Dost" },
-        { "id": 4, "text": "Operation Maitri" }
-      ],
-      "CorrectAnswer": "Operation Dost",
-      "Explanation": "'Operation Dost' (Operation Friend) was India's search and rescue operation to provide humanitarian assistance to Turkey and Syria after the devastating earthquake.",
-      "Difficulty": "Easy",
-      "Job": "UPSC, MPSC, SSC-CGL",
-      "correctOption": 3,
-      "topic": "International Relations"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Which Indian city has been declared as the first 'Wetland City' of India under the Ramsar Convention?",
-      "Options": [
-        { "id": 1, "text": "Kolkata" },
-        { "id": 2, "text": "Bhopal" },
-        { "id": 3, "text": "Udaipur" },
-        { "id": 4, "text": "Kochi" }
-      ],
-      "CorrectAnswer": "Udaipur",
-      "Explanation": "Udaipur, known as the City of Lakes, was officially recognized as India's first Wetland City for its efforts in conserving its urban wetlands.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Forest Services, Environment Dept.",
-      "correctOption": 3,
-      "topic": "Environment"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The 'Samudra Laksamana' is a maritime exercise conducted between India and which country?",
-      "Options": [
-        { "id": 1, "text": "Indonesia" },
-        { "id": 2, "text": "Sri Lanka" },
-        { "id": 3, "text": "Malaysia" },
-        { "id": 4, "text": "Thailand" }
-      ],
-      "CorrectAnswer": "Malaysia",
-      "Explanation": "Exercise 'Samudra Laksamana' is a joint naval exercise between the Indian Navy and the Royal Malaysian Navy aimed at strengthening bonds and enhancing mutual understanding.",
-      "Difficulty": "Hard",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 3,
-      "topic": "Defence"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Which state launched the 'Gomti Rejuvenation Mission' in October 2025 to revive its lifeline river?",
-      "Options": [
-        { "id": 1, "text": "Bihar" },
-        { "id": 2, "text": "Madhya Pradesh" },
-        { "id": 3, "text": "Uttar Pradesh" },
-        { "id": 4, "text": "Rajasthan" }
-      ],
-      "CorrectAnswer": "Uttar Pradesh",
-      "Explanation": "The Uttar Pradesh government launched the Gomti Rejuvenation Mission, a comprehensive plan to clean and revive the Gomti River.",
-      "Difficulty": "Easy",
-      "Job": "State PSCs, MPSC",
-      "correctOption": 3,
-      "topic": "Environment"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who is the author of the book 'Four Stars of Destiny: An Autobiography'?",
-      "Options": [
-        { "id": 1, "text": "General Bipin Rawat" },
-        { "id": 2, "text": "General M.M. Naravane" },
-        { "id": 3, "text": "Admiral Karambir Singh" },
-        { "id": 4, "text": "Air Chief Marshal RKS Bhadauria" }
-      ],
-      "CorrectAnswer": "General M.M. Naravane",
-      "Explanation": "Former Chief of the Army Staff, General M.M. Naravane, penned his autobiography titled 'Four Stars of Destiny'.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 2,
-      "topic": "Books & Authors"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The government launched the 'Sagar Aankalan' guidelines for what purpose?",
-      "Options": [
-        { "id": 1, "text": "To monitor deep-sea fishing activities" },
-        { "id": 2, "text": "To assess the performance of Indian ports" },
-        { "id": 3, "text": "To map the ocean floor for mineral resources" },
-        { "id": 4, "text": "To forecast tsunamis and cyclones" }
-      ],
-      "CorrectAnswer": "To assess the performance of Indian ports",
-      "Explanation": "The 'Sagar Aankalan' guidelines were introduced by the Ministry of Ports, Shipping and Waterways to create a national benchmark for the performance and efficiency of Indian ports.",
-      "Difficulty": "Hard",
-      "Job": "UPSC, MPSC",
-      "correctOption": 2,
-      "topic": "Economy & Infrastructure"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who has been appointed as the new chairman of the National Commission for Scheduled Castes (NCSC)?",
-      "Options": [
-        { "id": 1, "text": "Vijay Sampla" },
-        { "id": 2, "text": "Kishor Makwana" },
-        { "id": 3, "text": "Ram Shankar Katheria" },
-        { "id": 4, "text": "Arun Halder" }
-      ],
-      "CorrectAnswer": "Kishor Makwana",
-      "Explanation": "Kishor Makwana assumed the charge of the Chairman of the National Commission for Scheduled Castes in 2025.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, MPSC",
-      "correctOption": 2,
-      "topic": "Appointments"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "What is 'Swarved Mahamandir', which was inaugurated in Varanasi in late 2024?",
-      "Options": [
-        { "id": 1, "text": "A new Hindu temple" },
-        { "id": 2, "text": "A center for spiritual and meditation practices" },
-        { "id": 3, "text": "A museum of Vedic culture" },
-        { "id": 4, "text": "A university for Sanskrit studies" }
-      ],
-      "CorrectAnswer": "A center for spiritual and meditation practices",
-      "Explanation": "The Swarved Mahamandir is a massive seven-floor meditation center dedicated to the practice of Vihangam Yoga, with the capacity to hold 20,000 people at a time.",
-      "Difficulty": "Medium",
-      "Job": "SSC-CGL, MPSC",
-      "correctOption": 2,
-      "topic": "Culture"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The 'Pradhan Mantri Janjati Adivasi Nyaya Maha Abhiyan' (PM-JANMAN) is focused on the development of which group?",
-      "Options": [
-        { "id": 1, "text": "All Scheduled Tribes" },
-        { "id": 2, "text": "Particularly Vulnerable Tribal Groups (PVTGs)" },
-        { "id": 3, "text": "Scheduled Castes" },
-        { "id": 4, "text": "Nomadic Tribes" }
-      ],
-      "CorrectAnswer": "Particularly Vulnerable Tribal Groups (PVTGs)",
-      "Explanation": "PM-JANMAN is a comprehensive mission aimed at the holistic development of the 75 identified Particularly Vulnerable Tribal Groups (PVTGs) in India, improving their socio-economic conditions.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, MPSC",
-      "correctOption": 2,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The government is developing the 'KALI' (Kilo Ampere Linear Injector) project for what purpose?",
-      "Options": [
-        { "id": 1, "text": "Nuclear power generation" },
-        { "id": 2, "text": "A high-power microwave weapon system" },
-        { "id": 3, "text": "A particle accelerator for scientific research" },
-        { "id": 4, "text": "Laser-guided missile technology" }
-      ],
-      "CorrectAnswer": "A high-power microwave weapon system",
-      "Explanation": "Project KALI is a confidential directed energy weapon project being developed by DRDO and BARC, designed to emit powerful microwaves to destroy incoming missiles and aircraft.",
-      "Difficulty": "Hard",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 2,
-      "topic": "Defence"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Who has been appointed as the new Lokpal (anti-corruption ombudsman) of India?",
-      "Options": [
-        { "id": 1, "text": "Justice Pinaki Chandra Ghose" },
-        { "id": 2, "text": "Justice Pradip Kumar Mohanty" },
-        { "id": 3, "text": "Justice A. M. Khanwilkar" },
-        { "id": 4, "text": "Justice Ranjan Gogoi" }
-      ],
-      "CorrectAnswer": "Justice A. M. Khanwilkar",
-      "Explanation": "Former Supreme Court judge, Justice Ajay Manikrao Khanwilkar, was appointed as the new Chairperson of the Lokpal.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, MPSC, Bank-PO",
-      "correctOption": 3,
-      "topic": "Appointments"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The 'PRITHVI' (Polar Science and Cryosphere Research) scheme is an umbrella scheme of which ministry?",
-      "Options": [
-        { "id": 1, "text": "Ministry of Science and Technology" },
-        { "id": 2, "text": "Ministry of Environment, Forest and Climate Change" },
-        { "id": 3, "text": "Ministry of Earth Sciences" },
-        { "id": 4, "text": "Ministry of External Affairs" }
-      ],
-      "CorrectAnswer": "Ministry of Earth Sciences",
-      "Explanation": "PRITHVI is an overarching scheme of the Ministry of Earth Sciences that integrates five existing sub-schemes related to atmospheric, oceanic, polar, and seismological research.",
-      "Difficulty": "Hard",
-      "Job": "UPSC",
-      "correctOption": 3,
-      "topic": "Science & Technology"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Which was the first state in India to implement the Uniform Civil Code (UCC) after independence?",
-      "Options": [
-        { "id": 1, "text": "Goa" },
-        { "id": 2, "text": "Uttar Pradesh" },
-        { "id": 3, "text": "Gujarat" },
-        { "id": 4, "text": "Uttarakhand" }
-      ],
-      "CorrectAnswer": "Uttarakhand",
-      "Explanation": "While Goa has had a common civil code since Portuguese rule, Uttarakhand became the first state in independent India to pass and implement its own Uniform Civil Code bill in 2024.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, MPSC, Law Exams",
-      "correctOption": 4,
-      "topic": "Polity"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The 11th edition of the joint special forces exercise 'Khanjar' was held between India and which country?",
-      "Options": [
-        { "id": 1, "text": "Kazakhstan" },
-        { "id": 2, "text": "Uzbekistan" },
-        { "id": 3, "text": "Kyrgyzstan" },
-        { "id": 4, "text": "Turkmenistan" }
-      ],
-      "CorrectAnswer": "Kyrgyzstan",
-      "Explanation": "Exercise Khanjar is an annual joint special forces exercise conducted between India and Kyrgyzstan to enhance interoperability and share expertise in counter-terrorism and special forces operations.",
-      "Difficulty": "Medium",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 3,
-      "topic": "Defence"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "Which film won the Best Feature Film award at the 71st National Film Awards?",
-      "Options": [
-        { "id": 1, "text": "RRR" },
-        { "id": 2, "text": "Oppenheimer" },
-        { "id": 3, "text": "Kantara" },
-        { "id": 4, "text": "Aattam" }
-      ],
-      "CorrectAnswer": "Aattam",
-      "Explanation": "The Malayalam film 'Aattam' was awarded the Swarna Kamal (Golden Lotus) for Best Feature Film at the 71st National Film Awards.",
-      "Difficulty": "Hard",
-      "Job": "SSC-CGL, MPSC, Entertainment",
-      "correctOption": 4,
-      "topic": "Awards & Honours"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "The 'Mahatari Vandana Yojana', providing monthly financial assistance to married women, was launched by which state?",
-      "Options": [
-        { "id": 1, "text": "Madhya Pradesh" },
-        { "id": 2, "text": "Rajasthan" },
-        { "id": 3, "text": "Chhattisgarh" },
-        { "id": 4, "text": "Odisha" }
-      ],
-      "CorrectAnswer": "Chhattisgarh",
-      "Explanation": "The Chhattisgarh government launched the 'Mahatari Vandana Yojana' to provide Rs. 1000 per month (Rs. 12,000 annually) to eligible married women in the state.",
-      "Difficulty": "Medium",
-      "Job": "State PSCs",
-      "correctOption": 3,
-      "topic": "Government Schemes"
-    },
-    {
-      "category": "India Current Affairs",
-      "Question": "What is 'Samar', which was recently tested by the Indian Air Force?",
-      "Options": [
-        { "id": 1, "text": "A long-range artillery gun" },
-        { "id": 2, "text": "A surface-to-air missile system" },
-        { "id": 3, "text": "An unmanned aerial vehicle" },
-        { "id": 4, "text": "A naval anti-ship missile" }
-      ],
-      "CorrectAnswer": "A surface-to-air missile system",
-      "Explanation": "SAMAR (Surface to Air Missile for Assured Retaliation) is an indigenous air defence system developed by the IAF, which utilizes re-purposed Russian Vympel R-73 air-to-air missiles.",
-      "Difficulty": "Hard",
-      "Job": "UPSC, Defence Exams",
-      "correctOption": 2,
-      "topic": "Defence"
-    }
-  ]
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "2024 च्या विधानसभा निवडणुकीनंतर महाराष्ट्राचे मुख्यमंत्री म्हणून कोणी शपथ घेतली?",
+    "Options": [
+      { "id": 1, "text": "एकनाथ शिंदे" },
+      { "id": 2, "text": "अजित पवार" },
+      { "id": 3, "text": "उद्धव ठाकरे" },
+      { "id": 4, "text": "देवेंद्र फडणवीस" }
+    ],
+    "CorrectAnswer": "देवेंद्र फडणवीस",
+    "Explanation": "भाजपचे देवेंद्र फडणवीस यांनी 'महायुती'चे नेतृत्व करत डिसेंबर 2024 मध्ये तिसऱ्यांदा महाराष्ट्राचे मुख्यमंत्री म्हणून शपथ घेतली.",
+    "Difficulty": "सोपे",
+    "Job": "MPSC, Grade-B, Grade-C, Bank-PO, SSC-CGL",
+    "correctOption": 4,
+    "topic": "राज्य राजकारण"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "डिसेंबर 2024 मध्ये स्थापन झालेल्या महाराष्ट्र सरकारमध्ये उपमुख्यमंत्री म्हणून कोणाची नियुक्ती करण्यात आली?",
+    "Options": [
+      { "id": 1, "text": "देवेंद्र फडणवीस आणि अजित पवार" },
+      { "id": 2, "text": "एकनाथ शिंदे आणि अजित पवार" },
+      { "id": 3, "text": "एकनाथ शिंदे आणि चंद्रशेखर बावनकुळे" },
+      { "id": 4, "text": "राधाकृष्ण विखे पाटील आणि हसन मुश्रीफ" }
+    ],
+    "CorrectAnswer": "एकनाथ शिंदे आणि अजित पवार",
+    "Explanation": "शिवसेनेचे एकनाथ शिंदे आणि राष्ट्रवादी काँग्रेसचे अजित पवार या दोघांनाही फडणवीस-नेतृत्वाखालील सरकारमध्ये उपमुख्यमंत्री म्हणून नियुक्त करण्यात आले.",
+    "Difficulty": "सोपे",
+    "Job": "MPSC, Grade-B, Grade-C",
+    "correctOption": 2,
+    "topic": "राज्य राजकारण"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "PM-KISAN योजनेला पूरक म्हणून शेतकऱ्यांना वार्षिक आर्थिक लाभ देण्यासाठी महाराष्ट्र सरकारने सुरू केलेल्या योजनेचे नाव काय आहे?",
+    "Options": [
+      { "id": 1, "text": "माझी कन्या भाग्यश्री योजना" },
+      { "id": 2, "text": "मुख्यमंत्री सौर कृषी पंप योजना" },
+      { "id": 3, "text": "लेक लाडकी योजना" },
+      { "id": 4, "text": "नमो शेतकरी महा सन्मान निधी योजना" }
+    ],
+    "CorrectAnswer": "नमो शेतकरी महा सन्मान निधी योजना",
+    "Explanation": "नमो शेतकरी महा सन्मान निधी योजनेंतर्गत केंद्र सरकारच्या PM-KISAN योजनेव्यतिरिक्त महाराष्ट्रातील शेतकऱ्यांना अतिरिक्त वार्षिक रक्कम दिली जाते.",
+    "Difficulty": "सोपे",
+    "Job": "MPSC, Agriculture Dept., Bank-PO",
+    "correctOption": 4,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "डिसेंबर 2024 मध्ये स्थापन झालेल्या महाराष्ट्र मंत्रिमंडळात अजित पवार यांना कोणते खाते देण्यात आले?",
+    "Options": [
+      { "id": 1, "text": "गृह व्यवहार" },
+      { "id": 2, "text": "महसूल" },
+      { "id": 3, "text": "शहरी विकास" },
+      { "id": 4, "text": "वित्त आणि नियोजन" }
+    ],
+    "CorrectAnswer": "वित्त आणि नियोजन",
+    "Explanation": "उपमुख्यमंत्री अजित पवार यांच्याकडे नवीन राज्य मंत्रिमंडळात वित्त आणि नियोजन या महत्त्वाच्या खात्यांची जबाबदारी सोपवण्यात आली.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Grade-B",
+    "correctOption": 4,
+    "topic": "राज्य राजकारण"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "'थर्ड मुंबई' नावाचे नवीन नियोजित शहर विकसित करण्याची घोषणा महाराष्ट्र सरकारने कोणत्या मोठ्या पायाभूत प्रकल्पाच्या आसपास केली आहे?",
+    "Options": [
+      { "id": 1, "text": "मुंबई ट्रान्स हार्बर सी लिंक" },
+      { "id": 2, "text": "नवी मुंबई आंतरराष्ट्रीय विमानतळ" },
+      { "id": 3, "text": "वडवण बंदर" },
+      { "id": 4, "text": "मुंबई-अहमदाबाद बुलेट ट्रेन" }
+    ],
+    "CorrectAnswer": "नवी मुंबई आंतरराष्ट्रीय विमानतळ",
+    "Explanation": "राज्यात 'थर्ड मुंबई' नावाचे नवीन शहर निर्माणाधीन नवी मुंबई आंतरराष्ट्रीय विमानतळाच्या परिसरात एकात्मिक विकासासाठी विकसित करण्याची योजना आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Urban Planning, State Services",
+    "correctOption": 2,
+    "topic": "पायाभूत सुविधा"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "राष्ट्रीय क्रीडा पुरस्कार 2024 मध्ये नेमबाजीसाठी प्रशिक्षणामध्ये द्रोणाचार्य पुरस्काराने महाराष्ट्रातून कोणाला सन्मानित करण्यात आले?",
+    "Options": [
+      { "id": 1, "text": "मुरलीकांत पेटकर" },
+      { "id": 2, "text": "स्वप्नील कुसळे" },
+      { "id": 3, "text": "सचिन खिलारी" },
+      { "id": 4, "text": "दीपाली देशपांडे" }
+    ],
+    "CorrectAnswer": "दीपाली देशपांडे",
+    "Explanation": "नेमबाजी प्रशिक्षक म्हणून उत्कृष्ट योगदानासाठी दीपाली देशपांडे यांना द्रोणाचार्य पुरस्काराने सन्मानित करण्यात आले.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, SSC-CGL, Sports",
+    "correctOption": 4,
+    "topic": "पुरस्कार आणि सन्मान"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "महाराष्ट्र सरकारने सुरू केलेली 'लेक लाडकी' योजना कोणत्या उद्देशासाठी आर्थिक सहाय्य प्रदान करते?",
+    "Options": [
+      { "id": 1, "text": "वंचित कुटुंबातील मुलींच्या लग्नासाठी" },
+      { "id": 2, "text": "गुणवंत विद्यार्थिनींना परदेशात उच्च शिक्षणासाठी" },
+      { "id": 3, "text": "महिलांमध्ये उद्योजकता वाढवण्यासाठी" },
+      { "id": 4, "text": "जन्मापासून ते 18 वर्षांपर्यंत मुलीच्या शिक्षणासाठी आणि पालनपोषणासाठी" }
+    ],
+    "CorrectAnswer": "जन्मापासून ते 18 वर्षांपर्यंत मुलीच्या शिक्षणासाठी आणि पालनपोषणासाठी",
+    "Explanation": "'लेक लाडकी' योजना मुलींचे शिक्षण प्रोत्साहित करण्यासाठी आणि लिंग गुणोत्तर सुधारण्यासाठी तिच्या जन्मापासून विविध टप्प्यांवर आर्थिक मदत पुरवते.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Women & Child Development Dept.",
+    "correctOption": 4,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "महाराष्ट्र सरकारने राबवलेल्या 'माझी वसुंधरा अभियान'चा प्राथमिक उद्देश काय आहे?",
+    "Options": [
+      { "id": 1, "text": "पर्यावरणाच्या संरक्षणासाठी स्थानिक संस्थांना कृती करण्यास प्रोत्साहित करणे" },
+      { "id": 2, "text": "ग्रामीण भागात डिजिटल साक्षरता वाढवणे" },
+      { "id": 3, "text": "सर्वांसाठी घरे उपलब्ध करणे" },
+      { "id": 4, "text": "ग्रामीण रस्ते जोडणी सुधारणे" }
+    ],
+    "CorrectAnswer": "पर्यावरणाच्या संरक्षणासाठी स्थानिक संस्थांना कृती करण्यास प्रोत्साहित करणे",
+    "Explanation": "या उपक्रमाचा उद्देश वृक्षारोपण, जलसंधारण आणि कचरा व्यवस्थापन यासह पर्यावरण संरक्षणाशी संबंधित कामांमध्ये नागरिक आणि स्थानिक स्वराज्य संस्थांना सहभागी होण्यासाठी प्रोत्साहित करणे आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Environment Dept.",
+    "correctOption": 1,
+    "topic": "पर्यावरण"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "राष्ट्रीय महत्त्वाचा प्रकल्प असलेले आगामी वडवण दीप-वॉटर बंदर महाराष्ट्राच्या कोणत्या जिल्ह्यात विकसित केले जात आहे?",
+    "Options": [
+      { "id": 1, "text": "रत्नागिरी" },
+      { "id": 2, "text": "सिंधुदुर्ग" },
+      { "id": 3, "text": "रायगड" },
+      { "id": 4, "text": "पालघर" }
+    ],
+    "CorrectAnswer": "पालघर",
+    "Explanation": "जगातील सर्वात मोठ्या बंदरांपैकी एक असलेले वडवण बंदर महाराष्ट्रातील पालघर जिल्ह्यात बांधले जात आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Grade-B, State Services",
+    "correctOption": 4,
+    "topic": "पायाभूत सुविधा"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "पॅरा-ऍथलीट सचिन सरजेराव खिलारी, ज्यांना 2024 मध्ये अर्जुन पुरस्कार मिळाला, ते कोणत्या खेळाशी संबंधित आहेत?",
+    "Options": [
+      { "id": 1, "text": "पॅरा-ऍथलेटिक्स (गोळाफेक)" },
+      { "id": 2, "text": "पॅरा-नेमबाजी" },
+      { "id": 3, "text": "पॅरा-जलतरण" },
+      { "id": 4, "text": "पॅरा-बॅडमिंटन" }
+    ],
+    "CorrectAnswer": "पॅरा-ऍथलेटिक्स (गोळाफेक)",
+    "Explanation": "सचिन सरजेराव खिलारी यांना पॅरा-ऍथलेटिक्स (विशेषतः गोळाफेक) मधील त्यांच्या उत्कृष्ट कामगिरीसाठी अर्जुन पुरस्काराने सन्मानित करण्यात आले.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Sports",
+    "correctOption": 1,
+    "topic": "क्रीडा"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "महाराष्ट्रात सुरू करण्यात आलेल्या 'मुख्यमंत्री वयोश्री योजना' चा प्राथमिक उद्देश काय आहे?",
+    "Options": [
+      { "id": 1, "text": "ज्येष्ठ नागरिकांसाठी मोफत तीर्थयात्रा उपलब्ध करणे" },
+      { "id": 2, "text": "ज्येष्ठ नागरिकांसाठी बचतीवर जास्त व्याज दर देणे" },
+      { "id": 3, "text": "प्रत्येक जिल्ह्यात वृद्धाश्रम बांधणे" },
+      { "id": 4, "text": "वय-संबंधित सहाय्यक उपकरणांसाठी ज्येष्ठ नागरिकांना आर्थिक मदत पुरवणे" }
+    ],
+    "CorrectAnswer": "वय-संबंधित सहाय्यक उपकरणांसाठी ज्येष्ठ नागरिकांना आर्थिक मदत पुरवणे",
+    "Explanation": "या योजनेचा उद्देश ज्येष्ठ नागरिकांना चाकाची खुर्ची, श्रवणयंत्रे इत्यादी आवश्यक साधने आणि उपकरणे खरेदी करण्यासाठी आर्थिक सहाय्य देणे आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Social Justice Dept.",
+    "correctOption": 4,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "नवीन महाराष्ट्र मंत्रिमंडळात उद्योग मंत्री म्हणून कोणाची नियुक्ती करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "राधाकृष्ण विखे पाटील" },
+      { "id": 2, "text": "गिरीश महाजन" },
+      { "id": 3, "text": "मंगल प्रभात लोढा" },
+      { "id": 4, "text": "उदय सामंत" }
+    ],
+    "CorrectAnswer": "उदय सामंत",
+    "Explanation": "शिवसेना गटातील उदय सामंत यांना डिसेंबर 2024 च्या मंत्रिमंडळ विस्तारात उद्योग मंत्री हे खाते देण्यात आले.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Grade-B",
+    "correctOption": 4,
+    "topic": "राज्य राजकारण"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "महाराष्ट्र आर्थिक सर्वेक्षणानुसार, 2024-25 या वर्षासाठी राज्याच्या सकल राज्य देशांतर्गत उत्पादनाचा (GSDP) अंदाजित वाढीचा दर किती होता?",
+    "Options": [
+      { "id": 1, "text": "6.4%" },
+      { "id": 2, "text": "7.3%" },
+      { "id": 3, "text": "5.9%" },
+      { "id": 4, "text": "8.2%" }
+    ],
+    "CorrectAnswer": "6.4%",
+    "Explanation": "2024-25 या आर्थिक वर्षासाठी महाराष्ट्र आर्थिक सर्वेक्षणाने राज्याच्या अर्थव्यवस्थेसाठी 6.4% वाढीचा दर अंदाजित केला होता.",
+    "Difficulty": "कठीण",
+    "Job": "MPSC, Grade-B, Bank-PO",
+    "correctOption": 1,
+    "topic": "अर्थव्यवस्था"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "जानेवारी 2025 मध्ये महाराष्ट्राचे नवीन राज्य निवडणूक आयुक्त म्हणून कोणाची नियुक्ती करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "यू पी एस मदान" },
+      { "id": 2, "text": "दिनेश टी. वाघमारे" },
+      { "id": 3, "text": "नीला सत्यनारायण" },
+      { "id": 4, "text": "सीताराम कुंटे" }
+    ],
+    "CorrectAnswer": "दिनेश टी. वाघमारे",
+    "Explanation": "1994 च्या बॅचचे निवृत्त आयएएस अधिकारी श्री दिनेश टी. वाघमारे यांनी 28 जानेवारी 2025 रोजी महाराष्ट्राचे 7 वे राज्य निवडणूक आयुक्त म्हणून पदभार स्वीकारला.",
+    "Difficulty": "कठीण",
+    "Job": "MPSC, State Services",
+    "correctOption": 2,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "महाराष्ट्र सरकारचा 'आपला दवाखाना' उपक्रम काय प्रदान करण्याचे उद्दिष्ट ठेवतो?",
+    "Options": [
+      { "id": 1, "text": "विशेष आरोग्य सेवा ग्रामीण भागात" },
+      { "id": 2, "text": "दीर्घकालीन आजारांसाठी मोफत औषधे" },
+      { "id": 3, "text": "टेलीमेडिसीन सेवा संपूर्ण राज्यात" },
+      { "id": 4, "text": "शहरी भागात सुलभ प्राथमिक आरोग्य सेवा" }
+    ],
+    "CorrectAnswer": "शहरी भागात सुलभ प्राथमिक आरोग्य सेवा",
+    "Explanation": "या योजनेत 'हिंदुहृदयसम्राट बाळासाहेब ठाकरे आपला दवाखाना' नावाचे क्लिनिकचे नेटवर्क स्थापित करण्यावर लक्ष केंद्रित केले जाते, ज्यामुळे शहरी भागातील, विशेषतः झोपडपट्ट्यांमधील लोकांना आवश्यक वैद्यकीय सेवा आणि निदान सेवा उपलब्ध होतील.",
+    "Difficulty": "सोपे",
+    "Job": "MPSC, Health Dept.",
+    "correctOption": 4,
+    "topic": "आरोग्य"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "2025 मध्ये मरणोत्तर पद्मश्री पुरस्काराने महाराष्ट्रातील कोणत्या समाजसेवक आणि शिक्षणतज्ज्ञांना सन्मानित करण्यात आले?",
+    "Options": [
+      { "id": 1, "text": "सिंधुताई सपकाळ" },
+      { "id": 2, "text": "चैत्राम देवचंद पवार" },
+      { "id": 3, "text": "प्रकाश आमटे" },
+      { "id": 4, "text": "अभय बंग" }
+    ],
+    "CorrectAnswer": "चैत्राम देवचंद पवार",
+    "Explanation": "चैत्राम देवचंद पवार यांना समाजकारणातील त्यांच्या योगदानासाठी पद्मश्री पुरस्काराने सन्मानित करण्यात आले.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC",
+    "correctOption": 2,
+    "topic": "पुरस्कार आणि सन्मान"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "महाराष्ट्र सरकारने सुरू केलेल्या 'मुख्यमंत्री माझी लाडकी बहीण' योजनेत पात्र महिलांना दरमहा किती भत्ता देण्याचे आश्वासन दिले आहे?",
+    "Options": [
+      { "id": 1, "text": "रु. 500" },
+      { "id": 2, "text": "रु. 1000" },
+      { "id": 3, "text": "रु. 2000" },
+      { "id": 4, "text": "रु. 1500" }
+    ],
+    "CorrectAnswer": "रु. 1500",
+    "Explanation": "या प्रमुख योजनेंतर्गत 21 ते 65 वयोगटातील पात्र महिलांना त्यांचे आर्थिक स्वातंत्र्य वाढवण्यासाठी दरमहा रु. 1500 ची आर्थिक मदत दिली जाते.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Grade-C",
+    "correctOption": 4,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "ऑक्टोबर 2025 मध्ये, महाराष्ट्राने कृषी अर्थव्यवस्थेच्या कोणत्या विशिष्ट क्षेत्राला चालना देण्यासाठी नवीन धोरण जाहीर केले?",
+    "Options": [
+      { "id": 1, "text": "दुग्ध उद्योग" },
+      { "id": 2, "text": "बांबू उद्योग" },
+      { "id": 3, "text": "मत्स्यव्यवसाय" },
+      { "id": 4, "text": "फलोत्पादन" }
+    ],
+    "CorrectAnswer": "बांबू उद्योग",
+    "Explanation": "बांबूची लागवड, प्रक्रिया आणि बाजारपेठ जोडणी वाढवून त्याला फायदेशीर कृषी-उद्योग बनवण्याच्या उद्देशाने महाराष्ट्र बांबू उद्योग धोरण 2025 सुरू करण्यात आले.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Forest Dept., Agriculture Dept.",
+    "correctOption": 2,
+    "topic": "सरकारी धोरण"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "महाराष्ट्र सरकारच्या 2024 च्या मंत्रिमंडळात महसूल हे महत्त्वाचे खाते कोणाला देण्यात आले आहे?",
+    "Options": [
+      { "id": 1, "text": "राधाकृष्ण विखे पाटील" },
+      { "id": 2, "text": "चंद्रशेखर बावनकुळे" },
+      { "id": 3, "text": "गिरीश महाजन" },
+      { "id": 4, "text": "सुधीर मुनगंटीवार" }
+    ],
+    "CorrectAnswer": "चंद्रशेखर बावनकुळे",
+    "Explanation": "भाजपचे ज्येष्ठ नेते आणि प्रदेशाध्यक्ष चंद्रशेखर बावनकुळे यांची महसूल मंत्री म्हणून नियुक्ती करण्यात आली.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Grade-B",
+    "correctOption": 2,
+    "topic": "राज्य राजकारण"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "मुंबईतील पहिली भूमिगत मेट्रो लाईन, जी नुकतीच पूर्णपणे कार्यान्वित झाली, ती कोणत्या दोन भागांना जोडते?",
+    "Options": [
+      { "id": 1, "text": "दहिसर ते डीएन नगर" },
+      { "id": 2, "text": "कुलाबा ते सीप्झ" },
+      { "id": 3, "text": "वडाळा ते ठाणे" },
+      { "id": 4, "text": "अंधेरी ते घाटकोपर" }
+    ],
+    "CorrectAnswer": "कुलाबा ते सीप्झ",
+    "Explanation": "मुंबई मेट्रो लाईन 3, ज्याला एक्वा लाईन म्हणूनही ओळखले जाते, हा मुंबईतील कुलाबा ते उपनगरातील सीप्झला जोडणारा पहिला पूर्णपणे भूमिगत मार्ग आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Grade-C, Railways",
+    "correctOption": 2,
+    "topic": "पायाभूत सुविधा"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "महिला उद्योजकांना स्वतःचा व्यवसाय सुरू करण्यासाठी आर्थिक मदत देण्यासाठी महाराष्ट्रात कोणती योजना सुरू करण्यात आली?",
+    "Options": [
+      { "id": 1, "text": "लेक लाडकी योजना" },
+      { "id": 2, "text": "मुख्यमंत्री वयोश्री योजना" },
+      { "id": 3, "text": "माझी कन्या भाग्यश्री योजना" },
+      { "id": 4, "text": "पुण्यश्लोक अहिल्या देवी होळकर महिला स्टार्ट-अप योजना" }
+    ],
+    "CorrectAnswer": "पुण्यश्लोक अहिल्या देवी होळकर महिला स्टार्ट-अप योजना",
+    "Explanation": "या योजनेचा उद्देश महिलांच्या नेतृत्वाखालील स्टार्ट-अप्सना निधी आणि पाठिंबा देणे आहे, ज्यामुळे राज्यातील महिलांमध्ये नवोपक्रम आणि उद्योजकता वाढेल.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Industries Dept., Bank-PO",
+    "correctOption": 4,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "अलीकडील CPCB च्या अहवालानुसार, भारतातील सर्वाधिक प्रदूषित नदी पट्ट्यांची संख्या कोणत्या राज्यात आहे?",
+    "Options": [
+      { "id": 1, "text": "उत्तर प्रदेश" },
+      { "id": 2, "text": "पश्चिम बंगाल" },
+      { "id": 3, "text": "तमिळनाडू" },
+      { "id": 4, "text": "महाराष्ट्र" }
+    ],
+    "CorrectAnswer": "महाराष्ट्र",
+    "Explanation": "सप्टेंबर 2025 च्या केंद्रीय प्रदूषण नियंत्रण मंडळाच्या (CPCB) अहवालानुसार महाराष्ट्रात 54 प्रदूषित नदी पट्टे आहेत, जे देशभरात सर्वाधिक आहेत.",
+    "Difficulty": "कठीण",
+    "Job": "MPSC, Environment Dept.",
+    "correctOption": 4,
+    "topic": "पर्यावरण"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "2024 च्या महाराष्ट्र मंत्रिमंडळात पंकजा मुंडे यांना कोणते महत्त्वाचे खाते देण्यात आले आहे?",
+    "Options": [
+      { "id": 1, "text": "महिला आणि बाल विकास" },
+      { "id": 2, "text": "ग्रामविकास" },
+      { "id": 3, "text": "सामाजिक न्याय" },
+      { "id": 4, "text": "पर्यावरण आणि हवामान बदल आणि पशुसंवर्धन" }
+    ],
+    "CorrectAnswer": "पर्यावरण आणि हवामान बदल आणि पशुसंवर्धन",
+    "Explanation": "फडणवीस 3.0 मंत्रिमंडळात पंकजा मुंडे यांची पर्यावरण आणि हवामान बदल आणि पशुसंवर्धन मंत्री म्हणून नियुक्ती करण्यात आली.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Grade-B",
+    "correctOption": 4,
+    "topic": "राज्य राजकारण"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "महाराष्ट्रातील नेमबाज स्वप्नील कुसळे यांनी 2024 मध्ये कोणता प्रतिष्ठित क्रीडा पुरस्कार जिंकला?",
+    "Options": [
+      { "id": 1, "text": "मेजर ध्यानचंद खेलरत्न पुरस्कार" },
+      { "id": 2, "text": "द्रोणाचार्य पुरस्कार" },
+      { "id": 3, "text": "राष्ट्रीय खेल प्रोत्साहन पुरस्कार" },
+      { "id": 4, "text": "अर्जुन पुरस्कार" }
+    ],
+    "CorrectAnswer": "अर्जुन पुरस्कार",
+    "Explanation": "स्वप्नील सुरेश कुसळे यांना नेमबाजीमधील त्यांच्या अपवादात्मक कामगिरीसाठी अर्जुन पुरस्काराने सन्मानित करण्यात आले.",
+    "Difficulty": "सोपे",
+    "Job": "MPSC, Sports",
+    "correctOption": 4,
+    "topic": "क्रीडा"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "सांगली जिल्ह्यातील सिंचनाला बळकटी देण्यासाठी महाराष्ट्र मंत्रिमंडळाने नुकताच कोणत्या तंत्रज्ञानावर आधारित मोठ्या प्रकल्पाला मंजुरी दिली?",
+    "Options": [
+      { "id": 1, "text": "ठिबक सिंचन" },
+      { "id": 2, "text": "कालवा स्वयंचलन (Canal Automation)" },
+      { "id": 3, "text": "क्लाउड सीडिंग" },
+      { "id": 4, "text": "सौर ऊर्जा" }
+    ],
+    "CorrectAnswer": "सौर ऊर्जा",
+    "Explanation": "सांगली जिल्ह्यातील टेंभू उपसा सिंचन योजनेची कार्यक्षमता वाढवण्यासाठी ₹1,594 कोटी रुपयांच्या सौर ऊर्जा प्रकल्पाला मंजुरी देण्यात आली.",
+    "Difficulty": "कठीण",
+    "Job": "MPSC, Agriculture Dept., Grade-B",
+    "correctOption": 4,
+    "topic": "कृषी आणि ऊर्जा"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "महाराष्ट्रातील विद्यार्थ्यांसाठी ₹10,000 पर्यंत मासिक स्टायपेंड (शिष्यवृत्ती) प्रदान करणाऱ्या नवीन योजनेचे नाव काय आहे?",
+    "Options": [
+      { "id": 1, "text": "लेक लाडकी योजना" },
+      { "id": 2, "text": "लाडला भाई योजना" },
+      { "id": 3, "text": "मुख्यमंत्री फेलोशिप कार्यक्रम" },
+      { "id": 4, "text": "स्वामी विवेकानंद युवा आरोग्य कार्ड योजना" }
+    ],
+    "CorrectAnswer": "लाडला भाई योजना",
+    "Explanation": "'लाडला भाई योजना' महाराष्ट्रातील विद्यार्थ्यांना त्यांच्या शिक्षणासाठी ₹10,000 पर्यंत स्टायपेंड देण्यासाठी सुरू करण्यात आली.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Grade-C",
+    "correctOption": 2,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "नवीन महाराष्ट्र मंत्रिमंडळात सार्वजनिक आरोग्य आणि कुटुंब कल्याण मंत्री म्हणून कोणाची नियुक्ती करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "हसन मुश्रीफ" },
+      { "id": 2, "text": "धनंजय मुंडे" },
+      { "id": 3, "text": "अदिती तटकरे" },
+      { "id": 4, "text": "प्रकाशराव आबिटकर" }
+    ],
+    "CorrectAnswer": "प्रकाशराव आबिटकर",
+    "Explanation": "शिवसेनेचे प्रकाशराव आबिटकर यांना सार्वजनिक आरोग्य आणि कुटुंब कल्याण मंत्रालयाची जबाबदारी देण्यात आली.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Health Dept.",
+    "correctOption": 4,
+    "topic": "राज्य राजकारण"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "सबसिडीवर भोजन पुरवणारी 'शिवभोजन थाळी' योजना महाराष्ट्र सरकारकडून राबवली जात आहे. सामान्य नागरिकांसाठी एका थाळीची किंमत किती आहे?",
+    "Options": [
+      { "id": 1, "text": "रु. 5" },
+      { "id": 2, "text": "रु. 10" },
+      { "id": 3, "text": "रु. 15" },
+      { "id": 4, "text": "मोफत" }
+    ],
+    "CorrectAnswer": "रु. 10",
+    "Explanation": "शिवभोजन थाळी योजनेत गरीब आणि गरजूंना प्रति थाळी ₹10 सवलतीच्या दरात पूर्ण जेवण दिले जाते.",
+    "Difficulty": "सोपे",
+    "Job": "MPSC, Grade-C",
+    "correctOption": 2,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "महाराष्ट्रातील मुरलीकांत पेटकर यांना राष्ट्रीय क्रीडा पुरस्कार 2024 मध्ये कोणत्या खेळासाठी अर्जुन पुरस्कार (आजीवन योगदान) मिळाला?",
+    "Options": [
+      { "id": 1, "text": "पॅरा-ऍथलेटिक्स" },
+      { "id": 2, "text": "पॅरा-जलतरण" },
+      { "id": 3, "text": "व्हीलचेअर तलवारबाजी" },
+      { "id": 4, "text": "पॅरा-टेबल टेनिस" }
+    ],
+    "CorrectAnswer": "पॅरा-जलतरण",
+    "Explanation": "पॅरा-क्रीडा क्षेत्रातील अग्रगण्य मुरलीकांत पेटकर यांना पॅरा-जलतरणातील त्यांच्या अपवादात्मक कामगिरी आणि आजीवन समर्पणासाठी अर्जुन पुरस्काराने सन्मानित करण्यात आले.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, Sports",
+    "correctOption": 2,
+    "topic": "क्रीडा"
+  },
+  {
+    "category": "महाराष्ट्र चालू घडामोडी",
+    "Question": "महाराष्ट्र सरकारने 6 व्या राज्य वित्त आयोगाची स्थापना केली आहे. या आयोगाची प्राथमिक भूमिका काय आहे?",
+    "Options": [
+      { "id": 1, "text": "राज्यातील शेअर बाजाराचे नियमन करणे" },
+      { "id": 2, "text": "राज्याचा वार्षिक अर्थसंकल्प ठरवणे" },
+      { "id": 3, "text": "राज्याचे कर्ज आणि उधार व्यवस्थापित करणे" },
+      { "id": 4, "text": "पंचायती आणि नगरपालिकांच्या आर्थिक स्थितीचा आढावा घेणे" }
+    ],
+    "CorrectAnswer": "पंचायती आणि नगरपालिकांच्या आर्थिक स्थितीचा आढावा घेणे",
+    "Explanation": "राज्य वित्त आयोग ही एक संवैधानिक संस्था आहे जी राज्य सरकार आणि स्थानिक स्वराज्य संस्था (ग्रामीण आणि शहरी) यांच्यात आर्थिक संसाधनांच्या वितरणासाठी तत्त्वे शिफारस करते.",
+    "Difficulty": "कठीण",
+    "Job": "MPSC, Grade-B",
+    "correctOption": 4,
+    "topic": "राज्यव्यवस्था आणि अर्थव्यवस्था"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2025 मध्ये G20 शिखर परिषदेचे यजमानपद कोणत्या देशाकडे आहे?",
+    "Options": [
+      { "id": 1, "text": "भारत" },
+      { "id": 2, "text": "ब्राझील" },
+      { "id": 3, "text": "रशिया" },
+      { "id": 4, "text": "दक्षिण आफ्रिका" }
+    ],
+    "CorrectAnswer": "दक्षिण आफ्रिका",
+    "Explanation": "2024 मध्ये ब्राझीलच्या अध्यक्षतेनंतर, 2025 मध्ये G20 शिखर परिषदेचे आयोजन **दक्षिण आफ्रिका** करणार आहे.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, MPSC, Bank-PO, SSC-CGL",
+    "correctOption": 4,
+    "topic": "आंतरराष्ट्रीय"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2025 मध्ये आंतरराष्ट्रीय अंतराळ स्थानकावर (ISS) पाऊल ठेवणारा पहिला भारतीय अंतराळवीर कोण बनला?",
+    "Options": [
+      { "id": 1, "text": "राकेश शर्मा" },
+      { "id": 2, "text": "सुनीता विलियम्स" },
+      { "id": 3, "text": "कल्पना चावला" },
+      { "id": 4, "text": "शुभंशू शुक्ला" }
+    ],
+    "CorrectAnswer": "शुभंशू शुक्ला",
+    "Explanation": "IAF ग्रुप कॅप्टन शुभंशू शुक्ला यांनी Axiom-4 खाजगी अंतराळ उड्डाण मोहिमेचा भाग म्हणून ISS ला भेट देणारे पहिले भारतीय अंतराळवीर बनून इतिहास रचला.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, MPSC, SSC-CGL",
+    "correctOption": 4,
+    "topic": "विज्ञान आणि तंत्रज्ञान"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "दोन उपग्रहांशी संबंधित इन-स्पेस डॉकिंग तंत्रज्ञान प्रदर्शित करण्याच्या ISRO च्या मोहिमेचे नाव काय आहे?",
+    "Options": [
+      { "id": 1, "text": "गगनयान" },
+      { "id": 2, "text": "स्पॅडेक्स (SPADEX)" },
+      { "id": 3, "text": "आदित्य-L1" },
+      { "id": 4, "text": "निसार (NISAR)" }
+    ],
+    "CorrectAnswer": "स्पॅडेक्स (SPADEX)",
+    "Explanation": "स्पेस डॉकिंग एक्सपेरिमेंट (SPADEX) ही ISRO ची मोहीम आहे, जी कक्षेतील दोन अंतराळ यानांचे रेंडेझव्हस, डॉकिंग आणि अनडॉकिंगसाठी आवश्यक तंत्रज्ञान तपासण्यासाठी आणि प्रदर्शित करण्यासाठी डिझाइन केलेली आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, MPSC, Science & Tech",
+    "correctOption": 2,
+    "topic": "विज्ञान आणि तंत्रज्ञान"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "अलीकडील आर्थिक आकडेवारीनुसार, जगातील 4 थी सर्वात मोठी अर्थव्यवस्था बनण्यासाठी भारताने कोणत्या देशाला मागे टाकले?",
+    "Options": [
+      { "id": 1, "text": "युनायटेड किंगडम" },
+      { "id": 2, "text": "जर्मनी" },
+      { "id": 3, "text": "फ्रान्स" },
+      { "id": 4, "text": "जपान" }
+    ],
+    "CorrectAnswer": "जपान",
+    "Explanation": "2025 मध्ये, भारताच्या नाममात्र GDP ने जपानच्या GDP ला मागे टाकले, ज्यामुळे भारत अमेरिका, चीन आणि जर्मनी नंतर जगातील चौथी सर्वात मोठी अर्थव्यवस्था बनला.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, MPSC, Bank-PO",
+    "correctOption": 4,
+    "topic": "अर्थव्यवस्था"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2024 मध्ये मेजर ध्यानचंद खेलरत्न पुरस्काराचे चार प्राप्तकर्ते कोण होते?",
+    "Options": [
+      { "id": 1, "text": "नीरज चोप्रा, पीव्ही सिंधू, मीराबाई चानू, शरथ कमल" },
+      { "id": 2, "text": "गुकेश डी, हरमनप्रीत सिंग, प्रवीण कुमार, मनू भाकर" },
+      { "id": 3, "text": "विराट कोहली, रोहित शर्मा, जसप्रीत बुमराह, मोहम्मद शमी" },
+      { "id": 4, "text": "लक्ष्य सेन, सात्विकसाईराज रंकीरेड्डी, चिराग शेट्टी, निखत जरीन" }
+    ],
+    "CorrectAnswer": "गुकेश डी, हरमनप्रीत सिंग, प्रवीण कुमार, मनू भाकर",
+    "Explanation": "बुद्धिबळपटू गुकेश डी, हॉकी कर्णधार हरमनप्रीत सिंग, पॅरा-ऍथलीट प्रवीण कुमार आणि नेमबाज मनू भाकर यांना 2024 चा भारताचा सर्वोच्च क्रीडा सन्मान संयुक्तपणे प्रदान करण्यात आला.",
+    "Difficulty": "मध्यम",
+    "Job": "MPSC, SSC-CGL, Bank-PO",
+    "correctOption": 2,
+    "topic": "क्रीडा"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'धर्म गार्डियन 2025' हा संयुक्त लष्करी सराव भारत आणि कोणत्या देशादरम्यान आयोजित करण्यात आला होता?",
+    "Options": [
+      { "id": 1, "text": "अमेरिका" },
+      { "id": 2, "text": "फ्रान्स" },
+      { "id": 3, "text": "ऑस्ट्रेलिया" },
+      { "id": 4, "text": "जपान" }
+    ],
+    "CorrectAnswer": "जपान",
+    "Explanation": "'धर्म गार्डियन' हा भारतीय लष्कर आणि जपान ग्राउंड सेल्फ-डिफेन्स फोर्स यांच्यात आयोजित केला जाणारा वार्षिक संयुक्त लष्करी सराव आहे.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, MPSC, Defence Exams",
+    "correctOption": 4,
+    "topic": "संरक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "केंद्र सरकारची 'PM-SURAJ' (प्रधानमंत्री सामाजिक उत्थान आणि रोजगार आधारित जन कल्याण) योजना समाजातील कोणत्या घटकाला सक्षम करण्याच्या उद्देशाने आहे?",
+    "Options": [
+      { "id": 1, "text": "शेतकरी" },
+      { "id": 2, "text": "महिला बचत गट" },
+      { "id": 3, "text": "पथविक्रेते" },
+      { "id": 4, "text": "वंचित घटकांमधील उद्योजक" }
+    ],
+    "CorrectAnswer": "वंचित घटकांमधील उद्योजक",
+    "Explanation": "PM-SURAJ राष्ट्रीय पोर्टल सामाजिकदृष्ट्या वंचित घटकांमधील उद्योजकांसाठी क्रेडिट सपोर्ट उपक्रम आहे, ज्यामुळे त्यांना कर्जाची उपलब्धता होऊन ते आर्थिकदृष्ट्या सक्षम होतील.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Bank-PO",
+    "correctOption": 4,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2025 मध्ये नवीन लष्करप्रमुख (Chief of the Army Staff) म्हणून कोणाची नियुक्ती करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "जनरल मनोज पांडे" },
+      { "id": 2, "text": "लेफ्टनंट जनरल उपेंद्र द्विवेदी" },
+      { "id": 3, "text": "लेफ्टनंट जनरल एन. एस. राजा सुब्रमणि" },
+      { "id": 4, "text": "जनरल अनिल चौहान" }
+    ],
+    "CorrectAnswer": "लेफ्टनंट जनरल उपेंद्र द्विवेदी",
+    "Explanation": "जनरल मनोज पांडे यांच्या निवृत्तीनंतर लेफ्टनंट जनरल उपेंद्र द्विवेदी यांनी लष्करप्रमुख (Chief of the Army Staff) म्हणून पदभार स्वीकारला.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 2,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2024 मध्ये सुरू झालेल्या 'PM सूर्य घर: मोफत वीज योजना' चा प्राथमिक उद्देश काय आहे?",
+    "Options": [
+      { "id": 1, "text": "सर्व कुटुंबांना मोफत वीज पुरवणे" },
+      { "id": 2, "text": "उर्वरित सर्व बिगर-विद्युतीकृत गावांचे विद्युतीकरण करणे" },
+      { "id": 3, "text": "छतावरील सौर ऊर्जा निर्मितीला प्रोत्साहन देणे" },
+      { "id": 4, "text": "सर्व जुने वीज मीटर स्मार्ट मीटरने बदलणे" }
+    ],
+    "CorrectAnswer": "कुटुंबांसाठी छतावरील सौर ऊर्जा निर्मितीला प्रोत्साहन देणे",
+    "Explanation": "या योजनेचे उद्दिष्ट एक कोटी घरांमध्ये छतावरील सौर यंत्रणा बसवणे आहे, ज्यामुळे त्यांना दरमहा 300 युनिट्सपर्यंत मोफत वीज मिळेल आणि अतिरिक्त वीज विकता येईल.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, MPSC, Bank-PO, SSC-CGL",
+    "correctOption": 3,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "फेब्रुवारी 2024 मध्ये, सर्वोच्च न्यायालयाने मतदारांच्या माहितीच्या अधिकाराचे उल्लंघन केल्याचे कारण देत कोणती योजना असंवैधानिक ठरवली?",
+    "Options": [
+      { "id": 1, "text": "आधार योजना" },
+      { "id": 2, "text": "निवडणूक रोखे (Electoral Bonds) योजना" },
+      { "id": 3, "text": "विमुद्रीकरण (Demonetisation) योजना" },
+      { "id": 4, "text": "नागरिकत्व सुधारणा कायदा" }
+    ],
+    "CorrectAnswer": "निवडणूक रोखे (Electoral Bonds) योजना",
+    "Explanation": "भारताच्या सर्वोच्च न्यायालयाने राजकीय देणग्यांसाठी अज्ञाततेला परवानगी देणारी निवडणूक रोखे योजना, कलम 19(1)(a) अंतर्गत माहितीच्या अधिकाराचे उल्लंघन करत असल्याने, असंवैधानिक घोषित केली.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, MPSC, Law Exams",
+    "correctOption": 2,
+    "topic": "राजकारण आणि न्यायव्यवस्था"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'विकसित भारत संकल्प यात्रा' सरकारने कोणत्या उद्देशाने सुरू केली?",
+    "Options": [
+      { "id": 1, "text": "संपूर्ण भारतात पर्यटनाला प्रोत्साहन देण्यासाठी" },
+      { "id": 2, "text": "प्रमुख सरकारी योजनांची परिपूर्णता (Saturation) साधण्यासाठी" },
+      { "id": 3, "text": "देशव्यापी स्वच्छता मोहीम राबवण्यासाठी" },
+      { "id": 4, "text": "भारताचा सांस्कृतिक वारसा साजरा करण्यासाठी" }
+    ],
+    "CorrectAnswer": "प्रमुख सरकारी योजनांची परिपूर्णता (Saturation) साधण्यासाठी",
+    "Explanation": "केंद्र सरकारच्या कल्याणकारी योजनांचा लाभ सर्व पात्र लाभार्थ्यांपर्यंत पोहोचेल याची खात्री करण्यासाठी हा एक मोठा पोहोच कार्यक्रम (Outreach Program) होता.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Bank-PO",
+    "correctOption": 2,
+    "topic": "सरकारी उपक्रम"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "रेल्वे संरक्षण दलाच्या (RPF) पहिल्या महिला महासंचालक (Director General) म्हणून कोणाची नियुक्ती करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "अर्चना रामसुंदरम" },
+      { "id": 2, "text": "कंचन चौधरी भट्टाचार्य" },
+      { "id": 3, "text": "नीना सिंग" },
+      { "id": 4, "text": "सोनाली मिश्रा" }
+    ],
+    "CorrectAnswer": "सोनाली मिश्रा",
+    "Explanation": "ऑगस्ट 2025 मध्ये, सोनाली मिश्रा रेल्वे संरक्षण दलाच्या महासंचालक म्हणून नियुक्त होणाऱ्या पहिल्या महिला ठरल्या.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Railways, MPSC",
+    "correctOption": 4,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'वरुण 2025' हा संयुक्त नौदल सराव भारत आणि कोणत्या देशादरम्यान अरबी समुद्रात आयोजित करण्यात आला होता?",
+    "Options": [
+      { "id": 1, "text": "रशिया" },
+      { "id": 2, "text": "युनायटेड किंगडम" },
+      { "id": 3, "text": "युनायटेड स्टेट्स" },
+      { "id": 4, "text": "फ्रान्स" }
+    ],
+    "CorrectAnswer": "फ्रान्स",
+    "Explanation": "वरुण हा भारतीय नौदल आणि फ्रेंच नौदल यांच्यातील द्विपक्षीय नौदल सराव आहे, ज्याचा उद्देश आंतरकार्यक्षमता आणि सागरी सहकार्य वाढवणे आहे.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 4,
+    "topic": "संरक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2025 मध्ये उद्घाटन झालेल्या चिनाब ब्रिजला कोणते वैशिष्ट्य लाभले आहे?",
+    "Options": [
+      { "id": 1, "text": "भारतातील सर्वात लांब सी ब्रिज" },
+      { "id": 2, "text": "जगातील सर्वात उंच रेल्वे पूल" },
+      { "id": 3, "text": "हिमालयातील पहिला केबल-स्टे (Cable-Stayed) रस्ता पूल" },
+      { "id": 4, "text": "आशियातील सर्वात रुंद नदी पूल" }
+    ],
+    "CorrectAnswer": "जगातील सर्वात उंच रेल्वे पूल",
+    "Explanation": "जम्मू आणि काश्मीरमधील उधमपूर-श्रीनगर-बारामुल्ला रेल्वे लिंक प्रकल्पाचा भाग असलेला चिनाब रेल्वे पूल हा आयफेल टॉवरपेक्षा उंच असलेला जगातील सर्वात उंच रेल्वे पूल आहे.",
+    "Difficulty": "सोपे",
+    "Job": "SSC-CGL, Railways, MPSC",
+    "correctOption": 2,
+    "topic": "पायाभूत सुविधा"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "भारतीय सशस्त्र दलांच्या संदर्भात नुकतेच चर्चेत असलेले 'प्रचंड' (Prachand) काय आहे?",
+    "Options": [
+      { "id": 1, "text": "एक नवीन मुख्य युद्ध रणगाडा (Main Battle Tank)" },
+      { "id": 2, "text": "एक स्वदेशी विमानवाहू जहाज" },
+      { "id": 3, "text": "एक बॅलिस्टिक क्षेपणास्त्र पाणबुडी" },
+      { "id": 4, "text": "एक हलके लढाऊ हेलिकॉप्टर" }
+    ],
+    "CorrectAnswer": "एक हलके लढाऊ हेलिकॉप्टर",
+    "Explanation": "प्रचंड हे हिंदुस्तान एरोनॉटिक्स लिमिटेड (HAL) ने भारतीय सेना आणि भारतीय हवाई दलासाठी डिझाइन केलेले आणि उत्पादित केलेले भारताचे पहिले स्वदेशी मल्टी-रोल लढाऊ हेलिकॉप्टर आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 4,
+    "topic": "संरक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "भारत सरकारने 'अनुवादिनी' (Anuvadini) ॲप कोणत्या उद्देशासाठी सुरू केले आहे?",
+    "Options": [
+      { "id": 1, "text": "मुलांसाठी पोषण डेटाचा मागोवा घेण्यासाठी" },
+      { "id": 2, "text": "शैक्षणिक सामग्रीचे भारतीय भाषांमध्ये रिअल-टाइम भाषांतर प्रदान करण्यासाठी" },
+      { "id": 3, "text": "ग्राहक तक्रारी ऑनलाइन दाखल करण्यासाठी आणि त्यांचा मागोवा घेण्यासाठी" },
+      { "id": 4, "text": "सरकारी रुग्णालयांमध्ये भेटीची वेळ निश्चित करण्यासाठी" }
+    ],
+    "CorrectAnswer": "शैक्षणिक सामग्रीचे भारतीय भाषांमध्ये रिअल-टाइम भाषांतर प्रदान करण्यासाठी",
+    "Explanation": "राष्ट्रीय शिक्षण धोरणांतर्गत विकसित केलेले 'अनुवादिनी' ॲप, शिक्षणामध्ये बहुभाषिकतेला प्रोत्साहन देण्यासाठी, इंग्रजी आणि इतर भाषांमधील अभ्यास सामग्रीचे विविध भारतीय प्रादेशिक भाषांमध्ये भाषांतर करण्यासाठी AI चा वापर करते.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Bank-PO, SSC-CGL",
+    "correctOption": 2,
+    "topic": "तंत्रज्ञान आणि शिक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "16 व्या वित्त आयोगाचे अध्यक्ष म्हणून कोणाची नियुक्ती करण्यात आली?",
+    "Options": [
+      { "id": 1, "text": "एन. के. सिंग" },
+      { "id": 2, "text": "डॉ. अरविंद पनगढिया" },
+      { "id": 3, "text": "वाय. व्ही. रेड्डी" },
+      { "id": 4, "text": "उर्जित पटेल" }
+    ],
+    "CorrectAnswer": "डॉ. अरविंद पनगढिया",
+    "Explanation": "सरकारने नीती आयोगाचे माजी उपाध्यक्ष डॉ. अरविंद पनगढिया यांची 16 व्या वित्त आयोगाचे अध्यक्ष म्हणून नियुक्ती केली, जो 2026-2031 या कालावधीसाठी शिफारसी करेल.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, MPSC, Bank-PO",
+    "correctOption": 2,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'लखपती दीदी' योजनेचा प्राथमिक उद्देश काय आहे?",
+    "Options": [
+      { "id": 1, "text": "ग्रामीण महिलांसाठी घरे उपलब्ध करणे" },
+      { "id": 2, "text": "शहरी भागात 1 कोटी महिला उद्योजिका निर्माण करणे" },
+      { "id": 3, "text": "मोफत उच्च शिक्षण एक मुलगी प्रति कुटुंब" },
+      { "id": 4, "text": "स्वयंसहायता समूहांमधील (SHG) महिलांना वार्षिक किमान ₹1 लाख शाश्वत उत्पन्न मिळवण्यासाठी प्रशिक्षित करणे" }
+    ],
+    "CorrectAnswer": "स्वयंसहायता समूहांमधील (SHG) महिलांना वार्षिक किमान ₹1 लाख शाश्वत उत्पन्न मिळवण्यासाठी प्रशिक्षित करणे",
+    "Explanation": "'लखपती दीदी' योजना SHG मधील महिलांसाठी कौशल्य विकासावर लक्ष केंद्रित करते, त्यांना प्लंबिंग, LED बल्ब बनवणे आणि ड्रोन चालवणे यांसारख्या कौशल्यांमध्ये प्रशिक्षित करून त्यांचे उत्पन्न लक्षणीय आणि शाश्वतपणे वाढवण्याचे सुनिश्चित करते.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Bank-PO, Social Sector",
+    "correctOption": 4,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2025 मध्ये प्रक्षेपित होणारा 'निसार' (NISAR) उपग्रह, ISRO आणि कोणत्या अन्य अंतराळ संस्थेचा संयुक्त पृथ्वी निरीक्षण उपक्रम आहे?",
+    "Options": [
+      { "id": 1, "text": "रॉसकॉसमॉस (रशिया)" },
+      { "id": 2, "text": "जॅक्सा (जपान)" },
+      { "id": 3, "text": "ईएसए (युरोपियन स्पेस एजन्सी)" },
+      { "id": 4, "text": "नासा (अमेरिका)" }
+    ],
+    "CorrectAnswer": "नासा (अमेरिका)",
+    "Explanation": "NISAR (NASA-ISRO Synthetic Aperture Radar) हा NASA आणि ISRO यांच्यातील एक संयुक्त मोहीम आहे, जो पृथ्वीच्या पृष्ठभागाचे मॅपिंग करण्यासाठी ड्युअल-फ्रिक्वेन्सी सिंथेटिक अपर्चर रडार उपग्रह सह-विकसित आणि प्रक्षेपित करण्यावर लक्ष केंद्रित करतो.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, MPSC, Science & Tech",
+    "correctOption": 4,
+    "topic": "विज्ञान आणि तंत्रज्ञान"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "सप्टेंबर 2025 मध्ये भारतीय अन्न सुरक्षा आणि मानक प्राधिकरणाचे (FSSAI) नवीन मुख्य कार्यकारी अधिकारी (CEO) म्हणून कोणाची नियुक्ती करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "जी. कमला वर्धना राव" },
+      { "id": 2, "text": "राजित पुन्ही" },
+      { "id": 3, "text": "अरुण सिंघल" },
+      { "id": 4, "text": "पवन कुमार अग्रवाल" }
+    ],
+    "CorrectAnswer": "राजित पुन्ही",
+    "Explanation": "राजित पुन्ही यांनी सप्टेंबर 2025 मध्ये FSSAI (भारतातील सर्वोच्च अन्न नियामक संस्था) चे मुख्य कार्यकारी अधिकारी म्हणून पदभार स्वीकारला.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC, MPSC, Food Inspector",
+    "correctOption": 2,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "भारताच्या नेट-झिरो व्हिजनअंतर्गत, दीनदयाल, व्ही.ओ. चिदंबरनार आणि पारादीप या तीन प्रमुख बंदरांना कोणत्या उद्देशासाठी केंद्र म्हणून घोषित करण्यात आले आहे?",
+    "Options": [
+      { "id": 1, "text": "जहाज पुनर्वापर (Ship Recycling)" },
+      { "id": 2, "text": "ग्रीन हायड्रोजन" },
+      { "id": 3, "text": "सीफूड प्रक्रिया" },
+      { "id": 4, "text": "क्रूझ पर्यटन" }
+    ],
+    "CorrectAnswer": "ग्रीन हायड्रोजन",
+    "Explanation": "राष्ट्रीय ग्रीन हायड्रोजन मिशनचा भाग म्हणून, या तीन बंदरांना ग्रीन हायड्रोजन आणि त्याच्या डेरिव्हेटिव्ह्जच्या उत्पादन, साठवणूक आणि निर्यातीसाठी केंद्र म्हणून विकसित केले जात आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Environment & Energy Sector",
+    "correctOption": 2,
+    "topic": "पर्यावरण आणि ऊर्जा"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "भारतीय सशस्त्र दलांनी भाग घेतलेला 'ब्राइट स्टार 2025' हा बहुराष्ट्रीय लष्करी सराव कोणत्या देशाने आयोजित केला होता?",
+    "Options": [
+      { "id": 1, "text": "अमेरिका" },
+      { "id": 2, "text": "इजिप्त" },
+      { "id": 3, "text": "सौदी अरेबिया" },
+      { "id": 4, "text": "फ्रान्स" }
+    ],
+    "CorrectAnswer": "इजिप्त",
+    "Explanation": "ब्राइट स्टार सराव हा मध्यपूर्वेकडील सर्वात मोठ्या बहुराष्ट्रीय लष्करी सरावांपैकी एक आहे, जो इजिप्तने आयोजित केला होता आणि यात भारताच्या तिन्ही सेवांच्या तुकडीने भाग घेतला होता.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 2,
+    "topic": "संरक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "केंद्रीय अर्थसंकल्प 2025 मध्ये प्राप्तिकरासंदर्भात कोणता मोठा बदल करण्यात आला?",
+    "Options": [
+      { "id": 1, "text": "एक नवीन 'सुपर-रिच' कर स्लॅब सुरू करण्यात आला." },
+      { "id": 2, "text": "वेतनदार व्यक्तींसाठी प्रमाणित वजावट (Standard Deduction) काढून टाकण्यात आली." },
+      { "id": 3, "text": "सर्व करदात्यांसाठी प्राप्तिकर सूट मर्यादा लक्षणीयरीत्या वाढवण्यात आली." },
+      { "id": 4, "text": "नवीन कर प्रणालीअंतर्गत ₹12 लाख पर्यंतच्या वार्षिक उत्पन्नावर कोणताही प्राप्तिकर नाही." }
+    ],
+    "CorrectAnswer": "नवीन कर प्रणालीअंतर्गत ₹12 लाख पर्यंतच्या वार्षिक उत्पन्नावर कोणताही प्राप्तिकर नाही.",
+    "Explanation": "केंद्रीय अर्थसंकल्प 2025 मध्ये नवीन कर प्रणालीअंतर्गत ₹12 लाख पर्यंतच्या वार्षिक उत्पन्नावर कर सवलत देऊन मध्यमवर्गीय करदात्यांना महत्त्वपूर्ण दिलासा जाहीर करण्यात आला.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Bank-PO, SSC-CGL",
+    "correctOption": 4,
+    "topic": "अर्थव्यवस्था"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "सप्टेंबर 2025 मध्ये नवीन महालेखा नियंत्रक (Controller General of Accounts - CGA) म्हणून कोणाची नियुक्ती करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "एस.एस. दुबे" },
+      { "id": 2, "text": "तिरुवलम चूडामणी ऐश्वर्या कल्याणी" },
+      { "id": 3, "text": "गिर्राज प्रसाद गुप्ता" },
+      { "id": 4, "text": "सोमा रॉय बर्मन" }
+    ],
+    "CorrectAnswer": "तिरुवलम चूडामणी ऐश्वर्या कल्याणी",
+    "Explanation": "टी.सी.ए. कल्याणी यांची महालेखा नियंत्रक (CGA) म्हणून नियुक्ती करण्यात आली, ज्या केंद्र सरकारसाठी लेखाविषयक बाबींवर मुख्य सल्लागार आहेत.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC, SSC-CGL (Audit), Bank-PO",
+    "correctOption": 2,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'PM SHRI' (PM Schools for Rising India) योजना कशावर केंद्रित आहे?",
+    "Options": [
+      { "id": 1, "text": "उच्च शिक्षणासाठी शिष्यवृत्ती प्रदान करणे" },
+      { "id": 2, "text": "विद्यमान सरकारी शाळांचे मॉडेल शाळांमध्ये श्रेणीकरण करणे" },
+      { "id": 3, "text": "ग्रामीण भागात नवीन खाजगी शाळा बांधणे" },
+      { "id": 4, "text": "ऑनलाइन शिक्षण प्लॅटफॉर्मला प्रोत्साहन देणे" }
+    ],
+    "CorrectAnswer": "विद्यमान सरकारी शाळांचे मॉडेल शाळांमध्ये श्रेणीकरण करणे",
+    "Explanation": "PM SHRI योजनेचे उद्दिष्ट देशभरातील 14,500 हून अधिक विद्यमान शाळांना राष्ट्रीय शिक्षण धोरण 2020 चे सर्व घटक दर्शविणाऱ्या अनुकरणीय शाळा म्हणून विकसित करणे आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, MPSC, Teaching Exams",
+    "correctOption": 2,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2030 च्या राष्ट्रकुल खेळांचे यजमानपद भारताने कोणत्या शहरासाठी सुरक्षित केले?",
+    "Options": [
+      { "id": 1, "text": "मुंबई" },
+      { "id": 2, "text": "अहमदाबाद" },
+      { "id": 3, "text": "बेंगळूरु" },
+      { "id": 4, "text": "नवी दिल्ली" }
+    ],
+    "CorrectAnswer": "नवी दिल्ली",
+    "Explanation": "भारताने 2030 च्या राष्ट्रकुल खेळांचे आयोजन करण्याचा यशस्वीपणे लिलाव जिंकला, नवी दिल्ली यजमान शहर असेल. यापूर्वी 2010 मध्ये शहराने आयोजन केले होते.",
+    "Difficulty": "सोपे",
+    "Job": "SSC-CGL, Bank-PO, Sports",
+    "correctOption": 4,
+    "topic": "क्रीडा"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "सप्टेंबर 2025 मध्ये भारतीय क्रिकेट नियामक मंडळाचे (BCCI) 37 वे अध्यक्ष म्हणून कोणाची नियुक्ती करण्यात आली?",
+    "Options": [
+      { "id": 1, "text": "रॉजर बिन्नी" },
+      { "id": 2, "text": "सौरव गांगुली" },
+      { "id": 3, "text": "जय शहा" },
+      { "id": 4, "text": "मिथुन मन्हास" }
+    ],
+    "CorrectAnswer": "मिथुन मन्हास",
+    "Explanation": "दिल्लीचे माजी कर्णधार मिथुन मन्हास यांची सप्टेंबर 2025 मध्ये BCCI चे 37 वे अध्यक्ष म्हणून निवड झाली.",
+    "Difficulty": "मध्यम",
+    "Job": "SSC-CGL, Bank-PO, Sports",
+    "correctOption": 4,
+    "topic": "क्रीडा"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2025 मध्ये सरकारने 'ऑपरेशन सिंदूर' कोणत्या उद्देशासाठी सुरू केले?",
+    "Options": [
+      { "id": 1, "text": "महिलांची सुरक्षा वाढवण्यासाठी" },
+      { "id": 2, "text": "मानवी तस्करी रोखण्यासाठी" },
+      { "id": 3, "text": "सांस्कृतिक वारसा स्थळे जतन करण्यासाठी" },
+      { "id": 4, "text": "संघर्षग्रस्त भागातून भारतीय नागरिकांना बाहेर काढण्यासाठी" }
+    ],
+    "CorrectAnswer": "संघर्षग्रस्त भागातून भारतीय नागरिकांना बाहेर काढण्यासाठी",
+    "Explanation": "'ऑपरेशन सिंदूर' हे भारतीय नागरिकांना संघर्षग्रस्त परदेशी देशातून बाहेर काढण्यासाठी सरकारने हाती घेतलेल्या मोहिमेचे सांकेतिक नाव होते.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, MPSC",
+    "correctOption": 4,
+    "topic": "राष्ट्रीय सुरक्षा"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2025 च्या सीझनपासून इंडियन प्रीमियर लीग (IPL) मध्ये कोणत्या दोन नवीन संघांचा समावेश करण्यात आला?",
+    "Options": [
+      { "id": 1, "text": "पुणे आणि कोची" },
+      { "id": 2, "text": "अहमदाबाद आणि लखनौ" },
+      { "id": 3, "text": "रांची आणि इंदूर" },
+      { "id": 4, "text": "विशाखापट्टणम आणि गुवाहाटी" }
+    ],
+    "CorrectAnswer": "विशाखापट्टणम आणि गुवाहाटी",
+    "Explanation": "विशाखापट्टणम आणि गुवाहाटी येथील नवीन फ्रँचायझींच्या समावेशामुळे IPL 12 संघांची स्पर्धा बनली.",
+    "Difficulty": "सोपे",
+    "Job": "General Exams",
+    "correctOption": 4,
+    "topic": "क्रीडा"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "ऑगस्ट 2025 मध्ये विक्रम साराभाई स्पेस सेंटर (VSSC) चे वर्तमान संचालक म्हणून कोणी पदभार स्वीकारला आहे?",
+    "Options": [
+      { "id": 1, "text": "एस. सोमनाथ" },
+      { "id": 2, "text": "के. सिवन" },
+      { "id": 3, "text": "रितू करिधाल" },
+      { "id": 4, "text": "डॉ. ए. राजराजन" }
+    ],
+    "CorrectAnswer": "डॉ. ए. राजराजन",
+    "Explanation": "डॉ. ए. राजराजन यांनी ऑगस्ट 2025 मध्ये ISRO च्या प्रमुख अंतराळ संशोधन केंद्राचे (VSSC) संचालक म्हणून पदभार स्वीकारला.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC, MPSC, Science & Tech",
+    "correctOption": 4,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'स्माइल' (SMILE - Support for Marginalized Individuals for Livelihood and Enterprise) योजनेचा प्राथमिक उद्देश काय आहे?",
+    "Options": [
+      { "id": 1, "text": "ज्येष्ठ नागरिकांना आधार देणे" },
+      { "id": 2, "text": "शहरी गरिबांसाठी घरे उपलब्ध करणे" },
+      { "id": 3, "text": "तृतीयपंथी समुदाय आणि भिक्षा मागणाऱ्या व्यक्तींसाठी कल्याणकारी उपाययोजना पुरवणे" },
+      { "id": 4, "text": "आदिवासी मुलांमध्ये प्राथमिक शिक्षणाला प्रोत्साहन देणे" }
+    ],
+    "CorrectAnswer": "तृतीयपंथी समुदाय आणि भिक्षा मागणाऱ्या व्यक्तींसाठी कल्याणकारी उपाययोजना पुरवणे",
+    "Explanation": "SMILE योजना तृतीयपंथी समुदाय आणि भिक्षा मागणाऱ्या व्यक्तींसाठी पुनर्वसन, वैद्यकीय सुविधा, समुपदेशन आणि कौशल्य विकास यासाठी उप-योजनांसह एक व्यापक उपक्रम आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Social Justice Dept.",
+    "correctOption": 3,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'युद्ध अभ्यास 2025' हा संयुक्त लष्करी सराव भारत आणि कोणत्या देशादरम्यान आयोजित केला जातो?",
+    "Options": [
+      { "id": 1, "text": "जपान" },
+      { "id": 2, "text": "ऑस्ट्रेलिया" },
+      { "id": 3, "text": "युनायटेड किंगडम" },
+      { "id": 4, "text": "युनायटेड स्टेट्स" }
+    ],
+    "CorrectAnswer": "युनायटेड स्टेट्स",
+    "Explanation": "'युद्ध अभ्यास' हा भारत आणि अमेरिका यांच्यातील सर्वात मोठा संयुक्त लष्करी प्रशिक्षण आणि संरक्षण सहकार्य प्रयत्न आहे, जो दरवर्षी आयोजित केला जातो.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, MPSC, Defence Exams",
+    "correctOption": 4,
+    "topic": "संरक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "नुकतीच चर्चेत असलेली 'PM-WANI' योजना कशाशी संबंधित आहे?",
+    "Options": [
+      { "id": 1, "text": "महिलांची सुरक्षा" },
+      { "id": 2, "text": "सार्वजनिक वाय-फाय नेटवर्क स्थापित करणे" },
+      { "id": 3, "text": "जलसंधारण" },
+      { "id": 4, "text": "आर्थिक समावेशन" }
+    ],
+    "CorrectAnswer": "सार्वजनिक वाय-फाय नेटवर्क स्थापित करणे",
+    "Explanation": "PM-WANI (Prime Minister's Wi-Fi Access Network Interface) योजनेचे उद्दिष्ट देशभरात सार्वजनिक वाय-फाय नेटवर्कद्वारे ब्रॉडबँडचा प्रसार करणे, रोजगार निर्माण करणे आणि डिजिटल कनेक्टिव्हिटी वाढवणे आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Bank-PO, Telecom",
+    "correctOption": 2,
+    "topic": "तंत्रज्ञान आणि योजना"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "ऑगस्ट 2025 मध्ये लष्कर उपप्रमुख (Vice Chief of the Army Staff) म्हणून कोणी पदभार स्वीकारला आहे?",
+    "Options": [
+      { "id": 1, "text": "लेफ्टनंट जनरल एम. व्ही. सुचिंद्र कुमार" },
+      { "id": 2, "text": "लेफ्टनंट जनरल बी. एस. राजू" },
+      { "id": 3, "text": "लेफ्टनंट जनरल सी. पी. मोहंती" },
+      { "id": 4, "text": "लेफ्टनंट जनरल पुष्पेंद्र सिंग" }
+    ],
+    "CorrectAnswer": "लेफ्टनंट जनरल पुष्पेंद्र सिंग",
+    "Explanation": "लेफ्टनंट जनरल पुष्पेंद्र सिंग यांची भारतीय लष्करातील महत्त्वाचे नेतृत्व पद असलेल्या लष्कर उपप्रमुख म्हणून नियुक्ती करण्यात आली.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 4,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2025 मध्ये सरकारने सुरू केलेले 'मिशन उत्कर्ष' काय आहे?",
+    "Options": [
+      { "id": 1, "text": "उच्च शिक्षणाची गुणवत्ता सुधारण्यासाठी एक मोहीम" },
+      { "id": 2, "text": "15 ओळखल्या गेलेल्या जिल्ह्यांमध्ये पोषण परिणामांमध्ये सुधारणा करण्यासाठी एक उपक्रम" },
+      { "id": 3, "text": "तळागाळातील खेळांना प्रोत्साहन देण्यासाठी एक कार्यक्रम" },
+      { "id": 4, "text": "भारतीय रेल्वेच्या आधुनिकीकरणासाठी एक प्रकल्प" }
+    ],
+    "CorrectAnswer": "15 ओळखल्या गेलेल्या जिल्ह्यांमध्ये पोषण परिणामांमध्ये सुधारणा करण्यासाठी एक उपक्रम",
+    "Explanation": "मिशन उत्कर्ष महिला आणि बाल विकास मंत्रालय आणि आयुष मंत्रालयाने 5 राज्यांतील 15 जिल्ह्यांमध्ये आयुष प्रणालीचा उपयोग करून कुपोषण दूर करण्यासाठी सुरू केलेला उपक्रम आहे.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC, Health & Social Sector",
+    "correctOption": 2,
+    "topic": "सरकारी उपक्रम"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'मलाबार' (Malabar) या बहुराष्ट्रीय नौदल सरावात कोणते चार देश सहभागी आहेत?",
+    "Options": [
+      { "id": 1, "text": "भारत, अमेरिका, युनायटेड किंगडम, फ्रान्स" },
+      { "id": 2, "text": "भारत, अमेरिका, जपान, ऑस्ट्रेलिया" },
+      { "id": 3, "text": "भारत, रशिया, चीन, इराण" },
+      { "id": 4, "text": "भारत, जपान, दक्षिण कोरिया, व्हिएतनाम" }
+    ],
+    "CorrectAnswer": "भारत, अमेरिका, जपान, ऑस्ट्रेलिया",
+    "Explanation": "मलाबार सराव हा क्वाड देशांच्या नौदल दलांचा (भारत, अमेरिका, जपान आणि ऑस्ट्रेलिया) बहुराष्ट्रीय नौदल सराव आहे.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 2,
+    "topic": "संरक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "आशियाई क्रीडा स्पर्धा 2025 मध्ये नेमबाजीमध्ये सुवर्णपदक जिंकणारी पहिली भारतीय महिला कोण बनली?",
+    "Options": [
+      { "id": 1, "text": "मनू भाकर" },
+      { "id": 2, "text": "अपूर्वी चंदेला" },
+      { "id": 3, "text": "राही सरनोबत" },
+      { "id": 4, "text": "सिफ्ट कौर समरा" }
+    ],
+    "CorrectAnswer": "सिफ्ट कौर समरा",
+    "Explanation": "सिफ्ट कौर समरा हिने 2025 च्या आशियाई क्रीडा स्पर्धेत महिलांच्या 50 मीटर रायफल 3 पोझिशन्स स्पर्धेत जागतिक विक्रमी गुणांसह सुवर्णपदक जिंकून इतिहास रचला.",
+    "Difficulty": "मध्यम",
+    "Job": "SSC-CGL, MPSC, Sports",
+    "correctOption": 4,
+    "topic": "क्रीडा"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'राष्ट्रीय ग्रीन हायड्रोजन मिशन'चा प्राथमिक उद्देश काय आहे?",
+    "Options": [
+      { "id": 1, "text": "भारताचे वनक्षेत्र वाढवणे" },
+      { "id": 2, "text": "भारताला ग्रीन हायड्रोजनच्या उत्पादन, वापर आणि निर्यातीचे जागतिक केंद्र बनवणे" },
+      { "id": 3, "text": "सर्व सार्वजनिक वाहतूक हायड्रोजन इंधन पेशींकडे (Fuel Cells) वळवणे" },
+      { "id": 4, "text": "हायड्रोजन पेरॉक्साईड वापरून प्रमुख नद्या स्वच्छ करणे" }
+    ],
+    "CorrectAnswer": "भारताला ग्रीन हायड्रोजनच्या उत्पादन, वापर आणि निर्यातीचे जागतिक केंद्र बनवणे",
+    "Explanation": "या महत्त्वाकांक्षी मिशनचे उद्दिष्ट ग्रीन हायड्रोजनची मागणी निर्मिती, उत्पादन, वापर आणि निर्यात सुलभ करणे आहे, ज्यामुळे भारताला स्वच्छ ऊर्जेमध्ये एक अग्रगण्य स्थान मिळेल.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Environment & Energy Sector",
+    "correctOption": 2,
+    "topic": "पर्यावरण आणि ऊर्जा"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "सरकारची 'अमृत धरोहर' योजना कोणत्या विशिष्ट परिसंस्थांच्या संवर्धनावर केंद्रित आहे?",
+    "Options": [
+      { "id": 1, "text": "हिमालयीन हिमनदी" },
+      { "id": 2, "text": "वाळवंटी ओएसिस" },
+      { "id": 3, "text": "कोरल रीफ्स" },
+      { "id": 4, "text": "वेटलँड्स (रामसर स्थळे)" }
+    ],
+    "CorrectAnswer": "वेटलँड्स (रामसर स्थळे)",
+    "Explanation": "'अमृत धरोहर' योजना भारताच्या रामसर स्थळांचे (आंतरराष्ट्रीय महत्त्वाचे वेटलँड्स) अद्वितीय संवर्धन मूल्ये आणि पर्यटन आणि उपजीविकेसाठी त्यांचा इष्टतम वापर वाढवण्यावर लक्ष केंद्रित करण्यासाठी सुरू करण्यात आली.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC, Forest Services, Environment Dept.",
+    "correctOption": 4,
+    "topic": "पर्यावरण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "सप्टेंबर 2025 मध्ये केंद्रीय औद्योगिक सुरक्षा दलाचे (CISF) नवीन महासंचालक म्हणून कोणाची नियुक्ती करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "शील वर्धन सिंग" },
+      { "id": 2, "text": "नीना सिंग" },
+      { "id": 3, "text": "अनिश दयाल सिंग" },
+      { "id": 4, "text": "प्रवीर रंजन" }
+    ],
+    "CorrectAnswer": "प्रवीर रंजन",
+    "Explanation": "आयपीएस अधिकारी प्रवीर रंजन यांची CISF चे प्रमुख म्हणून नियुक्ती करण्यात आली, जे देशातील महत्त्वाच्या औद्योगिक उपक्रम आणि पायाभूत सुविधांच्या सुरक्षेसाठी जबाबदार आहेत.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 4,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'PM-PRANAM' योजना कशास प्रोत्साहन देण्यासाठी सुरू करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "पर्यायी खतांचा वापर करणे आणि रासायनिक खतांचा वापर कमी करणे" },
+      { "id": 2, "text": "योग आणि पारंपारिक आरोग्य पद्धतींना प्रोत्साहन देणे" },
+      { "id": 3, "text": "प्राचीन स्मारकांचे जतन करणे" },
+      { "id": 4, "text": "ग्रामीण भागात डिजिटल पेमेंटला प्रोत्साहन देणे" }
+    ],
+    "CorrectAnswer": "पर्यायी खतांचा वापर करणे आणि रासायनिक खतांचा वापर कमी करणे",
+    "Explanation": "PM-PRANAM (Programme for Restoration, Awareness, Nourishment and Amelioration of Mother Earth) योजनेचे उद्दिष्ट खतांचा संतुलित वापर आणि पर्यायी, नैसर्गिक शेती पद्धतींना प्रोत्साहन देण्यासाठी राज्ये आणि केंद्रशासित प्रदेशांना प्रोत्साहन देणे आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Agriculture Dept.",
+    "correctOption": 1,
+    "topic": "कृषी आणि पर्यावरण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "भारतीय हवाई दलाला नुकतेच पहिले C295 वाहतूक विमान मिळाले आहे. हे विमान कोणत्या जागतिक कंपनीच्या सहकार्याने टाटा ॲडव्हान्स सिस्टीम्सद्वारे भारतात बनवले जात आहे?",
+    "Options": [
+      { "id": 1, "text": "बोईंग" },
+      { "id": 2, "text": "लॉकहीड मार्टिन" },
+      { "id": 3, "text": "डसॉल्ट एव्हिएशन" },
+      { "id": 4, "text": "एअरबस" }
+    ],
+    "CorrectAnswer": "एअरबस",
+    "Explanation": "C295 सामरिक वाहतूक विमानांचे उत्पादन टाटा-एअरबस या खाजगी समूहाद्वारे पहिल्यांदाच भारतातील वडोदरा, गुजरात येथील त्यांच्या सुविधेत केले जात आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 4,
+    "topic": "संरक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "सप्टेंबर 2025 साठी ICC मेन्स प्लेयर ऑफ द मंथ पुरस्कार कोणत्या भारतीय क्रिकेटपटूला मिळाला?",
+    "Options": [
+      { "id": 1, "text": "विराट कोहली" },
+      { "id": 2, "text": "रोहित शर्मा" },
+      { "id": 3, "text": "जसप्रीत बुमराह" },
+      { "id": 4, "text": "शुभमन गिल" }
+    ],
+    "CorrectAnswer": "शुभमन गिल",
+    "Explanation": "शुभमन गिलला सप्टेंबर 2025 दरम्यानच्या त्याच्या उत्कृष्ट फलंदाजीच्या कामगिरीसाठी ICC मेन्स प्लेयर ऑफ द मंथ म्हणून गौरविण्यात आले.",
+    "Difficulty": "सोपे",
+    "Job": "SSC-CGL, Bank-PO, General Exams",
+    "correctOption": 4,
+    "topic": "क्रीडा"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'MISHTI' (Mangrove Initiative for Shoreline Habitats & Tangible Incomes) योजनेचा प्राथमिक फोकस काय आहे?",
+    "Options": [
+      { "id": 1, "text": "गोड्या पाण्यातील मत्स्यव्यवसायाला प्रोत्साहन देणे" },
+      { "id": 2, "text": "अंतर्देशीय जलमार्गांचा विकास करणे" },
+      { "id": 3, "text": "साखर उत्पादनासाठी सबसिडी पुरवणे" },
+      { "id": 4, "text": "समुद्रकिनाऱ्यावरील खारफुटीचे (Mangrove) वृक्षारोपण आणि संवर्धन करणे" }
+    ],
+    "CorrectAnswer": "समुद्रकिनाऱ्यावरील खारफुटीचे (Mangrove) वृक्षारोपण आणि संवर्धन करणे",
+    "Explanation": "MISHTI योजना भारताच्या समुद्रकिनाऱ्यावरील आणि मिठागराच्या जमिनींवर खारफुटीच्या जंगलांचे गहन वनीकरण आणि संवर्धनावर लक्ष केंद्रित करते.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Forest Services, Environment Dept.",
+    "correctOption": 4,
+    "topic": "पर्यावरण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2025 मध्ये आंतरराष्ट्रीय नाणेनिधीमध्ये (IMF) भारताचे नवीन कार्यकारी संचालक (Executive Director) म्हणून कोणाची नियुक्ती करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "कृष्णमूर्ती सुब्रमण्यम" },
+      { "id": 2, "text": "सुरजित भल्ला" },
+      { "id": 3, "text": "डॉ. उर्जित पटेल" },
+      { "id": 4, "text": "विरल आचार्य" }
+    ],
+    "CorrectAnswer": "डॉ. उर्जित पटेल",
+    "Explanation": "माजी RBI गव्हर्नर डॉ. उर्जित पटेल यांची IMF मध्ये भारताचे कार्यकारी संचालक म्हणून तीन वर्षांच्या कालावधीसाठी नियुक्ती करण्यात आली.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, RBI Grade B, Bank-PO",
+    "correctOption": 3,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2025 मध्ये इंडियन प्रीमियर लीग (IPL) कोणत्या संघाने जिंकली?",
+    "Options": [
+      { "id": 1, "text": "चेन्नई सुपर किंग्ज" },
+      { "id": 2, "text": "मुंबई इंडियन्स" },
+      { "id": 3, "text": "सनरायझर्स हैदराबाद" },
+      { "id": 4, "text": "कोलकाता नाइट रायडर्स" }
+    ],
+    "CorrectAnswer": "कोलकाता नाइट रायडर्स",
+    "Explanation": "कोलकाता नाइट रायडर्सने 2025 च्या सीझनमध्ये त्यांचे तिसरे IPL विजेतेपद जिंकले.",
+    "Difficulty": "सोपे",
+    "Job": "General Exams",
+    "correctOption": 4,
+    "topic": "क्रीडा"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'UNNATI' (उत्तर पूर्व परिवर्तनकारी औद्योगिकीकरण) योजना भारत सरकारच्या कोणत्या क्षेत्रासाठी मंजूर करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "हिमालयीन राज्ये" },
+      { "id": 2, "text": "किनारी भाग" },
+      { "id": 3, "text": "ईशान्य प्रदेश" },
+      { "id": 4, "text": "मध्य भारतातील आदिवासी पट्टे" }
+    ],
+    "CorrectAnswer": "ईशान्य प्रदेश",
+    "Explanation": "UNNATI योजना ईशान्येकडील राज्यांमध्ये उत्पादन आणि सेवा क्षेत्राला चालना देण्यासाठी, रोजगार निर्माण करण्यासाठी आणि आर्थिक वाढीला प्रोत्साहन देण्यासाठी एक नवीन औद्योगिक विकास योजना आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, State PSCs (NE)",
+    "correctOption": 3,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "भारताचे वर्तमान चीफ ऑफ डिफेन्स स्टाफ (CDS) कोण आहेत?",
+    "Options": [
+      { "id": 1, "text": "जनरल बिपिन रावत" },
+      { "id": 2, "text": "जनरल मनोज मुकुंद नरवणे" },
+      { "id": 3, "text": "ॲडमिरल आर. हरी कुमार" },
+      { "id": 4, "text": "जनरल अनिल चौहान" }
+    ],
+    "CorrectAnswer": "जनरल अनिल चौहान",
+    "Explanation": "जनरल अनिल चौहान (निवृत्त) हे भारतीय सशस्त्र दलांचे सध्याचे आणि दुसरे चीफ ऑफ डिफेन्स स्टाफ आहेत.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 4,
+    "topic": "संरक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "भारताच्या पहिल्या स्वदेशी विमानवाहू जहाजाचे नाव काय आहे?",
+    "Options": [
+      { "id": 1, "text": "INS विराट" },
+      { "id": 2, "text": "INS विक्रमादित्य" },
+      { "id": 3, "text": "INS विशाल" },
+      { "id": 4, "text": "INS विक्रांत" }
+    ],
+    "CorrectAnswer": "INS विक्रांत",
+    "Explanation": "INS विक्रांत (IAC-1) हे भारतात स्वदेशी पद्धतीने डिझाइन केलेले आणि बांधलेले पहिले विमानवाहू जहाज आहे. ते 2022 मध्ये कार्यान्वित झाले.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, MPSC, Defence Exams",
+    "correctOption": 4,
+    "topic": "संरक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'PM विश्वकर्मा' योजना कोणत्या गटातील लोकांना आधार देण्यासाठी सुरू करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "शेतकरी" },
+      { "id": 2, "text": "पथविक्रेते" },
+      { "id": 3, "text": "MSME उद्योजक" },
+      { "id": 4, "text": "पारंपरिक कारागीर आणि हस्तकलाकार" }
+    ],
+    "CorrectAnswer": "पारंपरिक कारागीर आणि हस्तकलाकार",
+    "Explanation": "PM विश्वकर्मा योजना पारंपारिक कारागीर आणि हस्तकलाकारांना कौशल्य प्रशिक्षण, टूलकिट, क्रेडिट सपोर्ट आणि बाजारपेठ जोडणीसह सर्वसमावेशक समर्थन प्रदान करते.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, Bank-PO, SSC-CGL",
+    "correctOption": 4,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2025 मध्ये जाहीर झालेल्या 71 व्या राष्ट्रीय चित्रपट पुरस्कारांमध्ये सर्वोत्कृष्ट अभिनेत्याचा पुरस्कार कोणी जिंकला?",
+    "Options": [
+      { "id": 1, "text": "अल्लू अर्जुन" },
+      { "id": 2, "text": "रणबीर कपूर" },
+      { "id": 3, "text": "विकी कौशल" },
+      { "id": 4, "text": "सूर्या" }
+    ],
+    "CorrectAnswer": "रणबीर कपूर",
+    "Explanation": "रणबीर कपूरने 'ॲनिमल' चित्रपटातील अभिनयासाठी 71 व्या राष्ट्रीय चित्रपट पुरस्कारांमध्ये सर्वोत्कृष्ट अभिनेत्याचा पुरस्कार जिंकला.",
+    "Difficulty": "मध्यम",
+    "Job": "SSC-CGL, MPSC, Entertainment",
+    "correctOption": 2,
+    "topic": "पुरस्कार आणि सन्मान"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'व्हायब्रंट व्हिलेजेस प्रोग्राम' हा केंद्र सरकारचा कोणत्या भागाच्या विकासावर केंद्रित असलेला उपक्रम आहे?",
+    "Options": [
+      { "id": 1, "text": "किनारी मच्छिमार गावे" },
+      { "id": 2, "text": "ऐतिहासिक महत्त्व असलेली गावे" },
+      { "id": 3, "text": "आकांक्षी जिल्ह्यांमधील गावे" },
+      { "id": 4, "text": "उत्तर राज्यांमधील सीमावर्ती गावे" }
+    ],
+    "CorrectAnswer": "उत्तर राज्यांमधील सीमावर्ती गावे",
+    "Explanation": "व्हायब्रंट व्हिलेजेस प्रोग्रामचा उद्देश उत्तरेकडील सीमेवरील 46 ब्लॉक्समधील निवडक गावांचा सर्वसमावेशक विकास करणे, पायाभूत सुविधा सुधारणे आणि उपजीविकेच्या संधी निर्माण करणे आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, State PSCs",
+    "correctOption": 4,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2025 मध्ये भारतीय दूरसंचार नियामक प्राधिकरणाचे (TRAI) नवीन अध्यक्ष म्हणून कोणाची नियुक्ती करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "पी. डी. वाघेला" },
+      { "id": 2, "text": "अनिल कुमार लाहोटी" },
+      { "id": 3, "text": "आर. एस. शर्मा" },
+      { "id": 4, "text": "मीनाक्षी गुप्ता" }
+    ],
+    "CorrectAnswer": "अनिल कुमार लाहोटी",
+    "Explanation": "रेल्वे बोर्डाचे माजी अध्यक्ष अनिल कुमार लाहोटी यांची TRAI चे नवीन अध्यक्ष म्हणून तीन वर्षांच्या कालावधीसाठी नियुक्ती करण्यात आली.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC, Bank-PO",
+    "correctOption": 2,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2023 मध्ये भूकंपग्रस्त तुर्की आणि सीरियाला मदत करण्यासाठी भारताने सुरू केलेल्या ऑपरेशनचे नाव काय आहे?",
+    "Options": [
+      { "id": 1, "text": "ऑपरेशन गंगा" },
+      { "id": 2, "text": "ऑपरेशन देवी शक्ती" },
+      { "id": 3, "text": "ऑपरेशन मैत्री" },
+      { "id": 4, "text": "ऑपरेशन दोस्त" }
+    ],
+    "CorrectAnswer": "ऑपरेशन दोस्त",
+    "Explanation": "'ऑपरेशन दोस्त' (ऑपरेशन मित्र) ही विनाशकारी भूकंपानंतर तुर्की आणि सीरियाला मानवतावादी मदत पुरवण्यासाठी भारताने सुरू केलेली शोध आणि बचाव मोहीम होती.",
+    "Difficulty": "सोपे",
+    "Job": "UPSC, MPSC, SSC-CGL",
+    "correctOption": 4,
+    "topic": "आंतरराष्ट्रीय संबंध"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "रामसर कन्व्हेन्शन अंतर्गत 'वेटलँड सिटी' म्हणून घोषित झालेले भारतातील पहिले शहर कोणते आहे?",
+    "Options": [
+      { "id": 1, "text": "कोलकाता" },
+      { "id": 2, "text": "भोपाळ" },
+      { "id": 3, "text": "कोची" },
+      { "id": 4, "text": "उदयपूर" }
+    ],
+    "CorrectAnswer": "उदयपूर",
+    "Explanation": "तलावांचे शहर म्हणून ओळखले जाणारे उदयपूर, त्याच्या शहरी वेटलँड्सचे संवर्धन करण्याच्या प्रयत्नांसाठी भारतातील पहिले वेटलँड सिटी म्हणून अधिकृतपणे ओळखले गेले.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Forest Services, Environment Dept.",
+    "correctOption": 4,
+    "topic": "पर्यावरण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'समुद्र लक्ष्मणा' हा सागरी सराव भारत आणि कोणत्या देशादरम्यान आयोजित केला जातो?",
+    "Options": [
+      { "id": 1, "text": "इंडोनेशिया" },
+      { "id": 2, "text": "श्रीलंका" },
+      { "id": 3, "text": "थायलंड" },
+      { "id": 4, "text": "मलेशिया" }
+    ],
+    "CorrectAnswer": "मलेशिया",
+    "Explanation": "'समुद्र लक्ष्मणा' सराव हा भारतीय नौदल आणि रॉयल मलेशियन नौदल यांच्यातील संयुक्त नौदल सराव आहे, ज्याचा उद्देश संबंध मजबूत करणे आणि परस्पर समजूतदारपणा वाढवणे आहे.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 4,
+    "topic": "संरक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "ऑक्टोबर 2025 मध्ये आपल्या जीवनदायिनी नदीचे पुनरुज्जीवन करण्यासाठी 'गोमती पुनरुज्जीवन मिशन' कोणत्या राज्याने सुरू केले?",
+    "Options": [
+      { "id": 1, "text": "बिहार" },
+      { "id": 2, "text": "मध्य प्रदेश" },
+      { "id": 3, "text": "राजस्थान" },
+      { "id": 4, "text": "उत्तर प्रदेश" }
+    ],
+    "CorrectAnswer": "उत्तर प्रदेश",
+    "Explanation": "उत्तर प्रदेश सरकारने गोमती नदीला स्वच्छ आणि पुनरुज्जीवित करण्यासाठी एक व्यापक योजना, 'गोमती पुनरुज्जीवन मिशन' सुरू केली.",
+    "Difficulty": "सोपे",
+    "Job": "State PSCs, MPSC",
+    "correctOption": 4,
+    "topic": "पर्यावरण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'फोर स्टार्स ऑफ डेस्टिनी: ॲन ऑटोबायोग्राफी' या पुस्तकाचे लेखक कोण आहेत?",
+    "Options": [
+      { "id": 1, "text": "जनरल बिपिन रावत" },
+      { "id": 2, "text": "जनरल एम. एम. नरवणे" },
+      { "id": 3, "text": "ॲडमिरल करमबीर सिंग" },
+      { "id": 4, "text": "एअर चीफ मार्शल आरकेएस भदौरिया" }
+    ],
+    "CorrectAnswer": "जनरल एम. एम. नरवणे",
+    "Explanation": "माजी लष्करप्रमुख जनरल एम. एम. नरवणे यांनी 'फोर स्टार्स ऑफ डेस्टिनी' हे आत्मचरित्र लिहिले आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 2,
+    "topic": "पुस्तके आणि लेखक"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'सागर आंकलन' मार्गदर्शक तत्त्वे सरकारने कोणत्या उद्देशासाठी सुरू केली आहेत?",
+    "Options": [
+      { "id": 1, "text": "खोल समुद्रातील मासेमारी क्रियाकलापांचे निरीक्षण करणे" },
+      { "id": 2, "text": "भारतीय बंदरांच्या कामगिरीचे मूल्यांकन करणे" },
+      { "id": 3, "text": "खनिज संसाधनांसाठी समुद्राच्या तळाचे मॅपिंग करणे" },
+      { "id": 4, "text": "त्सुनामी आणि चक्रीवादळांचा अंदाज लावणे" }
+    ],
+    "CorrectAnswer": "भारतीय बंदरांच्या कामगिरीचे मूल्यांकन करणे",
+    "Explanation": "भारतीय बंदरांच्या कामगिरी आणि कार्यक्षमतेसाठी राष्ट्रीय बेंचमार्क तयार करण्यासाठी बंदर, जहाजबांधणी आणि जलमार्ग मंत्रालयाने 'सागर आंकलन' मार्गदर्शक तत्त्वे सादर केली.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "अर्थव्यवस्था आणि पायाभूत सुविधा"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "राष्ट्रीय अनुसूचित जाती आयोगाचे (NCSC) नवीन अध्यक्ष म्हणून कोणाची नियुक्ती करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "विजय सांपला" },
+      { "id": 2, "text": "किशोर मकवाना" },
+      { "id": 3, "text": "राम शंकर कठेरिया" },
+      { "id": 4, "text": "अरुण हलधर" }
+    ],
+    "CorrectAnswer": "किशोर मकवाना",
+    "Explanation": "किशोर मकवाना यांनी 2025 मध्ये राष्ट्रीय अनुसूचित जाती आयोगाच्या अध्यक्षपदाची सूत्रे हाती घेतली.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "2024 च्या उत्तरार्धात वाराणसी येथे उद्घाटन झालेले 'स्वर्वेद महामंदिर' काय आहे?",
+    "Options": [
+      { "id": 1, "text": "एक नवीन हिंदू मंदिर" },
+      { "id": 2, "text": "आध्यात्मिक आणि ध्यान पद्धतींसाठी एक केंद्र" },
+      { "id": 3, "text": "वैदिक संस्कृतीचे संग्रहालय" },
+      { "id": 4, "text": "संस्कृत अभ्यासासाठी एक विद्यापीठ" }
+    ],
+    "CorrectAnswer": "आध्यात्मिक आणि ध्यान पद्धतींसाठी एक केंद्र",
+    "Explanation": "स्वर्वेद महामंदिर हे विहंगम योगाच्या सरावासाठी समर्पित असलेले एक भव्य सात मजली ध्यान केंद्र आहे, ज्यात एका वेळी 20,000 लोक बसू शकतात.",
+    "Difficulty": "मध्यम",
+    "Job": "SSC-CGL, MPSC",
+    "correctOption": 2,
+    "topic": "संस्कृती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'प्रधानमंत्री जनजाती आदिवासी न्याय महा अभियान' (PM-JANMAN) कोणत्या गटाच्या विकासावर केंद्रित आहे?",
+    "Options": [
+      { "id": 1, "text": "सर्व अनुसूचित जमाती" },
+      { "id": 2, "text": "विशेषतः असुरक्षित आदिवासी गट (PVTGs)" },
+      { "id": 3, "text": "अनुसूचित जाती" },
+      { "id": 4, "text": "भटक्या जमाती" }
+    ],
+    "CorrectAnswer": "विशेषतः असुरक्षित आदिवासी गट (PVTGs)",
+    "Explanation": "PM-JANMAN ही भारतातील 75 ओळखल्या गेलेल्या विशेषतः असुरक्षित आदिवासी गटांच्या (PVTGs) सर्वांगीण विकासासाठी आणि त्यांच्या सामाजिक-आर्थिक परिस्थिती सुधारण्यासाठी एक व्यापक मोहीम आहे.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, MPSC",
+    "correctOption": 2,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'KALI' (किलो ॲम्पेअर लीनिअर इंजेक्टर) प्रकल्प सरकार कोणत्या उद्देशासाठी विकसित करत आहे?",
+    "Options": [
+      { "id": 1, "text": "अणुऊर्जा निर्मिती" },
+      { "id": 2, "text": "उच्च-शक्तीची मायक्रोवेव्ह शस्त्र प्रणाली" },
+      { "id": 3, "text": "एक कण प्रवेगक (Particle Accelerator) वैज्ञानिक संशोधनासाठी" },
+      { "id": 4, "text": "लेझर-मार्गदर्शित क्षेपणास्त्र तंत्रज्ञान" }
+    ],
+    "CorrectAnswer": "उच्च-शक्तीची मायक्रोवेव्ह शस्त्र प्रणाली",
+    "Explanation": "प्रकल्प KALI हा DRDO आणि BARC द्वारे विकसित केला जात असलेला एक गोपनीय निर्देशित ऊर्जा शस्त्र प्रकल्प आहे, जो येणाऱ्या क्षेपणास्त्रे आणि विमानांना नष्ट करण्यासाठी शक्तिशाली मायक्रोवेव्ह उत्सर्जित करण्यासाठी डिझाइन केलेला आहे.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 2,
+    "topic": "संरक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "भारताचे नवीन लोकपाल (भ्रष्टाचार विरोधी लोकपाल) म्हणून कोणाची नियुक्ती करण्यात आली आहे?",
+    "Options": [
+      { "id": 1, "text": "न्यायमूर्ती पिनाकी चंद्र घोष" },
+      { "id": 2, "text": "न्यायमूर्ती प्रदीप कुमार मोहंती" },
+      { "id": 3, "text": "न्यायमूर्ती रंजन गोगोई" },
+      { "id": 4, "text": "न्यायमूर्ती ए. एम. खानविलकर" }
+    ],
+    "CorrectAnswer": "न्यायमूर्ती ए. एम. खानविलकर",
+    "Explanation": "सर्वोच्च न्यायालयाचे माजी न्यायाधीश न्यायमूर्ती अजय माणिकराव खानविलकर यांची लोकपालचे नवीन अध्यक्ष म्हणून नियुक्ती करण्यात आली.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, MPSC, Bank-PO",
+    "correctOption": 4,
+    "topic": "नियुक्ती"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'PRITHVI' (ध्रुवीय विज्ञान आणि क्रायोस्फीअर संशोधन) योजना कोणत्या मंत्रालयाची एक व्यापक योजना आहे?",
+    "Options": [
+      { "id": 1, "text": "विज्ञान आणि तंत्रज्ञान मंत्रालय" },
+      { "id": 2, "text": "पर्यावरण, वन आणि हवामान बदल मंत्रालय" },
+      { "id": 3, "text": "परराष्ट्र व्यवहार मंत्रालय" },
+      { "id": 4, "text": "पृथ्वी विज्ञान मंत्रालय" }
+    ],
+    "CorrectAnswer": "पृथ्वी विज्ञान मंत्रालय",
+    "Explanation": "PRITHVI ही पृथ्वी विज्ञान मंत्रालयाची एक व्यापक योजना आहे जी वातावरण, महासागर, ध्रुवीय आणि भूकंपविषयक संशोधनाशी संबंधित पाच विद्यमान उप-योजनांना एकत्रित करते.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC",
+    "correctOption": 4,
+    "topic": "विज्ञान आणि तंत्रज्ञान"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "स्वातंत्र्यानंतर समान नागरी संहिता (UCC) लागू करणारे भारतातील पहिले राज्य कोणते बनले?",
+    "Options": [
+      { "id": 1, "text": "गोवा" },
+      { "id": 2, "text": "उत्तर प्रदेश" },
+      { "id": 3, "text": "गुजरात" },
+      { "id": 4, "text": "उत्तराखंड" }
+    ],
+    "CorrectAnswer": "उत्तराखंड",
+    "Explanation": "उत्तराखंड 2024 मध्ये स्वतःचे समान नागरी संहिता विधेयक पारित आणि लागू करणारे स्वतंत्र भारतातील पहिले राज्य बनले.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, MPSC, Law Exams",
+    "correctOption": 4,
+    "topic": "राज्यव्यवस्था"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "'खंजर' (Khanjar) या संयुक्त विशेष दलांच्या सरावाची 11 वी आवृत्ती भारत आणि कोणत्या देशादरम्यान आयोजित करण्यात आली?",
+    "Options": [
+      { "id": 1, "text": "कझाकस्तान" },
+      { "id": 2, "text": "उझबेकिस्तान" },
+      { "id": 3, "text": "तुर्कमेनिस्तान" },
+      { "id": 4, "text": "किर्गिस्तान" }
+    ],
+    "CorrectAnswer": "किर्गिस्तान",
+    "Explanation": "खंजर सराव हा भारत आणि किर्गिस्तान यांच्यातील वार्षिक संयुक्त विशेष दलांचा सराव आहे, जो दहशतवादविरोधी आणि विशेष दलांच्या ऑपरेशनमध्ये आंतरकार्यक्षमता वाढवतो.",
+    "Difficulty": "मध्यम",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 4,
+    "topic": "संरक्षण"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "71 व्या राष्ट्रीय चित्रपट पुरस्कारांमध्ये 'सर्वोत्कृष्ट फीचर फिल्म'चा पुरस्कार कोणत्या चित्रपटाने जिंकला?",
+    "Options": [
+      { "id": 1, "text": "RRR" },
+      { "id": 2, "text": "ओपेनहायमर" },
+      { "id": 3, "text": "कांतारा" },
+      { "id": 4, "text": "आट्टम (Aattam)" }
+    ],
+    "CorrectAnswer": "आट्टम (Aattam)",
+    "Explanation": "मल्याळम चित्रपट 'आट्टम' ला 71 व्या राष्ट्रीय चित्रपट पुरस्कारांमध्ये सर्वोत्कृष्ट फीचर फिल्मसाठी सुवर्ण कमल (Golden Lotus) प्रदान करण्यात आले.",
+    "Difficulty": "कठीण",
+    "Job": "SSC-CGL, MPSC, Entertainment",
+    "correctOption": 4,
+    "topic": "पुरस्कार आणि सन्मान"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "विवाहित महिलांना मासिक आर्थिक मदत देणारी 'माहतारी वंदना योजना' कोणत्या राज्याने सुरू केली?",
+    "Options": [
+      { "id": 1, "text": "मध्य प्रदेश" },
+      { "id": 2, "text": "राजस्थान" },
+      { "id": 3, "text": "ओडिशा" },
+      { "id": 4, "text": "छत्तीसगड" }
+    ],
+    "CorrectAnswer": "छत्तीसगड",
+    "Explanation": "छत्तीसगड सरकारने राज्यातील पात्र विवाहित महिलांना दरमहा ₹1000 (वार्षिक ₹12,000) देणारी 'माहतारी वंदना योजना' सुरू केली.",
+    "Difficulty": "मध्यम",
+    "Job": "State PSCs",
+    "correctOption": 4,
+    "topic": "सरकारी योजना"
+  },
+  {
+    "category": "भारतीय चालू घडामोडी",
+    "Question": "भारतीय हवाई दलाने नुकतेच चाचणी केलेले 'समर' (Samar) काय आहे?",
+    "Options": [
+      { "id": 1, "text": "लांब पल्ल्याची तोफ" },
+      { "id": 2, "text": "जमिनीवरून हवेत मारा करणारे क्षेपणास्त्र प्रणाली" },
+      { "id": 3, "text": "मानवरहित हवाई वाहन" },
+      { "id": 4, "text": "नौदल जहाजविरोधी क्षेपणास्त्र" }
+    ],
+    "CorrectAnswer": "जमिनीवरून हवेत मारा करणारे क्षेपणास्त्र प्रणाली",
+    "Explanation": "SAMAR (Surface to Air Missile for Assured Retaliation) ही IAF द्वारे विकसित केलेली एक स्वदेशी हवाई संरक्षण प्रणाली आहे, जी रशियन Vympel R-73 एअर-टू-एअर क्षेपणास्त्रांचा वापर करते.",
+    "Difficulty": "कठीण",
+    "Job": "UPSC, Defence Exams",
+    "correctOption": 2,
+    "topic": "संरक्षण"
+  }
+]

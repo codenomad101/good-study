@@ -1,1875 +1,1875 @@
 [
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "What is the approximate total length of India's coastline, including the mainland and the island territories?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारतीय किनारपट्टीची एकूण अंदाजित लांबी किती आहे, ज्यात मुख्य भूभाग आणि बेटांच्या प्रदेशांचा समावेश आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "5,517 km"
+        "text": "५,५१७ किमी"
       },
       {
         "id": 2,
-        "text": "6,100 km"
+        "text": "६,१०० किमी"
       },
       {
         "id": 3,
-        "text": "7,517 km"
+        "text": "७,५१७ किमी"
       },
       {
         "id": 4,
-        "text": "8,200 km"
+        "text": "८,२०० किमी"
       }
     ],
-    "CorrectAnswer": "7,517 km",
-    "Explanation": "The total length of India's coastline, including the mainland and the Andaman & Nicobar and Lakshadweep islands, is approximately 7,517 kilometers.",
+    "CorrectAnswer": "७,५१७ किमी",
+    "Explanation": "मुख्य भूभाग आणि अंदमान आणि निकोबार तसेच लक्षद्वीप बेटांसह भारतीय किनारपट्टीची एकूण लांबी अंदाजे ७,५१७ किलोमीटर आहे.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The highest peak in Maharashtra, located in the Western Ghats (Sahyadri Range), is:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "सह्याद्री पर्वतरांगेत (पश्चिम घाट) स्थित असलेले महाराष्ट्रातील सर्वात उंच शिखर कोणते आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Salher"
+        "text": "साल्हेर"
       },
       {
         "id": 2,
-        "text": "Mahabaleshwar"
+        "text": "महाबळेश्वर"
       },
       {
         "id": 3,
-        "text": "Kalsubai"
+        "text": "कळसूबाई"
       },
       {
         "id": 4,
-        "text": "Dhupgarh"
+        "text": "धूपगड"
       }
     ],
-    "CorrectAnswer": "Kalsubai",
-    "Explanation": "Kalsubai, with an elevation of 1,646 meters (5,400 ft), is the highest point in the state of Maharashtra, located in the Ahmednagar district.",
+    "CorrectAnswer": "कळसूबाई",
+    "Explanation": "१,६४६ मीटर (५,४०० फूट) उंची असलेले कळसूबाई हे महाराष्ट्रातील अहमदनगर जिल्ह्यात स्थित सर्वात उंच ठिकाण आहे.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which of the following is the oldest mountain range in India, primarily traversing the state of Rajasthan?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "खालीलपैकी कोणती पर्वतरांग भारतातील सर्वात जुनी आहे, जी प्रामुख्याने राजस्थान राज्यातून जाते?",
     "Options": [
       {
         "id": 1,
-        "text": "Himalayas"
+        "text": "हिमालय"
       },
       {
         "id": 2,
-        "text": "Aravalli Range"
+        "text": "अरवली पर्वतरांग"
       },
       {
         "id": 3,
-        "text": "Satpura Range"
+        "text": "सातपुडा पर्वतरांग"
       },
       {
         "id": 4,
-        "text": "Vindhya Range"
+        "text": "विंध्य पर्वतरांग"
       }
     ],
-    "CorrectAnswer": "Aravalli Range",
-    "Explanation": "The Aravalli Range is one of the world's oldest fold mountain systems, located in the Northwestern part of India.",
+    "CorrectAnswer": "अरवली पर्वतरांग",
+    "Explanation": "अरवली पर्वतरांग ही जगातील सर्वात जुन्या घडीच्या पर्वत प्रणालींपैकी एक आहे, जी भारताच्या वायव्य भागात स्थित आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which geographical term best describes the Konkan coastline of Maharashtra, characterized by many coves, bays, and estuaries?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "विविध खाड्या, उपसागर आणि मुखांद्वारे (estuaries) वैशिष्ट्यीकृत असलेल्या महाराष्ट्राच्या कोकण किनारपट्टीचे सर्वोत्तम वर्णन करणारी भौगोलिक संज्ञा कोणती आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Fiord"
+        "text": "फ्योर्ड (Fiord)"
       },
       {
         "id": 2,
-        "text": "Ria"
+        "text": "रिया (Ria)"
       },
       {
         "id": 3,
-        "text": "Dantur (Indented)"
+        "text": "दंतुर (Indented)"
       },
       {
         "id": 4,
-        "text": "Straight"
+        "text": "सरळ"
       }
     ],
-    "CorrectAnswer": "Dantur (Indented)",
-    "Explanation": "The Konkan coastline is described as 'Dantur' (indented or serrated) because it is irregular and punctuated by numerous creeks (khadis) and bays.",
+    "CorrectAnswer": "दंतुर (Indented)",
+    "Explanation": "कोकण किनारपट्टीचे वर्णन 'दंतुर' (खंडित किंवा दातासारखी) असे केले जाते, कारण ती अनियमित आहे आणि असंख्य खाड्या आणि उपसागरांनी युक्त आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The Western Ghats mountain range is locally known as the 'Sahyadris' in which states?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "पश्चिम घाट पर्वतरांग कोणत्या राज्यांमध्ये स्थानिक पातळीवर 'सह्याद्री' म्हणून ओळखली जाते?",
     "Options": [
       {
         "id": 1,
-        "text": "Tamil Nadu and Kerala"
+        "text": "तमिळनाडू आणि केरळ"
       },
       {
         "id": 2,
-        "text": "Maharashtra and Karnataka"
+        "text": "महाराष्ट्र आणि कर्नाटक"
       },
       {
         "id": 3,
-        "text": "Gujarat and Madhya Pradesh"
+        "text": "गुजरात आणि मध्य प्रदेश"
       },
       {
         "id": 4,
-        "text": "Andhra Pradesh and Odisha"
+        "text": "आंध्र प्रदेश आणि ओडिशा"
       }
     ],
-    "CorrectAnswer": "Maharashtra and Karnataka",
-    "Explanation": "The Northern section of the Western Ghats, running parallel to the Konkan Coast, is famously known as the Sahyadri range, especially in Maharashtra.",
+    "CorrectAnswer": "महाराष्ट्र आणि कर्नाटक",
+    "Explanation": "कोकण किनारपट्टीला समांतर असलेली पश्चिम घाटाचा उत्तरेकडील भाग, विशेषतः महाराष्ट्रात, 'सह्याद्री' पर्वतरांग म्हणून प्रसिद्ध आहे.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The Tropic of Cancer (23° 30' N) does NOT pass through which of the following Indian states?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "कर्कवृत्त (२३° ३०' उत्तर) खालीलपैकी कोणत्या भारतीय राज्यामधून जात नाही?",
     "Options": [
       {
         "id": 1,
-        "text": "Gujarat"
+        "text": "गुजरात"
       },
       {
         "id": 2,
-        "text": "Chhattisgarh"
+        "text": "छत्तीसगड"
       },
       {
         "id": 3,
-        "text": "Bihar"
+        "text": "बिहार"
       },
       {
         "id": 4,
-        "text": "Mizoram"
+        "text": "मिझोराम"
       }
     ],
-    "CorrectAnswer": "Bihar",
-    "Explanation": "The Tropic of Cancer passes through 8 states: Gujarat, Rajasthan, Madhya Pradesh, Chhattisgarh, Jharkhand, West Bengal, Tripura, and Mizoram, but not Bihar.",
+    "CorrectAnswer": "बिहार",
+    "Explanation": "कर्कवृत्त ८ राज्यांतून जाते: गुजरात, राजस्थान, मध्य प्रदेश, छत्तीसगड, झारखंड, पश्चिम बंगाल, त्रिपुरा आणि मिझोराम. ते बिहारमधून जात नाही.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which major river, known as the 'Dakshin Ganga' (Ganga of the South), originates at Trimbakeshwar in the Nashik district of Maharashtra?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "'दक्षिण गंगा' (दक्षिणेची गंगा) म्हणून ओळखली जाणारी कोणती प्रमुख नदी महाराष्ट्रातील नाशिक जिल्ह्यातील त्र्यंबकेश्वर येथे उगम पावते?",
     "Options": [
       {
         "id": 1,
-        "text": "Krishna"
+        "text": "कृष्णा"
       },
       {
         "id": 2,
-        "text": "Tapi"
+        "text": "तापी"
       },
       {
         "id": 3,
-        "text": "Godavari"
+        "text": "गोदावरी"
       },
       {
         "id": 4,
-        "text": "Bhima"
+        "text": "भीमा"
       }
     ],
-    "CorrectAnswer": "Godavari",
-    "Explanation": "The Godavari is the longest peninsular river and originates in the Western Ghats at Trimbakeshwar, near Nashik, Maharashtra.",
+    "CorrectAnswer": "गोदावरी",
+    "Explanation": "गोदावरी ही द्वीपकल्पातील सर्वात लांब नदी असून तिचा उगम महाराष्ट्रातील नाशिकजवळील त्र्यंबकेश्वर येथील पश्चिम घाटात होतो.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Tadoba Andhari National Park**, one of India's major tiger reserves, is located in which district of Maharashtra?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारतातील प्रमुख व्याघ्र प्रकल्पांपैकी एक असलेले **ताडोबा अंधारी राष्ट्रीय उद्यान** महाराष्ट्राच्या कोणत्या जिल्ह्यात स्थित आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Amravati"
+        "text": "अमरावती"
       },
       {
         "id": 2,
-        "text": "Nagpur"
+        "text": "नागपूर"
       },
       {
         "id": 3,
-        "text": "Chandrapur"
+        "text": "चंद्रपूर"
       },
       {
         "id": 4,
-        "text": "Gondia"
+        "text": "गोंदिया"
       }
     ],
-    "CorrectAnswer": "Chandrapur",
-    "Explanation": "Tadoba Andhari Tiger Reserve is located in the Chandrapur district in the eastern part of Maharashtra (Vidarbha region).",
+    "CorrectAnswer": "चंद्रपूर",
+    "Explanation": "ताडोबा अंधारी व्याघ्र प्रकल्प महाराष्ट्राच्या पूर्वेकडील (विदर्भ प्रदेश) चंद्रपूर जिल्ह्यात स्थित आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The Indian subcontinent tapers southward, dividing the Indian Ocean into the Bay of Bengal and which other body of water?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारतीय उपखंड दक्षिणेकडे निमुळता होत जातो, ज्यामुळे हिंदी महासागराचे विभाजन बंगालचा उपसागर आणि अन्य कोणत्या जलसाठ्यात होते?",
     "Options": [
       {
         "id": 1,
-        "text": "Persian Gulf"
+        "text": "पर्शियन आखात"
       },
       {
         "id": 2,
-        "text": "Red Sea"
+        "text": "तांबडा समुद्र"
       },
       {
         "id": 3,
-        "text": "Arabian Sea"
+        "text": "अरबी समुद्र"
       },
       {
         "id": 4,
-        "text": "Laccadive Sea"
+        "text": "लक्षद्वीप समुद्र"
       }
     ],
-    "CorrectAnswer": "Arabian Sea",
-    "Explanation": "The peninsula of India is bounded by the Bay of Bengal to the east, the Arabian Sea to the west, and the Indian Ocean to the south.",
+    "CorrectAnswer": "अरबी समुद्र",
+    "Explanation": "भारताचा द्वीपकल्प पूर्वेला बंगालचा उपसागर, पश्चिमेला अरबी समुद्र आणि दक्षिणेला हिंदी महासागराने वेढलेला आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which region of Maharashtra, known for its arid climate, lies to the east of the Sahyadri mountains due to a rain shadow effect?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "सह्याद्री पर्वताच्या पूर्वेकडील, पर्जन्यछायेमुळे (rain shadow effect) शुष्क हवामान असलेला महाराष्ट्राचा कोणता प्रदेश आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Konkan"
+        "text": "कोकण"
       },
       {
         "id": 2,
-        "text": "Vidarbha"
+        "text": "विदर्भ"
       },
       {
         "id": 3,
-        "text": "Desh (Deccan Plateau interior)"
+        "text": "देश (दख्खन पठाराचा अंतर्गत भाग)"
       },
       {
         "id": 4,
-        "text": "Khandesh"
+        "text": "खानदेश"
       }
     ],
-    "CorrectAnswer": "Desh (Deccan Plateau interior)",
-    "Explanation": "The central Deccan Plateau (Desh), which includes cities like Pune and Ahmednagar, lies in the rain shadow region of the Western Ghats, resulting in a hot semi-arid climate.",
+    "CorrectAnswer": "देश (दख्खन पठाराचा अंतर्गत भाग)",
+    "Explanation": "मध्य दख्खन पठार (देश), ज्यात पुणे आणि अहमदनगरसारख्या शहरांचा समावेश आहे, तो पश्चिम घाटाच्या पर्जन्यछायेच्या प्रदेशात येतो, ज्यामुळे येथे उष्ण अर्ध-शुष्क हवामान आढळते.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which of the following passes connects Manali and Leh by road and cuts across the Pir Panjal range?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "खालीलपैकी कोणता घाटमार्ग (pass) मनाली आणि लेहला रस्त्याने जोडतो आणि पीर पंजाल पर्वतरांगेतून जातो?",
     "Options": [
       {
         "id": 1,
-        "text": "Nathula Pass"
+        "text": "नाथुला घाट"
       },
       {
         "id": 2,
-        "text": "Zoji La Pass"
+        "text": "झोजि ला घाट"
       },
       {
         "id": 3,
-        "text": "Rohtang Pass"
+        "text": "रोहतांग घाट"
       },
       {
         "id": 4,
-        "text": "Mana Pass"
+        "text": "माणा घाट"
       }
     ],
-    "CorrectAnswer": "Rohtang Pass",
-    "Explanation": "The Rohtang Pass, now bypassed by the Atal Tunnel, is the historically famous pass that connects the Kullu Valley with the Lahaul and Spiti Valleys, leading towards Leh.",
+    "CorrectAnswer": "रोहतांग घाट",
+    "Explanation": "रोहतांग घाट, ज्याला आता अटल बोगद्याने वगळले आहे, हा ऐतिहासिकदृष्ट्या प्रसिद्ध घाटमार्ग आहे जो कुल्लू दरीला लाहौल आणि स्पिती दऱ्यांशी जोडून लेहकडे जातो.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The city of **Nagpur** in Maharashtra is often referred to as the:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्रातील **नागपूर** शहराला अनेकदा काय म्हणून संबोधले जाते?",
     "Options": [
       {
         "id": 1,
-        "text": "Queen of Deccan"
+        "text": "दख्खनची राणी"
       },
       {
         "id": 2,
-        "text": "City of Wrestlers"
+        "text": "पैलवानांचे शहर"
       },
       {
         "id": 3,
-        "text": "Orange City"
+        "text": "ऑरेंज सिटी (संत्रा नगरी)"
       },
       {
         "id": 4,
-        "text": "City of Seven Islands"
+        "text": "सात बेटांचे शहर"
       }
     ],
-    "CorrectAnswer": "Orange City",
-    "Explanation": "Nagpur is famously known as the Orange City due to its status as a major trade center for oranges grown in the region.",
+    "CorrectAnswer": "ऑरेंज सिटी (संत्रा नगरी)",
+    "Explanation": "नागपूर हे या प्रदेशात पिकणाऱ्या संत्र्यांसाठी एक प्रमुख व्यापार केंद्र असल्यामुळे ते 'ऑरेंज सिटी' (संत्रा नगरी) म्हणून प्रसिद्ध आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which state of India is the largest producer of **Bauxite**, the primary ore of Aluminum?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "ॲल्युमिनियमचे प्राथमिक धातुक (ore) असलेल्या **बॉक्साईट**चा सर्वात मोठा उत्पादक भारतीय राज्य कोणते आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Jharkhand"
+        "text": "झारखंड"
       },
       {
         "id": 2,
-        "text": "Odisha"
+        "text": "ओडिशा"
       },
       {
         "id": 3,
-        "text": "Gujarat"
+        "text": "गुजरात"
       },
       {
         "id": 4,
-        "text": "Maharashtra"
+        "text": "महाराष्ट्र"
       }
     ],
-    "CorrectAnswer": "Odisha",
-    "Explanation": "Odisha accounts for more than 50% of India's bauxite resources and is consistently the largest bauxite-producing state.",
+    "CorrectAnswer": "ओडिशा",
+    "Explanation": "ओडिशा हे भारतातील ५०% पेक्षा जास्त बॉक्साईट साठ्यासाठी जबाबदार आहे आणि ते सातत्याने सर्वात मोठे बॉक्साईट उत्पादक राज्य आहे.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Ujani Dam**, one of the largest in Maharashtra by capacity, is built on which river?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्रातील क्षमतेनुसार सर्वात मोठ्या धरणांपैकी एक असलेले **उजनी धरण** कोणत्या नदीवर बांधले आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Koyna River"
+        "text": "कोयना नदी"
       },
       {
         "id": 2,
-        "text": "Bhima River"
+        "text": "भीमा नदी"
       },
       {
         "id": 3,
-        "text": "Godavari River"
+        "text": "गोदावरी नदी"
       },
       {
         "id": 4,
-        "text": "Krishna River"
+        "text": "कृष्णा नदी"
       }
     ],
-    "CorrectAnswer": "Bhima River",
-    "Explanation": "The Ujani Dam is located on the Bhima River near Ujani village in the Solapur district of Maharashtra.",
+    "CorrectAnswer": "भीमा नदी",
+    "Explanation": "उजनी धरण महाराष्ट्रातील सोलापूर जिल्ह्यातील उजनी गावाजवळ भीमा नदीवर स्थित आहे.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which two states are connected by the **Palghat Gap** (Palakkad Gap), a major break in the Western Ghats?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "पश्चिम घाटातील एक प्रमुख खिंड (break) असलेला **पालघाट खिंड** (पालक्काड खिंड) कोणत्या दोन राज्यांना जोडते?",
     "Options": [
       {
         "id": 1,
-        "text": "Maharashtra and Goa"
+        "text": "महाराष्ट्र आणि गोवा"
       },
       {
         "id": 2,
-        "text": "Goa and Karnataka"
+        "text": "गोवा आणि कर्नाटक"
       },
       {
         "id": 3,
-        "text": "Kerala and Tamil Nadu"
+        "text": "केरळ आणि तमिळनाडू"
       },
       {
         "id": 4,
-        "text": "Karnataka and Kerala"
+        "text": "कर्नाटक आणि केरळ"
       }
     ],
-    "CorrectAnswer": "Kerala and Tamil Nadu",
-    "Explanation": "The Palghat Gap is a low mountain pass that connects Palakkad in Kerala with Coimbatore in Tamil Nadu.",
+    "CorrectAnswer": "केरळ आणि तमिळनाडू",
+    "Explanation": "पालघाट खिंड हा एक कमी उंचीचा डोंगरी मार्ग आहे जो केरळमधील पालक्काडला तमिळनाडूमधील कोईम्बतूरशी जोडतो.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which administrative region of Maharashtra was historically part of the princely state of Hyderabad until 1956?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्राचा कोणता प्रशासकीय प्रदेश १९५६ पर्यंत ऐतिहासिकदृष्ट्या हैदराबाद संस्थानाचा भाग होता?",
     "Options": [
       {
         "id": 1,
-        "text": "Vidarbha"
+        "text": "विदर्भ"
       },
       {
         "id": 2,
-        "text": "Khandesh"
+        "text": "खानदेश"
       },
       {
         "id": 3,
-        "text": "Konkan"
+        "text": "कोकण"
       },
       {
         "id": 4,
-        "text": "Marathwada"
+        "text": "मराठवाडा"
       }
     ],
-    "CorrectAnswer": "Marathwada",
-    "Explanation": "The Marathwada region, including districts like Aurangabad and Nanded, was historically part of the Nizam's Dominions (Hyderabad State) until it was integrated into Bombay State in 1956.",
+    "CorrectAnswer": "मराठवाडा",
+    "Explanation": "औरंगाबाद आणि नांदेडसारख्या जिल्ह्यांचा समावेश असलेला मराठवाडा प्रदेश, १९५६ मध्ये मुंबई राज्यात विलीन होईपर्यंत ऐतिहासिकदृष्ट्या निजामाच्या राजवटीचा (हैदराबाद राज्य) भाग होता.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 4,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The Indian islands of **Lakshadweep** are primarily classified as which type of island based on their formation?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारतीय **लक्षद्वीप** बेटे, त्यांच्या निर्मितीनुसार प्रामुख्याने कोणत्या प्रकारची बेटे म्हणून वर्गीकृत केली जातात?",
     "Options": [
       {
         "id": 1,
-        "text": "Volcanic islands"
+        "text": "ज्वालामुखी बेटे"
       },
       {
         "id": 2,
-        "text": "Continental islands"
+        "text": "खंडीय बेटे"
       },
       {
         "id": 3,
-        "text": "Coral islands (Atolls)"
+        "text": "प्रवाळ बेटे (अटोल)"
       },
       {
         "id": 4,
-        "text": "Tectonic islands"
+        "text": "टेक्टोनिक बेटे"
       }
     ],
-    "CorrectAnswer": "Coral islands (Atolls)",
-    "Explanation": "The Lakshadweep islands in the Arabian Sea are coral atolls, built up over time by the accumulation of corals.",
+    "CorrectAnswer": "प्रवाळ बेटे (अटोल)",
+    "Explanation": "अरबी समुद्रातील लक्षद्वीप बेटे ही प्रवाळ अटोल आहेत, जी वेळोवेळी प्रवाळांच्या संचयामुळे तयार झाली आहेत.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "What is the collective local name for the hills that form the natural northern boundary of Maharashtra, including the Gavilgad and Akrani hills?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "गावीलगड आणि अक्राणी टेकड्यांचा समावेश असलेल्या, महाराष्ट्राची नैसर्गिक उत्तर सीमा बनवणाऱ्या टेकड्यांचे सामूहिक स्थानिक नाव काय आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Aravalli Range"
+        "text": "अरवली पर्वतरांग"
       },
       {
         "id": 2,
-        "text": "Satpura Range"
+        "text": "सातपुडा पर्वतरांग"
       },
       {
         "id": 3,
-        "text": "Harishchandra Range"
+        "text": "हरिश्चंद्र पर्वतरांग"
       },
       {
         "id": 4,
-        "text": "Shambhu Mahadev Range"
+        "text": "शंभू महादेव पर्वतरांग"
       }
     ],
-    "CorrectAnswer": "Satpura Range",
-    "Explanation": "The Satpura Range and its associated hill ranges like Gavilgad and Akrani form the natural northern boundary of Maharashtra, separating it from the Narmada-Tapi plains.",
+    "CorrectAnswer": "सातपुडा पर्वतरांग",
+    "Explanation": "सातपुडा पर्वतरांग आणि त्यासंबंधीच्या गावीलगड आणि अक्राणीसारख्या टेकड्या महाराष्ट्राची नैसर्गिक उत्तर सीमा बनवतात, ज्यामुळे ते नर्मदा-तापी मैदानापासून वेगळे होते.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which type of soil is most widely spread across the Deccan Plateau of India, including a large part of Maharashtra, and is known for its ability to retain moisture?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारतातील दख्खन पठाराच्या (महाराष्ट्राचा मोठा भाग समाविष्ट) विस्तीर्ण भागावर कोणत्या प्रकारची माती सर्वाधिक पसरलेली आहे आणि ती ओलावा टिकवून ठेवण्याच्या क्षमतेसाठी ओळखली जाते?",
     "Options": [
       {
         "id": 1,
-        "text": "Alluvial Soil"
+        "text": "गाळाची माती (Alluvial Soil)"
       },
       {
         "id": 2,
-        "text": "Red and Yellow Soil"
+        "text": "लाल आणि पिवळी माती"
       },
       {
         "id": 3,
-        "text": "Laterite Soil"
+        "text": "जांभी माती (Laterite Soil)"
       },
       {
         "id": 4,
-        "text": "Black Soil (Regur)"
+        "text": "काळी माती (रेगूर)"
       }
     ],
-    "CorrectAnswer": "Black Soil (Regur)",
-    "Explanation": "Black soil, or Regur, is typical of the Deccan Trap region, rich in clay, and is highly moisture-retentive, making it ideal for cotton cultivation.",
+    "CorrectAnswer": "काळी माती (रेगूर)",
+    "Explanation": "काळी माती किंवा रेगूर, दख्खन ट्रॅप प्रदेशासाठी वैशिष्ट्यपूर्ण आहे. ती चिकणमातीमध्ये समृद्ध असून जास्त ओलावा टिकवून ठेवणारी आहे, ज्यामुळे ती कापूस लागवडीसाठी आदर्श आहे.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 4,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which one of the following is the state with which Maharashtra shares the shortest border?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "खालीलपैकी कोणते राज्य आहे, ज्याच्याशी महाराष्ट्राची सर्वात कमी सीमा (border) जोडलेली आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Gujarat"
+        "text": "गुजरात"
       },
       {
         "id": 2,
-        "text": "Goa"
+        "text": "गोवा"
       },
       {
         "id": 3,
-        "text": "Telangana"
+        "text": "तेलंगणा"
       },
       {
         "id": 4,
-        "text": "Chhattisgarh"
+        "text": "छत्तीसगड"
       }
     ],
-    "CorrectAnswer": "Goa",
-    "Explanation": "Maharashtra shares its shortest land border with the state of Goa in the south-west.",
+    "CorrectAnswer": "गोवा",
+    "Explanation": "महाराष्ट्राची सर्वात लहान जमीन सीमा नैऋत्येस गोवा राज्याशी जोडलेली आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Sivasamudram Falls**, one of the oldest hydroelectric power stations in Asia, is located on which river?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "आशियातील सर्वात जुन्या जलविद्युत केंद्रांपैकी एक असलेले **शिवसमुद्रम धबधबा** कोणत्या नदीवर स्थित आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Krishna River"
+        "text": "कृष्णा नदी"
       },
       {
         "id": 2,
-        "text": "Godavari River"
+        "text": "गोदावरी नदी"
       },
       {
         "id": 3,
-        "text": "Kaveri River"
+        "text": "कावेरी नदी"
       },
       {
         "id": 4,
-        "text": "Sharavathi River"
+        "text": "शरावती नदी"
       }
     ],
-    "CorrectAnswer": "Kaveri River",
-    "Explanation": "The Sivasamudram Falls and the associated power station are located on the Kaveri River in Karnataka.",
+    "CorrectAnswer": "कावेरी नदी",
+    "Explanation": "शिवसमुद्रम धबधबा आणि त्या संबंधित ऊर्जा केंद्र कर्नाटकातील कावेरी नदीवर स्थित आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "In Maharashtra, the month of **May** is usually the warmest, while the coldest month is typically:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्रामध्ये, **मे** महिना साधारणपणे सर्वात उष्ण असतो, तर सर्वात थंड महिना सामान्यतः कोणता असतो?",
     "Options": [
       {
         "id": 1,
-        "text": "October"
+        "text": "ऑक्टोबर"
       },
       {
         "id": 2,
-        "text": "February"
+        "text": "फेब्रुवारी"
       },
       {
         "id": 3,
-        "text": "January"
+        "text": "जानेवारी"
       },
       {
         "id": 4,
-        "text": "December"
+        "text": "डिसेंबर"
       }
     ],
-    "CorrectAnswer": "January",
-    "Explanation": "May marks the end of the summer season and is the warmest, while January is generally the coldest month of the year across Maharashtra.",
+    "CorrectAnswer": "जानेवारी",
+    "Explanation": "मे महिना उन्हाळी हंगामाचा शेवट दर्शवितो आणि तो सर्वात उष्ण असतो, तर जानेवारी हा महाराष्ट्रात वर्षातील सर्वात थंड महिना असतो.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The total surface area of India accounts for approximately what percentage of the world's total surface area?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारताचे एकूण पृष्ठभागाचे क्षेत्रफळ जगाच्या एकूण पृष्ठभागाच्या अंदाजे किती टक्के आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "1.8%"
+        "text": "१.८%"
       },
       {
         "id": 2,
-        "text": "2.4%"
+        "text": "२.४%"
       },
       {
         "id": 3,
-        "text": "3.2%"
+        "text": "३.२%"
       },
       {
         "id": 4,
-        "text": "4.5%"
+        "text": "४.५%"
       }
     ],
-    "CorrectAnswer": "2.4%",
-    "Explanation": "India's total geographical area is about 3.28 million square kilometers, which constitutes approximately 2.4% of the total land area of the world.",
+    "CorrectAnswer": "२.४%",
+    "Explanation": "भारताचे एकूण भौगोलिक क्षेत्रफळ सुमारे ३२.८ लाख चौरस किलोमीटर आहे, जे जगाच्या एकूण भूभागाच्या अंदाजे २.४% आहे.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which major river flows westward and forms an estuary before draining into the Arabian Sea on the border of Maharashtra and Gujarat?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "कोणती प्रमुख नदी पश्चिमेकडे वाहते आणि महाराष्ट्र आणि गुजरातच्या सीमेवर अरबी समुद्रात विलीन होण्यापूर्वी मुखाव्दारे (estuary) तयार करते?",
     "Options": [
       {
         "id": 1,
-        "text": "Narmada"
+        "text": "नर्मदा"
       },
       {
         "id": 2,
-        "text": "Godavari"
+        "text": "गोदावरी"
       },
       {
         "id": 3,
-        "text": "Tapi (Tapti)"
+        "text": "तापी"
       },
       {
         "id": 4,
-        "text": "Krishna"
+        "text": "कृष्णा"
       }
     ],
-    "CorrectAnswer": "Tapi (Tapti)",
-    "Explanation": "The Tapi/Tapti river flows through the states of Madhya Pradesh, Maharashtra, and Gujarat before emptying into the Gulf of Khambhat (Arabian Sea).",
+    "CorrectAnswer": "तापी",
+    "Explanation": "तापी नदी मध्य प्रदेश, महाराष्ट्र आणि गुजरात या राज्यांमधून वाहते आणि खंभातच्या आखातात (अरबी समुद्र) विलीन होण्यापूर्वी मुखाव्दारे (estuary) तयार करते.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Meghalaya Plateau** is separated from the main block of the Peninsular Plateau by which fault or gap?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "**मेघालय पठार** द्वीपकल्पीय पठाराच्या मुख्य भागापासून कोणत्या विभंगामुळे (fault) किंवा खिंडीमुळे वेगळे झाले आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Palghat Gap"
+        "text": "पालघाट खिंड"
       },
       {
         "id": 2,
-        "text": "Great Boundary Fault"
+        "text": "ग्रेट बाउंड्री फॉल्ट"
       },
       {
         "id": 3,
-        "text": "Malda Gap (Garo-Rajmahal Gap)"
+        "text": "माल्दा खिंड (गारो-राजमहल खिंड)"
       },
       {
         "id": 4,
-        "text": "Narmada-Son Fault"
+        "text": "नर्मदा-सोन विभंग"
       }
     ],
-    "CorrectAnswer": "Malda Gap (Garo-Rajmahal Gap)",
-    "Explanation": "The Malda Gap, a down-faulted block, separates the Meghalaya Plateau from the Chota Nagpur Plateau in the Indian Peninsula.",
+    "CorrectAnswer": "माल्दा खिंड (गारो-राजमहल खिंड)",
+    "Explanation": "माल्दा खिंड, जो एक खाली खचलेला भाग आहे, तो भारतीय द्वीपकल्पातील मेघालय पठाराला छोटा नागपूर पठारापासून वेगळे करतो.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The regional name for the central plateau area of Maharashtra, lying to the east of the Sahyadris, is:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "सह्याद्रीच्या पूर्वेला असलेल्या महाराष्ट्राच्या मध्य पठारी भागाचे प्रादेशिक नाव काय आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Konkan"
+        "text": "कोकण"
       },
       {
         "id": 2,
-        "text": "Vidarbha"
+        "text": "विदर्भ"
       },
       {
         "id": 3,
-        "text": "Khandesh"
+        "text": "खानदेश"
       },
       {
         "id": 4,
-        "text": "Desh"
+        "text": "देश"
       }
     ],
-    "CorrectAnswer": "Desh",
-    "Explanation": "The 'Desh' region, meaning 'country' or 'interior', refers to the western part of the Deccan Plateau in Maharashtra, encompassing Pune, Satara, etc.",
+    "CorrectAnswer": "देश",
+    "Explanation": "'देश' प्रदेश, ज्याचा अर्थ 'देश' किंवा 'अंतर्गत भाग' आहे, तो महाराष्ट्रातील दख्खन पठाराच्या पश्चिम भागाला सूचित करतो, ज्यात पुणे, सातारा इत्यादींचा समावेश आहे.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 4,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which of the following cities in India is located on the banks of the Brahmaputra River?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "खालीलपैकी कोणते भारतीय शहर ब्रह्मपुत्रा नदीच्या काठी वसलेले आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Patna"
+        "text": "पाटणा"
       },
       {
         "id": 2,
-        "text": "Guwahati"
+        "text": "गुवाहाटी"
       },
       {
         "id": 3,
-        "text": "Varanasi"
+        "text": "वाराणसी"
       },
       {
         "id": 4,
-        "text": "Kolkata"
+        "text": "कोलकाता"
       }
     ],
-    "CorrectAnswer": "Guwahati",
-    "Explanation": "Guwahati, a major city in Assam, is situated on the south bank of the Brahmaputra River.",
+    "CorrectAnswer": "गुवाहाटी",
+    "Explanation": "आसाममधील गुवाहाटी हे एक प्रमुख शहर ब्रह्मपुत्रा नदीच्या दक्षिण किनारी स्थित आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The Harishchandra-Balaghat Hill Range in Maharashtra acts as a major watershed between the basins of which two rivers?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्रातील हरिश्चंद्र-बाळाघाट डोंगररांग कोणत्या दोन नद्यांच्या खोऱ्यांमध्ये प्रमुख जलविभाजक म्हणून कार्य करते?",
     "Options": [
       {
         "id": 1,
-        "text": "Godavari and Krishna"
+        "text": "गोदावरी आणि कृष्णा"
       },
       {
         "id": 2,
-        "text": "Tapi and Godavari"
+        "text": "तापी आणि गोदावरी"
       },
       {
         "id": 3,
-        "text": "Bhima and Krishna"
+        "text": "भीमा आणि कृष्णा"
       },
       {
         "id": 4,
-        "text": "Godavari and Bhima (tributary of Krishna)"
+        "text": "गोदावरी आणि भीमा (कृष्णेची उपनदी)"
       }
     ],
-    "CorrectAnswer": "Godavari and Bhima (tributary of Krishna)",
-    "Explanation": "The Harishchandra-Balaghat Range separates the Godavari basin in the north from the Bhima river basin (a major tributary of Krishna) in the south.",
+    "CorrectAnswer": "गोदावरी आणि भीमा (कृष्णेची उपनदी)",
+    "Explanation": "हरिश्चंद्र-बाळाघाट डोंगररांग उत्तरेकडील गोदावरी खोऱ्याला दक्षिणेकडील भीमा नदीच्या खोऱ्यापासून (कृष्णेची प्रमुख उपनदी) वेगळे करते.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 4,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which type of forest is the most widespread in India, shedding their leaves for about six to eight weeks in dry summer?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारतात सर्वाधिक प्रमाणात कोणते वन प्रकार आढळतो, जो उन्हाळ्यात सहा ते आठ आठवडे आपली पाने गाळतो?",
     "Options": [
       {
         "id": 1,
-        "text": "Tropical Evergreen Forests"
+        "text": "उष्णकटिबंधीय सदाहरित वने"
       },
       {
         "id": 2,
-        "text": "Tropical Deciduous Forests (Monsoon Forests)"
+        "text": "उष्णकटिबंधीय पानझडी वने (मान्सून वने)"
       },
       {
         "id": 3,
-        "text": "Montane Forests"
+        "text": "पर्वतीय वने"
       },
       {
         "id": 4,
-        "text": "Mangrove Forests"
+        "text": "खारफुटीची वने"
       }
     ],
-    "CorrectAnswer": "Tropical Deciduous Forests (Monsoon Forests)",
-    "Explanation": "Tropical Deciduous Forests, also called Monsoon Forests, cover the largest area in India and are characterized by trees that shed their leaves in the dry season.",
+    "CorrectAnswer": "उष्णकटिबंधीय पानझडी वने (मान्सून वने)",
+    "Explanation": "उष्णकटिबंधीय पानझडी वने, ज्यांना मान्सून वने देखील म्हणतात, भारतातील सर्वात मोठा भूभाग व्यापतात आणि त्यांची विशेषता म्हणजे यातील झाडे उन्हाळ्यात आपली पाने गाळतात.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which district of Maharashtra has the largest area under **Rabi** crops, according to recent agricultural data?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "अलीकडील कृषी आकडेवारीनुसार, महाराष्ट्रातील कोणत्या जिल्ह्यात **रब्बी** पिकांखालील क्षेत्र सर्वाधिक आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Akola"
+        "text": "अकोला"
       },
       {
         "id": 2,
-        "text": "Sindhudurg"
+        "text": "सिंधुदुर्ग"
       },
       {
         "id": 3,
-        "text": "Kolhapur"
+        "text": "कोल्हापूर"
       },
       {
         "id": 4,
-        "text": "Jalgaon"
+        "text": "जळगाव"
       }
     ],
-    "CorrectAnswer": "Kolhapur",
-    "Explanation": "Kolhapur district in Western Maharashtra is known for a large area dedicated to Rabi (winter) crops, particularly sugarcane and jowar.",
+    "CorrectAnswer": "कोल्हापूर",
+    "Explanation": "पश्चिम महाराष्ट्रातील कोल्हापूर जिल्हा रब्बी (हिवाळी) पिकांसाठी, विशेषतः ऊस आणि ज्वारीसाठी मोठ्या क्षेत्रासाठी ओळखला जातो.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Standard Meridian of India**, 82°30′ E, passes through which of the following cities?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारताची **प्रमाण रेखांश** (Standard Meridian), ८२°३०' पूर्व, खालीलपैकी कोणत्या शहरातून जाते?",
     "Options": [
       {
         "id": 1,
-        "text": "Bhopal"
+        "text": "भोपाळ"
       },
       {
         "id": 2,
-        "text": "Kolkata"
+        "text": "कोलकाता"
       },
       {
         "id": 3,
-        "text": "Allahabad (Prayagraj)"
+        "text": "अलाहाबाद (प्रयागराज)"
       },
       {
         "id": 4,
-        "text": "Mumbai"
+        "text": "मुंबई"
       }
     ],
-    "CorrectAnswer": "Allahabad (Prayagraj)",
-    "Explanation": "India's Standard Meridian passes through the city of Mirzapur, near Allahabad (now Prayagraj), providing the standard time for the entire country.",
+    "CorrectAnswer": "अलाहाबाद (प्रयागराज)",
+    "Explanation": "भारताची प्रमाण रेखांश (Standard Meridian) अलाहाबाद (आता प्रयागराज) जवळच्या मिर्झापूर शहरातून जाते आणि संपूर्ण देशासाठी प्रमाण वेळ प्रदान करते.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The phenomenon in India's demographic history when the population growth rate experienced a sharp decline, shifting from positive to negative, occurred around the year:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारताच्या लोकसंख्याशास्त्रीय इतिहासातील अशी घटना जेव्हा लोकसंख्या वाढीचा दर सकारात्मक वरून नकारात्मक झाला, तेव्हा तो कोणत्या वर्षाच्या आसपास घडला?",
     "Options": [
       {
         "id": 1,
-        "text": "1901"
+        "text": "१९०१"
       },
       {
         "id": 2,
-        "text": "1921"
+        "text": "१९२१"
       },
       {
         "id": 3,
-        "text": "1941"
+        "text": "१९४१"
       },
       {
         "id": 4,
-        "text": "1951"
+        "text": "१९५१"
       }
     ],
-    "CorrectAnswer": "1921",
-    "Explanation": "The year 1921 is known as the 'Year of Great Divide' in India's demographic history because it marked the first time the country's population growth rate showed a decline instead of a steady increase.",
+    "CorrectAnswer": "१९२१",
+    "Explanation": "१९२१ हे वर्ष भारताच्या लोकसंख्याशास्त्रीय इतिहासातील 'ग्रेट डिवाइडचे वर्ष' म्हणून ओळखले जाते, कारण यावेळी देशाच्या लोकसंख्या वाढीचा दर स्थिर वाढीऐवजी प्रथमच घटलेला दिसून आला.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "human"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Khandesh** region of Maharashtra is geographically located in the valley of which two main rivers?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्राचा **खानदेश** प्रदेश भौगोलिकदृष्ट्या कोणत्या दोन मुख्य नद्यांच्या खोऱ्यात स्थित आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Godavari and Krishna"
+        "text": "गोदावरी आणि कृष्णा"
       },
       {
         "id": 2,
-        "text": "Tapi and Purna"
+        "text": "तापी आणि पूर्णा"
       },
       {
         "id": 3,
-        "text": "Bhima and Godavari"
+        "text": "भीमा आणि गोदावरी"
       },
       {
         "id": 4,
-        "text": "Wardha and Wainganga"
+        "text": "वर्धा आणि वैनगंगा"
       }
     ],
-    "CorrectAnswer": "Tapi and Purna",
-    "Explanation": "Khandesh is the northern region of Maharashtra, lying mainly in the valley of the Tapi River and its major tributary, the Purna River.",
+    "CorrectAnswer": "तापी आणि पूर्णा",
+    "Explanation": "खानदेश हा महाराष्ट्राचा उत्तरेकडील प्रदेश आहे, जो प्रामुख्याने तापी नदी आणि तिची प्रमुख उपनदी पूर्णा नदी यांच्या खोऱ्यात स्थित आहे.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which of the following crops needs the maximum amount of water per hectare for cultivation in India?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारतात लागवडीसाठी प्रति हेक्टर सर्वाधिक पाण्याची आवश्यकता कोणत्या पिकाला असते?",
     "Options": [
       {
         "id": 1,
-        "text": "Wheat"
+        "text": "गहू"
       },
       {
         "id": 2,
-        "text": "Maize"
+        "text": "मका"
       },
       {
         "id": 3,
-        "text": "Barley"
+        "text": "ज्वारी"
       },
       {
         "id": 4,
-        "text": "Sugarcane"
+        "text": "ऊस"
       }
     ],
-    "CorrectAnswer": "Sugarcane",
-    "Explanation": "Sugarcane is a water-intensive crop, requiring a substantial amount of water throughout its long growing period, far more than most cereal crops.",
+    "CorrectAnswer": "ऊस",
+    "Explanation": "ऊस हे पाण्यावर अधिक अवलंबून असलेले पीक आहे, ज्याला त्याच्या लांब वाढीच्या काळात बहुतेक अन्नधान्य पिकांपेक्षा जास्त पाण्याची आवश्यकता असते.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 4,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The total geographical area of Maharashtra State is approximately:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्र राज्याचे एकूण भौगोलिक क्षेत्रफळ अंदाजे किती आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "2,07,713 sq. km"
+        "text": "२,०७,७१३ चौ. किमी"
       },
       {
         "id": 2,
-        "text": "3,07,713 sq. km"
+        "text": "३,०७,७१३ चौ. किमी"
       },
       {
         "id": 3,
-        "text": "3,57,713 sq. km"
+        "text": "३,५७,७१३ चौ. किमी"
       },
       {
         "id": 4,
-        "text": "4,07,713 sq. km"
+        "text": "४,०७,७१३ चौ. किमी"
       }
     ],
-    "CorrectAnswer": "3,07,713 sq. km",
-    "Explanation": "Maharashtra is the third-largest state in India by area, covering $307,713$ square kilometers.",
+    "CorrectAnswer": "३,०७,७१३ चौ. किमी",
+    "Explanation": "महाराष्ट्र हे क्षेत्रफळाच्या दृष्टीने भारतातील तिसरे सर्वात मोठे राज्य आहे, जे $३०७,७१३$ चौरस किलोमीटर व्यापते.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which of the following is the southernmost tip of the Indian mainland, located at 8° 4' North latitude?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "८° ४' उत्तर अक्षांशावर स्थित असलेले भारतीय मुख्य भूभागाचे सर्वात दक्षिणेकडील टोक कोणते आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Indira Point"
+        "text": "इंदिरा पॉइंट"
       },
       {
         "id": 2,
-        "text": "Kanyakumari"
+        "text": "कन्याकुमारी"
       },
       {
         "id": 3,
-        "text": "Rameswaram"
+        "text": "रामेश्वरम"
       },
       {
         "id": 4,
-        "text": "Point Calimere"
+        "text": "पॉइंट कॅलिमेरे"
       }
     ],
-    "CorrectAnswer": "Kanyakumari",
-    "Explanation": "Kanyakumari in Tamil Nadu is the southernmost point of the Indian mainland. Indira Point is the southernmost point of the entire Indian territory (in the Andaman & Nicobar Islands).",
+    "CorrectAnswer": "कन्याकुमारी",
+    "Explanation": "तमिळनाडूमधील कन्याकुमारी हे भारतीय मुख्य भूभागाचे सर्वात दक्षिणेकडील ठिकाण आहे. इंदिरा पॉइंट हे संपूर्ण भारतीय प्रदेशाचे (अंदमान आणि निकोबार बेटांमध्ये) सर्वात दक्षिणेकडील ठिकाण आहे.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which of the following districts of Maharashtra is considered the 'Tiger Capital' of India due to its concentration of tiger reserves?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्रातील कोणत्या जिल्ह्याला, व्याघ्र प्रकल्पांच्या एकाग्रतेमुळे, भारताची 'टायगर कॅपिटल' (वाघांची राजधानी) मानले जाते?",
     "Options": [
       {
         "id": 1,
-        "text": "Gadchiroli"
+        "text": "गडचिरोली"
       },
       {
         "id": 2,
-        "text": "Nagpur"
+        "text": "नागपूर"
       },
       {
         "id": 3,
-        "text": "Yavatmal"
+        "text": "यवतमाळ"
       },
       {
         "id": 4,
-        "text": "Satara"
+        "text": "सातारा"
       }
     ],
-    "CorrectAnswer": "Nagpur",
-    "Explanation": "Nagpur, and the surrounding Vidarbha region, is known as the 'Tiger Capital' because of its proximity to numerous tiger reserves like Pench, Tadoba, and Melghat.",
+    "CorrectAnswer": "नागपूर",
+    "Explanation": "नागपूर, आणि आजूबाजूचा विदर्भ प्रदेश, पेंच, ताडोबा आणि मेळघाट सारख्या अनेक व्याघ्र प्रकल्पांच्या सान्निध्यामुळे 'टायगर कॅपिटल' म्हणून ओळखला जातो.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The highest mountain peak in undisputed Indian territory is:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारताच्या अखंडित प्रदेशातील सर्वात उंच पर्वत शिखर कोणते आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Mount Everest"
+        "text": "माउंट एव्हरेस्ट"
       },
       {
         "id": 2,
-        "text": "Nanda Devi"
+        "text": "नंदा देवी"
       },
       {
         "id": 3,
-        "text": "Kanchenjunga"
+        "text": "कांचनगंगा"
       },
       {
         "id": 4,
-        "text": "K2 (Godwin Austen)"
+        "text": "के २ (गॉडविन ऑस्टेन)"
       }
     ],
-    "CorrectAnswer": "Kanchenjunga",
-    "Explanation": "Kanchenjunga is the highest peak fully or partially located within India that is not subject to a territorial dispute. K2 is higher but is located in Pakistan-occupied Kashmir.",
+    "CorrectAnswer": "कांचनगंगा",
+    "Explanation": "कांचनगंगा हे भारतातील (अखंडित) सर्वात उंच शिखर आहे जे कोणत्याही प्रादेशिक वादाच्या अधीन नाही. के २ हे उंच आहे, परंतु ते पाकव्याप्त काश्मीरमध्ये स्थित आहे.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Pattiseema Project** is a lift irrigation scheme associated with the integration of which two major South Indian rivers?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "**पट्टिसीमा प्रकल्प** ही कोणत्या दोन प्रमुख दक्षिण भारतीय नद्यांच्या एकत्रीकरणाशी संबंधित उपसा जलसिंचन योजना आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Krishna and Godavari"
+        "text": "कृष्णा आणि गोदावरी"
       },
       {
         "id": 2,
-        "text": "Kaveri and Krishna"
+        "text": "कावेरी आणि कृष्णा"
       },
       {
         "id": 3,
-        "text": "Narmada and Godavari"
+        "text": "नर्मदा आणि गोदावरी"
       },
       {
         "id": 4,
-        "text": "Mahanadi and Godavari"
+        "text": "महानदी आणि गोदावरी"
       }
     ],
-    "CorrectAnswer": "Krishna and Godavari",
-    "Explanation": "The Pattiseema Lift Irrigation Project links the Godavari River to the Krishna River, transferring water to the Krishna delta for irrigation.",
+    "CorrectAnswer": "कृष्णा आणि गोदावरी",
+    "Explanation": "पट्टिसीमा उपसा जलसिंचन प्रकल्प गोदावरी नदीला कृष्णा नदीशी जोडतो, ज्यामुळे सिंचनासाठी कृष्णा डेल्टाकडे पाणी हस्तांतरित होते.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 1,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The Konkan Coastal Plain in Maharashtra has a width that ranges from 30 km to 60 km, reaching a maximum width in the basin of which river?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्रातील कोकण किनारी मैदानाची रुंदी ३० किमी ते ६० किमी पर्यंत असून, ती कोणत्या नदीच्या खोऱ्यात कमाल रुंदी गाठते?",
     "Options": [
       {
         "id": 1,
-        "text": "Vashishthi"
+        "text": "वशिष्ठी"
       },
       {
         "id": 2,
-        "text": "Koyna"
+        "text": "कोयना"
       },
       {
         "id": 3,
-        "text": "Ulhas"
+        "text": "उल्हास"
       },
       {
         "id": 4,
-        "text": "Saviri"
+        "text": "सावित्री"
       }
     ],
-    "CorrectAnswer": "Ulhas",
-    "Explanation": "The Konkan Coast is narrow, but its width is maximum, reaching up to 100 km, in the basin of the Ulhas River, near Mumbai.",
+    "CorrectAnswer": "उल्हास",
+    "Explanation": "कोकण किनारपट्टी अरुंद आहे, परंतु मुंबईजवळील उल्हास नदीच्या खोऱ्यात तिची रुंदी जास्तीत जास्त १०० किमी पर्यंत पोहोचते.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which of the following is an active volcano located in the Indian territory, in the Andaman Sea?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "खालीलपैकी कोणता सक्रिय ज्वालामुखी (active volcano) भारतीय हद्दीत, अंदमान समुद्रात स्थित आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Narcondam Island"
+        "text": "नारकोंडम बेट"
       },
       {
         "id": 2,
-        "text": "Barren Island"
+        "text": "बॅरन बेट"
       },
       {
         "id": 3,
-        "text": "Mayabunder Island"
+        "text": "मायाबंदर बेट"
       },
       {
         "id": 4,
-        "text": "Little Andaman"
+        "text": "लिटल अंदमान"
       }
     ],
-    "CorrectAnswer": "Barren Island",
-    "Explanation": "Barren Island is the only confirmed active volcano in the Indian territory. Narcondam Island is an extinct volcano.",
+    "CorrectAnswer": "बॅरन बेट",
+    "Explanation": "बॅरन बेट हा भारतीय हद्दीतील एकमेव पुष्टी केलेला सक्रिय ज्वालामुखी आहे. नारकोंडम बेट हा एक निष्क्रिय ज्वालामुखी आहे.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The historical fort of **Ajinkyatara** is located in which district of Maharashtra?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्रातील ऐतिहासिक **अजिंक्यतारा किल्ला** कोणत्या जिल्ह्यात स्थित आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Raigad"
+        "text": "रायगड"
       },
       {
         "id": 2,
-        "text": "Pune"
+        "text": "पुणे"
       },
       {
         "id": 3,
-        "text": "Satara"
+        "text": "सातारा"
       },
       {
         "id": 4,
-        "text": "Kolhapur"
+        "text": "कोल्हापूर"
       }
     ],
-    "CorrectAnswer": "Satara",
-    "Explanation": "Ajinkyatara Fort is a major historical landmark located on a mountain in the Satara district of Maharashtra.",
+    "CorrectAnswer": "सातारा",
+    "Explanation": "अजिंक्यतारा किल्ला महाराष्ट्रातील सातारा जिल्ह्यातील एका पर्वतावर स्थित असलेले एक प्रमुख ऐतिहासिक स्थळ आहे.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Yarlung Zangbo River** is known by which name when it enters India in Arunachal Pradesh?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "**यारलुंग झांगबो नदी** भारतात अरुणाचल प्रदेशात प्रवेश करते तेव्हा तिला कोणत्या नावाने ओळखले जाते?",
     "Options": [
       {
         "id": 1,
-        "text": "Ganga"
+        "text": "गंगा"
       },
       {
         "id": 2,
-        "text": "Indus"
+        "text": "सिंधू"
       },
       {
         "id": 3,
-        "text": "Brahmaputra"
+        "text": "ब्रह्मपुत्रा"
       },
       {
         "id": 4,
-        "text": "Mahanadi"
+        "text": "महानदी"
       }
     ],
-    "CorrectAnswer": "Brahmaputra",
-    "Explanation": "The Yarlung Zangbo flows eastward through Tibet and is known as the Brahmaputra once it enters India through the state of Arunachal Pradesh.",
+    "CorrectAnswer": "ब्रह्मपुत्रा",
+    "Explanation": "यारलुंग झांगबो नदी तिबेटमधून पूर्वेकडे वाहते आणि अरुणाचल प्रदेश राज्यातून भारतात प्रवेश केल्यानंतर तिला ब्रह्मपुत्रा म्हणून ओळखले जाते.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which of the following is NOT one of the six constituent states that shares a land border with Maharashtra?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "खालीलपैकी कोणते राज्य महाराष्ट्राच्या भूभागाशी सीमा जोडणाऱ्या सहा राज्यांपैकी एक नाही?",
     "Options": [
       {
         "id": 1,
-        "text": "Telangana"
+        "text": "तेलंगणा"
       },
       {
         "id": 2,
-        "text": "Andhra Pradesh"
+        "text": "आंध्र प्रदेश"
       },
       {
         "id": 3,
-        "text": "Karnataka"
+        "text": "कर्नाटक"
       },
       {
         "id": 4,
-        "text": "Gujarat"
+        "text": "गुजरात"
       }
     ],
-    "CorrectAnswer": "Andhra Pradesh",
-    "Explanation": "Maharashtra shares borders with Gujarat, Madhya Pradesh, Chhattisgarh, Telangana, Karnataka, and Goa. It does not directly border Andhra Pradesh.",
+    "CorrectAnswer": "आंध्र प्रदेश",
+    "Explanation": "महाराष्ट्राची सीमा गुजरात, मध्य प्रदेश, छत्तीसगड, तेलंगणा, कर्नाटक आणि गोवा या राज्यांशी जोडलेली आहे. ते थेट आंध्र प्रदेशला जोडलेले नाही.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The type of rainfall predominantly experienced in Maharashtra is:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्रामध्ये प्रामुख्याने कोणत्या प्रकारचा पाऊस अनुभवला जातो?",
     "Options": [
       {
         "id": 1,
-        "text": "Convectional"
+        "text": "अभिसरण पर्जन्य (Convectional)"
       },
       {
         "id": 2,
-        "text": "Cyclonic"
+        "text": "चक्रीवादळी पर्जन्य (Cyclonic)"
       },
       {
         "id": 3,
-        "text": "Orographic"
+        "text": "पर्वतजन्य पर्जन्य (Orographic)"
       },
       {
         "id": 4,
-        "text": "Frontal"
+        "text": "फ्रंटल पर्जन्य (Frontal)"
       }
     ],
-    "CorrectAnswer": "Orographic",
-    "Explanation": "The Western Ghats (Sahyadri) act as a barrier to the South-West Monsoon winds, forcing them to rise and cool, causing heavy orographic rainfall on the windward side (Konkan).",
+    "CorrectAnswer": "पर्वतजन्य पर्जन्य (Orographic)",
+    "Explanation": "पश्चिम घाट (सह्याद्री) नैऋत्य मान्सून वाऱ्यांसाठी अडथळा निर्माण करतो, ज्यामुळे ते वर चढण्यास आणि थंड होण्यास भाग पाडतात, परिणामी वाऱ्याच्या बाजूला (कोकण) जोरदार पर्वतजन्य पर्जन्य होते.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which soil is known for its 'self-ploughing' characteristic due to the development of cracks when dry, and is highly suitable for growing cotton?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "कोरडी झाल्यावर भेगा पडल्यामुळे 'स्वयं-नांगरणी' (self-ploughing) वैशिष्ट्यासाठी कोणती माती ओळखली जाते आणि कापूस पिकवण्यासाठी अत्यंत योग्य आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Alluvial Soil"
+        "text": "गाळाची माती (Alluvial Soil)"
       },
       {
         "id": 2,
-        "text": "Red Soil"
+        "text": "लाल माती"
       },
       {
         "id": 3,
-        "text": "Black Soil (Regur)"
+        "text": "काळी माती (रेगूर)"
       },
       {
         "id": 4,
-        "text": "Laterite Soil"
+        "text": "जांभी माती (Laterite Soil)"
       }
     ],
-    "CorrectAnswer": "Black Soil (Regur)",
-    "Explanation": "Black soil shrinks and develops wide cracks when dry, effectively ploughing itself, which is a key characteristic of its formation from basaltic lava.",
+    "CorrectAnswer": "काळी माती (रेगूर)",
+    "Explanation": "काळी माती कोरडी झाल्यावर संकुचित होते आणि रुंद भेगा विकसित करते, ज्यामुळे ती प्रभावीपणे स्वतःची नांगरणी करते, हे तिच्या बेसॉल्टिक लाव्हापासून निर्मितीचे मुख्य वैशिष्ट्य आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Melghat Wildlife Sanctuary**, a major tiger project, is located in which district of Maharashtra?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "एक प्रमुख व्याघ्र प्रकल्प असलेले **मेळघाट वन्यजीव अभयारण्य** महाराष्ट्राच्या कोणत्या जिल्ह्यात स्थित आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Gadchiroli"
+        "text": "गडचिरोली"
       },
       {
         "id": 2,
-        "text": "Amravati"
+        "text": "अमरावती"
       },
       {
         "id": 3,
-        "text": "Chandrapur"
+        "text": "चंद्रपूर"
       },
       {
         "id": 4,
-        "text": "Nanded"
+        "text": "नांदेड"
       }
     ],
-    "CorrectAnswer": "Amravati",
-    "Explanation": "Melghat Tiger Reserve is situated in the Satpura-Maikal range, encompassing parts of the Amravati district in the Vidarbha region.",
+    "CorrectAnswer": "अमरावती",
+    "Explanation": "मेळघाट व्याघ्र प्रकल्प सातपुडा-मैकल पर्वतरांगेत स्थित असून त्यात विदर्भ प्रदेशातील अमरावती जिल्ह्याचा काही भाग समाविष्ट आहे.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which of the following is a west-flowing river of Peninsular India that does NOT form a delta, but rather an estuary, before falling into the Arabian Sea?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "द्वीपकल्पीय भारतातील खालीलपैकी कोणती पश्चिमेकडे वाहणारी नदी अरबी समुद्रात विलीन होण्यापूर्वी त्रिभुज प्रदेश (delta) तयार करत नाही, तर मुखाव्दारे (estuary) तयार करते?",
     "Options": [
       {
         "id": 1,
-        "text": "Godavari"
+        "text": "गोदावरी"
       },
       {
         "id": 2,
-        "text": "Mahanadi"
+        "text": "महानदी"
       },
       {
         "id": 3,
-        "text": "Narmada"
+        "text": "नर्मदा"
       },
       {
         "id": 4,
-        "text": "Kaveri"
+        "text": "कावेरी"
       }
     ],
-    "CorrectAnswer": "Narmada",
-    "Explanation": "The Narmada and Tapi are the two major west-flowing rivers that flow through rift valleys and empty into the Arabian Sea by forming estuaries, unlike the major east-flowing rivers.",
+    "CorrectAnswer": "नर्मदा",
+    "Explanation": "नर्मदा आणि तापी या दोन प्रमुख पश्चिमेकडे वाहणाऱ्या नद्या आहेत ज्या विभंग दरीतून वाहतात आणि प्रमुख पूर्वेकडे वाहणाऱ्या नद्यांच्या विपरीत, मुखाव्दारे (estuaries) तयार करून अरबी समुद्रात विलीन होतात.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which geographical feature marks the northernmost extent of India's mainland latitude (excluding the islands)?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारताच्या मुख्य भूभागाच्या अक्षांशाचे सर्वात उत्तरेकडील विस्तार (बेटे वगळता) कोणत्या भौगोलिक वैशिष्ट्याने चिन्हांकित केले आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Indira Point"
+        "text": "इंदिरा पॉइंट"
       },
       {
         "id": 2,
-        "text": "Siachen Glacier"
+        "text": "सियाचीन ग्लेशियर"
       },
       {
         "id": 3,
-        "text": "Indira Col"
+        "text": "इंदिरा कॉल"
       },
       {
         "id": 4,
-        "text": "Kanyakumari"
+        "text": "कन्याकुमारी"
       }
     ],
-    "CorrectAnswer": "Indira Col",
-    "Explanation": "Indira Col (at 37°6' N) is the northernmost point of India's territory, located in the Siachen Muztagh in the Karakoram Range.",
+    "CorrectAnswer": "इंदिरा कॉल",
+    "Explanation": "इंदिरा कॉल (३७°६' उत्तर अक्षांशावर) हे भारतातील सर्वात उत्तरेकडील ठिकाण आहे, जे काराकोरम पर्वतरांगेतील सियाचीन मुझ्तागमध्ये स्थित आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Chota Nagpur Plateau** covers parts of which four Indian states?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "**छोटा नागपूर पठार** कोणत्या चार भारतीय राज्यांचा काही भाग व्यापतो?",
     "Options": [
       {
         "id": 1,
-        "text": "Bihar, Odisha, West Bengal, Assam"
+        "text": "बिहार, ओडिशा, पश्चिम बंगाल, आसाम"
       },
       {
         "id": 2,
-        "text": "Jharkhand, Chhattisgarh, West Bengal, Odisha"
+        "text": "झारखंड, छत्तीसगड, पश्चिम बंगाल, ओडिशा"
       },
       {
         "id": 3,
-        "text": "Madhya Pradesh, Chhattisgarh, Bihar, Jharkhand"
+        "text": "मध्य प्रदेश, छत्तीसगड, बिहार, झारखंड"
       },
       {
         "id": 4,
-        "text": "Jharkhand, Bihar, West Bengal, Andhra Pradesh"
+        "text": "झारखंड, बिहार, पश्चिम बंगाल, आंध्र प्रदेश"
       }
     ],
-    "CorrectAnswer": "Jharkhand, Chhattisgarh, West Bengal, Odisha",
-    "Explanation": "The Chota Nagpur Plateau predominantly covers most of Jharkhand, parts of Odisha, West Bengal, and Chhattisgarh, and is known for its mineral wealth.",
+    "CorrectAnswer": "झारखंड, छत्तीसगड, पश्चिम बंगाल, ओडिशा",
+    "Explanation": "छोटा नागपूर पठार प्रामुख्याने झारखंडचा बहुतेक भाग, तसेच ओडिशा, पश्चिम बंगाल आणि छत्तीसगडच्या काही भागांचा समावेश करतो आणि ते खनिज संपत्तीसाठी ओळखले जाते.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "What is the primary method of transportation used in the **Konkan** region of Maharashtra, especially for connecting interior areas?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्राच्या **कोकण** प्रदेशात, विशेषतः अंतर्गत भागांना जोडण्यासाठी वापरल्या जाणारे वाहतुकीचे प्राथमिक माध्यम कोणते आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Railways (Konkan Railway)"
+        "text": "रेल्वे (कोकण रेल्वे)"
       },
       {
         "id": 2,
-        "text": "Inland Waterways"
+        "text": "अंतर्देशीय जलमार्ग"
       },
       {
         "id": 3,
-        "text": "Roadways"
+        "text": "रस्ते वाहतूक"
       },
       {
         "id": 4,
-        "text": "Airways"
+        "text": "हवाई वाहतूक"
       }
     ],
-    "CorrectAnswer": "Roadways",
-    "Explanation": "Despite the existence of the Konkan Railway, the most common and dense network for connecting villages and interior areas of the rugged Konkan region is by road.",
+    "CorrectAnswer": "रस्ते वाहतूक",
+    "Explanation": "कोकण रेल्वे अस्तित्वात असूनही, खडबडीत कोकण प्रदेशातील गावे आणि अंतर्गत भाग जोडण्यासाठी सर्वात सामान्य आणि दाट नेटवर्क रस्ते वाहतुकीचे आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Jog Falls**, one of the highest plunge waterfalls in India, is located in which state?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारतातील सर्वात उंच धबधब्यांपैकी एक असलेला **जोग धबधबा** कोणत्या राज्यात स्थित आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Maharashtra"
+        "text": "महाराष्ट्र"
       },
       {
         "id": 2,
-        "text": "Kerala"
+        "text": "केरळ"
       },
       {
         "id": 3,
-        "text": "Karnataka"
+        "text": "कर्नाटक"
       },
       {
         "id": 4,
-        "text": "Tamil Nadu"
+        "text": "तमिळनाडू"
       }
     ],
-    "CorrectAnswer": "Karnataka",
-    "Explanation": "The Jog Falls are created by the Sharavathi River and are located in the Shivamogga district of Karnataka.",
+    "CorrectAnswer": "कर्नाटक",
+    "Explanation": "जोग धबधबा शरावती नदीमुळे तयार होतो आणि तो कर्नाटकातील शिवमोग्गा जिल्ह्यात स्थित आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The highest hill in the Satpura Mountain Range within the borders of Maharashtra is:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्राच्या सीमेतील सातपुडा पर्वतरांगेतील सर्वात उंच टेकडी कोणती आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Vairat Hill (Amravati)"
+        "text": "वैराट टेकडी (अमरावती)"
       },
       {
         "id": 2,
-        "text": "Astambha Hill (Nandurbar)"
+        "text": "अस्तंभा टेकडी (नंदुरबार)"
       },
       {
         "id": 3,
-        "text": "Salher Peak"
+        "text": "साल्हेर शिखर"
       },
       {
         "id": 4,
-        "text": "Kalsubai Peak"
+        "text": "कळसूबाई शिखर"
       }
     ],
-    "CorrectAnswer": "Astambha Hill (Nandurbar)",
-    "Explanation": "Astambha Hill, at 1,325m in the Nandurbar district, is the highest peak of the Satpura Range within Maharashtra's territory.",
+    "CorrectAnswer": "अस्तंभा टेकडी (नंदुरबार)",
+    "Explanation": "नंदुरबार जिल्ह्यातील १,३२५ मीटर उंचीवरील अस्तंभा टेकडी ही महाराष्ट्राच्या हद्दीतील सातपुडा पर्वतरांगेतील सर्वात उंच शिखर आहे.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Sorrow of Bihar** is a frequent description given to which major river known for its catastrophic seasonal floods?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "त्याच्या विनाशकारी हंगामी पुरांसाठी ओळखल्या जाणाऱ्या कोणत्या प्रमुख नदीला **'बिहारचे दुःख'** म्हणून वारंवार वर्णन केले जाते?",
     "Options": [
       {
         "id": 1,
-        "text": "Ganga"
+        "text": "गंगा"
       },
       {
         "id": 2,
-        "text": "Yamuna"
+        "text": "यमुना"
       },
       {
         "id": 3,
-        "text": "Kosi"
+        "text": "कोसी"
       },
       {
         "id": 4,
-        "text": "Damodar"
+        "text": "दामोदर"
       }
     ],
-    "CorrectAnswer": "Kosi",
-    "Explanation": "The Kosi River is famous for changing its course frequently and causing devastating annual floods in the northern plains of Bihar.",
+    "CorrectAnswer": "कोसी",
+    "Explanation": "कोसी नदी आपला प्रवाह वारंवार बदलण्यासाठी आणि बिहारच्या उत्तर मैदानी प्रदेशात विनाशकारी वार्षिक पूर आणण्यासाठी प्रसिद्ध आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which of the following cities in Maharashtra is geographically known as the **'Queen of the Deccan'** (Dakhan ki Rani)?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्रातील खालीलपैकी कोणते शहर भौगोलिकदृष्ट्या **'दख्खनची राणी'** (दख्खन की राणी) म्हणून ओळखले जाते?",
     "Options": [
       {
         "id": 1,
-        "text": "Mumbai"
+        "text": "मुंबई"
       },
       {
         "id": 2,
-        "text": "Nagpur"
+        "text": "नागपूर"
       },
       {
         "id": 3,
-        "text": "Pune"
+        "text": "पुणे"
       },
       {
         "id": 4,
-        "text": "Kolhapur"
+        "text": "कोल्हापूर"
       }
     ],
-    "CorrectAnswer": "Pune",
-    "Explanation": "Pune is famously referred to as the 'Queen of the Deccan' due to its strategic location, climate, and importance on the Deccan Plateau.",
+    "CorrectAnswer": "पुणे",
+    "Explanation": "पुणे शहर त्याच्या मोक्याच्या ठिकाणामुळे, हवामानामुळे आणि दख्खनच्या पठारावरील महत्त्वामुळे 'दख्खनची राणी' म्हणून प्रसिद्ध आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The most common and dominant type of Indian agriculture, aimed primarily at family consumption, is:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारतातील सर्वात सामान्य आणि प्रमुख शेतीचा प्रकार कोणता आहे, ज्याचा उद्देश प्रामुख्याने कुटुंबाच्या वापरासाठी असतो?",
     "Options": [
       {
         "id": 1,
-        "text": "Commercial agriculture"
+        "text": "व्यावसायिक शेती"
       },
       {
         "id": 2,
-        "text": "Plantation agriculture"
+        "text": "मळे शेती"
       },
       {
         "id": 3,
-        "text": "Subsistence agriculture"
+        "text": "निर्वाह शेती"
       },
       {
         "id": 4,
-        "text": "Extensive agriculture"
+        "text": "विस्तृत शेती"
       }
     ],
-    "CorrectAnswer": "Subsistence agriculture",
-    "Explanation": "Subsistence agriculture, where farming is done mainly to meet the needs of the farmer's family, is the predominant type across India.",
+    "CorrectAnswer": "निर्वाह शेती",
+    "Explanation": "निर्वाह शेती, जिथे शेती प्रामुख्याने शेतकऱ्याच्या कुटुंबाच्या गरजा पूर्ण करण्यासाठी केली जाते, हा भारतातील सर्वात प्रमुख प्रकार आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "How many districts does Maharashtra State currently have?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्र राज्यात सध्या किती जिल्हे आहेत?",
     "Options": [
       {
         "id": 1,
-        "text": "28"
+        "text": "२८"
       },
       {
         "id": 2,
-        "text": "32"
+        "text": "३२"
       },
       {
         "id": 3,
-        "text": "36"
+        "text": "३६"
       },
       {
         "id": 4,
-        "text": "40"
+        "text": "४०"
       }
     ],
-    "CorrectAnswer": "36",
-    "Explanation": "Maharashtra is administratively divided into 36 districts and 6 revenue divisions.",
+    "CorrectAnswer": "३६",
+    "Explanation": "महाराष्ट्राचे प्रशासकीयदृष्ट्या ३६ जिल्हे आणि ६ महसूल विभागांमध्ये विभाजन केले आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "In India, the railway network is relatively less dense in which of the following regions due to challenging terrain?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "कठीण भूभागामुळे भारतातील रेल्वे नेटवर्क खालीलपैकी कोणत्या प्रदेशात तुलनेने कमी दाट आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "North Indian Plains"
+        "text": "उत्तर भारतीय मैदान"
       },
       {
         "id": 2,
-        "text": "Coastal Regions"
+        "text": "किनारी प्रदेश"
       },
       {
         "id": 3,
-        "text": "Himalayan Region and North East"
+        "text": "हिमालयीन प्रदेश आणि ईशान्य भारत"
       },
       {
         "id": 4,
-        "text": "Deccan Plateau"
+        "text": "दख्खन पठार"
       }
     ],
-    "CorrectAnswer": "Himalayan Region and North East",
-    "Explanation": "The rugged topography, steep slopes, and thick forests in the Himalayan and North-Eastern states make railway construction difficult and less dense.",
+    "CorrectAnswer": "हिमालयीन प्रदेश आणि ईशान्य भारत",
+    "Explanation": "हिमालयीन आणि ईशान्येकडील राज्यांमध्ये खडबडीत भूभाग, तीव्र उतार आणि दाट जंगले असल्यामुळे रेल्वे बांधकाम करणे कठीण आणि कमी दाट आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Thar Desert**, the Great Indian Desert, is primarily located in which Indian state?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "भारतातील महान वाळवंट **थार वाळवंट** प्रामुख्याने कोणत्या भारतीय राज्यात स्थित आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Gujarat"
+        "text": "गुजरात"
       },
       {
         "id": 2,
-        "text": "Punjab"
+        "text": "पंजाब"
       },
       {
         "id": 3,
-        "text": "Rajasthan"
+        "text": "राजस्थान"
       },
       {
         "id": 4,
-        "text": "Haryana"
+        "text": "हरियाणा"
       }
     ],
-    "CorrectAnswer": "Rajasthan",
-    "Explanation": "A major portion of the Thar Desert, over $85, lies within the state of Rajasthan.",
+    "CorrectAnswer": "राजस्थान",
+    "Explanation": "थार वाळवंटाचा मोठा भाग, ८५% पेक्षा जास्त, राजस्थान राज्यात स्थित आहे.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which creek, located in the Raigad district of Maharashtra, is a key center for ferry and transport services in the Konkan region?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्रातील रायगड जिल्ह्यात असलेली कोणती खाडी कोकण प्रदेशातील फेरी (ferry) आणि वाहतूक सेवांसाठी एक महत्त्वाचे केंद्र आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "Dahanu Creek"
+        "text": "डहाणू खाडी"
       },
       {
         "id": 2,
-        "text": "Dharamtar Creek"
+        "text": "धरमतर खाडी"
       },
       {
         "id": 3,
-        "text": "Manori Creek"
+        "text": "मनोरी खाडी"
       },
       {
         "id": 4,
-        "text": "Vaitarna Creek"
+        "text": "वैतरणा खाडी"
       }
     ],
-    "CorrectAnswer": "Dharamtar Creek",
-    "Explanation": "Dharamtar Creek near Pen is a prominent creek in Raigad, used for water transport, connecting to Mumbai.",
+    "CorrectAnswer": "धरमतर खाडी",
+    "Explanation": "पेणजवळची धरमतर खाडी रायगडमधील एक प्रमुख खाडी आहे, जी जलवाहतुकीसाठी वापरली जाते आणि मुंबईशी जोडली जाते.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Mesosphere** layer of the atmosphere extends to a height of:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "वातावरणाचा **मेसोस्फियर** थर सुमारे किती उंचीपर्यंत पसरलेला आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "18 km"
+        "text": "१८ किमी"
       },
       {
         "id": 2,
-        "text": "50 km"
+        "text": "५० किमी"
       },
       {
         "id": 3,
-        "text": "80 km"
+        "text": "८० किमी"
       },
       {
         "id": 4,
-        "text": "400 km"
+        "text": "४०० किमी"
       }
     ],
-    "CorrectAnswer": "80 km",
-    "Explanation": "The mesosphere is the third layer of the atmosphere, extending from the stratopause at about 50 km up to the mesopause at approximately 80-85 km.",
+    "CorrectAnswer": "८० किमी",
+    "Explanation": "मेसोस्फियर हा वातावरणाचा तिसरा थर आहे, जो सुमारे ५० किमी उंचीवरील स्ट्रॅटोपॉजपासून अंदाजे ८०-८५ किमी उंचीवरील मेसोपॉजपर्यंत पसरलेला आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Elephanta Caves**, a UNESCO World Heritage Site in Maharashtra, are located in which part of the state?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्रातील युनेस्को जागतिक वारसा स्थळ असलेले **एलिफंटा लेणी** राज्याच्या कोणत्या भागात स्थित आहेत?",
     "Options": [
       {
         "id": 1,
-        "text": "Pune district"
+        "text": "पुणे जिल्ह्यात"
       },
       {
         "id": 2,
-        "text": "On an island near Mumbai"
+        "text": "मुंबईजवळच्या एका बेटावर"
       },
       {
         "id": 3,
-        "text": "Aurangabad district"
+        "text": "औरंगाबाद जिल्ह्यात"
       },
       {
         "id": 4,
-        "text": "Raigad district mainland"
+        "text": "रायगड जिल्ह्याच्या मुख्य भूभागावर"
       }
     ],
-    "CorrectAnswer": "On an island near Mumbai",
-    "Explanation": "The Elephanta Caves are located on Elephanta Island (Gharapuri Island) in the Mumbai Harbour, off the coast of Mumbai.",
+    "CorrectAnswer": "मुंबईजवळच्या एका बेटावर",
+    "Explanation": "एलिफंटा लेणी मुंबईच्या किनार्‍यापासून दूर असलेल्या मुंबई बंदरातील एलिफंटा बेटावर (घारापुरी बेट) स्थित आहेत.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The metallic minerals that occur as alluvial deposits in flood plains or valleys are known as:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "पूर मैदाने किंवा दऱ्यांमधील गाळाच्या साठ्यांमध्ये आढळणाऱ्या धातूच्या खनिजांना काय म्हणतात?",
     "Options": [
       {
         "id": 1,
-        "text": "Vein deposits"
+        "text": "शिरा निक्षेप (Vein deposits)"
       },
       {
         "id": 2,
-        "text": "Residual deposits"
+        "text": "अवशिष्ट निक्षेप (Residual deposits)"
       },
       {
         "id": 3,
-        "text": "Placer deposits"
+        "text": "प्लेसर निक्षेप (Placer deposits)"
       },
       {
         "id": 4,
-        "text": "Bulk deposits"
+        "text": "अखंड निक्षेप (Bulk deposits)"
       }
     ],
-    "CorrectAnswer": "Placer deposits",
-    "Explanation": "Placer deposits are concentrations of heavy, resistant minerals found in river beds or valleys, formed by the erosion and deposition of stream flow.",
+    "CorrectAnswer": "प्लेसर निक्षेप (Placer deposits)",
+    "Explanation": "प्लेसर निक्षेप हे नदीच्या पात्रात किंवा दऱ्यांमध्ये आढळणारे जड, प्रतिरोधक खनिजांचे साठे आहेत, जे प्रवाहाच्या धूप आणि निक्षेपणामुळे तयार होतात.",
     "Difficulty": "Hard",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 3,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "Which of the following cities in Maharashtra is known as the **'City of Wrestlers'** (Khasbag) due to its strong tradition in wrestling?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "महाराष्ट्रातील खालीलपैकी कोणते शहर कुस्तीच्या मजबूत परंपरेमुळे **'पैलवानांचे शहर'** (खासबाग) म्हणून ओळखले जाते?",
     "Options": [
       {
         "id": 1,
-        "text": "Pune"
+        "text": "पुणे"
       },
       {
         "id": 2,
-        "text": "Nashik"
+        "text": "नाशिक"
       },
       {
         "id": 3,
-        "text": "Satara"
+        "text": "सातारा"
       },
       {
         "id": 4,
-        "text": "Kolhapur"
+        "text": "कोल्हापूर"
       }
     ],
-    "CorrectAnswer": "Kolhapur",
-    "Explanation": "Kolhapur has a deep cultural history with wrestling and is home to the Khasbag Maidan, making it famously known as the City of Wrestlers.",
+    "CorrectAnswer": "कोल्हापूर",
+    "Explanation": "कोल्हापूरचा कुस्तीशी एक खोल सांस्कृतिक इतिहास आहे आणि येथे खासबाग मैदान असल्यामुळे ते 'पैलवानांचे शहर' म्हणून प्रसिद्ध आहे.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 4,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The two rivers whose waters are integrated by the **Pattiseema Project** are:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "**पट्टिसीमा प्रकल्पाद्वारे** कोणत्या दोन नद्यांचे पाणी एकत्रित केले जाते?",
     "Options": [
       {
         "id": 1,
-        "text": "Ganga and Yamuna"
+        "text": "गंगा आणि यमुना"
       },
       {
         "id": 2,
-        "text": "Krishna and Godavari"
+        "text": "कृष्णा आणि गोदावरी"
       },
       {
         "id": 3,
-        "text": "Tungabhadra and Krishna"
+        "text": "तुंगभद्रा आणि कृष्णा"
       },
       {
         "id": 4,
-        "text": "Pennar and Kaveri"
+        "text": "पेन्नार आणि कावेरी"
       }
     ],
-    "CorrectAnswer": "Krishna and Godavari",
-    "Explanation": "The Pattiseema Project in Andhra Pradesh connects the Godavari River with the Krishna River.",
+    "CorrectAnswer": "कृष्णा आणि गोदावरी",
+    "Explanation": "आंध्र प्रदेशातील पट्टिसीमा प्रकल्प गोदावरी नदीला कृष्णा नदीशी जोडतो.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "physical"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The **Troposphere** is the closest layer to the Earth's surface where which of the following phenomena occur?",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "**ट्रोपोस्फियर** हा पृथ्वीच्या पृष्ठभागापासून सर्वात जवळचा थर आहे, जिथे खालीलपैकी कोणती घटना घडते?",
     "Options": [
       {
         "id": 1,
-        "text": "Aurora Borealis"
+        "text": "ऑरोरा बोरियालिस (Aurora Borealis)"
       },
       {
         "id": 2,
-        "text": "Weather phenomena"
+        "text": "हवामानाची घटना"
       },
       {
         "id": 3,
-        "text": "Radio wave reflection"
+        "text": "रेडिओ तरंगांचे परावर्तन"
       },
       {
         "id": 4,
-        "text": "Ozone layer protection"
+        "text": "ओझोन थराचे संरक्षण"
       }
     ],
-    "CorrectAnswer": "Weather phenomena",
-    "Explanation": "The troposphere is the lowermost layer of the atmosphere, and almost all weather phenomena, such as clouds, rain, and storms, occur here.",
+    "CorrectAnswer": "हवामानाची घटना",
+    "Explanation": "ट्रोपोस्फियर हा वातावरणाचा सर्वात खालचा थर आहे आणि ढग, पाऊस आणि वादळ यांसारख्या जवळपास सर्व हवामानविषयक घटना येथे घडतात.",
     "Difficulty": "Medium",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
     "topic": "general"
   },
   {
-    "category": "Geography of India and Maharashtra",
-    "Question": "The longest north-south extent of India, from Indira Col in Kashmir to Kanyakumari, is approximately:",
+    "category": "भारत आणि महाराष्ट्राचे भूगोल",
+    "Question": "काश्मीरमधील इंदिरा कॉलपासून कन्याकुमारीपर्यंत भारताचा उत्तरेकडून-दक्षिणेकडील सर्वात लांब विस्तार अंदाजे किती आहे?",
     "Options": [
       {
         "id": 1,
-        "text": "2,933 km"
+        "text": "२,९३३ किमी"
       },
       {
         "id": 2,
-        "text": "3,214 km"
+        "text": "३,२१४ किमी"
       },
       {
         "id": 3,
-        "text": "3,400 km"
+        "text": "३,४०० किमी"
       },
       {
         "id": 4,
-        "text": "2,789 km"
+        "text": "२,७८९ किमी"
       }
     ],
-    "CorrectAnswer": "3,214 km",
-    "Explanation": "The North-South extent of India measures about 3,214 km, while the East-West width is 2,933 km.",
+    "CorrectAnswer": "३,२१४ किमी",
+    "Explanation": "भारताचा उत्तर-दक्षिण विस्तार सुमारे ३,२१४ किमी आहे, तर पूर्व-पश्चिम रुंदी २,९३३ किमी आहे.",
     "Difficulty": "Easy",
     "Job": "MPSC, Grade-B, Grade-C, SSC-CGL",
     "correctOption": 2,
